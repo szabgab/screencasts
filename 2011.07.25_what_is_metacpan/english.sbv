@@ -1,293 +1,291 @@
 0:00:01.709,0:00:06.160
-uh... that was the verdict i hope that
-there's going to be ensured zero i don't
+Hi, this is Gabor Szabo again. I hope that
+this is going to be a short video
 
 0:00:06.160,0:00:07.100
-think so
+I planned so.
 
 0:00:07.100,0:00:11.369
-uh... because only four of showing call
-it a few things working today
+This is only for showing how MetaCPAN
+is working. Today.
 
 0:00:11.369,0:00:13.359
-which is very
+Which became
 
 0:00:13.359,0:00:16.720
-pretty awesome sold it so that you are
-recovered a bit
+pretty awesome. This is the URL 
+where you can visit it 
 
 0:00:16.720,0:00:19.169
-or assisted up w conceiving
+or I switch to that tab 
+and you can see that 
 
 0:00:19.169,0:00:22.470
-want targeted it automatically jumps
-teresa d_p_s_
+once I visited it automatically jumps to HTTPS.
 
 0:00:22.470,0:00:25.819
-that it is just a search engine for
-details on their feet on the role of the
+Now this is just a search engine for
+the awesome CPAN 
 
 0:00:25.819,0:00:26.529
-parole
+where all the Perl stuff
 
 0:00:26.529,0:00:28.730
-stocks which have become the interesting
+can be found that's interesting.
 
 0:00:28.730,0:00:32.330
-so for example if they want to search
-for something for example for
+So for example if I want to search
+for something. 
 
 0:00:32.330,0:00:34.610
-template uh... uh...
+For example for template
 
 0:00:34.610,0:00:35.949
 it already gives me
 
 0:00:35.949,0:00:39.380
-uh... some suggestions here and i can
+some suggestions here and I can
 pick one of them
 
 0:00:39.380,0:00:43.149
-and uh... if you need me to jumps to one
+and it immediately jumps to one
 of the solutions
 
 0:00:43.149,0:00:44.440
-of their recommended
+one of the recommended
 
 0:00:44.440,0:00:47.940
-and what was what you can see here is
-the documentation of the mortal but the
+modules and what you can see here is
+the documentation of the module but
 
 0:00:47.940,0:00:51.080
-point where interesting at this
+what's more interesting is this icon.
 
 0:00:51.080,0:00:55.720
-that the taiko says that actually you
-can possible at each ward or simply
+That this icon says that actually you
+can +1 each module separately
 
 0:00:55.720,0:01:01.570
-click handed a specification concept
-that already two people have at cost it
+and this specific icon says
+that already two people have plus-ed it
 
 0:01:01.570,0:01:02.860
-uh... so
+so
 
 0:01:02.860,0:01:05.059
-uprooted from whatever that means
+approved it or whatever that means.
 
 0:01:05.059,0:01:09.200
-and uh... it's not because it sort of
-part of a biblical and ordered to people
+and it's nice because it alread (only) started a couple of
+days ago and 
 
 0:01:09.200,0:01:10.070
-here
+already two people here.
 
 0:01:10.070,0:01:14.670
-so how can i think click on that swamped
-if i click on it and some dot that i
+So how can I click on this one?
+If I click on it says, it tells me that I
 
 0:01:14.670,0:01:17.080
-have to sign up so how do i do that
+have to sign up. So how do I do that?
 
 0:01:17.080,0:01:18.490
-he reckons
+Here I can see 
 
 0:01:18.490,0:01:23.230
-that occupying upbeat and they'll be the
-counsel people who don't have the pose
+that I can signup with any of these accounts.
+So people who
 
 0:01:23.230,0:01:24.790
-account
+don't have a PAUSE account
 
 0:01:24.790,0:01:25.719
-sign up for you
+can sign up with
 
 0:01:25.719,0:01:30.109
-yahoo co gi publicly for and probably by
-the time your watching that this is a
+Facebook or github ot Twitter and probably by
+the time your watching at this video 
 
 0:01:30.109,0:01:35.929
-little you together and approach they
-are still at uh... driving spose because
+you'll see other networks there.
+So let's try with PAUSE
 
 0:01:35.929,0:01:37.650
-i am adult for here
+because I am an author there
 
 0:01:37.650,0:01:40.660
-and that's not a cure
+and I type here
 
 0:01:40.660,0:01:43.409
-they might handle at photos
+my handle at PAUSE
 
 0:01:43.409,0:01:48.060
-and i wanted aidid this it's up to the
-defense meat and email to my pose
+and once I  did this, it tells me that
+sent me an email to my PAUSE account
 
 0:01:48.060,0:01:50.940
-account to verify that it indeed me
+to verify that it's indeed me.
 
 0:01:50.940,0:01:55.219
-so they go to the state-owned and a
+So I go to this account and a
 
 0:01:55.219,0:01:59.950
-and give it my gmail account and here i
-think that there is a link am
+and here is my e-mail account and here I
+see that there is a link in
 
 0:01:59.950,0:02:06.570
-there are so computed the smallest here
-just to learn teaching depleting the
+there are so I copy paste this one
+just to be within the
 
 0:02:06.570,0:02:07.850
-taps
+tabs
 
 0:02:07.850,0:02:09.679
-and what i did this
+and one I did this
 
 0:02:09.679,0:02:11.669
-historically
+it already  fetched
 
 0:02:11.669,0:02:13.749
-coordinator for mario
+all the data from 
 
 0:02:13.749,0:02:17.849
-uh... autos didn't follow it if you
-don't have an open certify that all the
+my author.json file. 
+Now if you don't have an author.json file then
 
 0:02:17.849,0:02:22.069
-fields are going to be empty and then
-you can feel out all the because i think
+all these fields are going to be empty and then
+you can fill out all the details like
 
 0:02:22.069,0:02:27.829
-you name and adopting a whatever dot and
-you want to show up in the new email and
+your name and the ASCII name or whatever
+you want to show up and then your email and
 
 0:02:27.829,0:02:28.679
-all of you
+all these details
 
 0:02:28.679,0:02:33.889
-that'd be against it or decide to my my
-picture marta avatar
+it already fetched my
+picture my avatar
 
 0:02:33.889,0:02:34.479
 uh...
 
 0:02:34.479,0:02:36.789
-from the graft or reply
+from the gravtar website
 
 0:02:36.789,0:02:40.579
-and uh... then you can ensure that the
-country
+and ... then you can add various 
+accounts here
 
 0:02:40.579,0:02:43.340
-so you can contact it to your accountant
+so you can contact it to your accounts
 
 0:02:43.340,0:02:48.520
-you can actually check better you talk
-to type came uh... actually maps to
+you can actually check wether what you 
+typed in ... actually maps to
 
 0:02:48.520,0:02:50.909
-rightfully
+the right place so
 
 0:02:50.909,0:02:52.900
-what i call to character s
+once I configured this
 
 0:02:52.900,0:02:57.449
-and i can come here or and also connect
-superiors
+I can come here and also connect to
+various
 
 0:02:57.449,0:03:00.509
-yeah i don't think you know i ordered
-there have been
+identities. Now I alread have been
 
 0:03:00.509,0:03:05.189
-inhaled and already connected to each
-one of the day accounts argues nichols
+logged in and already connected to each
+one of the these accounts. Obviously PAUSE
 
 0:03:05.189,0:03:07.330
-was collected by their find out
+was connected by the sign-up
 
 0:03:07.330,0:03:09.149
-but i haven't been around edu
+but I went there
 
 0:03:09.149,0:03:11.049
-it'd be that counts
+and added these accounts.
 
 0:03:11.049,0:03:13.100
-life i come back here
+So now if I come back here
 
 0:03:13.100,0:03:17.079
-uh... through the template and every
-little disparage
+to the template and reload this page
+
 
 0:03:17.079,0:03:19.199
-and then he tells me that i did
+then it tells me that I
 
 0:03:19.199,0:03:21.650
-could actually possible to climb up
+could actually plus 1 this one now.
 
 0:03:21.650,0:03:25.420
-icons anymore because i already did it
-during their sleep a click here
+I can't anymore because I already did it
+earlier so if click here
 
 0:03:25.420,0:03:29.039
-then it will be moved across all that i
-thought that they can
+then it will remove that plus one but I like
+the Template::Toolkit 
 
 0:03:29.039,0:03:32.849
-so i at that point and then i can search
-for something else
+so I add that one. And then 
+I can search for something else
 
 0:03:32.849,0:03:35.229
-and and
+and
 
 0:03:35.229,0:03:37.089
-that's me
+let's say
 
 0:03:37.089,0:03:38.379
-recognizes
+Mechanize
 
 0:03:38.379,0:03:42.759
-and then i can find here all these
-modules and for example there is a w_ w_
+and then I can find here all these
+modules and for example there is
 
 0:03:42.759,0:03:47.439
-mechanized her life can be used to quite
-a lot so i want to ask plus want there
+WWW::Mechanize which I like and I use it quite
+a lot. So I want to add plus one there
 
 0:03:47.439,0:03:48.449
-to do
+too.
 
 0:03:48.449,0:03:50.239
-and yourself
+and so that earlier
 
 0:03:50.239,0:03:52.979
-but didn't have a cross on the elections
-one
+it didn't have a plus and now it has
+one!
 
 0:03:52.979,0:03:55.779
-so i hope that you can come by and uh...
+So I hope that you can come by and
 
 0:03:55.779,0:03:59.149
-join us that telling which would to his
+join us telling which module is better
 
 0:03:59.149,0:04:02.479
-which would which would be id used in
-them
+which module should be used and
 
 0:04:02.479,0:04:04.449
-which would be neglected
+which should be neglected.
 
 0:04:04.449,0:04:08.139
-thank you for watching that and uh...
-probably because without their accounts
+Thank you for watching and 
+probably this is the tab where you can see
 
 0:04:08.139,0:04:11.269
-again in their mind outpost let me my
-and uh...
+again my hostname
+
 
 0:04:11.269,0:04:12.320
-metaphysical
+MetaCPAN.org
 
 0:04:12.320,0:04:12.709
-thank you very much
+Thank you. Bye bye.
 
