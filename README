@@ -8,7 +8,10 @@ In each subdirectory you will find a file called english.sbv
 which is the English caption file. It is based on the automatic
 transcription that YouTube generates and then it is improved. Hopefully.
 
+Each translation should have its own .sbv file with the name of the
+language being the filename.
 
+The name of the translators should be added to this readme file.
 
 What is MetaCPAN
    http://www.youtube.com/watch?v=7N1lZY5E5gg
