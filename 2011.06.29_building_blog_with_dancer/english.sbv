@@ -1,212 +1,210 @@
 0:00:03.630,0:00:07.430
-fine the computer this time i'm going to
-take fifteen dash out
+Hi and welcome back to the channel. This time i'm going to
+take fifteen minutes I have 
 
 0:00:07.430,0:00:08.280
-and beyond
+and build
 
 0:00:08.280,0:00:09.919
-rehearsal goldencan
+a really small blogengine.
 
 0:00:09.919,0:00:10.950
-i'm going to use
+I'm going to use
 
 0:00:10.950,0:00:14.959
-uh... as a favorite uh... that's for the
-programs for free over evidence to your
+as a framework, the Perl Dancer framework 
+that you can see here:
 
 0:00:14.959,0:00:16.439
-proposal org
+perldancer.org
 
 0:00:16.439,0:00:21.849
-and i'm going to use obviously you pop
-and the silver apartments over a year
+and i'm going to use obviously Padre
+and the Padre on Strawberry
 
 0:00:21.849,0:00:22.869
 distribution
 
 0:00:22.869,0:00:24.499
-someone turned it on the news
+So I am going to use it on Windows.
 
 0:00:24.499,0:00:29.410
-so what we need his an installer
-transferable pocket
+So what we need is ... Let's start 
+Strawberry Perl ... Padre
 
 0:00:29.410,0:00:34.030
-canada is on the world and its
-commitment to get indignation
+We need an editor and when we open it 
+we are going to get an empty page.
 
 0:00:34.030,0:00:40.850
-surpluses and common application to lost
-view of the past coupled applications so
+Dancer comes with a command line application
+that allowes us to build a skeleton of the application.
 
 0:00:40.850,0:00:43.430
-for this ninety two
+For this I need to
 
 0:00:43.430,0:00:45.690
-and
+run
 
 0:00:45.690,0:00:50.130
-ministry and and and it's a chain to
-their trip to return
+cmd and let's say change the directory to the 
+work
 
 0:00:50.130,0:00:51.110
-rigorously
+directory
 
 0:00:51.110,0:00:56.160
-thank you i'm going to keep the extent
-but i can't answer landscape and the
+and here I am going to create the skeleton.
+So I type in dancer -a and the
+
 
 0:00:56.160,0:00:58.480
-name of the application picture
+name of the application
 
 0:00:58.480,0:01:00.380
-uh... pictures trainer
+which I picked Dwimmer
 
 0:01:00.380,0:01:02.330
-answering
+as the name
 
 0:01:02.330,0:01:04.560
-as some kind of uh... mention or
+as some kind of ... magician or
 whatever
 
 0:01:04.560,0:01:08.040
-so i'm going to call this a petitioned
-the in primer
+so I'm going to call this a application
+Dwimmer
 
 0:01:08.040,0:01:09.050
 instead
 
 0:01:09.050,0:01:12.970
-running district real picnic
-subdirectory
+running this script will create
+a subdirectory for
 
 0:01:12.970,0:01:18.400
-an application and then there is false
-that artist comfortable unification
+the application and then various files
+that are the skeleton of the application.
 
 0:01:18.400,0:01:23.680
-if i go into this directory i can't i
-control
+If I go into this directory I can type 
+in perl
 
 0:01:23.680,0:01:24.640
-and the name
+and the name bin
 
 0:01:24.640,0:01:29.750
-f_b_i_ and rhonda petition of this story
-ronza destruction
+app.pl and run the application. This already
+runs the skeleton
 
 0:01:29.750,0:01:35.750
-and i can stretch to browser and uh...
-titanium local host two thousand
+and I can switch to the browser and
+type in localhost:3000
 
 0:01:35.750,0:01:40.040
-and people bring up the default values
-that those who created for me
+and it will bring up the default page
+that Dancer created for me.
 
 0:01:40.040,0:01:41.740
-how does it look like
+How does it look like?
 
 0:01:41.740,0:01:47.610
-so i go back to padre and opened uh...
-into five
+So I go back to Padre and open the file
 
 0:01:47.610,0:01:49.400
-open the file
+If I open the file
 
 0:01:49.400,0:01:55.380
-community colleges say five-week-old
-he'd seen
+the file is .. if I recall is in work
 
 0:01:55.380,0:01:56.330
-timber
+Dwimmer
 
 0:01:56.330,0:01:59.509
-and then there was to be directly after
-you know
+and then there was the bin directory app.pl
 
 0:01:59.509,0:02:02.469
-so you can see that the the status of
-his almost every
+So you can see that the script itself
+is almost empty
 
 0:02:02.469,0:02:04.940
-it'll mean loans did fema module
+it only loads the Dwimmer module
 
 0:02:04.940,0:02:08.419
-i didn't know what was in the directory
-and i noticed you better
+The Dwimmer module is in the lib directory.
+In order to see it better
 
 0:02:08.419,0:02:11.399
-uh... that's opened the project browser
+let's open the project browser
 
 0:02:11.399,0:02:14.279
-and pablo dramatically in the
-correctness of the project people
+and Padre automatically recognizes the
+project the Perl
 
 0:02:14.279,0:02:15.569
-project
+project.
 
 0:02:15.569,0:02:19.700
-selvi candidate directory there is no
-trimmer pm
+So it's in the lib directory there is the
+Dwimmer.pm
 
 0:02:19.700,0:02:23.900
-and here is the applications to this
-defiance that there is a
+and here is the applications so this
+defines that there is a
 
 0:02:23.900,0:02:27.250
-investment user accounts in vizag
-technocrats
+when the user comes in with
+a get request
 
 0:02:27.250,0:02:28.450
-through the main page
+to the main page
 
 0:02:28.450,0:02:30.010
-and do something should be
+then this subroutine should be
 
 0:02:30.010,0:02:30.920
 executed
 
 0:02:30.920,0:02:34.259
-you just most index dumping the
-templates are
+which just loads the index template.
+The templates are
 
 0:02:34.259,0:02:37.620
-located interviews subdirectories three
-that's teaching
+located in the views subdirectory so
+index.tt
 
 0:02:37.620,0:02:39.749
 is that template
 
 0:02:39.749,0:02:41.769
-and what the
+What we...
 
 0:02:41.769,0:02:44.629
-vassar companies that really simple
+Dancer comes with a really simple
 template system
 
 0:02:44.629,0:02:46.720
-what are you still because
+but I already installed
 
 0:02:46.720,0:02:48.859
-the template toolkit
+the Template::Toolkit
 
 0:02:48.859,0:02:52.939
-that comes to stand self-confidence
-robbery broke so what the first thing i
+that comes with Padre on Strawberry Perl
+so the first thing I
 
 0:02:52.939,0:02:55.829
-would like to know he's changed and the
-template system
+would like to do is to change the
+template system.
 
 0:02:55.829,0:02:58.430
-that i can do in the call to gamble file
+That I can do in the config.yml file
 
 0:02:58.430,0:03:00.079
-doesn't directory
+that's in the root directory
 
 0:03:00.079,0:03:01.779
-often application
+of the application
 
 0:03:01.779,0:03:05.869
 here you'll see that uh... there is the
