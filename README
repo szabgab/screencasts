@@ -8,16 +8,18 @@ In each subdirectory you will find a file called english.sbv
 which is the English caption file. It is based on the automatic
 transcription that YouTube generates and then it is improved. Hopefully.
 
+(Most of these files are still the original automatic transcription that
+need a lot of improvement. That would be a lot of help too.)
+
 Each translation should have its own .sbv file with the name of the
 language being the filename.
 
 The name of the translators should be added to this readme file.
 
 If you are interested in translating any of these screencasts,
-please get in contact with me so I can list the translator
-in this file.
+please get in contact with me so I can list you in this file.
 
-What is MetaCPAN
+What is MetaCPAN?
    http://www.youtube.com/watch?v=7N1lZY5E5gg
    2011.07.25_what_is_metacpan/
      English: done (szabgab)
@@ -73,4 +75,24 @@ Modern Perl Tutorial - part 01
    http://www.youtube.com/watch?v=c3qzmJsR2H0
    2011.06.24_modern_perl_tutorial_01
      English: original from youtube, has to be fixed!
+
+Using the built-in debugger of Perl as REPL
+   http://www.youtube.com/watch?v=pL_nDlXNqLY
+   2011.06.22_using_the_built_in_debugger_as_repl
+      English: original from youtube, has to be fixed!
+
+Padre on Strawberry Perl v5 (released on 20 June 2011)
+   http://www.youtube.com/watch?v=MKXtGgWi7qs
+   2011.06.20_padre_on_strawberry_perl
+     English: original from youtube, has to be fixed!
+
+Using the built-in debugger of Perl
+   http://www.youtube.com/watch?v=jiYZcV3khdY
+   2011.06.15_using_the_built_in_debugger
+     English: original from youtube, has to be fixed!
    
+-----------------
+
+older screencasts will be listed later.
+
+
