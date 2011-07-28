@@ -204,29 +204,28 @@ That I can do in the config.yml file
 that's in the root directory
 
 0:03:00.079,0:03:01.779
-of the application
+of the application.
 
 0:03:01.779,0:03:05.869
-here you'll see that uh... there is the
-template for just a simple template
+Here you'll see that there is the
+template which is the simple template
 
 0:03:05.869,0:03:09.599
-and uh... i would like to use the
-template toolkit
+and ... I would like to use the
+Template::Toolkit
 
 0:03:09.599,0:03:10.760
 and even there
 
 0:03:10.760,0:03:14.739
-and i want to find that i think we need
-fugitives
+I define that the encoding is utf-8.
 
 0:03:14.739,0:03:19.529
-nagasaki odds and ends i believe it as
-the default in industrial
+Now the start tags and the end tags I leave it as
+the default in Dancer
 
 0:03:19.529,0:03:20.579
-allegiance
+which is
 
 0:03:20.579,0:03:22.259
 which looks
@@ -235,10 +234,10 @@ which looks
 like this
 
 0:03:24.479,0:03:26.989
-assault on the budget
+so I leave it like that.
 
 0:03:26.989,0:03:30.489
-narcotic that day i would like to see
+Now I configured that, I would like to see
 that still working
 
 0:03:30.489,0:03:31.479
