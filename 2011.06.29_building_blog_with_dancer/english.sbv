@@ -1122,149 +1122,149 @@ and that does into and we have the data
 rather than it is a cash so we have
 
 0:15:28.690,0:15:30.720
-professional piece of paper
+to fetch the keys of it,
 
 0:15:30.720,0:15:35.450
-dictionary also pulled and we will try
-to make them store textile
+dictionary it is also called, and we would like
+to make them sorted so 
 
 0:15:35.450,0:15:36.950
-restore
+we sort them
 
 0:15:36.950,0:15:41.200
-man's best it's a cool cruel balancing
-the spanish
+That's the way to go over all the elements 
+of this hash
 
 0:15:41.200,0:15:42.340
-film that
+and then
 
 0:15:42.340,0:15:44.800
-intended
+we END it this way.
 
 0:15:44.800,0:15:47.280
-inside knowledge in display
+Inside now I can display
 
 0:15:47.280,0:15:51.430
-sexual content all piece is very
-important to be
+the actual content of this
+variable called "p"
 
 0:15:51.430,0:15:53.580
-pictures going to be the timestamp
+which is going to be the timestamp.
 
 0:15:53.580,0:15:55.860
-now if i go back to do
+Now if i go back to the
 
 0:15:55.860,0:16:01.110
-yeah restored is because just changed to
-put a smile
+I have to restart it because I just changed the
+code as well, so
 
 0:16:01.110,0:16:06.560
-if i was the longest age that we can see
-the first of all stormy baltic sea
+if I reload this page than we see
+the timestamp of the only post we had.
 
 0:16:06.560,0:16:08.020
-but that's not me
+Now that's nice but
 
 0:16:08.020,0:16:09.130
-less would like
+we would like
 
 0:16:09.130,0:16:11.830
-to see the title and a cold
+to see the title and a content.
 
 0:16:11.830,0:16:17.080
-they could do the same template toolkit
-is to say that i would like to print
+The way to do this in the Template::Toolkit
+is to say that I would like to print
 
 0:16:17.080,0:16:18.170
-detail
+data
 
 0:16:18.170,0:16:22.380
-and then the pieces are very blessed
-deluxe writing from him
+and then the p is now a variable so 
+I put a $ sign infront of it
 
 0:16:22.380,0:16:25.550
-at time to healed
+and the "title" key of it.
 
 0:16:25.550,0:16:29.800
-doctor death we would like to see text
+And after that we would like to see text. Right?
 
 0:16:29.800,0:16:32.730
-so we would like to see oldies
+So we would like to see all these.
 
 0:16:32.730,0:16:36.090
-different go back to the back page and
-reloaded and only to restart the
+If I go back to the web page and
+reloaded and I don't need to restart the
 
 0:16:36.090,0:16:39.750
-application because i went into the
+application because I only changed the
 template
 
 0:16:39.750,0:16:44.950
-and darcy level which is the title and
-attacked stonov level make let's meet
+and I see "hello world" which is the title and
+the text. ..and.. let's meet
 
 0:16:44.950,0:16:46.630
-the needs of the nicer
+it a bit nicer
 
 0:16:46.630,0:16:49.060
-that's what it's true
+Let's put and H2
 
 0:16:49.060,0:16:53.350
-surrounded societal and uh...
+arround the title
 
 0:16:53.350,0:16:54.409
-with time
+and let's put
 
 0:16:54.409,0:16:57.010
-horizontal wrote
+a horizontal row
 
 0:16:57.010,0:17:00.600
-informed of the new uh...
+infront of the ...
 
 0:17:00.600,0:17:03.199
-involved entries so here we are
+blog entry so here we are
 
 0:17:03.199,0:17:07.780
-viewers to stifle bar and another was
-the title of the post
+there is this title part and then hello
+the title of the post. Now let's
 
 0:17:07.780,0:17:09.180
-create another
+create another post
 
 0:17:09.180,0:17:14.620
-just to make sure that it's not working
-so and his second false
+just to make sure that it's still working
+so ... second post
 
 0:17:14.620,0:17:16.170
 more text
 
 0:17:16.170,0:17:17.760
-or text
+more text
 
 0:17:17.760,0:17:19.170
-and uh... holster
+and I post 
 
 0:17:19.170,0:17:22.400
-antibiotics so they have not first one
-second burst
+and here we are so we have now a first post
+a second post
 
 0:17:22.400,0:17:23.700
-medical attention
+and we have a blog engine
 
 0:17:23.700,0:17:25.909
-thank you for watching uh... if you want
+thank you for watching ... if you want
 to
 
 0:17:25.909,0:17:27.590
-posts on the dreamer
+posts on the Dwimmer
 
 0:17:27.590,0:17:31.970
-resumption of nuclear war or so you can
-see them you can go to prevent soror
+there is actually dwimmer.org or so you can
+see it and you can go to perldancer.org and download
 
 0:17:31.970,0:17:34.350
-and relaxed
+its cool, I like it.
 
 0:17:34.350,0:17:35.160
 thank you very much for watching
-
+bye-bye
