@@ -47,10 +47,10 @@ For this I need to
 run
 
 0:00:45.690,0:00:50.130
-cmd and let's say change the directory to the 
+cmd and let's say change the directory to
 
 0:00:50.130,0:00:51.110
-work directory
+the work directory
 
 0:00:51.110,0:00:56.160
 and here I am going to create the skeleton.
@@ -137,10 +137,10 @@ let's open the project browser
 
 0:02:11.399,0:02:14.279
 and Padre automatically recognizes the
-project the Perl
+project the
 
 0:02:14.279,0:02:15.569
-project.
+Perl project.
 
 0:02:15.569,0:02:19.700
 So it's in the lib directory there is the
@@ -229,7 +229,7 @@ which is
 which looks
 
 0:03:22.259,0:03:24.479
-like this
+like this <% %>
 
 0:03:24.479,0:03:26.989
 so I leave it like that.
@@ -335,7 +335,7 @@ to do. So we go back to the module
 and define
 
 0:04:42.009,0:04:43.600
-when someone to get..
+when someone get..
 
 0:04:43.600,0:04:45.259
 sends a GET request
@@ -369,7 +369,7 @@ and
 save it now
 
 0:05:07.229,0:05:12.620
-as "page" and in there now I would
+as "page.tt" and in there now I would
 like to, instead of this..
 
 0:05:12.620,0:05:14.720
@@ -379,7 +379,7 @@ and I would like to have a form.
 The form
 
 0:05:17.020,0:05:18.360
-is goint to
+is going to
 
 0:05:18.360,0:05:22.560
 send in the request with
@@ -435,7 +435,7 @@ and
 reload the application
 
 0:06:02.649,0:06:05.089
-then, oh well, there is an error.
+then, well oh, there is an error.
 
 0:06:05.089,0:06:09.210
 So semicolon seems to be missing that's
@@ -452,7 +452,7 @@ the semicolon here
 even though it looks like a subroutine
 
 0:06:17.430,0:06:21.139
-but it's actually a parameter for 
+but it's actually a parameter to 
 the get function.
 
 0:06:21.139,0:06:25.370
@@ -567,25 +567,25 @@ so...
 0:07:55.149,0:08:00.499
 I didn't give a name for it for example
 so I need to give a name to this one.
-Its called text and it's meth..do, it's method
 
 0:08:00.499,0:08:01.240
-so I have to make ...
+Its called test
 
 0:08:01.240,0:08:05.789
-fix these
+and it's meth..do, it's method
+so I have to make ...
 
 0:08:05.789,0:08:06.770
-issues
+fix these issues
 
 0:08:06.770,0:08:07.849
 and then
 
 0:08:07.849,0:08:10.619
-I can come back
+I can come back, here
 
 0:08:10.619,0:08:14.540
-here, reloade the whole
+reloade the whole
 page and then let's say hello
 and this would be
 
@@ -640,10 +640,10 @@ So what does this do?
 
 0:08:49.670,0:08:54.400
 This needs to get the params
-method and from there to fetch the title
+method and from there to fetch the
 
 0:08:54.400,0:08:55.230
-value
+title value
 
 0:08:55.230,0:08:57.760
 and first thing let's say just return this one
@@ -677,10 +677,10 @@ a database
 
 0:09:15.470,0:09:20.520
 but I want to make it the more simple
-in this case. I am going to use a JSON
+in this case. I am going to use a
 
 0:09:20.520,0:09:21.180
-file.
+JSON file.
 
 0:09:21.180,0:09:22.980
 So where is this JSON file?
@@ -729,13 +729,13 @@ and here I can type in the keys
 
 0:10:05.200,0:10:10.250
 and it has two keys. This is the name
-of the file where your
+of the file where the
 
 0:10:10.250,0:10:11.600
 data is going to be.
 
 0:10:11.600,0:10:15.960
-So I put it into a variable just a have it,
+So I put it into a variable just so I have it,
 make it simple
 
 0:10:15.960,0:10:17.569
@@ -746,375 +746,373 @@ Then I need to read in the data from
 that file. So I read
 
 0:10:22.810,0:10:27.960
-typing read_file and put this the name of the
-into a variable
+typing read_file and the name of file
+and put this into a variable
 
 0:10:27.960,0:10:31.700
 but this data is going to be json.
-right because there will be savior
+Right? Because there, what we are saving
 
 0:10:31.700,0:10:33.510
-reaches we'll start with you can't do it
+that is json. So I 
 
 0:10:33.510,0:10:35.510
-in very well and condition
+put into a variable called $json
 
 0:10:35.510,0:10:38.250
-and then i still have to turn just a
-thought
+and then I still have to turn this data into
 
 0:10:38.250,0:10:40.480
-new appropriate instruction
+a Perl data structure
 
 0:10:40.480,0:10:41.640
 so
 
 0:10:41.640,0:10:44.620
-from trees and is that function dot from
+from_json is the function that  
 
 0:10:44.620,0:10:47.780
-take the jason strict
+will take the json string
 
 0:10:47.780,0:10:52.200
-and returned painted today took to meet
+and return the data we need
 
 0:10:52.200,0:10:53.790
-to visit the instruction
+so this is a data structure.
 
 0:10:53.790,0:10:58.170
-obviously the first time to rob's we
-won't have a jason father and investing
+Now obviously the first time we run this we
+won't have a json file there. In that case
 
 0:10:58.170,0:11:00.779
-is we just want to have empty cache
+we just want to have empty hash
 
 0:11:00.779,0:11:01.990
-return
+to be returned
 
 0:11:01.990,0:11:05.840
-the vatican duties is the contract with
-her deliveries
+The way we can do this is we can check
+wether there is..
 
 0:11:05.840,0:11:07.900
-the following through texas
+the file, if it exists
 
 0:11:07.900,0:11:10.010
-and defeat those political
+and if it does then we call...
 
 0:11:10.010,0:11:12.310
-redeem the file if it doesn't
+read in the file. if it doesn't
 
 0:11:12.310,0:11:13.380
 then we just
 
 0:11:13.380,0:11:16.559
-return past three weeks to curly braces
+return a string with two curly braces
 
 0:11:16.559,0:11:20.250
-which is to be jason it'd be finding
-that the hatch
+which is the way json defines
+an empty hash.
 
 0:11:20.250,0:11:24.210
-so that's how it got and and teaches in
+So that's how we get an empty json
 there
 
 0:11:24.210,0:11:29.990
-and that the daytime not just have to
-get the dinu visa from the new
+and then the data  and now we just have to
+add the new piece of ... the new
 
 0:11:29.990,0:11:31.180
-blockade
+blog entry.
 
 0:11:31.180,0:11:35.790
-for dessert first before we conclude
-concepts that we have had new variable
+For this first of all we take the timestamp.
+We have have new
 
 0:11:35.790,0:11:36.930
-called now
+variable called $now
 
 0:11:36.930,0:11:39.050
-and that was in that the first time
+and I put in a timestamp 
 
 0:11:39.050,0:11:40.240
 and then
 
 0:11:40.240,0:11:43.550
-after this date up
+add to this data
 
 0:11:43.550,0:11:46.430
-and we're always going to be the key
+"now" is going to be the key
 
 0:11:46.430,0:11:50.279
-so we are seeing the is suffering
-forbidden to use
+so we are saving the pieces of 
+blog entries
 
 0:11:50.279,0:11:52.320
-according to the time standing here
+according to the timestamp they have
 
 0:11:52.320,0:11:54.129
-healthier i can add
+and here I can add
 
 0:11:54.129,0:11:55.780
 title
 
 0:11:55.780,0:12:01.080
-and i could just take it from here
-because i don't need to get anymore
+and I just take it from here
+because I don't need it there anymore
 
 0:12:01.080,0:12:03.930
-they also have the text
+and I also have the text
 
 0:12:03.930,0:12:05.870
-formed a concert
+from the user
 
 0:12:05.870,0:12:09.420
-convinces form the parlance text
+and this is form the params text
 
 0:12:09.420,0:12:10.820
-and that's cute
+and that's it.
 
 0:12:10.820,0:12:11.560
-now
+Now
 
 0:12:11.560,0:12:12.820
-we have the data
+we have the data,
 
 0:12:12.820,0:12:14.779
-in your book entry into detail
+the new blog entry in the $data
 
 0:12:14.779,0:12:16.510
-just have to say that
+and we just have to save it
 
 0:12:16.510,0:12:19.459
-creatures using their bright rights
-trial
+which is using the write_file
 
 0:12:19.459,0:12:21.620
-it using the name of the file
+giving the name of the file
 
 0:12:21.620,0:12:22.960
-and do
+and the
 
 0:12:22.960,0:12:25.890
-detour noted data is is uh...
+data. Now the $data is a
 
 0:12:25.890,0:12:27.340
-provision and want to
+perl data structure I want to
 
 0:12:27.340,0:12:32.960
-cd the security zone so we have to
-convert it
+save it as json so we have to
+convert it to_json.
 
 0:12:32.960,0:12:35.729
-uh... that's right now but once it's
-done
+That's it. 
+Once it's done
 
 0:12:35.729,0:12:37.410
-you want to say it is safe
+we want to save this thing.
 
 0:12:37.410,0:12:38.690
-you've got to sort
+Sorry, we want to show 
 
 0:12:38.690,0:12:42.730
-rule shall since interviews are a lot to
-redirect
+something to the user, 
+we want to redirect 
 
 0:12:42.730,0:12:47.330
-studios early curtains are
+redirect the user to the root,
 
 0:12:47.330,0:12:48.450
-webpage
+to the main page.
 
 0:12:48.450,0:12:50.009
-olympic gold
+On the main page we don't
 
 0:12:50.009,0:12:52.679
-yet short but the company is
+yet show the content is
 
 0:12:52.679,0:12:55.120
-but let's see what of does this work
+but let's see what, how does this work?
 
 0:12:55.120,0:12:59.790
-self or discover uh... stopped at the
-kitchen and story again
+So for this to work I'll have to stop the
+application again and start it again
 
 0:12:59.790,0:13:02.800
-and kevin bacon mistakes that collective
-work
+and if I did not make any mistakes then it 
+might even work.
 
 0:13:02.800,0:13:04.770
-civil
+so, this is
 
 0:13:04.770,0:13:11.560
-therefore foods and and that i think
-bossed again runtime solicitor
+the form. I filled it in and then I click post
+and I get a runtime error. So this is the error.
 
 0:13:11.560,0:13:13.699
-complicate optical drives fine
+Can't locate object method write_file.
 
 0:13:13.699,0:13:14.890
-well isn't it
+Well, obviously
 
 0:13:14.890,0:13:16.500
 because
 
 0:13:16.500,0:13:17.470
-area
+...
 
 0:13:17.470,0:13:20.990
-frontgate cylinder to jason functions
-are part of those
+the from_json and the to_json functions
+are part of Dancer
 
 0:13:20.990,0:13:23.460
-but the refund and the right file
-unlocked
+but the read_file and the write_file
+are not.
 
 0:13:23.460,0:13:26.900
-so we have to know the modules that will
-provide them
+So we have to load a module that will
+provide them.
 
 0:13:26.900,0:13:27.980
-turbulence
+use
 
 0:13:27.980,0:13:29.500
-file
+File
 
 0:13:29.500,0:13:31.420
-uh...
+::
 
 0:13:31.420,0:13:32.260
-work
+Slurp
 
 0:13:32.260,0:13:37.210
 is the name of the module and it
-provides a retrial center
+provides a read_file and a
 
 0:13:37.210,0:13:41.230
-right five px
+write_file function.
 
 0:13:41.230,0:13:46.260
-cdm now i have to restore the
-application because i can get home
+So I save them. Now I have to restart the
+application because I changed the code
 
 0:13:46.260,0:13:49.490
-and uh... try this again so i go back
+and try this again so I go back
 
 0:13:49.490,0:13:50.590
 and
 
 0:13:50.590,0:13:52.130
-all sick again
+post it again
 
 0:13:52.130,0:13:54.690
-and here we are soooooo
+and here we are so
 
 0:13:54.690,0:13:58.860
-its advocates returned to uh...
+it sais its OK. It returned to the .. 
 
 0:13:58.860,0:14:02.020
-they're not going to mean that and but i
-don't see any
+the root web page, the main web page
+but I don't see
 
 0:14:02.020,0:14:05.720
-yet so let's say first of four is that
-it was safe
+any data yet so let's see first of all that the
+data was saved.
 
 0:14:05.720,0:14:11.329
-and go back to object and uh... you go
-back in the word directory decide that
+I go back to Padre and I you go
+back to the work directory. We said that
 
 0:14:11.329,0:14:15.920
-the emergency is going to be the and
-here we are so there is the president
+dwimmer.json is going to be there and
+here we are. So there is the timestamp
 
 0:14:15.920,0:14:18.880
-at the facts of the title of the wanted
-to say
+at the text and the title we wanted
+to save.
 
 0:14:18.880,0:14:23.190
-so it seems to be sitting in for the
-follow ellis let's try to display
+So it seems that it is saving into the
+file. Now let's try to display it
 
 0:14:23.190,0:14:23.950
 on the
 
 0:14:23.950,0:14:25.010
-thank you
+that page.
 
 0:14:25.010,0:14:26.820
-forgets that goal
+For this we go
 
 0:14:26.820,0:14:28.660
-uh... to jump
+to the 
 
 0:14:28.660,0:14:31.630
-main visit and hear what they mean
+main page and here what we need
 
 0:14:31.630,0:14:33.450
-into developing
+is to read in the data again.
 
 0:14:33.450,0:14:37.720
-disassembly as if he gets here sold a
-simple singing about it just to put to
+Just the same way as we did it here. So the
+simple thing is now just to copy-paste
 
 0:14:37.720,0:14:40.590
-use the statement
+this data.
 
 0:14:40.590,0:14:43.700
-and that we have all the data in this
+and then we have all the data in this
 
 0:14:43.700,0:14:45.830
-and very little called all of it
+variable called $data
 
 0:14:45.830,0:14:49.720
-and we would like to send in this
-apartment or to the template
+and we would like to send it as
+a parameter to the template.
 
 0:14:49.720,0:14:52.440
 so
 
 0:14:52.440,0:14:54.030
-just sending
+we just send in
 
 0:14:54.030,0:14:56.220
-ten separate thirty to ten
+as a parameter to the template.
 
 0:14:56.220,0:14:57.480
-indeterminate
+In the template
 
 0:14:57.480,0:15:00.060
-that's the most invented so this is the
-page
+let's see what is in the template.
+So this is the page
 
 0:15:00.060,0:15:01.840
-user investment
+Here is the index template.
 
 0:15:01.840,0:15:02.890
-in the template
+In the template
 
 0:15:02.890,0:15:04.549
-if you would like to show
+we would like to show
 
 0:15:04.549,0:15:05.940
-uh... the data
+the data
 
 0:15:05.940,0:15:09.670
-uh... which is actually uh... amount of
-cash to lobby
+which is actually .. now we .. that's a hash
+So how do we fetch a hash
 
 0:15:09.670,0:15:11.749
-factor development toolkit
+in the Template::Toolkit
 
 0:15:11.749,0:15:13.530
-and the state of the users
+and display to the user?
 
 0:15:13.530,0:15:18.220
-income but look if it's a it's a
-generators things so you have a floral
+In Template::Toolkit is a
+generic thing so you have a for loop
 
 0:15:18.220,0:15:22.620
 and then you put in a variable which is
-the sea
+let's say
 
 0:15:22.620,0:15:23.610
 page
