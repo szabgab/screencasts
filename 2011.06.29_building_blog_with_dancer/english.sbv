@@ -1,12 +1,12 @@
 0:00:03.630,0:00:07.430
-Hi and welcome back to the channel. This time i'm going to
-take fifteen minutes I have 
+Hi and welcome back to the channel. This time i'm 
+going to take fifteen minutes I have 
 
 0:00:07.430,0:00:08.280
 and build
 
 0:00:08.280,0:00:09.919
-a really small blogengine.
+a really small blog engine.
 
 0:00:09.919,0:00:10.950
 I'm going to use
@@ -48,15 +48,13 @@ run
 
 0:00:45.690,0:00:50.130
 cmd and let's say change the directory to the 
-work
 
 0:00:50.130,0:00:51.110
-directory
+work directory
 
 0:00:51.110,0:00:56.160
 and here I am going to create the skeleton.
-So I type in dancer -a and the
-
+So I type in "dancer -a" and the
 
 0:00:56.160,0:00:58.480
 name of the application
@@ -76,10 +74,10 @@ so I'm going to call this a application
 Dwimmer
 
 0:01:08.040,0:01:09.050
-instead
+is ..
 
 0:01:09.050,0:01:12.970
-running this script will create
+Running this script will create
 a subdirectory for
 
 0:01:12.970,0:01:18.400
@@ -88,10 +86,10 @@ that are the skeleton of the application.
 
 0:01:18.400,0:01:23.680
 If I go into this directory I can type 
-in perl
+in perl bin
 
 0:01:23.680,0:01:24.640
-and the name bin
+and the name
 
 0:01:24.640,0:01:29.750
 app.pl and run the application. This already
@@ -115,7 +113,7 @@ So I go back to Padre and open the file
 If I open the file
 
 0:01:49.400,0:01:55.380
-the file is .. if I recall is in work
+the file is .. if I recall it's in work
 
 0:01:55.380,0:01:56.330
 Dwimmer
@@ -154,7 +152,7 @@ defines that there is a
 
 0:02:23.900,0:02:27.250
 when the user comes in with
-a get request
+a GET request
 
 0:02:27.250,0:02:28.450
 to the main page
@@ -241,113 +239,112 @@ Now I configured that, I would like to see
 that still working
 
 0:03:30.489,0:03:31.479
-so i asked
+so I
 
 0:03:31.479,0:03:33.899
-popped up a commission restarted
+stopped the application, restarted
 
 0:03:33.899,0:03:36.139
 and go back to the browser
 
 0:03:36.139,0:03:39.869
-see these two didn't want to be sort it
-out there all kind of
+to see these still working. 
+What we saw earlier that there all kind of
 
 0:03:39.869,0:03:40.940
 values here
 
 0:03:40.940,0:03:42.369
-coming from
+that are coming from
 
 0:03:42.369,0:03:44.099
-from there
+from the
 
 0:03:44.099,0:03:47.160
-template systems i read all the best to
-get the same thing
+template systems. So I reload it and I 
+still get the same thing
 
 0:03:47.160,0:03:49.790
-students in the congress in his pocket
+I still get the same data. Everything is OK.
 
 0:03:49.790,0:03:50.979
-naal
+Now
 
 0:03:50.979,0:03:53.599
-donate all the system doesn't defaulted
+I don't need all that stuff that is in the default
 
 0:03:53.599,0:03:55.279
-view what's best for
+view of Dancer
 
 0:03:55.279,0:03:58.489
-so i'd go into the index did amit
+so I go into the index template
 
 0:03:58.489,0:04:00.670
-that every single time instead of the
-earth
+I delete everything and instead of that
 
 0:04:00.670,0:04:02.029
-i write handled
+I write hello
 
 0:04:02.029,0:04:03.849
-and a m
+and
 
 0:04:03.849,0:04:08.569
-try telling that her to go to the stage
+I tell the user to go to this page
 
 0:04:08.569,0:04:13.019
-to create of course response
+to create a post
 
 0:04:13.019,0:04:13.869
-today
+OK
 
 0:04:13.869,0:04:17.029
-so that's the uh... what then going to
+So that's .. what I am going to
 do
 
 0:04:17.029,0:04:18.919
-and um...
+and ...
 
 0:04:18.919,0:04:20.630
-it's now time to go to page
+if we now reload the page
 
 0:04:20.630,0:04:25.889
-then that's what we have here hello and
-then the length of three of the post
+then that's what we have here: hello and
+then a link to create a post.
 
 0:04:25.889,0:04:29.009
-because of the page
+Which should lead us to the page.
 
 0:04:29.009,0:04:32.539
-and i click on its i'd get the four
-point four oh four or because no one
+When I click on it I get a 404
+error because no one
 
 0:04:32.539,0:04:34.129
-side if i get
+defined yet
 
 0:04:34.129,0:04:34.949
 what to do
 
 0:04:34.949,0:04:36.680
-if someone gets to the stage
+if someone gets to this page.
 
 0:04:36.680,0:04:40.529
 and that's what the next thing we have
-to do soon you go back to the module
+to do. So we go back to the module
 
 0:04:40.529,0:04:42.009
 and define
 
 0:04:42.009,0:04:43.600
-then someone to get
+when someone to get..
 
 0:04:43.600,0:04:45.259
-sense i get a request
+sends a GET request
 
 0:04:45.259,0:04:47.560
-to do stage
+to this page, then
 
 0:04:47.560,0:04:49.759
-pull this afternoon
+call the subroutine
 
 0:04:49.759,0:04:51.710
 which is implementers here
@@ -356,397 +353,404 @@ which is implementers here
 and
 
 0:04:54.330,0:04:56.880
-local templates which is cool
+load the template which is called
 
 0:04:56.880,0:04:58.849
-into a case
+"page" in our case.
 
 0:04:58.849,0:05:03.909
-you have to student movement that it
-someplace to go back to the index t t
+We have to still implement that template
+so we go back to the index.tt
 
 0:05:03.909,0:05:05.610
 and
 
 0:05:05.610,0:05:07.229
-cv nile
+save it now
 
 0:05:07.229,0:05:12.620
-fastpitch standing there page i would
-like to instead of this
+as "page" and in there now I would
+like to, instead of this..
 
 0:05:12.620,0:05:14.720
-and i would like to have a forms
+and I would like to have a form.
 
 0:05:14.720,0:05:17.020
-the forum
+The form
 
 0:05:17.020,0:05:18.360
-instill into
+is goint to
 
 0:05:18.360,0:05:22.560
-sending the requested instead
+send in the request with
 
 0:05:22.560,0:05:29.560
-ultimately because you're posting
-something it has been imposed field
+the POST method because we are posting
+something and has an input field
 
 0:05:29.830,0:05:31.200
-in speeches
+which is
 
 0:05:31.200,0:05:32.590
-calls
+called
 
 0:05:32.590,0:05:34.939
-titled right
+title. Right.
 
 0:05:34.939,0:05:38.130
-and then the also have a lover
+and then we also have another
 
 0:05:38.130,0:05:40.169
-and input field
+input field
 
 0:05:40.169,0:05:43.759
-which is soon it all started
+which is of type
 
 0:05:43.759,0:05:45.389
-subnets
+submit
 
 0:05:45.389,0:05:46.760
 and in between
 
 0:05:46.760,0:05:49.659
-u_s_ there is a text
+there is a text
 
 0:05:49.659,0:05:52.870
-period
+area
 
 0:05:52.870,0:05:56.339
-exterior irrigated took typing did
-detect
+textarea where we are going to type 
+in the text.
 
 0:05:56.339,0:05:58.339
-so this is the the page
+So this is the page.
 
 0:05:58.339,0:05:59.469
-if i go
+Now if I go
 
 0:05:59.469,0:06:00.459
 and
 
 0:06:00.459,0:06:02.649
-deloach the application
+reload the application
 
 0:06:02.649,0:06:05.089
-that moved out of there is a bit
+then, oh well, there is an error.
 
 0:06:05.089,0:06:09.210
-first article seems to be missing that's
-uh... standard a running mate
+So semicolon seems to be missing that's
+a standard error I make
 
 0:06:09.210,0:06:11.250
-the windward road yes destroyed
+here in the module, yes, this one.
 
 0:06:11.250,0:06:15.289
-so at the end you should never forget
-the central europe
+So at the end we should never forget
+the semicolon here
 
 0:06:15.289,0:06:17.430
-you can do it's looks like a seventeen
+even though it looks like a subroutine
 
 0:06:17.430,0:06:21.139
-but it's actually experiment for a
-return to the difference
+but it's actually a parameter for 
+the get function.
 
 0:06:21.139,0:06:25.370
-well controlled rin tin tin and its
-worst of it
+Now I can go and run it again and it
+works better
 
 0:06:25.370,0:06:30.680
-uh... as so can go back to the page and
-deal with this and you get the four
+... so I can go back to the page and
+reload this and you get the form.
 
 0:06:30.680,0:06:32.830
-which is that the problem here
+Which is a bit broken here
 
 0:06:32.830,0:06:36.299
-uh... selected let's try to make it a
+so let's try to make it a
 bit nicer
 
 0:06:36.299,0:06:39.249
-go back into the editor or
+I go back into the editor,
+into the...
 
 0:06:39.249,0:06:42.889
-this template and first before let's
-make it clear
+this template and first of all let's
+make it a 
 
 0:06:42.889,0:06:44.569
-through the divider
+little bit wider
 
 0:06:44.569,0:06:50.400
-gain and in perfect recanted made
-mistakes in the also
+and then put a break at the end and
+make this textarea also
 
 0:06:50.400,0:06:52.339
-let's say you have uh...
+let's say have
 
 0:06:52.339,0:06:54.919
-deadbolts and uh...
+10 rows, and let's have
 
 0:06:54.919,0:06:55.820
-that's kind of
+80 columns
 
 0:06:55.820,0:06:58.539
-intercostal you'll be the same size
+so it will be the same size
 
 0:06:58.539,0:06:59.869
 and then
 
 0:06:59.869,0:07:03.810
-also the software development since the
-soviet retreat
+also the submit button, instead
+of "Submit Query"
 
 0:07:03.810,0:07:04.650
 let's say
 
 0:07:04.650,0:07:06.219
-nichols pierre
+put there a
 
 0:07:06.219,0:07:07.070
-you
+value
 
 0:07:07.070,0:07:08.969
-reaches false
+which is Post
 
 0:07:08.969,0:07:09.979
 and then
 
 0:07:09.979,0:07:13.550
-before they don't know the dates and it
-looks may better
+if I reload now the page.
+Then looks way better even though
 
 0:07:13.550,0:07:18.599
-you can do it if your name to your
-understand stranger never understood
+the 80 here and the 80 here are
+not the same. Strange, 
+I never understood that one.
 
 0:07:18.599,0:07:21.300
-in falls a little for me to explain it
+Probably someone of you would like to explain it
 to me
 
 0:07:21.300,0:07:26.229
-and then there's the poster buffaloed
-sort of looks ok as the first
+and then there's the post button.
+Sort of looks ok as the first version.
 
 0:07:26.229,0:07:31.899
-and so i i think there is some kind of
-will and as some kind of uh...
+So now if I type in some kind of a title,
+and as some kind of ...
 
 0:07:31.899,0:07:33.289
 my text
 
 0:07:33.289,0:07:40.049
-done and uh... season to go to say hello
+then, ... well let's say something else 
+let's say hello, hello  HELLO!
 
 0:07:40.049,0:07:42.830
-electrical impulse
+and I click on Post
 
 0:07:42.830,0:07:47.089
-and some street consistent go
+then I get some strange...
+it's getting not... not
 
 0:07:47.089,0:07:49.210
-not so since i've been in there
+it's sending in the title
 
 0:07:49.210,0:07:54.069
-thoughtful in the end of the sent the
-pics that i see both of them wrong
+but it does not send in the text..
+let's see what did I do wrong
 
 0:07:54.069,0:07:55.149
-syllable
+so...
 
 0:07:55.149,0:08:00.499
-engineering for the first president of
-slightly given name to this one school
+I didn't give a name for it for example
+so I need to give a name to this one.
+Its called text and it's meth..do, it's method
 
 0:08:00.499,0:08:01.240
-that's
+so I have to make ...
 
 0:08:01.240,0:08:05.789
-patents matt still kate smith told
-sultanate fixes
+fix these
 
 0:08:05.789,0:08:06.770
 issues
 
 0:08:06.770,0:08:07.849
-well done
+and then
 
 0:08:07.849,0:08:10.619
-i can come back
+I can come back
 
 0:08:10.619,0:08:14.540
-loophole page and then i see list below
+here, reloade the whole
+page and then let's say hello
 and this would be
 
 0:08:14.540,0:08:16.270
-symbol
+world
 
 0:08:16.270,0:08:19.669
-people balls identity power bat smuggler
+and if I click on post then I get an error.
+That's much better.
 
 0:08:19.669,0:08:21.379
-now what he said that the federal
+Now why did I get this error?
 
 0:08:21.379,0:08:25.219
-i guess there are because this is a post
-request another decade list
+I get this error because this is a POST
+request and not a GET request.
 
 0:08:25.219,0:08:26.830
-which is okay that's what i wanted
+which is okay that's what I wanted
 
 0:08:26.830,0:08:29.919
-but i didn't write you know what to do
-then could be
+but I didn't write here what to do
+when we
 
 0:08:29.919,0:08:30.770
-reached
+reach a
 
 0:08:30.770,0:08:31.829
-posted
+POST request.
 
 0:08:31.829,0:08:34.150
-so i a want to be funded
+So I a want to define it
 
 0:08:34.150,0:08:35.370
-and i see
+and I say
 
 0:08:35.370,0:08:38.470
-if i get that post repressed produced
+if I get a POST request to this page
 
 0:08:38.470,0:08:43.420
-then coldest supporting
+then call this other subroutine
 
 0:08:43.420,0:08:45.440
-which does something very different
+which does something different.
 
 0:08:45.440,0:08:48.170
-so what does this all don't forget
-cynical
+So what does this .. ah .. don't forget
+the semicolon.
 
 0:08:48.170,0:08:49.670
-so what does this mean
+So what does this do?
 
 0:08:49.670,0:08:54.400
-uh... business together forums
-mitchellpen from jericho to the title
+This needs to get the params
+method and from there to fetch the title
 
 0:08:54.400,0:08:55.230
 value
 
 0:08:55.230,0:08:57.760
-for cigarettes it's returned this one
+and first thing let's say just return this one
 
 0:08:57.760,0:08:58.800
-so wide
+so I
 
 0:08:58.800,0:09:00.450
 stop this
 
 0:09:00.450,0:09:01.939
-restored application
+restart the application
 
 0:09:01.939,0:09:03.079
-and stadium
+and see again
 
 0:09:03.079,0:09:06.029
-besides the load a page in recent that
-they thought
+If I reload the page and resend the
+data then
 
 0:09:06.029,0:09:10.550
-that i got which is what the skype
-bodyguard
+I get back hello which is what the title
+I wrote
 
 0:09:10.550,0:09:14.420
-that's okay that's where it's going to
-see the some i could use some kind of
+so that's okay that works. We need to save it somewhere.
+I could use some kind of
 
 0:09:14.420,0:09:15.470
-the date of his
+a database
 
 0:09:15.470,0:09:20.520
-but i want to make it the more simple
-instance so light liberties adjacent
+but I want to make it the more simple
+in this case. I am going to use a JSON
 
 0:09:20.520,0:09:21.180
-father
+file.
 
 0:09:21.180,0:09:22.980
-that there is a giant file
+So where is this JSON file?
 
 0:09:22.980,0:09:25.700
-we have to define it in the computer age
+We have to define it 
+in the configuration file.
 
 0:09:25.700,0:09:28.540
-in the corporation for talking to her
+In the configuration file I type
+in dwimmer
 
 0:09:28.540,0:09:30.300
 which is the name of the application
 
 0:09:30.300,0:09:35.700
-and and and digby morgan some of the
-civil debate authentication
+and below this I'll save all the 
+data of the application
 
 0:09:35.700,0:09:37.890
-cynical
+And then let's say
 
 0:09:37.890,0:09:43.340
-film drizzle
+I call the field json and put there
 
 0:09:43.340,0:09:45.620
-they will do it for
+the name of the file.
 
 0:09:45.620,0:09:49.130
-there are going to go i'm going to civil
-debate and so uh... this
+Where I am going to save all the data.
 
 0:09:49.130,0:09:52.540
-this fall disputes
+So this file is going to be my database.
 
 0:09:52.540,0:09:55.310
-and how do i get the cities uh...
+and how do I get the data
 
 0:09:55.310,0:09:57.680
-controls it
+I type in config
 
 0:09:57.680,0:10:01.490
-functioned as the old configuration data
+this function gets all the configuration data
 
 0:10:01.490,0:10:05.200
-if you're a kentucky dirty thirties
+and here I can type in the keys
 
 0:10:05.200,0:10:10.250
-and students so i guess this is the name
-of the father of your
+and it has two keys. This is the name
+of the file where your
 
 0:10:10.250,0:10:11.600
-it is going to be
+data is going to be.
 
 0:10:11.600,0:10:15.960
-so i put it into retrieval just a little
-didn't make it simple
+So I put it into a variable just a have it,
+make it simple
 
 0:10:15.960,0:10:17.569
-they have been very well
+I put in a variable.
 
 0:10:17.569,0:10:22.810
-that i'd need to review the data from
-that followed silhouette
+Then I need to read in the data from
+that file. So I read
 
 0:10:22.810,0:10:27.960
-typing reach far and the name of the
-five tugboat distinctiveness variable
+typing read_file and put this the name of the
+into a variable
 
 0:10:27.960,0:10:31.700
-but this data is going to be jettisoned
+but this data is going to be json.
 right because there will be savior
 
 0:10:31.700,0:10:33.510
