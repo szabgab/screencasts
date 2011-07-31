@@ -25,9 +25,9 @@ need the translations.
 
 
 What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
-English: done, pls review       (szabgab - Gabor Szabo)
-Russian: done, pls review       (ash - Andrew Shitov)
-
+English: done                   (szabgab - Gabor Szabo)
+Russian: done                   (ash     - Andrew Shitov http://andy.sh/ )
+Korean:  done                   (keedi   - Keedi Kim     http://perl.kr/ )
 
 Modern Perl Tutorial part 04      http://www.youtube.com/watch?v=U2B5ZD59L7g   2011.07.20_modern_perl_tutorial_04/
 English: na                       (No automatic transcription from Google)
@@ -56,7 +56,7 @@ The File menu of Padre v0.84      http://www.youtube.com/watch?v=eCpxUA1vIuM   2
 English: na                       (No automatic transcription from Google)
 
 Building a blog engine using Perl Dancer   http://www.youtube.com/watch?v=NGX5pgKWVoc 2011.06.29_building_blog_with_dancer/
-English: done, pls review         (szabgab - Gabor Szabo)
+English: done                     (szabgab - Gabor Szabo)
 
 Fetching data from YouTube using Perl   http://www.youtube.com/watch?v=a03jf68iz-M   2011.06.26_fetching_data_from_youtube/
 English: bad                      (original from youtube, has to be fixed!)
@@ -66,6 +66,8 @@ English: bad                      (original from youtube, has to be fixed!)
 
 Using the built-in debugger of Perl as REPL   http://www.youtube.com/watch?v=pL_nDlXNqLY   2011.06.22_using_the_built_in_debugger_as_repl/
 English: bad                      (original from youtube, has to be fixed!)
+Russian: done                     (mishin, Nikolay Mishin)
+
 
 Padre on Strawberry Perl v5       http://www.youtube.com/watch?v=MKXtGgWi7qs       2011.06.20_padre_on_strawberry_perl/
 English: bad                      (original from youtube, has to be fixed!)
