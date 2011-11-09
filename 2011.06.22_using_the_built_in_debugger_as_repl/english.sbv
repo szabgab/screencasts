@@ -10,132 +10,137 @@ debugger of perl
 as a REPL (Read Eval Print Loop)
 
 0:00:12.389,0:00:15.339
-so we don't know leading to debugging
- a perl script
+so we don't needed to debugging 
+a perl script
 
 0:00:15.339,0:00:19.559
-hospitable insults and it's going to
-talk a little lurks
+but instead of exploring 
+how perl works
+
 
 0:00:19.559,0:00:22.019
-so we go to the
+so we go to the command line
 
 0:00:22.019,0:00:24.060
-as you know you can try to control
+as you know you can type in 
+ perl -e 'print 42'
+
 
 0:00:24.060,0:00:28.079
-they might use the and then there's some
-kind of control called
+then some kind a perl code
 
 0:00:28.079,0:00:31.939
-trees and executing we see that uh...
-for it was pretty your
+if you execute it you see that
+ 42 was printed here
 
 0:00:31.939,0:00:35.380
-say maybe you could
+the same way you can 
+just give one 
+
 
 0:00:35.380,0:00:37.040
-as the value
+as the value perl -e 1
 
 0:00:37.040,0:00:40.660
-which is an anti screen ente script
-basically is the right and doesn't
+which is enter script
+basically so you run it and doesn't
 
 0:00:40.660,0:00:41.770
-listen couples
+nothing happens
 
 0:00:41.770,0:00:45.090
-abt what to do is you can't debugging
+and what we do is you can debug it
 
 0:00:45.090,0:00:47.120
-it's mother's day
+with -d perl -d -e 1 
 
 0:00:47.120,0:00:52.770
-lunch debugger but because there you can
-it put to better news a reflects on all
+and then lunch debugger but because there you can
+ put together with a flex 
 
 0:00:52.770,0:00:57.420
-of us who normally people just right
-wingers do you want
+on the command line so normally people just right
+ perl -de1
+
 
 0:00:57.420,0:00:58.750
 and then when i run it
 
 0:00:58.750,0:01:04.360
-it opens to the bar and disney that
-prompted executed the them
+it opens the debugger and gives me the prompt
+ and executed them
 
 0:01:04.360,0:01:05.540
-and ben
+empty script and then
 
-0:01:05.540,0:01:09.200
-not weaken typing an equal comand here
-or use thereof between so the people
+0:01:05.540,0:01:10.080
+now we can type in any perl command here
+or use there the truth of the debugger
 
-0:01:09.200,0:01:10.080
-here
 
 0:01:10.080,0:01:12.299
-so for example i can't i can't print
+so for example i can type in print 42
 
 0:01:12.299,0:01:16.230
-forty-two and print out that the number
-forty two
+and print out that the number forty two
 
 0:01:16.230,0:01:19.920
-i concede orx too close to forty two
+or i can say dollar x equal to 42
 
 0:01:19.920,0:01:23.940
-and then as signs that the value
-forty-two list either for variable
+and then assigns the value
+forty-two to the scheduler variable
+$x=42
 
 0:01:23.940,0:01:24.910
-i condemn
+i can then use
 
 0:01:24.910,0:01:30.660
-accused of print function again between
-adult or i can use to be looking to
+the print function again to print
+ it out or i can can use the builtin tool
 
 0:01:30.660,0:01:31.830
-held in the bible
+of the debugger which is the
 
 0:01:31.830,0:01:36.040
-pictures of people instantly of the the
-same values
+p command to print out the same value
 
 0:01:36.040,0:01:38.950
-certainly assess and evaluate religious
-killer
+the same way as i assign the value to the 
+scheduler i can also create 
+
 
 0:01:38.950,0:01:42.350
-i could also created raise so for
-example
+an array so for example
 
 0:01:42.350,0:01:47.210
 here are the names
 
 0:01:47.210,0:01:48.900
-bwz
+Foo Bar and Baz
+@names=qw(Foo Bar Baz)
 
 0:01:48.900,0:01:52.740
-and i can uh... printout of the names
+and then i can printout the names
 
 0:01:52.740,0:01:54.540
-is recovering from a
+with the regular print command
+print @names
 
 0:01:54.540,0:01:57.550
-obviously at this is not really good it
+but obviously this is not really good it
 doesn't look good
 
 0:01:57.550,0:01:58.520
-it was
+i can put
 
 0:01:58.520,0:02:00.659
 quotation marks around it
+print "@names"
 
 0:02:00.659,0:02:04.420
-and if it's a big matter because not
-only today or spaces of
+and it looks a bit better
+because now it there are spaces
 
 0:02:04.420,0:02:08.569
 close to print out this way it's
