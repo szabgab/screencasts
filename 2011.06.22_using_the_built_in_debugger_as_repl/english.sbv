@@ -143,295 +143,274 @@ and it looks a bit better
 because now it there are spaces
 
 0:02:04.420,0:02:08.569
-close to print out this way it's
-probably all nuclear matter you are
+but once you to print out this way it's
+probably unclear matter you are
 
 0:02:08.569,0:02:14.869
-veteran of this x names contains c
-values or when value is stays in it
+show array @names contains three
+values or one value with spaces in it
 
 0:02:14.869,0:02:18.290
 so a better way to to see what's inside
-the every
+in the array
 
 0:02:18.290,0:02:20.489
-is to use the extreme
+is to use the x tool
 
 0:02:20.489,0:02:22.309
-often
+of the
 
 0:02:22.309,0:02:24.159
-debugger
+debugger x \@names
 
 0:02:24.159,0:02:28.579
-and if you could uh... at a reference to
-discourage so the state you can print
+and give it a reference to
+this array so this way it will print
 
 0:02:28.579,0:02:32.429
-out this is a reference and they could
-preprint other indexes
+out this is the reference and it will
+print out the indexes
 
 0:02:32.429,0:02:36.439
-the uh... the values hussein where you
-can they create a hatch
+and the values the same way you
+can they create a hash
 
-0:02:36.439,0:02:38.979
-so use to use you have a m
-
-0:02:38.979,0:02:40.309
-after name
-
-0:02:40.309,0:02:42.529
-which is the food
-
-0:02:42.529,0:02:44.799
-and uh...
+0:02:36.439,0:02:44.799
+so use %h=(fname => 'Foo', lname => 'Bar')
 
 0:02:44.799,0:02:45.949
-spending
+
 
 0:02:45.949,0:02:49.089
-churches barnett's lee
+
 
 0:02:49.089,0:02:53.709
-just for consistency and and dot we have
-a hash and david kim
+and we have a hash and then
 
 0:02:53.709,0:02:56.250
-different about the content of these
-haitians
+we can print out of the hash
 
 0:02:56.250,0:02:58.319
-is the same too will the x_
+ x \%h with the same tools x
 
 0:02:58.319,0:03:00.059
-at a fugitive
+and it will print out that the hash reference
 
 0:03:00.059,0:03:04.649
-pink out that's ahead for friends and
-the keys and uh... the relative for the
+and the keys and the relative values
 
 0:03:04.649,0:03:05.629
-respective
+
 
 0:03:05.629,0:03:06.859
-italians
+
 
 0:03:06.859,0:03:09.170
-it also person so for example
+you can also do other things for example
 
 0:03:09.170,0:03:10.419
-you can do
+you can
 
 0:03:10.419,0:03:13.159
-played is uh... find out how
+play with, find out how
 
 0:03:13.159,0:03:16.029
-the bush function restorative potion
+the push function works 
 
 0:03:16.029,0:03:20.669
-and engineering is same moves
+say push @names, 'Moose' and then
 
 0:03:20.669,0:03:23.479
-you go back
+you go back x \@names
 
 0:03:23.479,0:03:27.659
-and print out the content of their rate
+and print out the content of the array
 and you can see that actually
 
 0:03:27.659,0:03:31.079
-uh... this
+this array
 
 0:03:31.079,0:03:34.759
-got longer and others or pseudonyms for
-arguing there
+got longer another is also the 'Moose' value in there
 
 0:03:34.759,0:03:38.729
-so you can explorer program coordinating
-the debugger
+so you can explorer perl code within the debugger
 
 0:03:38.729,0:03:42.869
-and uh... sometimes using the pro-ltte
-problems themselves sometimes using the
+and sometimes using the perl command themselves sometimes using the
 
 0:03:42.869,0:03:44.270
-tools over the order
+tools of the debugger
 
-0:03:44.270,0:03:45.619
-like printer
-
-0:03:45.619,0:03:47.089
-and x
+0:03:44.270,0:03:47.089
+like print and x
 
 0:03:47.089,0:03:51.399
-it also is there one comes from here so
-you can see see you see that you did for
+you can also use the module from here so
+you can say: 'use Cwd' 
 
 0:03:51.399,0:03:52.319
-example
+for example
 
 0:03:52.319,0:03:55.040
-if you knew of use eternal peace module
+it will use, load this module
 
 0:03:55.040,0:03:58.969
-uh... these old functions and then you
-can call the nz
+with all the functions and then you
+can call the 
 
 0:03:58.969,0:04:00.810
-cdw dysfunctional thing
+cwd function of it
 
 0:04:00.810,0:04:03.109
-and there for me to be calling you
+and obviously calling it doesn't
 
 0:04:03.109,0:04:06.259
-shortlisting because execution returns
+show anything because execution returns
 the value
 
 0:04:06.259,0:04:09.549
 so if you want to see the result of this
-and mrs
+ than say 'p cwd'
 
 0:04:09.549,0:04:14.909
-print of the result which is just uh...
+print out the result which is just the
 current working directory
 
 0:04:14.909,0:04:16.920
 you could also used another module
 
 0:04:16.920,0:04:20.069
-for example used raising
+for example use basename
 
 0:04:20.069,0:04:24.150
-filed his name
+ 'use File::Basename'
 
 0:04:24.150,0:04:29.889
-and uh... it has a busy may have
-functioned
+and it has a basename function
 
 0:04:29.889,0:04:33.740
-diverse consider the return value of
-steve
+called 'p basename(cwd)' and let's give return value of
+cwd to it
 
 0:04:33.740,0:04:35.209
-w_j_e_t_
+
 
 0:04:35.209,0:04:39.370
-and those things out
+and that's print out
 
 0:04:39.370,0:04:40.580
 and i have to
 
 0:04:40.580,0:04:45.530
-learned how to spell and that it just
-brings out the the the basin a move that
+learned how to spell and the it just
+print out the base name of that path
 
 0:04:45.530,0:04:47.090
-uh... prosecutor
+which is 
 
 0:04:47.090,0:04:50.299
-the last part of uh... from france
+the last part a path
 
 0:04:50.299,0:04:54.259
-what if you want to see how this works
-so you can put a brake for him
+but what if you want to see how this works
+so you can put a breakepoint
 
 0:04:54.259,0:04:55.099
-game
+
 
 0:04:55.099,0:04:56.330
 on this function
 
 0:04:56.330,0:04:59.909
-so you want to put up three points on
-the file
+so you want to put a breakepoint on the file
 
 0:04:59.909,0:05:02.059
-there is something
+'b File::Basename::basename'
 
 0:05:02.059,0:05:03.449
-basename
+
 
 0:05:03.449,0:05:04.620
-is function
+function
 
 0:05:04.620,0:05:09.019
-and then if i run again this is the big
-letter of the
+and then if i run again this is the b
+letter 
 
 0:05:09.019,0:05:11.050
-than if i run again distillate
+than if i run again this code
 
 0:05:11.050,0:05:13.169
-then x's stopped at that point in
+then it will stop at that point when
 
 0:05:13.169,0:05:14.840
-we ensure that function
+we enter that function
 
 0:05:14.840,0:05:18.919
-is the basement function into the
-business functions of the file these
+the basename function of the file 
 
 0:05:18.919,0:05:20.169
-name class
+Basename class 'File::Basename::basename(C:/Strawberry/perl/lib/File/Basename.pm:215):'
 
 0:05:20.169,0:05:25.050
-inches implementing this file that grown
-under two hundred fifty eight
+witch is implemented in this file row number
+two hundred fifteen
 
 0:05:25.050,0:05:26.740
-you can look at look around
+you can look around with 'l'
 
 0:05:26.740,0:05:32.889
-isbell and see the latter rest of the
-cold or even the look around from with
+you see the rest of the code or 
+you can look around from
 
 0:05:32.889,0:05:35.910
-zero and two hundred to two hundred
+'l 200-220'
 
 0:05:35.910,0:05:37.789
-isn't he
+
 
 0:05:37.789,0:05:39.830
-and you see uh... some
+and you see
 
 0:05:39.830,0:05:41.590
-reliance uniformly
+a some lines here
 
 0:05:41.590,0:05:43.020
-and
+that a probably
 
 0:05:43.020,0:05:47.719
-not called for so there are not printed
-and then the business function
+not could part so there are not printed
+and then the basename function
 
 0:05:47.719,0:05:49.229
-and uh... which works
+and the how it works
 
 0:05:49.229,0:05:51.849
 so you can use a basically
 
 0:05:51.849,0:05:53.899
-any to you would like uh...
+any tool you would like 
 
 0:05:53.899,0:05:57.569
-we didn't delivering to explore
-profusely
+within the debugger and you can explore
+ perl this way
 
 0:05:57.569,0:05:59.409
-at the end using q
+and the end using 'q'
 
 0:05:59.409,0:06:01.330
-invested in people
+will exit the debugger
 
 0:06:01.330,0:06:03.059
-i don't like uh...
+and if you like the
 
 0:06:03.059,0:06:04.680
-tutorial villain
+tutorial please subscribe
 
 0:06:04.680,0:06:08.460
-and the society's tells solicits
+to the channel and come back later
 
 0:06:08.460,0:06:09.280
-so
+
 
