@@ -8,8 +8,14 @@ In each subdirectory you will find a file called english.sbv
 which is the English caption file. It is based on the automatic
 transcription that YouTube generates and then it is improved. Hopefully.
 
-(Most of these files are still the original automatic transcription that
-need a lot of improvement. That would be a lot of help too.)
+Before attempting the translation of any of the screencasts we first
+have to make sure the English transcriptions are good.
+
+Some were already manually fixed (that's indicated next to each entry),
+those can already be translated.
+
+Most of them are still the original automatic transcription.
+Those need a lot of improvement before they can be used as caption.
 
 Each translation should have its own .sbv file with the name of the
 language being the filename.
@@ -19,9 +25,10 @@ The name of the translators should be added to this readme file.
 If you are interested in translating any of these screencasts,
 please get in contact with me so I can list you in this file.
 
-Look at the status of each video. There are two that already have real English subtitles
-and one has Russien. All the rest need English subtitlse first and once that's done, they 
-need the translations.
+Look at the status of each video. There are two that
+already have real English subtitles and one has Russian.
+All the rest need English subtitles first and once that's
+done, they need the translations.
 
 
 What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
@@ -75,7 +82,7 @@ English: bad                      (original from youtube, has to be fixed!)
 
 Using the built-in debugger of Perl  http://www.youtube.com/watch?v=jiYZcV3khdY    2011.06.15_using_the_built_in_debugger/
 English: bad                      (original from youtube, has to be fixed!)
-   
+
 -----------------
 
 older screencasts will be listed later.
