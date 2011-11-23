@@ -1,49 +1,46 @@
 0:00:04.029,0:00:08.730
 Hi and welcome back to the channel
-this time i'm going to show you 
-how to using builtin
+this time I'm going to show you
+how to use the built-in
 
 0:00:08.730,0:00:10.989
-debugger of perl 
+debugger of perl
 
 0:00:10.989,0:00:12.389
 as a REPL (Read Eval Print Loop)
 
 0:00:12.389,0:00:15.339
-so we don't needed to debugging 
+so not really to debug
 a perl script
 
 0:00:15.339,0:00:19.559
-but instead of exploring 
+but instead of exploring
 how perl works
-
 
 0:00:19.559,0:00:22.019
 so we go to the command line
 
 0:00:22.019,0:00:24.060
-as you know you can type in 
- perl -e 'print 42'
-
+as you know you can type in
 
 0:00:24.060,0:00:28.079
+perl -e 'print 42'
 then some kind a perl code
 
 0:00:28.079,0:00:31.939
 if you execute it you see that
- 42 was printed here
+42 was printed here
 
 0:00:31.939,0:00:35.380
-the same way you can 
-just give one 
-
+the same way you can
+just give 1
 
 0:00:35.380,0:00:37.040
-as the value perl -e 1
+as the value
 
 0:00:37.040,0:00:40.660
-which is enter script
-basically so you run it and doesn't
+which is an empty script
+basically so you run it and doesn't...
 
 0:00:40.660,0:00:41.770
 nothing happens
@@ -52,52 +49,50 @@ nothing happens
 and what we do is you can debug it
 
 0:00:45.090,0:00:47.120
-with -d perl -d -e 1 
+with -d
 
 0:00:47.120,0:00:52.770
-and then lunch debugger but because there you can
- put together with a flex 
+and then lunch the debugger but because there you can
+put together with a flex
 
 0:00:52.770,0:00:57.420
-on the command line so normally people just right
- perl -de1
+on the command line so normally people just write
+-de1
 
 
 0:00:57.420,0:00:58.750
-and then when i run it
+and then when I run it
 
 0:00:58.750,0:01:04.360
 it opens the debugger and gives me the prompt
- and executed them
+ and executed the
 
 0:01:04.360,0:01:05.540
 empty script and then
 
 0:01:05.540,0:01:10.080
 now we can type in any perl command here
-or use there the truth of the debugger
-
+or use the tools of the debugger
 
 0:01:10.080,0:01:12.299
-so for example i can type in print 42
+so for example I can type in print 42
 
 0:01:12.299,0:01:16.230
-and print out that the number forty two
+and print out that the number 42
 
 0:01:16.230,0:01:19.920
-or i can say dollar x equal to 42
+or I can say $x equal to 42
 
 0:01:19.920,0:01:23.940
 and then assigns the value
-forty-two to the scheduler variable
-$x=42
+42 to the scalar variable
 
 0:01:23.940,0:01:24.910
-i can then use
+I can then use
 
 0:01:24.910,0:01:30.660
 the print function again to print
- it out or i can can use the builtin tool
+ it out or I can can use the built-in tool
 
 0:01:30.660,0:01:31.830
 of the debugger which is the
@@ -106,8 +101,8 @@ of the debugger which is the
 p command to print out the same value
 
 0:01:36.040,0:01:38.950
-the same way as i assign the value to the 
-scheduler i can also create 
+the same way as I assigned the value to the
+scaler I can also create
 
 
 0:01:38.950,0:01:42.350
@@ -118,41 +113,38 @@ here are the names
 
 0:01:47.210,0:01:48.900
 Foo Bar and Baz
-@names=qw(Foo Bar Baz)
 
 0:01:48.900,0:01:52.740
-and then i can printout the names
+and then I can print out the names
 
 0:01:52.740,0:01:54.540
 with the regular print command
-print @names
 
 0:01:54.540,0:01:57.550
-but obviously this is not really good it
-doesn't look good
+but obviously this is not really good.
+It doesn't look good
 
 0:01:57.550,0:01:58.520
-i can put
+I can put
 
 0:01:58.520,0:02:00.659
 quotation marks around it
-print "@names"
 
 0:02:00.659,0:02:04.420
 and it looks a bit better
-because now it there are spaces
+because now there are spaces
 
 0:02:04.420,0:02:08.569
 but once you to print out this way it's
-probably unclear matter you are
+probably unclear whether you are
 
 0:02:08.569,0:02:14.869
-show array @names contains three
-values or one value with spaces in it
+whether this @names contains 3
+values or 1 value with spaces in it
 
 0:02:14.869,0:02:18.290
-so a better way to to see what's inside
-in the array
+so a better way to see what's inside
+the array
 
 0:02:18.290,0:02:20.489
 is to use the x tool
@@ -161,67 +153,67 @@ is to use the x tool
 of the
 
 0:02:22.309,0:02:24.159
-debugger x \@names
+debugger
 
 0:02:24.159,0:02:28.579
-and give it a reference to
-this array so this way it will print
+and give a reference to
+this array. So this way it will print
 
 0:02:28.579,0:02:32.429
-out this is the reference and it will
+out this is a reference and it will
 print out the indexes
 
 0:02:32.429,0:02:36.439
-and the values the same way you
-can they create a hash
+and the values. The same way you
+can create a hash
 
 0:02:36.439,0:02:44.799
-so use %h=(fname => 'Foo', lname => 'Bar')
+so you have fname which is Foo
 
 0:02:44.799,0:02:45.949
-
+and lname which is Bar, let's say
 
 0:02:45.949,0:02:49.089
-
+just for the consistency
 
 0:02:49.089,0:02:53.709
-and we have a hash and then
+and now we have a hash and
 
 0:02:53.709,0:02:56.250
-we can print out of the hash
+we can print out the content of this hash
 
 0:02:56.250,0:02:58.319
- x \%h with the same tools x
+with the same tools, the x
 
 0:02:58.319,0:03:00.059
-and it will print out that the hash reference
+and it will print out that it is a hash reference
 
 0:03:00.059,0:03:04.649
-and the keys and the relative values
+and the keys and the ...
 
 0:03:04.649,0:03:05.629
+respective values
 
 
 0:03:05.629,0:03:06.859
 
-
 0:03:06.859,0:03:09.170
-you can also do other things for example
+You can also do other things, so for example
 
 0:03:09.170,0:03:10.419
 you can
 
 0:03:10.419,0:03:13.159
-play with, find out how
+play with ... find out how
 
 0:03:13.159,0:03:16.029
-the push function works 
+the push function works
 
 0:03:16.029,0:03:20.669
 say push @names, 'Moose' and then
 
 0:03:20.669,0:03:23.479
-you go back x \@names
+you go back
 
 0:03:23.479,0:03:27.659
 and print out the content of the array
@@ -231,33 +223,33 @@ and you can see that actually
 this array
 
 0:03:31.079,0:03:34.759
-got longer another is also the 'Moose' value in there
+got longer an now there is also the 'Moose' value in there.
 
 0:03:34.759,0:03:38.729
-so you can explorer perl code within the debugger
+So you can explore perl code within the debugger
 
 0:03:38.729,0:03:42.869
-and sometimes using the perl command themselves sometimes using the
+and sometimes using the perl commands themselves and
 
 0:03:42.869,0:03:44.270
-tools of the debugger
+sometimes using the tools of the debugger
 
 0:03:44.270,0:03:47.089
 like print and x
 
 0:03:47.089,0:03:51.399
-you can also use the module from here so
-you can say: 'use Cwd' 
+You can also use modules from here so
+you can say: 'use Cwd'
 
 0:03:51.399,0:03:52.319
 for example
 
 0:03:52.319,0:03:55.040
-it will use, load this module
+it will use ... load this module
 
 0:03:55.040,0:03:58.969
 with all the functions and then you
-can call the 
+can call the
 
 0:03:58.969,0:04:00.810
 cwd function of it
@@ -266,12 +258,12 @@ cwd function of it
 and obviously calling it doesn't
 
 0:04:03.109,0:04:06.259
-show anything because execution returns
+show anything because executes and returns
 the value
 
 0:04:06.259,0:04:09.549
 so if you want to see the result of this
- than say 'p cwd'
+ than let's say 'p cwd'
 
 0:04:09.549,0:04:14.909
 print out the result which is just the
@@ -281,65 +273,66 @@ current working directory
 you could also used another module
 
 0:04:16.920,0:04:20.069
-for example use basename
+for example use Basename
 
 0:04:20.069,0:04:24.150
- 'use File::Basename'
+File::Basename
 
 0:04:24.150,0:04:29.889
 and it has a basename function
 
 0:04:29.889,0:04:33.740
-called 'p basename(cwd)' and let's give return value of
+called basename, and let's give the return value of
 cwd to it
 
 0:04:33.740,0:04:35.209
 
 
 0:04:35.209,0:04:39.370
-and that's print out
+and let's print out
 
 0:04:39.370,0:04:40.580
-and i have to
+and I have to
 
 0:04:40.580,0:04:45.530
-learned how to spell and the it just
-print out the base name of that path
+learn how to spell and the it just
+prints out the base name
 
 0:04:45.530,0:04:47.090
-which is 
+of that path, which is
 
 0:04:47.090,0:04:50.299
-the last part a path
+the last part of a path
 
 0:04:50.299,0:04:54.259
 but what if you want to see how this works
-so you can put a breakepoint
+so you can put
 
 0:04:54.259,0:04:55.099
+a breakpoint
 
 
 0:04:55.099,0:04:56.330
-on this function
+on that function
 
 0:04:56.330,0:04:59.909
-so you want to put a breakepoint on the file
+so you want to put a breakpoint on the file
 
 0:04:59.909,0:05:02.059
-'b File::Basename::basename'
+File/Basename
 
 0:05:02.059,0:05:03.449
-
+basename
 
 0:05:03.449,0:05:04.620
 function
 
 0:05:04.620,0:05:09.019
-and then if i run again this is the b
-letter 
+and then if I run again, this is the b
+letter
 
 0:05:09.019,0:05:11.050
-than if i run again this code
+than if I run again this code
 
 0:05:11.050,0:05:13.169
 then it will stop at that point when
@@ -348,24 +341,24 @@ then it will stop at that point when
 we enter that function
 
 0:05:14.840,0:05:18.919
-the basename function of the file 
+the basename function of the file
 
 0:05:18.919,0:05:20.169
-Basename class 'File::Basename::basename(C:/Strawberry/perl/lib/File/Basename.pm:215):'
+Basename class
 
 0:05:20.169,0:05:25.050
 witch is implemented in this file row number
-two hundred fifteen
+two hundred fifteen.
 
 0:05:25.050,0:05:26.740
-you can look around with 'l'
+You can look around with 'l'
 
 0:05:26.740,0:05:32.889
-you see the rest of the code or 
+you see the rest of the code or
 you can look around from
 
 0:05:32.889,0:05:35.910
-'l 200-220'
+let's say line 200-220
 
 0:05:35.910,0:05:37.789
 
@@ -377,33 +370,33 @@ and you see
 a some lines here
 
 0:05:41.590,0:05:43.020
-that a probably
+that are probably
 
 0:05:43.020,0:05:47.719
-not could part so there are not printed
+not code part so they are not printed
 and then the basename function
 
 0:05:47.719,0:05:49.229
-and the how it works
+and how it works.
 
 0:05:49.229,0:05:51.849
-so you can use a basically
+So you can use a basically
 
 0:05:51.849,0:05:53.899
-any tool you would like 
+any tool you would like
 
 0:05:53.899,0:05:57.569
 within the debugger and you can explore
- perl this way
+ Perl this way.
 
 0:05:57.569,0:05:59.409
-and the end using 'q'
+At the end using 'q'
 
 0:05:59.409,0:06:01.330
-will exit the debugger
+will exit the debugger.
 
 0:06:01.330,0:06:03.059
-and if you like the
+I hope you liked the
 
 0:06:03.059,0:06:04.680
 tutorial please subscribe
