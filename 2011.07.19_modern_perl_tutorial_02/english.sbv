@@ -1,92 +1,90 @@
 0:00:00.919,0:00:02.660
-i'd welcome back to the table
+Hey! Welcome back to the channel!
 
 0:00:02.660,0:00:05.530
-the style of the two at talk about
+This time I'm going to talk about
 
 0:00:05.530,0:00:08.060
-data structures in their perot
+data structures in Perl
 
 0:00:08.060,0:00:08.809
-specially dude
+especially this
 
 0:00:08.809,0:00:11.989
-presentation of the above peacekeepers
+presentation will be about scalars.
 
 0:00:11.989,0:00:16.669
-so you can see pocket heroes you get to
-the development version of it
+So you can see Padre here. This is
+a development version of it.
 
 0:00:16.669,0:00:21.309
-uh... the uh... the first thing go storm
-continue that create and you'll pull
+And the first single thing to do
+is create a new
 
 0:00:21.309,0:00:22.920
-typescript
+Perl 5 script
 
 0:00:22.920,0:00:26.239
-just uh... keybank inayat candy
+It just has a then the
 
 0:00:26.239,0:00:28.949
-you statements
+"use" statements
 
 0:00:28.949,0:00:32.580
-carol happens that's really uh... types
-of fate
+So, Perl has three types of
 
 0:00:32.580,0:00:36.350
-deconstruct rowers those killers parade
-contractions
+data structures scalars, arrays
+and hashes
 
 0:00:36.350,0:00:38.499
-units guitars can contain either
+scalars can contain either
 
 0:00:38.499,0:00:42.869
-number or a string of conducting a value
-all references to one of the complex are
+a number or a string, a string of a single value
+or reference to one of the complex 
 
 0:00:42.869,0:00:44.910
-good at the pictures
+data structures
 
 0:00:44.910,0:00:48.410
-i want to talk about the uh... that
-uh... literal
+but we will talk about it
+later on.
 
 0:00:48.410,0:00:50.310
-i each it
+Each
 
 0:00:50.310,0:00:53.140
-data structure heavy balloons back to
-speak
+data structure has its own specific
 
 0:00:53.140,0:00:54.060
-fighting it
+sign
 
 0:00:54.060,0:00:55.379
 politicos hijo
 
 0:00:55.379,0:00:58.850
-richard that first character of the name
-of the carnival
+which is the first character of the name
+of the variable
 
 0:00:58.850,0:01:03.550
-sewing killers to help the door signs
-interest you have to ask type turning
+so in scalars you have dollar($) sign ,
+in arrays you have at(@) sign, and in
 
 0:01:03.550,0:01:08.260
-hashes which is also called the third
-experience or look-up tables
+hashes which is also called dictionaries
+or look-up tables
 
 0:01:08.260,0:01:10.960
-uh... are the right person to talk
+are the percent sign;
 
 0:01:10.960,0:01:13.250
-but we're going to talk about some
-speakers
+Now we're going to talk about 
+scalars
 
 0:01:13.250,0:01:17.799
-and very bold overexposure to every road
-will restore to the door sign
+variable, every scalar variable
+always starts with a dollar($) sign
 
 0:01:17.799,0:01:18.670
 and then
@@ -96,265 +94,264 @@ letters and numbers
 
 0:01:20.620,0:01:25.010
 and underscore so for example you can
-have it ready able like this
+have a variable like this
 
 0:01:25.010,0:01:26.390
-ordher
+or
 
 0:01:26.390,0:01:28.020
-if he were brought to you
+a single value
 
 0:01:28.020,0:01:30.049
 or you can have a
 
 0:01:30.049,0:01:31.880
-along the name
+long name
 
 0:01:31.880,0:01:35.509
-and dot com http www kidnappers and
+that has lowerkeys letters
 
 0:01:35.509,0:01:38.770
-fighter underscore between their divers
+and underscore between words
 
 0:01:38.770,0:01:39.689
 or
 
 0:01:39.689,0:01:42.040
-then you can have it
+you can have
 
 0:01:42.040,0:01:44.020
-different
+This Is
 
 0:01:44.020,0:01:46.160
-tolong named
+A Long Name
 
 0:01:46.160,0:01:47.860
-uh... this trial do it
+- this style, although
 
 0:01:47.860,0:01:48.990
-full committee
+the community
 
 0:01:48.990,0:01:52.800
-prefers that it can be four mime-version
-learning how to learn a lot more
+prefers the former version
+where you have all lowerkeys
 
 0:01:52.800,0:01:54.229
-appealing
+names
 
 0:01:54.229,0:01:57.230
-and uh... underscores between two
+and underscores between the
 variables
 
 0:01:57.230,0:02:00.690
-not to be told you you can constrict
+now, becouse you are using "use strict"
 
 0:02:00.690,0:02:05.439
-ideal we've had to be clear or very able
-to do you think the mighty versatile
+You always have to declare all variables
+using the "my" key word
 
 0:02:05.439,0:02:07.360
-yeah i i think there might very well
+so, I declare my variable
 
 0:02:07.360,0:02:08.719
-to an end
+my name
 
 0:02:08.719,0:02:11.359
-and put in
+and put in "foo"
 
 0:02:11.359,0:02:14.319
-and that i can print out
+and than i can print out, sorry,
 
 0:02:14.319,0:02:17.949
-i can bring coaxed that variable
+i can print out that variable
 
 0:02:17.949,0:02:19.859
-thirty-five press now expired
+so if I press now F5
 
 0:02:19.859,0:02:20.969
-there too
+then it'll...
 
 0:02:20.969,0:02:22.989
-need first of all to see the script
+I need first of all to save the script
 
 0:02:22.989,0:02:25.059
-sort of complete script p l
+so i'll just call it script.pl
 
 0:02:25.059,0:02:26.500
-uh... handy too
+and it will
 
 0:02:26.500,0:02:30.309
-they open the secretary will be ready to
-print out the result full
+open a separate window wher it will
+print out the result "foo"
 
 0:02:30.309,0:02:34.680
-and just something that uh... windows
-but for me
+and that's something that this window
+does for me
 
 0:02:34.680,0:02:38.989
-this is the baby for the first at the
-clearly the grave of my and then you
+so this is the way. The first thing when
+we declare a variable is "my" and then we
 
 0:02:38.989,0:02:40.260
-find a
+assign
 
 0:02:40.260,0:02:43.379
-to discern ible value and that we can
+to this variable a value and then we can
 print it out
 
 0:02:43.379,0:02:44.460
 you don't have to
 
 0:02:44.460,0:02:46.669
-assign immediately so he could
+assign immediately so we could
 
 0:02:46.669,0:02:51.739
-it'd be committed variable ten badly
-their own assign a value prior on this
+declare the variable and then
+later on assign a value. If i run this
 
 0:02:51.739,0:02:55.109
-i get became result
+I get the same result
 
 0:02:55.109,0:02:59.699
-normally prefer the first version so we
-think that the logic of the cold today
+normally we prefer the first version so if
+the logic of the code allows it
 
 0:02:59.699,0:03:01.709
-unloaded tongue-in-cheek
+then you should
 
 0:03:01.709,0:03:05.689
-immediately had become reaction time or
-do you find that value
+immediately, at the declaration time 
+assign a value
 
 0:03:05.689,0:03:10.189
-but that does not always possible
-severity that they really have to
+but that's not always possible
+so in that case you have to
 
 0:03:10.189,0:03:14.739
-first declared a variable interest rate
-on you could if i can tell you
+first declare a variable and just later
+on you can assign a value
 
 0:03:14.739,0:03:16.779
-now what happens to a value
+now what happens to a value if..
 
 0:03:16.779,0:03:20.159
-uh... beneath modified if it's not uh...
+when it's not defined, it
 
 0:03:20.159,0:03:23.569
-don't have a value for storage at the
-community
+doesn't have a value, so 
+i just declare it
 
 0:03:23.569,0:03:26.579
-it's difficult to tell you the clue
-under
+it holds a value that's called "undef"
 
 0:03:26.579,0:03:31.649
-undefined it's good to go to mull and
-uh...
+it's undefined it's
+similar to "NULL" in..
 
 0:03:31.649,0:03:32.649
-txt
+
 
 0:03:32.649,0:03:36.509
-if you look and all indicative of the
-but it's like a different behavior
+It's similar to "NULL" in databases
+but has slightly different behavior
 
 0:03:36.509,0:03:39.890
-so for for a couple of the contract with
-her death value
+so for for example we can check
+wether that value
 
 0:03:39.890,0:03:41.879
 that variable has already
 
 0:03:41.879,0:03:46.339
-some undervalued forty people we have
-conducted we can you just heard it
+some other value or if it
+only has "undef" in it
 
 0:03:46.339,0:03:52.859
-before and can hurt soaked beacon opt
-rhetoric defiant and and consultancy
+we can use this "defined" key word
+so we can ask wether its defined
+and then print out
 
 0:03:52.859,0:03:54.719
-to be fine
+say "define"
 
 0:03:54.719,0:03:55.960
-dst alice
+else
 
 0:03:55.960,0:03:57.459
-reused
+let's
 
 0:03:57.459,0:04:00.159
-well you know
+say "no"
 
 0:04:00.159,0:04:01.920
-and i think i run this code
+and then if I run this code
 
 0:04:01.920,0:04:03.649
-newsfeed no
+then you'll see "no"
 
 0:04:03.649,0:04:06.369
-and then from
+and then "foo"
 
 0:04:06.369,0:04:08.999
-on the other hand if i take it in court
+on the other hand if i take the same code
 
 0:04:08.999,0:04:10.069
 and
 
 0:04:10.069,0:04:13.189
-excluded copter the excitement as well
+put it after the assignment as well
 
 0:04:13.189,0:04:15.709
-done my duty that first it's no
+then you'll see that at first it says "no"
 
 0:04:15.709,0:04:16.639
-benefited
+then
 
 0:04:16.639,0:04:19.039
-it could be fined and i think that the
+it says it's defined and then it says
 
 0:04:19.039,0:04:20.259
-forwarded
+it' our
 
 0:04:20.259,0:04:21.979
-value from because this
+value "foo" because the
 
 0:04:21.979,0:04:24.610
-printing out of the value of after
+printing out of the value is after
 
 0:04:24.610,0:04:25.979
 actually
 
 0:04:25.979,0:04:28.250
-do printing out of the defined
+printing out of the "defined"
 
 0:04:28.250,0:04:32.430
-so you can see the fury it was still not
-define here we have to find a value and
+so you can see the here it was still not
+defined, here we assign a value and
 
 0:04:32.430,0:04:36.040
-he became defied
+it became defined
 
 0:04:36.040,0:04:38.990
-because later almost had to tell you to
-b
+we can later on set the value to be
 
 0:04:38.990,0:04:43.490
-under against a little later on for
-example he returned to emailed he quotes
+"undef" again, so later on, for
+example here, we can say name
 
 0:04:43.490,0:04:44.659
-to conduct
+equals to
 
 0:04:44.659,0:04:46.479
-and done
+"undef"
 
 0:04:46.479,0:04:49.210
-let me just thought copy-pasting
-candidacy in court
+let me just not copy-paste
+the same code
 
 0:04:49.210,0:04:54.899
-at this point it value that we've
-already under again
+at this point its value 
+is "undef" again
 
 0:04:54.899,0:04:56.370
 nodded variables
