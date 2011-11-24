@@ -22,7 +22,7 @@ Or there is the current line
 0:00:34.800,0:00:42.120
 that puts this yellow line in the editor  at the beginning so that you can use it when you like it
 
-0:00:42:280,0:00:49.720
+0:00:42.280,0:00:49.720
 and now I got quite used to it and I prefer because it
 make easier for me to recognize what closure is currently
 
@@ -59,7 +59,7 @@ If you go to the lib directory and then we can open one of the files at the Padr
 0:02:00.000,0:02:03.640
 When we back to the view menu, I can click on the „show functions”, 
 
-0:02:03:800,0:02:13.800
+0:02:03.800,0:02:13.800
 to open a window in the right side that show all the functions that are defined, functions or method, because there might be just methods in the object oriented module
 
 0:02:14.440,0:02:17.240
@@ -119,7 +119,7 @@ It opens and it takes some time, because it actually checks if the syntax is cor
 0:04:20.400,0:04:29.000
 But then if you start typing in some code like this, then it will automatically check  the syntax of the current file.
 
-0:04:29.920,0:04:34.560 
+0:04:29.920,0:04:34.560
 You can see that it gives you the error message here. 
 
 0:04:34.720,0:04:43.400
