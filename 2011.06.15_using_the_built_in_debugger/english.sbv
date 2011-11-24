@@ -13,9 +13,11 @@ normally if you have a script
 
 0:00:14.089,0:00:16.350
 let's say in this case 'outline.pl'
+
 0:00:16.350,0:00:21.569
 you can run in this way in the command line
 perl name of the script and potential parameters
+
 0:00:21.569,0:00:23.960
 so let's see if i run this script
 
@@ -35,6 +37,7 @@ once
 
 0:00:33.770,0:00:36.240
 i run this
+
 0:00:36.240,0:00:38.920
 it will give some kind of an output
 
@@ -123,12 +126,14 @@ this line hasn't been executed
 
 0:01:39.260,0:01:40.240
 yet
+
 0:01:40.240,0:01:43.690
 if i want to see what's in the dollar
 variable
 
 0:01:43.690,0:01:45.430
 which
+
 0:01:45.430,0:01:47.100
 is supposed to be empty actually
 
@@ -337,7 +342,6 @@ function is and alias to the readfile function
 
 0:04:25.340,0:04:28.650
 so that explains why when we are calling slurp
-
 
 0:04:28.650,0:04:29.560
 it actually
@@ -561,6 +565,7 @@ then the code will be executed
 
 0:07:27.999,0:07:31.130
 but the debugger will stop
+
 0:07:31.130,0:07:32.120
 at that point
 
