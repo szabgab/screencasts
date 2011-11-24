@@ -354,272 +354,262 @@ at this point its value
 is "undef" again
 
 0:04:54.899,0:04:56.370
-nodded variables
+Now, the variables
 
 0:04:56.370,0:04:59.319
-it can contain item numbers or strings
+can contain either numbers or strings
 
 0:04:59.319,0:05:01.169
-so you can them
+so you can...
 
 0:05:01.169,0:05:03.710
-that uh... sort of the game you concur
+Let's start it again
 
 0:05:03.710,0:05:06.159
-declared variable t
+you can declare a variable, let's say
 
 0:05:06.159,0:05:09.030
-it
+"x"
 
 0:05:09.030,0:05:11.179
-and put it in that strength
+and put it in a string
 
 0:05:11.179,0:05:12.249
-producing it
+put a string in it
 
 0:05:12.249,0:05:15.639
-and then you can print out a bit of that
-variable
+and then you can print out the variable
 
 0:05:15.639,0:05:19.210
-and then you can dance trying to do
-think that we have all the member
+and then you can assign to the
+same variable a number
 
 0:05:19.210,0:05:21.800
-and that you can think of this
-particular case
+and you can print out the variable again
 
 0:05:21.800,0:05:24.769
-and the five of the cold and you will
-see
+and if I run the code, then you will see that
 
 0:05:24.769,0:05:27.809
-first before the string and i think not
-number
+first it was a string and then it was a number
 
 0:05:27.809,0:05:30.529
-and provoke and care about the problem
+and Perl doesn't care about it. Perl doesn't have
 
 0:05:30.529,0:05:33.870
-types they connect that to abuse
-variables
+types connected tho these variables
 
 0:05:33.870,0:05:36.410
-it doesn't air force anything like that
+it doesn't have anything like that
 
 0:05:36.410,0:05:40.699
 federal
 
 0:05:40.699,0:05:42.249
-though precursor
+so another
 
 0:05:42.249,0:05:43.740
-government which is you're you
+language which is you're you
 
 0:05:43.740,0:05:46.060
-might you might be used there too
+might you might be used to
 
 0:05:46.060,0:05:47.199
 the fact that
 
 0:05:47.199,0:05:50.610
-different day value different variables
+different values different variables
 
 0:05:50.610,0:05:52.559
-be able to type of the variables
+based on the type of the variables
 
 0:05:52.559,0:05:53.639
-prieto rx
+the operators
 
 0:05:53.639,0:05:55.930
 behave differently
 
 0:05:55.930,0:05:57.099
-in peril
+in Perl
 
 0:05:57.099,0:05:59.620
-that it would be the route than you've
-got to trade
+the way... It'a an opposite way
 
 0:05:59.620,0:06:01.960
-what they did a very vocal duet
+not variables not
 
 0:06:01.960,0:06:03.599
-operas
+operators
 
 0:06:03.599,0:06:06.230
-defied wafted operate or build new
+declare, decide what the operator will do
 
 0:06:06.230,0:06:11.460
-but the operator looking identified how
-to operate operant variable speaking
+but the operator will decide how
+to operate, how the variables behave
 
 0:06:11.460,0:06:17.630
-so that started in their example in the
-him here and i think i have doorstep
+So let's start using another example
+Let's say I have $z
 
 0:06:17.630,0:06:19.620
-because divorce rate
+equals 3
 
 0:06:19.620,0:06:25.180
-i can just printed out and and i have
-another attorney that will cool day
+I can just print it out and then I have
+another variable called
 
 0:06:25.180,0:06:26.889
-in here's what it
+Let's say "y"
 
 0:06:26.889,0:06:28.800
-which is the cost of
+equals to 4
 
 0:06:28.800,0:06:29.869
 and then
 
 0:06:29.869,0:06:32.749
-also print cult
+I also print that out
 
 0:06:32.749,0:06:37.030
-and almost looks over jerusalem let's
+and then,what shall we do? So let's
 try to
 
 0:06:37.030,0:06:40.400
-he go instead and ed don't want to leave
+take $z and add $y to it
 
 0:06:40.400,0:06:42.789
-and also showed tried to
+and then let's also try to
 
 0:06:42.789,0:06:44.969
-they don't fit
+take $z
 
 0:06:44.969,0:06:47.330
-and those that told you that
+
 
 0:06:47.330,0:06:50.919
-and returned to commit boulevard so it's
-a look
+and concatenate $y so they'll be
 
 0:06:50.919,0:06:52.189
-put to better too
+put togheter the two
 
 0:06:52.189,0:06:54.119
-values instilled date
+values
 
 0:06:54.119,0:06:58.609
-and under-thirty motives that i think
-it's a lot of that text
+and then the third one is let's say 
 
 0:06:58.609,0:07:00.480
-worldwide which is good
+$z x $y which is the multiplicator
 
 0:07:00.480,0:07:02.209
-would you pick a drawer
+or um...
 
 0:07:02.209,0:07:05.449
-or um... repeat and repeat or variable
+or repetition variable
 
 0:07:05.449,0:07:08.210
-inappropriate or story
+operator, sorry
 
 0:07:08.210,0:07:11.300
-if i run because not all that we get
-here
+So if i run the code, what do we have here
 
 0:07:11.300,0:07:14.550
-first before you print out the to value
+first of all it prints out the two values
 three and four
 
 0:07:14.550,0:07:15.879
-bend the plots
+then the plus
 
 0:07:15.879,0:07:19.770
-even edition remember accomplishments of
-the completed two values that
+is addition, american addition so
+it will take the two values
 
 0:07:19.770,0:07:25.379
-to skinner a a very able to values of
-them syrianforum epidemic numbers
+two scalars variables the values of
+them 3 and 4 and add them as numbers
 
 0:07:25.379,0:07:26.389
-don't
+then the dot
 
 0:07:26.389,0:07:27.949
-is the confirmation soon
+is a concatinetion
 
 0:07:27.949,0:07:29.639
-takes through strength
+so it takes two strings
 
 0:07:29.639,0:07:33.249
-and the baby please convert it to
-numbers into through strength
+and basicaly it converts the two
+numbers into two strings
 
 0:07:33.249,0:07:34.709
-and print out
+and prints out
 
 0:07:34.709,0:07:36.920
-done concatenated three and four
+them concatenated three and four
 
 0:07:36.920,0:07:38.530
-before if u
+or 34 if you
 
 0:07:38.530,0:07:39.999
-look at this number
+look at this as a number
 
 0:07:39.999,0:07:43.529
-and luckily the repetition so we take
+and the last one is the repetition so it takes
 the left hand side
 
 0:07:43.529,0:07:45.359
-content of our staff
+content of that
 
 0:07:45.359,0:07:46.759
-picked up a trend
+and takes it as a string
 
 0:07:46.759,0:07:47.409
-and ben
+and then
 
 0:07:47.409,0:07:49.340
-uh... repeat people
+repeats it
 
 0:07:49.340,0:07:50.349
-f mangum
+as many
 
 0:07:50.349,0:07:53.400
-times ask you about uh... on the right
+times as you have on the right
 hand side
 
 0:07:53.400,0:07:56.189
-so because of the you have the strength
-three
+so because on the left hand side
+you have string "3"
 
 0:07:56.189,0:08:00.349
-and on the right-hand i_d_ card number
+and on the right hand side you have the number 4
 
 0:08:00.349,0:08:03.210
-have four times the
+it'll have 4 times the
 
 0:08:03.210,0:08:05.499
-corrector st
+characters "3"
 
 0:08:05.499,0:08:06.870
-so if you can see
+so as you can see
 
 0:08:06.870,0:08:08.159
-operate or
+the operator
 
 0:08:08.159,0:08:09.789
-you don't want that
+is the one that
 
 0:08:09.789,0:08:12.800
-cardstock runs how to be here quite a
-wrist numbers
+the operands how to behave either as numbers
 
 0:08:12.800,0:08:15.499
-or at st
+or as strings
 
 0:08:15.499,0:08:17.069
-but while capitalistic
+but what happens if
 
 0:08:17.069,0:08:18.189
-what do you
+one of these
 
 0:08:18.189,0:08:19.669
 are not really numbers
@@ -628,229 +618,221 @@ are not really numbers
 so what happens if these are
 
 0:08:22.460,0:08:24.649
-both strengths
+both strings
 
 0:08:24.649,0:08:26.509
-if i wrote the code now
+if i run the code now
 
 0:08:26.509,0:08:28.729
-will see that the result of the same
+we will see that the result is the same
 
 0:08:28.729,0:08:30.740
-because pro automatically convert
+because Perl automatically converts
 
 0:08:30.740,0:08:32.590
-numbers to streams
+numbers to strings
 
 0:08:32.590,0:08:35.310
-and the strength of numbers when
-necessary
+and strings to numbers when necessary
 
 0:08:35.310,0:08:38.260
-spend all free to require c
+when the operator requires it
 
 0:08:38.260,0:08:41.480
-that's okay um... and what happens if we
-won't damage
+that's okay um... and what happens if only one 
 
 0:08:41.480,0:08:42.850
-uh...
+of them is string
 
 0:08:42.850,0:08:46.860
-change in the middle of the number so
-that look at this point what happens in
+and another one is a number so
+let's look at this one. What happens in
 
 0:08:46.860,0:08:48.370
 this case
 
 0:08:48.370,0:08:50.790
-bronchoscope on the frame
+I run this code, and the same!
 
 0:08:50.790,0:08:52.820
-probable care you can
+So Perl doesn't care, you can...
 
 0:08:52.820,0:08:54.590
-which automatically converts
+It automatically converts
 
 0:08:54.590,0:08:56.930
-or coughs
+our chars, if you like it
 
 0:08:56.930,0:09:01.060
-uh... numbers two strings and attempts
-to numbers than ever
+numbers to strings and the strings
+to numbers whenever
 
 0:09:01.060,0:09:03.750
-eat meat
+it is needed
 
 0:09:03.750,0:09:04.789
-back okay
+So, that's OK
 
 0:09:04.789,0:09:06.300
-in the general came
+in the general case.
 
 0:09:06.300,0:09:07.660
-but there are people
+But there are other cases
 
 0:09:07.660,0:09:09.270
-they are uh...
+They are...
 
 0:09:09.270,0:09:11.220
-this conversion might not be
+This conversion might not be
 
 0:09:11.220,0:09:13.600
-hundred-percent through
+hundred-percent so
 
 0:09:13.600,0:09:16.960
-what happens do you think that you he
-arranged for example
+what happens if the value here is for example
 
 0:09:16.960,0:09:20.890
-st point fourteen pt
+"3.14 is pi"
 
 0:09:20.890,0:09:22.540
-superseded by the rich
+First of all, by the way
 
 0:09:22.540,0:09:27.090
-called virtual idaho idea it's called
-contact
+this conversion, the whole idea is called
+context
 
 0:09:27.090,0:09:29.550
-them believing that uh...
+The reason that
 
 0:09:29.550,0:09:31.910
-airport is converting the numbers to
-because
+Perl is converting the numbers is because
 
 0:09:31.910,0:09:35.140
-pro have complex so we have number
-numerical compaq
+Perl has context so we have numerical context
 
 0:09:35.140,0:09:37.290
-and the string complex
+and the string context.
 
 0:09:37.290,0:09:41.610
-number complex and concoction called
+Number context and string context.
 
 0:09:41.610,0:09:44.470
-what topic here
+I'll type it here
 
 0:09:44.470,0:09:46.250
-so you don't have to worry about fights
+so you don't have to worry about my
 
 0:09:46.250,0:09:48.260
-pronunciation i did
+pronunciation
 
 0:09:48.260,0:09:52.160
-uh... so what happens in this kid not
-have uh... number
+Anyway so what happens in this case
+Now you have a number - 3
 
 0:09:52.160,0:09:54.040
 and the string that
 
 0:09:54.040,0:09:56.209
-it looked really comparable to a number
+is not really convertable to a number
 
 0:09:56.209,0:09:57.100
-directly
+directly.
 
 0:09:57.100,0:10:01.390
-so what happened tonight for a run
-discos
+So what happenes now, if I run this code
 
 0:10:01.390,0:10:03.140
-that's cool verdicts
+Let's go over this.
 
 0:10:03.140,0:10:06.870
-the first of three the number three that
-uh... printed out the okay
+The first is three the number three that
+was printed out. That's okay.
 
 0:10:06.870,0:10:10.670
-that i got three point fourteen to be
-expired
+Then I get "3.14 is pi"
 
 0:10:10.670,0:10:14.910
-which is just printing company uh... the
-content of the world wide
+which is just printing out of
+the content of $y
 
 0:10:14.910,0:10:17.750
-damned attitude warning
+Then I have this warning
 
 0:10:17.750,0:10:20.370
-and the results ext point fourteen
+and the result "6.14".
 
 0:10:20.370,0:10:24.310
-so this morning is there because we are
-trying to jews
+So this warning is there because we are
+trying to use
 
 0:10:24.310,0:10:25.350
-uh... yeah
+
 
 0:10:25.350,0:10:26.520
-did trained
+this string
 
 0:10:26.520,0:10:28.120
-in a numeric complex
+in a numeric context
 
 0:10:28.120,0:10:30.780
-innocent and additional applied in
+in addition at line
 
 0:10:30.780,0:10:33.250
-well exceptional yes in decline
+Well it says twelve. Yes, in this line
 
 0:10:33.250,0:10:36.960
-so addictive that limestone very comfy
+So this is the line. Now we can see it.
 
 0:10:36.960,0:10:42.210
-um...
+Sorry.
 
 0:10:42.210,0:10:43.890
-so the sand
+Yeah! So this window.
 
 0:10:43.890,0:10:46.510
-so he can think if you don't
+So you can see this here.
 
 0:10:46.510,0:10:49.740
-carrom
+
 
 0:10:49.740,0:10:51.520
-that the string difficult
+This is the string. This is what
 
 0:10:51.520,0:10:53.820
-got convert it into a number
+got converted into a number.
 
 0:10:53.820,0:10:56.990
-so we get that morning lobbyist or did
-you go back to you only because you
+So we get a warning. Now this warnig you get
+only because you
 
 0:10:56.990,0:10:59.500
-ought to forgive warning lou
+asked for a warning.
 
 0:10:59.500,0:11:03.260
-it's important to use this morning
-otherwise it would be financially doing
+So it's important to use these warnings.
+Otherwise it would silently do
 
 0:11:03.260,0:11:05.440
-something which might be what you want
+something, which might be what you want
 
 0:11:05.440,0:11:08.750
-but that might need to keep some kind of
-a problem
+but that might indicate some kind of a problem.
 
 0:11:08.750,0:11:10.529
-so now it's uh...
+So now it's
 
 0:11:10.529,0:11:12.860
-three point fourteen spy
+"3.14 is pi"
 
 0:11:12.860,0:11:17.030
-but and absolute it actually you sort of
-a three point fourteen
+But in the additiom it actually used
+only "3.14"
 
 0:11:17.030,0:11:19.160
-so what phone bill those invented
+So what Perl does is that it
 
 0:11:19.160,0:11:21.440
-picks the left-hand side of the string
+takes the left-hand side of the string
 
 0:11:21.440,0:11:22.880
 and
@@ -859,635 +841,600 @@ and
 looks at
 
 0:11:24.060,0:11:27.829
-looks a bit and tries to use that
-definite number
+looks at it and tries to use it as a number.
 
 0:11:27.829,0:11:32.160
-and at that point and it had been state
-funeral
+And there is a point. There is a space here.
+Beneath it, it
 
 0:11:32.160,0:11:35.249
-stops on the spending it called
-converted number
+stops understanding. It can't
+convert it to a number
 
 0:11:35.249,0:11:38.750
-duffel bag orenthal if you disregard of
-value
+Then from that point on it will disregard the
+value.
 
 0:11:38.750,0:11:40.430
-so look for that reason
+So for that reason
 
 0:11:40.430,0:11:41.940
-uh... the the
+Perl
 
 0:11:41.940,0:11:44.809
-used produce three point fourteen
+used "3.14"
 
 0:11:44.809,0:11:46.020
-uh... the value
+as the value
 
 0:11:46.020,0:11:48.550
-all dole are blocking the addition
+for $y in this addition.
 
 0:11:48.550,0:11:49.910
-that what you
+Then, what you
 
 0:11:49.910,0:11:52.620
-much wandered what happened to the whole
-wide
+might wonder is what happened to $y.
 
 0:11:52.620,0:11:54.000
-desk on purpose
+Did it get converted?
 
 0:11:54.000,0:11:55.579
-or or reporting it was
+Or only for the use
 
 0:11:55.579,0:11:56.930
-albeit addition
+in this addition?
 
 0:11:56.930,0:11:57.990
-so you can stand it
+So you can see
 
 0:11:57.990,0:11:59.300
-tickled information
+in this concatenation.
 
 0:11:59.300,0:12:00.110
-that fear
+That here
 
 0:12:00.110,0:12:03.519
-we can to get back to be the three
-people formed a door seven to three
+we get actually the "3"
+from the $z.
 
-0:12:03.519,0:12:04.960
-point fourteen
-
-0:12:04.960,0:12:06.530
-it's hyatt
+0:12:03.519,0:12:06.530
+And the "3.14 is pi"
 
 0:12:06.530,0:12:10.330
-coming from below what i think
-unsuitable or why didn't change
+coming from $y. So you can see
+that $y didn't change.
 
 0:12:10.330,0:12:12.070
-bowl wiry
+$y is
 
 0:12:12.070,0:12:14.010
-two of the things change
+still the same string.
 
 0:12:14.010,0:12:15.970
-again if you look at the third one
+And then if you look at the third one
 
 0:12:15.970,0:12:18.370
-disputed border it
+you'll see that it's $z
 
 0:12:18.370,0:12:20.100
-the white items
+$y times
 
 0:12:20.100,0:12:22.790
-not you would expect probably back to
-the fee
+Now you would expect probably that
+you will see
 
 0:12:22.790,0:12:26.070
-thirteen point fourteen times the that
-perpetrating
+3.14 times the letter 3 but
 
 0:12:26.070,0:12:31.080
-walked up whole continent print out
+Perl can't print out...
 
 0:12:31.080,0:12:32.870
-according to a leg broke in school
+It only can print out
 
 0:12:32.870,0:12:34.960
-poll numbers so industry
+full numbers so in this case...
 
 0:12:34.960,0:12:36.200
-sold
+So
 
 0:12:36.200,0:12:39.670
-it's built kornberg the three point
-fourteen for three and then you've got
+it will convert the "3.14"
+to "3" and then use that
 
 0:12:39.670,0:12:41.590
-forget modification for good
+for the multiplication
 
 0:12:41.590,0:12:42.880
-every petition
+for the repetition
 
 0:12:42.880,0:12:44.920
-but you don't see that warming again
+But you don't see the warning again.
 
 0:12:44.920,0:12:47.360
-at you would normally expect young
+as you would normally expect
 
 0:12:47.360,0:12:49.040
-what uh...
+So what?
 
 0:12:49.040,0:12:50.190
-it because
+Is it because...
 
 0:12:50.190,0:12:53.190
-uh... because the corporation doesn't
-get generator warnings so
+because tha operation doesn't
+generate the warning?
 
 0:12:53.190,0:12:56.240
-left click here and then
+So let's click here and then
 
 0:12:56.240,0:12:58.100
-colon polyps
+comment out...
 
 0:12:58.100,0:12:59.990
-ankle in two of the cold here
+comment out the code here.
 
 0:12:59.990,0:13:01.370
-and run it again
+And run it again.
 
 0:13:01.370,0:13:02.870
-and well you'll
+And now you'll
 
 0:13:02.870,0:13:05.080
-heeded the warning in poland
+see that the warning is on the
 
 0:13:05.080,0:13:06.560
-repetition
+repetition.
 
 0:13:06.560,0:13:09.010
-so earlier if you're just didn't think
+So earlier we just didn't see
 
 0:13:09.010,0:13:11.220
-it directly into this morning
+that warning.
 
 0:13:11.220,0:13:15.350
-why didn't he because there was no
-warning and the reason we have that at
+And why didn't hwe see? Because there was no
+warning. And the reason is that
 
 0:13:15.350,0:13:17.120
-the time
+at the time, here
 
 0:13:17.120,0:13:19.530
-band edition under admission
+When the edition 
 
 0:13:19.530,0:13:21.940
-very close to the protocols works
+caused Perl to convert
 
 0:13:21.940,0:13:26.399
-the best thing to remember they've
-actually supported that number
+the string to the number then
+it actually stored that number
 
 0:13:26.399,0:13:27.920
-gameday in a magic
+in a magic place
 
 0:13:27.920,0:13:30.050
-plate indoor garden
+in $y
 
 0:13:30.050,0:13:34.010
-so from that point electrical or might
-have to value the string value and a
+So from that point on $y actually
+had two values: the string value and
 
 0:13:34.010,0:13:35.310
-number of endure
+the number value
 
 0:13:35.310,0:13:36.930
-at about four to avoid
+And that's to
 
 0:13:36.930,0:13:39.010
-vehicle version later on
+avoid conversion later on
 
 0:13:39.010,0:13:44.620
-so ben in iraq to this point uh... to
-use that repetition operator who didn't
+So when it arrived to this point, to
+use the repetition operator, Perl didn't
 
 0:13:44.620,0:13:46.209
-have to convert anymore
+have to convert anymore.
 
 0:13:46.209,0:13:50.140
-so there was no reason to be the warning
-brighter
+So there was no reason to give the warning
+either.
 
 0:13:50.140,0:13:52.870
-so that uh... how conversions works
+So that's how conversions works.
 
 0:13:52.870,0:13:54.840
-and i want to know you all
+Now you know
 
 0:13:54.840,0:13:58.950
-uh... conclusion virtual numbers to
-strengthen from number two string it's
+how conversion works from numbers to strings
+So from number to string
 
 0:13:58.950,0:14:01.790
-pretty easy injustice fame
+it's pretty easy. It's just the same
 
 0:14:01.790,0:14:04.359
-their values so you have a number like
-three
+value. So you have a number like three.
 
 0:14:04.359,0:14:08.060
-and if you look at it for three minutes
-just to think of the matter st
+And if you look at it as a string
+it's just a string, the letter 3,
 
 0:14:08.060,0:14:11.329
-and it did u street and if you have a
+the digit 3. And if you have a
 number
 
 0:14:11.329,0:14:15.369
-extreme gutted about numbers like three
-point four q
+A string that is a number like "3.14".
 
 0:14:15.369,0:14:19.150
-excuse me if you only had this one
+If you only had this one
 
 0:14:19.150,0:14:24.310
-and during this than it wouldn't have a
-warning because that's just a number
+And if you run this, than it wouldn't have a
+warning, because that's just a number.
 
 0:14:24.310,0:14:29.140
-but because we have uh... something
-that's not convenient number
+But because we have something
+that's not really a number.
 
 0:14:29.140,0:14:30.670
-and to get a boarding
+Then we got a warning.
 
 0:14:30.670,0:14:34.070
-so a couple of issued if you'd like to
-attend a few more
+So a couple of issues, that we'd like to
+talk about more.
 
 0:14:34.070,0:14:36.680
-and a little bit of under
+One problem is "undef".
 
 0:14:36.680,0:14:39.560
-so what happens with undergoing the same
-complex
+So what happens with "undef" in the same context
 
 0:14:39.560,0:14:40.710
-the netscape
+Let's see...
 
 0:14:40.710,0:14:43.730
-that they'd bits of evidence kpr
+Let's say in this case here
 
 0:14:43.730,0:14:46.830
 uh...
 
 0:14:46.830,0:14:48.369
-mcmichael or white
+my $y
 
 0:14:48.369,0:14:51.750
-and uh... because you know thunderstorm
-ongoing
+And because you know it's "undef"
 
 0:14:51.750,0:14:53.150
-to want blue
+I won't print it.
 
 0:14:53.150,0:14:57.020
-to printed the lobby haven't declared a
-veritable quote
+So now we have a declared variable.
 
 0:14:57.020,0:14:58.210
-doorstep
+Called $z.
 
 0:14:58.210,0:15:01.119
-uh... and all of our declared loading
-didn
+And $y declared, but we didn't
 
 0:15:01.119,0:15:02.650
-give it a value
+give it a value.
 
 0:15:02.650,0:15:05.020
-if well i wrote about
+If now I run this
 
 0:15:05.020,0:15:07.320
-straight comment this article needed
+And let's comment this out, we don't need it.
 
 0:15:07.320,0:15:10.820
-and i promised scored adapted to
-warnings
+Now, if I run this code, I get 2 warnings.
 
 0:15:10.820,0:15:13.060
-and using the initial too
+Using of uninitialized...
 
 0:15:13.060,0:15:16.290
-telling me that i'm trying to get the
-mission and values of dismay at the door
+Telling me that i'm trying to use
+the uninitialized values. So this means, that $y
 
 0:15:16.290,0:15:21.800
-blocked love under bolting the admission
-ending the coca connection
+was "undef". Both in the addition
+and the concatenation.
 
 0:15:21.800,0:15:26.490
-leaves so you can see that um...
+So you can see that
 
 0:15:26.490,0:15:28.920
-justly boarding fan i'm trying to use
+Perl gives me warnings, when i'm trying to use
 
 0:15:28.920,0:15:29.810
-uh...
+
 
 0:15:29.810,0:15:32.520
-that resembled a under
+a variable that is "undef".
 
 0:15:32.520,0:15:34.020
-i'd working there
+Either in numerical
 
 0:15:34.020,0:15:37.640
-number to call back or english does in
-context
+context or in string context.
 
 0:15:37.640,0:15:39.740
-but the best you can see it's over
+But as you can see,
 
 0:15:39.740,0:15:42.470
-though it's a bit difficult to see
+though it's a bit difficult to see,
 
 0:15:42.470,0:15:44.850
-say its printing go treatment
+The first "say' is printing out "3" here.
 
 0:15:44.850,0:15:45.670
-and then this
+And then this
 
 0:15:45.670,0:15:47.449
-they printing up three a gain
+"say" printing out "3" again
 
 0:15:47.449,0:15:50.420
-because goal of life opelika on that
+because $y, although it's "undef",
 
 0:15:50.420,0:15:52.390
-in numerical contact it
+in numerical context it
 
 0:15:52.390,0:15:54.270
-bc flag zero
+behaves like 0.
 
 0:15:54.270,0:15:57.910
-adding the scope of the nation idec
-three-d_ game
+And in this concatenation I get "3" again
 
 0:15:57.910,0:16:00.540
-because all doable or wise
+because although $y is "undef".
 
 0:16:00.540,0:16:05.670
-bucking the trend contacted bahia flags
-and featuring
+but in string context it behaves like
+an empty string
 
 0:16:05.670,0:16:09.520
-wanting to make sure that it through
+If you want to make sure, that it's
 
 0:16:09.520,0:16:15.070
-uh... dept dot in that
+still "undef". Then "print 
 
 0:16:15.070,0:16:17.490
-be fine
+ 'defined'"
 
 0:16:17.490,0:16:20.760
-and uh...
+and else
 
 0:16:20.760,0:16:22.870
-story that should be steady
+Sorry that should be "say"
 
 0:16:22.870,0:16:25.810
-not
+'not'
 
 0:16:25.810,0:16:28.940
-yeah it shows that i'm old-timer yet
+Yeah, it shows that i'm old-timer here.
 
 0:16:28.940,0:16:31.330
-so
+So
 
 0:16:31.330,0:16:32.579
-i'm running this goes
+I'm running this code.
 
 0:16:32.579,0:16:36.260
-and that means he's not it's not
-declined three handle
+Then you see it's 'not'. It's not
+defined. So even though
 
 0:16:36.260,0:16:40.730
-uh... probe of using the variable
-symbols individual removals and
+Perl was using this variable
+in both
 
 0:16:40.730,0:16:42.459
-warik and you can contact
+numeric and string context
 
 0:16:42.459,0:16:45.420
-he didn't change a great extent
-undefined
+it didn't change the variable.
+It's still undefined.
 
 0:16:45.420,0:16:47.749
-so that's what we'll have one thing that
-i wanted to show
+So that's the one thing I wanted to show.
 
 0:16:47.749,0:16:49.520
-diverting
+The other thing
 
 0:16:49.520,0:16:52.180
-you've got some people uh... probably
-rightly
+is that some people preferably
 
 0:16:52.180,0:16:56.720
-and don't like it poll ideal these
-warning that they prepare hard-core
+don't like this whole idea of these
+warnings. They prefer hard-core
 
 0:16:56.720,0:16:57.660
 exceptions
 
 0:16:57.660,0:17:01.000
-when something grooms wrong or park show
-the world
+when something goes wrong or partialy wrong.
 
 0:17:01.000,0:17:02.459
-sold what they can do
+So what they can do
 
 0:17:02.459,0:17:08.990
-if turned aborting into exceptions taken
-right here
+is turn the warnings into exceptions.
+They can write here "FATAL".
 
 0:17:08.990,0:17:13.189
-and anthony and i think old you to join
-every morning
+And then, let's say, "=> all".
+This will turn every warning
 
 0:17:13.189,0:17:15.680
-into uh... fatal exception
+into a fatal exception.
 
 0:17:15.680,0:17:17.920
-so if i go to you know i mean by that
+So if I go here now and
 
 0:17:17.920,0:17:19.790
-studied stupid
+let's say, let's put it back
 
 0:17:19.790,0:17:20.850
-display
+this way.
 
 0:17:20.850,0:17:22.640
-and rhonda code
+And run the code..
 
 0:17:22.640,0:17:24.429
-so i get
+So i get
 
 0:17:24.429,0:17:25.189
-dreams
+"3"
 
 0:17:25.189,0:17:26.890
-the first picked up
+the first print out
 
 0:17:26.890,0:17:28.419
-the first thing here
+the first "say" here
 
 0:17:28.419,0:17:31.759
-and then that i'm trying to add to that
-used to print
+And then when i'm trying to add that value.
 
 0:17:31.759,0:17:35.649
-if we print out the warning well that
-warning did not feel an exception
+It would print out a warning.
+But warning is now a fatal exception.
 
 0:17:35.649,0:17:37.840
-so descriptors of dread
+So the script doesn't
 
 0:17:37.840,0:17:40.380
-who were killed
+go any longer.
 
 0:17:40.380,0:17:43.930
-so that's one of the other thing if you
-want to be you'd be the extreme and
+So that's the right thing if you
+want to be really extreme
 
 0:17:43.930,0:17:46.020
-getting exception to the state
+getting exceptions in this case.
 
 0:17:46.020,0:17:49.059
-but what if you want to look at what we
-can hold thing at all so what if you
+But what if you want to avoid
+the whole thing at all? So what if you
 
 0:17:49.059,0:17:51.720
-want to make sure that the great value
-growth
+want to make sure that the value you got,
 
-0:17:51.720,0:17:54.190
-probably from canberra from the outside
-world
-
-0:17:54.190,0:17:55.410
-attitudes
+0:17:51.720,0:17:55.410
+probably from the user or from the outside world,
 
 0:17:55.410,0:17:57.010
-actually retarded
+that it is, actually, whether it
 
 0:17:57.010,0:17:59.910
-looks like a number of before you
-actually can
+looks like a number, before you actually can
 
 0:17:59.910,0:18:00.950
-kornberg
+convert it
 
 0:18:00.950,0:18:04.610
-support that he would use and module
+So, for that you would use a module:
 
 0:18:04.610,0:18:07.510
-attaced color
+"use Scalar::Util"
 
 0:18:07.510,0:18:09.230
-usual and that's what role
+And that module
 
 0:18:09.230,0:18:12.669
-transplant function
+has a function called
 
 0:18:12.669,0:18:15.650
-looks like number
+"looks_like_number"
 
 0:18:15.650,0:18:20.400
-and then you can do that function stands
-before you actually called me
+And then you can use that function.
+Before you actually call this
 
 0:18:20.400,0:18:23.419
-uh... park that moved
+part, that needs a number
 
 0:18:23.419,0:18:26.620
-and number two no so you would see
+So you would say
 
-0:18:26.620,0:18:29.310
-looks like number
-
-0:18:29.310,0:18:31.380
-blore that
+0:18:26.620,0:18:31.380
+"looks_like_number($z)"
 
 0:18:31.380,0:18:32.340
 and
 
-0:18:32.340,0:18:34.640
-looks like number
+0:18:32.340,0:18:37.900
+"looks_like_number($y)"
 
-0:18:34.640,0:18:37.900
-toward life
-
-0:18:37.900,0:18:41.280
-and only then i would think that would
-do
-
-0:18:41.280,0:18:44.770
-pitchfork
+0:18:37.900,0:18:44.770
+And only then I would do this part.
 
 0:18:44.770,0:18:49.400
-so dad additional do only if peeps are
-boom so the numbers
+So the addition I'd do only if these
+are both numbers.
 
 0:18:49.400,0:18:51.390
-and that i can run this code
+And then I can run this code.
 
 0:18:51.390,0:18:53.900
-and there isn't that correct
+And there is a syntax error here.
 
 0:18:53.900,0:18:55.050
-c_v_r_
+So let's see where.
 
 0:18:55.050,0:18:56.650
-line sixteen
+It's line 15.
 
 0:18:56.650,0:18:58.930
-it tells me i forgot
+It tells me I forgot
 
 0:18:58.930,0:19:01.120
-close destructive
+to close the brackets.
 
 0:19:01.120,0:19:02.450
-that's right again
+So let's run it again
 
 0:19:02.450,0:19:06.120
-well you can see that they have the
-number three and that i have the result
+So now you can see that there I have the
+number "3" and that i have the result
 
 0:19:06.120,0:19:10.390
-of the kolkata mission and the define
-cute
+of the concatenation, and the define
+here.
 
 0:19:10.390,0:19:12.420
-but i don't have an exception
+But I don't have an exception.
 
 0:19:12.420,0:19:14.320
-and if i'd have
+And if i have
 
 0:19:14.320,0:19:16.710
-value like this
+a value like this here.
 
 0:19:16.710,0:19:18.170
-value which is really
+A value which really
 
 0:19:18.170,0:19:20.000
-looks like a member and ironic
+looks like a number
+And I run it.
 
 0:19:20.000,0:19:27.000
-then in addition to the cope with the
-nation your are also have the admission
+Then, in addition to the concatenation here,
+I also have the addition.
 
 0:19:27.200,0:19:28.129
-so that it
+So that's it.
 
 0:19:28.129,0:19:31.799
-uh... about skimmers and a teacher
-actually wondering if there is still
+about scalars.
+And if you're actually wondering if there is
 
 0:19:31.799,0:19:34.480
-pretty fooling control so they were
-guilty
-
+operator overloading in Perl.
+So there is.
 0:19:34.480,0:19:38.080
-but with an advanced topics that we are
-not going to address it now
+But it's an advanced topic, so we are
+not going to address it now.
 
 0:19:38.080,0:19:41.240
-and uh... i think that's a lot of kits
-reform went through next time
+And I think that's all, so
+See you next time!
 
