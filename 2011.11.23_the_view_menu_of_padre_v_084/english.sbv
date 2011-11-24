@@ -1,72 +1,78 @@
-0:00:01.240,0:00:06.720
-Hi, this time I’m going to show you the elements of the view menu some of the view menu of Padre
+0:00:01.240,0:00:03.720
+Hi, this time I'm going to show you the elements of
+
+0:00:03.720,0:00:06.720
+the view menu. Some of the element of the view menu of Padre.
 
 0:00:06.960,0:00:13.560
-What you can see here is 0.84 version of Padre, in your version might be sight different
+What you can see here is 0.84 version of Padre, in your version it might be slightly different.
 
 0:00:14.240,0:00:20.080
-And what you see is the main script of Padre itself
+And what you see in this editor is the main script of Padre itself
 
 0:00:20.160,0:00:24.120
-So, if you go to the view menu, there are couple of entries, there are interesting
+So, if you go to the view menu, there are couple of entries, that are interesting.
 
 0:00:24.600,0:00:27.780
-For example there is a show line numbers, there are basic things
+For example there is a show line numbers, these are basic things.
 
 0:00:28.120,0:00:30.340
-Show you the line numbers on left screen side
+Show you the line numbers on left hand side.
 
 0:00:30.600,0:00:34.240
 Or there is the current line
 
-0:00:34.800,0:00:42.120
-that puts this yellow line in the editor at the beginning so that you can use it when you like it
+0:00:34.800,0:00:39.120
+that puts this yellow line in the editor
+
+0:00:39.120,0:00:42.120
+at the beginning when I started to use this, I did not like it,
 
 0:00:42.280,0:00:49.720
 but now I got quite used to it and I prefer because it
-make easier for me to recognize where the closure is currently
+make easier for me to recognize where the cursor is currently.
 
 0:00:51.280,0:00:57.520
 Then there is the project browser, sorry the project browser
 
 0:00:58.320,0:01:00.600
-Which opens window of left hand side
+Which opens window of left hand side.
 
 0:01:01.800,0:01:03.520
-If you open the file in Padre, a profile, 
+If you open the file in Padre, a Perl file,
 
 0:01:04.040,0:01:12.600
-If you automatically travel to directory structure and look for some kind of indication of a project
+it will automatically traverse the directory structure and look for some kind of indication of a project, a Perl project
 
 0:01:13.200,0:01:22.240
-So the indications could be a id or makefile.PL As you see here, or build.PL or the any file of the dist-zilla distributor
+So the indications could be eiter a Makefile.PL, that you see here, or a Build.PL or the ini file of the dist-zilla distributor
 
 0:01:22.640,0:01:25.320
-Or if you don’t have any of those some reason 
+Or if you don't have any of those some reason
 
 0:01:25.480,0:01:31.800
-which would not be very good, but if you don’t have them, then you can just create an empty Padre.yml file 
+which would not be really good, but if you don't have them, then you can just create an empty Padre.yml file
 
 0:01:31.840,0:01:38.480
-and whenever Padre file that, it will soon that it is the root directory of your project
+and whenever Padre finds that, it will assume that this is the root directory of your project
 
-0:01:41.800,0:01:41.080
+0:01:38.800,0:01:40.080
 and then you can see the whole project here
 
-0:01:41.400,0:01:49.400
-that is base for this … showing the directory here and for some other items in Padre
+0:01:40.080,0:01:49.400
+that is both for this ... showing the directory here and for some other items in Padre
 
 0:01:50.000,0:01:59.440
-If you go to the lib directory and then we can open one of the files at the Padre.pm, which is the main module of Padre
+If you go to the lib directory and then we can open one of the files at the Padre.pm, which is the main module of Padre.
 
 0:02:00.000,0:02:03.640
-When we back to the view menu, I can click on the „show functions”, 
+Going back to the View menu, I can click on the Show functions,
 
 0:02:03.800,0:02:08.440
-to open a window in the right hand side that show all the functions that are defined, 
+it will open a window on the right hand side that show all the functions that are defined,
 
 0:02:08.800,0:02:13.800
-functions or method, because there might be just methods in the object oriented module
+functions or methods, because there might be just methods in the object oriented module
 
 0:02:14.440,0:02:17.240
 So all the functions that are defined in the current file
@@ -75,10 +81,10 @@ So all the functions that are defined in the current file
 You can click on either of these but when you double click on one of the entries
 
 0:02:22.400,0:02:26.600
-Padre will automatically jumped for to the definition of that subroutine.
+Padre will automatically jump to the definition of that subroutine.
 
 0:02:27.600,0:02:31.400
-Here in a top, there is a filter so I can start typing in letters 
+Here in a top, there is a filter so I can start typing in letters
 
 0:02:31.800,0:02:44.440
 and if filter the functions that will show only the functions that have that letter or 'e', 'c' letters in the name
@@ -86,44 +92,44 @@ and if filter the functions that will show only the functions that have that let
 0:02:45.200,0:02:47.840
 That's the function, I can close it here.
 
-0:02:48.600,0:02:53.400
-There are things on the right-hand side which is as interesting is outline entry
+0:02:47.840,0:02:53.400
+The other things on the right-hand side which is as interesting is Outline entry
 
-0:02:53.760,0:03:02.440
-It’s a more heavie weight to do singular things so it will pharse your current file
+0:02:53.400,0:03:02.440
+It's a more heavy weight tool to do similar things so it will parse your current file
 
-0:03:02.650,0:03:07.800
-and show what pragmator you are using, what warning stuff like this
- 
-0:03:07.940,0:03:14.160
-what modules are used in this code, and what methods are there, that we saw earlier
+0:03:02.440,0:03:07.800
+and show what pragmatas you are using, so 'warnings' and stuff like this
+
+0:03:07.800,0:03:14.760
+what modules are used in this code, and what methods are there, that we saw earlier.
 
 0:03:14.760,0:03:22.800
-Here you additionally click on what item and it automatically will jump show that part of editor of the file
+Here you actually click on that item and it automatically will jump to that part of editor of the file
 
 0:03:23.080,0:03:30.040
-or you can right click on one of them and then go to element is the thing you saw earlier jumping to the 
+or you can right click on one of them and then go to element is the thing you saw earlier jumping to the
 
 0:03:30.280,0:03:35.250
 actually usage of the pragmator of the module.
 
 0:03:35.680,0:03:41.440
-or you can click on the open documentation and you will see the documentation of that specific pragmata 
+or you can click on the open documentation and you will see the documentation of that specific pragmata
 
 0:03:41.800,0:03:44.600
-or if you go to this module, let's say, this one, 
+or if you go to this module, let's say, this one,
 
 0:03:44.760,0:03:49.800
 and than open documentation, and you will see the documentation of that module
 
 0:03:50.080,0:03:54.120
-So, that’s what you can have for the outline view.
+So, that's what you can have for the outline view.
 
 0:03:55.840,0:04:00.720
 Another entry, here is the output window which is at the bottom of the screen
 
 0:04:01.040,0:04:04.320
-that, what is interesting, is automatically opened 
+that, what is interesting, is automatically opened
 
 0:04:04.640,0:04:09.520
 whenever something is needed. For example, when you run a script, what might happen
@@ -138,7 +144,7 @@ It opens and it takes some time, because it actually checks if the syntax is cor
 But then if you start typing in some code like this, then it will automatically check the syntax of the current file.
 
 0:04:29.920,0:04:34.560
-You can see that it gives you the error message here. 
+You can see that it gives you the error message here.
 
 0:04:34.720,0:04:43.400
 If you click on the entry then it will give you some more further description of the diagnostic basicly.
@@ -150,7 +156,7 @@ And then the double click on the error actually let you jump to the place here
 you have it for example, if I just type here, then it will tell me if is it  error or is it correct, the syntax is correct.
 
 0:04:59.440,0:05:06.050
-So that’s the syntax check and that is pretty useful for people to see that all the time.
+So that's the syntax check and that is pretty useful for people to see that all the time.
 
 0:05:07.120,0:05:16.720
 And here there are the new lines, so you can see what kind of new lines you have, which may be hard sometimes
@@ -159,7 +165,7 @@ And here there are the new lines, so you can see what kind of new lines you have
 Or you can see the white spaces here or tabs of the actual spaces here. These the things that you can see
 
 0:05:25.400,0:05:36.880
-Then the Call Tips. So let’s turn this on but let’s another things off because I don’t really white spaces I don't really like here and new lines
+Then the Call Tips. So let's turn this on but let's another things off because I don't really white spaces I don't really like here and new lines
 
 0:05:37.120,0:05:45.600
 So lets say i start to type in sub-string and then i get full name of the subroutine
@@ -171,7 +177,7 @@ and then it will show me a call type of a type here
 Showing small description of what kind of parameters that subroutine can have or little description of the subroutine.
 
 0:05:58.400,0:06:00.960
-So that basicly the simple presentation that I’ve shown you now.
+So that basicly the simple presentation that I've shown you now.
 
 0:06:01.400,0:06:06.060
 Will see what other soft we can see in the next edition of this screencasts.
