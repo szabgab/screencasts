@@ -35,6 +35,14 @@ There is a script called check_timestamp.pl in the repository
 that will check if all the timestamps are correctly formatted.
 
 
+GCI participants:
+Please fork this repository, push your updates and send pull requests.
+This will make it easier to review your work.
+Please also click on the 'Review needed' button on Melange so they will
+have the proper accounting trail. (No need to upload the file there
+too)
+
+
 What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
 English: done                   (szabgab - Gabor Szabo)
 Russian: done                   (ash     - Andrew Shitov http://andy.sh/    )
