@@ -10,10 +10,10 @@ And that what you see is main script of Padre itself
 0:00:20.160,0:00:24.120
 So, if you go to the view menu, there are couple of entries, there are interesting
 
-0:00.24.600,0:00:27.780
+0:00:24.600,0:00:27.780
 For example there is a show line numbers, there are basic things
 
-0:00.28.120,0:00:30.340
+0:00:28.120,0:00:30.340
 Show you the line numbers on left screen side
 
 0:00:30.600,0:00:34.240
@@ -29,13 +29,13 @@ Then there is a project browser
 0:00:58.320,0:01:00.600
 Which open the window of left hand side
 
-0:01:01.800,0:01;12.600
+0:01:01.800,0:01:12.600
 If you open the file in Padre, a profile, you automatically travel to directory structure and look for some kind of indication of a project
 
 0:01:13.200,0:01:22.240
 So the indications could be a id or makefile.PL As you see here, or build.PL or any file any file of the dist-zilla distributor
 
-0:01:22.640,0:01:41:080
+0:01:22.640,0:01:41.080
 Or if you don’t have any of those some reason which would be not very good, but if you don’t have them, then you can just create an empty Padre.yml file and whenever Padre file that,  it will soon that it is the root directory of your project and then you can see the whole project here
 
 0:01:41.400,0:01:49.400
@@ -56,7 +56,7 @@ You can click on either of these but when you double click on one of the entries
 0:02:27.600,0:02:44.440
 Here in a top , there is a filter so I can start typing in letters and if filter the functions that will show only the functions that have that letter or 'e', 'c' letters in the name.
 
-0:02:45.200,0:02.47.840
+0:02:45.200,0:02:47.840
 That's the function, I can close it here.
 
 0:02:48.600,0:02:53.400
@@ -65,10 +65,10 @@ There are things on the right-hand side which is as interesting is outline entry
 0:02:53.760,0:03:14.160
 It’s a more heavie weight to do singular things so it will travel fast to current file and show what pragmator(?) you are using, what warning stuff like this. What modules was used in this code, and what methods.
 
-0:03:14:760,0:03:22.800
+0:03:14.760,0:03:22.800
 Here you additionally click on what item and it automatically jump showing that part of the file
 
-0:03.23.080,0:03:35.250
+0:03:23.080,0:03:35.250
 or you can right click on one of them and then go to element is the thing you saw earlier jumping to the actually usage of the pragmator of the module.
 
 0:03:35.680,0:03:49.800
@@ -124,3 +124,4 @@ Will see what other soft we can see in the next edition of this screencasts.
 
 0:06:06.800,0:06:08.760
 Thank you for listening, and watching. Bye bye.
+
