@@ -31,6 +31,10 @@ All the rest need English subtitles first and once that's
 done, they need the translations.
 
 
+There is a script called check_timestamp.pl in the repository
+that will check if all the timestamps are correctly formatted.
+
+
 What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
 English: done                   (szabgab - Gabor Szabo)
 Russian: done                   (ash     - Andrew Shitov http://andy.sh/    )
