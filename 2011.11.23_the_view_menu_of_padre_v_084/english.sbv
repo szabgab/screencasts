@@ -99,19 +99,19 @@ The other things on the right-hand side which is as interesting is Outline entry
 It's a more heavy weight tool to do similar things so it will parse your current file
 
 0:03:02.440,0:03:07.800
-and show what pragmatas you are using, so 'warnings' and stuff like this
+and show what pragmatas you are using, so 'strict' or  'warnings' and stuff like this
 
 0:03:07.800,0:03:14.760
 what modules are used in this code, and what methods are there, that we saw earlier.
 
 0:03:14.760,0:03:22.800
-Here you actually click on that item and it automatically will jump to that part of editor of the file
+Here you actually click on that item and it automatically will jump, show to that part of editor of the file
 
 0:03:23.080,0:03:30.040
 or you can right click on one of them and then go to element is the thing you saw earlier jumping to the
 
 0:03:30.280,0:03:35.250
-actually usage of the pragmator of the module.
+actually usage of the pragmata or the module.
 
 0:03:35.680,0:03:41.440
 or you can click on the open documentation and you will see the documentation of that specific pragmata
@@ -171,7 +171,7 @@ Then the Call Tips. So let's turn this on but let's another things off because I
 So lets say i start to type in sub-string and then i get full name of the subroutine
 
 0:05:45.700,0:05:47.760
-and then it will show me a call type of a type here
+and then it will show me a call-tip here
 
 0:05:49.200,0:05:58.200
 Showing small description of what kind of parameters that subroutine can have or little description of the subroutine.
@@ -180,7 +180,7 @@ Showing small description of what kind of parameters that subroutine can have or
 So that basicly the simple presentation that I've shown you now.
 
 0:06:01.400,0:06:06.060
-Will see what other soft we can see in the next edition of this screencasts.
+Will see what other stuff we can see in the next edition of this screencasts.
 
 0:06:06.800,0:06:08.760
 Thank you for listening, and watching. Bye bye.
