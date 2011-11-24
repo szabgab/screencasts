@@ -122,7 +122,7 @@ Padre (http://padre.perlide.org/)
 here you can see it
 
 0:01:49.220,0:01:52.890
-click on the the download link
+click on the download link
 
 0:01:52.890,0:01:56.630
 scroll down a little bit. There is a link to
@@ -261,7 +261,7 @@ simple Perl script;
 let us go over these parts.
 
 0:03:59.380,0:04:03.949
-So the first line is called a shebang. It is
+So the first line is called a ‘shebang’. It is
 mostly used for Unix systems
 
 0:04:03.949,0:04:08.739
@@ -272,7 +272,7 @@ Windows machine.
 So it does not really matter.
 
 0:04:10.229,0:04:12.110
-use 5.006;
+use 5.6;
 
 0:04:12.110,0:04:14.849
 This means that
@@ -287,7 +287,7 @@ it will check first if your perl is at least
 5.6 version.
 
 0:04:24.830,0:04:29.590
-Because this is actually a very ancient version of
+This is actually a very ancient version of
 perl,
 
 0:04:29.590,0:04:32.209
@@ -474,7 +474,7 @@ which is reading from the standard input (from the
 keyboard)
 
 0:07:04.169,0:07:05.819
-one line till
+one line until
 
 0:07:05.819,0:07:06.680
 the user
@@ -489,7 +489,7 @@ So, the result will go into this $ variable called
 '$name' and then we would like to print it out
 
 0:07:14.029,0:07:15.800
-so we say 'hello '
+so we say 'hello'
 
 0:07:15.800,0:07:19.059
 and we add '$name'.
