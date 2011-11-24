@@ -5,10 +5,10 @@ Hey! Welcome back to the channel!
 This time I'm going to talk about
 
 0:00:05.530,0:00:08.060
-data structures in Perl
+data structures in Perl.
 
 0:00:08.060,0:00:08.809
-especially this
+Especially, this
 
 0:00:08.809,0:00:11.989
 presentation will be about scalars.
@@ -19,36 +19,36 @@ a development version of it.
 
 0:00:16.669,0:00:21.309
 And the first single thing to do
-is create a new
+is to create a new
 
 0:00:21.309,0:00:22.920
-Perl 5 script
+Perl 5 script.
 
 0:00:22.920,0:00:26.239
-It just has a then the
+It just has a shebang in it, then the
 
 0:00:26.239,0:00:28.949
-"use" statements
+"use" statements.
 
 0:00:28.949,0:00:32.580
 So, Perl has three types of
 
 0:00:32.580,0:00:36.350
-data structures scalars, arrays
-and hashes
+data structures: scalars, arrays
+and hashes.
 
 0:00:36.350,0:00:38.499
-scalars can contain either
+Scalars can contain either
 
 0:00:38.499,0:00:42.869
 a number or a string, a string of a single value
 or reference to one of the complex 
 
 0:00:42.869,0:00:44.910
-data structures
+data structures.
 
 0:00:44.910,0:00:48.410
-but we will talk about it
+But we will talk about that
 later on.
 
 0:00:48.410,0:00:50.310
@@ -61,14 +61,14 @@ data structure has its own specific
 sign
 
 0:00:54.060,0:00:55.379
-politicos hijo
+,which we call sigil
 
 0:00:55.379,0:00:58.850
-which is the first character of the name
-of the variable
+Which is the first character of the name
+of the variable.
 
 0:00:58.850,0:01:03.550
-so in scalars you have dollar($) sign ,
+So in scalars you have dollar($) sign ,
 in arrays you have at(@) sign, and in
 
 0:01:03.550,0:01:08.260
@@ -76,7 +76,7 @@ hashes which is also called dictionaries
 or look-up tables
 
 0:01:08.260,0:01:10.960
-are the percent sign;
+are the percent(%) signs.
 
 0:01:10.960,0:01:13.250
 Now we're going to talk about 
@@ -93,7 +93,7 @@ and then
 letters and numbers
 
 0:01:20.620,0:01:25.010
-and underscore so for example you can
+and underscores. So for example you can
 have a variable like this
 
 0:01:25.010,0:01:26.390
@@ -112,7 +112,7 @@ long name
 that has lowerkeys letters
 
 0:01:35.509,0:01:38.770
-and underscore between words
+and underscore between the words
 
 0:01:38.770,0:01:39.689
 or
@@ -127,10 +127,10 @@ This Is
 A Long Name
 
 0:01:46.160,0:01:47.860
-- this style, although
+this style, although
 
 0:01:47.860,0:01:48.990
-the community
+the whole community
 
 0:01:48.990,0:01:52.800
 prefers the former version
@@ -144,52 +144,52 @@ and underscores between the
 variables
 
 0:01:57.230,0:02:00.690
-now, becouse you are using "use strict"
+Now, because you are using "use strict"
 
 0:02:00.690,0:02:05.439
-You always have to declare all variables
+you always have to declare all variables
 using the "my" key word
 
 0:02:05.439,0:02:07.360
-so, I declare my variable
+So, I declare my variable
 
 0:02:07.360,0:02:08.719
-my name
+"my $name"
 
 0:02:08.719,0:02:11.359
 and put in "foo"
 
 0:02:11.359,0:02:14.319
-and than i can print out, sorry,
+And then I can print out, sorry,
 
 0:02:14.319,0:02:17.949
-i can print out that variable
+I can print out that variable
 
 0:02:17.949,0:02:19.859
-so if I press now F5
+So if I press now F5
 
 0:02:19.859,0:02:20.969
 then it'll...
 
 0:02:20.969,0:02:22.989
-I need first of all to save the script
+I need first of all, to save the script
 
 0:02:22.989,0:02:25.059
 so i'll just call it script.pl
 
 0:02:25.059,0:02:26.500
-and it will
+And it will
 
 0:02:26.500,0:02:30.309
 open a separate window wher it will
 print out the result "foo"
 
 0:02:30.309,0:02:34.680
-and that's something that this window
-does for me
+And that's something that this window
+does for me.
 
 0:02:34.680,0:02:38.989
-so this is the way. The first thing when
+So this is the way. The first thing when
 we declare a variable is "my" and then we
 
 0:02:38.989,0:02:40.260
@@ -200,100 +200,97 @@ to this variable a value and then we can
 print it out
 
 0:02:43.379,0:02:44.460
-you don't have to
+We don't have to
 
 0:02:44.460,0:02:46.669
-assign immediately so we could
+assign immediately. So we could
 
 0:02:46.669,0:02:51.739
 declare the variable and then
-later on assign a value. If i run this
+later on assign a value. If I run this
 
 0:02:51.739,0:02:55.109
 I get the same result
 
 0:02:55.109,0:02:59.699
-normally we prefer the first version so if
+Normally we prefer the first version. So if
 the logic of the code allows it
 
 0:02:59.699,0:03:01.709
 then you should
 
 0:03:01.709,0:03:05.689
-immediately, at the declaration time 
+immediately, at the declaration time,
 assign a value
 
 0:03:05.689,0:03:10.189
-but that's not always possible
-so in that case you have to
+But that's not always possible.
+So there are cases, where you have to
 
 0:03:10.189,0:03:14.739
 first declare a variable and just later
-on you can assign a value
+on you can assign a value.
 
 0:03:14.739,0:03:16.779
-now what happens to a value if..
+Now what happens to a value if...
 
 0:03:16.779,0:03:20.159
-when it's not defined, it
+...when it's not defined, it
 
 0:03:20.159,0:03:23.569
 doesn't have a value, so 
-i just declare it
+I just declare it.
 
 0:03:23.569,0:03:26.579
-it holds a value that's called "undef"
+It holds a value that's called "undef".
 
 0:03:26.579,0:03:31.649
-it's undefined it's
-similar to "NULL" in..
+It's undefined. It's
+similar to "NULL" in...
 
 0:03:31.649,0:03:32.649
 
 
 0:03:32.649,0:03:36.509
 It's similar to "NULL" in databases
-but has slightly different behavior
+but has slightly different behavior.
 
 0:03:36.509,0:03:39.890
-so for for example we can check
-wether that value
+So for example we can check
+wether that value,
 
 0:03:39.890,0:03:41.879
 that variable has already
 
 0:03:41.879,0:03:46.339
 some other value or if it
-only has "undef" in it
+only has "undef" in it.
 
 0:03:46.339,0:03:52.859
-we can use this "defined" key word
-so we can ask wether its defined
+We can use this "defined" key word.
+So we can ask wether it's defined
 and then print out
 
 0:03:52.859,0:03:54.719
-say "define"
+"say 'define'"
 
-0:03:54.719,0:03:55.960
-else
-
-0:03:55.960,0:03:57.459
-let's
+0:03:54.719,0:03:57.459
+"else"
 
 0:03:57.459,0:04:00.159
-say "no"
+"say 'no'"
 
 0:04:00.159,0:04:01.920
-and then if I run this code
+And then if I run this code
 
 0:04:01.920,0:04:03.649
-then you'll see "no"
+then you'll see "no".
 
 0:04:03.649,0:04:06.369
-and then "foo"
+And then "foo".
 
 0:04:06.369,0:04:08.999
-on the other hand if i take the same code
+On the other hand if I take the same code
 
 0:04:08.999,0:04:10.069
 and
@@ -311,7 +308,7 @@ then
 it says it's defined and then it says
 
 0:04:19.039,0:04:20.259
-it' our
+it's our
 
 0:04:20.259,0:04:21.979
 value "foo" because the
@@ -323,20 +320,20 @@ printing out of the value is after
 actually
 
 0:04:25.979,0:04:28.250
-printing out of the "defined"
+printing out of the "defined".
 
 0:04:28.250,0:04:32.430
-so you can see the here it was still not
+So you can see the here it was still not
 defined, here we assign a value and
 
 0:04:32.430,0:04:36.040
-it became defined
+here it became defined
 
 0:04:36.040,0:04:38.990
-we can later on set the value to be
+We can later on set the value to be
 
 0:04:38.990,0:04:43.490
-"undef" again, so later on, for
+"undef" again. So later on, for
 example here, we can say name
 
 0:04:43.490,0:04:44.659
@@ -346,11 +343,11 @@ equals to
 "undef"
 
 0:04:46.479,0:04:49.210
-let me just not copy-paste
-the same code
+Let me just not copy-paste
+the same code.
 
 0:04:49.210,0:04:54.899
-at this point its value 
+At this point its value 
 is "undef" again
 
 0:04:54.899,0:04:56.370
@@ -366,29 +363,29 @@ so you can...
 Let's start it again
 
 0:05:03.710,0:05:06.159
-you can declare a variable, let's say
+You can declare a variable, let's say
 
 0:05:06.159,0:05:09.030
-"x"
+"$x"
 
 0:05:09.030,0:05:11.179
-and put it in a string
+And put it in a string
 
 0:05:11.179,0:05:12.249
 put a string in it
 
 0:05:12.249,0:05:15.639
-and then you can print out the variable
+And then you can print out the variable
 
 0:05:15.639,0:05:19.210
-and then you can assign to the
+And then you can assign to the
 same variable a number
 
 0:05:19.210,0:05:21.800
-and you can print out the variable again
+And you can print out the variable again
 
 0:05:21.800,0:05:24.769
-and if I run the code, then you will see that
+And if I run the code, then you will see that
 
 0:05:24.769,0:05:27.809
 first it was a string and then it was a number
@@ -397,13 +394,13 @@ first it was a string and then it was a number
 and Perl doesn't care about it. Perl doesn't have
 
 0:05:30.529,0:05:33.870
-types connected tho these variables
+types connected to these variables
 
 0:05:33.870,0:05:36.410
 it doesn't have anything like that
 
 0:05:36.410,0:05:40.699
-federal
+So all that operators work.
 
 0:05:40.699,0:05:42.249
 so another
@@ -418,7 +415,7 @@ might you might be used to
 the fact that
 
 0:05:47.199,0:05:50.610
-different values different variables
+different values, different variables
 
 0:05:50.610,0:05:52.559
 based on the type of the variables
@@ -436,21 +433,21 @@ in Perl
 the way... It'a an opposite way
 
 0:05:59.620,0:06:01.960
-not variables not
+Not variables not
 
 0:06:01.960,0:06:03.599
-operators
+operands
 
 0:06:03.599,0:06:06.230
-declare, decide what the operator will do
+decide what the operator will do.
 
 0:06:06.230,0:06:11.460
-but the operator will decide how
-to operate, how the variables behave
+But the operator will decide how
+to operate, how the variables behave.
 
 0:06:11.460,0:06:17.630
 So let's start using another example
-Let's say I have $z
+Let's say I have "$z"
 
 0:06:17.630,0:06:19.620
 equals 3
@@ -460,7 +457,7 @@ I can just print it out and then I have
 another variable called
 
 0:06:25.180,0:06:26.889
-Let's say "y"
+Let's say "$y"
 
 0:06:26.889,0:06:28.800
 equals to 4
@@ -472,26 +469,23 @@ and then
 I also print that out
 
 0:06:32.749,0:06:37.030
-and then,what shall we do? So let's
+And then,what shall we do? So let's
 try to
 
 0:06:37.030,0:06:40.400
-take $z and add $y to it
+take "$z" and add "$y" to it
 
 0:06:40.400,0:06:42.789
-and then let's also try to
+And then let's also try to
 
-0:06:42.789,0:06:44.969
-take $z
-
-0:06:44.969,0:06:47.330
-
+0:06:42.789,0:06:47.330
+take "$z"
 
 0:06:47.330,0:06:50.919
-and concatenate $y so they'll be
+and concatenate "$y" so they'll be
 
 0:06:50.919,0:06:52.189
-put togheter the two
+put togheter, the two
 
 0:06:52.189,0:06:54.119
 values
@@ -500,7 +494,7 @@ values
 and then the third one is let's say 
 
 0:06:58.609,0:07:00.480
-$z x $y which is the multiplicator
+"$z x $y" which is the multiplicator
 
 0:07:00.480,0:07:02.209
 or um...
@@ -515,11 +509,11 @@ operator, sorry
 So if i run the code, what do we have here
 
 0:07:11.300,0:07:14.550
-first of all it prints out the two values
-three and four
+First of all it prints out the two values
+3 and 4
 
 0:07:14.550,0:07:15.879
-then the plus
+Then the plus
 
 0:07:15.879,0:07:19.770
 is addition, american addition so
@@ -530,13 +524,13 @@ two scalars variables the values of
 them 3 and 4 and add them as numbers
 
 0:07:25.379,0:07:26.389
-then the dot
+Then the dot
 
 0:07:26.389,0:07:27.949
-is a concatinetion
+is a concatenation
 
 0:07:27.949,0:07:29.639
-so it takes two strings
+So it takes two strings
 
 0:07:29.639,0:07:33.249
 and basicaly it converts the two
@@ -552,10 +546,10 @@ them concatenated three and four
 or 34 if you
 
 0:07:38.530,0:07:39.999
-look at this as a number
+look at this as a number.
 
 0:07:39.999,0:07:43.529
-and the last one is the repetition so it takes
+And the last one is the repetition so it takes
 the left hand side
 
 0:07:43.529,0:07:45.359
@@ -575,10 +569,10 @@ as many
 
 0:07:50.349,0:07:53.400
 times as you have on the right
-hand side
+hand side.
 
 0:07:53.400,0:07:56.189
-so because on the left hand side
+So because on the left hand side
 you have string "3"
 
 0:07:56.189,0:08:00.349
@@ -591,13 +585,13 @@ it'll have 4 times the
 characters "3"
 
 0:08:05.499,0:08:06.870
-so as you can see
+So as you can see
 
 0:08:06.870,0:08:08.159
 the operator
 
 0:08:08.159,0:08:09.789
-is the one that
+is the one that decides
 
 0:08:09.789,0:08:12.800
 the operands how to behave either as numbers
@@ -606,7 +600,7 @@ the operands how to behave either as numbers
 or as strings
 
 0:08:15.499,0:08:17.069
-but what happens if
+But what happens if
 
 0:08:17.069,0:08:18.189
 one of these
@@ -615,13 +609,13 @@ one of these
 are not really numbers
 
 0:08:19.669,0:08:22.460
-so what happens if these are
+So what happens if these are
 
 0:08:22.460,0:08:24.649
 both strings
 
 0:08:24.649,0:08:26.509
-if i run the code now
+If i run the code now
 
 0:08:26.509,0:08:28.729
 we will see that the result is the same
@@ -636,20 +630,20 @@ numbers to strings
 and strings to numbers when necessary
 
 0:08:35.310,0:08:38.260
-when the operator requires it
+when the operator requires it.
 
 0:08:38.260,0:08:41.480
-that's okay um... and what happens if only one 
+That's okay um... And what happens if only one 
 
 0:08:41.480,0:08:42.850
 of them is string
 
 0:08:42.850,0:08:46.860
-and another one is a number so
-let's look at this one. What happens in
+and another one is a number? 
+So let's look at this one. What happens in
 
 0:08:46.860,0:08:48.370
-this case
+this case?
 
 0:08:48.370,0:08:50.790
 I run this code, and the same!
@@ -753,7 +747,7 @@ Then I get "3.14 is pi"
 
 0:10:10.670,0:10:14.910
 which is just printing out of
-the content of $y
+the content of "$y".
 
 0:10:14.910,0:10:17.750
 Then I have this warning
@@ -761,12 +755,9 @@ Then I have this warning
 0:10:17.750,0:10:20.370
 and the result "6.14".
 
-0:10:20.370,0:10:24.310
+0:10:20.370,0:10:25.350
 So this warning is there because we are
 trying to use
-
-0:10:24.310,0:10:25.350
-
 
 0:10:25.350,0:10:26.520
 this string
@@ -775,7 +766,7 @@ this string
 in a numeric context
 
 0:10:28.120,0:10:30.780
-in addition at line
+in addition at line...
 
 0:10:30.780,0:10:33.250
 Well it says twelve. Yes, in this line
@@ -789,11 +780,8 @@ Sorry.
 0:10:42.210,0:10:43.890
 Yeah! So this window.
 
-0:10:43.890,0:10:46.510
+0:10:43.890,0:10:49.740
 So you can see this here.
-
-0:10:46.510,0:10:49.740
-
 
 0:10:49.740,0:10:51.520
 This is the string. This is what
@@ -825,7 +813,7 @@ So now it's
 "3.14 is pi"
 
 0:11:12.860,0:11:17.030
-But in the additiom it actually used
+But in the addition it actually used
 only "3.14"
 
 0:11:17.030,0:11:19.160
@@ -868,13 +856,13 @@ used "3.14"
 as the value
 
 0:11:46.020,0:11:48.550
-for $y in this addition.
+for "$y" in this addition.
 
 0:11:48.550,0:11:49.910
 Then, what you
 
 0:11:49.910,0:11:52.620
-might wonder is what happened to $y.
+might wonder is what happened to "$y".
 
 0:11:52.620,0:11:54.000
 Did it get converted?
@@ -896,17 +884,17 @@ That here
 
 0:12:00.110,0:12:03.519
 we get actually the "3"
-from the $z.
+from the "$z".
 
 0:12:03.519,0:12:06.530
 And the "3.14 is pi"
 
 0:12:06.530,0:12:10.330
-coming from $y. So you can see
-that $y didn't change.
+coming from "$y". So you can see
+that "$y" didn't change.
 
 0:12:10.330,0:12:12.070
-$y is
+"$y" is
 
 0:12:12.070,0:12:14.010
 still the same string.
@@ -915,10 +903,10 @@ still the same string.
 And then if you look at the third one
 
 0:12:15.970,0:12:18.370
-you'll see that it's $z
+you'll see that it's "$z"
 
 0:12:18.370,0:12:20.100
-$y times
+"$y" times
 
 0:12:20.100,0:12:22.790
 Now you would expect probably that
@@ -1013,10 +1001,10 @@ it actually stored that number
 in a magic place
 
 0:13:27.920,0:13:30.050
-in $y
+in "$y"
 
 0:13:30.050,0:13:34.010
-So from that point on $y actually
+So from that point on "$y" actually
 had two values: the string value and
 
 0:13:34.010,0:13:35.310
@@ -1112,10 +1100,10 @@ I won't print it.
 So now we have a declared variable.
 
 0:14:57.020,0:14:58.210
-Called $z.
+Called "$z".
 
 0:14:58.210,0:15:01.119
-And $y declared, but we didn't
+And "$y" declared, but we didn't
 
 0:15:01.119,0:15:02.650
 give it a value.
@@ -1134,7 +1122,7 @@ Using of uninitialized...
 
 0:15:13.060,0:15:16.290
 Telling me that i'm trying to use
-the uninitialized values. So this means, that $y
+the uninitialized values. So this means, that "$y"
 
 0:15:16.290,0:15:21.800
 was "undef". Both in the addition
@@ -1143,11 +1131,8 @@ and the concatenation.
 0:15:21.800,0:15:26.490
 So you can see that
 
-0:15:26.490,0:15:28.920
+0:15:26.490,0:15:29.810
 Perl gives me warnings, when i'm trying to use
-
-0:15:28.920,0:15:29.810
-
 
 0:15:29.810,0:15:32.520
 a variable that is "undef".
@@ -1165,7 +1150,7 @@ But as you can see,
 though it's a bit difficult to see,
 
 0:15:42.470,0:15:44.850
-The first "say' is printing out "3" here.
+The first "say" is printing out "3" here.
 
 0:15:44.850,0:15:45.670
 And then this
@@ -1174,7 +1159,7 @@ And then this
 "say" printing out "3" again
 
 0:15:47.449,0:15:50.420
-because $y, although it's "undef",
+because "$y", although it's "undef",
 
 0:15:50.420,0:15:52.390
 in numerical context it
@@ -1186,7 +1171,7 @@ behaves like 0.
 And in this concatenation I get "3" again
 
 0:15:57.910,0:16:00.540
-because although $y is "undef".
+because although "$y" is "undef".
 
 0:16:00.540,0:16:05.670
 but in string context it behaves like
@@ -1196,13 +1181,13 @@ an empty string
 If you want to make sure, that it's
 
 0:16:09.520,0:16:15.070
-still "undef". Then "print 
+still "undef". Then 
 
 0:16:15.070,0:16:17.490
- 'defined'"
+"print 'defined'"
 
 0:16:17.490,0:16:20.760
-and else
+and "else"
 
 0:16:20.760,0:16:22.870
 Sorry that should be "say"
@@ -1430,6 +1415,7 @@ And if you're actually wondering if there is
 0:19:31.799,0:19:34.480
 operator overloading in Perl.
 So there is.
+
 0:19:34.480,0:19:38.080
 But it's an advanced topic, so we are
 not going to address it now.
@@ -1437,4 +1423,3 @@ not going to address it now.
 0:19:38.080,0:19:41.240
 And I think that's all, so
 See you next time!
-
