@@ -2,7 +2,7 @@
 Hi and welcome back to the channel
 
 0:00:06.190,0:00:09.070
-This time i'm going
+This time I'm going
 to talk about built-in debugger
 
 0:00:09.070,0:00:11.309
@@ -19,7 +19,7 @@ You can run in this way in the command line
 perl name of the script and potential parameters
 
 0:00:21.569,0:00:23.960
-So let's see if i run this script
+So let's see if I run this script
 
 0:00:23.960,0:00:25.599
 We can see that it provides some output
@@ -36,24 +36,24 @@ and then the parameters
 Once
 
 0:00:33.770,0:00:36.240
-i run this
+I run this
 
 0:00:36.240,0:00:38.920
 it will give some kind of an output
 
 0:00:38.920,0:00:43.340
-Trains out of the first line of code
-the next time that is
+Prints out the first line of code,
+the next line that is
 
 0:00:43.340,0:00:45.010
 supposed to be executed
 
 0:00:45.010,0:00:47.220
-and then the provides me with a prompt
+and then provides me with a prompt
 
 0:00:47.220,0:00:50.290
-where i can type in various commands
-to the debugger
+where I can type in various commands
+to the debugger.
 
 0:00:50.290,0:00:51.839
 First and most important
@@ -86,8 +86,8 @@ which is 'h'
 Providing us this help
 
 0:01:08.390,0:01:12.100
-So you can see here the various options
-specifically the shortlist
+So you can see here the various options.
+This is actually the short list
 
 0:01:12.100,0:01:13.840
 of the debugger
@@ -118,17 +118,16 @@ In this listing you will see the line
 numbers
 
 0:01:33.660,0:01:35.830
-and an arrow pointing to the
+and this arrow points to the line that is the
 
 0:01:35.830,0:01:39.260
-next line to be executed so
-this line hasn't been executed
+next line to be executed. So this line
 
 0:01:39.260,0:01:40.240
-yet
+hasn't been executed. yet
 
 0:01:40.240,0:01:43.690
-If i want to see what's in the dollar
+If I want to see what's in the $file
 variable
 
 0:01:43.690,0:01:45.430
@@ -150,13 +149,13 @@ Provide the name of the variable
 and it will just print nothing
 
 0:01:56.799,0:01:59.269
-Actually i can even check later
+Actually I could even check whether
 
 0:01:59.269,0:02:02.720
-if p is defined or not
+it is defined or not.
 
 0:02:02.720,0:02:05.750
-So, i can write p defined and it return
+So, I can write p defined and it return
 
 0:02:05.750,0:02:06.869
 false
@@ -175,10 +174,10 @@ if not defined and it will
 print out some kind of true value
 
 0:02:18.680,0:02:20.180
-But anyway,
+But anyway.
 
 0:02:20.180,0:02:24.670
-et's see how can i execute these lines
+Let's see how can I execute these lines
 
 0:02:24.670,0:02:26.959
 I would like to get back to this point
@@ -201,7 +200,7 @@ show me the next
 line to be executed
 
 0:02:41.269,0:02:46.040
-If I would print out the
+If I print out the
 content of the file
 
 0:02:46.040,0:02:49.140
@@ -272,7 +271,7 @@ package
 where the code is
 
 0:03:29.309,0:03:32.819
-Which file is the name of the
+read_file is the name of the
 function that is being called
 which is a bit
 
@@ -284,7 +283,7 @@ that is called 'slurp'
 and instead of that
 
 0:03:38.270,0:03:38.990
-read file
+we are running read_file
 
 0:03:38.990,0:03:40.950
 And you will have to see what's
@@ -294,14 +293,14 @@ going on there and this is the name of the
 file
 
 0:03:44.559,0:03:48.479
-the actual implementation of the read file
+the actual implementation of the read_file
 function
 
 0:03:48.479,0:03:51.010
 And we are in line 75
 
 0:03:51.010,0:03:52.749
-so this is the next
+So this is the next
 
 0:03:52.749,0:03:55.489
 line to be executed
@@ -313,7 +312,7 @@ Let's look around so let's type 'l'
 and the a range of line numbers
 
 0:04:02.919,0:04:04.309
-seventy to eighty
+70 to 80
 
 0:04:04.309,0:04:06.310
 and to show us the lines
@@ -321,14 +320,14 @@ and to show us the lines
 0:04:06.310,0:04:08.119
 
 0:04:08.119,0:04:11.419
-file slurp
+File/Slurp.pm
 
 0:04:11.419,0:04:15.449
-In between those lines and here you can
-see that yes we are in the
+In between those lines. And here you can
+see that yes, we are in the
 
 0:04:15.449,0:04:17.419
-readfile
+read_file
 
 0:04:17.419,0:04:19.680
 function as it was told
@@ -338,7 +337,7 @@ above it
 
 0:04:20.580,0:04:25.340
 You see that actually the slurp
-function is and alias to the readfile function
+function is and alias to the read_file function
 
 0:04:25.340,0:04:28.650
 So that explains why when we are calling slurp
@@ -347,10 +346,10 @@ So that explains why when we are calling slurp
 it actually
 
 0:04:29.560,0:04:32.530
-gets us into the readfile function
+gets us into the read_file function
 
 0:04:32.530,0:04:34.280
-within the readfile function
+within the read_file function
 
 0:04:34.280,0:04:35.469
 
@@ -358,7 +357,7 @@ within the readfile function
 This is the next step to be executed
 
 0:04:37.850,0:04:39.750
-If I want to do an executed
+If I want to do and execute
 
 0:04:39.750,0:04:41.470
 I can press s again
@@ -375,7 +374,7 @@ executes the same 's'
 that was given earlier
 
 0:04:51.690,0:04:55.389
-This way i can just press enter
+This way I can just press enter
 all the time and see it goes
 
 0:04:55.389,0:04:56.830
@@ -388,10 +387,10 @@ and go over
 all the values
 
 0:04:59.659,0:05:03.110
-All the steps that are in the code
+All the steps that are in the code.
 
 0:05:03.110,0:05:07.499
-after all you might think that 
+Now, after all you might think that
 this is not he function you
 
 0:05:07.499,0:05:09.409
@@ -439,7 +438,7 @@ Let's see the 't' command
 which provides us the stack trace
 
 0:05:37.729,0:05:40.199
-So when i press 't'
+So when I press 't'
 I can see
 
 0:05:40.199,0:05:41.789
@@ -481,14 +480,14 @@ And with the list of the names
 of the people
 
 0:06:13.620,0:06:19.729
-who contributed to the Padre project
-and by the way thank you for all them
+who contributed to the Padre project.
+And by the way thank you for all them.
 
 0:06:19.729,0:06:21.320
-So we go back to the code
+So we go back to the code.
 
 0:06:21.320,0:06:24.939
-And here now you can see the next
+Here now you can see the next
 line
 
 0:06:24.939,0:06:26.930
@@ -514,21 +513,21 @@ and step in that method
 Let's look around
 
 0:06:42.180,0:06:46.680
-from forty five to let's say sixty
+from 45 to let's say 60
 
 0:06:46.680,0:06:49.059
-You will see here your
+You will see here,
 
 0:06:49.059,0:06:52.050
 Probably these are just empty
 lines that are not displayed here
 
 0:06:52.050,0:06:56.879
-And then we are defining a new
-method on the first line of it
+And then we are in the find
+method on the first line of it.
 
 0:06:56.879,0:06:57.709
-And now you can
+So now you can
 
 0:06:57.709,0:07:00.210
 step again
@@ -538,14 +537,14 @@ at this time
 
 0:07:02.010,0:07:08.089
 We decide that we don't care about
-the process so we don't want to step in
+the process_doc so we don't want to step in
 
 0:07:08.089,0:07:09.409
 Previously
 
 0:07:09.409,0:07:13.589
 we stepped into the slurp function and then
-we fount out that we
+later on we found out that we
 
 0:07:13.589,0:07:16.990
 don't care about it and we stepped out of it
@@ -558,10 +557,10 @@ In this time I can use that 'n' letter
 which means next step
 
 0:07:21.719,0:07:25.130
-And if i press enter on this
+And if I press enter on this
 
 0:07:25.130,0:07:27.999
-Then the code will be executed
+Then the code of process_doc will be executed
 
 0:07:27.999,0:07:31.130
 but the debugger will stop
@@ -602,7 +601,7 @@ step in or step over
 Whichever was the last thing we did earlier
 
 0:07:55.030,0:07:56.179
-So if i press enter now
+So if I press enter now
 
 0:07:56.179,0:07:58.270
 it steps over the code
@@ -615,7 +614,7 @@ and
 
 0:08:02.800,0:08:06.750
 I think that's enough for now
-probably i'll give another
+probably I'll give another
 
 0:08:06.750,0:08:08.770
 tutorial about it
