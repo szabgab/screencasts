@@ -174,7 +174,7 @@ so i'll just call it script.pl
 And it will
 
 0:02:26.500,0:02:30.309
-open a separate window wher it will
+open a separate window where it will
 print out the result "foo"
 
 0:02:30.309,0:02:34.680
@@ -509,7 +509,7 @@ First of all it prints out the two values
 Then the plus
 
 0:07:15.879,0:07:19.770
-is addition, american addition so
+is addition, numerical addition so
 it will take the two values
 
 0:07:19.770,0:07:25.379
@@ -648,7 +648,7 @@ So Perl doesn't care, you can...
 It automatically converts
 
 0:08:54.590,0:08:56.930
-our chars, if you like it
+or casts, if you like it
 
 0:08:56.930,0:09:01.060
 numbers to strings and the strings
@@ -667,7 +667,7 @@ in the general case.
 But there are other cases
 
 0:09:07.660,0:09:09.270
-They are...
+when...
 
 0:09:09.270,0:09:11.220
 This conversion might not be
@@ -826,7 +826,7 @@ looks at it and tries to use it as a number.
 
 0:11:27.829,0:11:32.160
 And there is a point. There is a space here.
-Beneath it, it
+But it
 
 0:11:32.160,0:11:35.249
 stops understanding. It can't
