@@ -14,8 +14,8 @@ Especially, this
 presentation will be about scalars.
 
 0:00:11.989,0:00:16.669
-So you can see Padre here. This is
-a development version of it.
+So you can see Padre here, the IDE.
+This is a development version of it.
 
 0:00:16.669,0:00:21.309
 And the first single thing to do
@@ -25,7 +25,7 @@ is to create a new
 Perl 5 script.
 
 0:00:22.920,0:00:26.239
-It just has a shebang in it, then the
+It just has the shebang in it, then the
 
 0:00:26.239,0:00:28.949
 "use" statements.
@@ -42,26 +42,22 @@ Scalars can contain either
 
 0:00:38.499,0:00:42.869
 a number or a string, a string of a single value
-or reference to one of the complex 
+or references to one of the complex 
 
 0:00:42.869,0:00:44.910
 data structures.
 
 0:00:44.910,0:00:48.410
-But we will talk about that
-later on.
+But we will talk about that later on.
 
-0:00:48.410,0:00:50.310
+0:00:48.410,0:00:51.810
 Each
 
-0:00:50.310,0:00:53.140
-data structure has its own specific
-
-0:00:53.140,0:00:54.060
-sign
+0:00:51.810,0:00:54.060
+has its own specific sign,
 
 0:00:54.060,0:00:55.379
-,which we call sigil
+what we call sigil
 
 0:00:55.379,0:00:58.850
 Which is the first character of the name
@@ -112,13 +108,10 @@ long name
 that has lowerkeys letters
 
 0:01:35.509,0:01:38.770
-and underscore between the words
+and underscores between the words
 
-0:01:38.770,0:01:39.689
-or
-
-0:01:39.689,0:01:42.040
-you can have
+0:01:38.770,0:01:42.040
+or you can have
 
 0:01:42.040,0:01:44.020
 This Is
@@ -189,8 +182,8 @@ And that's something that this window
 does for me.
 
 0:02:34.680,0:02:38.989
-So this is the way. The first thing when
-we declare a variable is "my" and then we
+So this is the way. We first declare
+a variable. It's "my" and then we
 
 0:02:38.989,0:02:40.260
 assign
@@ -210,7 +203,7 @@ declare the variable and then
 later on assign a value. If I run this
 
 0:02:51.739,0:02:55.109
-I get the same result
+I get the same result.
 
 0:02:55.109,0:02:59.699
 Normally we prefer the first version. So if
@@ -272,13 +265,13 @@ So we can ask wether it's defined
 and then print out
 
 0:03:52.859,0:03:54.719
-"say 'define'"
+"say 'defined'"
 
 0:03:54.719,0:03:57.459
 "else"
 
 0:03:57.459,0:04:00.159
-"say 'no'"
+we "say 'no'"
 
 0:04:00.159,0:04:01.920
 And then if I run this code
@@ -308,10 +301,10 @@ then
 it says it's defined and then it says
 
 0:04:19.039,0:04:20.259
-it's our
+it's already
 
 0:04:20.259,0:04:21.979
-value "foo" because the
+the value "foo" because the
 
 0:04:21.979,0:04:24.610
 printing out of the value is after
@@ -327,7 +320,7 @@ So you can see the here it was still not
 defined, here we assign a value and
 
 0:04:32.430,0:04:36.040
-here it became defined
+here it became defined.
 
 0:04:36.040,0:04:38.990
 We can later on set the value to be
@@ -400,16 +393,16 @@ types connected to these variables
 it doesn't have anything like that
 
 0:05:36.410,0:05:40.699
-So all that operators work.
+So all that
 
 0:05:40.699,0:05:42.249
-so another
+operators work.
 
 0:05:42.249,0:05:43.740
-language which is you're you
+From another language you
 
 0:05:43.740,0:05:46.060
-might you might be used to
+might be used to
 
 0:05:46.060,0:05:47.199
 the fact that
@@ -424,10 +417,10 @@ based on the type of the variables
 the operators
 
 0:05:53.639,0:05:55.930
-behave differently
+behave differently.
 
 0:05:55.930,0:05:57.099
-in Perl
+In Perl
 
 0:05:57.099,0:05:59.620
 the way... It'a an opposite way
@@ -443,7 +436,7 @@ decide what the operator will do.
 
 0:06:06.230,0:06:11.460
 But the operator will decide how
-to operate, how the variables behave.
+the operands, the variables behave.
 
 0:06:11.460,0:06:17.630
 So let's start using another example
@@ -553,7 +546,7 @@ And the last one is the repetition so it takes
 the left hand side
 
 0:07:43.529,0:07:45.359
-content of that
+content of "$z"
 
 0:07:45.359,0:07:46.759
 and takes it as a string
@@ -591,7 +584,7 @@ So as you can see
 the operator
 
 0:08:08.159,0:08:09.789
-is the one that decides
+is the one that tells
 
 0:08:09.789,0:08:12.800
 the operands how to behave either as numbers
@@ -615,7 +608,7 @@ So what happens if these are
 both strings
 
 0:08:24.649,0:08:26.509
-If i run the code now
+If I run the code now
 
 0:08:26.509,0:08:28.729
 we will see that the result is the same
@@ -633,7 +626,7 @@ and strings to numbers when necessary
 when the operator requires it.
 
 0:08:38.260,0:08:41.480
-That's okay um... And what happens if only one 
+That's okay. And what happens if only one 
 
 0:08:41.480,0:08:42.850
 of them is string
@@ -856,7 +849,7 @@ used "3.14"
 as the value
 
 0:11:46.020,0:11:48.550
-for "$y" in this addition.
+of "$y" in this addition.
 
 0:11:48.550,0:11:49.910
 Then, what you
@@ -871,7 +864,7 @@ Did it get converted?
 Or only for the use
 
 0:11:55.579,0:11:56.930
-in this addition?
+of this addition?
 
 0:11:56.930,0:11:57.990
 So you can see
@@ -950,7 +943,7 @@ So what?
 Is it because...
 
 0:12:50.190,0:12:53.190
-because tha operation doesn't
+because this operation doesn't
 generate the warning?
 
 0:12:53.190,0:12:56.240
@@ -981,21 +974,21 @@ So earlier we just didn't see
 that warning.
 
 0:13:11.220,0:13:15.350
-And why didn't hwe see? Because there was no
+And why didn't we see? Because there was no
 warning. And the reason is that
 
 0:13:15.350,0:13:17.120
 at the time, here
 
 0:13:17.120,0:13:19.530
-When the edition 
+When the addition 
 
 0:13:19.530,0:13:21.940
 caused Perl to convert
 
 0:13:21.940,0:13:26.399
 the string to the number then
-it actually stored that number
+it actually stored that new number
 
 0:13:26.399,0:13:27.920
 in a magic place
@@ -1073,7 +1066,7 @@ So a couple of issues, that we'd like to
 talk about more.
 
 0:14:34.070,0:14:36.680
-One problem is "undef".
+One of them is "undef".
 
 0:14:36.680,0:14:39.560
 So what happens with "undef" in the same context
@@ -1265,7 +1258,7 @@ this way.
 And run the code..
 
 0:17:22.640,0:17:24.429
-So i get
+So I get
 
 0:17:24.429,0:17:25.189
 "3"
@@ -1277,11 +1270,11 @@ the first print out
 the first "say" here
 
 0:17:28.419,0:17:31.759
-And then when i'm trying to add that value.
+And then when i'm trying to add the values.
 
 0:17:31.759,0:17:35.649
 It would print out a warning.
-But warning is now a fatal exception.
+But that warning is now a fatal exception.
 
 0:17:35.649,0:17:37.840
 So the script doesn't
@@ -1382,7 +1375,7 @@ So now you can see that there I have the
 number "3" and that i have the result
 
 0:19:06.120,0:19:10.390
-of the concatenation, and the define
+of the concatenation, and the "defined"
 here.
 
 0:19:10.390,0:19:12.420
