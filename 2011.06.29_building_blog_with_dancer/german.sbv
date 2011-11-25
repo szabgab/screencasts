@@ -38,7 +38,7 @@ erstellen wir eine leere Seite.
 
 0:00:34.030,0:00:40.850
 Dancer kommt mit einer Befehlszeilenanwendung,
-die uns erlaubt eine Grundgerüst unserer Seite zu erstellen.
+die uns erlaubt ein Grundgerüst unserer Seite zu erstellen.
 
 0:00:40.850,0:00:43.430
 Dafür müssen wir cmd
@@ -78,7 +78,7 @@ ist ..
 
 0:01:09.050,0:01:12.970
 Das Ausführen dieses Scripts
-wird eine Unterverzeichnis erstellen
+wird ein Unterverzeichnis erstellen
 
 0:01:12.970,0:01:18.400
 für die Anwendung und die verschiedenen Dateien,
@@ -107,7 +107,7 @@ die Dancer für mich erstellt hat.
 Wie sieht´s aus?
 
 0:01:41.740,0:01:47.610
-dann gehe ich zurück zu Padre und öffne die Datei
+Dann gehe ich zurück zu Padre und öffne die Datei.
 
 0:01:47.610,0:01:49.400
 Wenn ich die Datei öffne
@@ -120,14 +120,14 @@ in 'work'
 Dwimmer
 
 0:01:56.330,0:01:59.509
-und dann das 'bin'-Verzeichnis und app.pl
+und dann das 'bin'-Verzeichnis und app.pl.
 
 0:01:59.509,0:02:02.469
 Hier sehen wir, dass das Script selber
-fast leer ist
+fast leer ist,
 
 0:02:02.469,0:02:04.940
-es lädt nur das Dwimmer Modul
+es lädt nur das Dwimmer Modul.
 
 0:02:04.940,0:02:08.419
 Das Dwimmer Modul ist in dem 'lib'-Verzeichnis.
@@ -172,14 +172,14 @@ in dem 'views'-Unterverzeichnis,
 also index.tt
 
 0:02:37.620,0:02:39.749
-ist das Template
+ist das Template,
 
 0:02:39.749,0:02:41.769
-Welches wir...
+welches wir...
 
 0:02:41.769,0:02:44.629
 Dancer kommt mit einem wirklich
-leichten Template System
+einfachen Template System,
 
 0:02:44.629,0:02:46.720
 aber ich habe bereits
@@ -188,32 +188,32 @@ aber ich habe bereits
 Template::Toolkit installiert,
 
 0:02:48.859,0:02:52.939
-dass mit Padre on Strawberry Perl kommt
-also das Erste,
+dass mit Padre on Strawberry Perl kommt.
+Also das Erste,
 
 0:02:52.939,0:02:55.829
 was ich machen möchte ist,
 das Template System zu ändern.
 
 0:02:55.829,0:02:58.430
-Das kann ich in der config.yml Datei machen
+Das kann ich in der config.yml Datei machen.
 
 0:02:58.430,0:03:00.079
-die ist im Root-Verzeichnis
+Die ist im Root-Verzeichnis
 
 0:03:00.079,0:03:01.779
 der Anwendung.
 
 0:03:01.779,0:03:05.869
-Here können wir sehen, dass da ein
-template ist, das 'simple template'
+Hier können wir sehen, dass da ein
+Template ist, das 'simple template'
 
 0:03:05.869,0:03:09.599
 und ... ich möchte gerne
 Template::Toolkit nutzen
 
 0:03:09.599,0:03:10.760
-und da
+und hier
 
 0:03:10.760,0:03:14.739
 definiere ich auch, dass die 
@@ -221,39 +221,39 @@ Codierung utf-8 sein soll.
 
 0:03:14.739,0:03:19.529
 Die Start- und End-Tags lasse ich
-wie sie sind
+wie sie sind.
 
 0:03:19.529,0:03:20.579
-das ist
+Die sind..
 
 0:03:20.579,0:03:22.259
-sieht aus
+sehen aus..
 
 0:03:22.259,0:03:24.479
-sieht so aus <% %>
+sehen so aus: <% %>,
 
 0:03:24.479,0:03:26.989
 also lasse ich das so.
 
 0:03:26.989,0:03:30.489
 Jetzt habe ich das konfiguriert,
-jetzt möchte ich sehen, dass es noch funktioniert
+jetzt möchte ich sehen, dass es noch funktioniert.
 
 0:03:30.489,0:03:31.479
-also
+Also
 
 0:03:31.479,0:03:33.899
-stoppe ich die Anwendung, starte neu
+stoppe ich die Anwendung, starte sie neu
 
 0:03:33.899,0:03:36.139
-und gehe zurück zum Browser
+und gehe zurück zum Browser,
 
 0:03:36.139,0:03:39.869
-um zu sehen, dass es noch funktioniert.
-Was wir vorher gesehen haben, dass von jeder Art
+um zu sehen, ob es noch funktioniert.
+Was wir vorher gesehen haben, dass hier von jeder Art
 
 0:03:39.869,0:03:40.940
-Werte sind
+Werte sind,
 
 0:03:40.940,0:03:42.369
 die kommen von
@@ -263,14 +263,14 @@ von dem
 
 0:03:44.099,0:03:47.160
 Template System. Also lade ich das neu
-und ich bekomme immer noch das Gleiche
+und ich bekomme immer noch das Gleiche.
 
 0:03:47.160,0:03:49.790
 Ich bekomme immernoch die gleichen Daten.
 Alles ist OK.
 
 0:03:49.790,0:03:50.979
-Jetzt
+Jetzt..
 
 0:03:50.979,0:03:53.599
 Ich brauche das ganze Zeug nicht,
@@ -283,10 +283,10 @@ Default-Ansicht von Dancer ist.
 Also gehe ich in das 'index'-Template
 
 0:03:58.489,0:04:00.670
-ich lösche alles bis auf das
+und lösche alles bis auf das
 
 0:04:00.670,0:04:02.029
-ich schreibe 'Hello'
+Ich schreibe 'Hello'
 
 0:04:02.029,0:04:03.849
 und
@@ -315,23 +315,23 @@ dann haben wir das hier:
 'hello' und einen Link um einen Post zu erstellen.
 
 0:04:25.889,0:04:29.009
-der sollte uns zu der Seite weiterleiten
+Der sollte uns zu der Seite weiterleiten.
 
 0:04:29.009,0:04:32.539
-Wenn ich darauf klicke bekomme ich
+Wenn ich darauf klicke, bekomme ich
 einen 404 Error, weil niemand
 
 0:04:32.539,0:04:34.129
 bis jetzt definiert hat,
 
 0:04:34.129,0:04:34.949
-was zu tun ist
+was zu tun ist,
 
 0:04:34.949,0:04:36.680
-wenn jemand auf diese Seite kommt
+wenn jemand auf diese Seite kommt.
 
 0:04:36.680,0:04:40.529
-und das ist das Nächste, was wir machen müssen.
+Und das ist das Nächste, was wir machen müssen.
 Also gehen wir zurück zu dem Modul
 
 0:04:40.529,0:04:42.009
@@ -350,7 +350,7 @@ zu dieser Seite, dann
 rufe diese Subroutine auf,
 
 0:04:49.759,0:04:51.710
-welche hier implementiert ist
+welche hier implementiert ist,
 
 0:04:51.710,0:04:54.330
 und
@@ -388,23 +388,23 @@ wird
 eine Anfrage senden mit
 
 0:05:22.560,0:05:29.560
-der POST-Methode, weil wir was posten,
-und es hat ein Eingabefeld
+der POST-Methode, weil wir was posten.
+Und es hat ein Eingabefeld,
 
 0:05:29.830,0:05:31.200
 welches
 
 0:05:31.200,0:05:32.590
-da heißt.
+den Namen
 
 0:05:32.590,0:05:34.939
-'title'. OK.
+'title' hat. OK.
 
 0:05:34.939,0:05:38.130
-und dann haben wir auch noch ein anderes
+Und dann haben wir auch noch ein anderes
 
 0:05:38.130,0:05:40.169
-Eingabefeld
+Eingabefeld,
 
 0:05:40.169,0:05:43.759
 welches vom Typ
@@ -413,7 +413,7 @@ welches vom Typ
 'submit'
 
 0:05:45.389,0:05:46.760
-ist und dazwischen
+ist, und dazwischen,
 
 0:05:46.760,0:05:49.659
 da ist ein Text-
@@ -429,7 +429,7 @@ reinschreiben werden.
 So, das ist die Seite.
 
 0:05:58.339,0:05:59.469
-Wenn ich jetzt gehe
+Wenn ich jetzt zurück gehe
 
 0:05:59.469,0:06:00.459
 und
@@ -441,18 +441,18 @@ die Anwendung neu lade,
 dann, oh, da ist ein Error.
 
 0:06:05.089,0:06:09.210
-Es scheint, dass ein Semikolon fehlt,
-das ist ein Standard-Fehler, den ich mache
+Es scheint, dass ein Semikolon fehlt.
+Das ist ein Standard-Fehler, den ich mache.
 
 0:06:09.210,0:06:11.250
-hier in dem Modul, ja, hier ist es.
+Hier in dem Modul, ja, hier ist es.
 
 0:06:11.250,0:06:15.289
-Am Ende sollten wir hier niemals 
-ein Semikolon vergessen
+Wir sollten niemals ein Semikolon 
+am Ende vergessen
 
 0:06:15.289,0:06:17.430
-auch wenn es nach einer Subroutine aussieht
+auch wenn es wie eine Subroutine aussieht,
 
 0:06:17.430,0:06:21.139
 aber es ist ein Parameter zu der
@@ -460,25 +460,25 @@ get-Funktion.
 
 0:06:21.139,0:06:25.370
 Jetzt kann ich es nochmal ausführen
-und es funktioniert besser
+und es funktioniert besser.
 
 0:06:25.370,0:06:30.680
 ... also kann ich zurück gehen zu der Seite
-und neu laden und da ist das Formular.
+und neu laden und da ist das Formular,
 
 0:06:30.680,0:06:32.830
-welches ein bisschen unschön ist hier
+welches hier ein bisschen unschön ist,
 
 0:06:32.830,0:06:36.299
 also versuchen wir, es ein wenig
-schöner zu machen
+schöner zu gestalten.
 
 0:06:36.299,0:06:39.249
-Ich geh zurück in den Editor,
+Ich gehe zurück in den Editor,
 in das
 
 0:06:39.249,0:06:42.889
-dieses Template und als erstes
+dieses Template und als Erstes
 machen wir es
 
 0:06:42.889,0:06:44.569
@@ -486,10 +486,10 @@ ein Stückchen breiter
 
 0:06:44.569,0:06:50.400
 und dann machen wir hier ein Zeilenumbruch
-ans Ende und machen das Textfeld auch
+ans Ende und machen das Textfeld auch,
 
 0:06:50.400,0:06:52.339
-sagen wir mal
+sagen wir mal,
 
 0:06:52.339,0:06:54.919
 10 Reihen, und sagen wir
@@ -499,13 +499,13 @@ sagen wir mal
 80 Spalten
 
 0:06:55.820,0:06:58.539
-so, dass es die gleiche Größe hat
+so, dass es die gleiche Größe hat.
 
 0:06:58.539,0:06:59.869
-und dann
+Und dann..
 
 0:06:59.869,0:07:03.810
-also den Abschicken-Button,
+Also den Abschicken-Button,
 anstatt von "Submit Query"
 
 0:07:03.810,0:07:04.650
@@ -515,7 +515,7 @@ sagen wir
 tragen wir ein
 
 0:07:06.219,0:07:07.070
-einen Wert
+einen Wert,
 
 0:07:07.070,0:07:08.969
 der ist 'Post'
@@ -530,14 +530,14 @@ dann sieht es viel besser aus, auch wenn
 0:07:13.550,0:07:18.599
 die 80 hier und die 80 da 
 nicht die gleichen sind. 
-Komisch, ich habe das nie verstanden.
+Komisch, das habe ich nie verstanden.
 
 0:07:18.599,0:07:21.300
 Vielleicht möchte mir das 
 einer von euch erklären?
 
 0:07:21.300,0:07:26.229
-und das ist der 'Post'-Knopf.
+Und das ist der 'Post'-Knopf.
 Sieht schonmal gut aus, für die erste Version.
 
 0:07:26.229,0:07:31.899
@@ -550,17 +550,17 @@ und ein wenig ...
 
 0:07:33.289,0:07:40.049
 dann, ... okay, lass uns was anderes sagen,
-lass uns 'hello' sagen, 'hello' 'HELLO!'
+lass uns 'hello' sagen, 'hello', 'HELLO!'
 
 0:07:40.049,0:07:42.830
-und ich klicke auf 'Post'
+und ich klicke auf 'Post',
 
 0:07:42.830,0:07:47.089
 dann bekomme ich eine komische...
 es bekommt nicht... nicht
 
 0:07:47.089,0:07:49.210
-es sendet den Titel
+es sendet den Titel,
 
 0:07:49.210,0:07:54.069
 aber es sendet den Text nicht..
@@ -577,7 +577,7 @@ ich muss dem einen Namen geben.
 Es heißt 'text'
 
 0:08:01.240,0:08:05.789
-und es ist 'meth..do', es ist 'method'
+und es ist 'meth..do', es ist 'method',
 also muss ich
 
 0:08:05.789,0:08:06.770
@@ -609,7 +609,7 @@ Ich habe ihn bekommen, weil dieses
 eine POST-Anfrage ist und keine GET-Anfrage.
 
 0:08:25.219,0:08:26.830
-was okay ist, das ist, was ich wollte
+Was okay ist. Das ist, was ich wollte,
 
 0:08:26.830,0:08:29.919
 aber ich habe hier nicht geschrieben,
@@ -629,7 +629,7 @@ und ich sage
 
 0:08:35.370,0:08:38.470
 wenn ich eine POST-Anfrage 
-zu dieser Seite bekomme
+zu dieser Seite bekomme,
 
 0:08:38.470,0:08:43.420
 dann rufe diese andere Subroutine auf,
@@ -652,10 +652,10 @@ und von da nehmen wir den
 'title'-Wert
 
 0:08:55.230,0:08:57.760
-und als erstes sagen wir, geben wir ihn einfach aus
+und als Erstes sagen wir, geben wir ihn einfach aus.
 
 0:08:57.760,0:08:58.800
-also
+Also
 
 0:08:58.800,0:09:00.450
 stoppe ich das
@@ -664,33 +664,33 @@ stoppe ich das
 und starte die Anwendung neu
 
 0:09:01.939,0:09:03.079
-und gucke wieder
+und gucke wieder,
 
 0:09:03.079,0:09:06.029
 wenn ich die Seite neu lade und
-die Daten nochmal schicke
+die Daten nochmal schicke,
 
 0:09:06.029,0:09:10.550
 bekomme ich 'hello' zurück,
-was der Titel war, den ich geschrieben habe
+was der Titel war, den ich geschrieben habe.
 
 0:09:10.550,0:09:14.420
-so, das ist okay, das funktioniert.
+So, das ist okay, das funktioniert.
 Wir müssen es irgendwo speichern.
 Ich könnte eine Art
 
 0:09:14.420,0:09:15.470
-Datenbank nutzen
+Datenbank nutzen,
 
 0:09:15.470,0:09:20.520
 aber ich möchte es hier einfacher machen.
 Ich werde einfach
 
 0:09:20.520,0:09:21.180
-eine JSON Datei nehmen.
+eine json Datei nehmen.
 
 0:09:21.180,0:09:22.980
-So, wo ist die JSON Datei?
+So, wo ist die json Datei?
 
 0:09:22.980,0:09:25.700
 Wir müssen sie definieren
@@ -711,7 +711,7 @@ Daten der Anwendung.
 Und sagen wir mal
 
 0:09:37.890,0:09:43.340
-Ich nenne das Feld json und schreibe
+ich nenne das Feld json und schreibe
 
 0:09:43.340,0:09:45.620
 hier den Namen der Datei,
@@ -720,19 +720,18 @@ hier den Namen der Datei,
 wo ich alle Daten speichern werde.
 
 0:09:49.130,0:09:52.540
-Also wird diese Datei 
+Also diese Datei wird
 meine Datenbank sein.
 
 0:09:52.540,0:09:55.310
-und wie bekomme ich die Daten?
+Und wie bekomme ich die Daten?
 
 0:09:55.310,0:09:57.680
-I type in config
-ich schreibe config
+Ich schreibe config,
 
 0:09:57.680,0:10:01.490
 diese Funktion bekommt
-alle Konfigurationsdaten
+alle Konfigurationsdaten,
 
 0:10:01.490,0:10:05.200
 und hier kann ich die Schlüssel
@@ -740,10 +739,10 @@ hinschreiben
 
 0:10:05.200,0:10:10.250
 und es hat zwei Schlüssel.
-Das ist der Name, von der Datei
+Das ist der Name, von der Datei,
 
 0:10:10.250,0:10:11.600
-wo die Daten sein sollen.
+in der die Daten sein sollen.
 
 0:10:11.600,0:10:15.960
 Also speichere ich das in einer
@@ -754,16 +753,16 @@ mache es einfach
 ich setze eine Variable.
 
 0:10:17.569,0:10:22.810
-Dann muss ich die Dateien aus der
+Dann muss ich die Daten aus der
 Datei auslesen. Also lese ich
 
 0:10:22.810,0:10:27.960
 schreibe ich 'read_file' und den Namen
-der Datei und packe das in eine Variable
+der Datei und packe das in eine Variable,
 
 0:10:27.960,0:10:31.700
 aber diese Daten werden json sein.
-Richtig? Weil da, wo wir das speichern werden
+Richtig? Weil da, wo wir das speichern werden,
 
 0:10:31.700,0:10:33.510
 das ist json. Also
@@ -776,10 +775,10 @@ und dann muss ich die Daten
 noch umwandeln in
 
 0:10:38.250,0:10:40.480
-eine Perl-Datenstruktur
+eine Perl-Datenstruktur.
 
 0:10:40.480,0:10:41.640
-so
+So
 
 0:10:41.640,0:10:44.620
 'from_json' ist die Funktion,
@@ -789,10 +788,10 @@ die den json-String nimmt
 
 0:10:47.780,0:10:52.200
 und die Daten zurückgibt,
-die wir brauchen
+die wir brauchen.
 
 0:10:52.200,0:10:53.790
-das ist die Datenstruktur.
+Das ist die Datenstruktur.
 
 
 0:10:53.790,0:10:58.170
@@ -811,13 +810,13 @@ Wir können das machen, indem wir
 prüfen, ob da
 
 0:11:05.840,0:11:07.900
-die Datei ist, wenn sie existiert
+die Datei ist, wenn sie existiert..
 
 0:11:07.900,0:11:10.010
 und wenn sie existiert...
 
 0:11:10.010,0:11:12.310
-lesen wir die Datei ein. Wenn nicht
+lesen wir die Datei ein. Wenn nicht,
 
 0:11:12.310,0:11:13.380
 dann geben wir nur
@@ -826,7 +825,7 @@ dann geben wir nur
 einen String mit zwei geschweiften Klammern zurück,
 
 0:11:16.559,0:11:20.250
-das ist, wie json einen leeren Hash definiert.
+so definiert json einen leeren Hash.
 
 0:11:20.250,0:11:24.210
 So bekommen wir eine leere json Datei
@@ -853,17 +852,17 @@ und ich speichere hier den Zeitstempel
 und dann
 
 0:11:40.240,0:11:43.550
-fügen wir die Daten dazu
+fügen wir die Daten dazu.
 
 0:11:43.550,0:11:46.430
-'now' wird der Schlüssel sein
+'now' wird der Schlüssel sein.
 
 0:11:46.430,0:11:50.279
-so speichern wir die Blog-Einträge
+So speichern wir die Blog-Einträge
 
 0:11:50.279,0:11:52.320
 zugehörig zu dem Zeitstempel,
-den sie haben
+den sie haben,
 
 0:11:52.320,0:11:54.129
 und hier können wir hinzufügen
@@ -873,7 +872,7 @@ den Titel
 
 0:11:55.780,0:12:01.080
 und ich nehme das von hier,
-weil ich das da nicht mehr brauche
+weil ich das da nicht mehr brauche,
 
 0:12:01.080,0:12:03.930
 und ich habe auch den Text
@@ -882,7 +881,7 @@ und ich habe auch den Text
 von dem Nutzer
 
 0:12:05.870,0:12:09.420
-und der ist von dem Parameter 'text'
+und der ist in dem Parameter 'text'
 
 0:12:09.420,0:12:10.820
 und das ist es.
@@ -897,13 +896,13 @@ haben wir alle Daten,
 den neuen Blog-Eintrag in $data
 
 0:12:14.779,0:12:16.510
-und wir müssen es nur noch speichern
+und wir müssen es nur noch speichern.
 
 0:12:16.510,0:12:19.459
-dabei nutzen wir 'write_file'
+Dazu nutzen wir 'write_file'.
 
 0:12:19.459,0:12:21.620
-wir übergeben den Namen der Datei
+Wir übergeben den Namen der Datei
 
 0:12:21.620,0:12:22.960
 und die
@@ -912,16 +911,16 @@ und die
 Daten. Zur Zeit ist $data
 
 0:12:25.890,0:12:27.340
-eine Perl Datenstruktur,
-ich möchte
+eine Perl Datenstruktur.
+Ich möchte
 
 0:12:27.340,0:12:32.960
-es als json speichern, also
-müssen wir es umwandeln mit to_json
+es aber als json speichern, also
+müssen wir es umwandeln mit to_json.
 
 0:12:32.960,0:12:35.729
 Das ist es.
-Wenn das getan ist
+Wenn das getan ist,
 
 0:12:35.729,0:12:37.410
 wollen wir das speichern.
@@ -931,10 +930,10 @@ Sorry, wir wollen
 
 0:12:38.690,0:12:42.730
 dem Nutzer was zeigen,
-wir wollen ihn weiterleiten
+wir wollen ihn weiterleiten,
 
 0:12:42.730,0:12:47.330
-den Nutzer zur root weiterleiten
+den Nutzer zur root weiterleiten,
 
 0:12:47.330,0:12:48.450
 zu der Startseite.
@@ -943,10 +942,11 @@ zu der Startseite.
 Auf der Startseite zeigen
 
 0:12:50.009,0:12:52.679
-wir bis jetzt keinen Inhalt
+wir bis jetzt keinen Inhalt,
 
 0:12:52.679,0:12:55.120
-aber wir werden sehen, wie funktioniert es?
+aber wir werden sehen.
+Wie funktioniert es?
 
 0:12:55.120,0:12:59.790
 Dafür muss ich die Anwendung erneut stoppen
@@ -969,7 +969,7 @@ Das ist der Error:
 'Kann Objectmethode write_file nicht finden.'
 
 0:13:13.699,0:13:14.890
-Gut, offensichtlich
+Gut, offensichtlich,
 
 0:13:14.890,0:13:16.500
 weil
@@ -979,7 +979,7 @@ weil
 
 0:13:17.470,0:13:20.990
 die from_json und die to_json Funktionen
-sind Teil von Dancer
+sind Teil von Dancer,
 
 0:13:20.990,0:13:23.460
 aber read_file und write_file
@@ -990,7 +990,7 @@ Also müssen wir ein Modul laden,
 dass diese bereitstellt.
 
 0:13:26.900,0:13:27.980
-nutze
+Benutze
 
 0:13:27.980,0:13:29.500
 File
@@ -1024,10 +1024,10 @@ und
 sende es nochmal
 
 0:13:52.130,0:13:54.690
-und hier sind wir
+und hier sind wir.
 
 0:13:54.690,0:13:58.860
-es sagt, es ist OK.
+Es sagt, es ist OK.
 Es kehrte zurück
 
 0:13:58.860,0:14:02.020
@@ -1047,7 +1047,7 @@ dass dwimmer.json da sein soll und
 hier sind wir. Da ist der Zeitstempel
 
 0:14:15.920,0:14:18.880
-bei dem Text und dem Titel,
+mit dem Text und dem Titel,
 die wir speichern wollten.
 
 0:14:18.880,0:14:23.190
@@ -1081,17 +1081,17 @@ diese Daten zu kopieren
 und einzufügen.
 
 0:14:40.590,0:14:43.700
-und dann haben wir alle Daten in dieser
+Und dann haben wir alle Daten in dieser
 
 0:14:43.700,0:14:45.830
 Variable $data
 
 0:14:45.830,0:14:49.720
-und wir möchten das als Parameter
+und die möchten wir als Parameter
 an das Template senden.
 
 0:14:49.720,0:14:52.440
-so,
+So,
 
 0:14:52.440,0:14:54.030
 wir haben es nur
@@ -1100,14 +1100,14 @@ wir haben es nur
 als Parameter zu dem Template gesendet.
 
 0:14:56.220,0:14:57.480
-In dem Template
+In dem Template..
 
 0:14:57.480,0:15:00.060
 lasst uns sehen, was in dem Template ist.
-Das ist die Seite
+Das ist die Seite.
 
 0:15:00.060,0:15:01.840
-Hier ist das index Template
+Hier ist das index Template.
 
 0:15:01.840,0:15:02.890
 In dem Template
@@ -1116,10 +1116,10 @@ In dem Template
 möchten wir die
 
 0:15:04.549,0:15:05.940
-Daten anzeigen lassen
+Daten anzeigen lassen.
 
 0:15:05.940,0:15:09.670
-die sind noch .. jetzt .. das ist ein Hash
+Die sind noch .. jetzt .. das ist ein Hash.
 So, wie teilen wir den Hash
 
 0:15:09.670,0:15:11.749
@@ -1179,10 +1179,10 @@ Wenn ich jetzt zurückgehe,
 
 0:15:55.860,0:16:01.110
 dann muss ich es neu starten, 
-weil ich wieder was an dem Code geändert habe
+weil ich wieder was an dem Code geändert habe.
 
 0:16:01.110,0:16:06.560
-wenn ich die Seite neu lade, dann können
+Wenn ich die Seite neu lade, dann können
 wir den Zeitstempel des einzigen Eintrags
 sehen, den wir haben.
 
@@ -1220,10 +1220,10 @@ Wenn ich zurück zu der Webseite gehe und
 neu lade und ich brauche nicht neu starten,
 
 0:16:36.090,0:16:39.750
-weil ich nur das Template geändert habe
+weil ich nur das Template geändert habe.
 
 0:16:39.750,0:16:44.950
-und ich sehe 'hello world', was der Titel ist
+Und ich sehe 'hello world', was der Titel ist
 und der Text. .. und .. machen wir es
 
 0:16:44.950,0:16:46.630
@@ -1245,10 +1245,10 @@ horizontale Linie
 vor dem
 
 0:17:00.600,0:17:03.199
-Blog-Eintrag. So, hier sind wir
+Blog-Eintrag. So, hier sind wir.
 
 0:17:03.199,0:17:07.780
-da ist der Titel-Teil und dann
+Da ist der Titel-Teil und dann
 'hello', der Titel des Eintrages.
 Jetzt lasst uns
 
@@ -1257,7 +1257,7 @@ einen weiteren Eintrag erstellen
 
 0:17:09.180,0:17:14.620
 nur um sicher zu gehen, dass es immernoch
-funktioniert. so ... zweiter Eintrag
+funktioniert. So ... zweiter Eintrag
 
 0:17:14.620,0:17:16.170
 mehr Text
@@ -1269,25 +1269,25 @@ mehr Text
 und ich poste
 
 0:17:19.170,0:17:22.400
-nud hier haben wir nun einen ersten
+und hier haben wir nun einen ersten
 und einen zweiten Eintrag
 
 0:17:22.400,0:17:23.700
-und wir haben eine Weblog Engine
+und wir haben eine Weblog Engine.
 
 0:17:23.700,0:17:25.909
-danke fürs Anschauen ... wenn ihr möchtet
+Danke fürs Anschauen ... wenn ihr möchtet
 
 0:17:25.909,0:17:27.590
-postet on Dwimmer
+postet on Dwimmer.
 
 0:17:27.590,0:17:31.970
-es gibt immernoch dwimmer.org, so dass ihr
+Es gibt immernoch dwimmer.org, so dass ihr
 euch das angucken könnt und ihr könnt auf
-perldancer.org gehen und downloaden
+perldancer.org gehen und es downloaden.
 
 0:17:31.970,0:17:34.350
-es ist cool, ich mag es.
+Es ist cool, ich mag es.
 
 0:17:34.350,0:17:35.160
 Vielen Dank fürs Angucken
