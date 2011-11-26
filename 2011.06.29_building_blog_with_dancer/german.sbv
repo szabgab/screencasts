@@ -164,7 +164,7 @@ dann soll diese Subroutine
 ausgeführt werden
 
 0:02:30.920,0:02:34.259
-welche einfach das 'index'-template lädt.
+welche einfach das 'index'-Template lädt.
 Die Templates sind
 
 0:02:34.259,0:02:37.620
@@ -266,7 +266,7 @@ Template System. Also lade ich das neu
 und ich bekomme immer noch das Gleiche.
 
 0:03:47.160,0:03:49.790
-Ich bekomme immernoch die gleichen Daten.
+Ich bekomme immer noch die gleichen Daten.
 Alles ist OK.
 
 0:03:49.790,0:03:50.979
@@ -341,10 +341,10 @@ und definieren
 wenn jemand..
 
 0:04:43.600,0:04:45.259
-eine GET-Anfrage sendet
+eine GET-Anfrage zu
 
 0:04:45.259,0:04:47.560
-zu dieser Seite, dann
+dieser Seite sendet, dann
 
 0:04:47.560,0:04:49.759
 rufe diese Subroutine auf,
@@ -438,7 +438,7 @@ und
 die Anwendung neu lade,
 
 0:06:02.649,0:06:05.089
-dann, oh, da ist ein Error.
+dann, oh, da ist ein Fehler.
 
 0:06:05.089,0:06:09.210
 Es scheint, dass ein Semikolon fehlt.
@@ -475,7 +475,7 @@ schöner zu gestalten.
 
 0:06:36.299,0:06:39.249
 Ich gehe zurück in den Editor,
-in das
+in das...
 
 0:06:39.249,0:06:42.889
 dieses Template und als Erstes
@@ -512,13 +512,13 @@ anstatt von "Submit Query"
 sagen wir
 
 0:07:04.650,0:07:06.219
-tragen wir ein
+tragen wir einen
 
 0:07:06.219,0:07:07.070
-einen Wert,
+Wert ein,
 
 0:07:07.070,0:07:08.969
-der ist 'Post'
+der 'Post' ist
 
 0:07:08.969,0:07:09.979
 und dann
@@ -529,7 +529,7 @@ dann sieht es viel besser aus, auch wenn
 
 0:07:13.550,0:07:18.599
 die 80 hier und die 80 da 
-nicht die gleichen sind. 
+nicht die Gleichen sind.
 Komisch, das habe ich nie verstanden.
 
 0:07:18.599,0:07:21.300
@@ -538,7 +538,7 @@ einer von euch erklären?
 
 0:07:21.300,0:07:26.229
 Und das ist der 'Post'-Knopf.
-Sieht schonmal gut aus, für die erste Version.
+Sieht schon mal gut aus, für die erste Version.
 
 0:07:26.229,0:07:31.899
 Wenn ich jetzt einen Titel eingebe
@@ -598,11 +598,11 @@ sage 'hello' und das wird sein
 
 0:08:16.270,0:08:19.669
 und wenn ich jetzt auf 'Post' klicke,
-dann bekomme ich einen Error.
+dann bekomme ich einen Fehler.
 Das ist viel besser.
 
 0:08:19.669,0:08:21.379
-Warum bekomme ich diesen Error?
+Warum bekomme ich diesen Fehler?
 
 0:08:21.379,0:08:25.219
 Ich habe ihn bekommen, weil dieses
@@ -754,10 +754,10 @@ ich setze eine Variable.
 
 0:10:17.569,0:10:22.810
 Dann muss ich die Daten aus der
-Datei auslesen. Also lese ich
+Datei auslesen. Also lese ich,
 
 0:10:22.810,0:10:27.960
-schreibe ich 'read_file' und den Namen
+indem ich 'read_file' eintippe und den Namen
 der Datei und packe das in eine Variable,
 
 0:10:27.960,0:10:31.700
@@ -865,10 +865,10 @@ zugehörig zu dem Zeitstempel,
 den sie haben,
 
 0:11:52.320,0:11:54.129
-und hier können wir hinzufügen
+und hier können wir den
 
 0:11:54.129,0:11:55.780
-den Titel
+Titel hinzufügen
 
 0:11:55.780,0:12:01.080
 und ich nehme das von hier,
@@ -962,8 +962,8 @@ So, das ist
 0:13:04.770,0:13:11.560
 das Formular. Ich habe es gefüllt und dann
 auf 'Post' geklickt und ich habe einen
-Runtime Error erhalten.
-Das ist der Error:
+Laufzeit Fehler erhalten.
+Das ist der Fehler:
 
 0:13:11.560,0:13:13.699
 'Kann Objectmethode write_file nicht finden.'
@@ -979,7 +979,7 @@ weil
 
 0:13:17.470,0:13:20.990
 die from_json und die to_json Funktionen
-sind Teil von Dancer,
+Teil von Dancer sind,
 
 0:13:20.990,0:13:23.460
 aber read_file und write_file
@@ -1094,7 +1094,7 @@ an das Template senden.
 So,
 
 0:14:52.440,0:14:54.030
-wir haben es nur
+wir haben es nun
 
 0:14:54.030,0:14:56.220
 als Parameter zu dem Template gesendet.
@@ -1120,10 +1120,10 @@ Daten anzeigen lassen.
 
 0:15:05.940,0:15:09.670
 Die sind noch .. jetzt .. das ist ein Hash.
-So, wie teilen wir den Hash
+So, wie greifen wir auf den Hash
 
 0:15:09.670,0:15:11.749
-in dem Template::Toolkit
+in dem Template::Toolkit zu
 
 0:15:11.749,0:15:13.530
 und zeigen es dem Nutzer?
@@ -1256,7 +1256,7 @@ Jetzt lasst uns
 einen weiteren Eintrag erstellen
 
 0:17:09.180,0:17:14.620
-nur um sicher zu gehen, dass es immernoch
+nur um sicher zu gehen, dass es immer noch
 funktioniert. So ... zweiter Eintrag
 
 0:17:14.620,0:17:16.170
@@ -1282,7 +1282,7 @@ Danke fürs Anschauen ... wenn ihr möchtet
 postet on Dwimmer.
 
 0:17:27.590,0:17:31.970
-Es gibt immernoch dwimmer.org, so dass ihr
+Es gibt dwimmer.org tatsächlich, so dass ihr
 euch das angucken könnt und ihr könnt auf
 perldancer.org gehen und es downloaden.
 
