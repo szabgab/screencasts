@@ -196,10 +196,10 @@ I typed in. And there you have the curly braces again.
 0:04:47.500,0:04:56.500
 But what happens if you put in a closing curly braces
 
-0:04:56.500,0:04:60.000
+0:04:56.500,0:05:00.000
 And then before that you start typing a curly brace
 
-0:04:60.000,0:05:04.750
+0:05:00.000,0:05:04.750
 Padre doesn't add you this closing one, because it sees that you already have one
 
 0:05:04.750,0:05:12.000
