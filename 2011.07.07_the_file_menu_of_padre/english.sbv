@@ -50,7 +50,7 @@ so you would probably require 5.10, or even newer version of Perl.
 New menu items also has the Perl 5 Module, in this case
 
 0:01:38.100,0:01:43.150
-it provides you with a pop-up window, that remember the last word you type in.
+it provides you with a pop-up window, that remembers the last one you typed in.
 
 0:01:43.150,0:01:49.000
 Here you type in the name of the module, for example Module::Name,
@@ -140,7 +140,7 @@ It'll open in the directory where the current file is saved.
 Open with default system editor is currently not working, at least not on my system,
 
 0:04:32.440,0:04:37.440
-opening command line will open a command window - the cmd window on Windows,
+Open in command line will open a command window - the cmd window on Windows,
 
 0:04:37.440,0:04:45.940
 in the place where the current file is, so you can type in  "dir" and you can see the files.
@@ -155,16 +155,16 @@ Open example, here - the last one - is again just a standard file opening dialog
 but in a directory that was supplied by Padre, where you can see a couple of example scripts. 
 
 0:05:03.940,0:05:06.820
-So here are some examples for beginners
+So here are some examples for beginners,
 
 0:05:06.820,0:05:16.180
 and here are a couple of examples that are using wxWidgets to create various windows.
 
 0:05:16.180,0:05:18.970
-Close would just close this file.
+Close would just close this file,
 
 0:05:18.970,0:05:24.140
-If the file was changed it'd ask first whether you want to save it.
+if the file was changed it'd ask first whether you want to save it.
 
 0:05:24.140,0:05:30.810
 Then there's this other Close menu which has several entries, so you have Close this project, or Close other projects -
@@ -182,7 +182,7 @@ or Close all other files, that would close all the files except the one that I'm
 And Close files will allow you to pick which ones you would like to close.
 
 0:05:53.880,0:06:00.960
-Now in our case because that file was already changed, and just telling if you want to save it,
+Now in our case, because that file was already changed, and just telling if you want to save it,
 
 0:06:00.960,0:06:07.740
 no I don't want to save it, so it will close that file now.
@@ -254,16 +254,16 @@ So here is one file. And I would like to save this session, currently which has 
 So I save the session, like this, I call it "example".
 
 0:08:19.350,0:08:24.000
-I could type in some description here but that not that important, and I save that session.
+I could type in some description here but that's not that important, and I save that session.
 
 0:08:24.000,0:08:31.020
-I close the file and the I go to the File menu and click on Open session.
+I close the file and then I go to the File menu and click on Open session.
 
 0:08:31.020,0:08:35.870
 It'll list all of my sessions. So currently I have two sessions in this editor,
 
 0:08:35.870,0:08:40.690
-and I pick the "example" session, and I click on open.
+and I pick the "example" session, and I click on Open.
 
 0:08:40.690,0:08:48.590
 Now, here, there is a checkbox, probably you want to check that checkbox. What is does is,
