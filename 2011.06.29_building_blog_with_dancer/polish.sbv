@@ -1,0 +1,1133 @@
+0:00:03.630,0:00:07.430
+Witajcie ponownie na naszym kanale. Dzisiaj postaram się wykorzystać 15 minut, które mam do dyspozycji
+
+0:00:07.430,0:00:08.280
+i zbudować
+
+0:00:08.280,0:00:09.919
+naprawdę mały silnik blogowy.
+
+0:00:09.919,0:00:10.950
+Będę używał
+
+0:00:10.950,0:00:14.959
+Perl Dancer jako framework'a,
+możecie go znaleźć tutaj:
+
+0:00:14.959,0:00:16.439
+perldancer.org
+
+0:00:16.439,0:00:21.849
+i będę oczywiście używał Padre
+
+0:00:21.849,0:00:22.869
+i dystrybucji Padre on Strawberry.
+
+0:00:22.869,0:00:24.499
+Będę pracował na systemie Windows.
+
+0:00:24.499,0:00:29.410
+Więc, czego potrzebujemy ... Zacznijmy od 
+Strawberry Perl ... Padre
+
+0:00:29.410,0:00:34.030
+Otwieramy edytor, po jego uruchomieniu zobaczymy pustą stronę.
+
+0:00:34.030,0:00:40.850
+Dancer instaluje się jako program linii komend, który umożliwia nam zbudowanie szkieletu aplikacji.
+
+0:00:40.850,0:00:43.430
+Aby to zrobić potrzebuję
+
+0:00:43.430,0:00:45.690
+uruchomić
+
+0:00:45.690,0:00:50.130
+program cmd.exe i zmienię bieżący katalog 
+
+0:00:50.130,0:00:51.110
+na "C:\work"
+
+0:00:51.110,0:00:56.160
+i tutaj stworzę szkielet.
+Wpisuję "dancer -a"
+
+0:00:56.160,0:00:58.480
+i nazwę aplikacji,
+
+0:00:58.480,0:01:00.380
+u mnie jest to Dwimmer
+
+0:01:00.380,0:01:02.330
+jako coś...
+
+0:01:02.330,0:01:04.560
+magicznego lub cokolwiek...
+
+0:01:04.560,0:01:09.050
+więc nazwę moją aplikację Dwimmer.
+
+0:01:09.050,0:01:12.970
+Ten skrypt utworzy podkatalog dla 
+
+0:01:12.970,0:01:18.400
+aplikacji i różnego rodzaju pliki tworzące szkielet aplikacji.
+
+0:01:18.400,0:01:23.680
+Jeśli wejdę do tego katalogu, mogę wpisać do wiersza poleceń "perl bin\"
+
+0:01:23.680,0:01:24.640
+i nazwę
+
+0:01:24.640,0:01:29.750
+"app.pl" i uruchomić tą aplikację. To uruchamia cały szkielet
+
+0:01:29.750,0:01:35.750
+i teraz mogę otworzyć przeglądarkę i wpisać w pasek adresu "localhost:3000"
+
+0:01:35.750,0:01:40.040
+i pojawi się domyślna strona, którą stworzył Dancer.
+
+0:01:40.040,0:01:41.740
+Jak ta strona wygląda?
+
+0:01:41.740,0:01:47.610
+Wracam do Padre i otwieram plik
+
+0:01:47.610,0:01:49.400
+Jeśli otworzę plik...
+
+0:01:49.400,0:01:55.380
+Plik nazywa się... jeśli pamiętam jest w katalogu "work"
+
+0:01:55.380,0:01:56.330
+"Dwimmer"
+
+0:01:56.330,0:01:59.509
+i w katalogu "bin" otwieram "app.pl"
+
+0:01:59.509,0:02:02.469
+Więc możecie zobaczyć, że skrypt sam w sobie jest prawie pusty
+
+0:02:02.469,0:02:04.940
+ładuje on tylko moduł Dwimmer.
+
+0:02:04.940,0:02:08.419
+Moduł Dwimmer znajduje się w katalogu "lib". Aby zobaczyć to lepiej
+
+0:02:08.419,0:02:11.399
+otwórzmy przeglądarkę projektu
+
+0:02:11.399,0:02:15.569
+i Padre automatycznie rozpozna cały projekt.
+
+0:02:15.569,0:02:19.700
+Więc w katalogu "lib" znajduje się plik "Dwimmer.pm"
+
+0:02:19.700,0:02:23.900
+i jest to główny plik całej aplikacji, tutaj zdefiniowane jest
+
+0:02:23.900,0:02:27.250
+co się dzieję gdy użytkownik wysyła zapytanie GET
+
+0:02:27.250,0:02:28.450
+na stronę główną:
+
+0:02:28.450,0:02:30.010
+ta funkcja powinna być
+
+0:02:30.010,0:02:30.920
+wykonana,
+
+0:02:30.920,0:02:34.259
+ładuje ona szablon "index".
+Szablony
+
+0:02:34.259,0:02:37.620
+znajdują się w podkatalogu "views" i plik "index.tt"
+
+0:02:37.620,0:02:39.749
+jest tym szablonem.
+
+0:02:39.749,0:02:41.769
+Co robimy....
+
+0:02:41.769,0:02:44.629
+Dancer posiada naprawdę prosty system szablonów
+
+0:02:44.629,0:02:46.720
+ale zainstalowałem
+
+0:02:46.720,0:02:48.859
+"Template::Toolkit",
+
+0:02:48.859,0:02:52.939
+który dołączony jest do Padre on Strawberry Perl,
+więc pierwszą rzeczą,
+
+0:02:52.939,0:02:55.829
+którą chciałbym zrobić jest zmiana systemu szablonów.
+
+0:02:55.829,0:02:58.430
+Mogę to zrobić w pliku "config.yml"
+
+0:02:58.430,0:03:00.079
+znajduje się on w katalogu głównym
+
+0:03:00.079,0:03:01.779
+aplikacji.
+
+0:03:01.779,0:03:05.869
+Tu możecie zobaczyć jeden szablon, który jest bardzo prostym szablonem.
+
+0:03:05.869,0:03:09.599
+Ja chciałbym używać "Template::Toolkit".
+
+0:03:09.599,0:03:10.760
+Również tutaj
+
+0:03:10.760,0:03:14.739
+mogę zdefiniować kodowanie - "utf-8".
+
+0:03:14.739,0:03:19.529
+Dalej początkowe i końcowe znaczniki, które zostawię takie, jak domyślnie zdefiniowane w Dancer,
+
+0:03:19.529,0:03:22.259
+wyglądają one
+
+0:03:22.259,0:03:24.479
+dokładnie tak: <% %>,
+
+0:03:24.479,0:03:26.989
+nie zmieniam tych ustawień.
+
+0:03:26.989,0:03:30.489
+Gdy to skonfigurowałem, chciałbym sprawdzić czy to nadal działa,
+
+0:03:30.489,0:03:31.479
+więc
+
+0:03:31.479,0:03:33.899
+zatrzymuję całą aplikację, restartuję
+
+0:03:33.899,0:03:36.139
+i wracam do przeglądarki,
+
+0:03:36.139,0:03:39.869
+aby zobaczyć, że wszystko nadal działa.
+Jak wcześniej widzieliśmy tutaj są wszystkie
+
+0:03:39.869,0:03:40.940
+wartości, które
+
+0:03:40.940,0:03:44.099
+pochodzą z
+
+0:03:44.099,0:03:47.160
+systemu szablonów. Więc odświeżam stronę i nadal widzę to samo,
+
+0:03:47.160,0:03:49.790
+nadal otrzymuję te same dane. Wszystko jest OK.
+
+0:03:49.790,0:03:50.979
+Teraz
+
+0:03:50.979,0:03:53.599
+nie potrzebuję tych wszystkich rzeczy, które znajdują się w domyślnym
+
+0:03:53.599,0:03:55.279
+widoku Dancera
+
+0:03:55.279,0:03:58.489
+więc otwieram domyślny szablon "index.tt"
+
+0:03:58.489,0:04:00.670
+usuwam wszystko i zamiast tego
+
+0:04:00.670,0:04:02.029
+piszę "Hello"
+
+0:04:02.029,0:04:03.849
+i
+
+0:04:03.849,0:04:08.569
+i mówię użytkownikowi, żeby wszedł na tą stronę,
+
+0:04:08.569,0:04:13.019
+jeśli chce stworzyć nowy wpis.
+
+0:04:13.019,0:04:13.869
+OK
+
+0:04:13.869,0:04:17.029
+Więc to jest to... co miałem zrobić
+
+0:04:17.029,0:04:18.919
+i...
+
+0:04:18.919,0:04:20.630
+jeśli teraz odświeżymy stronę
+
+0:04:20.630,0:04:25.889
+mamy dokładnie to co chcieliśmy: "Hello" i link do strony, pozwalając stworzyć nowy wpis.
+
+0:04:25.889,0:04:29.009
+Który powinien nas prowadzić do tej strony.
+
+0:04:29.009,0:04:32.539
+Kiedy kliknę ten link dostaję błąd 404, ponieważ nikt wcześniej
+
+0:04:32.539,0:04:34.129
+nie zdefiniował
+
+0:04:34.129,0:04:34.949
+co zrobić
+
+0:04:34.949,0:04:36.680
+gdy ktoś dotrze na tą stronę.
+
+0:04:36.680,0:04:40.529
+i to jest następna rzecz, którą zrobimy. Więc wracam do głównego modułu
+
+0:04:40.529,0:04:42.009
+i definiujemy:
+
+0:04:42.009,0:04:43.600
+gdy ktoś
+
+0:04:43.600,0:04:45.259
+wysyła zapytanie GET
+
+0:04:45.259,0:04:47.560
+do tej strony,
+
+0:04:47.560,0:04:49.759
+wywoła funkcję
+
+0:04:49.759,0:04:51.710
+stworzoną tutaj
+
+0:04:51.710,0:04:54.330
+i
+
+0:04:54.330,0:04:56.880
+załaduje szablon nazwany
+
+0:04:56.880,0:04:58.849
+"page" w naszym wypadku.
+
+0:04:58.849,0:05:03.909
+Nadal musimy stworzyć ten szablon, więc wracamy do "index.tt"
+
+0:05:03.909,0:05:05.610
+i
+
+0:05:05.610,0:05:07.229
+zapisujemy go
+
+0:05:07.229,0:05:12.620
+jako "page.tt" i tutaj zamiast całości
+
+0:05:12.620,0:05:14.720
+chciałbym umieścić formularz.
+
+0:05:14.720,0:05:17.020
+Formularz
+
+0:05:17.020,0:05:18.360
+będzie
+
+0:05:18.360,0:05:22.560
+wysyłał zapytanie poprzez
+
+0:05:22.560,0:05:29.560
+metodę POST. Formularz będzie również posiadał pole <input>,
+
+0:05:29.830,0:05:31.200
+które
+
+0:05:31.200,0:05:32.590
+nazwiemy
+
+0:05:32.590,0:05:34.939
+"title". Dobrze...
+
+0:05:34.939,0:05:38.130
+i dalej mamy kolejne
+
+0:05:38.130,0:05:40.169
+pole <input>,
+
+0:05:40.169,0:05:43.759
+ale typu
+
+0:05:43.759,0:05:45.389
+"submit"
+
+0:05:45.389,0:05:46.760
+i pomiędzy nimi
+
+0:05:46.760,0:05:49.659
+znajduje się
+
+0:05:49.659,0:05:52.870
+pole <textarea>
+
+0:05:52.870,0:05:56.339
+gdzie będziemy wpisywać treść wpisu.
+
+0:05:56.339,0:05:58.339
+Więc to jest cała strona.
+
+0:05:58.339,0:05:59.469
+Teraz idę do wiersza poleceń
+
+0:05:59.469,0:06:00.459
+i
+
+0:06:00.459,0:06:02.649
+ponownie uruchomię aplikację
+
+0:06:02.649,0:06:05.089
+wtedy, ups, mamy błąd.
+
+0:06:05.089,0:06:09.210
+Wygląda na to że brakuje średnika, jest to standardowy błąd który można popełnić
+
+0:06:09.210,0:06:11.250
+w tym module, tak, dokładnie tutaj.
+
+0:06:11.250,0:06:15.289
+Na końcu definiowania funkcji nigdy nie powinniśmy zapomnieć o średniku
+
+0:06:15.289,0:06:17.430
+nawet jeśli wygląda to jak funkcja,
+
+0:06:17.430,0:06:21.139
+ale tutaj jest to paremetr dla funkcji "get".
+
+0:06:21.139,0:06:25.370
+Teraz mogę uruchomić aplikację jeszcze raz i teraz działa to lepiej
+
+0:06:25.370,0:06:30.680
+... więc wracam na stronę i odświeżam. MOżemy zobaczyć formularz.
+
+0:06:30.680,0:06:32.830
+Jest on troszkę zdeformowany,
+
+0:06:32.830,0:06:36.299
+więc spróbujmy sprawić by wyglądał nieco lepiej.
+
+0:06:36.299,0:06:39.249
+Wracam do edytora,
+
+0:06:39.249,0:06:42.889
+i w tym szablonie, najpierw zwiększę trochę
+
+0:06:42.889,0:06:44.569
+szerokość <input>
+
+0:06:44.569,0:06:50.400
+i nastepnie umieszczę przeniesienie do nowej linii na końcu i poszerzę również <textarea>
+
+0:06:50.400,0:06:52.339
+powiedzmy
+
+0:06:52.339,0:06:54.919
+10 wierszy, i.. dajmy na to...
+
+0:06:54.919,0:06:55.820
+80 kolumn
+
+0:06:55.820,0:06:58.539
+powinny być tej samej szerokości
+
+0:06:58.539,0:06:59.869
+i dalej
+
+0:06:59.869,0:07:03.810
+przycisk wysyłania, zamiast "Submit Query"
+
+0:07:03.810,0:07:04.650
+powiedzmy..
+
+0:07:04.650,0:07:06.219
+umieszczę tam
+
+0:07:06.219,0:07:07.070
+wartość
+
+0:07:07.070,0:07:08.969
+"Post"
+
+0:07:08.969,0:07:09.979
+i dalej
+
+0:07:09.979,0:07:13.550
+odświeżam stronę. Teraz wygląda to o wiele lepiej, nawet jeśli
+
+0:07:13.550,0:07:18.599
+80 tutaj i 80 tutaj nie jest takie samo. Dziwne, nigdy tego nie rozumiałem.
+
+0:07:18.599,0:07:21.300
+Może kiedyś ktoś z Was wytłumaczy mi to...
+
+0:07:21.300,0:07:26.229
+Dalej mamy przycisk "Post". Ostatecznie wygląda to całkiem dobrze jak na pierwszą wersję.
+
+0:07:26.229,0:07:31.899
+Teraz wpiszę jakieś wartości, na przykład "title", i w treść
+
+0:07:31.899,0:07:33.289
+"my text"
+
+0:07:33.289,0:07:40.049
+i dalej, ... hmm, wpiszmy coś innego, przywitajmy się. Wpiszmy "hello".. "hello".. HELLO!
+
+0:07:40.049,0:07:42.830
+i gdy kliknę przycisk "Post"
+
+0:07:42.830,0:07:47.089
+dostaję coś dziwnego...
+
+0:07:47.089,0:07:49.210
+wysyła pole "title"
+
+0:07:49.210,0:07:54.069
+ale nie wysyła pola "text"...
+zobaczmy, co zrobiłem źle.
+
+0:07:54.069,0:07:55.149
+więc...
+
+0:07:55.149,0:08:00.499
+nie dałem nazwy do pola <textarea>, muszę nadać mu jakąś nazwę
+
+0:08:00.499,0:08:01.240
+Nazwę go "text"
+
+0:08:01.240,0:08:05.789
+i tutaj mamy "meth-do", powinno być "method".
+więc co powinienem zrobić..
+
+0:08:05.789,0:08:06.770
+naprawić te kwestie
+
+0:08:06.770,0:08:07.849
+a następnie
+
+0:08:07.849,0:08:10.619
+wracam do przeglądarki,
+
+0:08:10.619,0:08:14.540
+odświeżam całą stronę i tu zostawmy "hello", a tu wpiszmy 
+
+0:08:14.540,0:08:16.270
+"world"
+
+0:08:16.270,0:08:19.669
+i jeśli kliknę "Post" dostanę błąd. To dobry znak.
+
+0:08:19.669,0:08:21.379
+Teraz, dlaczego dostaję błąd?
+
+0:08:21.379,0:08:25.219
+Błąd spowodowany jest tym, że jest to zapytanie POST, a nie GET.
+
+0:08:25.219,0:08:26.830
+co jest poprawne, to jest to co chciałem zobaczyć.
+
+0:08:26.830,0:08:29.919
+ale nie napisałem tutaj co zrobić, gdy aplikacja
+
+0:08:29.919,0:08:30.770
+otrzyma
+
+0:08:30.770,0:08:31.829
+zapytanie POST.
+
+0:08:31.829,0:08:34.150
+więc zdefiniujmy to
+
+0:08:34.150,0:08:35.370
+i piszę:
+
+0:08:35.370,0:08:38.470
+jeśli otrzymasz zapytanie POST do tej strony
+
+0:08:38.470,0:08:43.420
+wywołaj funkcję
+
+0:08:43.420,0:08:45.440
+która robi coś innego.
+
+0:08:45.440,0:08:48.170
+Więc co ta funkcja powinna robić? ach... nie zapomnijcie o średniku.
+
+0:08:48.170,0:08:49.670
+Więc co ta funkcja powinna robić?
+
+0:08:49.670,0:08:54.400
+Ta funkcja powinna z metody "params" pobrać
+
+0:08:54.400,0:08:55.230
+wartość "title"
+
+0:08:55.230,0:08:57.760
+i na razie niech zwraca tą wartość.
+
+0:08:57.760,0:08:58.800
+Więc
+
+0:08:58.800,0:09:00.450
+zatrzymuję aplikację,
+
+0:09:00.450,0:09:01.939
+uruchamiam ponownie
+
+0:09:01.939,0:09:03.079
+i zobaczmy
+
+0:09:03.079,0:09:06.029
+Gdy odświeżę stronę i wyślę ponownie dane,
+
+0:09:06.029,0:09:10.550
+widzę "hello", które jest tytułem, który wcześniej wpisałem,
+
+0:09:10.550,0:09:14.420
+a więc jest OK, to działa. Teraz potrzebujemy to gdzieś zapisać. Mógłbym użyć
+
+0:09:14.420,0:09:15.470
+bazy danych,
+
+0:09:15.470,0:09:20.520
+ale chcę w tym wypadku użyć czegoś o wiele prostszego. Będę używał
+
+0:09:20.520,0:09:21.180
+pliku JSON.
+
+0:09:21.180,0:09:22.980
+Więc gdzie jest ten plik?
+
+0:09:22.980,0:09:25.700
+Potrzebujemy zdefiniować go w pliku konfiguracyjnym.
+
+0:09:25.700,0:09:28.540
+W tym pliku wpisuję: dwimmer
+
+0:09:28.540,0:09:30.300
+co jest nazwą aplikacji
+
+0:09:30.300,0:09:35.700
+pod tym będę zapisywał wszystkie dane aplikacji
+
+0:09:35.700,0:09:37.890
+i dalej
+
+0:09:37.890,0:09:43.340
+wpisuję pole "json" i tu wpisuję
+
+0:09:43.340,0:09:45.620
+lokalizację tego pliku.
+
+0:09:45.620,0:09:49.130
+Tu będę zapisywał wpisy bloga.
+
+0:09:49.130,0:09:52.540
+Ten plik będzie moją bazą danych.
+
+0:09:52.540,0:09:55.310
+Jak pobieram dane:
+
+0:09:55.310,0:09:57.680
+piszę "config"
+
+0:09:57.680,0:10:01.490
+ta funkcja pobiera wszystkie dane z konfiguracji
+
+0:10:01.490,0:10:05.200
+i tu wpisuję klucze,
+
+0:10:05.200,0:10:10.250
+które odnoszą się do danej opcji, w tym wypadku lokalizacji pliku,
+
+0:10:10.250,0:10:11.600
+w którym będą zapisywane dane.
+
+0:10:11.600,0:10:15.960
+Umieszczam to w zmiennej, tak jest łatwiej
+
+0:10:15.960,0:10:17.569
+Umieszczam... w zmiennej...
+
+0:10:17.569,0:10:22.810
+Teraz potrzebuję wczytać dane z pliku. Robię to za pomocą
+
+0:10:22.810,0:10:27.960
+funkcji "read_file", wpisuję nazwę pliku z danymi i również umieszczam to w zmiennej.
+
+0:10:27.960,0:10:31.700
+Ale otrzymane dane to JSON. Racja? Ponieważ tutaj, to co zapisujemy
+
+0:10:31.700,0:10:33.510
+to JSON.
+
+0:10:33.510,0:10:35.510
+Więc tworzę zmienną $json
+
+0:10:35.510,0:10:38.250
+i nadal muszę zmienić strukturę tych zmiennych na
+
+0:10:38.250,0:10:40.480
+sktrukturę danych Perla
+
+0:10:40.480,0:10:41.640
+więc
+
+0:10:41.640,0:10:44.620
+"from_json" jest funkcją, która
+
+0:10:44.620,0:10:47.780
+bierze dane JSON
+
+0:10:47.780,0:10:52.200
+i zwraca dane w formie, której potrzebujemy.
+
+0:10:52.200,0:10:53.790
+więc to jest ta struktura danych.
+
+0:10:53.790,0:10:58.170
+Teraz oczywiście za pierwszym razem aplikacja nie znajdzie pliku JSON, ponieważ on na razie nie istnieje. W tym wypadku
+
+0:10:58.170,0:11:00.779
+chcemy aby $json był tylko pustą zmienną
+
+0:11:00.779,0:11:01.990
+którą zwrócimy.
+
+0:11:01.990,0:11:05.840
+Możemy to zrobić w następujący sposób: sprawdzamy...
+
+0:11:05.840,0:11:07.900
+czy plik już istnieje...
+
+0:11:07.900,0:11:10.010
+i jeśli istnieje po prostu...
+
+0:11:10.010,0:11:12.310
+wczytujemy plik. Jeśli nie istnieje
+
+0:11:12.310,0:11:13.380
+wtedy tylko
+
+0:11:13.380,0:11:16.559
+zwracamy stringa składającego się z dwóch nawiasów "wąsatych",
+
+0:11:16.559,0:11:20.250
+co w JSON oznacza pustą strukturę.
+
+0:11:20.250,0:11:24.210
+Więc tak otrzymujemy pustą tablicę JSON. 
+
+0:11:24.210,0:11:29.990
+i dalej zmienna $data... teraz tylko dodajemy nową wartość...
+
+0:11:29.990,0:11:31.180
+nowy wpis bloga.
+
+0:11:31.180,0:11:35.790
+Na początek potrzebujemy aktualny czas. Tworzymy nową zmienną
+
+0:11:35.790,0:11:36.930
+o nazwie $now
+
+0:11:36.930,0:11:39.050
+i tam umieszczamy aktulny czas
+
+0:11:39.050,0:11:40.240
+i dalej
+
+0:11:40.240,0:11:43.550
+dodając wpis do $data,
+
+0:11:43.550,0:11:46.430
+$now będzie kluczem,
+
+0:11:46.430,0:11:50.279
+więc dodajemy kolejne wpisy
+
+0:11:50.279,0:11:52.320
+zgodnie z kolejnością według daty
+
+0:11:52.320,0:11:54.129
+i tutaj mogę dodać
+
+0:11:54.129,0:11:55.780
+tytuł,
+
+0:11:55.780,0:12:01.080
+to wezmę stąd, ponieważ nie potrzebuję tego później.
+
+0:12:01.080,0:12:03.930
+Mamy również tekst
+
+0:12:03.930,0:12:05.870
+użytkownika
+
+0:12:05.870,0:12:09.420
+i dodajemy to poprzez params->{text}
+
+0:12:09.420,0:12:10.820
+i skończone.
+
+0:12:10.820,0:12:11.560
+Teraz
+
+0:12:11.560,0:12:12.820
+mamy dane,
+
+0:12:12.820,0:12:14.779
+nowy wpis bloga w zmiennej $data
+
+0:12:14.779,0:12:16.510
+i teraz potrzebujemy to tylko zapisać,
+
+0:12:16.510,0:12:19.459
+co uzyskamy poprzez funkcję "write_file"
+
+0:12:19.459,0:12:21.620
+podając nazwę pliku [$file]
+
+0:12:21.620,0:12:22.960
+i dalej
+
+0:12:22.960,0:12:25.890
+dane. W tej chwili $data jest zapisana
+
+0:12:25.890,0:12:27.340
+w strukturze danych Perla, a jeśli
+
+0:12:27.340,0:12:32.960
+chcemy zapisać to jako JSON, potrzebujemy przekonwertować to do struktury JSON za pomocą "to_json".
+
+0:12:32.960,0:12:35.729
+To jest to. Gdy już to zrobimy,
+
+0:12:35.729,0:12:37.410
+możemy to to zapisać.
+
+0:12:37.410,0:12:38.690
+Przepraszam, chcemy pokazać
+
+0:12:38.690,0:12:42.730
+coś użytkownikowi, chcemy go przekierować 
+
+0:12:42.730,0:12:47.330
+do katalogu głównego,
+
+0:12:47.330,0:12:48.450
+do strony głównej.
+
+0:12:48.450,0:12:50.009
+Na stronie głównej
+
+0:12:50.009,0:12:52.679
+jeszcze nie wyświetlamy treści
+
+0:12:52.679,0:12:55.120
+ale zobaczmy jak to na razie działa.
+
+0:12:55.120,0:12:59.790
+Więc zatrzymuję działanie aplikacji, uruchamiam ją ponownie
+
+0:12:59.790,0:13:02.800
+i jeśli nie popełniłem żadnych błędów powinno to w miarę działać.
+
+0:13:02.800,0:13:04.770
+a więc, to jest
+
+0:13:04.770,0:13:11.560
+formularz. Wypełniłem go wcześniej i klikam "Post"... i dostaję "Runtime error". Czyli dostajemy błąd.
+
+0:13:11.560,0:13:13.699
+Nie można zlokalizować obiektu metody "write_file".
+
+0:13:13.699,0:13:14.890
+Hmm, najwyraźniej
+
+0:13:14.890,0:13:16.500
+ponieważ..
+
+0:13:16.500,0:13:17.470
+...
+
+0:13:17.470,0:13:20.990
+funkcje "from_json" i "to_json" są częścią Dancer'a,
+
+0:13:20.990,0:13:23.460
+ale "read_file" i "write_file" już nie.
+
+0:13:23.460,0:13:26.900
+Musimy dodać moduł, który je dostarczy.
+
+0:13:26.900,0:13:27.980
+use
+
+0:13:27.980,0:13:29.500
+File
+
+0:13:29.500,0:13:31.420
+::
+
+0:13:31.420,0:13:32.260
+Slurp
+
+0:13:32.260,0:13:37.210
+"Slurp" to nazwa modułu, który zapewnia nam obsługę funkcji "read_file"
+
+0:13:37.210,0:13:41.230
+i "write_file".
+
+0:13:41.230,0:13:46.260
+OK, zapisujemy. Muszę znów zrestartować aplikację, ponieważ zmieniłem kod jej silnika.
+
+0:13:46.260,0:13:49.490
+Próbujemy ponownie, więc klikam "wstecz"
+
+0:13:49.490,0:13:50.590
+i
+
+0:13:50.590,0:13:52.130
+wrzucam nowy wpis ponownie
+
+0:13:52.130,0:13:54.690
+i jak widać,
+
+0:13:54.690,0:13:58.860
+wszystko wskazuje na to, że jest OK. Aplikacja zwróciła główny
+
+0:13:58.860,0:14:02.020
+katalog całego bloga, stronę główną, ale nie widzę
+
+0:14:02.020,0:14:05.720
+żadnych danych, więc sprawdźmy czy jakieś dane zostały zapisane.
+
+0:14:05.720,0:14:11.329
+Wracam do Padre i otwieram główny katalog "work". Ustaliliśmy
+
+0:14:11.329,0:14:15.920
+że plik "dwimmer.json" będzie się tu znajdował i proszę - jest. Więc tutaj mamy znacznik daty
+
+0:14:15.920,0:14:18.880
+i tekst i tytuł, które chcieliśmy zapisać.
+
+0:14:18.880,0:14:23.190
+Wygląda na to, że udało nam się zapisać dane do pliku. Teraz spróbujmy je wyświetlić
+
+0:14:23.190,0:14:25.010
+na tej stronie.
+
+0:14:25.010,0:14:28.660
+Aby to zrobić idziemy
+
+0:14:28.660,0:14:31.630
+do strony głównej i tutaj
+
+0:14:31.630,0:14:33.450
+potrzebujemy wczytać dane ponownie.
+
+0:14:33.450,0:14:37.720
+Dokładnie tak samo jak zrobiliśmy to wcześniej. Wystarczy teraz skopiować i wkleić
+
+0:14:37.720,0:14:40.590
+ten kod.
+
+0:14:40.590,0:14:43.700
+i mam teraz wszystkie dane
+
+0:14:43.700,0:14:45.830
+w zmiennej $data.
+
+0:14:45.830,0:14:49.720
+Wysyłamy ją jako parametr do szablonu.
+
+0:14:49.720,0:14:52.440
+więc
+
+0:14:52.440,0:14:54.030
+wysyłamy
+
+0:14:54.030,0:14:56.220
+jako parametr... do szablonu.
+
+0:14:56.220,0:14:57.480
+W szablonie..
+
+0:14:57.480,0:15:00.060
+zobaczmy co powinno się znaleźć w szablonie.
+
+0:15:00.060,0:15:01.840
+To jest główny szablon "index.tt"
+
+0:15:01.840,0:15:02.890
+Używając tego szablonu
+
+0:15:02.890,0:15:04.549
+chcielibyśmy pokazać
+
+0:15:04.549,0:15:05.940
+dane
+
+0:15:05.940,0:15:09.670
+które aktualnie są... tablicą JSON. Więc jak pobieramy taką tablicę
+
+0:15:09.670,0:15:11.749
+używając Template::Toolkit
+
+0:15:11.749,0:15:13.530
+i wyświetlamy ją użytkownikowi?
+
+0:15:13.530,0:15:18.220
+W Template::Toolkit robi się to tak: używamy pętli "for"
+
+0:15:18.220,0:15:22.620
+i dalej tworzymy zmienną o nazwie.. 
+
+0:15:22.620,0:15:23.610
+"p" jak "page"
+
+0:15:23.610,0:15:28.690
+"IN" znaczy "into", i dalej nasze dane, z których
+
+0:15:28.690,0:15:30.720
+pobierzemy klucze,
+
+0:15:30.720,0:15:35.450
+i chcemy je pobrać posortowane.
+
+0:15:35.450,0:15:36.950
+Sortujemy je.
+
+0:15:36.950,0:15:41.200
+To jest sposób aby przejść po wszystkich elementach naszej tablicy
+
+0:15:41.200,0:15:42.340
+i dalej
+
+0:15:42.340,0:15:44.800
+kończymy pętlę poprzez "END".
+
+0:15:44.800,0:15:47.280
+Wewnątrz pętli możemy wyświetlić
+
+0:15:47.280,0:15:51.430
+aktualną zawartość zmiennej nazwanej "p",
+
+0:15:51.430,0:15:53.580
+która na razie będzie znacznikiem daty.
+
+0:15:53.580,0:15:55.860
+Teraz wracam do wiersza poleceń
+
+0:15:55.860,0:16:01.110
+trzeba zrestartować aplikację, ponieważ zmieniłem kod...
+
+0:16:01.110,0:16:06.560
+i teraz gdy odświeżę stronę, możemy zobaczyć znacznik daty jedynego posta jaki na razie mam.
+
+0:16:06.560,0:16:08.020
+Jest ok, ale
+
+0:16:08.020,0:16:09.130
+chciałbym również
+
+0:16:09.130,0:16:11.830
+zobaczyć tytuł i treść wpisu.
+
+0:16:11.830,0:16:17.080
+Sposób w jaki można to zrobić w Template::Toolkit jest następujący: chciałbym wyświetlić
+
+0:16:17.080,0:16:18.170
+dane [data]
+
+0:16:18.170,0:16:22.380
+dalej "p", które teraz jest zmienną, więc umieszczam przed jej nazwą znak dolara "$"
+
+0:16:22.380,0:16:25.550
+i na koncu klucz "title".
+
+0:16:25.550,0:16:29.800
+A po tym chciałbym zobaczyć treść, racja?
+
+0:16:29.800,0:16:32.730
+Więc chcemy zobaczyć wszystkie nasze dane.
+
+0:16:32.730,0:16:36.090
+Wracając do przeglądarki, nie muszę restartować aplikacji,
+
+0:16:36.090,0:16:39.750
+ponieważ zmieniłem tylko szablon.
+
+0:16:39.750,0:16:44.950
+I możemy zobaczyć "hello world", które jest tytułem i treścią naszego wpisu.
+
+0:16:44.950,0:16:46.630
+Wyświetlmy to nieco lepiej.
+
+0:16:46.630,0:16:49.060
+Umieszczę w znaczniku <h2>
+
+0:16:49.060,0:16:53.350
+tytuł
+
+0:16:53.350,0:16:54.409
+i dalej
+
+0:16:54.409,0:16:57.010
+wstawię poziomą linię <hr>
+
+0:16:57.010,0:17:00.600
+przed całym wpisem.
+
+0:17:00.600,0:17:03.199
+I jak widać
+
+0:17:03.199,0:17:07.780
+mamy początkową część strony i dalej "hello" - tytuł wpisu.
+
+0:17:07.780,0:17:09.180
+Teraz stwórzmy nowy wpis,
+
+0:17:09.180,0:17:14.620
+aby sprawdzić czy wszystko nadal działa. Więc drugi wpis..
+
+0:17:14.620,0:17:16.170
+more text
+
+0:17:16.170,0:17:17.760
+more text
+
+0:17:17.760,0:17:19.170
+klikam "Post"
+
+0:17:19.170,0:17:22.400
+i jak widać, mamy obydwa posty,
+
+0:17:22.400,0:17:23.700
+a więc stworzyliśmy silnik blogowy.
+
+0:17:23.700,0:17:25.909
+Dzięki za uwagę. Jeśli chcecie
+
+0:17:25.909,0:17:27.590
+więcej informacji o Dwimmer
+
+0:17:27.590,0:17:31.970
+polecam stronę dwimmer.org lub możecie wejść na perldancer.org i pobrać całość.
+
+0:17:31.970,0:17:34.350
+Jest spoko, lubię to.
+
+0:17:34.350,0:17:35.160
+Dziękuję bardzo za uwagę,
+Do zobaczenia
