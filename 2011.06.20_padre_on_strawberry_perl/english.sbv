@@ -1,356 +1,533 @@
 0:00:05.360,0:00:08.910
 Hi and welcome again to the channel.
+
 0:00:08.110,0:00:10.840
-This is a special screencast because this is the last one
+This is a special screencast because this is the announcement
+
 0:00:11.330,0:00:15.150
-until the release of the new Padre on Strawberry Windows installer.
+of the release of the new Padre on Strawberry Windows installer.
+
 0:00:16.370,0:00:20.030
 Originally when I started this, I didn't know what was going to happen
+
 0:00:20.400,0:00:25.440
 but last month I decided that I was going to release this package once a month
+
 0:00:25.970,0:00:28.780
 but because of some exciting new features that came up 
+
 0:00:29.120,0:00:31.320
 I decided that I can't wait anymore
+
 0:00:32.100,0:00:37.060
 so I wanted to release it, so here it is and you can start downloading and start using it.
+
 0:00:37.450,0:00:42.180
 I would like to show you now a couple of things that are new in this distribution.
+
 0:00:42.660,0:00:46.310
 So you can see whether it is interesting for you as well to try it out.
+
 0:00:47.560,0:00:49.590
 First of all, how to get the distribution. 
+
 0:00:50.070,0:00:53.940
 So you can go to the website of Padre, padre.perlide.org
+
 0:00:54.500,0:00:57.690
 and then on the main page you have all this promotional text 
+
 0:00:58.400,0:01:01.920
 but you are probably not interested because you are already convinced that you want it
+
 0:01:02.380,0:01:06.910
 so you click on the download link and here are some more text
+
 0:01:07.320,0:01:10.850
 about what kind of packages and modules are already included. 
+
 0:01:11.790,0:01:15.040
 There's the release notes, whatever, you don't care about it. 
+
 0:01:15.660,0:01:19.700
 what's important for you is this link where you can click on that link 
+
 0:01:20.070,0:01:24.330
 and then you can download the actual distribution, the installer.
+
 0:01:25.180,0:01:29.950
 It's pretty big, it's 75 megabytes, but it contains quite a lot of things.
+
 0:01:30.770,0:01:34.370
 So once you download it and you click several times and install 
+
 0:01:34.780,0:01:36.630
 and everything that you usually do in Windows 
+
 0:01:37.700,0:01:43.330
 you can go to the Start menu, All programs, and then you will have a Strawberry Perl menu item
+
 0:01:43.750,0:01:45.570 
 probably, depending on what you picked 
+
 0:01:46.280,0:01:49.020
 and here inside you will see lots of lots of new icons.
+
 0:01:49.600,0:01:52.630
 Now this is not new for those who are using standard Strawberry Perl
+
 0:01:53.280,0:01:55.570
 but in the previous version of Padre Strawberry 
+
 0:01:55.870,0:01:57.530
 we didn't have all these icons, so they are new. 
+
 0:01:58.280,0:02:01.380
 And there are some icons that are actually quite new for everyone
+
 0:02:02.450,0:02:07.230
 especially the games subdirectory. So, in there, you will have three icons.
+
 0:02:07.790,0:02:12.020
-The main one here is the link to the website of the SDL Perl.
+The middle one here is the link to the website of the SDL Perl.
+
 0:02:13.310,0:02:16.200
 That's the technology that the games are written in.
+
 0:02:16.620,0:02:22.110
 And here is the Frozen Bubble. Frozen Bubble is the well known game which was originally written in Perl
+
 0:02:22.510,0:02:26.130
 and this is actually the original code, a newer version of it
+
 0:02:26.680,0:02:28.500
 and, oh yeah, it's starting to play.
+
 0:02:29.160,0:02:33.500
 As you can see and hear, you can press Enter here, and another Enter 
+
 0:02:34.260,0:02:37.520
 and probably all kinds of things to change
+
 0:02:38.910,0:02:45.680
 and here you move with the arrows and then hit these balls and fall down and that's a great game. 
+
 0:02:47.010,0:02:54.610
 I'm a really good player, almost. Yeah, I'm quite good, you see? Yeah. Hmm, next level. 
+
 0:02:55.020,0:02:58.630
 So I could play here quite a long time and you would probably enjoy it very much
+
 0:02:59.110,0:03:04.390
 but I think I would like to show something else, so I quit this game. Okay, bye-bye.
+
 0:03:05.770,0:03:09.270
 Yeah. So, I quit this game and I would like to show you another one, another game. 
+
 0:03:10.030,0:03:15.960
 The other game is here as well. It's called Zumbis, which is a game. 
+
 0:03:16.690,0:03:20.580
 You are this red-head girl and there are zombies running after you
+
 0:03:20.850,0:03:24.400
 and you have to shoot them down or they will eat you. 
+
 0:03:24.500,0:03:27.000
 The fun part is, oh, so, yeah, they eat me.
+
 0:03:28.000,0:03:32.000
 Besides the fact that you a red-head girl and zombies are after you
+
 0:03:32.200,0:03:34.000
 it's actually written in Portugese.
+
 0:03:34.300,0:03:36.200
 So, you will have to deal with that.
+
 0:03:36.500,0:03:38.600
- But, I think after zombies it's going to be okay for you. 
+But, I think after zombies it's going to be okay for you. 
+
 0:03:39.500,0:03:42.000
 Now, quitting the game is another adventure 
+
 0:03:42.700,0:03:45.100
 because you can't just press Escape, it doesn't work
+
 0:03:45.400,0:03:47.200
 you have to press Enter to restart a game
+
 0:03:47.500,0:03:51.300
 and then you can press Escape and then it quits. 
+
 0:03:51.400,0:03:53.300
 So, that's got to be fun for everyone.
+
 0:03:53.400,0:03:57.000
 And if you really want to make changes, then it's open source
+
 0:03:57.200,0:04:02.800
 so you can go to the Github repository, and start fixing it, and well, who knows what?
+
 0:04:02.900,0:04:03.500
 Who knows what? 
+
 0:04:03.800,0:04:08.500
 You might have a really great game at one point. Maybe she can speak in English
+
 0:04:08.800,0:04:11.000
 or Hungarian, or whatever.
+
 0:04:12.300,0:04:13.000
 So what else is there?
+
 0:04:14.000,0:04:17.000
 As I mentioned, there is an interesting feature of Padre. 
+
 0:04:17.800,0:04:21.200
 So Padre is going to be released a new version
+
 0:04:22.400,0:04:25.000
 0.86 is going to be released quite soon, in a couple of days
+
 0:04:25.100,0:04:29.100
 and it will have a new feature that's extremely surprising for anyone 
+
 0:04:29.300,0:04:31.000
 who's using Perl in the last four years
+
 0:04:31.100,0:04:34.300
 because so far that was the major issue of Padre
+
 0:04:34.500,0:04:40.200
 that we didn't have correct syntax highlighting for the defined or that came out in 5.10.
+
 0:04:41.100,0:04:48.900
-And, the reason is because we were using the Scintilla editor,and the highlighter in there
+And, the reason is because we were using the Scintilla editor widget, and the highlighter in there
+
 0:04:49.000,0:04:51.100
 and because we were using a really old version of it
+
 0:04:51.200,0:04:57.700
 a long story, it's through the WX bindings and so on, so, because of that
+
 0:04:58.500,0:05:01.000
 we didn't have correct syntax highlighting.
+
 0:05:01.300,0:05:07.000
 Now lately, Ahmad Zawawi made some heroic work and he ported, actually 
+
 0:05:07.400,0:05:09.100
 created a binding directly to Scintilla. 
+
 0:05:09.700,0:05:15.000
 It's called wxScintilla in Perl, and made some changes to Perl
+
 0:05:15.200,0:05:21.300
 to Padre that will come out in 0.86 that will allow you to use it. 
+
 0:05:21.400,0:05:25.600
 Now, because it's not released yet, I decided because it's an important feature
+
 0:05:25.700,0:05:31.300
 I decided, I backported it, and I put it back into the 0.86, 0.84 release of Padre
+
 0:05:31.800,0:05:38.100
 and it has never been released to the publicity, only to the repository
+
 0:05:38.400,0:05:41.200
 but it's actually included in this distribution.
+
 0:05:41.400,0:05:44.300
 So, in the coming days, if you want to try this
+
 0:05:44.400,0:05:45.100
 this is the only way you can do it.
+
 0:05:45.300,0:05:48.500
 So, go ahead and download it. Now, how does it work?
+
 0:05:48.800,0:05:54.300
-You launch Padre, and once you have the desk drawer open
+You launch Padre, and once you have the editor open
+
 0:05:54.400,0:06:00.300
 you open some Perl scripts. So, for example, in the examples directory
+
 0:06:00.400,0:06:02.200
 let's open this script.
+
 0:06:02.300,0:06:05.200
 I'm not really interested in the actual, what's in there
+
 0:06:05.800,0:06:09.200
 what I would like to write is this defined or.
+
 0:06:10.100,0:06:12.400
 Which, as you can see, the highlighting
+
 0:06:12.500,0:06:14.800
 I hope you can see, the highlighting is really broken.
+
 0:06:15.000,0:06:17.000
 So this is black, and then it's red
+
 0:06:17.200,0:06:20.400
 it doesn't recognize that we are talking about a defined or variable.
+
 0:06:20.600,0:06:24.800
 So, we have to enable the Scintilla, new Scintilla highlighter. 
+
 0:06:24.900,0:06:27.300
 The way to do it is to go to the tools menu 
+
 0:06:27.400,0:06:28.000
 preferences
+
 0:06:28.300,0:06:32.000
 we don't have a checkbox for this here, as far as I know
+
 0:06:32.200,0:06:33.700
 so we go to the advanced options
+
 0:06:33.900,0:06:38.300
 there, we then type in "Scintilla"
+
 0:06:38.400,0:06:39.000
 we start to type in
+
 0:06:39.200,0:06:41.700
 and then we hit, here is the menu option. 
+
 0:06:41.800,0:06:46.300
 And as you can see it's False, so by default it doesn't, it's not used.
+
 0:06:46.400,0:06:51.300
 I turn it on, setting it true, save it, and then, it still now doesn't work
+
 0:06:51.400,0:06:57.300
 because you need to restart Padre in order for this specific feature to take effect.
+
 0:06:57.500,0:07:06.300
 So I close Padre, and start it again in the same way, and once it opens
+
 0:07:06.400,0:07:09.300
 I hate this feature, that it doesn't remember the correct
+
 0:07:09.400,0:07:11.300
 the same file that was opened already
+
 0:07:11.500,0:07:15.300
 so I go to recent files, and then I open that file
+
 0:07:15.400,0:07:20.500
 and as you can see, here is already doing the syntax highlighting correctly.
+
 0:07:21.600,0:07:28.000
 By the way, if you also hate this, that Padre doesn't open the last file that was open before you closed it
+
 0:07:28.100,0:07:30.500
 you can go to the tools
+
 0:07:30.600,0:07:31.700
 preferences, again,
+
 0:07:31.900,0:07:33.200
 and here there is the opening files entry
+
 0:07:33.500,0:07:35.300
 and here we are, that's what it says. 
+
 0:07:35.700,0:07:40.000
 So we open a new file every time when you open Padre, but you can say
+
 0:07:40.100,0:07:44.800
 set it to last, which will open the last files that have been opened
+
 0:07:44.900,0:07:48.000
 or there is also session management that I don't want to go into this now
+
 0:07:48.100,0:07:51.800
 because that's not what we are talking about.
+
 0:07:52.000,0:07:56.300
 Anyway, that's a really nice feature of Padre now
+
 0:07:56.500,0:07:59.000
 that it can actually do correct syntax highlighting.
+
 0:07:59.200,0:08:01.000
 So, welcome to Perl 5.10!
+
 0:08:01.200,0:08:02.000
 That's great.
+
 0:08:04.300,0:08:05.000
 So what else? 
+
 0:08:05.700,0:08:08.000
 There are a couple of other features - let's go back to this website
+
 0:08:08.200,0:08:12.300
 because it has explanations of what kinds of things are new
+
 0:08:12.500,0:08:16.500
 let's go to the release notes so I can remember, ooh yes, so
+
 0:08:17.000,0:08:19.000
 CPAN::Reporter. CPAN::Reporter 
+
 0:08:19.200,0:08:23.200
 and this module which I can't read out are tools
+
 0:08:23.900,0:08:27.400
 one of the set of the tools to allow you to report
+
 0:08:27.500,0:08:31.100
 to send out test reports, to CPAN testers.
+
 0:08:31.200,0:08:35.900
 So, this website, probably you know, this is the CPAN Testers Reports website. 
+
 0:08:36.000,0:08:40.200
 There are people who install CPAN modules and decide to send out reports.
+
 0:08:41.000,0:08:45.200
 The reports are collected in this place and then you can see them, and it's great. 
+
 0:08:46.600,0:08:52.500
 So, in order to turn this on, you have to install various modules.
+
 0:08:52.700,0:08:54.500
 These are already coming in this distribution.
+
 0:08:54.600,0:09:01.000
 And, you have to configure it so it will send out, in your, it will be turned on 
+
 0:09:01.300,0:09:03.400
 and it will be sent out in your name.
+
 0:09:03.600,0:09:06.300
 So if you go to the cpantesters.org website
+
 0:09:06.500,0:09:08.400
 and scroll down 
+
 0:09:08.500,0:09:13.300
 then there is a part called "Become a tester", which links to the wiki 
+
 0:09:13.500,0:09:18.000
 and they...I don't go into the details now, that's going to be a seperate screencast, probably
+
 0:09:18.500,0:09:24.700
 but you can go there and read how to set it up and then you can start sending out test reports
+
 0:09:24.900,0:09:27.000
 which is great, thanks.
+
 0:09:27.300,0:09:28.300
 What else?
+
 0:09:28.400,0:09:29.000
 Oh yeah, so
+
 0:09:29.100,0:09:33.200
 Text::CSV_XS just reads a, read or writes CSV files
+
 0:09:33.300, 0:09:37.100
 and Net::Telnet, just in case you want to connect to an unsecure Unix machine.
+
 0:09:37.500,0:09:42.300
 Or, there are all these routers and bridges and whatnot 
+
 0:09:42.400,0:09:45.500
 that you can configure them by a telnet interface.
+
 0:09:45.600,0:09:51.100
 And, in many times, you'll need to use them for testing or to configure these devices 
+
 0:09:51.200,0:09:53.800
 so Net::Telnet is a great module for that. 
+
 0:09:54.100,0:09:58.200
 App::cpanoutdated allows me to, actually, check
+
 0:09:58.400,0:10:03.400
 which modules need to be updated for the next version of this package,
+
 0:10:03.500,0:10:06.500
 but it can be used by anyone, it's a commandline tool 
+
 0:10:06.600,0:10:10.300
 that will show you which modules are outdated in your installation. 
+
 0:10:10.700,0:10:18.100
 Template::Toolkit, Template::Toolkit, will help me write, or anyone, actually 
+
 0:10:18.500,0:10:23.500
 will help write a more complex application, web applications
+
 0:10:23.800,0:10:28.000
 Dancer, that one has been included in the earlier version.
+
 0:10:28.100,0:10:30.900
 Actually it was upgraded in this version. 
+
 0:10:31.000,0:10:34.600
 But Dancer comes with a really simple template tool
+
 0:10:34.700,0:10:38.300
 template system that doesn't even have loops and stuff like this.
+
 0:10:38.400,0:10:40.600
 And now that you have Template::Toolkit installed
+
 0:10:40.700,0:10:44.200
 it's quite easy to start building complex web applications on this distribution.
+
 0:10:45.000,0:10:47.000
 Win32::GuiTest:
+
 0:10:47.100,0:10:54.200
 That's a nice module to allow you to write all kinds of automation, for desktop applications
+
 0:10:54.300,0:10:59.000
 so it allows you to click or use the mouse or drag the mouse 
+
 0:10:59.100,0:11:02.000
 and, automatically obviously, without you touching the mouse
+
 0:11:02.100,0:11:03.400
 or clicking on the keyboards
+
 0:11:03.800,0:11:08.800
 and, you can automate tasks, it can be used for testing
+
 0:11:08.900,0:11:11.800
 or for automatic installations, or for stuff like this.
+
 0:11:11.900,0:11:14.000
 And then, as I mentioned, there is SDL, these are the games
+
 0:11:14.100,0:11:16.900
 and there are a couple of games that were installed.
+
 0:11:17.300,0:11:22.400
 A couple of modules have been upgraded and that's it basically.
+
 0:11:22.500,0:11:26.400
 So, I really hope that some of you will try it out
+
 0:11:26.500,0:11:30.200
 download it and try it and provide feedback.
+
 0:11:30.300,0:11:31.200
 How is the new distribution?
+
 0:11:31.500,0:11:36.300
 I really hope there aren't too many new bugs in there.
+
 0:11:36.400,0:11:38.500
 And I hope you enjoyed this screecast
+
 0:11:38.500, 0:11:40.000
 and, see you next time!
