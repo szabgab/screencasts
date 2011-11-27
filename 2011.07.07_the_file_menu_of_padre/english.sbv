@@ -14,13 +14,13 @@ For example I'll just type in 0.84,
 to remind you that this is now showing Padre version 0.84, running on Windows.
 
 0:00:25.580,0:00:31.390
-The same would happen, the same would (?) on Linux, it's the same version of Padre,
+The same would happen, the same would work on Linux, it's the same version of Padre,
 
 0:00:31.390,0:00:34.230
 but you might have a different version,
 
 0:00:34.230,0:00:38.860
-so the (?) menu items might be slightly different, or behave slightly different.
+so there menu items might be slightly different, or behave slightly different.
 
 0:00:38.860,0:00:43.090
 I will post newer versions of the screencast later on.
@@ -71,7 +71,7 @@ Now it would be probably nice if these skeleton files could be configured by the
 unfortunately as far as I know currently these are hard-coded in Padre,
 
 0:02:19.300,0:02:25.130
-so unless you (?) change the files that are supplied by the installation of Padre...
+so unless you actually change the files that are supplied by the installation of Padre...
 
 0:02:25.130,0:02:28.750
 now, currently it's hard-coded.
@@ -119,7 +119,7 @@ and for example in this module I have a use statement, or just some kind of a na
 I can highlight the name of the module, then go to the Open, Selection - or Ctrl-Shift-O,
 
 0:03:40.170,0:03:45.920
-and it'll look for that module in your file system, within your (?),
+and it'll look for that module in your file system, within your @INC,
 
 0:03:45.920,0:03:53.460
 and find the file that implements that module, and open it for you for editing.
@@ -170,7 +170,7 @@ If the file was changed it'd ask first whether you want to save it.
 Then there's this other Close menu which has several entries, so you have Close this project, or Close other projects -
 
 0:05:30.810,0:05:34.660
-- that's for projects, you  know, (?) -
+that's for projects, I won't deal with that now -
 
 0:05:34.660,0:05:38.890
 Close all files, that would close all the files currently open,
@@ -182,7 +182,7 @@ or Close all other files, that would close all the files except the one that I'm
 And Close files will allow you to pick which ones you would like to close.
 
 0:05:53.880,0:06:00.960
-Now (?) because that file was already changed, and just telling if you want to save it,
+Now in our case because that file was already changed, and just telling if you want to save it,
 
 0:06:00.960,0:06:07.740
 no I don't want to save it, so it will close that file now.
