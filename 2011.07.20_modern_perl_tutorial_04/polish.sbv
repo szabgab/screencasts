@@ -5,7 +5,7 @@ Cześć, witam znów oglądających kanał Samouczków do Perl-a
 Dziś opowiem o paru funkcjach,
 
 0:00:08.733,0:00:12.800
-które obsługują ciągi znaków w perlu
+które obsługują łańcuchy znaków w perlu
 
 0:00:12.800,0:00:14.768
 Zacznijmy od...
@@ -17,19 +17,19 @@ Otwórzmy inne okno
 A więc, jednymi z podstawowych funkcji są
 
 0:00:20.932,0:00:24.056
-lc, zwróci nam ona ciąg znaków małymi literami,
+lc, zwróci nam ona łańcuch znaków małymi literami,
 
 0:00:24.056,0:00:26.423
-uc, zwróci nam ciąg znaków dużymi literami,
+uc, zwróci nam łańcuch znaków dużymi literami,
 
 0:00:26.423,0:00:30.324
-oraz length, zwróci nam ilość znaków w ciągu.
+oraz length, zwróci nam ilość znaków w łańcuchu.
 
 0:00:30.324,0:00:34.643
 Napisałem parę przykładowych plików
 
 0:00:34.643,0:00:38.000
-Mamy tutaj $str - string-a
+Mamy tutaj $str - łańcuch znaków
 
 0:00:38.000,0:00:40.936
 "HeLlo" z dużym L tu i małym l
@@ -47,7 +47,7 @@ Widać, że pierwsza funkcja zwraca "hello" małymi literami
 Druga dużymi
 
 0:00:53.267,0:00:57.213
-A ostatnia ilość znaków w ciągu
+A ostatnia ilość znaków w łańcuchu
 
 0:00:57.213,0:01:02.206
 Żadna z tych funkcji nie zmienia zmiennej
@@ -86,13 +86,13 @@ jednym z nich jest tekst, jak ten tutaj
 Powiększmy trochę czcionkę
 
 0:01:38.686,0:01:43.371
-Pierwszym parametrem jest string
+Pierwszym parametrem jest łańcuch znaków
 
 0:01:43.371,0:01:45.102
 to tutaj,
 
 0:01:45.102,0:01:47.773
-drugim parametrem jest również string
+drugim parametrem jest również łańcuch znaków
 
 0:01:47.773,0:01:50.017
 zwykle krótszy
@@ -146,7 +146,7 @@ Może to nie jest najlepsza metoda
 ale tak to jest zaimplementowane
 
 0:02:48.723,0:02:55.199
-Jeśli uruchomię index ze stringiem "The", duże T
+Jeśli uruchomię index z łańcuchem znaków "The", duże T
 
 0:02:55.199,0:02:56.932
 dostaniemy 0
@@ -164,7 +164,7 @@ i zwróci 0, ponieważ tam się zaczyna
 Następne wywołanie, to tutaj, zwraca 26
 
 0:03:12.000,0:03:16.733
-ponieważ index szuka dokładnie takiego samego ciągu
+ponieważ index szuka dokładnie takiego samego łańcucha
 
 0:03:16.733,0:03:19.266
 zważa na wielkość liter
@@ -182,13 +182,13 @@ Możesz myśleć, że index szuka słowa
 ale nie o to chodzi, funkcja szuka
 
 0:03:34.236,0:03:38.943
-podciągu znaków, czyli znaków, jeden po drugim
+podłańcucha znaków, czyli znaków, jeden po drugim
 
 0:03:38.943,0:03:41.266
 W następnym przykładzie widać,
 
 0:03:41.266,0:03:44.266
-że szukamy string-a:
+że szukamy łańcucha znaków:
 
 0:03:44.266,0:03:47.599
 "e ", litery e i spacji
@@ -200,7 +200,7 @@ index zwróci nam 2
 zaznaczyłem tutaj
 
 0:03:52.067,0:03:55.707
-miejsce, gdzie ten ciąg występuje
+miejsce, gdzie ten łańcuch występuje
 
 0:03:55.707,0:04:00.395
 ale jak widać, dalej też jest "e "
@@ -281,7 +281,7 @@ nie ma znaczenia gdzie dokładnie zaczynasz
 dopóki zaczynasz przed
 
 0:05:21.415,0:05:24.770
-wystąpieniem podciągu
+wystąpieniem podłańcucha
 
 0:05:24.770,0:05:27.132
 I to jest właśnie funkcja index
@@ -299,13 +299,13 @@ robiąca to samo z tą różnicą
 To dość interesujące
 
 0:05:35.690,0:05:38.430
-jeśli mamy wiele wystąpień tego samego ciągu
+jeśli mamy wiele wystąpień tego samego łańcucha
 
 0:05:38.430,0:05:42.676
 i znajdzie to najbardziej wysunięte na prawo
 
 0:05:42.676,0:05:45.187
-Wywołanie rindex na tym samym ciągu
+Wywołanie rindex na tym samym łańcucha
 
 0:05:45.187,0:05:47.649
 podając "e" jako wzorzec
@@ -359,7 +359,7 @@ Substring jest dokładnie przeciwieństwem index
 W index wiesz czego szukasz
 
 0:06:31.882,0:06:33.182
-jakiego ciągu znaków szukasz
+jakiego łańcucha znaków szukasz
 
 0:06:33.182,0:06:34.670
 nie wiesz tylko, gdzie on jest
@@ -377,7 +377,7 @@ nie wiesz tylko co tam jest
 i chcesz zobaczyć co tam jest
 
 0:06:42.547,0:06:45.699
-Substring przyjmuje string-a jako argument,
+Substring przyjmuje łańcuch znaków jako argument,
 
 0:06:45.699,0:06:48.531
 czyli np. "The black cat climbed the green tree";
@@ -401,7 +401,7 @@ znów liczba 0 wskazuje na pierwszy znak
 Trzeci parametr to długość
 
 0:07:09.685,0:07:11.542
-ciągu znaków, który ściągamy
+łańcucha znaków, który ściągamy
 
 0:07:11.542,0:07:13.423
 Więc jako że podano długość 5
@@ -476,7 +476,7 @@ Może się zdarzyć, że możesz pominąć trzeci argument
 co by znaczyło:
 
 0:08:29.942,0:08:34.532
-daj mi ciąg znaków od 14 pozycji do końca
+daj mi łańcuch znaków od 14 pozycji do końca
 
 0:08:34.532,0:08:38.326
 ponieważ nie wiem, ile może pozostawać znaków
@@ -515,7 +515,7 @@ A ponieważ w przykładzie
 nie podałem liczby znaków
 
 0:09:09.793,0:09:12.553
-więc dostanę cały ciąg aż do końca
+więc dostanę cały łańcuch aż do końca
 
 0:09:12.553,0:09:16.373
 w tym przypadku 4 litery "tree"
@@ -560,7 +560,7 @@ dostanę "tre", rozumiesz
 Ostatni przykład jest trochę inny
 
 0:09:57.247,0:10:00.462
-Dotychczas funkcje zwracały ciąg znaków,
+Dotychczas funkcje zwracały łańcuch znaków,
 
 0:10:00.462,0:10:05.719
 a oryginalny $str nie zmieniał się
@@ -578,19 +578,19 @@ W ostatnim przykładzie
 mamy również czwarty parametr
 
 0:10:17.847,0:10:23.457
-w tym przypadku będący ciągiem "jumped from"
+w tym przypadku będący łańcuchem "jumped from"
 
 0:10:23.457,0:10:26.309
 Teraz, w tym przypadku
 
 0:10:26.309,0:10:31.663
-funkcja Perl-a substring zamieni ciąg
+funkcja Perl-a substring zamieni łańcuch
 
 0:10:31.663,0:10:36.180
 znaleziony przez trzy pierwsze paramtery
 
 0:10:36.180,0:10:39.328
-na ciąg z czwartego parametru
+na łańcuch z czwartego parametru
 
 0:10:39.328,0:10:49.447
 Więc, skoro "14, 7" to słowo "climbed",
@@ -605,7 +605,7 @@ ale $str będzie już inne
 a słowo "climbed" zostanie zastąpione przez słowo "jumped from",
 
 0:11:04.734,0:11:07.816
-dwa słowa, ciąg znaków właściwie
+dwa słowa, łańcuch znaków właściwie
 
 0:11:07.816,0:11:10.713
 W tym przypadku $str będzie zawierał:
@@ -617,7 +617,7 @@ W tym przypadku $str będzie zawierał:
 Jak widzisz, Perl nie przejmuje się
 
 0:11:15.970,0:11:20.221
-czy nowy ciąg jest dłuższy
+czy nowy łańcuch jest dłuższy
 
 0:11:20.221,0:11:22.236
 niż poprzedni
@@ -641,7 +641,7 @@ dzięki temu zobaczysz
 to po prostu działa
 
 0:11:34.513,0:11:38.882
-Co się stanie, jeśli zamienię ciąg na literę "j"
+Co się stanie, jeśli zamienię łańcuch na literę "j"
 
 0:11:38.882,0:11:40.878
 i uruchomię? Zobaczymy:
@@ -653,16 +653,16 @@ i uruchomię? Zobaczymy:
 cokolwiek to znaczy
 
 0:11:45.498,0:11:49.534
-Różnice w długości ciągów nie mają znaczenia
+Różnice w długości łańcuchów nie mają znaczenia
 
 0:11:49.534,0:11:51.447
-Możesz podać nawet pusty ciąg,
+Możesz podać nawet pusty łańcuch,
 
 0:11:51.447,0:11:53.939
 byleby był tutaj podany
 
 0:11:53.939,0:11:59.275
-a wtedy substring Perl-a wytnie tą część ciągu
+a wtedy substring Perl-a wytnie tą część łańcucha
 
 0:11:59.275,0:12:01.196
 i zostawi, w tym przypadku, dwie spacje,
