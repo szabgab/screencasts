@@ -1,4 +1,4 @@
-0:00:01.600,0:00:04.533
+0:00:00.000,0:00:04.533
 Hi, and welcome back to the channel of Perl Tutorial
 
 0:00:04.533,0:00:06.599
@@ -113,7 +113,7 @@ it will return you 10
 because "cat" starts from the 10. character
 
 0:02:06.269,0:02:11.425
-index called for the starting character is 0
+Index counts characters starting with 0
 
 0:02:11.425,0:02:13.561
 so this capital T is actually 0
