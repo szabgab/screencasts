@@ -1,263 +1,263 @@
-﻿00:00:01.533,00:00:08.533
+0:0:01.533,0:0:08.533
 Hi, in this part I’m going to show 
  you how Perl can compare scalar values.
 
-00:00:08.667,00:00:13.667
+0:0:08.533,0:0:13.667
 I would like to see whether 1 and 1.0 and 1.00
 
-00:00:13.0,00:00:16.0
+0:0:13.667,0:0:16.000
 Are they equal, one of them is bigger, one of them is smaller?
 
-00:00:16.333,00:00:21.333
+0:0:16.000,0:0:21.333
 What about 1.00 in a string, so in quotation marks?
 
-00:00:21.0,00:00:27.0
+0:0:21.0,0:0:27.0
 What about comparing “foo” and “bar,” these two strings?
 
-00:00:27.283,00:00:29.283
+0:0:27.283,0:0:29.283
 So Perl has—
 
-00:00:29.28,00:00:39.28
+0:0:29.283,0:0:39.282
 We saw that in Perl there are operators like “+” and “.”, they convert 
  strings to numbers and numbers to strings depending on their own context.
 
-00:00:39.282,00:00:44.282
+0:0:39.282,0:0:44.282
 And they don’t care what the actual value you put in the variables.
 
-00:00:44.2,00:00:46.35
+0:0:44.282,0:0:46.351
 This is similar with the operators.
 
-00:00:46.4,00:00:50.2
+0:0:46.351,0:0:50.258
 Perl actually has two sets of comparison operators.
 
-00:00:50.2,00:01:00.2
+0:0:50.258,0:01:00.239
 And I put here in this separate file a table so you can see there 
  is a set of numeric comparisons and a set of string comparisons. 
 
-00:01:00.07,00:01:04.07
+0:01:00.239,0:01:04.076
 Equal equal the check that the two sides are equal as numbers.
 
-00:01:04.333,00:01:07.333
+0:01:04.076,0:01:07.333
 And eq will check whether they are equal as strings.
 
-00:01:07.2,00:01:13.2
+0:01:07.205,0:01:13.439
 And this would checks whether they are not equal, this would 
  check that the left hand side is smaller as numbers.
 
-00:01:13.439,00:01:16.936
+0:01:13.439,0:01:16.936
 And less than would compare them as strings. 
 
-00:01:17.4,00:01:20.4
+0:01:16.936,0:01:20.498
 So let’s see how that works.
 
-00:01:20.5,00:01:22.25
+0:01:20.498,0:01:22.398
 Let’s have an example here.
 
-00:01:22.3,00:01:28.7
+0:01:22.398,0:01:28.878
 Let’s compare to 12 to 12.0. 
 
-00:01:28.878,00:01:36.8
+0:01:28.878,0:01:37.008
 And if that’s true, print out true. 
 
-00:01:37.0,00:01:43.9
+0:01:37.008,0:01:43.997
 Else print out false.
 
-00:01:44.1,00:01:49
+0:01:43.997,0:01:49.208
 So if I run this code I’ll get true 
  because 12 is equal to 12. 
 
-00:01:49.2,00:01:59.0
+0:01:49.208,0:01:59.200
 And Perl disregards the dot zero because even though I’m writing here in 
  floating poin notation, that’s still only 12 as the real value.
 
-00:01:59.2,00:02:04.2
+0:01:59.200,0:02:04.856
 The same would happen if I put here two zero’s, 
  it doesn’t really matter, I still get true.
 
-00:02:04.85,00:02:14.2
+0:02:04.856,0:02:14.945
 And if I put here, this in quotes, that would be still true 
  because Perl compares the string to a number, and gets the same.
 
-00:02:14.94,00:02:25.0
+0:02:14.945,0:02:25.467
 Now if I compare them with using eq and I run the script, then 
  I get false, because now Perl converts this number into a string.
 
-00:02:25.467,00:02:31.5
+0:02:25.467,0:02:31.892
 So you get 12 on left-hand side and 
  12 dot zero zero on right-hand side.
 
-00:02:31.89,00:02:34.92
+0:02:31.892,0:02:34.926
 Two strings and they are not equal as strings.
 
-00:02:35.228,00:02:37.52
+0:02:34.926,0:02:37.872
 What about comparing numbers?
 
-00:02:37.872,00:02:41.24
+0:02:37.872,0:02:41.609
 Which one is smaller, which one is bigger?
 
-00:02:41.609,00:02:43.71
+0:02:41.609,0:02:43.963
 So let’s compare two to three.
 
-00:02:43.9,00:02:48.4
+0:02:43.963,0:02:48.706
 Obviously two is smaller than three and I 
  get true as you can see here.
 
-00:02:48.7,00:02:50.7
+0:02:48.706,0:02:50.825
 So two is smaller than three.
 
-00:02:50.8,00:02:54.0
+0:02:50.825,0:02:54.217
 What if I compare them as strings?
 
-00:02:54.2,00:02:55.2
+0:02:54.217,0:02:55.757
 That’s the same, its two.
 
-00:02:55.75,00:03:01.43
+0:02:55.757,0:03:01.759
 Still true because two is before three in the asking table.
 
-00:03:01.75,00:03:07.75
+0:03:01.759,0:03:08.000
 And what happens if I’m comparing twelve to three?
 
-00:03:08.0,00:03:10.0
+0:03:08.000,0:03:10.267
 Well that’s obvious.
 
-00:03:10.267,00:03:13.17
+0:03:10.267,0:03:13.333
 It’s true because twelve is bigger than three.
 
-00:03:13.333,00:03:17.33
+0:03:13.333,0:03:17.538
 But what if I am comparing with greater than, the string comparison?
 
-00:03:17.5,00:03:19.8
+0:03:17.538,0:03:20.015
 Then I run it and I get false.
 
-00:03:20.0,00:03:36.80
+0:03:20.015,0:03:37.221
 So it might be surprising to some people but if you think about it, the way this compares “gt” compares, or all the 
  string comparisons compare is they take the first character which is one, comparing this to the first character here which is three.
 
-00:03:37.2,00:03:43.8
+0:03:37.221,0:03:44.069
 And by this character already we know that the left hand side 
  happens before the right hand side in the asking table.
 
-00:03:44.0,00:03:55.8
+0:03:44.069,0:03:55.968
 So by the point it will decide the twelve as a string is 
  smaller than three and because of that this expression returns false.
 
-00:03:56.0,00:04:01.9
+0:03:55.968,0:04:02.139
 So what happens when I compare “foo” to “bar.”
 
-00:04:02.133,00:04:06.0
+0:04:02.139,0:04:06.215
 Whether I’m checking whether they are equal with two equal signs.
 
-00:04:06.2,00:04:11.34
+0:04:06.215,0:04:11.523
 And I run this and surprisingly it gives me true.
 
-00:04:11.5,00:04:16.5
+0:04:11.523,0:04:16.864
 It might be less surprising to those who know that what does it mean.
 
-00:04:16.8,00:04:19.8
+0:04:16.864,0:04:20.006
 So “==” compares the two sides as numbers.
 
-00:04:20.0,00:04:23.90
+0:04:20.006,0:04:24.008
 And converts them as numbers and that’s the reason we get these warnings.
 
-00:04:24.0,00:04:28.0
+0:04:24.008,0:04:28.133
 Because the “==” sign is expecting two numbers.
 
-00:04:28.133,00:04:34.0
+0:04:28.133,0:04:34.267
 There are two strings which are not exact 
  numbers, so Perl gives me a warning.
 
-00:04:34.267,00:04:41.05
+0:04:34.267,0:04:41.133
 And converts both sides to zero because it will try to convert 
  try to look at the left-hand side, look for numbers.
 
-00:04:41.133,00:04:47.13
+0:04:41.133,0:04:47.013
 There are no numbers in either of the strings 
  so they both equal to 0. 
 
-00:04:47.0,00:04:54.50
+0:04:47.013,0:04:54.933
 And therefore 0 equals to 0 as two numbers and that’s 
  true, so that’s the reason Perl prints here true.
 
-00:04:54.933,00:05:03.83
+0:04:54.933,0:05:04.018
 Obviously if you know that you need to compare two things 
  that might be strings, then you probably used “eq.”
 
-00:05:04.0,00:05:11.80
+0:05:04.018,0:05:12.016
 Actually in most places of the world you probably used “eq” 
  when you were comparing the two strings, the two values.
 
-00:05:12.0,00:05:16.80
+0:05:12.016,0:05:17.002
 So in this case this we obviously get the false as I expected.
 
-00:05:17.0,00:05:23.5
+0:05:17.0002,0:05:23.869
 Something that might be more interesting, that even if I compare with 
  empty string, I get the same problem or same issue.
 
-00:05:23.8,00:05:26.3
+0:05:23.869,0:05:26.554
 I get this true and I get these two warnings.
 
-00:05:26.5,00:05:31.75
+0:05:26.554,0:05:32.012
 Now just to remind you, I get those 
  warnings, just because I asked for those warnings.
 
-00:05:32.0,00:05:41.70
+0:05:32.012,0:05:41.996
 So it’s pretty important to use that pragma, otherwise this would silently just 
  be true and be very surprising for most of the people.
 
-00:05:42.0,00:05:49.40
+0:05:41.996,0:05:49.948
 Obviously here too if I’m using “eq” that would be okay running 
  the script would give me the false as I expected.
 
-00:05:49.9,00:05:53.97
+0:05:49.948,0:05:53.975
 Now let’s see one example where this problem might appear.
 
-00:05:54.67,00:06:08.67
+0:05:53.975,0:06:08.806
 So, your name let’s say I’m printing out a question 
  and I’m accepting some string from the command line.
 
-00:06:08.8,00:06:23.0
+0:06:08.806,0:06:23.384
 Then I’m chomping off the new line from the end and 
  I’m checking whether the main name is equal to 0.
 
-00:06:23.3,00:06:30.3
+0:06:23.384,0:06:30.762
 And that’s a common mistake some people make who don’t 
  know about the difference between “eq” and “==.”
 
-00:06:30.7,00:06:36.4
+0:06:30.762,0:06:36.719
 So if I type here some string, then I 
  get all these warnings, but I get true.
 
-00:06:36.7,00:06:41.2
+0:06:36.719,0:06:41.635
 Even though what I was checking, I was 
  checking whether it was an empty string.
 
-00:06:41.6,00:06:48.19
+0:06:41.635,0:06:48.664
 And I get true because this string, “ddd” looking at 
  the left-hand side is 0 as a number 
 
-00:06:48.6,00:06:50.6
+0:06:48.664,0:06:50.926
 Equal equal converts to number. 
 
-00:06:50.9,00:06:52.9
+0:06:50.926,0:06:53.005
 The right-hand side is equal to number.
 
-00:06:57.0,00:06:57.950
+0:06:57.005,0:06:57.950
 So the two sides are equal.
 
-00:06:58.0,00:07:04.90
+0:06:57.950,0:07:05.006
 The right thing would be obvious to check whether this 
  eq whther the string is an empty string.
 
-00:07:05.0,00:07:90.90
+0:07:05.006,0:07:09.999
 So then I can run this code and say “ddd” and that’s false.
 
-00:07:10.0,00:07:19.850
+0:07:09.999,0:07:19.850
 And on the other hand if I run this script and then press etner without 
  typing anything, then it’s true because now the result is an empty string.
 
-00:07:20.0,00:07:22.0
+0:07:19.850,0:07:22.000
 So that’s about comparing values.
 
-00:07:22.0,00:07:24.0
+0:07:22.000,0:07:25.000
 Thank you for watching, and see you next time.
 
