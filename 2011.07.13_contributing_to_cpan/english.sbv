@@ -68,10 +68,10 @@ what's going to happen?
 So I would rather not see this.
 
 00:00:56.19,00:01:00.21
-I would rather fix this.
+I would rather fix this,
 
 00:01:00.36,00:01:03.01
-Make a copy that generates this.
+Makefile.PL that generates this.
 
 00:01:03.12,00:01:08.13
 So, I quit the script. What can I do?
@@ -137,7 +137,7 @@ that leads to the subversion repository of padre.
 We don't see it here.
 
 00:02:08.79,00:02:13.65
-So some people don't add it to their meta module file, or not yet.
+So some people don't add it to their META.yml file, or not yet.
 
 00:02:14.96,00:02:17.32
 In some cases you can find the repository
@@ -185,7 +185,7 @@ I could fetch it from here.
 for this are the links I could use,
 
 00:03:04.75,00:03:08.39
-but I'd rather use the more standard thing here.
+but I'd rather use the more standard way here.
 
 00:03:08.39,00:03:12.52
 It is clicking on this fork button.
@@ -239,7 +239,7 @@ Into the directory and type 'perl Makefile.PL', the standard way to install.
 And see that the thing is still here.
 
 00:04:07.74,00:04:11.94
-Although the file basename entry was taken already out.
+Although the File::Basename entry was taken already out.
 
 00:04:11.90,00:04:12.99
 So indeed,
@@ -257,7 +257,7 @@ So let's go and take a look at the source code.
 Here what I can see is that...
 
 00:04:27.99,00:04:30.93
-Well, first of all I don't see 'use strict' 'usewarnings'.
+Well, first of all I don't see 'use strict' 'use warnings'.
 
 00:04:30.80,00:04:35.09
 And then here is a huge print statement printing out the names of the modules.
@@ -464,7 +464,7 @@ then we still need to check
 whether the version number is correct.
 
 00:08:52.79,00:08:58.01
-So we say 'elseif' and then we put the '$name->VERSION',
+So we say 'elsif' and then we put the '$name->VERSION',
 
 00:08:58.01,00:09:00.68
 this is the actual version number of the installed module.
@@ -476,7 +476,7 @@ And we would like to check whether it is smaller than
 the version
 
 00:09:08.01,00:09:11.38
-declared here '$optional($name)'.
+declared here '$optional{$name}'.
 
 00:09:13.11,00:09:17.58
 If it's smaller, then we would like to add the same thing.
@@ -545,13 +545,13 @@ And that's not too bad because...
 not too difficult because
 
 00:10:31.94,00:10:34.23
-'%str' String is going to be empty
+'$str' String is going to be empty
 
 00:10:34.29,00:10:36.41
 if we haven't added anything to it.
 
 00:10:36.26,00:10:43.70
-So we can actually check whether 'if(%str)' and only if the '%str' is there,
+So we can actually check whether 'if($str)' and only if the '$str' is there,
 
 00:10:43.97,00:10:47.02
 only then
@@ -647,7 +647,7 @@ That's not good!
 We found the same version number so, not the optional name,
 
 00:12:35.19,00:12:43.80
-we need here the 'name->VERSION',
+we need here the '$name->VERSION',
 
 00:12:43.81,00:12:45.42
 right? This is what we found.
