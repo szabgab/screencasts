@@ -323,7 +323,7 @@ Y ahora vamos a unir las dos listas.
 Así que hay una lista de los módulos y aquí está la misma lista otra vez.
 
 00:05:41.44,00:05:43.59
-Vamos a crear todas las litas.
+Vamos a crear todas las listas.
 
 00:05:43.69,00:05:50.95
 Entonces aquí pongo '%optional'.
@@ -359,7 +359,7 @@ del módulo instalado, que solo queremos el módulo que instalamos.
 Asi que ahora todavía tengo el mismo código.
 
 00:06:26.16,00:06:32.42
-Si guardo el archivo y pongo el editor en el fondo.
+Si guardo el archivo y pongo el editor en segundo plano.
 
 00:06:32.80,00:06:38.64
 Ahora puedo correr el script solo revisando que todo esté igual.
@@ -398,7 +398,7 @@ Todas las llaves del hash opcional.
 Entonces recorro todas las entradas,
 
 00:07:21.84,00:07:25.36
-y puedo agregarlas al texto.
+y puedo agregarlas a la cadena de caracteres.
 
 00:07:25.36,00:07:33.18
 Asi que las agrego '\t $name \n' al texto.
@@ -596,7 +596,7 @@ Una pequeña mejora aquí sería actualmente ver.
 Entonces en este caso cuando la versión sea la correcta
 
 00:11:26.86,00:11:29.26
-entonces me guastaría ver la versión actual.
+entonces me gustaría ver la versión actual.
 
 00:11:29.84,00:11:33.40
 Asi que, de hecho, aquí también,
@@ -644,7 +644,7 @@ nos gustaría tener 'MIME::Types 10.28'
 Eso no está bien!
 
 00:12:29.78,00:12:35.34
-Encontramos el mismo número de versión, no el número opcional,
+Encontramos el mismo número de versión, no el nombre opcional,
 
 00:12:35.19,00:12:43.80
 necesitamos aquí '$name->VERSION',
@@ -659,7 +659,7 @@ Asi que si corro esto de nuevo.
 Evidentemente, está mejor.
 
 00:12:49.96,00:12:53.34
-Asi que queremos, esta, pero encontramos esta versión.
+Asi que queremos esto, pero encontramos esta versión.
 
 00:12:56.28,00:12:58.73
 Asi que eso es todo creo,
@@ -716,7 +716,7 @@ Al parecer está funcionando.
 De vuelta al editor.
 
 00:14:10.76,00:14:11.48
-Salgo del edito.
+Salgo del editor.
 
 00:14:12.32,00:14:15.50
 'git st' git status, asi que estos son los archivos que han sido cambiados.
@@ -767,7 +767,7 @@ Y puedo cargar nuevamente la página y entonces
 podemos ver que éste es el último cambio en el repositorio.
 
 00:15:13.60,00:15:15.91
-Y ahora puedo enviar una 'pull request'.
+Y ahora puedo enviar un 'pull request'.
 
 00:15:16.11,00:15:20.18
 Es básicamente un mensaje a Ricardo para integrar los cambios.
@@ -776,7 +776,7 @@ Es básicamente un mensaje a Ricardo para integrar los cambios.
 'make optional module prompt optional'
 
 00:15:33.31,00:15:35.65
-y eso es todo, asi que mando la 'pull request'.
+y eso es todo, asi que mando el 'pull request'.
 
 00:15:36.03,00:15:38.62
 Esto enviará un mensaje a Ricardo y
