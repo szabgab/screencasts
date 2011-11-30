@@ -34,6 +34,10 @@ done, they need the translations.
 There is a script called check_timestamp.pl in the repository
 that will check if all the timestamps are correctly formatted.
 
+Run:
+
+perl check_timestamp.pl
+
 
 GCI participants:
 Please fork this repository, push your updates and send pull requests.
