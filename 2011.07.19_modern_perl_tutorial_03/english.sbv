@@ -17,9 +17,11 @@ What about comparing “foo” and “bar,” these two strings?
 0:00:27.283,0:00:29.283
 So Perl has-
 
-0:00:29.283,0:00:39.282
+0:00:29.283,0:00:34.282
 We saw that in Perl there are operators like “+” and “.”, they convert 
- strings to numbers and numbers to strings depending on their own context.
+
+0:00:34.282,0:00:39.282
+strings to numbers and numbers to strings depending on their own context.
 
 0:00:39.282,0:00:44.282
 And they don’t care what the actual value you put in the variables.
@@ -35,7 +37,7 @@ And I put here in this separate file a table so you can see there
  is a set of numeric comparisons and a set of string comparisons. 
 
 0:01:00.239,0:01:04.076
-Equal equal the check that the two sides are equal as numbers.
+Equal equal will check that the two sides are equal as numbers.
 
 0:01:04.076,0:01:07.333
 And eq will check whether they are equal as strings.
@@ -57,30 +59,36 @@ Let’s have an example here.
 Let’s compare to 12 to 12.0. 
 
 0:01:28.878,0:01:37.008
-And if that’s true, print out true. 
+And if that’s true, print out TRUE. 
 
 0:01:37.008,0:01:43.997
-Else print out false.
+Else print out FALSE.
 
 0:01:43.997,0:01:49.208
 So if I run this code I’ll get true 
- because 12 is equal to 12. 
+ because 12 is equal to 12.0. 
 
-0:01:49.208,0:01:59.200
+0:01:49.208,0:01:54.200
 And Perl disregards the dot zero because even though I’m writing here in 
- floating poin notation, that’s still only 12 as the real value.
+
+0:01:54.200,0:01:59.200
+floating point notation, that’s still only 12 as the real value.
 
 0:01:59.200,0:02:04.856
 The same would happen if I put here two zero’s, 
  it doesn’t really matter, I still get true.
 
-0:02:04.856,0:02:14.945
+0:02:04.856,0:02:09.945
 And if I put here, this in quotes, that would be still true 
- because Perl compares the string to a number, and gets the same.
 
-0:02:14.945,0:02:25.467
+0:02:09.945,0:02:14.945
+because Perl compares the string to a number, and gets the same.
+
+0:02:14.945,0:02:19.467
 Now if I compare them with using eq and I run the script, then 
- I get false, because now Perl converts this number into a string.
+
+0:02:19.467,0:02:25.467
+I get false, because now Perl converts this number into a string.
 
 0:02:25.467,0:02:31.892
 So you get 12 on left-hand side and 
@@ -129,13 +137,23 @@ But what if I am comparing with greater than, the string comparison?
 0:03:17.538,0:03:20.015
 Then I run it and I get false.
 
-0:03:20.015,0:03:37.221
-So it might be surprising to some people but if you think about it, the way this compares “gt” compares, or all the 
- string comparisons compare is they take the first character which is one, comparing this to the first character here which is three.
+0:03:20.015,0:03:24.221
+So it might be surprising to some people but if you think about it,
 
-0:03:37.221,0:03:44.069
+0:03:24.221,0:03:28.221
+the way this compares “gt” compares, or all the 
+
+0:03:28.221,0:03:32.221
+string comparisons compare is they take the first character which is one,
+
+0:03:32.221,0:03:37.221
+comparing this to the first character here which is three.
+
+0:03:37.221,0:03:40.069
 And by this character already we know that the left hand side 
- happens before the right hand side in the asking table.
+
+0:03:40.069,0:03:44.069
+happens before the right hand side in the asking table.
 
 0:03:44.069,0:03:55.968
 So by the point it will decide the twelve as a string is 
