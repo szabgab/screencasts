@@ -1,36 +1,36 @@
-0:0:01.533,0:0:08.533
+0:00:01.533,0:00:08.533
 Hi, in this part I’m going to show 
  you how Perl can compare scalar values.
 
-0:0:08.533,0:0:13.667
+0:00:08.533,0:00:13.667
 I would like to see whether 1 and 1.0 and 1.00
 
-0:0:13.667,0:0:16.000
+0:00:13.667,0:00:16.000
 Are they equal, one of them is bigger, one of them is smaller?
 
-0:0:16.000,0:0:21.333
+0:00:16.000,0:00:21.333
 What about 1.00 in a string, so in quotation marks?
 
-0:0:21.0,0:0:27.0
+0:00:21.333,0:00:27.283
 What about comparing “foo” and “bar,” these two strings?
 
-0:0:27.283,0:0:29.283
-So Perl has—
+0:00:27.283,0:00:29.283
+So Perl has-
 
-0:0:29.283,0:0:39.282
+0:00:29.283,0:00:39.282
 We saw that in Perl there are operators like “+” and “.”, they convert 
  strings to numbers and numbers to strings depending on their own context.
 
-0:0:39.282,0:0:44.282
+0:00:39.282,0:00:44.282
 And they don’t care what the actual value you put in the variables.
 
-0:0:44.282,0:0:46.351
+0:00:44.282,0:00:46.351
 This is similar with the operators.
 
-0:0:46.351,0:0:50.258
+0:00:46.351,0:00:50.258
 Perl actually has two sets of comparison operators.
 
-0:0:50.258,0:01:00.239
+0:00:50.258,0:01:00.239
 And I put here in this separate file a table so you can see there 
  is a set of numeric comparisons and a set of string comparisons. 
 
@@ -40,7 +40,7 @@ Equal equal the check that the two sides are equal as numbers.
 0:01:04.076,0:01:07.333
 And eq will check whether they are equal as strings.
 
-0:01:07.205,0:01:13.439
+0:01:07.333,0:01:13.439
 And this would checks whether they are not equal, this would 
  check that the left hand side is smaller as numbers.
 
@@ -189,7 +189,7 @@ Actually in most places of the world you probably used “eq”
 0:05:12.016,0:05:17.002
 So in this case this we obviously get the false as I expected.
 
-0:05:17.0002,0:05:23.869
+0:05:17.002,0:05:23.869
 Something that might be more interesting, that even if I compare with 
  empty string, I get the same problem or same issue.
 
@@ -241,7 +241,7 @@ Equal equal converts to number.
 0:06:50.926,0:06:53.005
 The right-hand side is equal to number.
 
-0:06:57.005,0:06:57.950
+0:06:53.005,0:06:57.950
 So the two sides are equal.
 
 0:06:57.950,0:07:05.006
