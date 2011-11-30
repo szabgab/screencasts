@@ -32,10 +32,10 @@ Zatem, gdy wejdziesz w menu File, pierwsza pozycja to New, która jest zupełnie
 po prostu otwiera nowy, pusty bufor, gdzie możesz zacząć wpisywać kod.
 
 0:00:56.910,0:01:01.260
-Jest też druga pozycja nazwana New, z rozwijalnymi pozycjami.
+Jest też druga pozycja nazwana New, z rozwijalnym pod-menu.
 
 0:01:01.260,0:01:09.640
-Pierwsza, Perl 5 Script (Skrypt Perla 5), otwiera nowe okno edytora ze szkieletem skryptu,
+Pierwsza pozycja w nim, Perl 5 Script (Skrypt Perla 5), otwiera nowe okno edytora ze szkieletem skryptu,
 
 0:01:09.640,0:01:16.760
 są tu polecenia use i inne podstawowe, których prawdopodobnie chcesz użyć w swoim kodzie Perla -
@@ -95,7 +95,7 @@ Open (Otwórz) - otworzy standardowy eksplorator plików, w którym możesz wybr
 który zostanie otwarty i będzie dostępny do edycji.
 
 0:02:58.720,0:03:02.130
-Drugie menu Open ma kilka rozwijalnych pozycji,
+Drugie menu Open ma kilka rozwijalnych pod-menu,
 
 0:03:02.130,0:03:09.060
 konkretnie, Open URL (Otwórz z adresu URL) pozwoli ci wpisać jakiś adres URL, na przykład taki jak tutaj,
