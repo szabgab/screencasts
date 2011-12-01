@@ -34,14 +34,14 @@ deklaracje "use".
 Perl ma trzy typy
 
 0:00:32.580,0:00:36.350
-struktur danych: skalary, tablice
+danych: skalary, tablice
 i hashe.
 
 0:00:36.350,0:00:38.499
 Skalary mogą zawierać
 
 0:00:38.499,0:00:42.869
-liczby albo ciągi znaków(string) albo
+liczby, ciągi znaków(string) albo
 odniesienie do bardziej złożonych
 
 0:00:42.869,0:00:44.910
@@ -51,7 +51,7 @@ struktur danych.
 Ale o tym powiemy później.
 
 0:00:48.410,0:00:51.810
-Każda
+Każdy typ
 
 0:00:51.810,0:00:54.060
 ma swój własny specyficzny znak,
@@ -74,33 +74,33 @@ nazywanymi także tablicami asocjacyjnymi
 jest to procent(%).
 
 0:01:10.960,0:01:13.250
-Teraz powiemy trochę o skalarach
+Teraz powiemy trochę o skalarach.
 
 0:01:13.250,0:01:17.799
 Każda zmienna, która jest skalarem
-zawsze zaczyna się znakiem dolara($)
+zawsze zaczyna się znakiem dolara($),
 
 0:01:17.799,0:01:18.670
 a potem ma
 
 0:01:18.670,0:01:20.620
-litery i cyfry
+litery, cyfry
 
 0:01:20.620,0:01:25.010
-oraz podkreślenia. Więc na przykład
-możesz mieć taką zmienną
+oraz podkreślenia. Na przykład
+możesz mieć taką zmienną,
 
 0:01:25.010,0:01:26.390
 albo
 
 0:01:26.390,0:01:28.020
-tylko jeden znak
+tylko jeden znak,
 
 0:01:28.020,0:01:30.049
 albo możesz zrobić
 
 0:01:30.049,0:01:31.880
-długą nazwę
+długą nazwę,
 
 0:01:31.880,0:01:35.509
 która ma małe litery
@@ -109,7 +109,7 @@ która ma małe litery
 i podkreślenia pomiędzy słowami
 
 0:01:38.770,0:01:42.040
-Albo np.
+Albo na przykład
 
 0:01:42.040,0:01:46.160
 "ThisIsALongName"
@@ -121,8 +121,8 @@ w tym stylu, jednak
 większość osób
 
 0:01:48.990,0:01:52.800
-preferuje wcześniejszą wersję
-gdzie są nazwy złożone z
+preferuje wcześniejszą wersję,
+gdzie nazwy są złożone z
 
 0:01:52.800,0:01:54.229
 małych liter
@@ -131,7 +131,7 @@ małych liter
 oraz podkreśleń między słowami.
 
 0:01:57.230,0:02:00.690
-Ponieważ używamy "use strict"
+Ponieważ używamy "use strict",
 
 0:02:00.690,0:02:05.439
 musimy deklarować każdą zmienną używając
@@ -144,13 +144,13 @@ Więc deklaruję zmienną:
 "my $name"
 
 0:02:08.719,0:02:11.359
-I wstawiam do niej "foo"
+i wstawiam do niej "foo".
 
 0:02:11.359,0:02:14.319
-I potem mogę wypisać , przepraszam,
+Mogę potem wypisać, przepraszam.
 
 0:02:14.319,0:02:17.949
-Mogę wypisać tę zmienną
+Mogę wypisać tę zmienną,
 
 0:02:17.949,0:02:19.859
 Jeśli nacisnę teraz F5
@@ -159,31 +159,31 @@ Jeśli nacisnę teraz F5
 wtedy...
 
 0:02:20.969,0:02:22.989
-Muszę oczywiście najpierw zapisać skrypt
+Muszę oczywiście najpierw zapisać skrypt.
 
 0:02:22.989,0:02:25.059
-Nazwę go po prostu script.pl
+Nazwę go po prostu script.pl.
 
 0:02:25.059,0:02:26.500
 Wtedy
 
 0:02:26.500,0:02:30.309
 otworzy się oddzielne okno, gdzie
-zostanie wypisany rezultat - "foo"
+zostanie wypisany rezultat - "foo".
 
 0:02:30.309,0:02:34.680
 I to właśnie robi to okienko.
 
 0:02:34.680,0:02:38.989
 Więc tak to należy robić. Deklarujemy 
-zmienną przez "my" a potem
+zmienną przez "my", a potem
 
 0:02:38.989,0:02:40.260
 przypisujemy
 
 0:02:40.260,0:02:43.379
-tej zmiennej wartość i
-możemy ją wypisać
+tej zmiennej wartość
+i możemy ją wypisać.
 
 0:02:43.379,0:02:44.460
 Nie musimy przypisywać
@@ -192,15 +192,15 @@ Nie musimy przypisywać
 wartości od razu. Moglibyśmy
 
 0:02:46.669,0:02:51.739
-Zadeklarować zmienną i potem dopiero
-przypisać do niej wartość. Jeśli to uruchomię
+zadeklarować zmienną i potem dopiero
+przypisać do niej wartość. Jeśli to uruchomię,
 
 0:02:51.739,0:02:55.109
 to dostaję ten sam rezultat.
 
 0:02:55.109,0:02:59.699
 Zazwyczaj lepsza jest pierwsza wersja.
-Więc jeśli logika kodu na to zezwala
+Jeśli więc logika kodu na to zezwala,
 
 0:02:59.699,0:03:01.709
 powinno się
@@ -238,7 +238,7 @@ podobna do "NULL" w...
 
 
 0:03:32.649,0:03:36.509
-Jest podobna do "NULL" w bazach danych
+Jest podobna do "NULL" w bazach danych,
 ale zachowuje się nieco inaczej.
 
 0:03:36.509,0:03:39.890
@@ -249,7 +249,7 @@ czy ta wartość,
 ta zmienna ma już 
 
 0:03:41.879,0:03:46.339
-już jakąś wartość, lub czy
+jakąś wartość, lub czy
 zawiera jedynie "undef".
 
 0:03:46.339,0:03:52.859
@@ -270,7 +270,7 @@ wypisujemy "say 'no'"
 Teraz, jeśli uruchomię ten kod
 
 0:04:01.920,0:04:03.649
-zobaczymy "no".
+zobaczymy "no",
 
 0:04:03.649,0:04:06.369
 a potem "foo".
@@ -291,13 +291,13 @@ Wtedy zobaczymy, że na początku jest "no"
 potem
 
 0:04:16.639,0:04:19.039
-Mówi, że jest zdefiniowana, a potem
+mówi, że jest zdefiniowana, a potem
 
 0:04:19.039,0:04:20.259
 wypisuje już
 
 0:04:20.259,0:04:21.979
-wartość - "foo" gdyż
+wartość - "foo", gdyż
 
 0:04:21.979,0:04:25.979
 wypisanie wartości znajduje się za
@@ -306,7 +306,7 @@ wypisanie wartości znajduje się za
 wypisaniem "defined".
 
 0:04:28.250,0:04:32.430
-Możemy zobaczyć, że najpierw była niezdefiniowana
+Możemy zobaczyć, że najpierw była niezdefiniowana,
 potem nadaliśmy jej wartość
 
 0:04:32.430,0:04:36.040
@@ -321,7 +321,7 @@ na przykład tu
 możemy napisać
 
 0:04:43.490,0:04:46.479
-$name="undef"
+$name=undef
 
 0:04:46.479,0:04:49.210
 Pozwólcie mi nie kopiować znów
@@ -350,10 +350,10 @@ Zadeklarujmy zmienną, powiedzmy
 "$x"
 
 0:05:09.030,0:05:12.249
-I przypiszmy jej string
+i przypiszmy jej string.
 
 0:05:12.249,0:05:15.639
-Możemy potem wypisać zmienną.
+Możemy potem wypisać tą zmienną.
 
 0:05:15.639,0:05:19.210
 Później możemy do tej samej
@@ -366,10 +366,10 @@ I znów ją wypisać.
 Jeśli uruchomię kod, zobaczymy, że zmienna
 
 0:05:24.769,0:05:27.809
-najpierw była stringiem a potem liczbą
+najpierw była stringiem, a potem liczbą.
 
 0:05:27.809,0:05:30.529
-dla Perla nie ma to znaczenia. Perl nie ma
+Dla Perla nie ma to znaczenia. Perl nie ma
 
 0:05:30.529,0:05:33.870
 typów przypisanych do zmiennych
@@ -387,10 +387,10 @@ Z innych języków programowania
 można być przyzwyczajonym
 
 0:05:46.060,0:05:47.199
-do tego, ze 
+do tego, że 
 
 0:05:47.199,0:05:50.610
-różne wartości, różne zmienne
+różne wartości, różne zmienne,
 
 0:05:50.610,0:05:52.559
 bazując na typie zmiennych
@@ -405,7 +405,7 @@ zachowują się inaczej.
 W Perlu
 
 0:05:57.099,0:05:59.620
-Jest zupełnie odwrotnie
+jest zupełnie odwrotnie
 
 0:05:59.620,0:06:01.960
 To nie zmienne,
@@ -421,7 +421,7 @@ Lecz operator decyduje jak
 zachowają się operandy, zmienne.
 
 0:06:11.460,0:06:17.630
-Zacznijmy używając innego przykładu
+Zacznijmy, używając innego przykładu
 Powiedzmy, że mam
 
 0:06:17.630,0:06:19.620
@@ -435,7 +435,7 @@ zadeklarować kolejną zmienną
 Powiedzmy "$y"
 
 0:06:26.889,0:06:28.800
-równa się 4
+równa się 4.
 
 0:06:28.800,0:06:29.869
 Potem
@@ -448,7 +448,7 @@ A potem co powinniśmy zrobić?
 Spróbujmy
 
 0:06:37.030,0:06:40.400
-wziąć zmienną "$z" i dodać do niej "$y"
+wziąć zmienną "$z" i dodać do niej "$y".
 
 0:06:40.400,0:06:42.789
 Spróbujmy również
@@ -457,7 +457,7 @@ Spróbujmy również
 wziąć "$z"
 
 0:06:47.330,0:06:50.919
-i połączyć z "$y" tak
+i połączyć z "$y" tak,
 
 0:06:50.919,0:06:52.189
 by dwie wartości
@@ -489,47 +489,46 @@ potem plus
 
 0:07:15.879,0:07:19.770
 to dodawanie, które bierze
-dwie wartości
+dwie wartości,
 
 0:07:19.770,0:07:25.379
 dwa skalary - ich wartości
-3 i 4 i dodaje je jak liczby
+3 i 4, i dodaje je jak liczby
 
 0:07:25.379,0:07:26.389
 Kropka
 
 0:07:26.389,0:07:27.949
-to konkatenacja
+to konkatenacja.
 
 0:07:27.949,0:07:29.639
-Operator ten bierze dwa stringi
+Operator ten bierze dwa stringi,
 
 0:07:29.639,0:07:33.249
 najpierw zamieniając dwie
 liczby na dwa stringi
 
 0:07:33.249,0:07:34.709
-i wypisuje je
+i wypisuje je.
 
 0:07:34.709,0:07:36.920
-połączone trzy i cztery
+Połączone trzy i cztery
 
 0:07:36.920,0:07:38.530
-lub trzydzieści cztery
+lub trzydzieści cztery,
 
 0:07:38.530,0:07:39.999
 jeśli spojrzeć na to jak na liczbę.
 
 0:07:39.999,0:07:43.529
 Ostatnie to powtórzenie - bierze 
-wartość z lewej strony
-
+wartość z lewej strony,
 
 0:07:43.529,0:07:45.359
-zawartość "$z"
+zawartość "$z",
 
 0:07:45.359,0:07:46.759
-bierze ją jako string
+bierze ją jako string,
 
 0:07:46.759,0:07:47.409
 a potem
@@ -538,20 +537,20 @@ a potem
 powtarza ją
 
 0:07:49.340,0:07:50.349
-tyle razy
+tyle razy,
 
 0:07:50.349,0:07:53.400
 ile jest po prawej stronie.
 
 0:07:53.400,0:07:56.189
 Ponieważ po lewej stronie
-znajduje się string "3"
+znajduje się string "3",
 
 0:07:56.189,0:08:00.349
-a po prawej numer 4
+a po prawej numer 4,
 
 0:08:00.349,0:08:03.210
-Wypisany zostanie czterokrotnie
+wypisany zostanie czterokrotnie
 
 0:08:03.210,0:08:05.499
 znak "3".
@@ -566,7 +565,7 @@ to operator
 decyduje o tym
 
 0:08:09.789,0:08:12.800
-że operandy zachowują się albo jako liczby
+że operandy zachowują się albo jako liczby,
 
 0:08:12.800,0:08:15.499
 albo jako stringi
@@ -581,7 +580,7 @@ jedna ze zmiennych
 nie będzie liczbą?
 
 0:08:19.669,0:08:22.460
-Co stanie się jeśli
+Co stanie się, jeśli
 
 0:08:22.460,0:08:24.649
 obie będą stringami?
@@ -590,7 +589,7 @@ obie będą stringami?
 Jeśli uruchomię kod
 
 0:08:26.509,0:08:28.729
-zobaczymy, ze rezultat jest taki sam
+zobaczymy, że rezultat jest taki sam,
 
 0:08:28.729,0:08:30.740
 ponieważ Perl automatycznie konwertuje
@@ -608,7 +607,7 @@ Kiedy operator tego wymaga.
 To fajnie. A co stanie się gdy tylko jedna 
 
 0:08:41.480,0:08:42.850
-ze zmiennych jest stringiem
+ze zmiennych jest stringiem,
 
 0:08:42.850,0:08:46.860
 a druga liczbą? 
@@ -627,26 +626,26 @@ Dla Perla nie ma to znaczenia, możesz...
 Perl automatycznie zamienia
 
 0:08:54.590,0:08:56.930
-zmienne
+zmienne,
 
 0:08:56.930,0:09:01.060
 liczby na stringi i
 stringi na liczby 
 
 0:09:01.060,0:09:03.750
-kiedy to konieczne
+kiedy to konieczne.
 
 0:09:03.750,0:09:04.789
-To jest OK
+To jest OK.
 
 0:09:04.789,0:09:06.300
 w generalnym przypadku.
 
 0:09:06.300,0:09:09.270
-Ale są przypadki
+Ale są przypadki,
 
 0:09:09.270,0:09:11.220
-Kiedy ta konwersja nie jest
+kiedy ta konwersja nie jest
 
 0:09:11.220,0:09:13.600
 stuprocentowa.
@@ -655,13 +654,13 @@ stuprocentowa.
 Co stanie się, jeśli wartość tutaj będzie np.
 
 0:09:16.960,0:09:20.890
-"3.14 is pi"
+"3.14 is pi"?
 
 0:09:20.890,0:09:22.540
-Po pierwsze
+Po pierwsze,
 
 0:09:22.540,0:09:27.090
-ta konwersja, cały pomysł nazywany jest kontekstem
+ta konwersja, cały pomysł nazywany jest kontekstem.
 
 0:09:27.090,0:09:29.550
 Powodem dla którego
@@ -679,7 +678,7 @@ oraz kontekst ciągu znaków.
 Kontekst liczbowy i kontekst ciągu znaków.
 
 0:09:41.610,0:09:44.470
-napiszę to tutaj
+Napiszę to tutaj
 
 0:09:44.470,0:09:46.250
 żebyście nie martwili się moją
@@ -692,11 +691,11 @@ W każdym razie, co dzieje się w takim przypadku?
 Mamy liczbę - 3
 
 0:09:52.160,0:09:54.040
-i string
+i string,
 
 0:09:54.040,0:09:57.100
 którego nie da się bezpośrednio
-przekonwertować na liczbę
+przekonwertować na liczbę.
 
 0:09:57.100,0:10:01.390
 Sprawdźmy co stanie się, gdy uruchomię ten kod.
@@ -709,7 +708,7 @@ Najpierw jest 3, liczba 3, która została
 wypisana. To w porządku.
 
 0:10:06.870,0:10:10.670
-Potem mamy "3.14 is pi"
+Potem mamy "3.14 is pi",
 
 0:10:10.670,0:10:14.910
 a to po prostu wypisanie
@@ -722,14 +721,14 @@ Potem mamy ostrzeżenie
 i wynik "6.14".
 
 0:10:20.370,0:10:25.350
-To ostrzeżenie jest tu dlatego
+To ostrzeżenie jest tu dlatego,
 że próbujemy użyć
 
 0:10:25.350,0:10:26.520
 ten string
 
 0:10:26.520,0:10:28.120
-w kontekście liczbowym
+w kontekście liczbowym,
 
 0:10:28.120,0:10:30.780
 w dodawaniu, w linii...
@@ -776,17 +775,17 @@ ale mogłoby także stworzyć jakiś problem.
 Nasz string to
 
 0:11:10.529,0:11:12.860
-"3.14 is pi"
+"3.14 is pi",
 
 0:11:12.860,0:11:17.030
-Ale w dodawaniu zostało
-użyte jedynie "3.14"
+ale w dodawaniu zostało
+użyte jedynie "3.14".
 
 0:11:17.030,0:11:19.160
-Perl konwertuje w następujący sposób
+Perl konwertuje w następujący sposób:
 
 0:11:19.160,0:11:21.440
-bierze lewą stronę stringa
+bierze lewą stronę stringa,
 
 0:11:21.440,0:11:24.060
 "patrzy" na nią
@@ -799,11 +798,11 @@ Tu jest punkt, spacja.
 Po niej Perl
 
 0:11:32.160,0:11:35.249
-przestaje "rozumieć".Nie
-może przekonwertować tego na liczbę
+przestaje "rozumieć". Nie
+może przekonwertować tego na liczbę,
 
 0:11:35.249,0:11:38.750
-Dlatego od tego punktu odetnie
+dlatego od tego punktu odetnie
 resztę wartości.
 
 0:11:38.750,0:11:40.430
@@ -864,20 +863,20 @@ ze zmiennej "$y". Z tego wniosek,
 ciągle tym samym stringiem.
 
 0:12:14.010,0:12:15.970
-Jeśli spojrzymy na trzeci przykład
+Jeśli spojrzymy na trzeci przykład,
 
 0:12:15.970,0:12:18.370
-Zobaczymy, ze jest to "$z"
+zobaczymy, że jest to "$z"
 
 0:12:18.370,0:12:20.100
-"$y" razy
+"$y" razy.
 
 0:12:20.100,0:12:22.790
 Można by się spodziewać,
 że zobaczy się
 
 0:12:22.790,0:12:26.070
-3.14 razy cyfrę 3 ale
+3.14 razy cyfrę 3, ale
 
 0:12:26.070,0:12:31.080
 Perl nie potrafi wypisać...
@@ -896,13 +895,13 @@ Perl przekonwertuje "3.14"
 na "3" i tego użyje.
 
 0:12:39.670,0:12:41.590
-do powielania
+Do powielania.
 
 0:12:41.590,0:12:42.880
-do powtarzania
+Do powtarzania.
 
 0:12:42.880,0:12:44.920
-Ale nie widzimy już ostrzeżenia.
+Ale nie widzimy już ostrzeżenia
 
 0:12:44.920,0:12:47.360
 tak, jak byśmy się spodziewali
@@ -930,7 +929,7 @@ wykomentujmy ten kod.
 I spróbujmy uruchomić program.
 
 0:13:01.370,0:13:02.870
-Zobaczymy
+Zobaczymy,
 
 0:13:02.870,0:13:05.080
 że to ostrzeżenie dotyczy teraz
@@ -952,7 +951,7 @@ ostrzeżenia. A powodem jest to, że
 w tym momencie, tutaj,
 
 0:13:17.120,0:13:19.530
-kiedy dodawanie spowodowało 
+kiedy dodawanie spowodowało,
 
 0:13:19.530,0:13:21.940
 że Perl przekonwertował
@@ -975,27 +974,27 @@ miało dwie wartości: wartość ciągu znaków
 i wartość liczbową.
 
 0:13:35.310,0:13:36.930
-Służy to temu
+Służy to temu,
 
 0:13:36.930,0:13:39.010
 by uniknąć konwersji później.
 
 0:13:39.010,0:13:44.620
-Więc kiedy program dotarł do tego punktu,
+Kiedy program dotarł do tego punktu,
 by użyć powtórzenia, Perl nie musiał znów
 
 0:13:44.620,0:13:46.209
 konwertować tego samego.
 
 0:13:46.209,0:13:50.140
-Więc nie było powodu by
+Nie było więc powodu by
 dawać ostrzeżenie.
 
 0:13:50.140,0:13:52.870
 Tak właśnie działa konwersja.
 
 0:13:52.870,0:13:54.840
-Teraz wiemy już
+Teraz wiemy już,
 
 0:13:54.840,0:13:58.950
 jak działa konwersja ze stringa do liczby
@@ -1005,31 +1004,31 @@ Konwersja z liczby na string
 jest dosyć prosta. To po prostu ta sama
 
 0:14:01.790,0:14:04.359
-wartość. Jeśli więc mamy jakąś liczbę np. 3
+wartość. Jeśli więc mamy jakąś liczbę np. 3,
 
 0:14:04.359,0:14:08.060
-To jeśli spojrzymy na nią jak na string
+to jeśli spojrzymy na nią jak na string
 to będzie ona stringiem, znakiem 3,
 
 0:14:08.060,0:14:11.329
-cyfrą 3. Jeśli mamy liczbę
+cyfrą 3. Jeśli mamy liczbę,
 
 0:14:11.329,0:14:15.369
-String, który jest liczbą, jak np. "3.14".
+string, który jest liczbą, jak np. "3.14".
 
 0:14:15.369,0:14:19.150
 Gdybyśmy mieli tylko to
 
 0:14:19.150,0:14:24.310
-I uruchomimy kod, to nie dostaniemy
+i uruchomimy kod, to nie dostaniemy
 ostrzeżenia, gdyż jest to tylko liczba.
 
 0:14:24.310,0:14:29.140
 Ale ponieważ mamy coś
-co nie do końca jest liczbą.
+co nie do końca jest liczbą,
 
 0:14:29.140,0:14:30.670
-Dostajemy ostrzeżenie.
+dostajemy ostrzeżenie.
 
 0:14:30.670,0:14:34.070
 Jest jeszcze kilka spraw
@@ -1051,7 +1050,7 @@ Powiedzmy np. tutaj
 "my $y"
 
 0:14:48.369,0:14:51.750
-I ponieważ wiemy, ze ma wartość "undef"
+Ponieważ wiemy, że ma wartość "undef"
 
 0:14:51.750,0:14:53.150
 Nie będę jej wypisywał.
@@ -1063,7 +1062,7 @@ Mamy teraz zmienną z zadeklarowaną wartością.
 czyli "$z".
 
 0:14:58.210,0:15:01.119
-Oraz zadeklarowaną zmienną "$y" ale
+Oraz zadeklarowaną zmienną "$y", ale
 
 0:15:01.119,0:15:02.650
 bez przydzielonej wartości.
@@ -1128,14 +1127,14 @@ to w kontekście liczbowym
 zachowuje się jak 0.
 
 0:15:54.270,0:15:57.910
-W konkatenacji otrzymujemy znowu "3"
+W konkatenacji otrzymujemy znowu "3",
 
 0:15:57.910,0:16:00.540
-gdyż pomimo tego, że "$y" ma wartość "undef".
+gdyż pomimo tego, że "$y" ma wartość "undef",
 
 0:16:00.540,0:16:05.670
 to w kontekście ciągu znaków 
-zachowuje się jak pusty string
+zachowuje się jak pusty string.
 
 0:16:05.670,0:16:09.520
 Jeśli chcemy sprawdzić, że cały czas
@@ -1156,7 +1155,7 @@ Przepraszam, powinno być "say"
 'not'
 
 0:16:25.810,0:16:31.330
-To pokazuje, ze jestem tu weteranem.
+To pokazuje, że jestem tu weteranem.
 
 0:16:31.330,0:16:32.579
 Uruchamiam więc ten kod.
@@ -1169,7 +1168,7 @@ jest zdefiniowana. Pomimo tego, że
 Perl używał tej zmiennej
 
 0:16:40.730,0:16:42.459
-w obu kontekstach
+w obu kontekstach,
 
 0:16:42.459,0:16:45.420
 nie zmienił jej wartości.
@@ -1189,13 +1188,13 @@ całego pomysłu ostrzeżeń.
 Wolą hardcorowe
 
 0:16:56.720,0:16:57.660
-wyjątki
+wyjątki,
 
 0:16:57.660,0:17:01.000
 gdy coś pójdzie nie tak.
 
 0:17:01.000,0:17:02.459
-To co mogą zrobić
+To co mogą zrobić,
 
 0:17:02.459,0:17:08.990
 to zamienić ostrzeżenia w wyjątki.
@@ -1206,7 +1205,7 @@ A potem powiedzmy, "=> all".
 To zmieni wszystkie ostrzeżenia
 
 0:17:13.189,0:17:15.680
-w "wyjątki fatalne
+w wyjątki fatalne
 
 0:17:15.680,0:17:17.920
 Jeśli więc przejdę tu i
@@ -1227,10 +1226,10 @@ Otrzymuję
 "3"
 
 0:17:25.189,0:17:26.890
-pierwsze wypisanie
+Pierwsze wypisanie.
 
 0:17:26.890,0:17:28.419
-pierwsze "say"
+Pierwsze "say".
 
 0:17:28.419,0:17:31.759
 A potem gdy chcę dodać dwie wartości.
@@ -1270,13 +1269,13 @@ sprawdzić, czy rzeczywiście
 wygląda jak liczba, zanim będziesz mógł ją
 
 0:17:59.910,0:18:00.950
-przekonwertować
+przekonwertować.
 
 0:18:00.950,0:18:04.610
 W tym celu użyjemy modułu:
 
 0:18:04.610,0:18:07.510
-"use Scalar::Util"
+"use Scalar::Util".
 
 0:18:07.510,0:18:09.230
 Ten moduł
@@ -1285,17 +1284,17 @@ Ten moduł
 ma funkcję:
 
 0:18:12.669,0:18:15.650
-"looks_like_number"
+"looks_like_number".
 
 0:18:15.650,0:18:20.400
 Możesz użyć tej funkcji
-zanim wywołasz część
+zanim wywołasz część,
 
 0:18:20.400,0:18:23.419
-która potrzebuje numeru
+która potrzebuje numeru.
 
 0:18:23.419,0:18:26.620
-Napiszmy
+Napiszmy:
 
 0:18:26.620,0:18:31.380
 "looks_like_number($z)"
@@ -1310,7 +1309,7 @@ i
 I dopiero wtedy uruchomimy tę część.
 
 0:18:44.770,0:18:49.400
-Dodawanie wykona się tylko wtedy
+Dodawanie wykona się tylko wtedy,
 gdy obie zmienne będą liczbami.
 
 0:18:49.400,0:18:51.390
@@ -1336,10 +1335,10 @@ Spróbujmy uruchomić kod znowu
 
 0:19:02.450,0:19:06.120
 Teraz widzimy, że mamy liczbę "3"
-oraz rezultat konkatenacji
+oraz rezultat konkatenacji.
 
 0:19:06.120,0:19:10.390
-Oraz wypisane "defined".
+Wypisane jest także "defined".
 
 0:19:10.390,0:19:12.420
 Ale nie pojawił się wyjątek.
@@ -1348,14 +1347,14 @@ Ale nie pojawił się wyjątek.
 Jeśli będziemy mieli
 
 0:19:14.320,0:19:16.710
-tutaj taką wartość.
+tutaj taką wartość,
 
 0:19:16.710,0:19:18.170
-Wartość, która rzeczywiście
+wartość, która rzeczywiście
 
 0:19:18.170,0:19:20.000
-wygląda jak liczba
-To gdy uruchomię kod,
+wygląda jak liczba,
+to gdy uruchomię kod,
 
 0:19:20.000,0:19:27.000
 to poza konkatenacją
@@ -1365,12 +1364,12 @@ mam także dodawanie.
 To już wszystko
 
 0:19:28.129,0:19:31.799
-o skalarach
+o skalarach.
 Jeśli zastanawiacie się czy w Perlu
 
 0:19:31.799,0:19:34.480
-istnieje przeładowanie operatorów.
-Otóż istnieje.
+istnieje przeładowanie operatorów,
+to odpowiem, że istnieje.
 
 0:19:34.480,0:19:38.080
 Ale to zaawansowany temat
