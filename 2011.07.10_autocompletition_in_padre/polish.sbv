@@ -8,7 +8,7 @@ Jak widzicie u¿ywam wersji 0.87
 która jest wersj¹ robocz¹
 
 0:00:11.000,0:00:13.000
-z sub-wersji z repozytorium
+z repozytorium SVN
 
 0:00:13.000,0:00:15.500
 trwaj¹ prace nad nastêpc¹ tej wersji oznaczon¹ numerem 0.88,
@@ -29,13 +29,13 @@ jest to jeden z plików Ÿród³owych Padre
 jeœli zacznê sobie pisaæ tutaj jakieœ wyra¿enia, na przyk³ad „RegisterProtocole”
 
 0:00:31.600,0:00:34.500
-który jest po prostu nazw¹ metody powy¿ej
+który jest po prostu nazw¹ metody poni¿ej
 
 0:00:34.500,0:00:38.750
 teraz mo¿emy zaznaczyæ w menu edycji
 
 0:00:38.750,0:00:41.000
-pozycje o nazwie auto-uzupe³nianie (autocompleate)
+pozycje o nazwie auto-uzupe³nianie (autocomplete)
 
 0:00:41.000,0:00:42.800
 która jest dostêpna równie¿ pod skrótem klawiszowym ctrl+space
@@ -47,7 +47,7 @@ wiêc mogê wybraæ tê opcjê za pomoc¹ myszy, albo
 jeœli wolê i wrócê z powrotem do edytora
 
 0:00:48.250,0:00:52.500
-mogê po porostu wcisn¹æ ctrl+spacja i edytor dokona  za mnie auto-uzupe³nienia s³owa
+mogê po prostu wcisn¹æ ctrl+spacja i edytor dokona  za mnie auto-uzupe³nienia s³owa
 
 0:00:52.500,0:00:55.000
 co ciekawe mo¿na to zrobiæ w ka¿dym miejscu w pliku
@@ -200,7 +200,7 @@ napisa³em i znów mam klamrowe nawiasy
 co siê jednak stanie jeœli wstawiê tam domykaj¹cy nawias klamrowy
 
 0:04:56.500,0:05:00.000
-i po tym zanim napiszesz nawiasy klamrowe ?
+i po tym zanim napiszesz nawiasy klamrowe?
 
 0:05:00.000,0:05:04.750
 Padre nie doda nastêpnego nawiasu domykaj¹cego, poniewa¿ wygl¹da na to ¿e masz ju¿ jeden
