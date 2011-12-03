@@ -1,0 +1,1418 @@
+.0:00:00.919,0:00:02.660
+Hola! Bienvenidos de nuevo al canal!
+
+0:00:02.660,0:00:05.530
+Esta vez voy a hablar de
+
+0:00:05.530,0:00:08.060
+estructuras de datos en Perl. 
+
+0:00:08.060,0:00:08.809
+Especialmente, esta 
+
+0:00:08.809,0:00:11.989
+presentación será sobre escalares.
+
+0:00:11.989,0:00:16.669
+Para que puedas ver Padre aqui, el IDE.  
+Esto es una versión de desarrollo. 
+
+0:00:16.669,0:00:21.309
+Y la primera cosa que debes hacer 
+es crear un nuevo
+
+0:00:21.309,0:00:22.920
+script en Perl 5. 
+
+0:00:22.920,0:00:26.239
+Sólo tiene el shebang, luego los
+
+0:00:26.239,0:00:28.949
+enunciados "uso". 
+
+0:00:28.949,0:00:32.580
+Así que, Perl tiene tres tipos de  
+
+0:00:32.580,0:00:36.350
+estructuras de datos: escalares, arrays
+y hashes.
+
+0:00:36.350,0:00:38.499
+Escalares pueden contener 
+
+0:00:38.499,0:00:42.869
+un número o un string, un string de un solor valor 
+o referencias a una de las estructuras 
+
+0:00:42.869,0:00:44.910
+de datos complejas. 
+
+0:00:44.910,0:00:48.410
+Pero vamos a hablar de eso más adelante.
+
+0:00:48.410,0:00:51.810
+Cada
+
+0:00:51.810,0:00:54.060
+tiene su propio signo específico,
+
+0:00:54.060,0:00:55.379
+lo que llamamos sigil
+
+0:00:55.379,0:00:58.850
+que es el primer carácter del nombre 
+de la variable.
+
+0:00:58.850,0:01:03.550
+Entonces en escalas tienes el signo del dólar($),
+en arrays tienes el signo de arroba(@), y en 
+
+0:01:03.550,0:01:08.260
+hashes que también se llaman diccionarios
+o tablas de búsqueda
+
+0:01:08.260,0:01:10.960
+son los signos de porcentaje(%).
+
+0:01:10.960,0:01:13.250
+Ahora vamos a hablar de
+variables
+
+0:01:13.250,0:01:17.799
+escalares, cada variable escalar
+siempre comienza con u signo del dólar($)
+
+0:01:17.799,0:01:18.670
+y luego
+
+0:01:18.670,0:01:20.620
+letras y números
+
+0:01:20.620,0:01:25.010
+y guiones bajos. Así, por ejemplo, puedes 
+tiener una variable como esta
+
+0:01:25.010,0:01:26.390
+o
+
+0:01:26.390,0:01:28.020
+un solo valor
+
+0:01:28.020,0:01:30.049
+o puedes tener 
+
+0:01:30.049,0:01:31.880
+nombre largo
+
+0:01:31.880,0:01:35.509
+que tiene letras minúsculas 
+
+0:01:35.509,0:01:38.770
+y las líneas de subrayado entre las palabras
+
+0:01:38.770,0:01:42.040
+o puedes tener
+
+0:01:42.040,0:01:44.020
+Esto Es
+
+0:01:44.020,0:01:46.160
+Un Nombre Largo
+
+0:01:46.160,0:01:47.860
+este estilo, aunque
+
+0:01:47.860,0:01:48.990
+toda la comunidad
+
+0:01:48.990,0:01:52.800
+prefiere la versión anterior
+donde tienes todas minúsculas 
+
+0:01:52.800,0:01:54.229
+en nombres
+
+0:01:54.229,0:01:57.230
+y líneas de subrayado entre las
+variables
+
+0:01:57.230,0:02:00.690
+Ahora, debido a que está utilizando el "uso estricto"
+
+0:02:00.690,0:02:05.439
+siempre tendrás que declarar todas las variables
+usando la palabra clave "mi" 
+
+0:02:05.439,0:02:07.360
+Entonces, declaro mi variable
+
+0:02:07.360,0:02:08.719
+"mi $nombre"
+
+0:02:08.719,0:02:11.359
+y pon "foo"
+
+0:02:11.359,0:02:14.319
+Y luego podre imprimir, perdón,
+
+0:02:14.319,0:02:17.949
+Yo puedo imprimir esa variable
+
+0:02:17.949,0:02:19.859
+Así que si presionó F5 ahora
+
+0:02:19.859,0:02:20.969
+entonces va a ...
+
+0:02:20.969,0:02:22.989
+Necesito en primer lugar, guardar el script
+
+0:02:22.989,0:02:25.059
+así que lo voy a llamar script.pl
+
+0:02:25.059,0:02:26.500
+Y 
+
+0:02:26.500,0:02:30.309
+abrirá una ventana independiente donde se va a 
+imprimir el resultado de "foo"
+
+0:02:30.309,0:02:34.680
+Y eso es algo que esta ventana
+hace por mí.
+
+0:02:34.680,0:02:38.989
+Así que este es el camino. Primero declaramos
+una variable. Es "mi" y luego
+
+0:02:38.989,0:02:40.260
+le asignamos
+
+0:02:40.260,0:02:43.379
+valor a esta variable y luego podemos 
+imprimirlo
+
+0:02:43.379,0:02:44.460
+No tenemos que
+
+0:02:44.460,0:02:46.669
+asignar inmediatamente. Así que podriamos 
+
+0:02:46.669,0:02:51.739
+declarar la variable y luego
+asignar un valor. Si lo ejecuto
+
+0:02:51.739,0:02:55.109
+Me sale el mismo resultado.
+
+0:02:55.109,0:02:59.699
+Normalmente preferimos la primera versión. Así que si
+la lógica del código lo permite
+
+0:02:59.699,0:03:01.709
+entonces usted debe
+
+0:03:01.709,0:03:05.689
+inmediatamente, en el momento de la declaración,
+asignar un valor
+
+0:03:05.689,0:03:10.189
+Pero eso no siempre es posible.
+Así que hay casos en los que hay que
+
+0:03:10.189,0:03:14.739
+primero declarar una variable y sólo más tarde
+podras asignar un valor.
+
+0:03:14.739,0:03:16.779
+Ahora lo que ocurre con un valor si ...
+
+0:03:16.779,0:03:20.159
+... Cuando no está definido,
+
+0:03:20.159,0:03:23.569
+no tiene un valor, así que
+Yo solamente lo declaro.
+
+0:03:23.569,0:03:26.579
+Tiene un valor que se llama "indef".
+
+0:03:26.579,0:03:31.649
+Esta indefinido. Es
+similar a "NULL" en ..
+
+0:03:31.649,0:03:32.649
+
+
+0:03:32.649,0:03:36.509
+Es similar a "NULL" en bases de datos
+pero tiene un comportamiento ligeramente diferente.
+
+0:03:36.509,0:03:39.890
+Entonces por ejemplo podemos comprobar
+si ese valor,
+
+0:03:39.890,0:03:41.879
+que tiene esa variable 
+
+0:03:41.879,0:03:46.339
+tiene otro valor o si  
+solo tiene "indef". 
+
+0:03:46.339,0:03:52.859
+Podemos usar esta palabra clave "definida".
+Para preguntar si esta definida
+y luego imprimir
+
+0:03:52.859,0:03:54.719
+"di 'definido'"
+
+0:03:54.719,0:03:57.459
+"si no"
+
+0:03:57.459,0:04:00.159
+nosotros "decimos 'no'"
+
+0:04:00.159,0:04:01.920
+Y luego si yo ejecutó este código
+
+0:04:01.920,0:04:03.649
+tu veras "no".
+
+0:04:03.649,0:04:06.369
+Y luego "foo".
+
+0:04:06.369,0:04:08.999
+Por contrario si tomo el mismo código
+
+0:04:08.999,0:04:10.069
+y
+
+0:04:10.069,0:04:13.189
+lo pongo después de la asignación 
+
+0:04:13.189,0:04:15.709
+entonces verás que en un principio dice "no"
+
+0:04:15.709,0:04:16.639
+luego
+
+0:04:16.639,0:04:19.039
+dice que está definido y luego dice que
+
+0:04:19.039,0:04:20.259
+ya está
+
+0:04:20.259,0:04:21.979
+el valor de "foo" porque el
+
+0:04:21.979,0:04:24.610
+imprimiento del valor es después 
+
+0:04:24.610,0:04:25.979
+de actualmente 
+
+0:04:25.979,0:04:28.250
+imprimir del "definido". 
+
+0:04:28.250,0:04:32.430
+Así puedes ver que el aquí todavía no estaba 
+defindo, aquí le asignamos un valor y
+
+0:04:32.430,0:04:36.040
+aquí se convirtió definido. 
+
+0:04:36.040,0:04:38.990
+Más tarde podemos establecer el valor a 
+
+0:04:38.990,0:04:43.490
+"indef" de nuevo. Así que más adelante, por
+ejemplo, aqui podemos decir que nombre
+
+0:04:43.490,0:04:44.659
+es igual a 
+
+0:04:44.659,0:04:46.479
+"indef"
+
+0:04:46.479,0:04:49.210
+Dejame solamente no copiar-pegar
+el mismo código.
+
+0:04:49.210,0:04:54.899
+En este pungo, su valor 
+es "indef" otra vez 
+
+0:04:54.899,0:04:56.370
+Ahora, las variables
+
+0:04:56.370,0:04:59.319
+pueden contener números o strings
+
+0:04:59.319,0:05:01.169
+para que puedas...
+
+0:05:01.169,0:05:03.710
+Vamos a empezar de nuevo
+
+0:05:03.710,0:05:06.159
+Pudes declarar una variable, digamos 
+
+0:05:06.159,0:05:09.030
+"$x"
+
+0:05:09.030,0:05:11.179
+Y ponerlo en un string 
+
+0:05:11.179,0:05:12.249
+pon un string a dentro de el  
+
+0:05:12.249,0:05:15.639
+Y luego puedes imprimir la variable 
+
+0:05:15.639,0:05:19.210
+Y luego puedes asignar a la 
+misma variable un número 
+
+0:05:19.210,0:05:21.800
+Y luego puedes imprimi la variable otra vez 
+
+0:05:21.800,0:05:24.769
+Y si ejecutó el codigo, entonces verás que 
+
+0:05:24.769,0:05:27.809
+primero era un string y luego era un número
+
+0:05:27.809,0:05:30.529
+Y a Perl no le importa. Perl no tiene  
+
+0:05:30.529,0:05:33.870
+tipos conectados a estas variables
+
+0:05:33.870,0:05:36.410
+no tiene nada de eso
+
+0:05:36.410,0:05:40.699
+Así que todo eso
+
+0:05:40.699,0:05:42.249
+lo trabaja operadores. 
+
+0:05:42.249,0:05:43.740
+Entonces en otro lenguaje
+
+0:05:43.740,0:05:46.060
+puede ser que estes acostumbrado
+
+0:05:46.060,0:05:47.199
+al hecho de que
+
+0:05:47.199,0:05:50.610
+diferentes valores, diferentes variables
+
+0:05:50.610,0:05:52.559
+basados en el tipo de las variablas 
+
+0:05:52.559,0:05:53.639
+los operadores
+
+0:05:53.639,0:05:55.930
+se comportan de manera diferente.
+
+0:05:55.930,0:05:57.099
+En Perl
+
+0:05:57.099,0:05:59.620
+la manera... Es una manera al contrario 
+
+0:05:59.620,0:06:01.960
+No variables ni 
+
+0:06:01.960,0:06:03.599
+operandos 
+
+0:06:03.599,0:06:06.230
+deciden lo que el operador va a hacer. 
+
+0:06:06.230,0:06:11.460
+Pero el operador decidirá como  
+los operandos, las variables se comportan.
+
+0:06:11.460,0:06:17.630
+Así que vamos a empezar a usar otro ejemplo
+Digamos que yo tengo "$z"
+
+0:06:17.630,0:06:19.620
+es igual a 3
+
+0:06:19.620,0:06:25.180
+Yo solamente tengo que imprimirlo y tendre 
+otra variable llamada 
+
+0:06:25.180,0:06:26.889
+Digamos que "$y"
+
+0:06:26.889,0:06:28.800
+es igual a 4
+
+0:06:28.800,0:06:29.869
+y luego 
+
+0:06:29.869,0:06:32.749
+lo imprimo tambien 
+
+0:06:32.749,0:06:37.030
+Y entonces, ¿qué haremos? Así que vamos a
+tratar de
+
+0:06:37.030,0:06:40.400
+tomar "$z" y agregar "$y" a el 
+
+0:06:40.400,0:06:42.789
+Y entonces también vamos a tratar de
+
+0:06:42.789,0:06:47.330
+tomar "$z"
+
+0:06:47.330,0:06:50.919
+y concatenar "$y" para que puedan 
+
+0:06:50.919,0:06:52.189
+estar juntos, los dos 
+
+0:06:52.189,0:06:54.119
+valores
+
+0:06:54.119,0:06:58.609
+y la tercera diremos 
+
+0:06:58.609,0:07:00.480
+"$z x $y" que es el multiplicador
+
+0:07:00.480,0:07:02.209
+o um...
+
+0:07:02.209,0:07:05.449
+o variable de repeticiónes
+
+0:07:05.449,0:07:08.210
+operador, perdón
+
+0:07:08.210,0:07:11.300
+Así que si yo ejecuto el código, qué tenemos aquí
+
+0:07:11.300,0:07:14.550
+En primer lugar, imprime los dos valores
+3 y 4
+
+0:07:14.550,0:07:15.879
+Luego el más
+
+0:07:15.879,0:07:19.770
+es adición, una adición numérica así que
+se llevará los dos valores 
+
+0:07:19.770,0:07:25.379
+dos variables escalares de los valores 
+3 y 4 y sumarlos como números 
+
+0:07:25.379,0:07:26.389
+Luego el punto
+
+0:07:26.389,0:07:27.949
+es una concatenación
+
+0:07:27.949,0:07:29.639
+Así que tomara dos strings 
+
+0:07:29.639,0:07:33.249
+y básicamente convierte los dos 
+números en dos strings
+
+0:07:33.249,0:07:34.709
+y los imprime 
+
+0:07:34.709,0:07:36.920
+concatenados 3 y 4
+
+0:07:36.920,0:07:38.530
+o 34 si quieres 
+
+0:07:38.530,0:07:39.999
+ver esto como un número. 
+
+0:07:39.999,0:07:43.529
+Y la última es la repetición así que toma 
+el lado izquierdo 
+
+0:07:43.529,0:07:45.359
+que contiene "$z"
+
+0:07:45.359,0:07:46.759
+y lo toma como un string 
+
+0:07:46.759,0:07:47.409
+y luego 
+
+0:07:47.409,0:07:49.340
+lo repite
+
+0:07:49.340,0:07:50.349
+todas las 
+
+0:07:50.349,0:07:53.400
+veces que tengas en el 
+lado derecho. 
+
+0:07:53.400,0:07:56.189
+Así que porque en el lado izquierdo 
+tienes string "3"
+
+0:07:56.189,0:08:00.349
+y en el lado derecho tienes el número 4
+
+0:08:00.349,0:08:03.210
+tendrá 4 veces el 
+
+0:08:03.210,0:08:05.499
+carácter "3"
+
+0:08:05.499,0:08:06.870
+Así como puedes ver
+
+0:08:06.870,0:08:08.159
+el operador
+
+0:08:08.159,0:08:09.789
+es el que le dice 
+
+0:08:09.789,0:08:12.800
+a los operandos cómo comportarse ya sea como números
+
+0:08:12.800,0:08:15.499
+o como strings
+
+0:08:15.499,0:08:17.069
+Pero qué sucede si
+
+0:08:17.069,0:08:18.189
+uno de estos 
+
+0:08:18.189,0:08:19.669
+en realidad no son números 
+
+0:08:19.669,0:08:22.460
+Qué sucederá si estos son 
+
+0:08:22.460,0:08:24.649
+dos strings
+
+0:08:24.649,0:08:26.509
+Si ejecuto el código ahora 
+
+0:08:26.509,0:08:28.729
+veremos que el resultado es el mismo
+
+0:08:28.729,0:08:30.740
+porque Perl automáticamente convierte
+
+0:08:30.740,0:08:32.590
+números a strings
+
+0:08:32.590,0:08:35.310
+y strings a números cuando sea necesario
+
+0:08:35.310,0:08:38.260
+cuando el operador lo requiere. 
+
+0:08:38.260,0:08:41.480
+Eso está bien. Y qué pasa si sólo uno  
+
+0:08:41.480,0:08:42.850
+de ellos es un string
+
+0:08:42.850,0:08:46.860
+y el otro es un número? 
+Hay que ver esto. Que pasa en
+
+0:08:46.860,0:08:48.370
+este caso?
+
+0:08:48.370,0:08:50.790
+Si ejecuto el código, y lo mismo!
+
+0:08:50.790,0:08:52.820
+Así que a Perl no le importa, si puedes...
+
+0:08:52.820,0:08:54.590
+Lo convierte automáticamente 
+
+0:08:54.590,0:08:56.930
+o no, si tu prefieres 
+
+0:08:56.930,0:09:01.060
+números a strings y los strings
+a números cada vez que 
+
+0:09:01.060,0:09:03.750
+es necesario 
+
+0:09:03.750,0:09:04.789
+Eso está bien 
+
+0:09:04.789,0:09:06.300
+en el caso general.
+
+0:09:06.300,0:09:07.660
+Pero hay otros casos 
+
+0:09:07.660,0:09:09.270
+cuando...
+
+0:09:09.270,0:09:11.220
+Esta conversión no puede ser 
+
+0:09:11.220,0:09:13.600
+cien por ciento 
+
+0:09:13.600,0:09:16.960
+Qué sucede si el valor es por ejemplo
+
+0:09:16.960,0:09:20.890
+"3.14 es pi"
+
+0:09:20.890,0:09:22.540
+En primer lugar, por cierto
+
+0:09:22.540,0:09:27.090
+en esta conversión, la idea se llama
+contexto
+
+0:09:27.090,0:09:29.550
+La razón que 
+
+0:09:29.550,0:09:31.910
+Perl esta convertiendo los numeros es porque 
+
+0:09:31.910,0:09:35.140
+Perl tiene contexto así que tenemos contexto numérico 
+
+0:09:35.140,0:09:37.290
+y contexto de string.
+
+0:09:37.290,0:09:41.610
+Contexto numérico y contexto de string.
+
+0:09:41.610,0:09:44.470
+Lo escribiré aqui
+
+0:09:44.470,0:09:46.250
+Para que no te tengas que preocupar de mi 
+
+0:09:46.250,0:09:48.260
+pronunciación 
+
+0:09:48.260,0:09:52.160
+De cualquier manera lo que pasa en este caso es que 
+Ahora tienes un you número - 3
+
+0:09:52.160,0:09:54.040
+y el string que 
+
+0:09:54.040,0:09:56.209
+en realidad no es convertible a un número 
+
+0:09:56.209,0:09:57.100
+directamente.
+
+0:09:57.100,0:10:01.390
+Que pasa ahora, si ejecuto este código 
+
+0:10:01.390,0:10:03.140
+Vamos a ver.
+
+0:10:03.140,0:10:06.870
+Lo primero es 3, el numero 3 que 
+fue imprimido. Eso está bien. 
+
+0:10:06.870,0:10:10.670
+Luego agaro "3.14 es pi"
+
+0:10:10.670,0:10:14.910
+que solo esta imprimiendo de 
+el contenido de "$y".
+
+0:10:14.910,0:10:17.750
+Luego tengo esta advertencia
+
+0:10:17.750,0:10:20.370
+y el resultado "6.14".
+
+0:10:20.370,0:10:25.350
+Esta advertencia esta alli porque estamos  
+tratando de usar
+
+0:10:25.350,0:10:26.520
+este string 
+
+0:10:26.520,0:10:28.120
+en un contexto numérico 
+
+0:10:28.120,0:10:30.780
+en adición en la linea...
+
+0:10:30.780,0:10:33.250
+Pues dice doce. Sí, en esta línea 
+
+0:10:33.250,0:10:36.960
+Así que esta es la línea. Ahora lo podemos ver. 
+
+0:10:36.960,0:10:42.210
+Perdón.
+
+0:10:42.210,0:10:43.890
+Sí! En esta ventana.
+
+0:10:43.890,0:10:49.740
+Así que puedes ver esto aquí.
+
+0:10:49.740,0:10:51.520
+Esto es el string. Esto es lo que
+
+0:10:51.520,0:10:53.820
+se convierto en un número. 
+
+0:10:53.820,0:10:56.990
+Así que agaramos una advertencia. Ahora esta advertencia lo hagaras
+solamente porque  
+
+0:10:56.990,0:10:59.500
+tú pediste por una advertencia.
+
+0:10:59.500,0:11:03.260
+Así que es importante usar estas advertencias.
+De lo contrario haría algo  
+
+0:11:03.260,0:11:05.440
+en silencio, en lo cual podría ser lo que quieres 
+
+0:11:05.440,0:11:08.750
+pero eso podría indicar algún tipo de problema. 
+
+0:11:08.750,0:11:10.529
+Así que ahora es
+
+0:11:10.529,0:11:12.860
+"3.14 es pi"
+
+0:11:12.860,0:11:17.030
+Pero en la adición se utiliza realmente 
+solamente "3.14"
+
+0:11:17.030,0:11:19.160
+Lo que Perl hace es que 
+
+0:11:19.160,0:11:21.440
+toma el lado izquierdo de el string 
+
+0:11:21.440,0:11:22.880
+y
+
+0:11:22.880,0:11:24.060
+mira
+
+0:11:24.060,0:11:27.829
+lo mira y trate de usarlo como un número.
+
+0:11:27.829,0:11:32.160
+Y hay un punto. Hay un espacio aquí. 
+Pero
+
+0:11:32.160,0:11:35.249
+para de entender. No lo puede
+convertir a un número 
+
+0:11:35.249,0:11:38.750
+Entonces desde ese momento se ignorará el 
+valor.
+
+0:11:38.750,0:11:40.430
+Así que por esa razón
+
+0:11:40.430,0:11:41.940
+Perl
+
+0:11:41.940,0:11:44.809
+utiliza "3.14"
+
+0:11:44.809,0:11:46.020
+como el valor 
+
+0:11:46.020,0:11:48.550
+de "$y" en esta suma.
+
+0:11:48.550,0:11:49.910
+Luego, lo que 
+
+0:11:49.910,0:11:52.620
+tal vez piensas es que le paso a "$y".
+
+0:11:52.620,0:11:54.000
+Fue convertido? 
+
+0:11:54.000,0:11:55.579
+O sólo para el uso 
+
+0:11:55.579,0:11:56.930
+de esta suma?
+
+0:11:56.930,0:11:57.990
+Así que puedes ver 
+
+0:11:57.990,0:11:59.300
+en esta concatenación.
+
+0:11:59.300,0:12:00.110
+Que aquí 
+
+0:12:00.110,0:12:03.519
+agaramos en realidad el "3"
+del "$z".
+
+0:12:03.519,0:12:06.530
+Y el "3.14 es pi"
+
+0:12:06.530,0:12:10.330
+viniendo de "$y". Así que puedes ver
+que "$y" no cambio.
+
+0:12:10.330,0:12:12.070
+"$y" 
+
+0:12:12.070,0:12:14.010
+sigue siendo el mismo string.
+
+0:12:14.010,0:12:15.970
+Y luego si miras a la tercera 
+
+0:12:15.970,0:12:18.370
+veras que es "$z"
+
+0:12:18.370,0:12:20.100
+"$y" vezes
+
+0:12:20.100,0:12:22.790
+Ahora tu probablemente supones que 
+veras
+
+0:12:22.790,0:12:26.070
+3.14 vezes la letra 3 pero
+
+0:12:26.070,0:12:31.080
+Perl no lo puede imprimir...
+
+0:12:31.080,0:12:32.870
+Sólo puede imprimir 
+
+0:12:32.870,0:12:34.960
+los números completos así que en este caso...
+
+0:12:34.960,0:12:36.200
+Así que
+
+0:12:36.200,0:12:39.670
+convertirá el "3.14"
+a "3" y luego usarlo 
+
+0:12:39.670,0:12:41.590
+para la multiplicación
+
+0:12:41.590,0:12:42.880
+para la repetición 
+
+0:12:42.880,0:12:44.920
+Pero no ves la advertencia otra vez
+
+0:12:44.920,0:12:47.360
+como normalmente esperias 
+
+0:12:47.360,0:12:49.040
+Entonces qué?
+
+0:12:49.040,0:12:50.190
+Será porque... 
+
+0:12:50.190,0:12:53.190
+debido a que esta operación no 
+genera la advertencia? 
+
+0:12:53.190,0:12:56.240
+Así que haremos clic aquí y luego
+
+0:12:56.240,0:12:58.100
+comentar...
+
+0:12:58.100,0:12:59.990
+comentar el código aquí. 
+
+0:12:59.990,0:13:01.370
+Y ejecutarlo de nuevo. 
+
+0:13:01.370,0:13:02.870
+Y ahora podras
+
+0:13:02.870,0:13:05.080
+er que la advertencia está en la
+
+0:13:05.080,0:13:06.560
+repetición. 
+
+0:13:06.560,0:13:09.010
+Así que antes no miramos
+
+0:13:09.010,0:13:11.220
+esa advertencia. 
+
+0:13:11.220,0:13:15.350
+Y por qué no la miramos? Porque no había 
+advertencia. Y la razón es que 
+
+0:13:15.350,0:13:17.120
+en el momento, aquí
+
+0:13:17.120,0:13:19.530
+Cuando la suma
+
+0:13:19.530,0:13:21.940
+causo que Perl convertiera
+
+0:13:21.940,0:13:26.399
+el string a el número luego
+realmente reservo ese número nuevo  
+
+0:13:26.399,0:13:27.920
+en un lugar mágico 
+
+0:13:27.920,0:13:30.050
+en "$y"
+
+0:13:30.050,0:13:34.010
+Así que desde ese momento "$y" en realidad
+tenia dos valores: el valor de string y
+
+0:13:34.010,0:13:35.310
+el valor del número 
+
+0:13:35.310,0:13:36.930
+Y eso es para 
+
+0:13:36.930,0:13:39.010
+evitar la conversión más adelante
+
+0:13:39.010,0:13:44.620
+Así que cuando llegó a este punto, para
+usar el operador de repetición, Perl no
+
+0:13:44.620,0:13:46.209
+tenia que convertir mas. 
+
+0:13:46.209,0:13:50.140
+Así que no había ninguna razón para dar la advertencia
+tampoco.
+
+0:13:50.140,0:13:52.870
+Así es como funciona conversiones. 
+
+0:13:52.870,0:13:54.840
+Ahora ya sabes 
+
+0:13:54.840,0:13:58.950
+como la conversión trabaja de números a strings
+Así que de número a string
+
+0:13:58.950,0:14:01.790
+es bastante fácil. Es el mismo
+
+0:14:01.790,0:14:04.359
+valor. Entonces si tienes un número como tres.
+
+0:14:04.359,0:14:08.060
+Y si lo miras como un string 
+solo es un string, la letra 3,
+
+0:14:08.060,0:14:11.329
+el dígito 3. Y si tienes un
+número 
+
+0:14:11.329,0:14:15.369
+Un string que es un número como "3.14".
+
+0:14:15.369,0:14:19.150
+Si sólo tienes esta 
+
+0:14:19.150,0:14:24.310
+Y si ejecutas esto, entonces no tendrias una
+advertencia, porque eso es sólo un número. 
+
+0:14:24.310,0:14:29.140
+Pero porque tenemos algo 
+que no es realmente un número. 
+
+0:14:29.140,0:14:30.670
+Entonces si agarmos una advertencia.
+
+0:14:30.670,0:14:34.070
+Así que hay un par de problemas, que nos gustaría 
+hablar mas.
+
+0:14:34.070,0:14:36.680
+Uno de ellos es "indef".
+
+0:14:36.680,0:14:39.560
+Entonces que pasa con "indef" en el mismo contexto
+
+0:14:39.560,0:14:40.710
+Vamos a ver...
+
+0:14:40.710,0:14:43.730
+Digamos que en este caso aquí 
+
+0:14:43.730,0:14:46.830
+uh...
+
+0:14:46.830,0:14:48.369
+mi $y
+
+0:14:48.369,0:14:51.750
+Y porque sabes que es "indef"
+
+0:14:51.750,0:14:53.150
+No lo voy a imprimir.
+
+0:14:53.150,0:14:57.020
+Así que ahora tenemos una variable declarada. 
+
+0:14:57.020,0:14:58.210
+Llamada "$z".
+
+0:14:58.210,0:15:01.119
+Y "$y" declaro, pero no le 
+
+0:15:01.119,0:15:02.650
+dimos un valor.
+
+0:15:02.650,0:15:05.020
+Ahora si ejecuto esto
+
+0:15:05.020,0:15:07.320
+Y hay que comentar esto, no lo necesitamos.
+
+0:15:07.320,0:15:10.820
+Ahora, si ejecuto este código, agaro 2 avisos.
+
+0:15:10.820,0:15:13.060
+Utilización de no inicializar...
+
+0:15:13.060,0:15:16.290
+Diciéndome que estoy tratando de usar 
+los valores sin inicializar. Esto significa, que "$y"
+
+0:15:16.290,0:15:21.800
+fue "indef". Tanto en la adición 
+y la concatenación. 
+
+0:15:21.800,0:15:26.490
+Así que puedes ver que 
+
+0:15:26.490,0:15:29.810
+Perl me da avisos, cuando estoy tratando de usar
+
+0:15:29.810,0:15:32.520
+una variable que es "indef".
+
+0:15:32.520,0:15:34.020
+En un contexto 
+
+0:15:34.020,0:15:37.640
+numérico o en contexto de string. 
+
+0:15:37.640,0:15:39.740
+Pero como puedes ver,
+
+0:15:39.740,0:15:42.470
+aunque es un poco difícil de ver, 
+
+0:15:42.470,0:15:44.850
+El primer "decir" esta imprimiendo "3" aqui.
+
+0:15:44.850,0:15:45.670
+Y entonces este 
+
+0:15:45.670,0:15:47.449
+"decir" imprime "3" otra vez
+
+0:15:47.449,0:15:50.420
+porque "$y", aunque es "indef",
+
+0:15:50.420,0:15:52.390
+en un contexto numérico
+
+0:15:52.390,0:15:54.270
+se comporta como 0.
+
+0:15:54.270,0:15:57.910
+Y en esta concatenación agaro "3" otra vez
+
+0:15:57.910,0:16:00.540
+a pesar de que "$y" es "indef".
+
+0:16:00.540,0:16:05.670
+pero en contexto de string se comporta como 
+un string vacío
+
+0:16:05.670,0:16:09.520
+Si te quieres asegurar, que todavia 
+
+0:16:09.520,0:16:15.070
+esta "indef". Entonces
+
+0:16:15.070,0:16:17.490
+"imprime 'definido'"
+
+0:16:17.490,0:16:20.760
+y "si no"
+
+0:16:20.760,0:16:22.870
+Perdón deberia ser "decir"
+
+0:16:22.870,0:16:25.810
+'no'
+
+0:16:25.810,0:16:28.940
+Sí, eso muestra que soy un viejo aqui.  
+
+0:16:28.940,0:16:31.330
+Así que
+
+0:16:31.330,0:16:32.579
+Estoy ejecutando este código. 
+
+0:16:32.579,0:16:36.260
+Luego ves que es 'no'. No esta
+definido. Así que, aunque 
+
+0:16:36.260,0:16:40.730
+Perl estaba usando esta 
+en ambos
+
+0:16:40.730,0:16:42.459
+contexto numérico y contexto de string
+
+0:16:42.459,0:16:45.420
+no cambio la variable.
+Sigue siendo indefinida.
+
+0:16:45.420,0:16:47.749
+Así que eso es lo que quería mostrar. 
+
+0:16:47.749,0:16:49.520
+La otra cosa
+
+0:16:49.520,0:16:52.180
+es que a algunas personas 
+
+0:16:52.180,0:16:56.720
+no les gusta esta idea de las 
+advertencias. Ellos prefieren 
+
+0:16:56.720,0:16:57.660
+excepciones 
+
+0:16:57.660,0:17:01.000
+cuando algo va mal o mal parcialmente 
+
+0:17:01.000,0:17:02.459
+Entonces lo que pueden hacer ellos 
+
+0:17:02.459,0:17:08.990
+es cambiar las advertencias a excepciones.
+Pueden escribir aquí "FATAL".
+
+0:17:08.990,0:17:13.189
+Y luego, digamos, "=> todo".
+Esto cambiara todas las advertencias
+
+0:17:13.189,0:17:15.680
+a excepciones fatales.
+
+0:17:15.680,0:17:17.920
+Así que si voy aquí y 
+
+0:17:17.920,0:17:19.790
+digamos, vamos a ponerlo de regreso
+
+0:17:19.790,0:17:20.850
+a esta manera. 
+
+0:17:20.850,0:17:22.640
+Y si ejecuto el código..
+
+0:17:22.640,0:17:24.429
+Y agaro
+
+0:17:24.429,0:17:25.189
+"3"
+
+0:17:25.189,0:17:26.890
+la primera imprimida 
+
+0:17:26.890,0:17:28.419
+el primer "decir" aqui
+
+0:17:28.419,0:17:31.759
+Y luego cuando estoy tratando de sumar los valores.  
+
+0:17:31.759,0:17:35.649
+Sería una advertencia de imprimir.
+Pero esa advertencia es ahora una excepción fatal
+
+0:17:35.649,0:17:37.840
+Para que el script no 
+
+0:17:37.840,0:17:40.380
+vaya por más tiempo. 
+
+0:17:40.380,0:17:43.930
+Así que eso es la manera correcta si 
+quieres ser realmente extremista
+
+0:17:43.930,0:17:46.020
+agarando excepciones en este caso.
+
+0:17:46.020,0:17:49.059
+Pero qué pasa si quieres evitar 
+todo por completo? Así que si 
+
+0:17:49.059,0:17:51.720
+quieres asegurarte de que el valor que agaraste, 
+
+0:17:51.720,0:17:55.410
+probablemente de el usuario o del mundo exterior,
+
+0:17:55.410,0:17:57.010
+que es, en realidad, que
+
+0:17:57.010,0:17:59.910
+se parece a un número, antes de que puedas
+
+0:17:59.910,0:18:00.950
+convertirlo
+
+0:18:00.950,0:18:04.610
+Así que, para eso necesitas usar un módulo:
+
+0:18:04.610,0:18:07.510
+"use Scalar::Util"
+
+0:18:07.510,0:18:09.230
+Y ese módulo
+
+0:18:09.230,0:18:12.669
+tiene una función llamada 
+
+0:18:12.669,0:18:15.650
+"looks_like_number"
+
+0:18:15.650,0:18:20.400
+Y entonces puedes usar esa función.
+Antes de que llames esta 
+
+0:18:20.400,0:18:23.419
+parte, que necesita un número 
+
+0:18:23.419,0:18:26.620
+Así que dirías 
+
+0:18:26.620,0:18:31.380
+"looks_like_number($z)"
+
+0:18:31.380,0:18:32.340
+y
+
+0:18:32.340,0:18:37.900
+"looks_like_number($y)"
+
+0:18:37.900,0:18:44.770
+Y sólo entonces haría esta parte. 
+
+0:18:44.770,0:18:49.400
+Así que la suma lo haría solo si
+los dos son números.
+
+0:18:49.400,0:18:51.390
+Y luego puedo ejecutar este código. 
+
+0:18:51.390,0:18:53.900
+Y siempre hay un error de sintaxis aqui. 
+
+0:18:53.900,0:18:55.050
+Así que vamos a ver dónde.
+
+0:18:55.050,0:18:56.650
+Es la línea 15. 
+
+0:18:56.650,0:18:58.930
+Me dice que olvidé 
+
+0:18:58.930,0:19:01.120
+cerrar el paréntesis. 
+
+0:19:01.120,0:19:02.450
+Así que vamos a ejecutar de nuevo 
+
+0:19:02.450,0:19:06.120
+Así que ahora puedes ver que tengo el  
+número "3" y que tengo el resultado
+
+0:19:06.120,0:19:10.390
+de la concatenación, y el "definido"
+aqui.
+
+0:19:10.390,0:19:12.420
+Pero no tengo una excepción. 
+
+0:19:12.420,0:19:14.320
+Y si tengo 
+
+0:19:14.320,0:19:16.710
+un valor como esto aquí. 
+
+0:19:16.710,0:19:18.170
+Un valor que realmente 
+
+0:19:18.170,0:19:20.000
+se parece a un número 
+Y lo ejecuto. 
+
+0:19:20.000,0:19:27.000
+Entonces, en adición a la concatenación
+También tengo la suma. 
+
+0:19:27.200,0:19:28.129
+Así que eso es todo. 
+
+0:19:28.129,0:19:31.799
+sobre escalares.
+Y si en realidad te estás preguntando si hay 
+
+0:19:31.799,0:19:34.480
+sobrecarga de operadores en Perl. 
+Sí hay. 
+
+0:19:34.480,0:19:38.080
+Pero es un tema avanzado, así que
+no lo voy a discutir ahora.
+
+0:19:38.080,0:19:41.240
+Y creo que eso es todo, así que
+Hasta la próxima! 
