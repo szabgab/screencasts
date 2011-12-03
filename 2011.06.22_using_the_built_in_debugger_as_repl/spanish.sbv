@@ -308,7 +308,7 @@ la última parte de una ruta
 
 0:04:50.299,0:04:54.259
 pero ¿Qué pasa si quieres ver cómo funciona
-esto para que puedas poner
+esto? entonces puedes poner
 
 0:04:54.259,0:04:55.099
 un breakpoint
@@ -346,7 +346,7 @@ entramos a esa función
 la función 'basename' del archivo
 
 0:05:18.919,0:05:20.169
-Basename class
+Basename.pm
 
 0:05:20.169,0:05:25.050
 que está implementada en este archivo en la
@@ -360,7 +360,7 @@ puedes ver el resto del código o
 ver en un rango
 
 0:05:32.889,0:05:35.910
-por ejemplo, 200-200
+por ejemplo, 200-220
 
 0:05:35.910,0:05:37.789
 
