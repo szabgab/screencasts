@@ -2,7 +2,7 @@
 Hallo! Dieses Mal erkläre ich die Autovervollständigung von Padre, der IDE.
 
 0:00:06.000,0:00:09.500
-Wie du siehst, benutze ich Version 0.87,
+Wie Du siehst, benutze ich Version 0.87,
 
 0:00:09.500,0:00:11.000
 welche eine Entwicklungsversion ist,
@@ -14,13 +14,13 @@ die sich im SVN-Repository befindet.
 Sie wird als Version 0.88 veröffentlicht werden,
 
 0:00:15.500,0:00:18.250
-wenn du eine andere Version von Padre benutzt,
+wenn Du eine andere Version von Padre benutzt,
 
 0:00:18.250,0:00:21.000
 kann es sein, dass sich diese Funktion etwas anders verhält.
 
 0:00:21.000,0:00:23.500
-Wie du siehst, ist hier eine Datei geöffnet:
+Wie Du siehst, ist hier eine Datei geöffnet:
 
 0:00:23.500,0:00:25.250
 diese stammt von Padre selbst.
@@ -80,7 +80,7 @@ Manche würden es vorziehen, wenn das automatisch geschähe,
 also, dass wenn ich etwas eingebe, sich das Popup automatisch öffnet und mich einen Eintrag wählen lässt.
 
 0:01:35.500,0:01:39.000
-Um das zu aktivieren, musst du im Menü "Werkzeuge"...
+Um das zu aktivieren, musst Du im Menü "Werkzeuge"...
 
 0:01:39.000,0:01:47.000
 in dem Einstellungen "Autovervollständigung" wählen und die Checkbox "Autovervollständigung immer wenn ich tippe" aktivieren.
