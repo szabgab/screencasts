@@ -1,0 +1,307 @@
+0:00:00.500,0:00:05.390
+Hola. Voy a mostrarles uno por uno cómo funcionan los elementos de los menús de Padre.
+
+0:00:05.390,0:00:11.060
+Esta vez voy a mostrarles el menú de Archivo, o más bien, las partes más importantes de dicho menú.
+
+0:00:11.060,0:00:15.880
+Así que, cuando abran Padre van a tener un archivo sin guardar, donde pueden comenzar a escribir.
+
+0:00:15.880,0:00:18.890
+Por ejemplo, voy a escribir 0.84
+
+0:00:18.890,0:00:25.580
+para recordarles que aquí estamos usando Padre versión 0.84 corriendo en Windows.
+
+0:00:25.580,0:00:31.390
+Va a verse y a funcionar igual en Linux, ya que es la misma versión,
+
+0:00:31.390,0:00:34.230
+pero tal vez tengas una versión diferente,
+
+0:00:34.230,0:00:38.860
+así que puede ser que los elementos del menú se vean o actúen un poco diferentes.
+
+0:00:38.860,0:00:43.090
+En el futuro publicaré videos para versiones más nuevas.
+
+0:00:43.090,0:00:51.060
+Entonces, si van al menú de Archivo, la primer opción que verán será "Nuevo", que funciona como cualquier botón ordinario de "Nuevo",
+
+0:00:51.060,0:00:56.910
+al hacer clic se creará un nuevo espacio donde se puede escribir código. 
+
+0:00:56.910,0:01:01.260
+Hay otra opción también llamada "Nuevo", que al abrirla abrirá un submenú con varias opciones.
+
+0:01:01.260,0:01:09.640
+Si elegimos la primer opción, "Script de Perl 5", se creará un nuevo documento con un poco de código base:
+
+0:01:09.640,0:01:16.760
+están la líneas de 'use', las líneas base que probablemente quieran usar en su código Perl -
+
+0:01:16.760,0:01:25.460
+excepto que esta línea requiere Perl 5.6, y probablemente quieran tener un número de versión más alto,
+
+0:01:25.460,0:01:33.340
+así que probablemente quieran la versión 5.10 de Perl, o incluso una mayor.
+
+0:01:33.340,0:01:38.100
+Otra opción en "Nuevo" es "Módulo de Perl 5"; en este caso
+
+0:01:38.100,0:01:43.150
+aparece una ventana emergente que nos recuerda la última palabra que tipeamos.
+
+0:01:43.150,0:01:49.000
+Aquí ingresamos el nombre del módulo, como "Module::Name" por ejemplo,
+
+0:01:49.000,0:01:57.400
+y al hacer clic en "OK" se creará una nueva ventana de edición, con un módulo base en ella
+
+0:01:57.400,0:02:02.720
+(paquete, el nombre del módulo, luego algunas líneas de 'use', algo de documentación,
+
+0:02:02.720,0:02:07.430
+e incluso un constructor con un método simple en él).
+
+0:02:07.430,0:02:15.460
+Ahora, sería genial si estos archivos base pudieran ser configurados por el usuario,
+
+0:02:15.460,0:02:19.300
+pero por desgracia hasta donde sé estos están guardados dentro del código fuente de Padre,
+
+0:02:19.300,0:02:25.130
+así que a menos que cambien los archivos suministrados por el instalador de Padre...
+
+0:02:25.130,0:02:28.750
+por ahora están bloqueados dentro del código del programa.
+
+0:02:28.750,0:02:33.000
+De la misma manera podemos crear un archivo de prueba y un "Script de Perl 6"
+
+0:02:33.000,0:02:37.710
+aunque, como Padre en esta versión aún no posee soporte para Perl 6,
+
+0:02:37.710,0:02:41.500
+No se puede ver ningún código resaltado.
+
+0:02:41.500,0:02:47.470
+Voy a saltarme el último ítem porque en esta versión de Padre no funciona correctamente.
+
+0:02:47.470,0:02:53.070
+"Abrir" - abre un dialogo para abrir archivos, desde donde podemos elegir un archivo,
+
+0:02:53.070,0:02:58.720
+abrirlo y de esa forma poder editarlo en el programa.
+
+0:02:58.720,0:03:02.130
+El otro menú de Abrir tiene varias opciones,
+
+0:03:02.130,0:03:09.060
+veamos, "Abrir URL" nos permite introducir una URL, como la que vemos allí,
+
+0:03:09.060,0:03:13.190
+y el programa cargará el archivo para así poder editarlo.
+
+0:03:13.190,0:03:18.590
+Este se abrirá en modo "Solo Lectura", así que si quieren guardar el archivo,
+
+0:03:18.590,0:03:24.000
+deberán hacerlo con la función "Guardar Como".
+
+0:03:24.000,0:03:27.020
+"Abrir Selección" - Bueno, volvamos aquí,
+
+0:03:27.020,0:03:32.630
+y, por ejemplo, en este módulo tengo una línea de 'use', o solo el nombre de algún módulo.
+
+0:03:32.630,0:03:40.170
+Yo puedo seleccionar el nombre del módulo, luego ir a "Abrir", "Selección" (o "Ctrl-Shift-O"),
+
+0:03:40.170,0:03:45.920
+y buscará ese modulo en tu sistema de archivos, dentro de tu @INC,
+
+0:03:45.920,0:03:53.460
+encontrará el archivo que implementa ese módulo, y lo abrirá para que podamos editarlo.
+
+0:03:53.460,0:04:04.070
+En el caso de que haya varias copias de este módulo, se abrirá un menú donde podremos elegir cuál nos gustaría abrir.
+
+0:04:04.070,0:04:10.420
+Abrir Archivo En Navegador - simplemente va a abrir el explorador predeterminado de tu sistema operativo;
+
+0:04:10.420,0:04:16.320
+en este caso es Windows, en Linux probablemente se abra Nautilus u otro tipo de explorador de archivos.
+
+0:04:16.320,0:04:26.900
+Abrirá el directorio donde el archivo actualmente abierto este guardado.
+
+0:04:26.900,0:04:32.440
+"Abrir con el editor predeterminado" no funciona actualmente, al menos no en mi sistema.
+
+0:04:32.440,0:04:37.440
+"Abrir en Línea de Comandos" abre una ventana de comandos - en Windows es la ventana llamada "cmd"-
+
+0:04:37.440,0:04:45.940
+en el lugar donde está ubicado el archivo, así que con solo ingresar "dir" podremos ver los archivos.
+
+0:04:45.940,0:04:51.600
+Funciona de la misma manera en Linux, abriendo una terminal de comandos.
+
+0:04:51.600,0:04:58.870
+"Abrir Ejemplo": aquí -la última opción- nuevamente se abre un dialogo para abrir archivos,
+
+0:04:58.870,0:05:03.940
+pero en un directorio suministrado por Padre, que contiene algunos scripts de muestra. 
+
+0:05:03.940,0:05:06.820
+Aquí hay algunos ejemplos para principiantes,
+
+0:05:06.820,0:05:16.180
+y aquí hay algunos ejemplos que usan wxWidgets para crear varias ventanas.
+
+0:05:16.180,0:05:18.970
+"Cerrar" sirve justamente para cerrar el archivo.
+0:05:18.970,0:05:24.140
+Si el archivo ha sido modificado el programa preguntará si se desea guardar dicho archivo.
+
+0:05:24.140,0:05:30.810
+Y aquí hay otro menú también llamado "Cerrar" que posee varias opciones, con las que puedes "Cerrar Este Proyecto", o "Cerrar Otros Proyectos" -
+
+0:05:30.810,0:05:34.660
+eso es para proyectos, no voy a hablar de eso ahora-
+
+0:05:34.660,0:05:38.890
+"Cerrar Todo", esta opción cierra todos los archivos actualmente abiertos,
+
+0:05:38.890,0:05:46.280
+o "Cerrar los Demás Archivos", que cierra todos los archivos excepto por el que se está editando en ese momento.
+
+0:05:46.280,0:05:53.880
+Además, "Cerrar Archivos" permite elegir qué archivos deseamos cerrar.
+
+0:05:53.880,0:06:00.960
+En este caso, como el archivo había sido modificado, el programa nos pregunta si deseamos guardarlo,
+
+0:06:00.960,0:06:07.740
+no, no quiero guardarlo, así que ahora va a cerrarse el archivo.
+
+0:06:07.740,0:06:09.820
+Eso es lo que hace.
+
+0:06:09.820,0:06:16.180
+"Volver a Cargar" - cuando estás editando un archivo, y luego fuera de Padre, digamos,
+
+0:06:16.180,0:06:22.940
+por diversas razones se actualiza el archivo, lo que tienes abierto esta desactualizado,
+
+0:06:22.940,0:06:26.270
+hay una nueva versión del archivo en el sistema de archivos.
+
+0:06:26.270,0:06:32.330
+Padre va a reconocer esto automáticamente, pero puedes cancelar, por cualquier razón, esta operación,
+
+0:06:32.330,0:06:39.570
+así que con esto puedes decirle a Padre que cargue de nuevo el archivo, deshaciéndose de la versión cargada en el editor.
+
+0:06:39.570,0:06:46.370
+Puedes decirle que recargue un solo archivo, varios o todos ellos.
+
+0:06:46.370,0:06:51.030
+Si elijes "Volver a Cargar Algunos", podrás elegir aquí que archivos recargar,
+
+0:06:51.030,0:07:01.050
+ahora, en este caso tenemos tres ventanas abiertas del editor que aún no están asociadas a un archivo.
+
+0:07:01.050,0:07:04.020
+"Guardar" - esta opción guarda el archivo,
+
+0:07:04.020,0:07:11.050
+"Guardar Como" nos permite elegir otro nombre con el que guardar nuestro archivo.
+
+0:07:11.050,0:07:17.730
+"Save Intuition" - de esto voy a hablar más tarde, cuando hable de los proyectos.
+
+0:07:17.730,0:07:20.780
+"Guardar Todos Los Archivos".
+
+0:07:20.780,0:07:28.340
+Ahora, sesiones - "Abrir Sesión" y "Guardar Sesión". Básicamente una sesión es un conjunto de archivos en Padre.
+
+0:07:28.340,0:07:38.070
+Por ejemplo, si editamos tres de cuatro archivos para un proyecto, y luego otros tres de cuatro archivos para otro proyecto -
+
+0:07:38.070,0:07:45.600
+y llamamos a esto sesiones, porque esos archivos no necesariamente pertenecen a una sola entidad de proyecto
+
+0:07:45.600,0:07:48.060
+en el sentido de un proyecto Perl.
+
+0:07:48.060,0:07:54.970
+Así que, por ejemplo, cerremos todas estas, todos los demás archivos, digamos.
+
+0:07:54.970,0:07:59.370
+entonces voy aquí, y pongo "Cerrar todos los demás archivos",
+
+0:07:59.370,0:08:04.410
+y entonces me pregunta para cada uno si deseo guardarlo, pero no quiero así que pongo no.
+
+0:08:04.410,0:08:12.760
+Entonces ahora tengo solo un archivo. Y quisiera guardar esta sesión, que actualmente posee solamente un archivo.
+
+0:08:12.760,0:08:19.350
+Así que guardo la sesión, de esa forma, y la llamo "example" (ejemplo).
+
+0:08:19.350,0:08:24.000
+Aquí podría ponerle una descripción, pero eso no es importante, y ahora guardo la sesión.
+
+0:08:24.000,0:08:31.020
+Cierro el archivo y luego voy al menú de "Archivo" y hago clic en "Abrir Sesión".
+
+0:08:31.020,0:08:35.870
+Se listarán todas mis sesiones. Actualmente tengo dos sesiones en este editor,
+
+0:08:35.870,0:08:40.690
+así que elijo la sesión "example" , y doy clic en "Abrir".
+
+0:08:40.690,0:08:48.590
+Ahora, aquí hay una casilla, probablemente quieran marcarla. Lo que hace es,
+
+0:08:48.590,0:08:56.660
+cuando abren más archivos en su sesión actual, el programa automáticamente recuerda dichos archivos,
+
+0:08:56.660,0:09:01.900
+y así cuando abran esa sesión la próxima vez, esos archivos también se abran.
+
+0:09:01.900,0:09:11.690
+Entonces, abro la sesión "example", y tengo ese archivo en específico. Si por ejemplo abro otro archivo, por ejemplo este archivo,
+
+0:09:11.690,0:09:21.030
+(lo abro), y los cierro (cierro ahora todos los archivos), o en vez de eso abro una sesión diferente.
+
+0:09:21.030,0:09:23.820
+Por ejemplo, abro la sesión "dwimmer".
+
+0:09:23.820,0:09:28.220
+Entonces los demás archivos se cerrarán - todos los archivos que no pertenezcan a dicha sesión,
+
+0:09:28.220,0:09:32.900
+y se abrirán los archivos presentes en la sesión "dwimmer".
+
+0:09:32.900,0:09:42.730
+Ahora voy nuevamente a "Abrir Sesión", y elijo la sesión "example" , y dicha sesión habrá recordado a los dos archivos.
+
+0:09:42.730,0:09:48.950
+"Imprimir" - No estoy seguro si funciona o no, pero no creo que por ahora sea importante.
+
+0:09:48.950,0:09:55.030
+"Archivos Recientes", aquí se listan los archivos abiertos recientemente.
+
+0:09:55.030,0:10:02.520
+Esta opción permite vaciar la lista, y esta otra abre a todos los de ella.
+
+0:10:02.520,0:10:08.690
+Finalmente, "Estadísticas del Documento" nos provee con un poco de información del documento abierto.
+
+0:10:08.690,0:10:15.130
+Bueno, eso fue el menú de "Archivo", y la próxima vez les voy a mostrar el menú de "Edición". Gracias por escuchar.
