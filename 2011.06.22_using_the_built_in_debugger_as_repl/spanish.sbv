@@ -105,7 +105,7 @@ De la misma forma que asigné el valor
 escalar, puedo crear
 
 0:01:38.950,0:01:42.350
-un arreglo, así que por
+un array, así que por
 
 0:01:42.350,0:01:47.210
 ejemplo, aquí están los
@@ -144,7 +144,7 @@ con espacios entre él
 
 0:02:14.869,0:02:18.290
 una manera mejor de ver qué hay
-dentro del arreglo
+dentro del array
 
 0:02:18.290,0:02:20.489
 es usar la herramienta 'x'
@@ -156,7 +156,7 @@ del
 depurador
 
 0:02:24.159,0:02:28.579
-y darle una referencia al arreglo.
+y darle una referencia al array.
 De esta manera imprimirá
 
 0:02:28.579,0:02:32.429
@@ -217,11 +217,11 @@ y después
 regresas
 
 0:03:23.479,0:03:27.659
-e imprimes el contenido del arreglo
+e imprimes el contenido del array
 y ves que de hecho
 
 0:03:27.659,0:03:31.079
-este arreglo
+este array
 
 0:03:31.079,0:03:34.759
 se hizo más largo y ahora tiene el valor 'Moose' dentro.
