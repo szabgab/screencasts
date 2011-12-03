@@ -5,13 +5,13 @@ Hallo. Ich werde Dir nun zeigen wie die einzelnen Menü-Einträge von Padre funkti
 Dieses mal werde ich das Datei Menü erklären, genau genommen seine wichtigsten Funktionen.
 
 0:00:11.060,0:00:15.880
-Wenn Du also Padre startest siehst Du diese nicht-gespeicherte Datei und kannst beginnnen sie zu bearbeiten.
+Wenn Du also Padre startest siehst Du diese nicht-gespeicherte Datei und kannst beginnen sie zu bearbeiten.
 
 0:00:15.880,0:00:18.890
 Ich gebe beispielsweise mal 0.84 ein
 
 0:00:18.890,0:00:25.580
-um Dich daran zu errineren, dass dieses Video die Padre Version 0.84 auf einem Windows-System zeigt. 
+um Dich daran zu erinnern, dass dieses Video die Padre Version 0.84 auf einem Windows-System zeigt. 
 
 0:00:25.580,0:00:31.390
 Das gleiche würde auf Linux passieren und funktionieren, da es die gleiche Version von Padre ist.
@@ -26,7 +26,7 @@ daher könnten die Menü Einträge etwas anders aussehen oder funktionieren.
 Ich werde diesen Screencast später aktualisieren.
 
 0:00:43.090,0:00:51.060
-Wenn Du dann also das Datei Menü öffnest, ist der erste Menüpunkt "Neu", was einfach der Standart "Neu" Menüpunkt ist.  
+Wenn Du dann also das Datei Menü öffnest, ist der erste Menüpunkt "Neu", was einfach der Standard "Neu" Menüpunkt ist.  
 
 0:00:51.060,0:00:56.910
 Dieser erstellt ein leeres Dokument, in welchem Du nun Code eingeben kannst. 
@@ -38,13 +38,13 @@ Als Nächstes gibt es einen weiteren Menüeintrag, der auch "Neu" heißt. Dieser ha
 Wenn man auf den ersten Eintrag "Perl 5 Skript" klickt, wird ein neues Dokument erstellt, dass ein Grundgerüst enthält.
 
 0:01:09.640,0:01:16.760
-Da sind ein paar use Anweisungen, die Grund Anweisungen den Du vermutlich für deinen Perl Code nutzen willst -
+Da sind ein paar use Anweisungen, mit denen Du die Module einbindest, die Du vermutlich nutzen möchtest -
 
 0:01:16.760,0:01:25.460
-bis auf diese Zeile, die Perl 5.6 erfordert. Eventuell möchtest du eine höhere Versionsnummer nutzen,
+bis auf diese Zeile, die Perl 5.6 einbindet. Eventuell möchtest Du eine höhere Versionsnummer nutzen,
 
 0:01:25.460,0:01:33.340
-also würdest du Perl 5.10 oder eine noch höhere Version einbinden.
+also würdest Du Perl 5.10 oder eine noch höhere Version einbinden.
 
 0:01:33.340,0:01:38.100
 Das "Neu" Menü enthält außerdem den Eintrag "Perl 5 Modul", in diesem Fall
@@ -89,16 +89,16 @@ weswegen das Syntax-Highlighting nicht funktioniert.
 Den letzten Menüeintrag werde ich nicht erklären, da er in dieser Padre Version nicht richtig funktioniert.
 
 0:02:47.470,0:02:53.070
-"Öffnen" - öffnet Dir einen Dateibrowser mit dem du eine Datei auswählen kannst,
+"Öffnen" - öffnet Dir einen Dateibrowser mit dem Du eine Datei auswählen kannst,
 
 0:02:53.070,0:02:58.720
-ein Klick auf "Öffnen" öffnet die Datei und du kannst sie bearbeiten.
+ein Klick auf "Öffnen" öffnet die Datei und Du kannst sie bearbeiten.
 
 0:02:58.720,0:03:02.130
 Dann gibt es ein weiteres "Öffnen" Menü, dass ein Untermenü hat.
 
 0:03:02.130,0:03:09.060
-Also: "URL öffnen" ermnöglicht es eine URL zu öffnen, z.B die hier... 
+Also: "URL öffnen" ermöglicht es eine URL zu öffnen, z.B die hier... 
 
 0:03:09.060,0:03:13.190
 die Datei würde heruntergeladen und geöffnet.
@@ -107,7 +107,7 @@ die Datei würde heruntergeladen und geöffnet.
 Dabei wird der read-only Modus genutzt, wenn Du die Datei also speichern möchtest...
 
 0:03:18.590,0:03:24.000
-musst du den "Speichern unter" Dialog benutzen.
+musst Du den "Speichern unter" Dialog benutzen.
 
 0:03:24.000,0:03:27.020
 "Auswahl öffnen" - um hierzu zurück zu kehren.
@@ -125,10 +125,10 @@ und Padre wird nach dem Modul, innerhalb des @INC, auf deiner/n Festplatte(n) su
 und sobald Padre die Datei gefunden hat die das Modul implementiert wird diese zur Bearbeitung geöffnet.
 
 0:03:53.460,0:04:04.070
-Für den Fall, dass du mehrere Dateien hast wird ein Menü geöffnet in dem du die zu öffnenende Datei auswählen kannst.
+Für den Fall, dass Du mehrere Dateien hast wird ein Menü geöffnet in dem Du die zu öffnende Datei auswählen kannst.
 
 0:04:04.070,0:04:10.420
-"Datei im Browser öffnen" - Öffnet einfach den Standart Datei-Browser Deines Betriebssystems.  
+"Datei im Browser öffnen" - Öffnet einfach den Standard Datei-Browser Deines Betriebssystems.  
 
 0:04:10.420,0:04:16.320
 In diesem Fall ist es Windows, bei Linux wäre es vermutlich Nautilus oder ein anderer Dateibrowser gewesen.
@@ -143,13 +143,13 @@ Es öffnet das Verzeichnis in dem die aktuelle Datei gespeichert ist.
 "In der Kommandozeile öffnen" - öffnet die Kommandozeile, cmd bei Windows-Systemen
 
 0:04:37.440,0:04:45.940
-in dem Ordner wo die akuelle Datei liegt. Die Eingabe von "dir" zeigt also eine Dateiliste.
+in dem Ordner wo die aktuelle Datei liegt. Die Eingabe von "dir" zeigt also eine Dateiliste.
 
 0:04:45.940,0:04:51.600
 Das Selbe funktioniert mit Linux, es öffnet ein Shell-Terminal Fenster.
 
 0:04:51.600,0:04:58.870
-Öffne Beispiel, hier - der Letzte - ist wieder ein Standart "Datei öffnen" Dialog,
+Öffne Beispiel, hier - der Letzte - ist wieder ein Standard "Datei öffnen" Dialog,
 
 0:04:58.870,0:05:03.940
 aber in einem Ordner den Padre mitgeliefert hat, wo einige Beispielskripte sind.
@@ -230,7 +230,7 @@ Speichere alle Dateien.
 Kommen wir zu Sessions (Sitzungen) - "Session öffnen" und "Session speichern". Eine Session sind bloß einige Dateien in Padre.
 
 0:07:28.340,0:07:38.070
-Also würdest du drei oder vier Dateien für ein Projekt editieren und dann drei oder vier für ein anderes Projekt...
+Also würdest Du drei oder vier Dateien für ein Projekt editieren und dann drei oder vier für ein anderes Projekt...
 
 0:07:38.070,0:07:45.600
 wäre es eine Session, weil die Dateien nicht zu nur einem Projekt gehören.
@@ -266,13 +266,13 @@ Es listet alle meine Sessions auf. Aktuell habe ich zwei Sessions.
 Und ich wähle die "example" Session und klicke auf "Öffnen".
 
 0:08:40.690,0:08:48.590
-Nun ist hier noch eine Checkbox, eventuell möcchtest du die aktivieren. Was sie macht ist,
+Nun ist hier noch eine Checkbox, eventuell möchtest Du die aktivieren. Was sie macht ist,
 
 0:08:48.590,0:08:56.660
-dass wenn du zusätzliche Dateien in dieser Session öffnest, diese Dateien der Session hinzugefügt werden
+dass wenn Du zusätzliche Dateien in dieser Session öffnest, diese Dateien der Session hinzugefügt werden
 
 0:08:56.660,0:09:01.900
-und beim nächsten mal, wenn du diese Session lädst, werden diese ebenfalls geöffnet.
+und beim nächsten mal, wenn Du diese Session lädst, werden diese ebenfalls geöffnet.
 
 0:09:01.900,0:09:11.690
 Also ich öffne die "example" Session, und ich habe diese Datei. Wenn ich jetzt noch eine Datei öffne, z.B diese hier...
@@ -290,10 +290,10 @@ Dann werden alle anderen Dateien geschlossen, die nicht zu der "dwimmer" Session
 Außerdem werden die Dateien geöffnet die zu dieser Session gehören.
 
 0:09:32.900,0:09:42.730
-Und wenn ich jetzt die "example" Session öffne, errinert sich Padre an die beiden Dateien in der Session.
+Und wenn ich jetzt die "example" Session öffne, erinnert sich Padre an die beiden Dateien in der Session.
 
 0:09:42.730,0:09:48.950
-"Drucken" - ich weis gerade nicht ob das funktioniert, ist aber auch nicht so wichtig, denke ich.
+"Drucken" - ich weiß gerade nicht ob das funktioniert, ist aber auch nicht so wichtig, denke ich.
 
 0:09:48.950,0:09:55.030
 "Zuletzt geöffnete Dateien" - listet die zuletzt geöffneten Dateien auf.
@@ -305,4 +305,4 @@ Und das hier schließt alle Einträge der Liste oder öffnet sie.
 Abschließend, "Dokumenten Statistik" zeigt einige Informationen über das aktuelle Dokument an.
 
 0:10:08.690,0:10:15.130
-So, dass war das Datei Menü. Beim nächsten Mal erkläre ich das Bearbeiten Menü. Danke für's Zuhören.
+So, dass war das Datei Menü. Beim nächsten Mal erkläre ich das Bearbeiten Menü. Danke fürs Zuhören.
