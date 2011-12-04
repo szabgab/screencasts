@@ -1,5 +1,5 @@
 0:00:00.000,0:00:04.533
-Hola, y bienvenidos nuevamente al canal 'Perl Tutorial'.
+Hola, y bienvenidos nuevamente al canal 'Tutorial de Perl'.
 
 0:00:04.533,0:00:06.599
 Esta vez voy a hablar de
@@ -86,7 +86,7 @@ Index recibe normalmente dos parámetros.
 Uno de ellos es una cadena de caracteres como esta.
 
 0:01:36.186,0:01:38.686
-Hagamos más grande el font. 
+Hagamos más grande la fuente.. 
 
 0:01:38.686,0:01:43.371
 El primer parámetro es una cadena de caracteres, 
@@ -164,16 +164,16 @@ Asi que encontrará este "The" al inicio,
 y regresará 0, porque así es como empieza.
 
 0:03:07.709,0:03:12.000
-Siguiente llamada, esta, regresa 26
+La siguiente llamada, esta, regresa 26
 
 0:03:12.000,0:03:16.733
-porque el índice busca exactamente, la misma cadenad de caracteres 
+porque el índice busca exactamente, la misma cadena de caracteres 
 
 0:03:16.733,0:03:19.266
 y es sensible a mayúsculas y minúsculas también.
 
 0:03:19.266,0:03:23.012
-Primero, "The" no cabe, porque eso es una 'T' mayúscula.
+Primero, "The" no concuerda, porque eso es una 'T' mayúscula.
 
 0:03:23.012,0:03:26.633
 Asi que buscará otro "the" y ahí lo encontrará.
@@ -188,7 +188,7 @@ pero ese no es el caso, solo busca
 una sub cadena de caracteres, caracteres seguidos uno después que el otro. 
 
 0:03:38.943,0:03:41.266
-En el siguiente ejamplo verán
+En el siguiente ejemplo verán
 
 0:03:41.266,0:03:44.266
 que buscamos la cadena de caracteres,
@@ -201,8 +201,9 @@ y nos regresará 2.
 
 0:03:49.332,0:03:52.067
 Porque aquí podemos ver
+
 0:03:52.067,0:03:55.707
-delineado, el lugar donde aparece.
+resaltado, el lugar donde aparece.
 
 0:03:55.707,0:04:00.395
 Peo como pueden ver hay una "e " aquí.
@@ -226,10 +227,10 @@ porque se comienza a contar desde el 0.
 Entonces el tercer lugar, el lugar número 3
 
 0:04:25.427,0:04:29.420
-y por esto será "the" aquí
+y por esto eoncontrará el "the" aquí
 
 0:04:29.420,0:04:36.841
-en este punto, que aparentemente es el 28. lugar.
+en este punto, que aparentemente es el lugar 28.
 
 0:04:36.841,0:04:42.067
 De la misma manera, si llamo el index y le doy un caracter "e"
@@ -259,7 +260,7 @@ Entonces eso es lo que será encontrado.
 Obviamente este 3, puede ser cualquier número aquí.
 
 0:05:00.350,0:05:01.928
-Así qu si puedo empezar del 5
+Así que si puedo empezar del 5
 
 0:05:01.928,0:05:04.466
 y me regresará el mimso valor.
@@ -283,7 +284,7 @@ No importa de donde empiezas exactamente
 siempre y cuando empiezes antes
 
 0:05:21.415,0:05:24.770
-del despliege de la sub cadena de suministros. 
+la aparición de la subcadena de suministros. 
 
 0:05:24.770,0:05:27.132
 Y eso es lo que hace index, 
@@ -313,7 +314,7 @@ Ejecutando 'rindex' en la misma cadena
 y dándole la sub cadena "e"
 
 0:05:47.649,0:05:49.507
-entonces regresará 
+entonces regresará 39
 
 0:05:49.507,0:05:53.071
 porque encontrará esta letra "e".
@@ -343,7 +344,7 @@ Y si comienzan con 37 aquí
 entonces, probablemente, encuentra este "e" regresando 33
 
 0:06:15.533,0:06:17.346
-Asi que eso es del index.
+Asi que esto es todo sobre index.
 
 0:06:17.346,0:06:20.552
 La última, que es probablemente la más interesante
@@ -385,7 +386,7 @@ Substring recibirá normalmente una cadena de caracteres,
 de nuevo esto "The black cat climbed the green tree";
 
 0:06:48.531,0:06:51.713
-un número, que es un offset, asi que es la posición
+un número, que es un desplazamiento, asi que es la posición
 
 0:06:51.713,0:06:54.266
 del inicio de la cadena que buscamos
@@ -403,7 +404,7 @@ y 4 significa esta "b";
 y el tercer parámetro es la longitud
 
 0:07:09.685,0:07:11.542
-de la sub cdaena que intentamos conseguir.
+de la sub cadena que intentamos conseguir.
 
 0:07:11.542,0:07:13.423
 Entonces porque tiene 5 caracteres
@@ -415,7 +416,7 @@ regresará la cadena comenzando de esta letra "b".
 ...5 caracteres, asi que es la palabra "black".
 
 0:07:20.320,0:07:22.733
-Substrin regresa esos valores
+Substring regresa esos valores
 
 0:07:22.733,0:07:24.768
 y obviamente puedo asignarlo a...
@@ -484,7 +485,7 @@ solo darme la cadena de caracteres desde la posición 14 hasta el final
 porque no ví cuánta longitud debería tomar.
 
 0:08:38.326,0:08:42.461
-Asi que solo le das: de la posición, al final.
+Asi que sólo le das: desde la posición, hasta el final.
 
 0:08:42.461,0:08:44.440
 Y aquí pueden ver,
@@ -586,13 +587,13 @@ que es, en este caso, una cadena conteniendo "jumped from"
 Y lo que sucede es que, en este caso,
 
 0:10:26.309,0:10:31.663
-la función substring Perl remplazará la cadena 
+la función de Perl, substring remplazará la cadena 
 
 0:10:31.663,0:10:36.180
 que fue definida por estos 3 parámetros...
 
 0:10:36.180,0:10:39.328
-remplazará la sub cadena por el nueva cadena.
+remplazará la sub cadena por una nueva cadena.
 
 0:10:39.328,0:10:49.447
 Entonces, porque 14, 7 aquí define la palabra "climbed" aquí,
@@ -664,7 +665,7 @@ Puedes introducir una cadena de caracteres vacía,
 pero tendrán que tenerla aquí.
 
 0:11:53.939,0:11:59.275
-Y entonces Perl substring cortará esa aprte de la cadena.
+Y entonces Perl substring cortará esa parte de la cadena.
 
 0:11:59.275,0:12:01.196
 Dejará, en este caso, dos espacios.
@@ -676,13 +677,13 @@ Porque el espacio antes de la palabra "climbed"
 y el espacio antes
 
 0:12:05.713,0:12:07.565
-Entonces, eso es sobre las sub cadenas.
+Entonces, eso es todo sobre las sub cadenas.
 
 0:12:07.565,0:12:09.247
-Espero que aprendieron algo
+Espero que hayan aprendido algo
 
 0:12:09.247,0:12:11.165
-y regresaremos a la siguiente parte,
+y regresaremos en la siguiente parte,
 
 0:12:11.165,0:12:12.898
 y si lo estás viendo en Youtube,
