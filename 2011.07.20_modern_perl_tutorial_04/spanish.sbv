@@ -44,7 +44,7 @@ Y si ejecutas el código...
 Vamos a ejecutarlo, entonces puedes ver, cómo funciona en realidad. 
 
 0:00:46.000,0:00:50.712
-Vean, que la primer función regresa "hello" en minúsculas,
+Vean, que la primera función regresa "hello" en minúsculas,
 
 0:00:50.712,0:00:53.267
 la segunda en mayúsculas,
@@ -65,7 +65,7 @@ Si desean cambiar la cadena, entonces teclean:
 y luego imprimen '$str' de nuevo.
 
 0:01:14.490,0:01:18.420
-Si corro esto ahora, entonces verán que
+Si ejecuto esto ahora, entonces verán que
 
 0:01:18.420,0:01:22.274
 ahora '$str' está en minúsculas.
@@ -104,7 +104,7 @@ usualmente más corta,
 porque buscas su posición dentro del primer parámetro
 
 0:01:55.867,0:01:59.814
-Entonces, si corremos index en esta cadena más larga, dándole "cat"
+Entonces, si ejecuto index en esta cadena más larga, colocando "cat"
 
 0:01:59.814,0:02:01.765
 regresará 10.
@@ -122,7 +122,7 @@ entonces esta 'T' mayúscula es 0.
 Así llega a 10 en "c".
 
 0:02:17.651,0:02:22.266
-Si ejecutamos la misma función, ahora dándole "dog"
+Si ejecutamos la misma función, ahora colocándo "dog"
 
 0:02:22.266,0:02:24.133
 entonces regresará -1
@@ -134,7 +134,7 @@ porque en esta cadena solo se encuentra "cat"
 no hay un "dog".
 
 0:02:28.685,0:02:33.605
-La forma en la que regresa un error o falla es dándonos -1.
+La forma en la que regresa un error o falla es regresándonos -1.
 
 0:02:33.605,0:02:37.942
 Si llamas esta función dando una cadena de caracteres
@@ -173,7 +173,7 @@ porque el índice busca exactamente, la misma cadena de caracteres
 y es sensible a mayúsculas y minúsculas también.
 
 0:03:19.266,0:03:23.012
-Primero, "The" no concuerda, porque eso es una 'T' mayúscula.
+Primero, "The" no concuerda, porque tiene una 'T' mayúscula.
 
 0:03:23.012,0:03:26.633
 Asi que buscará otro "the" y ahí lo encontrará.
@@ -185,7 +185,7 @@ Ahora, podrías pensar que index busca la palabra
 pero ese no es el caso, solo busca
 
 0:03:34.236,0:03:38.943
-una sub cadena de caracteres, caracteres seguidos uno después que el otro. 
+una subcadena de caracteres, caracteres seguidos uno después que el otro. 
 
 0:03:38.943,0:03:41.266
 En el siguiente ejemplo verán
@@ -206,7 +206,7 @@ Porque aquí podemos ver
 resaltado, el lugar donde aparece.
 
 0:03:55.707,0:04:00.395
-Peo como pueden ver hay una "e " aquí.
+Pero como pueden ver hay una "e " aquí.
 
 0:04:00.395,0:04:05.457
 El método para alcanzar esto es que index puede tener un tercer parámetro. 
@@ -227,7 +227,7 @@ porque se comienza a contar desde el 0.
 Entonces el tercer lugar, el lugar número 3
 
 0:04:25.427,0:04:29.420
-y por esto eoncontrará el "the" aquí
+y por esto encontrará el "the" aquí
 
 0:04:29.420,0:04:36.841
 en este punto, que aparentemente es el lugar 28.
@@ -263,7 +263,7 @@ Obviamente este 3, puede ser cualquier número aquí.
 Así que si puedo empezar del 5
 
 0:05:01.928,0:05:04.466
-y me regresará el mimso valor.
+y me regresará el mismo valor.
 
 0:05:04.466,0:05:06.666
 Ejecutemos el código.
@@ -281,7 +281,7 @@ este es el mismo valor.
 No importa de donde empiezas exactamente
 
 0:05:19.807,0:05:21.415
-siempre y cuando empiezes antes
+siempre y cuando empiezes antes de
 
 0:05:21.415,0:05:24.770
 la aparición de la subcadena de suministros. 
@@ -311,7 +311,7 @@ encuentrará la que está más a la derecha de todas.
 Ejecutando 'rindex' en la misma cadena
 
 0:05:45.187,0:05:47.649
-y dándole la sub cadena "e"
+y colocando la subcadena "e"
 
 0:05:47.649,0:05:49.507
 entonces regresará 39
@@ -404,7 +404,7 @@ y 4 significa esta "b";
 y el tercer parámetro es la longitud
 
 0:07:09.685,0:07:11.542
-de la sub cadena que intentamos conseguir.
+de la subcadena que intentamos conseguir.
 
 0:07:11.542,0:07:13.423
 Entonces porque tiene 5 caracteres
@@ -551,7 +551,7 @@ Y, si lo cambio un poco,
 por ejemplo pongo "1" aquí,
 
 0:09:40.040,0:09:45.630
-y lo corro, solo puedes obtener la "t".
+y lo ejecuto, solo puedes obtener la "t".
 
 0:09:45.630,0:09:49.421
 Y, si le diera un "3" y lo ejecutara yo,
@@ -563,7 +563,7 @@ entonces recibiría "tre", para que puedan entenderlo.
 El último ejemplo es medio raro.
 
 0:09:57.247,0:10:00.462
-Así que hasta ahora, esta llamada regresa una sub cadena de caracteres,
+Así que hasta ahora, esta llamada regresa una subcadena de caracteres,
 
 0:10:00.462,0:10:05.719
 pero el '$str' original, la cadena original no cambió.
@@ -593,7 +593,7 @@ la función de Perl, substring remplazará la cadena
 que fue definida por estos 3 parámetros...
 
 0:10:36.180,0:10:39.328
-remplazará la sub cadena por una nueva cadena.
+remplazará la subcadena por una nueva cadena.
 
 0:10:39.328,0:10:49.447
 Entonces, porque 14, 7 aquí define la palabra "climbed" aquí,
@@ -608,7 +608,7 @@ pero el '$str' tendrá contenido distinto,
 y la palabra "climbed" será remplazada por las palabras "jumped from",
 
 0:11:04.734,0:11:07.816
-por las dos palabras, la sub cadena en realidad.
+por las dos palabras, la subcadena en realidad.
 
 0:11:07.816,0:11:10.713
 En este caso '$str' contendrá:
@@ -620,7 +620,7 @@ En este caso '$str' contendrá:
 Y como pueden ver, a Perl no le importa que
 
 0:11:15.970,0:11:20.221
-la nueva cadena de caracteres, nueva sub cadena es más larga
+la nueva cadena de caracteres, nueva subcadena es más larga
 
 0:11:20.221,0:11:22.236
 que la original.
