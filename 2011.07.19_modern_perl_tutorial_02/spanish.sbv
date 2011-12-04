@@ -257,7 +257,7 @@ que tiene esa variable
 
 0:03:41.879,0:03:46.339
 tiene otro valor o si  
-solo tiene "indef". 
+solo tiene "undef". 
 
 0:03:46.339,0:03:52.859
 Podemos usar esta palabra clave "defined".
@@ -341,7 +341,7 @@ el mismo código.
 
 0:04:49.210,0:04:54.899
 En este pungo, su valor 
-es "indef" otra vez 
+es "undef" otra vez 
 
 0:04:54.899,0:04:56.370
 Ahora, las variables
