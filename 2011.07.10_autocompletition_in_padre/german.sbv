@@ -83,7 +83,7 @@ also, dass wenn ich etwas eingebe, sich das Popup automatisch öffnet und mich ei
 Um das zu aktivieren, musst Du im Menü "Werkzeuge"...
 
 0:01:39.000,0:01:47.000
-in dem Einstellungen "Autovervollständigung" wählen und die Checkbox "Autovervollständigung immer wenn ich tippe" aktivieren.
+in den Einstellungen "Autovervollständigung" wählen und die Checkbox "Autovervollständigung immer wenn ich tippe" aktivieren.
 
 0:01:47.000,0:01:50.000
 Ich wähle das aus und speichere.
@@ -152,7 +152,7 @@ werden die Schweifklammern erstellt und der Cursor an die richtige Stelle versch
 weil das eine Sub-Routine ist und diese Variable hier nicht vorhanden sein könnte.
 
 0:03:38.000,0:03:42.900
-Lass und zu den Optionen zurückkehren und gucken welche Einstellungen es noch gibt.
+Lass uns zu den Optionen zurückkehren und gucken welche Einstellungen es noch gibt.
 
 0:03:42.900,0:03:50.000
 Hier sind die Zahlen, die es ermöglichen festzulegen, wann die Autovervollständigung ausgelöst wird.
