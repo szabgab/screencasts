@@ -149,7 +149,7 @@ Tal vez no es la manera más conveniente,
 pero es lo que tenemos que usar.
 
 0:02:48.723,0:02:55.199
-Si ejecuto index en la cadena"The", 'T' mayúscula
+Si ejecuto index en la cadena "The", 'T' mayúscula
 
 0:02:55.199,0:02:56.932
 regresará 0
@@ -209,7 +209,7 @@ resaltado, el lugar donde aparece.
 Pero como pueden ver hay una "e " aquí.
 
 0:04:00.395,0:04:05.457
-El método para alcanzar esto es que index puede tener un tercer parámetro. 
+El método para conseguir esto es que index puede tener un tercer parámetro. 
 
 0:04:05.457,0:04:11.401
 entonces aquí está el número 3, pero puede ser cualquier número,
@@ -284,7 +284,7 @@ No importa de donde empiezas exactamente
 siempre y cuando empiezes antes de
 
 0:05:21.415,0:05:24.770
-la aparición de la subcadena de suministros. 
+la aparición de la subcadena. 
 
 0:05:24.770,0:05:27.132
 Y eso es lo que hace index, 
@@ -293,7 +293,7 @@ Y eso es lo que hace index,
 pero también hay una función llamada rindex
 
 0:05:31.132,0:05:32.394
-que hace lo mismo, solo buscar
+que hace lo mismo, solo buscando
 
 0:05:32.394,0:05:33.973
 desde el lado derecho al lado izquierdo.
@@ -353,13 +353,13 @@ La última, que es probablemente la más interesante
 de todas las funciones que estoy mostrando ahora
 
 0:06:22.533,0:06:24.507
-es substring.
+es substr.
 
 0:06:24.507,0:06:27.800
-Substring es en realidad lo contrario de index.
+Substr es en realidad lo contrario de index.
 
 0:06:27.800,0:06:31.882
-En index conocerás lo que buscas,
+En index conoces lo que buscas,
 
 0:06:31.882,0:06:33.182
 Qué cadena de caracteres buscas
@@ -368,10 +368,10 @@ Qué cadena de caracteres buscas
 solo no sabes dónde está.
 
 0:06:34.670,0:06:36.295
-Asi que buscas por una posición.
+Asi que quieres encontrar una posición.
 
 0:06:36.295,0:06:38.478
-En substring conoces la posición
+En substr conoces la posición
 
 0:06:38.478,0:06:40.288
 solo no sabes lo que hay ahí,
@@ -380,7 +380,7 @@ solo no sabes lo que hay ahí,
 y quieres ver que hay en esa posición.
 
 0:06:42.547,0:06:45.699
-Substring recibirá normalmente una cadena de caracteres,
+Substr recibirá normalmente una cadena de caracteres,
 
 0:06:45.699,0:06:48.531
 de nuevo esto "The black cat climbed the green tree";
@@ -416,7 +416,7 @@ regresará la cadena comenzando de esta letra "b".
 ...5 caracteres, asi que es la palabra "black".
 
 0:07:20.320,0:07:22.733
-Substring regresa esos valores
+Substr regresa esos valores
 
 0:07:22.733,0:07:24.768
 y obviamente puedo asignarlo a...
@@ -482,7 +482,7 @@ Lo que significaría en este caso, como pueden ver:
 solo darme la cadena de caracteres desde la posición 14 hasta el final
 
 0:08:34.532,0:08:38.326
-porque no ví cuánta longitud debería tomar.
+porque no dice cuánta longitud debería tomar.
 
 0:08:38.326,0:08:42.461
 Asi que sólo le das: desde la posición, hasta el final.
@@ -587,7 +587,7 @@ que es, en este caso, una cadena conteniendo "jumped from"
 Y lo que sucede es que, en este caso,
 
 0:10:26.309,0:10:31.663
-la función de Perl, substring remplazará la cadena 
+la función de Perl, substr remplazará la cadena 
 
 0:10:31.663,0:10:36.180
 que fue definida por estos 3 parámetros...
@@ -665,7 +665,7 @@ Puedes introducir una cadena de caracteres vacía,
 pero tendrán que tenerla aquí.
 
 0:11:53.939,0:11:59.275
-Y entonces Perl substring cortará esa parte de la cadena.
+Y entonces, lafunción substr de Perl cortará esa parte de la cadena.
 
 0:11:59.275,0:12:01.196
 Dejará, en este caso, dos espacios.
@@ -677,7 +677,7 @@ Porque el espacio antes de la palabra "climbed"
 y el espacio antes
 
 0:12:05.713,0:12:07.565
-Entonces, eso es todo sobre la función substring.
+Entonces, eso es todo sobre la función substr.
 
 0:12:07.565,0:12:09.247
 Espero que hayan aprendido algo
