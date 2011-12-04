@@ -1,0 +1,308 @@
+0:00:00.500,0:00:05.390
+Cześć. Pokażę, jak działają poszczególne pozycje menu Padre.
+
+0:00:05.390,0:00:11.060
+W tym screencaście pokazuję menu File (Plik), a właściwie jego ważniejsze części.
+
+0:00:11.060,0:00:15.880
+Gdy uruchomisz Padre, zobaczysz pusty, niezapisany plik, i możesz zacząć pisać.
+
+0:00:15.880,0:00:18.890
+Na pzykład ja wpiszę 0.84,
+
+0:00:18.890,0:00:25.580
+żeby przypomnieć ci, że mowa jest o Padre w wersji 0.84, na Windowsie.
+
+0:00:25.580,0:00:31.390
+To samo stanie się na Linuksie, to jest taki sam Padre,
+
+0:00:31.390,0:00:34.230
+ale możesz mieć inną wersję,
+
+0:00:34.230,0:00:38.860
+więc pozycje menu mogą być nieco inne, lub zachowywać się nieco inaczej.
+
+0:00:38.860,0:00:43.090
+Później będę dodawał nowsze wersje screencasta.
+
+0:00:43.090,0:00:51.060
+Zatem, gdy wejdziesz w menu File, pierwsza pozycja to New, która jest zupełnie zwyczajna,
+
+0:00:51.060,0:00:56.910
+po prostu otwiera nowy, pusty bufor, gdzie możesz zacząć wpisywać kod.
+
+0:00:56.910,0:01:01.260
+Jest też druga pozycja nazwana New, z rozwijalnym pod-menu.
+
+0:01:01.260,0:01:09.640
+Pierwsza pozycja w nim, Perl 5 Script (Skrypt Perla 5), otwiera nowe okno edytora ze szkieletem skryptu,
+
+0:01:09.640,0:01:16.760
+są tu polecenia use i inne podstawowe, których prawdopodobnie chcesz użyć w swoim kodzie Perla -
+
+0:01:16.760,0:01:25.460
+z tym, że ta linia włącza Perla 5.6, a pewnie chciałbyś użyć wyższej wersji,
+
+0:01:25.460,0:01:33.340
+więc użyłbyś Perla 5.10, albo nawet nowszego.
+
+0:01:33.340,0:01:38.100
+Menu New ma też pozycję Perl 5 Module (Moduł Perla 5),
+
+0:01:38.100,0:01:43.150
+która powoduje pojawienie się okienka, pamiętającego ostatnią wpisaną wartość.
+
+0:01:43.150,0:01:49.000
+Wpisujesz w nim nazwę modułu, na przykład Module::Name,
+
+0:01:49.000,0:01:57.400
+kliknięcie OK utworzy nowe okno edytora, z gotowym szkieletem modułu -
+
+0:01:57.400,0:02:02.720
+instrukcja package, nazwa modułu, polecenia use, trochę dokumentacji,
+
+0:02:02.720,0:02:07.430
+a nawet konstruktor i prosta metoda.
+
+0:02:07.430,0:02:15.460
+Byłoby fajnie, gdyby te szablony mogły być konfigurowane przez użytkownika,
+
+0:02:15.460,0:02:19.300
+ale z tego, co wiem, są one zapisane na stałe i nie można ich zmienić,
+
+0:02:19.300,0:02:25.130
+chyba, że zmodyfikujesz pliki utworzone przez instalator Padre...
+
+0:02:25.130,0:02:28.750
+no cóż, są nieedytowalne.
+
+0:02:28.750,0:02:33.000
+W ten sam sposób możesz utworzyć plik z testami oraz skrypt Perla 6,
+
+0:02:33.000,0:02:37.710
+w którym, ponieważ Padre na razie, w tej wersji, nie obsługuje Perla 6,
+
+0:02:37.710,0:02:41.500
+nie będzie miał kolorowania składni.
+
+0:02:41.500,0:02:47.470
+Ostatnią pozycję pominę, bo w tej wersji Padre nie działa poprawnie.
+
+0:02:47.470,0:02:53.070
+Open (Otwórz) - otworzy standardowy eksplorator plików, w którym możesz wybrać jeden plik,
+
+0:02:53.070,0:02:58.720
+który zostanie otwarty i będzie dostępny do edycji.
+
+0:02:58.720,0:03:02.130
+Drugie menu Open ma kilka rozwijalnych pod-menu,
+
+0:03:02.130,0:03:09.060
+konkretnie, Open URL (Otwórz z adresu URL) pozwoli ci wpisać jakiś adres URL, na przykład taki jak tutaj,
+
+0:03:09.060,0:03:13.190
+pobierze z niego plik i otworzy go w edytorze.
+
+0:03:13.190,0:03:18.590
+Plik będzie otwarty w trybie tylko do odczytu, więc jeśli chcesz go faktycznie zapisać,
+
+0:03:18.590,0:03:24.000
+musisz zrobić to poprzez Save As (Zapisz jako).
+
+0:03:24.000,0:03:27.020
+Open Selection (Otwórz zaznaczone) - popatrzmy znowu tutaj,
+
+0:03:27.020,0:03:32.630
+na przykład w tym module mam polecenie use, albo jakąkolwiek nazwę modułu,
+
+0:03:32.630,0:03:40.170
+którą mogę zaznaczyć, wybrać Open, Selection (albo Ctrl-Shift-O),
+
+0:03:40.170,0:03:45.920
+a Padre poszuka tego modułu w twoim systemie plików, wewnątrz @INC,
+
+0:03:45.920,0:03:53.460
+znadzie plik, który go implementuje, i otworzy do edycji.
+
+0:03:53.460,0:04:04.070
+Jeśli masz go w kilku kopiach, pokazane zostanie menu, w którym będziesz mógł wybrać jedną.
+
+0:04:04.070,0:04:10.420
+Open file in browser (Otwórz w ekploratorze) - otworzy standardowy ekplorator plików twojego systemu,
+
+0:04:10.420,0:04:16.320
+w tym wypadku Windowsowy, na Linuksie zapewne Nautilus lub jakiś inny.
+
+0:04:16.320,0:04:26.900
+Zostanie otwarty na folderze, w którym jest zapisany aktualnie edytowany plik.
+
+0:04:26.900,0:04:32.440
+Open with default system editor (Otwórz w domyślnym edytorze) chwilowo nie działa, przynajmniej u mnie,
+
+0:04:32.440,0:04:37.440
+Open in command line (Otwórz linię komend) otworzy okno terminala - cmd na Windowsie,
+
+0:04:37.440,0:04:45.940
+w miejscu, gdzie znajduje się aktualny plik, wpisując "dir" możesz zobaczyć listę plików.
+
+0:04:45.940,0:04:51.600
+To samo działa na Windowsie, otwierając terminal shellowy.
+
+0:04:51.600,0:04:58.870
+Open example (Otwórz przykład), tutaj - ostatnia pozycja - to znowu standardowy eksplorator plików,
+
+0:04:58.870,0:05:03.940
+ale w folderze dostarczonym z Padre, w którym znaduje się kilka przykładowych skryptów.
+
+0:05:03.940,0:05:06.820
+Tutaj są przykłady dla początkujących,
+
+0:05:06.820,0:05:16.180
+a tu trochę skryptów wykorzustujących wxWidgets do tworzenia różnych okien.
+
+0:05:16.180,0:05:18.970
+Close (Zamknij) po prostu zamknie ten plik,
+
+0:05:18.970,0:05:24.140
+a jeśli był edytowany, zapyta, czy zapisać zmiany.
+
+0:05:24.140,0:05:30.810
+Jest też drugie menu Close z kilkoma pozycjami, Close this project (Zamknij ten projekt), or Close other projects (Zamknij inne projekty) -
+
+0:05:30.810,0:05:34.660
+to dotyczy projektów, nie będę się teraz nimi zajmował -
+
+0:05:34.660,0:05:38.890
+Close all files (Zamknij wszystkie pliki), to zamknęłoby wszystkie otwarte pliki,
+
+0:05:38.890,0:05:46.280
+albo Close all other files (Zamknij wszystkie inne pliki), to zamknęłoby wszystkie otwarte pliki oprócz aktualnie edytowanego.
+
+0:05:46.280,0:05:53.880
+Close files (Zamknij pliki) pozwoli ci wybrać pliki do zamknięcia z listy.
+
+0:05:53.880,0:06:00.960
+W naszym wypadku, ponieważ ten plik został już zedytowany, Padre pyta, czy go zapisać,
+
+0:06:00.960,0:06:07.740
+nie chcę tego zrobić, więc plik zostanie zamknięty.
+
+0:06:07.740,0:06:09.820
+Tak to działa.
+
+0:06:09.820,0:06:16.180
+Reload (Przeładuj) - gdy edytujesz plik, a jednocześnie poza Padre, na przykład,
+
+0:06:16.180,0:06:22.940
+użyjesz svn update, albo git fetch, i pliki się zdesynchronizują,
+
+0:06:22.940,0:06:26.270
+i w systemie plików znajdzie się nowsza wersja pliku.
+
+0:06:26.270,0:06:32.330
+Padre automatycznie to wykrywa, ale możesz z jakiegoś powodu wtedy anulować aktualizację pliku,
+
+0:06:32.330,0:06:39.570
+i dopiero to polecenie zmusi Padre do przeładowania, pozbywając się wersji pliku, ktorą masz w edytorze.
+
+0:06:39.570,0:06:46.370
+Możesz przeładować jeden plik, wszystkie na ra lub tylko niektóre.
+
+0:06:46.370,0:06:51.030
+Pliki do przeładowania można wybrać w tym okienku,
+
+0:06:51.030,0:07:01.050
+w tym wypadku mamy trzy okna, które nie są na razie powiązane z plikami.
+
+0:07:01.050,0:07:04.020
+Save (Zapisz) - to zwyczajnie zapisze plik,
+
+0:07:04.020,0:07:11.050
+Save As (Zapisz jako) pozwoli ci wybrać inną nazwę pliku i zapisać go pod nią.
+
+0:07:11.050,0:07:17.730
+Save Intuition (Zapis intuicyjny) - temu przyjrzę się później, gdy będę mówił o projektach.
+
+0:07:17.730,0:07:20.780
+Save all the files (Zapisz wszystkie pliki).
+
+0:07:20.780,0:07:28.340
+A teraz sesje - Open Session (Otwórz sesję) and Save Session (Zapisz sesję). W zasadzie sesja to po prostu zbiór plików.
+
+0:07:28.340,0:07:38.070
+Więc mógłbyś edytować trzy czy cztery pliki z jednego projektu, potem inne trzy czy cztery z kolejnego -
+
+0:07:38.070,0:07:45.600
+i to nazywamy sesjami, gdyż te pliki niekoniecznie należą do tej samej jednostki projektowej,
+
+0:07:45.600,0:07:48.060
+w Perlowym rozumieniu "projektu".
+
+0:07:48.060,0:07:54.970
+Pokażę przykład. Zamknijmy to wszystko, powiedzmy wszystkie inne pliki,
+
+0:07:54.970,0:07:59.370
+więc klikam tu, każę zamknąć wszystkie inne pliki,
+
+0:07:59.370,0:08:04.410
+Padre pyta mnie o każdy z osobna, czy zapisać w nim zmiany, ale nie chcę ich zapisywać.
+
+0:08:04.410,0:08:12.760
+No więc mamy jeden plik. Chciałbym zapisać tę sesję, która ma teraz tylko jeden plik.
+
+0:08:12.760,0:08:19.350
+Zapisuję ją, w ten sposób, i nazywam ją "example" ("przykład").
+
+0:08:19.350,0:08:24.000
+Mógłbym podać jakiś opis, ale to w tej chwili nie ma znaczenia, no i zapisuję ją.
+
+0:08:24.000,0:08:31.020
+Zamykam plik. Teraz klikam na Open session z menu File.
+
+0:08:31.020,0:08:35.870
+Pokaże się lista wszystkich moich sesji. W tym momencie mam dwie,
+
+0:08:35.870,0:08:40.690
+wybieram "example", i klikam Open (Otwórz).
+
+0:08:40.690,0:08:48.590
+Tutaj jest checkbox, który pewnie warto by zaznaczyć. Dzięki temu,
+
+0:08:48.590,0:08:56.660
+gdy otworzysz kolejne pliki wewnątrz sesji, zostaną automatycznie do niej dopisane,
+
+0:08:56.660,0:09:01.900
+i gdy otworzysz ją później, one również zostaną otwarte.
+
+0:09:01.900,0:09:11.690
+Otworzyłem sesję "example", i widzę ten sam plik, co wcześniej. Gdy otworzę kolejny, na przykład ten,
+
+0:09:11.690,0:09:21.030
+otwieram go, zamykam wszystkie pliki - albo zamiast tego otworzę sesję, ale inną.
+
+0:09:21.030,0:09:23.820
+Na przykład sesję "dwimmer".
+
+0:09:23.820,0:09:28.220
+To spowoduje zamknięcie wszystkich innych plików - tych, które nie należą do sesji "dwimmer",
+
+0:09:28.220,0:09:32.900
+i otwarcie plików, które do niej należą.
+
+0:09:32.900,0:09:42.730
+Teraz mogę znowu otworzyć sesję, wybieram "example", i widzę, że zapamiętane są w niej obydwa pliki.
+
+0:09:42.730,0:09:48.950
+Print (Drukuj) - nie jestem pewien, czy ta funkcja działa, ale nie sądze, żeby to było zbyt ważne.
+
+0:09:48.950,0:09:55.030
+Recent files (Ostatnio używane pliki), pokazuje listę niedawno otwieranych plików.
+
+0:09:55.030,0:10:02.520
+To usunie z niej wszystkie wpisy, a to je wszystkie otworzy.
+
+0:10:02.520,0:10:08.690
+I w końcu, Document Statistics (Statystyki dokumentu) da dostęp do pewnych informacji o aktualnym dokumencie.
+
+0:10:08.690,0:10:15.130
+To wszystko na temat menu File, następnym razem opowiem o menu Edit (Edycja). Dziękuję za wysłuchanie.
