@@ -274,13 +274,13 @@ cuando abren más archivos en su sesión actual, el programa automáticamente recue
 y así cuando abran esa sesión la próxima vez, esos archivos también se abran.
 
 0:09:01.900,0:09:11.690
-Entonces, abro la sesión "example", y tengo ese archivo en específico. Si por ejemplo abro otro archivo, por ejemplo este archivo,
+Entonces, por ejemplo, abro la sesión "example", y tengo este archivo en específico. Ahora abro otro archivo, por ejemplo este archivo,
 
 0:09:11.690,0:09:21.030
-(lo abro), y los cierro (cierro ahora todos los archivos), o en vez de eso abro una sesión diferente.
+y luego cierro todos los archivos, o en vez de eso abro una sesión diferente,
 
 0:09:21.030,0:09:23.820
-Por ejemplo, abro la sesión "dwimmer".
+por ejemplo, la sesión "dwimmer".
 
 0:09:23.820,0:09:28.220
 Entonces los demás archivos se cerrarán - todos los archivos que no pertenezcan a dicha sesión,
