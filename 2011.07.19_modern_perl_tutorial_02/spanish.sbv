@@ -14,21 +14,21 @@ Especialmente, esta
 presentación será sobre escalares.
 
 0:00:11.989,0:00:16.669
-Para que puedas ver Padre aqui, el IDE.  
-Esto es una versión de desarrollo. 
+Entonces puedes ver aquí el IDE Padre.
+Esta es una versión de desarrollo. 
 
 0:00:16.669,0:00:21.309
 Y la primera cosa que debes hacer 
 es crear un nuevo
 
 0:00:21.309,0:00:22.920
-script en Perl 5. 
+script de Perl 5. 
 
 0:00:22.920,0:00:26.239
-Sólo tiene el shebang, luego los
+Sólo tiene el shebang, luego
 
 0:00:26.239,0:00:28.949
-enunciados "uso". 
+la instrucción "use". 
 
 0:00:28.949,0:00:32.580
 Así que, Perl tiene tres tipos de  
@@ -41,7 +41,7 @@ y hashes.
 Escalares pueden contener 
 
 0:00:38.499,0:00:42.869
-un número o un string, un string de un solor valor 
+un número o una cadena de caractereres 
 o referencias a una de las estructuras 
 
 0:00:42.869,0:00:44.910
@@ -51,7 +51,7 @@ de datos complejas.
 Pero vamos a hablar de eso más adelante.
 
 0:00:48.410,0:00:51.810
-Cada
+Cada una de estas
 
 0:00:51.810,0:00:54.060
 tiene su propio signo específico,
@@ -64,8 +64,8 @@ que es el primer carácter del nombre
 de la variable.
 
 0:00:58.850,0:01:03.550
-Entonces en escalas tienes el signo del dólar($),
-en arrays tienes el signo de arroba(@), y en 
+Entonces los escalares tienes el signo del dólar($),
+los arrays tienes el signo de arroba(@), y en los
 
 0:01:03.550,0:01:08.260
 hashes que también se llaman diccionarios
@@ -89,8 +89,8 @@ y luego
 letras y números
 
 0:01:20.620,0:01:25.010
-y guiones bajos. Así, por ejemplo, puedes 
-tiener una variable como esta
+y caracteres de subrayado. Así, por ejemplo, puedes 
+tener una variable como esta
 
 0:01:25.010,0:01:26.390
 o
@@ -108,7 +108,7 @@ nombre largo
 que tiene letras minúsculas 
 
 0:01:35.509,0:01:38.770
-y las líneas de subrayado entre las palabras
+y caracteres de subrayado entre las palabras
 
 0:01:38.770,0:01:42.040
 o puedes tener
@@ -127,30 +127,30 @@ toda la comunidad
 
 0:01:48.990,0:01:52.800
 prefiere la versión anterior
-donde tienes todas minúsculas 
+donde tienes todas en minúsculas
 
 0:01:52.800,0:01:54.229
-en nombres
+todos los nombres
 
 0:01:54.229,0:01:57.230
-y líneas de subrayado entre las
+y caracteres de subrayado entre las
 variables
 
 0:01:57.230,0:02:00.690
-Ahora, debido a que está utilizando el "uso estricto"
+Ahora, debido a que está utilizando la instrucción "use strict"
 
 0:02:00.690,0:02:05.439
 siempre tendrás que declarar todas las variables
-usando la palabra clave "mi" 
+usando la palabra clave "my" 
 
 0:02:05.439,0:02:07.360
 Entonces, declaro mi variable
 
 0:02:07.360,0:02:08.719
-"mi $nombre"
+"my $nombre"
 
 0:02:08.719,0:02:11.359
-y pon "foo"
+y coloco "foo"
 
 0:02:11.359,0:02:14.319
 Y luego podre imprimir, perdón,
@@ -183,7 +183,7 @@ hace por mí.
 
 0:02:34.680,0:02:38.989
 Así que este es el camino. Primero declaramos
-una variable. Es "mi" y luego
+una variable. Es "my" y luego
 
 0:02:38.989,0:02:40.260
 le asignamos
@@ -203,7 +203,7 @@ declarar la variable y luego
 asignar un valor. Si lo ejecuto
 
 0:02:51.739,0:02:55.109
-Me sale el mismo resultado.
+Obtengo el mismo resultado.
 
 0:02:55.109,0:02:59.699
 Normalmente preferimos la primera versión. Así que si
@@ -235,7 +235,7 @@ no tiene un valor, así que
 Yo solamente lo declaro.
 
 0:03:23.569,0:03:26.579
-Tiene un valor que se llama "indef".
+Tiene un valor que se llama "undef".
 
 0:03:26.579,0:03:31.649
 Esta indefinido. Es
@@ -257,21 +257,21 @@ que tiene esa variable
 
 0:03:41.879,0:03:46.339
 tiene otro valor o si  
-solo tiene "indef". 
+solo tiene "undef". 
 
 0:03:46.339,0:03:52.859
-Podemos usar esta palabra clave "definida".
+Podemos usar esta palabra clave "defined".
 Para preguntar si esta definida
 y luego imprimir
 
 0:03:52.859,0:03:54.719
-"di 'definido'"
+"say 'defined'"
 
 0:03:54.719,0:03:57.459
-"si no"
+"else"
 
 0:03:57.459,0:04:00.159
-nosotros "decimos 'no'"
+entonces nosotros colocamos "say 'no'"
 
 0:04:00.159,0:04:01.920
 Y luego si yo ejecutó este código
@@ -289,7 +289,7 @@ Por contrario si tomo el mismo código
 y
 
 0:04:10.069,0:04:13.189
-lo pongo después de la asignación 
+lo coloco después de la asignación 
 
 0:04:13.189,0:04:15.709
 entonces verás que en un principio dice "no"
@@ -307,17 +307,17 @@ ya está
 el valor de "foo" porque el
 
 0:04:21.979,0:04:24.610
-imprimiento del valor es después 
+la impresión del valor es después
 
 0:04:24.610,0:04:25.979
 de actualmente 
 
 0:04:25.979,0:04:28.250
-imprimir del "definido". 
+imprimir el "defined". 
 
 0:04:28.250,0:04:32.430
 Así puedes ver que el aquí todavía no estaba 
-defindo, aquí le asignamos un valor y
+definido, aquí le asignamos un valor y
 
 0:04:32.430,0:04:36.040
 aquí se convirtió definido. 
@@ -326,14 +326,14 @@ aquí se convirtió definido.
 Más tarde podemos establecer el valor a 
 
 0:04:38.990,0:04:43.490
-"indef" de nuevo. Así que más adelante, por
+"undef" de nuevo. Así que más adelante, por
 ejemplo, aqui podemos decir que nombre
 
 0:04:43.490,0:04:44.659
 es igual a 
 
 0:04:44.659,0:04:46.479
-"indef"
+"undef"
 
 0:04:46.479,0:04:49.210
 Dejame solamente no copiar-pegar
@@ -341,16 +341,16 @@ el mismo código.
 
 0:04:49.210,0:04:54.899
 En este pungo, su valor 
-es "indef" otra vez 
+es "undef" otra vez 
 
 0:04:54.899,0:04:56.370
 Ahora, las variables
 
 0:04:56.370,0:04:59.319
-pueden contener números o strings
+pueden contener números o cadena de caracteres.
 
 0:04:59.319,0:05:01.169
-para que puedas...
+entonces puedes...
 
 0:05:01.169,0:05:03.710
 Vamos a empezar de nuevo
@@ -362,10 +362,10 @@ Pudes declarar una variable, digamos
 "$x"
 
 0:05:09.030,0:05:11.179
-Y ponerlo en un string 
+Y colocarlo en una cadena de caracteres.
 
 0:05:11.179,0:05:12.249
-pon un string a dentro de el  
+Colocar una cadena de caracteres a dentro de el  
 
 0:05:12.249,0:05:15.639
 Y luego puedes imprimir la variable 
@@ -381,7 +381,7 @@ Y luego puedes imprimi la variable otra vez
 Y si ejecutó el codigo, entonces verás que 
 
 0:05:24.769,0:05:27.809
-primero era un string y luego era un número
+primero era una cadena de caracteres y luego era un número
 
 0:05:27.809,0:05:30.529
 Y a Perl no le importa. Perl no tiene  
@@ -523,11 +523,11 @@ Luego el punto
 es una concatenación
 
 0:07:27.949,0:07:29.639
-Así que tomara dos strings 
+Así que tomara dos cadenas de caracteres
 
 0:07:29.639,0:07:33.249
 y básicamente convierte los dos 
-números en dos strings
+números en dos cadenas de caracteres
 
 0:07:33.249,0:07:34.709
 y los imprime 
@@ -549,7 +549,7 @@ el lado izquierdo
 que contiene "$z"
 
 0:07:45.359,0:07:46.759
-y lo toma como un string 
+y lo toma como una cadena de caracteres
 
 0:07:46.759,0:07:47.409
 y luego 
@@ -566,7 +566,7 @@ lado derecho.
 
 0:07:53.400,0:07:56.189
 Así que porque en el lado izquierdo 
-tienes string "3"
+tienes la cadena de caracteres "3"
 
 0:07:56.189,0:08:00.349
 y en el lado derecho tienes el número 4
@@ -590,7 +590,7 @@ es el que le dice
 a los operandos cómo comportarse ya sea como números
 
 0:08:12.800,0:08:15.499
-o como strings
+o como cadenas de caracteres
 
 0:08:15.499,0:08:17.069
 Pero qué sucede si
@@ -605,7 +605,7 @@ en realidad no son números
 Qué sucederá si estos son 
 
 0:08:22.460,0:08:24.649
-dos strings
+dos cadenas de caracteres
 
 0:08:24.649,0:08:26.509
 Si ejecuto el código ahora 
@@ -617,10 +617,10 @@ veremos que el resultado es el mismo
 porque Perl automáticamente convierte
 
 0:08:30.740,0:08:32.590
-números a strings
+números a cadenas de caracteres
 
 0:08:32.590,0:08:35.310
-y strings a números cuando sea necesario
+y cadenas de caracteres a números cuando sea necesario
 
 0:08:35.310,0:08:38.260
 cuando el operador lo requiere. 
@@ -629,7 +629,7 @@ cuando el operador lo requiere.
 Eso está bien. Y qué pasa si sólo uno  
 
 0:08:41.480,0:08:42.850
-de ellos es un string
+de ellos es una cadena de caracteres
 
 0:08:42.850,0:08:46.860
 y el otro es un número? 
@@ -651,7 +651,7 @@ Lo convierte automáticamente
 o no, si tu prefieres 
 
 0:08:56.930,0:09:01.060
-números a strings y los strings
+números a cadenas de caracteres y las cadenas de caracteres
 a números cada vez que 
 
 0:09:01.060,0:09:03.750
@@ -679,7 +679,7 @@ cien por ciento
 Qué sucede si el valor es por ejemplo
 
 0:09:16.960,0:09:20.890
-"3.14 es pi"
+"3.14 is pi"
 
 0:09:20.890,0:09:22.540
 En primer lugar, por cierto
@@ -698,10 +698,10 @@ Perl esta convertiendo los numeros es porque
 Perl tiene contexto así que tenemos contexto numérico 
 
 0:09:35.140,0:09:37.290
-y contexto de string.
+y contexto de cadena de caracteres.
 
 0:09:37.290,0:09:41.610
-Contexto numérico y contexto de string.
+Contexto numérico y contexto de cadena de caracteres.
 
 0:09:41.610,0:09:44.470
 Lo escribiré aqui
@@ -717,7 +717,7 @@ De cualquier manera lo que pasa en este caso es que
 Ahora tienes un you número - 3
 
 0:09:52.160,0:09:54.040
-y el string que 
+y la cadena de caracteres que 
 
 0:09:54.040,0:09:56.209
 en realidad no es convertible a un número 
@@ -736,7 +736,7 @@ Lo primero es 3, el numero 3 que
 fue imprimido. Eso está bien. 
 
 0:10:06.870,0:10:10.670
-Luego agaro "3.14 es pi"
+Luego agaro "3.14 is pi"
 
 0:10:10.670,0:10:14.910
 que solo esta imprimiendo de 
@@ -753,7 +753,7 @@ Esta advertencia esta alli porque estamos
 tratando de usar
 
 0:10:25.350,0:10:26.520
-este string 
+esta cadena de caracteres
 
 0:10:26.520,0:10:28.120
 en un contexto numérico 
@@ -777,7 +777,7 @@ Sí! En esta ventana.
 Así que puedes ver esto aquí.
 
 0:10:49.740,0:10:51.520
-Esto es el string. Esto es lo que
+Esto es la cadena de caracteres. Esto es lo que
 
 0:10:51.520,0:10:53.820
 se convierto en un número. 
@@ -803,7 +803,7 @@ pero eso podría indicar algún tipo de problema.
 Así que ahora es
 
 0:11:10.529,0:11:12.860
-"3.14 es pi"
+"3.14 is pi"
 
 0:11:12.860,0:11:17.030
 Pero en la adición se utiliza realmente 
@@ -813,7 +813,7 @@ solamente "3.14"
 Lo que Perl hace es que 
 
 0:11:19.160,0:11:21.440
-toma el lado izquierdo de el string 
+toma el lado izquierdo de la cadena de caracteres 
 
 0:11:21.440,0:11:22.880
 y
@@ -880,7 +880,7 @@ agaramos en realidad el "3"
 del "$z".
 
 0:12:03.519,0:12:06.530
-Y el "3.14 es pi"
+Y el "3.14 is pi"
 
 0:12:06.530,0:12:10.330
 viniendo de "$y". Así que puedes ver
@@ -890,7 +890,7 @@ que "$y" no cambio.
 "$y" 
 
 0:12:12.070,0:12:14.010
-sigue siendo el mismo string.
+sigue siendo la misma cadena de caracteres.
 
 0:12:14.010,0:12:15.970
 Y luego si miras a la tercera 
@@ -987,7 +987,7 @@ Cuando la suma
 causo que Perl convertiera
 
 0:13:21.940,0:13:26.399
-el string a el número luego
+la cadena de caracteres a el número luego
 realmente reservo ese número nuevo  
 
 0:13:26.399,0:13:27.920
@@ -998,7 +998,7 @@ en "$y"
 
 0:13:30.050,0:13:34.010
 Así que desde ese momento "$y" en realidad
-tenia dos valores: el valor de string y
+tenia dos valores: el valor de la cadena de caracteres y
 
 0:13:34.010,0:13:35.310
 el valor del número 
@@ -1027,8 +1027,8 @@ Así es como funciona conversiones.
 Ahora ya sabes 
 
 0:13:54.840,0:13:58.950
-como la conversión trabaja de números a strings
-Así que de número a string
+como la conversión trabaja de números a cadenas de caracteres
+Así que de número a una cadena de caracteres
 
 0:13:58.950,0:14:01.790
 es bastante fácil. Es el mismo
@@ -1037,15 +1037,15 @@ es bastante fácil. Es el mismo
 valor. Entonces si tienes un número como tres.
 
 0:14:04.359,0:14:08.060
-Y si lo miras como un string 
-solo es un string, la letra 3,
+Y si lo miras como una cadena de caracteres
+solo es una cadena de caracteres, la letra 3,
 
 0:14:08.060,0:14:11.329
 el dígito 3. Y si tienes un
 número 
 
 0:14:11.329,0:14:15.369
-Un string que es un número como "3.14".
+Una cadena de caracteres que es un número como "3.14".
 
 0:14:15.369,0:14:19.150
 Si sólo tienes esta 
@@ -1066,10 +1066,10 @@ Así que hay un par de problemas, que nos gustaría
 hablar mas.
 
 0:14:34.070,0:14:36.680
-Uno de ellos es "indef".
+Uno de ellos es "undef".
 
 0:14:36.680,0:14:39.560
-Entonces que pasa con "indef" en el mismo contexto
+Entonces que pasa con "undef" en el mismo contexto
 
 0:14:39.560,0:14:40.710
 Vamos a ver...
@@ -1084,7 +1084,7 @@ uh...
 mi $y
 
 0:14:48.369,0:14:51.750
-Y porque sabes que es "indef"
+Y porque sabes que es "undef"
 
 0:14:51.750,0:14:53.150
 No lo voy a imprimir.
@@ -1118,7 +1118,7 @@ Diciéndome que estoy tratando de usar
 los valores sin inicializar. Esto significa, que "$y"
 
 0:15:16.290,0:15:21.800
-fue "indef". Tanto en la adición 
+fue "undef". Tanto en la adición 
 y la concatenación. 
 
 0:15:21.800,0:15:26.490
@@ -1128,13 +1128,13 @@ Así que puedes ver que
 Perl me da avisos, cuando estoy tratando de usar
 
 0:15:29.810,0:15:32.520
-una variable que es "indef".
+una variable que es "undef".
 
 0:15:32.520,0:15:34.020
 En un contexto 
 
 0:15:34.020,0:15:37.640
-numérico o en contexto de string. 
+numérico o en contexto de cadena de caracteres. 
 
 0:15:37.640,0:15:39.740
 Pero como puedes ver,
@@ -1143,16 +1143,16 @@ Pero como puedes ver,
 aunque es un poco difícil de ver, 
 
 0:15:42.470,0:15:44.850
-El primer "decir" esta imprimiendo "3" aqui.
+El primer "say" esta imprimiendo "3" aqui.
 
 0:15:44.850,0:15:45.670
 Y entonces este 
 
 0:15:45.670,0:15:47.449
-"decir" imprime "3" otra vez
+"say" imprime "3" otra vez
 
 0:15:47.449,0:15:50.420
-porque "$y", aunque es "indef",
+porque "$y", aunque es "undef",
 
 0:15:50.420,0:15:52.390
 en un contexto numérico
@@ -1164,26 +1164,26 @@ se comporta como 0.
 Y en esta concatenación agaro "3" otra vez
 
 0:15:57.910,0:16:00.540
-a pesar de que "$y" es "indef".
+a pesar de que "$y" es "undef".
 
 0:16:00.540,0:16:05.670
-pero en contexto de string se comporta como 
-un string vacío
+pero en contexto de cadena de caracteres se comporta como 
+una cadena de caracteres vacía
 
 0:16:05.670,0:16:09.520
 Si te quieres asegurar, que todavia 
 
 0:16:09.520,0:16:15.070
-esta "indef". Entonces
+esta "undef". Entonces
 
 0:16:15.070,0:16:17.490
-"imprime 'definido'"
+"print 'defined'"
 
 0:16:17.490,0:16:20.760
-y "si no"
+y "else"
 
 0:16:20.760,0:16:22.870
-Perdón deberia ser "decir"
+Perdón deberia ser "say"
 
 0:16:22.870,0:16:25.810
 'no'
@@ -1206,7 +1206,7 @@ Perl estaba usando esta
 en ambos
 
 0:16:40.730,0:16:42.459
-contexto numérico y contexto de string
+contexto numérico y contexto de cadena de caracteres
 
 0:16:42.459,0:16:45.420
 no cambio la variable.
@@ -1239,7 +1239,7 @@ es cambiar las advertencias a excepciones.
 Pueden escribir aquí "FATAL".
 
 0:17:08.990,0:17:13.189
-Y luego, digamos, "=> todo".
+Y luego, digamos, "=> all".
 Esto cambiara todas las advertencias
 
 0:17:13.189,0:17:15.680
@@ -1267,7 +1267,7 @@ Y agaro
 la primera imprimida 
 
 0:17:26.890,0:17:28.419
-el primer "decir" aqui
+el primer "say" aqui
 
 0:17:28.419,0:17:31.759
 Y luego cuando estoy tratando de sumar los valores.  
@@ -1375,7 +1375,7 @@ Así que ahora puedes ver que tengo el
 número "3" y que tengo el resultado
 
 0:19:06.120,0:19:10.390
-de la concatenación, y el "definido"
+de la concatenación, y el "defined"
 aqui.
 
 0:19:10.390,0:19:12.420
