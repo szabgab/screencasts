@@ -1,0 +1,635 @@
+0:00:04.340,0:00:07.590
+Hallo! Willkommen zurück auf dem Kanal. Dieses Mal
+
+0:00:07.590,0:00:10.319
+werde ich mit einem Tutorial für Perl beginnen
+
+0:00:10.319,0:00:13.439
+... oder nennt es eher ein Tutorial für modernes Perl
+
+0:00:13.439,0:00:16.869
+obwohl "modern" ein Unwort ist
+
+0:00:16.869,0:00:18.249
+jedoch
+
+0:00:18.249,0:00:20.510
+hat es hier auch eine Bedeutung.
+
+0:00:20.510,0:00:22.199
+Nun, ich versuche euch Dinge zu zeigen,
+
+0:00:22.199,0:00:25.039
+die zumindest
+
+0:00:25.039,0:00:29.429
+... die eine moderne Version von Perl benötigen, die
+in den letzten paar Jahren veröffentlicht wurde
+
+0:00:29.429,0:00:32.970
+basierend auf Perl 5.010zum Beispiel.
+
+0:00:32.970,0:00:36.020
+Es gibt dieses Buch hier;
+
+0:00:36.020,0:00:39.790
+das hier ist es; dieses Buch
+
+0:00:39.790,0:00:41.370
+wird 'Modern Perl' genannt,
+
+0:00:41.370,0:00:47.200
+jedoch würde ich diesem Buch nicht folgen,
+ich werde dem
+
+0:00:47.200,0:00:49.230
+Trainingsmaterial folgen, welches ich benutzt habe
+
+0:00:49.230,0:00:52.780
+mit dem kleinen Unterschied, dass das Format
+anders ist
+
+0:00:52.780,0:00:54.370
+für meine Übungen
+
+0:00:54.370,0:00:57.990
+jedoch empfehle ich euch wirklich dieses Buch zu kaufen, oder es
+kostenlos
+
+0:00:57.990,0:00:59.280
+als PDF herunterzuladen.
+
+0:00:59.280,0:01:02.580
+Wenn ihr das Geld darin nicht
+
+0:01:02.580,0:01:06.120
+nicht investieren möchtet,
+dann ladet es euch einfach herunter;
+
+0:01:06.120,0:01:08.170
+ich werde euch den Link
+
+0:01:08.170,0:01:11.310
+irgendwann später zeigen
+
+0:01:11.310,0:01:12.409
+wie auch immer ...
+
+0:01:12.409,0:01:15.979
+das Buch ist wirklich gut, und ich empfehle euch
+
+0:01:15.979,0:01:16.990
+es zu lesen
+
+0:01:16.990,0:01:21.690
+obwohl es nicht wirklich ein Tutorial oder
+ein Basis-Lernbuch ist.
+
+0:01:21.690,0:01:25.830
+Also lasst uns mal sehen, was wir benutzen werde.
+Wir werden die
+
+0:01:25.830,0:01:28.850
+Strawberry Perl-Distribution benutzen.
+
+0:01:28.850,0:01:30.859
+Eigentlich ein Derivat der Strawberry
+Perl-Distribution
+
+0:01:30.859,0:01:32.360
+Padre
+
+0:01:32.360,0:01:34.520
+mit Strawberry-Paketen.
+
+0:01:34.520,0:01:38.080
+Wir könnten auch jede andere Version 
+von Perl verwenden
+
+0:01:38.080,0:01:39.180
+jedoch macht es
+
+0:01:39.180,0:01:42.060
+das alles ein bisschen einfacher
+
+0:01:42.060,0:01:45.240
+Als Erstes gehen wir auf die Webseite von Padre
+
+0:01:45.240,0:01:47.950
+Padre (http://padre.perlide.org/)
+
+0:01:47.950,0:01:49.220
+her seht ihr den Download-Link
+
+0:01:49.220,0:01:52.890
+klickt auf ihn
+
+0:01:52.890,0:01:56.630
+scrollt ein bisschen herunter. Dort ist ein Link
+zum Download der neuesten Version von
+
+0:01:56.630,0:01:58.890
+Padre mit Strawberry.
+
+0:01:58.890,0:02:00.050
+Dies beinhaltet
+
+0:02:00.050,0:02:03.350
+den Perl-compiler/interpreter
+
+0:02:03.350,0:02:05.049
+, sowie
+
+0:02:05.049,0:02:09.069
+auch einen eine offene Arbeitsumgebung (im Prinzip ein Editor), der
+Padre genannt wird
+
+0:02:09.069,0:02:14.370
+, als auch viele Module, die ihr für die 
+Entwicklung brauchen werdet
+
+0:02:14.370,0:02:16.459
+Also empfehle ich, dies herunterzuladen
+
+0:02:16.459,0:02:20.879
+Doppelklickt es und folgt den Anweisungen
+
+0:02:20.879,0:02:21.849
+installiert es.
+
+0:02:21.849,0:02:23.599
+Sobald ihr es installiert habt, habt ihr es
+
+0:02:23.599,0:02:25.160
+im Startmenü
+
+0:02:25.160,0:02:27.089
+wenn ihr auf 'Alle Programme' geht
+
+0:02:27.089,0:02:31.309
+'Strawberry Perl' und auf den Schmetterling klickt
+(hier der blaue)
+
+0:02:31.309,0:02:34.969
+das öffnet die IDE (Entwicklungsumgebung).
+
+0:02:34.969,0:02:37.349
+Wenn ihr die IDE geöffnet habt,
+
+0:02:37.349,0:02:40.799
+habt ihr hier das leere Feld zum Eingeben des Textes.
+
+0:02:40.799,0:02:43.799
+Was wir tun werden ist
+
+0:02:43.799,0:02:49.019
+in die Menü-Option 'File' gehen und in 'New' (das zweite
+'New') auf
+
+0:02:49.019,0:02:50.639
+'Perl 5 Script' klicken.
+
+0:02:50.639,0:02:54.789
+Dies generiert ein Perl 5-Skript für euch.
+
+0:02:54.789,0:02:58.469
+Ich werde die einzelnen Teile später erklären.
+
+0:02:58.469,0:03:03.109
+Was ihr eingeben müsst ist:
+
+0:03:03.109,0:03:04.629
+print "hello world\n";
+
+0:03:04.629,0:03:06.889
+Das ist eine Standard-Anweisung
+
+0:03:06.889,0:03:11.839
+dann müsst ihr die ungesicherte Datei 
+abspeichern. Ohne Abspeichern
+
+0:03:11.839,0:03:13.299
+kann der Editor das Skript nicht starten.
+
+0:03:13.299,0:03:18.879
+Also speichern wir es
+
+0:03:18.879,0:03:21.849
+(sagen wir, hello world, 'hw.pl').
+
+0:03:21.849,0:03:25.309
+Also speichern.
+
+0:03:25.309,0:03:29.569
+Wenn ich es gespeichert habe, kann ich es per 'Run' -> 'Run
+Script' starten oder durch drücken von F5.
+
+0:03:29.569,0:03:30.709
+Es öffnet sich ein Fenster,
+
+0:03:30.709,0:03:32.629
+ein Popup-Fenster,
+
+0:03:32.629,0:03:35.329
+und ihr seht 'hello world' dargestellt.
+
+0:03:35.329,0:03:39.129
+'Press any key continue . . .': Das ist etwas,
+dass Windows hinzufügt,
+
+0:03:39.129,0:03:43.409
+damit wir die Ausgabe sehen können, denn
+sonst würde das Fenster sich
+
+0:03:43.409,0:03:44.640
+sofort wieder schließen
+
+0:03:44.640,0:03:48.039
+und wir würden die Ausgabe nicht sehen.
+
+0:03:48.039,0:03:50.839
+Also drückt einfach eine beliebige Taste und ihr
+
+0:03:50.839,0:03:53.579
+könnt fortfahren.
+
+0:03:53.579,0:03:57.659
+So, das ist also ein Beispiel um ein sehr
+einfaches Perl-Script zu schreiben;
+
+0:03:57.659,0:03:59.380
+lasst uns die einzelnen Teile noch einmal genauer ansehen.
+
+0:03:59.380,0:04:03.949
+Die erste Zeile wird ‘shebang’ genannt. Es wird zumeist
+für Unix-Systeme genutzt
+
+0:04:03.949,0:04:08.739
+jedoch macht es keinen Unterschied, wenn ihr es auf einem
+Windows-Rechner ausführt.
+
+0:04:08.739,0:04:10.229
+Es ist also nicht weiter von Belang.
+
+0:04:10.229,0:04:12.110
+use 5.6;
+
+0:04:12.110,0:04:14.849
+Das bedeuted, dass
+
+0:04:14.849,0:04:16.799
+wenn ihr das Script startet,
+
+0:04:16.799,0:04:20.169
+zunächst überprüft wird, ob eure Perl Version zumindest
+
+0:04:20.169,0:04:24.830
+Version 5.6 ist.
+
+0:04:24.830,0:04:29.590
+Das ist eigentlich eine sehr alte Version von
+Perl,
+
+0:04:29.590,0:04:32.209
+die Version 5.6,
+
+0:04:32.209,0:04:36.389
+also werden wir eine neuere benutzen, und auch eine
+neuere Voraussetzen.
+
+0:04:36.389,0:04:39.739
+Ändert dies also ab auf: use 5.010;
+
+0:04:39.739,0:04:46.510
+Genau genommen wird dies auch ebenfalls ein paar
+neue Funktionen der Sprache aktivieren.
+
+0:04:46.510,0:04:51.679
+use strict; und use warnings; sind zwei zusätzliche,
+
+0:04:51.679,0:04:53.470
+grundlegende Complier-Kennzeichnungen,
+
+0:04:53.470,0:04:56.639
+welche den Perl-Interpreter
+
+0:04:56.639,0:04:57.949
+ein bisschen anders
+
+0:04:57.949,0:04:59.169
+arbeiten lässt,
+
+0:04:59.169,0:05:00.699
+auf eine striktere Art und Weise, und
+
+0:05:00.699,0:05:02.919
+um Warnungen anzuzeigen,
+
+0:05:02.919,0:05:04.729
+um gewisse Probleme
+
+0:05:04.729,0:05:05.389
+zu vermeiden.
+
+0:05:05.389,0:05:10.290
+Also empfehle ich euch, bei jedem
+Skript mit diesen 3 Einträgen
+
+0:05:10.290,0:05:11.110
+zu beginnen;
+
+0:05:11.110,0:05:14.050
+das Shebang ist nicht weiter wichtig für uns.
+
+0:05:14.050,0:05:16.080
+Dann haben wir dies;
+
+0:05:16.080,0:05:20.440
+Was ihr hier seht ist das Stichwort 'print'
+von Perl,
+
+0:05:20.440,0:05:24.340
+jede Zeichenkette muss in Anführungszeichen stehen;
+
+0:05:24.340,0:05:27.360
+hier schreiben wir sie in doppelten Anführungszeichen
+
+0:05:27.360,0:05:29.580
+und 'n' hier backslashen (\n)
+
+0:05:29.580,0:05:30.360
+bedeutet, dass wenn
+
+0:05:30.360,0:05:31.750
+es ausgegeben wird
+
+0:05:31.750,0:05:33.259
+es eine
+
+0:05:33.259,0:05:35.449
+neue Zeile am Ende ausgibt.
+
+0:05:35.449,0:05:38.930
+Wie ihr seht endet der Befehl hier mit
+
+0:05:38.930,0:05:40.469
+einem Semikolon.
+
+0:05:40.469,0:05:43.430
+Weil ich ...
+
+0:05:43.430,0:05:45.169
+I fordere bereits 5.010,
+
+0:05:45.169,0:05:46.940
+es fügt bereits ein neues Feature
+
+0:05:46.940,0:05:51.800
+zur Sprache hinzu,welches nicht eher existierte
+Also kann man 'print' entfernen und
+
+0:05:51.800,0:05:53.180
+stattdessen 'say' schreiben
+
+0:05:53.180,0:05:56.069
+dann kann ich ebenfalls die neue Zeile entfernen;
+
+0:05:56.069,0:05:58.960
+und wenn ich jetzt F5 drücke,
+
+0:05:58.960,0:06:02.340
+speichert es automatisch die Datei und führt sie aus,
+
+0:06:02.340,0:06:04.800
+also seht ihr das Ergebnis der neuen Version,
+
+0:06:04.800,0:06:06.939
+und es scheint das gleiche zu sein.
+
+0:06:06.939,0:06:09.219
+Es funktioniert noch.
+
+0:06:09.219,0:06:12.929
+Also müsst ihr nicht so viel tippen, wenn ihr
+5.010 verwendet
+
+0:06:12.929,0:06:15.889
+und ihr könnt den Befehl 'say' benutzen, sodass
+ihr keine neue Zeile einfügen müsst.
+
+0:06:15.889,0:06:20.429
+Das ist schon gut, aber wir würden gerne eine Interaktion
+mit der Außenwelt haben.
+
+0:06:20.429,0:06:24.460
+Also, fragen wir den Benuter 'Was
+
+0:06:24.460,0:06:26.340
+ist sein Name'.
+
+0:06:26.340,0:06:29.789
+'Was ist dein Name?'.
+
+0:06:29.789,0:06:31.969
+Also, fragen wir die Person.
+
+0:06:31.969,0:06:35.979
+Dann müssen wir die Information von dem Benutzer
+nehmen.
+
+0:06:35.979,0:06:40.049
+Also definiere ich eine neue Variable (unsere
+erste Variable)
+
+0:06:40.049,0:06:41.629
+welche wir '$name' nennen.
+
+0:06:41.629,0:06:44.449
+Ich nutze das Stichwort 'my' um sie zu definieren.
+
+0:06:44.449,0:06:49.389
+Um eine Variable zu deklarieren, '$' (Dollar) ist immer
+immer der Präfix einer skalaren Variable.
+
+0:06:49.389,0:06:50.409
+Gut
+
+0:06:50.409,0:06:52.050
+in diesem Fall,
+
+0:06:52.050,0:06:54.270
+der Name der Variable ist '$name',
+
+0:06:54.270,0:06:55.030
+und dann
+
+0:06:55.030,0:06:58.579
+benutzen wir
+
+0:06:58.579,0:07:00.020
+diesen Operator,
+
+0:07:00.020,0:07:04.169
+der aus der Standardeingabe (von der
+Tastatur)
+
+0:07:04.169,0:07:05.819
+eine Zeile list, bis
+
+0:07:05.819,0:07:06.680
+der Benutzer
+
+0:07:06.680,0:07:07.849
+'Enter' drückt.
+
+0:07:07.849,0:07:11.050
+Das Ergebnis kommt also in die $ Variable namens
+
+0:07:11.050,0:07:14.029
+'$name' und diese würden wir gerne ausgeben
+
+0:07:14.029,0:07:15.800
+also machen wir 'say "hello"'
+
+0:07:15.800,0:07:19.059
+und fügen '$name' hinzu.
+
+0:07:19.059,0:07:23.639
+Wie ihr seht könnt ihr Variablen in
+Zeichenketten einbinden und sie
+
+0:07:23.639,0:07:26.419
+werden ausgegeben.
+
+0:07:26.419,0:07:29.160
+Lasst uns das Beispiel fortführen.
+
+0:07:29.160,0:07:31.270
+Jetzt führen wir es aus.
+
+0:07:31.270,0:07:32.470
+Drückt also F5.
+
+0:07:32.470,0:07:37.599
+Es fragt mich wie mein Name ist,
+
+0:07:37.599,0:07:40.610
+also tippe ich ein ... sagen wir 'foo', pdrücke 'Enter' und
+es wird mir sagen 'hello foo'.
+
+0:07:40.610,0:07:42.549
+Soweit so gut.
+
+0:07:42.549,0:07:48.509
+Nun lasst uns ein bisschen höflicher sein und fragen
+'How
+
+0:07:48.509,0:07:51.020
+are you?'.
+
+0:07:51.020,0:07:56.739
+Lasst uns damit fortfahren. ich drücke F5, es fragt mich
+nach meinem Namen,
+
+0:07:56.739,0:07:58.459
+immernoch 'foo';
+
+0:07:58.459,0:08:01.080
+und wenn es ausgibt, könnt ihr sehen, dass
+
+0:08:01.080,0:08:04.120
+nach 'foo', eine neue Zeile ausgegebn wird
+
+0:08:04.120,0:08:06.629
+und nur dann das Komma ',' (comma).
+
+0:08:06.629,0:08:09.279
+Warum das?
+
+0:08:09.279,0:08:13.289
+Also wir die Antwort
+'foo' eintippten
+
+0:08:13.289,0:08:15.819
+mussten wir 'Enter' drücken,
+
+0:08:15.819,0:08:17.059
+um Windows
+
+0:08:17.059,0:08:20.520
+Padre Perl mitzuteilen, dass die Eingabe beendet ist;
+
+0:08:20.520,0:08:24.849
+sodass der Name zur Variable '$name' hinzugefügt wird.
+
+0:08:24.849,0:08:28.210
+Und, wir haben die neue Zeile nicht entfernt,
+
+0:08:28.210,0:08:31.279
+wir haben also die neue Zeile und sie wird ausgegeben
+
+0:08:31.279,0:08:35.300
+auch wenn wir es in diesem Quelltext
+nicht sehen,
+
+0:08:35.300,0:08:37.350
+und da es ein sehr spezieller Fall ist,
+
+0:08:37.350,0:08:42.050
+hat Perl eine Funktion um soetwas zu
+entfernen.
+
+0:08:42.050,0:08:44.120
+Also gebe ich 'chomp' ein,
+
+0:08:44.120,0:08:47.300
+welches die Funktion zum Entfernen von neuen Zeilen
+
+0:08:47.300,0:08:51.050
+am Ende einer Zeichenkette ist. Ich gebe den Namen einer
+Variablen an.
+
+0:08:51.050,0:08:52.500
+Das entfernt 
+
+0:08:52.500,0:08:55.510
+die nachstehende leere Zeile aus dieser Zeichenkette
+
+0:08:55.510,0:08:57.750
+starte das Skript erneut,
+
+0:08:57.750,0:09:01.060
+ich nenne mich immernoch 'foo',
+
+0:09:01.060,0:09:04.760
+doch dieses mal seht ihr, dass die neue Zeile
+verschwunden ist
+
+0:09:04.760,0:09:06.910
+und es funktioniert gut.
+
+0:09:06.910,0:09:09.860
+Ich denke das ist vorerst genug für
+
+0:09:09.860,0:09:11.200
+dieses Tutorial.
+
+0:09:11.200,0:09:14.150
+Es gibt ein paar Aufgaben im Blog, die 
+
+0:09:14.150,0:09:15.170
+mit diesem
+
+0:09:15.170,0:09:19.270
+Screencast
+
+0:09:19.270,0:09:20.450
+zusammenhängen.
+
+0:09:20.450,0:09:24.680
+Folgt dem untenstehenden Link zu den 
+Aufgaben, sodass ihr
+
+0:09:24.680,0:09:26.910
+mit ihnen spielen könnt. Ich hoffe euch im nächsten Kapitel
+wiederzusehen. Tschüss.
