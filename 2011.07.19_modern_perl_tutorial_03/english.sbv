@@ -1,12 +1,12 @@
 0:00:01.533,0:00:08.533
-Привет, в этой части я хотел бы показать 
- вам как Perl сравнивает скалярные величины.
+Hi, in this part I’m going to show 
+ you how Perl can compare scalar values.
 
 0:00:08.533,0:00:13.667
-Попробуем сравнить 1 и 1.0 и 1.00
+I would like to see whether 1 and 1.0 and 1.00
 
 0:00:13.667,0:00:16.000
-Одинаковы ли они? Может, одно из них больше или меньше остальных?
+Are they equal, one of them is bigger, one of them is smaller?
 
 0:00:16.000,0:00:21.333
 What about 1.00 in a string, so in quotation marks?
