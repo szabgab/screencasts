@@ -149,7 +149,7 @@ Tal vez no es la manera más conveniente,
 pero es lo que tenemos que usar.
 
 0:02:48.723,0:02:55.199
-Si ejecuto index en la cadena "The", 'T' mayúscula
+Si ejecuto index en la cadena "The", con 'T' mayúscula
 
 0:02:55.199,0:02:56.932
 regresará 0
@@ -665,7 +665,7 @@ Puedes introducir una cadena de caracteres vacía,
 pero tendrán que tenerla aquí.
 
 0:11:53.939,0:11:59.275
-Y entonces, lafunción substr de Perl cortará esa parte de la cadena.
+Y entonces, la función substr de Perl cortará esa parte de la cadena.
 
 0:11:59.275,0:12:01.196
 Dejará, en este caso, dos espacios.
