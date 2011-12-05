@@ -1,0 +1,1294 @@
+0:00:03.630,0:00:07.430
+Hallo und willkommen zurück auf meinem Kanal.
+Dieses Mal werde ich meine 15 Minuten nutzen
+
+0:00:07.430,0:00:08.280
+und erstelle
+
+0:00:08.280,0:00:09.919
+eine kleine Weblog Engine.
+
+0:00:09.919,0:00:10.950
+Ich werde ein Framework nutzen,
+
+0:00:10.950,0:00:14.959
+das Perl Dancer Framework,
+das man hier finden kann:
+
+0:00:14.959,0:00:16.439
+perldancer.org
+
+0:00:16.439,0:00:21.849
+und ich werde natürlich Padre nutzen
+und die Padre on Strawberry
+
+0:00:21.849,0:00:22.869
+Distribution.
+
+0:00:22.869,0:00:24.499
+Und ich werde es unter Windows nutzen.
+
+0:00:24.499,0:00:29.410
+Also was wir brauchen ist ..
+Starten wir Strawberry Perl .. Padre
+
+0:00:29.410,0:00:34.030
+Wir brauchen einen Editor und wenn wir den geöffnet haben
+erstellen wir eine leere Seite.
+
+0:00:34.030,0:00:40.850
+Dancer kommt mit einer Befehlszeilenanwendung,
+die uns erlaubt ein Grundgerüst unserer Seite zu erstellen.
+
+0:00:40.850,0:00:43.430
+Dafür müssen wir cmd
+
+0:00:43.430,0:00:45.690
+ausführen
+
+0:00:45.690,0:00:50.130
+und das Verzeichnes wechseln
+
+0:00:50.130,0:00:51.110
+in das 'work' Verzeichnis
+
+0:00:51.110,0:00:56.160
+und hier erstelle ich das Grundgerüst.
+Ich schreibe "dancer -a" und den
+
+0:00:56.160,0:00:58.480
+Namen der Anwendung
+
+0:00:58.480,0:01:00.380
+ich habe mir Dwimmer ausgesucht
+
+0:01:00.380,0:01:02.330
+für den Namen
+
+0:01:02.330,0:01:04.560
+als eine Art ... Magier
+oder was auch immer
+
+0:01:04.560,0:01:08.040
+also werde ich die Anwendung
+Dwimmer nennen
+
+0:01:08.040,0:01:09.050
+ist ..
+
+0:01:09.050,0:01:12.970
+Das Ausführen dieses Scripts
+wird ein Unterverzeichnis erstellen
+
+0:01:12.970,0:01:18.400
+für die Anwendung und die verschiedenen Dateien,
+die das Grundgerüst darstellen.
+
+0:01:18.400,0:01:23.680
+Wenn ich in dieses Verzeichnis gehe, 
+kann ich 'perl bin' schreiben
+
+0:01:23.680,0:01:24.640
+und den Namen
+
+0:01:24.640,0:01:29.750
+'app.pl' und die Anwendung ausführen.
+Jetzt haben wir schon das Grundgerüst
+
+0:01:29.750,0:01:35.750
+und ich kann zum Browser wechseln und
+'localhost:3000' eingeben
+
+0:01:35.750,0:01:40.040
+und es wird mir die Standardseite anzeigen,
+die Dancer für mich erstellt hat.
+
+0:01:40.040,0:01:41.740
+Wie sieht´s aus?
+
+0:01:41.740,0:01:47.610
+Dann gehe ich zurück zu Padre und öffne die Datei.
+
+0:01:47.610,0:01:49.400
+Wenn ich die Datei öffne
+
+0:01:49.400,0:01:55.380
+die Datei ist .. wenn ich mich richtig erinnere
+in 'work'
+
+0:01:55.380,0:01:56.330
+Dwimmer
+
+0:01:56.330,0:01:59.509
+und dann das 'bin'-Verzeichnis und app.pl.
+
+0:01:59.509,0:02:02.469
+Hier sehen wir, dass das Script selber
+fast leer ist,
+
+0:02:02.469,0:02:04.940
+es lädt nur das Dwimmer Modul.
+
+0:02:04.940,0:02:08.419
+Das Dwimmer Modul ist in dem 'lib'-Verzeichnis.
+Um es besser zu sehen
+
+
+0:02:08.419,0:02:11.399
+öffne ich den Projekt-Browser
+
+0:02:11.399,0:02:14.279
+und Padre erkennt automatisch das Projekt
+
+0:02:14.279,0:02:15.569
+.. das Perl-Projekt.
+
+0:02:15.569,0:02:19.700
+Es ist im 'lib'-Verzeichnis,
+da ist die Dwimmer.pm
+
+0:02:19.700,0:02:23.900
+und hier ist die Anwendung,
+die definiert, dass da ..
+
+0:02:23.900,0:02:27.250
+wenn der Nutzer mit einer GET-Anfrage kommt
+
+0:02:27.250,0:02:28.450
+auf die Startseite
+
+0:02:28.450,0:02:30.010
+dann soll diese Subroutine
+
+0:02:30.010,0:02:30.920
+ausgeführt werden
+
+0:02:30.920,0:02:34.259
+welche einfach das 'index'-Template lädt.
+Die Templates sind
+
+0:02:34.259,0:02:37.620
+in dem 'views'-Unterverzeichnis,
+also index.tt
+
+0:02:37.620,0:02:39.749
+ist das Template,
+
+0:02:39.749,0:02:41.769
+welches wir...
+
+0:02:41.769,0:02:44.629
+Dancer kommt mit einem wirklich
+einfachen Template System,
+
+0:02:44.629,0:02:46.720
+aber ich habe bereits
+
+0:02:46.720,0:02:48.859
+Template::Toolkit installiert,
+
+0:02:48.859,0:02:52.939
+dass mit Padre on Strawberry Perl kommt.
+Also das Erste,
+
+0:02:52.939,0:02:55.829
+was ich machen möchte ist,
+das Template System zu ändern.
+
+0:02:55.829,0:02:58.430
+Das kann ich in der config.yml Datei machen.
+
+0:02:58.430,0:03:00.079
+Die ist im Root-Verzeichnis
+
+0:03:00.079,0:03:01.779
+der Anwendung.
+
+0:03:01.779,0:03:05.869
+Hier können wir sehen, dass da ein
+Template ist, das 'simple template'
+
+0:03:05.869,0:03:09.599
+und ... ich möchte gerne
+Template::Toolkit nutzen
+
+0:03:09.599,0:03:10.760
+und hier
+
+0:03:10.760,0:03:14.739
+definiere ich auch, dass die 
+Codierung utf-8 sein soll.
+
+0:03:14.739,0:03:19.529
+Die Start- und End-Tags lasse ich
+wie sie sind.
+
+0:03:19.529,0:03:20.579
+Die sind..
+
+0:03:20.579,0:03:22.259
+sehen aus..
+
+0:03:22.259,0:03:24.479
+sehen so aus: <% %>,
+
+0:03:24.479,0:03:26.989
+also lasse ich das so.
+
+0:03:26.989,0:03:30.489
+Jetzt habe ich das konfiguriert,
+jetzt möchte ich sehen, dass es noch funktioniert.
+
+0:03:30.489,0:03:31.479
+Also
+
+0:03:31.479,0:03:33.899
+stoppe ich die Anwendung, starte sie neu
+
+0:03:33.899,0:03:36.139
+und gehe zurück zum Browser,
+
+0:03:36.139,0:03:39.869
+um zu sehen, ob es noch funktioniert.
+Was wir vorher gesehen haben, dass hier von jeder Art
+
+0:03:39.869,0:03:40.940
+Werte sind,
+
+0:03:40.940,0:03:42.369
+die kommen von
+
+0:03:42.369,0:03:44.099
+von dem
+
+0:03:44.099,0:03:47.160
+Template System. Also lade ich das neu
+und ich bekomme immer noch das Gleiche.
+
+0:03:47.160,0:03:49.790
+Ich bekomme immer noch die gleichen Daten.
+Alles ist OK.
+
+0:03:49.790,0:03:50.979
+Jetzt..
+
+0:03:50.979,0:03:53.599
+Ich brauche das ganze Zeug nicht,
+das in der
+
+0:03:53.599,0:03:55.279
+Default-Ansicht von Dancer ist.
+
+0:03:55.279,0:03:58.489
+Also gehe ich in das 'index'-Template
+
+0:03:58.489,0:04:00.670
+und lösche alles bis auf das
+
+0:04:00.670,0:04:02.029
+Ich schreibe 'Hello'
+
+0:04:02.029,0:04:03.849
+und
+
+0:04:03.849,0:04:08.569
+ich sage dem Nutzer, dass er zu 
+dieser Seite gehen soll,
+
+0:04:08.569,0:04:13.019
+um einen neuen Post zu erstellen.
+
+0:04:13.019,0:04:13.869
+OK
+
+0:04:13.869,0:04:17.029
+So, das ist .. was ich machen werde
+
+0:04:17.029,0:04:18.919
+und ...
+
+0:04:18.919,0:04:20.630
+wenn wir jetzt die Seite neu laden
+
+0:04:20.630,0:04:25.889
+dann haben wir das hier:
+'hello' und einen Link um einen Post zu erstellen.
+
+0:04:25.889,0:04:29.009
+Der sollte uns zu der Seite weiterleiten.
+
+0:04:29.009,0:04:32.539
+Wenn ich darauf klicke, bekomme ich
+einen 404 Error, weil niemand
+
+0:04:32.539,0:04:34.129
+bis jetzt definiert hat,
+
+0:04:34.129,0:04:34.949
+was zu tun ist,
+
+0:04:34.949,0:04:36.680
+wenn jemand auf diese Seite kommt.
+
+0:04:36.680,0:04:40.529
+Und das ist das Nächste, was wir machen müssen.
+Also gehen wir zurück zu dem Modul
+
+0:04:40.529,0:04:42.009
+und definieren
+
+0:04:42.009,0:04:43.600
+wenn jemand..
+
+0:04:43.600,0:04:45.259
+eine GET-Anfrage zu
+
+0:04:45.259,0:04:47.560
+dieser Seite sendet, dann
+
+0:04:47.560,0:04:49.759
+rufe diese Subroutine auf,
+
+0:04:49.759,0:04:51.710
+welche hier implementiert ist,
+
+0:04:51.710,0:04:54.330
+und
+
+0:04:54.330,0:04:56.880
+lade das Template, welches
+
+0:04:56.880,0:04:58.849
+in unserem Fall 'page' heißt.
+
+0:04:58.849,0:05:03.909
+Wir müssen noch dieses Template implementieren
+also gehen wir zurück zu der index.tt
+
+0:05:03.909,0:05:05.610
+und
+
+0:05:05.610,0:05:07.229
+speichern das jetzt
+
+0:05:07.229,0:05:12.620
+unter 'page.tt' und da rein möchte ich gerne,
+anstatt diesem hier..
+
+0:05:12.620,0:05:14.720
+und ich möchte ein Formular haben.
+
+0:05:14.720,0:05:17.020
+Das Formular
+
+0:05:17.020,0:05:18.360
+wird
+
+0:05:18.360,0:05:22.560
+eine Anfrage senden mit
+
+0:05:22.560,0:05:29.560
+der POST-Methode, weil wir was posten.
+Und es hat ein Eingabefeld,
+
+0:05:29.830,0:05:31.200
+welches
+
+0:05:31.200,0:05:32.590
+den Namen
+
+0:05:32.590,0:05:34.939
+'title' hat. OK.
+
+0:05:34.939,0:05:38.130
+Und dann haben wir auch noch ein anderes
+
+0:05:38.130,0:05:40.169
+Eingabefeld,
+
+0:05:40.169,0:05:43.759
+welches vom Typ
+
+0:05:43.759,0:05:45.389
+'submit'
+
+0:05:45.389,0:05:46.760
+ist, und dazwischen,
+
+0:05:46.760,0:05:49.659
+da ist ein Text-
+
+0:05:49.659,0:05:52.870
+feld
+
+0:05:52.870,0:05:56.339
+Textfeld, wo wir den Text 
+reinschreiben werden.
+
+0:05:56.339,0:05:58.339
+So, das ist die Seite.
+
+0:05:58.339,0:05:59.469
+Wenn ich jetzt zurück gehe
+
+0:05:59.469,0:06:00.459
+und
+
+0:06:00.459,0:06:02.649
+die Anwendung neu lade,
+
+0:06:02.649,0:06:05.089
+dann, oh, da ist ein Fehler.
+
+0:06:05.089,0:06:09.210
+Es scheint, dass ein Semikolon fehlt.
+Das ist ein Standard-Fehler, den ich mache.
+
+0:06:09.210,0:06:11.250
+Hier in dem Modul, ja, hier ist es.
+
+0:06:11.250,0:06:15.289
+Wir sollten niemals ein Semikolon 
+am Ende vergessen
+
+0:06:15.289,0:06:17.430
+auch wenn es wie eine Subroutine aussieht,
+
+0:06:17.430,0:06:21.139
+aber es ist ein Parameter zu der
+get-Funktion.
+
+0:06:21.139,0:06:25.370
+Jetzt kann ich es nochmal ausführen
+und es funktioniert besser.
+
+0:06:25.370,0:06:30.680
+... also kann ich zurück gehen zu der Seite
+und neu laden und da ist das Formular,
+
+0:06:30.680,0:06:32.830
+welches hier ein bisschen unschön ist,
+
+0:06:32.830,0:06:36.299
+also versuchen wir, es ein wenig
+schöner zu gestalten.
+
+0:06:36.299,0:06:39.249
+Ich gehe zurück in den Editor,
+in das...
+
+0:06:39.249,0:06:42.889
+dieses Template und als Erstes
+machen wir es
+
+0:06:42.889,0:06:44.569
+ein Stückchen breiter
+
+0:06:44.569,0:06:50.400
+und dann machen wir hier ein Zeilenumbruch
+ans Ende und machen das Textfeld auch,
+
+0:06:50.400,0:06:52.339
+sagen wir mal,
+
+0:06:52.339,0:06:54.919
+10 Reihen, und sagen wir
+
+
+0:06:54.919,0:06:55.820
+80 Spalten
+
+0:06:55.820,0:06:58.539
+so, dass es die gleiche Größe hat.
+
+0:06:58.539,0:06:59.869
+Und dann..
+
+0:06:59.869,0:07:03.810
+Also den Abschicken-Button,
+anstatt von "Submit Query"
+
+0:07:03.810,0:07:04.650
+sagen wir
+
+0:07:04.650,0:07:06.219
+tragen wir einen
+
+0:07:06.219,0:07:07.070
+Wert ein,
+
+0:07:07.070,0:07:08.969
+der 'Post' ist
+
+0:07:08.969,0:07:09.979
+und dann
+
+0:07:09.979,0:07:13.550
+wenn ich die Seite neu lade,
+dann sieht es viel besser aus, auch wenn
+
+0:07:13.550,0:07:18.599
+die 80 hier und die 80 da 
+nicht die Gleichen sind.
+Komisch, das habe ich nie verstanden.
+
+0:07:18.599,0:07:21.300
+Vielleicht möchte mir das 
+einer von euch erklären?
+
+0:07:21.300,0:07:26.229
+Und das ist der 'Post'-Knopf.
+Sieht schon mal gut aus, für die erste Version.
+
+0:07:26.229,0:07:31.899
+Wenn ich jetzt einen Titel eingebe
+und ein wenig ...
+
+
+0:07:31.899,0:07:33.289
+'my text'
+
+0:07:33.289,0:07:40.049
+dann, ... okay, lass uns was anderes sagen,
+lass uns 'hello' sagen, 'hello', 'HELLO!'
+
+0:07:40.049,0:07:42.830
+und ich klicke auf 'Post',
+
+0:07:42.830,0:07:47.089
+dann bekomme ich eine komische...
+es bekommt nicht... nicht
+
+0:07:47.089,0:07:49.210
+es sendet den Titel,
+
+0:07:49.210,0:07:54.069
+aber es sendet den Text nicht..
+mal sehen, was ich falsch gemacht habe
+
+0:07:54.069,0:07:55.149
+so...
+
+0:07:55.149,0:08:00.499
+Ich habe dem keinen Namen gegeben,
+ich muss dem einen Namen geben.
+
+0:08:00.499,0:08:01.240
+Es heißt 'text'
+
+0:08:01.240,0:08:05.789
+und es ist 'meth..do', es ist 'method',
+also muss ich
+
+0:08:05.789,0:08:06.770
+diese Fehler beheben
+
+0:08:06.770,0:08:07.849
+und dann
+
+0:08:07.849,0:08:10.619
+komme ich zurück hierhin,
+
+0:08:10.619,0:08:14.540
+lade die Seite neu und 
+sage 'hello' und das wird sein
+
+0:08:14.540,0:08:16.270
+'world'
+
+0:08:16.270,0:08:19.669
+und wenn ich jetzt auf 'Post' klicke,
+dann bekomme ich einen Fehler.
+Das ist viel besser.
+
+0:08:19.669,0:08:21.379
+Warum bekomme ich diesen Fehler?
+
+0:08:21.379,0:08:25.219
+Ich habe ihn bekommen, weil dieses
+eine POST-Anfrage ist und keine GET-Anfrage.
+
+0:08:25.219,0:08:26.830
+Was okay ist. Das ist, was ich wollte,
+
+0:08:26.830,0:08:29.919
+aber ich habe hier nicht geschrieben,
+was zu tun ist, wenn wir
+
+0:08:29.919,0:08:30.770
+eine POST-Anfrage
+
+0:08:30.770,0:08:31.829
+bekommen.
+
+0:08:31.829,0:08:34.150
+Also möchte ich das definieren
+
+0:08:34.150,0:08:35.370
+und ich sage
+
+0:08:35.370,0:08:38.470
+wenn ich eine POST-Anfrage 
+zu dieser Seite bekomme,
+
+0:08:38.470,0:08:43.420
+dann rufe diese andere Subroutine auf,
+
+0:08:43.420,0:08:45.440
+welche irgendwas anderes macht.
+
+0:08:45.440,0:08:48.170
+Was macht das .. ah ..
+vergesst nicht das Semikolon.
+
+0:08:48.170,0:08:49.670
+Also, was macht das?
+
+0:08:49.670,0:08:54.400
+Das braucht die Parameter-Methode
+und von da nehmen wir den
+
+0:08:54.400,0:08:55.230
+'title'-Wert
+
+0:08:55.230,0:08:57.760
+und als Erstes sagen wir, geben wir ihn einfach aus.
+
+0:08:57.760,0:08:58.800
+Also
+
+0:08:58.800,0:09:00.450
+stoppe ich das
+
+0:09:00.450,0:09:01.939
+und starte die Anwendung neu
+
+0:09:01.939,0:09:03.079
+und gucke wieder,
+
+0:09:03.079,0:09:06.029
+wenn ich die Seite neu lade und
+die Daten nochmal schicke,
+
+0:09:06.029,0:09:10.550
+bekomme ich 'hello' zurück,
+was der Titel war, den ich geschrieben habe.
+
+0:09:10.550,0:09:14.420
+So, das ist okay, das funktioniert.
+Wir müssen es irgendwo speichern.
+Ich könnte eine Art
+
+0:09:14.420,0:09:15.470
+Datenbank nutzen,
+
+0:09:15.470,0:09:20.520
+aber ich möchte es hier einfacher machen.
+Ich werde einfach
+
+0:09:20.520,0:09:21.180
+eine json Datei nehmen.
+
+0:09:21.180,0:09:22.980
+So, wo ist die json Datei?
+
+0:09:22.980,0:09:25.700
+Wir müssen sie definieren
+in der Konfigurationsdatei.
+
+0:09:25.700,0:09:28.540
+In der Konfigurationsdatei schreibe
+ich dwimmer,
+
+0:09:28.540,0:09:30.300
+was der Name meiner Anwendung ist,
+
+0:09:30.300,0:09:35.700
+und darunter speichere ich alle
+Daten der Anwendung.
+
+0:09:35.700,0:09:37.890
+Und sagen wir mal
+
+0:09:37.890,0:09:43.340
+ich nenne das Feld json und schreibe
+
+0:09:43.340,0:09:45.620
+hier den Namen der Datei,
+
+0:09:45.620,0:09:49.130
+wo ich alle Daten speichern werde.
+
+0:09:49.130,0:09:52.540
+Also diese Datei wird
+meine Datenbank sein.
+
+0:09:52.540,0:09:55.310
+Und wie bekomme ich die Daten?
+
+0:09:55.310,0:09:57.680
+Ich schreibe config,
+
+0:09:57.680,0:10:01.490
+diese Funktion bekommt
+alle Konfigurationsdaten,
+
+0:10:01.490,0:10:05.200
+und hier kann ich die Schlüssel
+hinschreiben
+
+0:10:05.200,0:10:10.250
+und es hat zwei Schlüssel.
+Das ist der Name, von der Datei,
+
+0:10:10.250,0:10:11.600
+in der die Daten sein sollen.
+
+0:10:11.600,0:10:15.960
+Also speichere ich das in einer
+Variablen, so, dass ich es habe,
+mache es einfach
+
+0:10:15.960,0:10:17.569
+ich setze eine Variable.
+
+0:10:17.569,0:10:22.810
+Dann muss ich die Daten aus der
+Datei auslesen. Also lese ich,
+
+0:10:22.810,0:10:27.960
+indem ich 'read_file' eintippe und den Namen
+der Datei und packe das in eine Variable,
+
+0:10:27.960,0:10:31.700
+aber diese Daten werden json sein.
+Richtig? Weil da, wo wir das speichern werden,
+
+0:10:31.700,0:10:33.510
+das ist json. Also
+
+0:10:33.510,0:10:35.510
+speichere ich das in eine Variable $json
+
+0:10:35.510,0:10:38.250
+und dann muss ich die Daten 
+noch umwandeln in
+
+0:10:38.250,0:10:40.480
+eine Perl-Datenstruktur.
+
+0:10:40.480,0:10:41.640
+So
+
+0:10:41.640,0:10:44.620
+'from_json' ist die Funktion,
+
+0:10:44.620,0:10:47.780
+die den json-String nimmt
+
+0:10:47.780,0:10:52.200
+und die Daten zurückgibt,
+die wir brauchen.
+
+0:10:52.200,0:10:53.790
+Das ist die Datenstruktur.
+
+
+0:10:53.790,0:10:58.170
+Offensichtlich haben wir das erste Mal,
+wenn wir dies ausführen, keine json Datei.
+In diesem Fall
+
+0:10:58.170,0:11:00.779
+wollen wir, dass ein leerer Hash
+
+0:11:00.779,0:11:01.990
+zurückgegeben wird.
+
+0:11:01.990,0:11:05.840
+Wir können das machen, indem wir
+prüfen, ob da
+
+0:11:05.840,0:11:07.900
+die Datei ist, wenn sie existiert..
+
+0:11:07.900,0:11:10.010
+und wenn sie existiert...
+
+0:11:10.010,0:11:12.310
+lesen wir die Datei ein. Wenn nicht,
+
+0:11:12.310,0:11:13.380
+dann geben wir nur
+
+0:11:13.380,0:11:16.559
+einen String mit zwei geschweiften Klammern zurück,
+
+0:11:16.559,0:11:20.250
+so definiert json einen leeren Hash.
+
+0:11:20.250,0:11:24.210
+So bekommen wir eine leere json Datei
+
+0:11:24.210,0:11:29.990
+und dann die Daten und jetzt müssen
+wir nur noch ein neues Stück ...
+den neuen
+
+0:11:29.990,0:11:31.180
+Blog-Eintrag.
+
+0:11:31.180,0:11:35.790
+Als Erstes nehmen wir den Zeitstempel.
+Wir haben eine neue
+
+0:11:35.790,0:11:36.930
+Variable $now
+
+0:11:36.930,0:11:39.050
+und ich speichere hier den Zeitstempel
+
+0:11:39.050,0:11:40.240
+und dann
+
+0:11:40.240,0:11:43.550
+fügen wir die Daten dazu.
+
+0:11:43.550,0:11:46.430
+'now' wird der Schlüssel sein.
+
+0:11:46.430,0:11:50.279
+So speichern wir die Blog-Einträge
+
+0:11:50.279,0:11:52.320
+zugehörig zu dem Zeitstempel,
+den sie haben,
+
+0:11:52.320,0:11:54.129
+und hier können wir den
+
+0:11:54.129,0:11:55.780
+Titel hinzufügen
+
+0:11:55.780,0:12:01.080
+und ich nehme das von hier,
+weil ich das da nicht mehr brauche,
+
+0:12:01.080,0:12:03.930
+und ich habe auch den Text
+
+0:12:03.930,0:12:05.870
+von dem Nutzer
+
+0:12:05.870,0:12:09.420
+und der ist in dem Parameter 'text'
+
+0:12:09.420,0:12:10.820
+und das ist es.
+
+0:12:10.820,0:12:11.560
+Jetzt
+
+0:12:11.560,0:12:12.820
+haben wir alle Daten,
+
+0:12:12.820,0:12:14.779
+den neuen Blog-Eintrag in $data
+
+0:12:14.779,0:12:16.510
+und wir müssen es nur noch speichern.
+
+0:12:16.510,0:12:19.459
+Dazu nutzen wir 'write_file'.
+
+0:12:19.459,0:12:21.620
+Wir übergeben den Namen der Datei
+
+0:12:21.620,0:12:22.960
+und die
+
+0:12:22.960,0:12:25.890
+Daten. Zur Zeit ist $data
+
+0:12:25.890,0:12:27.340
+eine Perl Datenstruktur.
+Ich möchte
+
+0:12:27.340,0:12:32.960
+es aber als json speichern, also
+müssen wir es umwandeln mit to_json.
+
+0:12:32.960,0:12:35.729
+Das ist es.
+Wenn das getan ist,
+
+0:12:35.729,0:12:37.410
+wollen wir das speichern.
+
+0:12:37.410,0:12:38.690
+Sorry, wir wollen
+
+0:12:38.690,0:12:42.730
+dem Nutzer was zeigen,
+wir wollen ihn weiterleiten,
+
+0:12:42.730,0:12:47.330
+den Nutzer zur root weiterleiten,
+
+0:12:47.330,0:12:48.450
+zu der Startseite.
+
+0:12:48.450,0:12:50.009
+Auf der Startseite zeigen
+
+0:12:50.009,0:12:52.679
+wir bis jetzt keinen Inhalt,
+
+0:12:52.679,0:12:55.120
+aber wir werden sehen.
+Wie funktioniert es?
+
+0:12:55.120,0:12:59.790
+Dafür muss ich die Anwendung erneut stoppen
+und wieder starten
+
+0:12:59.790,0:13:02.800
+und wenn ich keinen Fehler gemacht habe,
+dann könnte es sogar funktionieren.
+
+0:13:02.800,0:13:04.770
+So, das ist
+
+0:13:04.770,0:13:11.560
+das Formular. Ich habe es gefüllt und dann
+auf 'Post' geklickt und ich habe einen
+Laufzeit Fehler erhalten.
+Das ist der Fehler:
+
+0:13:11.560,0:13:13.699
+'Kann Objectmethode write_file nicht finden.'
+
+0:13:13.699,0:13:14.890
+Gut, offensichtlich,
+
+0:13:14.890,0:13:16.500
+weil
+
+0:13:16.500,0:13:17.470
+...
+
+0:13:17.470,0:13:20.990
+die from_json und die to_json Funktionen
+Teil von Dancer sind,
+
+0:13:20.990,0:13:23.460
+aber read_file und write_file
+sind es nicht.
+
+0:13:23.460,0:13:26.900
+Also müssen wir ein Modul laden,
+dass diese bereitstellt.
+
+0:13:26.900,0:13:27.980
+Benutze
+
+0:13:27.980,0:13:29.500
+File
+
+0:13:29.500,0:13:31.420
+::
+
+0:13:31.420,0:13:32.260
+Slurp
+
+0:13:32.260,0:13:37.210
+das ist der Name von dem Modul,
+und es stellt eine read_file
+
+0:13:37.210,0:13:41.230
+und eine write_file Funktion bereit.
+
+0:13:41.230,0:13:46.260
+Also speicher ich es.
+Jetzt muss ich es wieder neu starten,
+weil ich den Code geändert habe
+
+0:13:46.260,0:13:49.490
+und probiere es nochmal.
+Ich gehe zurück
+
+0:13:49.490,0:13:50.590
+und
+
+0:13:50.590,0:13:52.130
+sende es nochmal
+
+0:13:52.130,0:13:54.690
+und hier sind wir.
+
+0:13:54.690,0:13:58.860
+Es sagt, es ist OK.
+Es kehrte zurück
+
+0:13:58.860,0:14:02.020
+zu der Root-Webseite, die Startseite,
+aber ich sehe keine
+
+0:14:02.020,0:14:05.720
+Daten bis jetzt, also sehen wir nach,
+ob die Daten gespeichert wurden.
+
+0:14:05.720,0:14:11.329
+Zurück zu Padre und in das work-Verzeichnis.
+Wir haben gesagt,
+
+0:14:11.329,0:14:15.920
+dass dwimmer.json da sein soll und
+hier sind wir. Da ist der Zeitstempel
+
+0:14:15.920,0:14:18.880
+mit dem Text und dem Titel,
+die wir speichern wollten.
+
+0:14:18.880,0:14:23.190
+Es scheint, dass es in die Datei speichert.
+Jetzt versuchen wir, es anzuzeigen
+
+0:14:23.190,0:14:23.950
+auf der
+
+0:14:23.950,0:14:25.010
+der Seite.
+
+0:14:25.010,0:14:26.820
+Dafür gehen wir
+
+0:14:26.820,0:14:28.660
+zu der
+
+0:14:28.660,0:14:31.630
+Startseite und hier müssen wir
+
+0:14:31.630,0:14:33.450
+die Daten erneut einlesen.
+
+0:14:33.450,0:14:37.720
+Genauso wie wir es hier gemacht haben.
+Das Einfachste ist, einfach 
+
+0:14:37.720,0:14:40.590
+diese Daten zu kopieren
+und einzufügen.
+
+0:14:40.590,0:14:43.700
+Und dann haben wir alle Daten in dieser
+
+0:14:43.700,0:14:45.830
+Variable $data
+
+0:14:45.830,0:14:49.720
+und die möchten wir als Parameter
+an das Template senden.
+
+0:14:49.720,0:14:52.440
+So,
+
+0:14:52.440,0:14:54.030
+wir haben es nun
+
+0:14:54.030,0:14:56.220
+als Parameter zu dem Template gesendet.
+
+0:14:56.220,0:14:57.480
+In dem Template..
+
+0:14:57.480,0:15:00.060
+lasst uns sehen, was in dem Template ist.
+Das ist die Seite.
+
+0:15:00.060,0:15:01.840
+Hier ist das index Template.
+
+0:15:01.840,0:15:02.890
+In dem Template
+
+0:15:02.890,0:15:04.549
+möchten wir die
+
+0:15:04.549,0:15:05.940
+Daten anzeigen lassen.
+
+0:15:05.940,0:15:09.670
+Die sind noch .. jetzt .. das ist ein Hash.
+So, wie greifen wir auf den Hash
+
+0:15:09.670,0:15:11.749
+in dem Template::Toolkit zu
+
+0:15:11.749,0:15:13.530
+und zeigen es dem Nutzer?
+
+0:15:13.530,0:15:18.220
+in Template::Toolkit ist.. 
+wir haben also eine for-Schleife
+
+0:15:18.220,0:15:22.620
+und dann packen wir eine Variable
+da rein, die ist, sagen wir, 
+
+0:15:22.620,0:15:23.610
+'page'
+
+0:15:23.610,0:15:28.690
+und die geht in.. und wir haben die Daten
+zusammen anstatt der einzelnen Informationen,
+also müssen wir
+
+0:15:28.690,0:15:30.720
+die Schlüssel holen,
+
+0:15:30.720,0:15:35.450
+es wird auch 'dictionary' (Wörterbuch) genannt,
+und wir möchten sie sortiert haben,
+
+0:15:35.450,0:15:36.950
+also sortieren wir sie.
+
+0:15:36.950,0:15:41.200
+Das ist der Weg, um über alle Elemente
+des Hashs zu gehen
+
+0:15:41.200,0:15:42.340
+und dann
+
+0:15:42.340,0:15:44.800
+beenden wir es mit einem END.
+
+0:15:44.800,0:15:47.280
+Hier drin kann ich jetzt
+
+0:15:47.280,0:15:51.430
+den aktuellen Inhalt der
+Variable 'p' anzeigen,
+
+0:15:51.430,0:15:53.580
+das wird der Zeitstempel sein.
+
+0:15:53.580,0:15:55.860
+Wenn ich jetzt zurückgehe,
+
+0:15:55.860,0:16:01.110
+dann muss ich es neu starten, 
+weil ich wieder was an dem Code geändert habe.
+
+0:16:01.110,0:16:06.560
+Wenn ich die Seite neu lade, dann können
+wir den Zeitstempel des einzigen Eintrags
+sehen, den wir haben.
+
+0:16:06.560,0:16:08.020
+Das ist nett, aber
+
+0:16:08.020,0:16:09.130
+wir möchten
+
+0:16:09.130,0:16:11.830
+den Titel und den Inhalt sehen.
+
+0:16:11.830,0:16:17.080
+Das machen wir, indem wir in dem
+Template::Toolkit sagen, dass wir
+
+0:16:17.080,0:16:18.170
+Daten ausgeben wollen
+
+0:16:18.170,0:16:22.380
+und dann ist p eine Variable, also
+schreiben wir ein $-Zeichen davor
+
+0:16:22.380,0:16:25.550
+und den 'title'-Schlüssel davon.
+
+0:16:25.550,0:16:29.800
+Und danach wollen wir den Text sehen. Richtig?
+
+0:16:29.800,0:16:32.730
+Also wollen wir all das sehen.
+
+0:16:32.730,0:16:36.090
+Wenn ich zurück zu der Webseite gehe und
+neu lade und ich brauche nicht neu starten,
+
+0:16:36.090,0:16:39.750
+weil ich nur das Template geändert habe.
+
+0:16:39.750,0:16:44.950
+Und ich sehe 'hello world', was der Titel ist
+und der Text. .. und .. machen wir es
+
+0:16:44.950,0:16:46.630
+ein wenig netter.
+
+0:16:46.630,0:16:49.060
+Machen wir ein H2
+
+0:16:49.060,0:16:53.350
+um den Titel
+
+0:16:53.350,0:16:54.409
+und eine
+
+0:16:54.409,0:16:57.010
+horizontale Linie
+
+0:16:57.010,0:17:00.600
+vor dem
+
+0:17:00.600,0:17:03.199
+Blog-Eintrag. So, hier sind wir.
+
+0:17:03.199,0:17:07.780
+Da ist der Titel-Teil und dann
+'hello', der Titel des Eintrages.
+Jetzt lasst uns
+
+0:17:07.780,0:17:09.180
+einen weiteren Eintrag erstellen
+
+0:17:09.180,0:17:14.620
+nur um sicher zu gehen, dass es immer noch
+funktioniert. So ... zweiter Eintrag
+
+0:17:14.620,0:17:16.170
+mehr Text
+
+0:17:16.170,0:17:17.760
+mehr Text
+
+0:17:17.760,0:17:19.170
+und ich poste
+
+0:17:19.170,0:17:22.400
+und hier haben wir nun einen ersten
+und einen zweiten Eintrag
+
+0:17:22.400,0:17:23.700
+und wir haben eine Weblog Engine.
+
+0:17:23.700,0:17:25.909
+Danke fürs Anschauen ... wenn ihr möchtet
+
+0:17:25.909,0:17:27.590
+postet on Dwimmer.
+
+0:17:27.590,0:17:31.970
+Es gibt dwimmer.org tatsächlich, so dass ihr
+euch das angucken könnt und ihr könnt auf
+perldancer.org gehen und es downloaden.
+
+0:17:31.970,0:17:34.350
+Es ist cool, ich mag es.
+
+0:17:34.350,0:17:35.160
+Vielen Dank fürs Angucken
+Bye Bye
