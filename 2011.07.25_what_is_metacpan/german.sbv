@@ -1,0 +1,281 @@
+0:00:01.709,0:00:06.160
+Hallo, ich bin Gabor Szabo. Ich hoffe, dass
+das ein kurzes Video wird.
+
+0:00:06.160,0:00:07.100
+Zumindest ist das geplant.
+
+0:00:07.100,0:00:11.369
+Heute werde ich lediglich zeigen,
+wie MetaCPAN funktioniert.
+
+0:00:11.369,0:00:13.359
+Welches sich wirklich
+
+0:00:13.359,0:00:16.720
+sehr gut entwickelt hat. Das hier
+ist die URL auf der du es dir ansehen kannst.
+
+0:00:16.720,0:00:19.169
+Ich wechsele den Tab,
+damit du es sehen kannst.
+
+0:00:19.169,0:00:22.470
+Sobald ich es aufgerufen habe wechselt es zu HTTPS.
+
+0:00:22.470,0:00:25.819
+Das ist einfach eine Suchmaschine
+für das wunderbare CPAN.
+
+0:00:25.819,0:00:26.529
+Wo viele Perl-Sachen
+
+0:00:26.529,0:00:28.730
+zu finden sind.
+
+0:00:28.730,0:00:32.330
+Möchte ich also nach etwas suchen,
+
+0:00:32.330,0:00:34.610
+zum Beispiel nach einem Template,
+
+0:00:34.610,0:00:35.949
+dann zeigt er mir bereits
+
+0:00:35.949,0:00:39.380
+einige Vorschläge, die ich auswählen kann.
+
+0:00:39.380,0:00:43.149
+Außerdem springt er sofort zu einem der Vorschläge
+
+0:00:43.149,0:00:44.440
+und zwar zu einem Empfohlenen.
+
+0:00:44.440,0:00:47.940
+Hier siehst du die Module und die Dokumentation,
+
+0:00:47.940,0:00:51.080
+aber dieses Icon ist viel interessanter.
+
+0:00:51.080,0:00:55.720
+Es zeigt, dass man jedes Modul einzeln
++1'en kann
+
+0:00:55.720,0:01:01.570
+und dieses Icon hier bedeutet, dass das bereits 
+zwei Leute gemacht haben.
+
+0:01:01.570,0:01:02.860
+Also,
+
+0:01:02.860,0:01:05.059
+sie haben es empfohlen, oder wie auch immer du es nennen willst.
+
+0:01:05.059,0:01:09.200
+Und das ist sehr erfreulich, da das Projekt 
+erst wenige Tage alt ist...
+
+0:01:09.200,0:01:10.070
+und dann schon zwei Benutzer die es mögen!
+
+0:01:10.070,0:01:14.670
+So, wie benutze ich das Icon nun?
+Wenn ich darauf klicke wird mir mitgeteilt,
+
+0:01:14.670,0:01:17.080
+dass ich mich einloggen muss. Und wie macht man das?
+
+0:01:17.080,0:01:18.490
+Hier sieht man, 
+
+0:01:18.490,0:01:23.230
+dass ich einen dieser Account nutzen kann.
+Das bedeutet, dass Benutzer die
+
+0:01:23.230,0:01:24.790
+keinen PAUSE Account haben,
+
+0:01:24.790,0:01:25.719
+sich auch mit ihrem
+
+0:01:25.719,0:01:30.109
+Facebook-, Github- oder Twitteraccount einloggen können.
+Eventuell sind es mehr
+
+0:01:30.109,0:01:35.929
+wenn du dieses Video siehst.
+Ich verwende den PAUSE-Account,
+
+0:01:35.929,0:01:37.650
+weil ich dort ein Autor bin.
+
+0:01:37.650,0:01:40.660
+Ich gebe hier also
+
+0:01:40.660,0:01:43.409
+meine Daten bei PAUSE ein.
+
+0:01:43.409,0:01:48.060
+Und wenn ich das getan habe bekomme ich eine Nachricht,
+dass mir eine E-Mail geschickt wurde,
+
+0:01:48.060,0:01:50.940
+um sicherzustellen, dass das wirklich ich bin.
+
+0:01:50.940,0:01:55.219
+Also gehe ich zu meinem Mailaccount.
+
+0:01:55.219,0:01:59.950
+Und hier ist die E-Mail mit dem Link.
+
+0:01:59.950,0:02:06.570
+Ich kopiere den und füge ihn ein,
+um in den bestehenden
+
+0:02:06.570,0:02:07.850
+Tabs zu bleiben.
+
+0:02:07.850,0:02:09.679
+Sobald ich das getan habe,
+
+0:02:09.679,0:02:11.669
+wurden bereits die
+
+0:02:11.669,0:02:13.749
+Daten aus meiner author.json
+
+0:02:13.749,0:02:17.849
+Datei verarbeitet. 
+Wenn du keine author.json Datei hast
+
+0:02:17.849,0:02:22.069
+werden alle diese Felder leer sein und du kannst
+beginnen sie auszufüllen.
+
+0:02:22.069,0:02:27.829
+Also z.B. deinen Namen oder den ASCII Code,
+E-Mail Adresse oder was auch immer dort stehen soll.
+
+0:02:27.829,0:02:28.679
+All' diese Sachen eben.
+
+0:02:28.679,0:02:33.889
+Auch mein Avatar ist bereits geladen.
+
+0:02:33.889,0:02:34.479
+Uh...
+
+0:02:34.479,0:02:36.789
+von der Gravatar Webseite.
+
+0:02:36.789,0:02:40.579
+Und ... dann kannst du hier verschiedene
+Accounts hinzufügen.
+
+0:02:40.579,0:02:43.340
+Wenn du die Accounts verknüpft hast,
+
+0:02:43.340,0:02:48.520
+kannst du deine Eingaben überprüfen.
+Wenn ich also alles Verbinden will,
+
+0:02:48.520,0:02:50.909
+ist dies der richtige Ort dazu.
+
+0:02:50.909,0:02:52.900
+Ich kann hier außerdem
+
+0:02:52.900,0:02:57.449
+verschiedene Profile anlegen.
+
+0:02:57.449,0:03:00.509
+Ich bin bereits eingeloggt
+
+0:03:00.509,0:03:05.189
+und habe die Accounts verbunden. 
+Offensichtlich wurde der PAUSE Account
+
+0:03:05.189,0:03:07.330
+beim Anmelden verbunden,
+
+0:03:07.330,0:03:09.149
+aber ich habe über die Einstellungen
+
+0:03:09.149,0:03:11.049
+diese Accounts - hier - hinzugefügt.
+
+0:03:11.049,0:03:13.100
+Wenn ich dann hierhin zurückkehre,
+
+0:03:13.100,0:03:17.079
+zu dieser Seite und neu lade...
+
+0:03:17.079,0:03:19.199
+dann wird mir angezeigt,
+
+0:03:19.199,0:03:21.650
+dass ich das hier jetzt +1'en kann.
+
+0:03:21.650,0:03:25.420
+Ich kann das nicht mehr machen, weil
+ich das schon vorhin getan habe.
+
+0:03:25.420,0:03:29.039
+Wenn ich da jetzt nochmal klicke entfernt er das +1, aber
+ich mag dieses Template Toolkit.
+
+0:03:29.039,0:03:32.849
+Also füge ich das hinzu. 
+Und nun kann ich nach etwas Anderem suchen
+
+0:03:32.849,0:03:35.229
+und...
+
+0:03:35.229,0:03:37.089
+lass uns mal nach...
+
+0:03:37.089,0:03:38.379
+Mechanize suchen.
+
+0:03:38.379,0:03:42.759
+Da finde ich alle diese Module.
+Dieses hier ist z.B.
+
+0:03:42.759,0:03:47.439
+WWW::Mechanize, welches ich sehr mag und oft nutze,
+also +1'e ich das mal.
+
+0:03:47.439,0:03:48.449
+
+
+0:03:48.449,0:03:50.239
+Bis eben hatte
+
+0:03:50.239,0:03:52.979
+es kein Plus, und nun hat es eines.
+
+0:03:52.979,0:03:55.779
+Ich hoffe, dass du mal vorbeischaust,
+
+0:03:55.779,0:03:59.149
+dich anmeldest und uns sagst,
+
+0:03:59.149,0:04:02.479
+welches Modul genutzt werden sollte
+
+0:04:02.479,0:04:04.449
+und welches eher zu vernachlässigen ist.
+
+0:04:04.449,0:04:08.139
+Danke fürs Zusehen.
+Hoffentlich ist das der Tab auf dem du
+
+0:04:08.139,0:04:11.269
+die URL sehen kannst:
+
+0:04:11.269,0:04:12.320
+MetaCPAN.org
+
+0:04:12.320,0:04:12.709
+Vielen Dank. Auf Wiedersehen.
+
