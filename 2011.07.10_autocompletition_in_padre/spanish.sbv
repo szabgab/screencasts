@@ -95,7 +95,7 @@ Elijo esa, lo guardo
 Y ahora cuando comienzo a teclear "$re..." me muestra una lista de palabras
 
 0:01:56.000,0:02:02.000
-Si lo sigo tecleando, sólo reemplazará la lista de paladras con las que
+Si lo sigo tecleando, sólo reemplazará la lista de palabras con las que
 siguen coincidiendo
 
 0:02:02.000,0:02:08.000
@@ -185,7 +185,7 @@ Digamos que aquí. Y pongo una llave
 Sucede lo mismo con los corchetes. 
 
 0:04:21.000,0:04:26.200
-No lo puedes ver, por los colores del resaltador
+No lo puedes ver, por los colores del resaltador de sintaxis
 
 0:04:26.200,0:04:31.100
 Eso pasa cuando tocas uno de los cierres de las llaves,
