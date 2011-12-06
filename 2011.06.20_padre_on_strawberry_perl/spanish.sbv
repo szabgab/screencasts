@@ -89,7 +89,7 @@ Y hay algunos iconos que son bastante nuevos para todos
 especialmente en el subdirectorio de juegos. Ahí tendrás tres nuevos iconos.
 
 0:02:07.230,0:02:13.310
-El de en medio es el enlace al sitio web del SDL Perl.
+El del medio es el enlace al sitio web del SDL Perl.
 
 0:02:13.310,0:02:16.620
 Esa es la tecnología en la que están escritos los juegos.
@@ -263,7 +263,7 @@ No estoy realmente interesado en el actual, lo que está ahí
 lo que quiero escribir es este 'defined-or'.
 
 0:06:10.100,0:06:12.500
-El cual, como puedes ver, el resaltado
+El cual, como puedes ver, el resaltado de sintaxis
 
 0:06:12.500,0:06:15.000
 espero que lo veas, el resaltado está realmente roto.
@@ -380,7 +380,7 @@ CPAN::Reporter. CPAN::Reporter
 Y este módulo que no llego a leer son herramientas
 
 0:08:23.900,0:08:27.500
-uno de los sets de herramientas que te permiten reportar
+un conjunto de herramientas que te permiten reportar
 
 0:08:27.500,0:08:31.200
 mandar reportes de prueba a los 'testers' de CPAN.
@@ -434,7 +434,7 @@ Oh sí
 Text::CSV_XS sólo lee, lee o escribe en archivos CSV
 
 0:09:33.300,0:09:37.500
-y Net::Telnet, sólo en el caso de que quieras conectarte a una máquina Unix no segura.
+y Net::Telnet, sólo en el caso de que quieras conectarte a una máquina Unix de forma no segura.
 
 0:09:37.500,0:09:42.400
 O, hay todos estos 'routers', 'bridges' y otras cosas
@@ -515,10 +515,10 @@ y hay unos cuantos que están instalados.
 Unos cuantos módulos han sido mejorados, y básicamente eso es todo.
 
 0:11:22.500,0:11:26.500
-Espero que alguien de vosotros lo pruebe
+Espero que alguien de ustedes lo pruebe
 
 0:11:26.500,0:11:30.300
-lo descargue y pruebe y proporcione 'feedback'.
+lo descargue, pruebe y nos de sus comentarios.
 
 0:11:30.300,0:11:31.500
 ¿Cómo es la nueva distribución?
