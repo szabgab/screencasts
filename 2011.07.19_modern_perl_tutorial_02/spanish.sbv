@@ -313,7 +313,7 @@ la impresión del valor es después
 de actualmente 
 
 0:04:25.979,0:04:28.250
-imprimir del "defined". 
+imprimir el "defined". 
 
 0:04:28.250,0:04:32.430
 Así puedes ver que el aquí todavía no estaba 
@@ -340,7 +340,7 @@ Dejame solamente no copiar-pegar
 el mismo código.
 
 0:04:49.210,0:04:54.899
-En este pungo, su valor 
+En este punto, su valor 
 es "undef" otra vez 
 
 0:04:54.899,0:04:56.370
@@ -356,7 +356,7 @@ entonces puedes...
 Vamos a empezar de nuevo
 
 0:05:03.710,0:05:06.159
-Pudes declarar una variable, digamos 
+Puedes declarar una variable, digamos 
 
 0:05:06.159,0:05:09.030
 "$x"
@@ -780,10 +780,10 @@ Así que puedes ver esto aquí.
 Esto es la cadena de caracteres. Esto es lo que
 
 0:10:51.520,0:10:53.820
-se convierto en un número. 
+se convirtió en un número. 
 
 0:10:53.820,0:10:56.990
-Así que agaramos una advertencia. Ahora esta advertencia lo hagaras
+Así que obtenemos una advertencia. Ahora esta advertencia la obtenemos 
 solamente porque  
 
 0:10:56.990,0:10:59.500
@@ -822,14 +822,14 @@ y
 mira
 
 0:11:24.060,0:11:27.829
-lo mira y trate de usarlo como un número.
+lo mira y trata de usarlo como un número.
 
 0:11:27.829,0:11:32.160
 Y hay un punto. Hay un espacio aquí. 
 Pero
 
 0:11:32.160,0:11:35.249
-para de entender. No lo puede
+se detiene. No lo puede 
 convertir a un número 
 
 0:11:35.249,0:11:38.750
@@ -899,7 +899,7 @@ Y luego si miras a la tercera
 veras que es "$z"
 
 0:12:18.370,0:12:20.100
-"$y" vezes
+"$y" veces
 
 0:12:20.100,0:12:22.790
 Ahora tu probablemente supones que 
@@ -1294,7 +1294,7 @@ Pero qué pasa si quieres evitar
 todo por completo? Así que si 
 
 0:17:49.059,0:17:51.720
-quieres asegurarte de que el valor que agaraste, 
+quieres asegurarte de que el valor que obtuviste, 
 
 0:17:51.720,0:17:55.410
 probablemente de el usuario o del mundo exterior,
