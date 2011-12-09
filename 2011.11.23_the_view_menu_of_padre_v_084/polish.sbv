@@ -29,7 +29,7 @@ która oznacza aktualnie edytowaną linię żółtym tłem.
 Na początku tego nie lubiłem,
 
 0:00:42.280,0:00:49.720
-ale teraz się przyzwyczaiłem i polubiłem te opcję,
+ale teraz się przyzwyczaiłem i polubiłem tę opcję,
 bo dzięki niej łatwiej mi się zorientować, gdzie jest kursor.
 
 0:00:51.280,0:00:57.520
@@ -40,7 +40,6 @@ która otwiera się w oknie po lewej stronie.
 
 0:01:01.800,0:01:03.520
 Gdy otworzysz plik Perla w Padre,
-If you open the file in Padre, a Perl file,
 
 0:01:04.040,0:01:12.600
 edytor automatycznie przeglądnie foldery w poszukiwaniu jakiejś informacji, że mamy do czynienia z projektem Perla.
@@ -70,7 +69,7 @@ Gdy wejdziesz do folderu lib, możesz otworzyć jakiś plik, na przykład Padre.
 Wracamy do menu View. Mogę kliknąć na Show functions (Pokaż funkcje),
 
 0:02:03.800,0:02:08.440
-a po prawje stronie otworzy się okienko z listą wszystkich zdefiniowanych funkcji,
+a po prawej stronie otworzy się okienko z listą wszystkich zdefiniowanych funkcji,
 
 0:02:08.800,0:02:13.800
 funkcji i metod, w obiektowym module to mogą być po prostu metody obiektów.
@@ -139,7 +138,7 @@ kiedy tylko jest potrzebne, na przykład kiedy uruchomisz skrypt.
 Dalej - Syntax Check (Sprawdź składnię), ważne narzędzie.
 
 0:04:15.000,0:04:20.160
-Chwilę się otwiera, ponieważ obo sprawdza, czy plik ma poprawną składnię.
+Chwilę się otwiera, ponieważ ono sprawdza, czy plik ma poprawną składnię.
 
 0:04:20.400,0:04:29.000
 Gdy jest włączone, składnia będzie automatycznie sprawdzana podczas pisania.
@@ -163,7 +162,7 @@ Tyle na temat Syntax Check, całkiem przydatna rzecz, warto ją zostawić włąc
 Tutaj mamy "Show newlines", które włączy wyświetlanie informacji o znakach nowej linii, co może być pomocne.
 
 0:05:16.840,0:05:25.240
-Albo tutaj można włączyć wyświetlanie białych znaków, tabów i spacji. To wszystko mozna zobaczyć.
+Albo tutaj można włączyć wyświetlanie białych znaków, tabów i spacji. To wszystko można zobaczyć.
 
 0:05:25.400,0:05:36.880
 Teraz Call Tips (Pomoc wywoływania). Włączmy to teraz, i wyłączmy wyświetlanie białych znaków i nowych linii, nie lubię tego.
@@ -173,10 +172,9 @@ Zaczynam wpisywać, na przykład "substr", i gdy wpiszę całą nazwę procedury
 
 0:05:45.700,0:05:47.760
 Padre pokaże mi informacje o tym, jak ją wywoływać,
-and then it will show me a call-tip here
 
 0:05:49.200,0:05:58.200
-zobaczę krótki opis przyjmowanych parametrów, i krótkie informacje o samej procedurze.
+krótki opis przyjmowanych parametrów, i krótkie informacje o samej procedurze.
 
 0:05:58.400,0:06:00.960
 Na dziś to wszystko, o tych podstawowych funkcjach,
