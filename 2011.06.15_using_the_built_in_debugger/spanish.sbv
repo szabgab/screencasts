@@ -15,63 +15,63 @@ Normalmente, si tienes un script,
 digamos en este caso 'outline.pl',
 
 0:00:16.350,0:00:21.569
-puedes ejecutarlo de esta forma en la lÌnea de comandos:
-perl + nombre del script + par·metros potenciales
+puedes ejecutarlo de esta forma en la l√≠nea de comandos:
+perl + nombre del script + posibles par√°metros
 
 0:00:21.569,0:00:23.960
-AsÌ que veamos, si ejecuto este script
+As√≠ que veamos, si ejecuto este script
 
 0:00:23.960,0:00:25.599
-podemos ver que nos proporciona alguna salida.
+podemos ver que nos devuelve resultados.
 
 0:00:25.599,0:00:29.849
 El modo para depurarlo es ejecutar perl -d
 
 0:00:29.849,0:00:33.120
-y el nombre del script y luego los par·metros.
+seguido del nombre del script y los par√°metros.
 
 0:00:33.120,0:00:33.770
 Una vez que lo ejecuto,
 
 0:00:36.240,0:00:38.920
-devolver· alg˙n tipo de informaciÛn,
+devolver√° alg√∫n tipo de informaci√≥n,
 
 0:00:38.920,0:00:43.340
-aparece la primera de cÛdigo,
-la prÛxima lÌnea
+aparece la primera de c√≥digo,
+la pr√≥xima l√≠nea
 
 0:00:43.340,0:00:45.010
 que se supone que se va a ejecutar
 
 0:00:45.010,0:00:47.220
-y luego da un 'prompt'
+y, a continuaci√≥n, un indicador del sistema
 
 0:00:47.220,0:00:50.290
 en el que puedo escribir varios comandos para el depurador
 
 0:00:50.290,0:00:51.839
-Lo primero y m·s importante
+Lo primero y m√°s importante
 
 0:00:51.839,0:00:52.610
 es el comando 'q'
 
 0:00:52.610,0:00:54.960
-que nos permitir· abandonar el depurador.
+que nos permitir√° abandonar el depurador.
 
 0:00:54.960,0:00:58.000
-AsÌ que cuando queremos deshacernos de Èl,
+As√≠ que cuando queramos deshacernos de √©l,
 
 0:00:58.000,0:00:58.689
 presionamos
 
 0:00:58.689,0:01:00.950
-q enter y se quita.
+q + Entrar y se cierra.
 
 0:01:00.950,0:01:02.820
-Ahora, ejecutÈmoslo de nuevo.
+Ahora, ejecut√©moslo de nuevo.
 
 0:01:02.820,0:01:04.840
-El segundo m·s importante
+El segundo m√°s importante
 
 0:01:04.840,0:01:06.420
 que es 'h',
@@ -80,170 +80,171 @@ que es 'h',
 nos proporciona esta ayuda.
 
 0:01:08.390,0:01:12.100
-AsÌ que puedes ver aquÌ las opciones.
-Esto es realmente la lista corta
+Puedes ver aqu√≠ las posibles opciones.
+Esto es realmente una lista abreviada de
 
 0:01:12.100,0:01:13.840
-del depurador.
+opciones del depurador.
 
 0:01:13.840,0:01:18.110
-AsÌ puedes saber que hay un montÛn de
+C√≥mo ves, hay un mont√≥n de
 
 0:01:18.110,0:01:20.800
 posibles formas de usar el depurador.
 
 0:01:20.800,0:01:24.520
-Para ver el cÛdigo de nuevo,
+Para ver el c√≥digo de nuevo,
 
 0:01:24.520,0:01:25.530
 presiono la tecla 'l'
 
 0:01:25.530,0:01:29.120
-que nos proporciona una lista del cÛdigo.
+que nos proporciona un listado del c√≥digo.
 
 0:01:29.120,0:01:30.400
 Y en este comando 'l',
 
 0:01:30.400,0:01:33.660
-en este listado, ver·s los n˙meros de lÌnea
+en este listado, ver√°s los n√∫meros de l√≠nea
 
 0:01:33.660,0:01:35.830
 y una flecha apuntando a la
 
 0:01:35.830,0:01:39.260
-siguiente lÌnea a ser ejecutada,
-asÌ que esta no ha sido ejecutada
+siguiente l√≠nea que se va a ejecutar,
+as√≠ que esta no se ha ejecutado
 
 0:01:39.260,0:01:40.240
-todavÌa.
+todav√≠a.
 
 0:01:40.240,0:01:43.690
-Si quiero ver quÈ hay en la
+Si quiero ver qu√© hay en la
 variable $file,
 
 0:01:43.690,0:01:45.430
 que
 
 0:01:45.430,0:01:47.100
-se supone vacÌa,
+se supone vac√≠a,
 
 0:01:47.100,0:01:49.750
 puedo usar el
 
 0:01:49.750,0:01:52.720
-comando 'p', que permanece para imprimir.
+comando 'p', proveniente de print
+(imprimir en ingl√©s).
 
 0:01:52.720,0:01:54.799
 Proporciona el nombre de la variable
 
 0:01:54.799,0:01:56.799
-y no dir· nada m·s.
+y imprimir√° en pantalla nada m√°s.
 
 0:01:56.799,0:01:59.269
-Realmente, podrÌa comprobar m·s tarde
+En verdad, podr√≠a comprobar
 
 0:01:59.269,0:02:02.720
-si est· definida o no.
+si est√° definida o no.
 
 0:02:02.720,0:02:05.750
-AsÌ que puedo escribir p defined y devolver·
+As√≠ que puedo escribir p defined y devolver√°
 
 0:02:05.750,0:02:06.869
 false.
 
 0:02:08.499,0:02:10.419
-Y no se imprime nada.
+Por eso no se imprime nada.
 
 0:02:10.419,0:02:14.299
-Si estuviera intentando hacer algo m·s
-complejo, podrÌa comprobar
+Si estuviera intentando hacer algo m√°s
+complejo, podr√≠a comprobar
 
 0:02:14.299,0:02:18.680
-si no est· definida y devolver· alg˙n
+si no est√° definida y devolver√° alg√∫n
 tipo de valor verdadero.
 
 0:02:18.680,0:02:20.180
 Pero sea como sea,
 
 0:02:20.180,0:02:24.670
-veamos cÛmo puedo ejecutar estas lÌneas.
+veamos c√≥mo puedo ejecutar estas l√≠neas.
 
 0:02:24.670,0:02:26.959
-Me gustarÌa volver a este punto
+Me gustar√≠a volver a este punto
 
 0:02:26.959,0:02:29.219
-y ejecutar esta lÌnea de cÛdigo.
+y ejecutar esta l√≠nea de c√≥digo.
 
 0:02:29.219,0:02:33.729
-Para hacerlo pulso 's', que significa entrada paso a paso,
+Para hacerlo presiono 's', que significa ejecutar paso a paso,
 
 0:02:33.729,0:02:35.669
-y pulso enter.
+y presiono Entrar.
 
 0:02:35.669,0:02:39.560
-Eso ejecutar· esa lÌnea de cÛdigo
-y me mostrar· la siguiente
+Eso ejecutar√° esa l√≠nea de c√≥digo
+y me mostrar√° la siguiente
 
 0:02:39.560,0:02:41.269
-lÌnea a ser ejecutada.
+l√≠nea que se va a ejecutar ejecutada.
 
 0:02:41.269,0:02:46.040
 Si imprimiera el contenido del archivo,
 
 0:02:46.040,0:02:49.140
-ver·s que ya tiene ese valor que fue
+ver√°s que ya tiene ese valor que fue
 
 0:02:49.140,0:02:51.519
-proporcionado en la lÌnea de comandos.
+proporcionado en la l√≠nea de comandos.
 
 0:02:51.519,0:02:53.119
 Una vez que tengo este
 
 0:02:53.119,0:02:54.519
-trozo de informaciÛn
+fragmento de informaci√≥n
 
 0:02:54.519,0:02:58.139
-y sÈ que querrÌa llamar la siguiente lÌnea.
+s√© que quiero llamar la siguiente l√≠nea.
 
 0:02:58.139,0:03:01.379
-Ahora la siguiente lÌnea llama la funciÛn 'slurp',
+Ahora la siguiente l√≠nea llama la funci√≥n 'slurp',
 
 0:03:01.379,0:03:04.180
-que viene de otro mÛdulo.
+que viene de otro m√≥dulo.
 
 0:03:04.180,0:03:05.949
-Pulsar 's' de nuevo
+Si presiono 's' de nuevo
 
 0:03:05.949,0:03:06.939
-ejecutar·
+se ejecutar√°
 
 0:03:06.939,0:03:08.619
 el siguiente
 
 0:03:08.619,0:03:09.499
-trozo de cÛdigo,
+fragmento de c√≥digo,
 
 0:03:09.499,0:03:11.999
 que realmente llama esa
 
 0:03:11.999,0:03:13.959
-funciÛn.
+funci√≥n.
 
 0:03:13.959,0:03:17.539
-Lo que ves aquÌ es que esta vez,
+Lo que ves aqu√≠ es que esta vez,
 
 0:03:17.539,0:03:19.200
-se escribiÛ
+se escribi√≥
 
 0:03:19.200,0:03:19.839
-la primera lÌnea
+la primera l√≠nea
 
 0:03:19.839,0:03:22.430
-a ser ejecutada en 
+que se va a ejecutar en 
 ese otro archivo.
 
 0:03:22.430,0:03:23.480
-AsÌ que puedes ver que
+As√≠ que puedes ver que
 
 0:03:23.480,0:03:25.150
 este es el nombre del
@@ -252,14 +253,14 @@ este es el nombre del
 paquete
 
 0:03:26.619,0:03:29.309
-donde est· el cÛdigo.
+donde est√° el c√≥digo.
 
 0:03:29.309,0:03:32.819
-'read_file' es el nombre de la funciÛn
-que est· siendo llamada, lo cual es un poco
+'read_file' es el nombre de la funci√≥n
+a la que se llama, lo cual es un poco
 
 0:03:32.819,0:03:36.919
-raro, porque llamamos una funciÛn llamada 'slurp'
+raro, porque llamamos una funci√≥n llamada 'slurp'
 
 0:03:36.919,0:03:38.270
 y en vez de eso,
@@ -268,44 +269,44 @@ y en vez de eso,
 estamos ejecutando 'read_file'.
 
 0:03:38.990,0:03:40.950
-Y tendr·s que ver quÈ est· pasando
+Y tendr√°s que ver qu√© est√° pasando all√≠.
 
 0:03:40.950,0:03:44.559
-allÌ y este es el nombre del archivo que es
+Y este es el nombre del archivo que es
 
 0:03:44.559,0:03:48.479
-la implementaciÛn actual de la funciÛn 'read_file'.
+la implementaci√≥n real de la funci√≥n 'read_file'.
 
 0:03:48.479,0:03:51.010
-Y estamos en la lÌnea 75, asÌ que
+Y estamos en la l√≠nea 75, as√≠ que
 
 0:03:51.010,0:03:52.749
-esta ser· la siguiente
+esta ser√° la siguiente
 
 0:03:52.749,0:03:55.489
-lÌnea a ser ejecutada.
+l√≠nea que se va a ejecutar.
 
 0:03:55.489,0:04:00.029
 Echemos un vistazo, escribamos 'l'
 
 0:04:00.029,0:04:02.919
-y luego un intervalo de n˙meros de lÌnea:
+y luego un intervalo de n√∫meros de l√≠nea:
 
 0:04:02.919,0:04:04.309
-de la setenta a la ochenta
+de la setenta a la ochenta.
 
 0:04:04.309,0:04:06.310
-y para mostrarnos las lÌneas
+Esto nos mostrar√° las l√≠neas
 
 0:04:08.119,0:04:11.419
-en File/Slurp.pm
+de File::Slurp.pm
 
 0:04:11.419,0:04:15.449
-Y entre esas lÌneas y aquÌ puedes
-ver que sÌ, que estamos en la
+(lo que hay entre esas l√≠neas).
+Aqu√≠ puedes ver que s√≠, que estamos en la
 
 0:04:15.449,0:04:17.419
-funciÛn read_file
+funci√≥n read_file
 
 0:04:17.419,0:04:19.680
 como se dijo.
@@ -314,84 +315,84 @@ como se dijo.
 Sobre esto,
 
 0:04:20.580,0:04:25.340
-puedes ver que realmente, la funciÛn 'slurp'
-es un alias para la funciÛn read_file.
+puedes ver que, en realidad, la funci√≥n 'slurp'
+es un alias para la funci√≥n read_file.
 
 0:04:25.340,0:04:28.650
-Esto explica por quÈ cuando llamamos 'slurp'
+Esto explica por qu√© cuando llamamos 'slurp'
 
 0:04:28.650,0:04:29.560
 realmente,
 
 0:04:29.560,0:04:32.530
-nos ejecuta la funciÛn read_file.
+nos ejecuta la funci√≥n read_file.
 
 0:04:32.530,0:04:34.280
-Dentro de la funciÛn read_file,
+Dentro de la funci√≥n read_file,
 
 0:04:35.469,0:04:37.850
-este es el nuevo paso a ser ejecutado.
+este es el nuevo paso que se va a ejecutar.
 
 0:04:37.850,0:04:39.750
 Si quiero hacerlo y ejecutarlo,
 
 0:04:39.750,0:04:41.470
-puedo pulsar 's' de nuevo,
+puedo presionar 's' de nuevo,
 
 0:04:41.470,0:04:44.280
 pero en verdad no es necesario porque
 si solo presiono
 
 0:04:44.280,0:04:47.949
-enter, lo que no ves es que ejecuta
+Entrar, lo que no ves es que ejecuta
 la misma 's' que
 
 0:04:47.949,0:04:51.690
-se escribiÛ antes.
+se escribi√≥ antes.
 
 0:04:51.690,0:04:55.389
-De esta forma puedo solamente pulsar enter
+De esta forma puedo presionar solamente Entrar
 todo el tiempo y ver como se ejecuta
 
 0:04:55.389,0:04:56.830
 paso a paso
 
 0:04:56.830,0:04:58.160
-y va sobre
+y recorre
 
 0:04:58.160,0:04:59.659
 todos los valores.
 
 0:04:59.659,0:05:03.110
-Todos los pasos que hay en el cÛdigo.
+Todos los pasos que hay en el c√≥digo.
 
 0:05:03.110,0:05:07.499
-DespuÈs de todo, podrÌas pensar que esta
-no es la funciÛn que t˙
+Despu√©s de todo, podr√≠as pensar que esta
+no es la funci√≥n que t√∫
 
 0:05:07.499,0:05:09.409
-querÌas depurar.
+quer√≠as depurar.
 
 0:05:09.409,0:05:10.539
-QuerrÌas pasar de
+Querr√≠as pasar de
 
 0:05:10.539,0:05:12.659
-esa funciÛn.
+esa funci√≥n.
 
 0:05:12.659,0:05:15.899
-De forma que pasaste a esta funciÛn slurp
+De forma que pasaste a esta funci√≥n slurp
 pero no te importa realmente
 
 0:05:15.899,0:05:19.209
-porque t˙ ya sabes que el problema,
-sea cual sea el que que est·s buscando,
+porque t√∫ ya sabes que el problema,
+sea cual sea el que que est√°s buscando,
 
 0:05:19.209,0:05:20.069
-no est· ahÌ.
+no est√° ah√≠.
 
 0:05:20.069,0:05:23.019
 De manera que 
-querrÌas volver de esa funciÛn
+querr√≠as volver de esa funci√≥n
 
 0:05:23.019,0:05:24.470
 sin hacerlo paso a paso
@@ -400,7 +401,7 @@ sin hacerlo paso a paso
 por todas las
 
 0:05:25.979,0:05:31.490
-lÌneas una a una. Para eso est· el comando 'r'.
+l√≠neas una a una. Para eso est√° el comando 'r'.
 
 0:05:31.490,0:05:32.949
 Antes de hacerlo,
@@ -410,32 +411,32 @@ hagamos otra cosa.
 
 0:05:34.239,0:05:37.729
 Veamos el comando 't', que nos proporciona
-la 'stack trace'.
+el seguimiento de la pila.
 
 0:05:37.729,0:05:40.199
-AsÌ que cuando pulso 't', puedo ver
+As√≠ que cuando presiono 't', puedo ver
 
 0:05:40.199,0:05:41.789
-dÛnde estoy
+d√≥nde estoy
 
 0:05:41.789,0:05:46.019
-en el cÛdigo y puedes ver que esta es
-la ˙nica llamada
+en el c√≥digo y puedes ver que esta es
+la √∫nica llamada
 
 0:05:46.019,0:05:48.280
-que se ha hecho, asÌ que solo hay
+que se ha hecho, as√≠ que solo hay
 
 0:05:48.280,0:05:50.879
-una funciÛn en la pila.
+una funci√≥n en la pila.
 
 0:05:50.879,0:05:52.949
-Al pulsar 'r',
+Al presionar 'r',
 
 0:05:52.949,0:05:55.979
-devolver· de la funciÛn actual
+volver√° de la funci√≥n actual
 
 0:05:55.979,0:06:00.890
-e imprimir· sus valores de retorno
+e imprimir√° sus valores de retorno
 porque esta vez el valor devuelto
 
 0:06:00.890,0:06:04.249
@@ -446,34 +447,34 @@ De hecho, ves el contenido del archivo,
 
 0:06:06.540,0:06:10.199
 que es solo el final del archivo pm
-con la documentaciÛn
+con la documentaci√≥n
 
 0:06:10.199,0:06:13.620
 y con la lista de los nombres de la gente
 
 0:06:13.620,0:06:19.729
-que contribuyÛ al proyecto Padre.
+que contribuy√≥ al proyecto Padre.
 Y por cierto, gracias a todos ellos.
 
 0:06:19.729,0:06:21.320
-Volvamos al cÛdigo.
+Volvamos al c√≥digo.
 
 0:06:21.320,0:06:24.939
-AquÌ podr·s ver ahora la siguiente lÌnea de cÛdigo
+Aqu√≠ podr√°s ver ahora la siguiente l√≠nea de c√≥digo
 
 0:06:24.939,0:06:26.930
-que deberÌa ser ejecutada,
+que deber√≠a ejecutarse,
 
 0:06:26.930,0:06:32.300
-la cual es la llamada al esquema de las nuevas
-herramientas de editor y luego define
+la cual es la llamada a EditorTools::Outline,new
+y despu√©s la funci√≥n find, es decir,
 
 0:06:32.300,0:06:33.399
-la funciÛn.
+el m√©todo.
 
 0:06:35.039,0:06:40.099
-AsÌ que pulsemos 's' de nuevo
-y pasemos a ese mÈtodo.
+As√≠ que presionemos 's' de nuevo
+y pasemos a ese m√©todo.
 
 0:06:40.099,0:06:42.180
 Echemos un vistazo
@@ -482,15 +483,15 @@ Echemos un vistazo
 de la 45 a la 60.
 
 0:06:46.680,0:06:49.059
-Ver·s que,
+Ver√°s que,
 
 0:06:49.059,0:06:52.050
-probablemente estas son solo lineas vacÌas
-que no se muestran aquÌ.
+probablemente estas son solo lineas vac√≠as
+que no se muestran aqu√≠.
 
 0:06:52.050,0:06:56.879
-Y luego estamos en el nuevo mÈtodo 'find',
-en su primera lÌnea.
+Y luego estamos en el nuevo m√©todo 'find',
+en su primera l√≠nea.
 
 0:06:56.879,0:06:57.709
 Y ahora puedes
@@ -502,19 +503,19 @@ dar otro paso.
 En este momento,
 
 0:07:02.010,0:07:08.089
-decidimos que no nos preocupamos de la funciÛn
-'process_doc', asÌ que no queremos meternos.
+decidimos que no nos interesa la funci√≥n
+'process_doc', as√≠ que no queremos meternos.
 
 0:07:08.089,0:07:09.409
 Previamente,
 
 0:07:09.409,0:07:13.589
-entramos en la funciÛn 'slurp' y
+entramos en la funci√≥n 'slurp' y
 encontramos que no
 
 0:07:13.589,0:07:16.990
-nos importaba y salimos de ella
-usando la 'r'.
+nos interesaba, por lo que decidimos salir de ella
+usando el comando 'r'.
 
 0:07:16.990,0:07:20.089
 Esta vez puedo usar la letra 'n',
@@ -523,75 +524,75 @@ Esta vez puedo usar la letra 'n',
 que significa siguiente paso.
 
 0:07:21.719,0:07:25.130
-Y si pulso enter,
+Y si presiono Entrar,
 
 0:07:25.130,0:07:27.999
-el cÛdigo de 'process_doc' de ejecutar·,
+el c√≥digo de 'process_doc' de ejecutar√°,
 
 0:07:27.999,0:07:31.130
-pero el depurador parar·
+pero el depurador parar√°
 
 0:07:31.130,0:07:32.120
 en ese punto
 
 0:07:32.120,0:07:33.360
-justo despuÈs de la
+justo despu√©s de la
 
 0:07:33.360,0:07:34.909
-llamada a la funciÛn.
+llamada a la funci√≥n.
 
 0:07:34.909,0:07:38.069
-AsÌ que la siguiente lÌnea, 53,
+As√≠ que la siguiente l√≠nea, 53,
 
 0:07:38.069,0:07:40.620
-aquÌ arriba del todo, puedes ver que esta es la siguiente
+aqu√≠ arriba del todo, puedes ver que esta es la siguiente
 
 0:07:40.620,0:07:42.130
-lÌnea a ser ejecutada.
+l√≠nea que se va a ejecutar.
 
 0:07:42.130,0:07:43.839
-Y aquÌ es dÛnde estamos.
+Y aqu√≠ es donde estamos.
 
 0:07:43.839,0:07:45.750
-Ahora podemos pulsar enter otra vez
+Ahora podemos presionar Entrar otra vez
 
 0:07:45.750,0:07:47.619
-y har·
+y ejecutar√°
 
 0:07:47.619,0:07:51.460
-o 's' o 'n', asÌ que o entrar· o pasar· de ella:
+o 's' o 'n', as√≠ que o entrar√° o pasar√° de ella:
 
 0:07:51.460,0:07:55.030
-cualquiera que fuera la ˙ltima cosa
+cualquiera que fuera la √∫ltima cosa
 que hicimos anteriormente.
 
 0:07:55.030,0:07:56.179
-AsÌ que si pulso enter ahora,
+As√≠ que si presiono Entrar ahora,
 
 0:07:56.179,0:07:58.270
-pasar· sobre el cÛdigo,
+pasar√° de largo
 
 0:07:58.270,0:08:01.419
-a travÈs del ppi.
+la llamada a $ppi.
 
 
 0:08:02.800,0:08:06.750
 Creo que es suficiente por ahora.
-Probablemente darÈ otro
+Probablemente dar√© otro
 
 0:08:06.750,0:08:08.770
 tutorial sobre esto.
 
 0:08:08.770,0:08:14.629
 Simplemente, no olvides que usar 'q' 
-te permitir· salir del depurador.
+te permitir√° salir del depurador.
 
 0:08:14.629,0:08:18.830
-Si est·s interesado en leer m·s
+Si est√°s interesado en leer m√°s
 sobre el depurador,
 
 0:08:18.830,0:08:23.529
-hay un libro excelente. PermÌteme enseÒarte este.
+hay un libro excelente. Perm√≠teme ense√±arte este.
 
 0:08:23.529,0:08:27.889
 Recomiendo comprar este libro y leerlo.
@@ -600,11 +601,11 @@ Recomiendo comprar este libro y leerlo.
 Yo no lo he escrito,
 
 0:08:30.830,0:08:33.680
-pero puedes aprender bastante de Èl.
+pero puedes aprender bastante de √©l.
 
 0:08:33.680,0:08:36.090
-Gracias por ver el vÌdeo y
+Gracias por ver el v√≠deo y
 
 0:08:36.090,0:08:36.790
-por favor, vuelve m·s adelante.
-°AdiÛs!
+por favor, vuelve m√°s adelante.
+¬°Adi√≥s!
