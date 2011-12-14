@@ -87,7 +87,7 @@ Esto es realmente una lista abreviada de
 opciones del depurador.
 
 0:01:13.840,0:01:18.110
-Cómo ves, hay un montón de
+Como ves, hay un montón de
 
 0:01:18.110,0:01:20.800
 posibles formas de usar el depurador.
@@ -131,14 +131,14 @@ se supone vacía,
 puedo usar el
 
 0:01:49.750,0:01:52.720
-comando 'p', proveniente de print
+comando 'p', cuyo nombre proviene de 'print'
 (imprimir en inglés).
 
 0:01:52.720,0:01:54.799
 Proporciona el nombre de la variable
 
 0:01:54.799,0:01:56.799
-y imprimirá en pantalla nada más.
+y no imprimirá nada en pantalla.
 
 0:01:56.799,0:01:59.269
 En verdad, podría comprobar
@@ -186,7 +186,7 @@ Eso ejecutará esa línea de código
 y me mostrará la siguiente
 
 0:02:39.560,0:02:41.269
-línea que se va a ejecutar ejecutada.
+línea que se va a ejecutar.
 
 0:02:41.269,0:02:46.040
 Si imprimiera el contenido del archivo,
@@ -204,10 +204,10 @@ Una vez que tengo este
 fragmento de información
 
 0:02:54.519,0:02:58.139
-sé que quiero llamar la siguiente línea.
+sé que quiero llamar a la siguiente línea.
 
 0:02:58.139,0:03:01.379
-Ahora la siguiente línea llama la función 'slurp',
+Ahora la siguiente línea llama a la función 'slurp',
 
 0:03:01.379,0:03:04.180
 que viene de otro módulo.
@@ -225,7 +225,7 @@ el siguiente
 fragmento de código,
 
 0:03:09.499,0:03:11.999
-que realmente llama esa
+que realmente llama a esa
 
 0:03:11.999,0:03:13.959
 función.
@@ -260,7 +260,7 @@ donde está el código.
 a la que se llama, lo cual es un poco
 
 0:03:32.819,0:03:36.919
-raro, porque llamamos una función llamada 'slurp'
+raro, porque llamamos a una función llamada 'slurp'
 
 0:03:36.919,0:03:38.270
 y en vez de eso,
@@ -272,13 +272,13 @@ estamos ejecutando 'read_file'.
 Y tendrás que ver qué está pasando allí.
 
 0:03:40.950,0:03:44.559
-Y este es el nombre del archivo que es
+Este es el nombre del archivo que es
 
 0:03:44.559,0:03:48.479
 la implementación real de la función 'read_file'.
 
 0:03:48.479,0:03:51.010
-Y estamos en la línea 75, así que
+Estamos en la línea 75, así que
 
 0:03:51.010,0:03:52.749
 esta será la siguiente
@@ -319,7 +319,7 @@ puedes ver que, en realidad, la función 'slurp'
 es un alias para la función read_file.
 
 0:04:25.340,0:04:28.650
-Esto explica por qué cuando llamamos 'slurp'
+Esto explica por qué cuando llamamos a 'slurp'
 
 0:04:28.650,0:04:29.560
 realmente,
@@ -490,11 +490,11 @@ probablemente estas son solo lineas vacías
 que no se muestran aquí.
 
 0:06:52.050,0:06:56.879
-Y luego estamos en el nuevo método 'find',
+Y luego estamos en el método 'find',
 en su primera línea.
 
 0:06:56.879,0:06:57.709
-Y ahora puedes
+Ahora puedes
 
 0:06:57.709,0:07:00.210
 dar otro paso.
@@ -527,7 +527,7 @@ que significa siguiente paso.
 Y si presiono Entrar,
 
 0:07:25.130,0:07:27.999
-el código de 'process_doc' de ejecutará,
+el código de 'process_doc' se ejecutará,
 
 0:07:27.999,0:07:31.130
 pero el depurador parará
@@ -560,7 +560,7 @@ Ahora podemos presionar Entrar otra vez
 y ejecutará
 
 0:07:47.619,0:07:51.460
-o 's' o 'n', así que o entrará o pasará de ella:
+'s' o 'n', así que entrará o pasará de largo:
 
 0:07:51.460,0:07:55.030
 cualquiera que fuera la última cosa
