@@ -1,8 +1,4 @@
-00:00:01.0,00:00:08.0
-Hi, in this part I'm going to show 
- you how Perl can compare scalar values.
-
-00:00:01.533,00:00:08.533
+00:00:01.533,00:00:07.533
 Hi, in this part I'm going to show 
  you how Perl can compare scalar values.
 
@@ -12,10 +8,10 @@ I would like to see whether 1 and 1.0 and 1.00
 00:00:13.0,00:00:16.0
 Are they equal, one of them is bigger, one of them is smaller?
 
-00:00:16.333,00:00:21.333
+00:00:16.333,00:00:20.333
 What about 1.00 in a string, so in quotation marks?
 
-00:00:21.0,00:00:27.0
+00:00:21.0,00:00:26.0
 What about comparing "foo" and "bar," these two strings?
 
 00:00:27.283,00:00:29.283
@@ -28,20 +24,20 @@ We saw that in Perl there are operators like “+” and “.”, they convert
 00:00:39.282,00:00:44.282
 And they don’t care what the actual value you put in the variables.
 
-00:00:44.2,00:00:46.35
+00:00:44.2,00:00:45.35
 This is similar with the operators.
 
 00:00:46.4,00:00:50.2
 Perl actually has two sets of comparison operators.
 
-00:00:50.2,00:01:00.2
+00:00:50.2,00:59:00.2
 And I put here in this separate file a table so you can see there 
  is a set of numeric comparisons and a set of string comparisons. 
 
-00:01:00.07,00:01:04.07
+00:01:00.07,00:01:03.07
 Equal equal the check that the two sides are equal as numbers.
 
-00:01:04.333,00:01:07.333
+00:01:04.333,00:01:06.333
 And eq will check whether they are equal as strings.
 
 00:01:07.2,00:01:13.2
@@ -133,8 +129,10 @@ But what if I am comparing with greater than, the string comparison?
 00:03:17.5,00:03:19.8
 Then I run it and I get false.
 
-00:03:20.0,00:03:36.80
-So it might be surprising to some people but if you think about it, the way this compares “gt” compares, or all the 
+00:03:20.0,00:03:27.80
+So it might be surprising to some people but if you think about it, the way this compares “gt” compares, or all the
+
+00:03:28.0,00:03:36.80
  string comparisons compare is they take the first character which is one, comparing this to the first character here which is three.
 
 00:03:37.2,00:03:43.8
@@ -174,11 +172,11 @@ There are two strings which are not exact
 And converts both sides to zero because it will try to convert 
  try to look at the left-hand side, look for numbers.
 
-00:04:41.133,00:04:47.13
+00:04:41.133,00:04:46.13
 There are no numbers in either of the strings 
  so they both equal to 0. 
 
-00:04:47.0,00:04:54.50
+00:04:47.0,00:04:53.50
 And therefore 0 equals to 0 as two numbers and that’s 
  true, so that’s the reason Perl prints here true.
 
