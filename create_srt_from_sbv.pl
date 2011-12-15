@@ -9,11 +9,11 @@
 # Create .srt from specified files
 # ./create_srt_from_sbv.pl path/to/something.sbv path/to/another.sbv
 #
-# Create .srt files from all .sbv files found under directory
-# ./create_srt_from_sbv.pl path/to
+# Create .srt files from all .sbv files found under specified directory
+# ./create_srt_from_sbv.pl path/to/sbvfiles/
 #
 # Create .srt files from all .sbv files found under current directory
-# ./create_srt_from_sbv.pl (will take all .sbv files found under current directory)
+# ./create_srt_from_sbv.pl
 #
 
 use strict;
