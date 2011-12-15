@@ -24,7 +24,7 @@ Wir haben gesehen, dass es in Perl Operatoren wie “+” und “.” gibt, sie 
 Zeichenketten in Nummern um und umgekehrt abhängig von ihrem eigenen Kontext.
 
 0:00:39.282,0:00:44.282
-Und ihnen ist egal was für einen Wertman in die Variablen hineinsteckt.
+Und ihnen ist egal was für einen Wert man in die Variablen hineinsteckt.
 
 0:00:44.282,0:00:46.351
 Das ist ähnlich mit den Operatoren.
