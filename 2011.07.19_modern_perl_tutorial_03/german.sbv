@@ -24,7 +24,7 @@ Wir haben gesehen, dass es in Perl Operatoren wie “+” und “.” gibt, sie 
 Zeichenketten in Nummern um und umgekehrt abhängig von ihrem eigenen Kontext.
 
 0:00:39.282,0:00:44.282
-Betrag bitte immer Wert, da skalare Variablen mehr als nur Zahlen enthalten können, sonder eben auch Texte oder Speicheradressen.
+Und ihnen ist egal was für einen Wertman in die Variablen hineinsteckt.
 
 0:00:44.282,0:00:46.351
 Das ist ähnlich mit den Operatoren.
@@ -202,7 +202,7 @@ Offensichtlich wenn man weiß, das man zwei Dinge vergleichen muss,
 
 0:05:04.018,0:05:12.016
 Eigentlich in die meiste Fälle, wurde man “eq” benutzen
- wenn man zwei Zeichenketten vergleicht, zwei Beträge.
+ wenn man zwei Zeichenketten vergleicht, zwei Werte.
 
 0:05:12.016,0:05:17.002
 So in diesem Fall haben wir offensichtlich FALSE zurückbekommen, wie ich erwartete.
@@ -250,7 +250,7 @@ Obwohl was ich prüfte, ich prüfte
  ob es eine leere Zeichenkette war.
 
 0:06:41.635,0:06:48.664
-Und ich bekomme TRUE, weil diese Zeichenkette, “ddd”, anblickend
+Und ich bekomme TRUE, weil diese Zeichenkette, “ddd”, 
  auf der linken Seite als Nummer 0 ist.
 
 0:06:48.664,0:06:50.926
