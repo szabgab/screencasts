@@ -100,11 +100,10 @@ p Kommando ist, um die Variable auszugeben.
 
 0:01:36.040,0:01:38.950
 Auf dem gleichen Weg wie ich den Wert der
-Variable zugewiesen habe, kann ich ihn auch
-
+skalaren Variable zugewiesen habe, kann ich ihn auch
 
 0:01:38.950,0:01:42.350
-beispielsweise einer Variable zuweisen.
+beispielsweise einem Array zuweisen.
 
 0:01:42.350,0:01:47.210
 Hier sind die Werte
@@ -160,7 +159,7 @@ Auf diesem Weg wird es
 die Referenz sowie die Index-Wert Paare ausgeben.
 
 0:02:32.429,0:02:36.439
-So kannst du auch Hashes nutzen.
+So kannst du auch Hashes erstellen.
 
 0:02:36.439,0:02:44.799
 Wenn du also fname als Foo
@@ -204,23 +203,23 @@ herausfinden wie die
 Push-Funktion funktioniert.
 
 0:03:16.029,0:03:20.669
-Gib push @names, 'Moose' ein und
+Gib push @names, 'Moose' ein,
 
 0:03:20.669,0:03:23.479
-gehe dann zurück.
+danach kannst du zurückgehen und
 
 0:03:23.479,0:03:27.659
-Es wird der Arrayinhalt ausgegeben
-und du kannst sehen, dass
+es wird der Arrayinhalt ausgegeben
+an dem du sehen kannst, dass
 
 0:03:27.659,0:03:31.079
 dieses Array
 
 0:03:31.079,0:03:34.759
-länger und der 'Moose' Wert angefügt wurde.
+länger wurde und der 'Moose' Wert hinzugefügt ist.
 
 0:03:34.759,0:03:38.729
-So kannst du Perlcode über den Debugger ansehen und verstehen,
+So kannst du Perlcode über den Debugger erforschen,
 
 0:03:38.729,0:03:42.869
 manchmal durch Nutzung der Perlfunktionen
@@ -280,7 +279,7 @@ Rückgabewert von cwd übergeben.
 
 
 0:04:35.209,0:04:39.370
-Und das Ausführen lassen.
+Und das ausgeben lassen.
 
 0:04:39.370,0:04:40.580
 Ich muss es nur richtig
@@ -305,16 +304,16 @@ einen Haltepunkt
 für diese Funktion einfügen.
 
 0:04:56.330,0:04:59.909
-Du willst also einen Haltepunkt für file
+Du willst also einen Haltepunkt für die ...File
 
 0:04:59.909,0:05:02.059
-File/Basename
+... File::Basename ...
 
 0:05:02.059,0:05:03.449
-basename
+... ::basename
 
 0:05:03.449,0:05:04.620
-function
+Funktion
 
 0:05:04.620,0:05:09.019
 einfügen und wenn ich das dann ausführe, mit dem Parameter b,
@@ -326,13 +325,13 @@ und den Code erneut ausführe...
 dann hält er an dem Punkt,
 
 0:05:13.169,0:05:14.840
-wenn wir die Funktion beginnen auszuführen,
+wenn wir beginnen die Funktion auszuführen,
 
 0:05:14.840,0:05:18.919
-hier die basename Funktion der file
+hier die basename Funktion der
 
 0:05:18.919,0:05:20.169
-basename Klasse,
+File::Basename Klasse,
 
 0:05:20.169,0:05:25.050
 welche in dieser Datei, Zeile
