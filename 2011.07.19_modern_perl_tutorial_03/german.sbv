@@ -1,12 +1,12 @@
 0:00:01.533,0:00:08.533
 Hallo, im diesem Tutorial werde ich dir zeigen,
- wie man mit Perl skalar Beträge vergleichen kann.
+ wie man mit Perl skalare Werte vergleichen kann.
 
 0:00:08.533,0:00:13.667
 Ich möchte sehen, ob 1 und 1.0 und 1.00
 
 0:00:13.667,0:00:16.000
-gleich sind, oder ob einer größer oder kleiner?
+gleich sind, oder ob einer größer oder kleiner ist.
 
 0:00:16.000,0:00:21.333
 Wie ist es mit 1.00 in einer Zeichenkette, also in Anführungszeichen?
@@ -18,33 +18,33 @@ Wie ist es mit dem Vergleich zwischen “foo” und “bar,” diesen zwei Zeich
 Also, Perl hat-
 
 0:00:29.283,0:00:34.282
-Wir haben gesehen, dass es in Perl Operatoren wie “+” und “.” gibt, sie wechseln
+Wir haben gesehen, dass es in Perl Operatoren wie “+” und “.” gibt, sie wandeln
 
 0:00:34.282,0:00:39.282
-Zeichenketten zu Nummern und umgekehrt abhängig von ihrem eigenen Kontext.
+Zeichenketten in Nummern um und umgekehrt abhängig von ihrem eigenen Kontext.
 
 0:00:39.282,0:00:44.282
-Und ihnen ist egal was für einen Betrag man in die Variablen hineinsteckt.
+Betrag bitte immer Wert, da skalare Variablen mehr als nur Zahlen enthalten können, sonder eben auch Texte oder Speicheradressen.
 
 0:00:44.282,0:00:46.351
 Das ist ähnlich mit den Operatoren.
 
 0:00:46.351,0:00:50.258
-Perl hat eigentlich zwei Abteulungen Vergleichsoperatoren.
+Perl hat eigentlich zwei Sätze von Vergleichsoperatoren.
 
 0:00:50.258,0:01:00.239
 In diese getrennte Datei habe ich eine Tabelle eingefügt, sodass ihr sehen könnt, dass
- es eine Menge numerische Vergleiche und eine Menge Zeichenkettensvergleiche gibt. 
+ es einen Satz numerische Vergleiche und einen Satz Zeichenkettensvergleiche gibt. 
 
 0:01:00.239,0:01:04.076
-== markiert, dass die zwei Seiten gleiche Nummern sind.
+== prüft, ob die zwei Seiten gleiche Nummern sind.
 
 0:01:04.076,0:01:07.333
 Und eq checkt, ob sie gleiche Zeichenketten sind.
 
 0:01:07.333,0:01:13.439
 Und dies würde checken, ob sie nicht gleich sind, und dies wurde 
- markieren, ob die linke Seite eine kleinere Nummer ist.
+ prüfen, ob die linke Seite eine kleinere Nummer ist.
 
 0:01:13.439,0:01:16.936
 Und lt wurde sie es als Zeichenketten vergleichen. 
@@ -72,14 +72,14 @@ Also, wenn ich diesen Code laufen lassen, werde ich TRUE zurückbekommen,
 Und Perl klammert Punkt Null aus, obwohl ich hier in 
 
 0:01:54.200,0:01:59.200
-Gleitkommaschreibweise schreibe, weil das nur 12 als wirkliche Betrag ist.
+Gleitkommaschreibweise schreibe, weil der echte Wert trotzdem nur 12 ist.
 
 0:01:59.200,0:02:04.856
 Dasselbe würde passieren, wenn ich hier zwei Nullen einfüge, 
  es macht nichts, immer noch TRUE.
 
 0:02:04.856,0:02:09.945
-Und wenn ich hier dies in Anführungszeichen tue, wurde das noch stimmen,
+Und wenn ich hier dies in Anführungszeichen tue, würde das noch stimmen,
 
 0:02:09.945,0:02:14.945
 weil Perl die Zeichenkette mit einer Nummer vergleicht, und bekommt die Gleiche.
@@ -120,10 +120,10 @@ Was passiert wenn ich sie als Zeichenketten vergleiche?
 Das ist dasselbe, es ist zwei.
 
 0:02:55.757,0:03:01.759
-Stimmt noch, weil zwei kommt vor drei in die Anfragendtabelle.
+Stimmt noch, weil zwei kommt vor drei in die ASCII-Tabelle.
 
 0:03:01.759,0:03:08.000
-Und was passiert, wenn ich zwolf mit drei vergleiche?
+Und was passiert, wenn ich zwölf mit drei vergleiche?
 
 0:03:08.000,0:03:10.267
 Das ist offensichtlich.
@@ -138,7 +138,7 @@ Aber was passiert wenn ich mit gt vergleiche, der Vergleich der Zeichenketten?
 Dann lass ich es laufen und ich bekomme FALSE.
 
 0:03:20.015,0:03:24.221
-Wäre möglich überraschend zu einige Leuten, aber wenn Sie daran denken,
+Wäre möglich überraschend für einige Leuten, aber wenn Sie daran denken,
 
 0:03:24.221,0:03:28.221
 die Weg dies vergleicht, “gt” vergleicht, oder alle die 
@@ -153,17 +153,17 @@ und vergleichen es mit dem ersten Zeichen hier, was drei ist.
 Und wir wissen schon, dass die linke Seite 
 
 0:03:40.069,0:03:44.069
-kommt vor der rechten Seite in der Anfragendtabelle.
+vor der rechten Seite kommt in der ASCII-Tabelle.
 
 0:03:44.069,0:03:55.968
-Also, zu diesem Zeitpunkt wird es sich entschieden, dass zwolf als Zeichenkette  
+Also, zu diesem Zeitpunkt wird es sich entschieden, dass zwölf als Zeichenkette  
  kleiner als drei ist, und dawegen schickt dieser Ausdruck FALSE zurück.
 
 0:03:55.968,0:04:02.139
 Also, was passiert wenn ich “foo” mit “bar” vergleiche?
 
 0:04:02.139,0:04:06.215
-Ich markieremit zwei Gleichheitszeichen ob sie gleich sind.
+Ich vergleiche mit zwei Gleichheitszeichen ob sie gleich sind.
 
 0:04:06.215,0:04:11.523
 Und ich lasse es laufen, und erstauntlicherweise gibt es mir TRUE.
@@ -175,7 +175,7 @@ Möglicherweise ist es nicht so überraschend zu denen, die was das heißt wisse
 Also “==” vergleicht die zwei Seiten als Nummern.
 
 0:04:20.006,0:04:24.008
-Und wechselt sie als Nummern ein, und das ist warum wir diese Warnungen bekommen.
+Und wandelt sie in Nummern um, und das ist warum wir diese Warnungen bekommen.
 
 0:04:24.008,0:04:28.133
 Weil “==” nimmt zwei Nummern an.
@@ -185,24 +185,24 @@ Es gibt zwei Zeichenketten, die nicht genaue Nummern
  sind, deshalb gibt Perl mir eine Warnung.
 
 0:04:34.267,0:04:41.133
-Und überführt beide Seiten in null, weil es  
+Und wandelt beide Seiten in null um, weil es  
  Nummern erwartet.
 
 0:04:41.133,0:04:47.013
-Es gibt keine Nummern in beiden Zeichenketten
- so die beide sind null. 
+Es gibt keine Nummern in beiden Zeichenketten,
+ also sind beide null. 
 
 0:04:47.013,0:04:54.933
 Und deshalb 0 und 0 als Nummern sind gleich,
  so das ist warum Perl hier TRUE druckt.
 
 0:04:54.933,0:05:04.018
-Offensichtlich wenn man weiß, das man zwei dingen vergleichen muss,
- die vielleicht Zeichenketten sind, wurde man “eq” benutzen.
+Offensichtlich wenn man weiß, das man zwei Dinge vergleichen muss,
+ die vielleicht Zeichenketten sind, würde man “eq” benutzen.
 
 0:05:04.018,0:05:12.016
-Eigentlich in die meiste Orte der Welt, wurde man “eq” benutzen
- wenn man zwei Zeichenketten vergleicht, die zwei Beträge.
+Eigentlich in die meiste Fälle, wurde man “eq” benutzen
+ wenn man zwei Zeichenketten vergleicht, zwei Beträge.
 
 0:05:12.016,0:05:17.002
 So in diesem Fall haben wir offensichtlich FALSE zurückbekommen, wie ich erwartete.
@@ -212,11 +212,11 @@ Etwas, was möglicherweise interessanter ist, ist das auch wenn ich mit einer
  leeren Zeichenkette vergleiche, bekomme ich das gleiche Problem.
 
 0:05:23.869,0:05:26.554
-Ich bekkomme TRUE und diese zwei Warnungen.
+Ich bekomme TRUE und diese zwei Warnungen.
 
 0:05:26.554,0:05:32.012
 Nur um Sie zu erinnern, bekomme ich diese 
- Warnungen, nur weil ich diese Warnungen ausbat.
+ Warnungen nur, weil ich nach diesen Warnungen gefragt habe.
 
 0:05:32.012,0:05:41.996
 Also, es ist ziemlich wichtig, dieses pragma zu benutzen, sonst wurde es schwiegend nur
@@ -227,7 +227,7 @@ Offensichtlich hier auch wenn ich “eq” benutze, wurde das in Ordnung sein.
  Wenn ich das Skript laufen lasse, wurde es mir FALSE geben, wie ich erwartete.
 
 0:05:49.948,0:05:53.975
-Jetzt sehen wir ein Beispiel, in dem dieses Problem vielleicht ankommen wird!
+Jetzt sehen wir ein Beispiel, in dem dieses Problem vielleicht auftauchen wird!
 
 0:05:53.975,0:06:08.806
 So, “dein Name”.  Sehen wir, dass ich eine Frage ausdruckt,
@@ -239,22 +239,22 @@ Dann lösche ich das Zeilenvorschubzeichen vom Ende, und
 
 0:06:23.384,0:06:30.762
 Und das ist ein geläufiger Fehler, den einige Leute begehen, die
- das Unterschied zwischen “eq” und “==” nicht wissen.
+ das Unterschied zwischen “eq” und “==” nicht kennen.
 
 0:06:30.762,0:06:36.719
 So wenn ich hier eine Zeichenkette eintippe, dann bekomme 
  ich alle diese Warnungen, aber ick bekomme TRUE.
 
 0:06:36.719,0:06:41.635
-Obwohl was ich markierte, ich markierte 
+Obwohl was ich prüfte, ich prüfte 
  ob es eine leere Zeichenkette war.
 
 0:06:41.635,0:06:48.664
 Und ich bekomme TRUE, weil diese Zeichenkette, “ddd”, anblickend
- die linke Seite ist null als eine Nummer.
+ auf der linken Seite als Nummer 0 ist.
 
 0:06:48.664,0:06:50.926
-“==” überführt in eine Nummer. 
+“==” wandelt in eine Nummer um. 
 
 0:06:50.926,0:06:53.005
 Die rechte Seite ist gleich eine Nummer.
@@ -263,7 +263,7 @@ Die rechte Seite ist gleich eine Nummer.
 Deshalb sind die zwei Seiten gleich.
 
 0:06:57.950,0:07:05.006
-Das Richtige ist zu markieren, mit
+Das Richtige ist zu prüfen, mit
  eq, ob die Zeichenkette leer ist.
 
 0:07:05.006,0:07:09.999
