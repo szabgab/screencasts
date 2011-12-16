@@ -33,17 +33,17 @@ Ocurre algo similar con los operadores.
 De hecho, Perl tiene dos tipos de operadores de comparación.
 
 0:00:50.258,0:01:00.239
-En este archivo tengo una tabla que muestra que hay comparaciones
+En este archivo tengo una tabla ascii que muestra las comparaciones
 numéricas y de strings.
 
 0:01:00.239,0:01:04.076
-Igual igual chequeará que los dos lados sean igual como números.
+Igual igual verificará que los dos lados sean igual como números.
 
 0:01:04.076,0:01:07.333
-Y eq chequeará si son iguales como strings.
+Y eq comprobará si son iguales como strings.
 
 0:01:07.333,0:01:13.439
-Y esto chequearía que no sean iguales; esto chequearía
+Y esto comprobaría que no sean iguales; esto verificaría
 que el lado izquierdo es menor como número.
 
 0:01:13.439,0:01:16.936
@@ -69,13 +69,13 @@ Si corro este código será verdadero
 porque 12 es igual a 12.0.
 
 0:01:49.208,0:01:54.200
-Y Perl ignora el punto cero porque incluso aunque lo haya escrito
+Y Perl ignora el punto 0 porque incluso aunque lo haya escrito
 
 0:01:54.200,0:01:59.200
 sigue significando el valor 12.
 
 0:01:59.200,0:02:04.856
-Lo mismo ocurriría si pusiera dos zeros, pero no
+Lo mismo ocurriría si pusiera dos 0, pero no
 importa mucho porque seguiría siendo verdadero.
 
 0:02:04.856,0:02:09.945
@@ -121,7 +121,7 @@ Ocurre lo mismo, son dos.
 
 0:02:55.757,0:03:01.759
 Es verdadero porque el dos está detrás del tres en la tabla
-de comparación.
+ascii.
 
 0:03:01.759,0:03:08.000
 ¿Y qué sucede cuando comparo doce con tres?
@@ -154,7 +154,7 @@ y lo compara con el primer otro caracter, que es 3.
 Y con este caracter sabemos que el lado izquierdo
 
 0:03:40.069,0:03:44.069
-ocurre antes del derecho en la tabla de comparación.
+ocurre antes del derecho en la tabla ascii.
 
 0:03:44.069,0:03:55.968
 El punto es que decidirá si doce como un string es menor a tres,
@@ -243,7 +243,7 @@ Si aquí escribo cualquier string, me llegan
 todas estas advertencias, pero ya da verdadero.
 
 0:06:36.719,0:06:41.635
-Aunque estabas checando todo, olvidaste checar el string vacío.
+Aunque estabas verificando todo, olvidaste verificar el string vacío.
 
 0:06:41.635,0:06:48.664
 Y da verdadero porque este string, "ddd", desde el
@@ -259,11 +259,11 @@ El lado derecho es igual a number.
 Los dos lados son iguales.
 
 0:06:57.950,0:07:05.006
-La forma correcta de hacerlo sería checar si este string
+La forma correcta de hacerlo sería comprobar si este string
 con eq es sólo un string vacío.
 
 0:07:05.006,0:07:09.999
-Para que pueda correr "ddd" y chequear si es falso.
+Para que pueda correr "ddd" y verificar si es falso.
 
 0:07:09.999,0:07:19.850
 Por otra parte, si corro este script y oprimo enter sin tecleaar
