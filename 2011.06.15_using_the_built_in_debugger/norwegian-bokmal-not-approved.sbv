@@ -1,0 +1,645 @@
+0:00:03.700,0:00:06.190
+Hei og velkommen tilbake til kanalen
+
+0:00:06.190,0:00:09.070
+Denne gangen skal jeg
+å snakke om innebygd debugger
+
+0:00:09.070,0:00:11.309
+av perl
+
+0:00:11.309,0:00:14.089
+Vanligvis hvis du har et manus
+
+0:00:14.089,0:00:16.350
+La oss si i dette tilfellet 'outline.pl'
+
+0:00:16.350,0:00:21.569
+Du kan kjøre på denne måten i kommandolinjen
+perl navnet på skriptet og potensielle parametere
+
+0:00:21.569,0:00:23.960
+Så la oss se om jeg kjører dette skriptet
+
+0:00:23.960,0:00:25.599
+Vi kan se at det gir noen effekt
+
+0:00:25.599,0:00:29.849
+Måten å feilsøke det er å kjøre
+perl-d
+
+0:00:29.849,0:00:33.120
+og navnet på skriptet
+og deretter parametrene
+
+0:00:33.120,0:00:33.770
+Når
+
+0:00:33.770,0:00:36.240
+Jeg kjører dette
+
+0:00:36.240,0:00:38.920
+det vil gi noen form for en utgang
+
+0:00:38.920,0:00:43.340
+Skriver ut den første linjen med kode,
+neste linje som er
+
+0:00:43.340,0:00:45.010
+ment å bli utføret
+
+0:00:45.010,0:00:47.220
+og gir så meg med en rask
+
+0:00:47.220,0:00:50.290
+hvor jeg kan skrive på ulike kommandoer
+til debugger.
+
+0:00:50.290,0:00:51.839
+Første og viktigste
+
+0:00:51.839,0:00:52.610
+er det 'Q'
+
+0:00:52.610,0:00:54.960
+som vil la oss avslutte debugger
+
+0:00:54.960,0:00:58.000
+Så når vi ønsker å bli kvitt den
+
+0:00:58.000,0:00:58.689
+Vi trykker på
+
+0:00:58.689,0:01:00.950
+q inn og det avsluttes
+
+0:01:00.950,0:01:02.820
+Nå la oss kjøre den på nytt
+
+0:01:02.820,0:01:04.840
+Den nest viktigste
+
+0:01:04.840,0:01:06.420
+som er 'h'
+
+0:01:06.420,0:01:08.390
+Gir oss denne hjelpen
+
+0:01:08.390,0:01:12.100
+Så du kan se her de ulike alternativene.
+Dette er faktisk den korte listen
+
+0:01:12.100,0:01:13.840
+av debugger
+
+0:01:13.840,0:01:18.110
+Så du kan vite at det finnes tonnevis av
+potensial ...
+
+0:01:18.110,0:01:20.800
+mulige måter å bruke debugger
+
+0:01:20.800,0:01:24.520
+For å se nå
+koden igjen
+
+0:01:24.520,0:01:25.530
+Jeg trykker 'l'
+
+0:01:25.530,0:01:29.120
+som gir en oversikt over
+kode
+
+0:01:29.120,0:01:30.400
+Og i denne 'l'
+
+0:01:30.400,0:01:33.660
+I denne oppføringen vil du se linjen
+tall
+
+0:01:33.660,0:01:35.830
+og denne pilen peker på linjen som er
+
+0:01:35.830,0:01:39.260
+Neste linje å bli utføret. Så denne linjen
+
+0:01:39.260,0:01:40.240
+har ikke blitt utført. ennå
+
+0:01:40.240,0:01:43.690
+Hvis jeg ønsker å se hva i $ fil
+variable
+
+0:01:43.690,0:01:45.430
+som
+
+0:01:45.430,0:01:47.100
+er ment å være tom faktisk
+
+0:01:47.100,0:01:49.750
+Jeg kan bruke
+
+0:01:49.750,0:01:52.720
+"P"-kommando som står for print
+
+0:01:52.720,0:01:54.799
+Gi navnet på variabelen
+
+0:01:54.799,0:01:56.799
+og det vil bare skrive noe
+
+0:01:56.799,0:01:59.269
+Egentlig kunne jeg selv sjekke om
+
+0:01:59.269,0:02:02.720
+det er definert eller ikke.
+
+0:02:02.720,0:02:05.750
+Så kan jeg skrive p definert og det retur
+
+0:02:05.750,0:02:06.869
+falsk
+
+0:02:06.869,0:02:08.499
+
+0:02:08.499,0:02:10.419
+Så det ikke ut noe
+
+0:02:10.419,0:02:14.299
+Hvis jeg prøvde å gjøre noe mer
+Komplekset jeg kunne prøve
+
+0:02:14.299,0:02:18.680
+hvis ikke definert, og det vil
+skrive ut noen form for sanne verdi
+
+0:02:18.680,0:02:20.180
+Men uansett.
+
+0:02:20.180,0:02:24.670
+La oss se hvordan jeg kan utføre disse linjene
+
+0:02:24.670,0:02:26.959
+Jeg ønsker å komme tilbake til dette punktet
+
+0:02:26.959,0:02:29.219
+og gjennomføre denne linjen med kode
+
+0:02:29.219,0:02:33.729
+For å gjøre det jeg trykker 's' som betyr skritt
+eller trinn i
+
+0:02:33.729,0:02:35.669
+og trykk enter
+
+0:02:35.669,0:02:39.560
+Det vil gjennomføre at kodelinje og
+Vis meg neste
+
+0:02:39.560,0:02:41.269
+linje for å bli utføret
+
+0:02:41.269,0:02:46.040
+Hvis jeg skrive ut
+Innholdet i filen
+
+0:02:46.040,0:02:49.140
+Deretter vil du se som allerede har
+at verdien som ble
+
+0:02:49.140,0:02:51.519
+gitt i kommandolinjen
+
+0:02:51.519,0:02:53.119
+Når jeg har denne
+
+0:02:53.119,0:02:54.519
+opplysning
+
+0:02:54.519,0:02:58.139
+og jeg vet at jeg ønsker å kalle
+neste linje
+
+0:02:58.139,0:03:01.379
+Nå er neste linje kaller
+slurper funksjon
+
+0:03:01.379,0:03:04.180
+som kommer fra en annen modul
+
+0:03:04.180,0:03:05.949
+Ved å trykke 's' igjen
+
+0:03:05.949,0:03:06.939
+vil utføre
+
+0:03:06.939,0:03:08.619
+neste
+
+0:03:08.619,0:03:09.499
+kodedel
+
+0:03:09.499,0:03:11.999
+Som faktisk kaller
+at
+
+0:03:11.999,0:03:13.959
+funksjon
+
+0:03:13.959,0:03:17.539
+Så det du ser her er at denne gangen
+
+0:03:17.539,0:03:19.200
+det skrevet ut det første
+
+0:03:19.200,0:03:19.839
+linje
+
+0:03:19.839,0:03:22.430
+å bli utføret i den andre fila
+
+0:03:22.430,0:03:23.480
+Så du kan se at
+
+0:03:23.480,0:03:25.150
+Dette er navnet på den
+
+0:03:25.150,0:03:26.619
+pakke
+
+0:03:26.619,0:03:29.309
+der koden er
+
+0:03:29.309,0:03:32.819
+read_file er navnet på
+funksjon som blir kalt
+som er litt
+
+0:03:32.819,0:03:36.919
+rart fordi vi kalte en funksjon
+som kalles "slurper"
+
+0:03:36.919,0:03:38.270
+og i stedet for at
+
+0:03:38.270,0:03:38.990
+Vi kjører read_file
+
+0:03:38.990,0:03:40.950
+Og du blir nødt til å se hva som er
+
+0:03:40.950,0:03:44.559
+skjer der, og dette er navnet på den
+file
+
+0:03:44.559,0:03:48.479
+den faktiske gjennomføringen av read_file
+funksjon
+
+0:03:48.479,0:03:51.010
+Og vi er på linje 75
+
+0:03:51.010,0:03:52.749
+Så dette er den neste
+
+0:03:52.749,0:03:55.489
+linje for å bli utføret
+
+0:03:55.489,0:04:00.029
+La oss se deg rundt så la oss type 'l'
+
+0:04:00.029,0:04:02.919
+og en rekke linjenumrene
+
+0:04:02.919,0:04:04.309
+70-80
+
+0:04:04.309,0:04:06.310
+og å vise oss linjene
+
+0:04:06.310,0:04:08.119
+
+0:04:08.119,0:04:11.419
+Fil / Slurp.pm
+
+0:04:11.419,0:04:15.449
+I mellom disse linjene. Og her kan du
+se at ja, vi er i
+
+0:04:15.449,0:04:17.419
+read_file
+
+0:04:17.419,0:04:19.680
+fungere som det ble fortalt
+
+0:04:19.680,0:04:20.580
+over det
+
+0:04:20.580,0:04:25.340
+Du ser at faktisk slurper
+Funksjonen er og alias til read_file funksjon
+
+0:04:25.340,0:04:28.650
+Så det forklarer hvorfor når vi kaller slurper
+
+0:04:28.650,0:04:29.560
+det faktisk
+
+0:04:29.560,0:04:32.530
+får oss inn i read_file funksjon
+
+0:04:32.530,0:04:34.280
+innenfor read_file funksjon
+
+0:04:34.280,0:04:35.469
+
+0:04:35.469,0:04:37.850
+Dette er neste steg å bli utføret
+
+0:04:37.850,0:04:39.750
+Hvis jeg ønsker å gjøre og gjennomføre
+
+0:04:39.750,0:04:41.470
+Jeg kan trykke s igjen
+
+0:04:41.470,0:04:44.280
+men det er ikke nødvendig egentlig fordi
+hvis jeg bare
+
+0:04:44.280,0:04:47.949
+trykk enter at du ikke kan virkelig se
+utfører den samme 's'
+
+0:04:47.949,0:04:51.690
+som ble gitt tidligere
+
+0:04:51.690,0:04:55.389
+På denne måten kan jeg bare trykk enter
+hele tiden og se det går
+
+0:04:55.389,0:04:56.830
+steg-for-trinn
+
+0:04:56.830,0:04:58.160
+og gå over
+
+0:04:58.160,0:04:59.659
+alle verdiene
+
+0:04:59.659,0:05:03.110
+Alle trinnene som er i koden.
+
+0:05:03.110,0:05:07.499
+Nå, etter alt hende du tror at
+dette er ikke han funksjon du
+
+0:05:07.499,0:05:09.409
+ønsker å feilsøke
+
+0:05:09.409,0:05:10.539
+Du ville få
+
+0:05:10.539,0:05:12.659
+over at funksjon
+
+0:05:12.659,0:05:15.899
+slik at du steppet inn som slurper
+funksjon, men du egentlig ikke bryr
+
+0:05:15.899,0:05:19.209
+Fordi du allerede vet at
+problem det du leter etter er
+
+0:05:19.209,0:05:20.069
+ikke der
+
+0:05:20.069,0:05:23.019
+Så du ønsker å returnere fra dette
+funksjon
+
+0:05:23.019,0:05:24.470
+uten stepping
+
+0:05:24.470,0:05:25.979
+gjennom alle
+
+0:05:25.979,0:05:31.490
+linjer en etter en for denne
+det er 'r' kommandoen '
+
+0:05:31.490,0:05:32.949
+Før du gjør som faktisk
+
+0:05:32.949,0:05:34.239
+La oss gjøre noe annet
+
+0:05:34.239,0:05:37.729
+La oss se 't' kommandoen
+som gir oss stakksporingen
+
+0:05:37.729,0:05:40.199
+Så når jeg trykker 't'
+Jeg kan se
+
+0:05:40.199,0:05:41.789
+hvor er jeg
+
+0:05:41.789,0:05:46.019
+i koden og kan du se at dette
+er det bare kalle
+
+0:05:46.019,0:05:48.280
+som har blitt gjort så det er bare ett
+
+0:05:48.280,0:05:50.879
+funksjon i denne
+
+0:05:50.879,0:05:52.949
+Ved å trykke 'r'
+
+0:05:52.949,0:05:55.979
+vil returnere fra den nåværende funksjon
+
+0:05:55.979,0:06:00.890
+og skrive ut sine returverdier
+fordi denne gangen returverdien
+
+0:06:00.890,0:06:04.249
+er innholdet av Padre pm fil
+
+0:06:04.249,0:06:06.540
+Du ser innholdet i
+file
+
+0:06:06.540,0:06:10.199
+som ligger bare en slutten av pm fil
+med dokumentasjonen
+
+0:06:10.199,0:06:13.620
+Og med en liste over navnene
+av folket
+
+0:06:13.620,0:06:19.729
+som bidro til Padre prosjektet.
+Og forresten takk for alle dem.
+
+0:06:19.729,0:06:21.320
+Så vi går tilbake til koden.
+
+0:06:21.320,0:06:24.939
+Her kan du nå se neste
+linje
+
+0:06:24.939,0:06:26.930
+som bør bli utføret
+0:06:26.930,0:06:28.470
+Som er kallet til
+
+0:06:28.470,0:06:32.300
+Redaktøren verktøy skissere nye og deretter definere
+
+0:06:32.300,0:06:33.399
+funksjon
+
+0:06:33.399,0:06:35.039
+
+0:06:35.039,0:06:40.099
+Så la oss trykke 's' igjen
+og trinn i denne metoden
+
+0:06:40.099,0:06:42.180
+La oss se deg rundt
+
+0:06:42.180,0:06:46.680
+fra 45 til la oss si 60
+
+0:06:46.680,0:06:49.059
+Du vil se her,
+
+0:06:49.059,0:06:52.050
+Sannsynligvis er dette bare tomme
+linjer som ikke vises her
+
+0:06:52.050,0:06:56.879
+Og da er vi i den finner
+metode på den første linjen av det.
+
+0:06:56.879,0:06:57.709
+Så nå kan du
+
+0:06:57.709,0:07:00.210
+trinnet igjen
+
+0:07:00.210,0:07:02.010
+på dette tidspunktet
+
+0:07:02.010,0:07:08.089
+Vi bestemmer at vi ikke bryr oss om
+den process_doc så vi ikke ønsker å gå i
+
+0:07:08.089,0:07:09.409
+tidligere
+
+0:07:09.409,0:07:13.589
+vi gikk inn i slurper funksjonen og deretter
+senere fant vi ut at vi
+
+0:07:13.589,0:07:16.990
+bryr seg ikke om det og vi gikk ut av det
+med 'R'
+
+0:07:16.990,0:07:20.089
+I denne tiden kan jeg bruke som 'n' brev
+
+0:07:20.089,0:07:21.719
+som betyr at neste trinn
+
+0:07:21.719,0:07:25.130
+Og hvis jeg trykker inn på dette
+
+0:07:25.130,0:07:27.999
+Da koden process_doc vil bli utføret
+0:07:27.999,0:07:31.130
+men debugger vil stoppe
+
+0:07:31.130,0:07:32.120
+på det tidspunktet
+
+0:07:32.120,0:07:33.360
+rett etter
+
+0:07:33.360,0:07:34.909
+funksjonen kaller
+
+0:07:34.909,0:07:38.069
+Så neste linje 53
+
+0:07:38.069,0:07:40.620
+Her på toppen kan du se at dette er
+neste
+
+0:07:40.620,0:07:42.130
+linje for å bli utføret
+
+0:07:42.130,0:07:43.839
+Og her hvor vi er
+
+0:07:43.839,0:07:45.750
+Nå kan vi trykke ENTER igjen
+
+0:07:45.750,0:07:47.619
+og skriv vil gjøre
+
+0:07:47.619,0:07:51.460
+enten 's' eller 'n' så enten vil
+steg i eller trinn over
+
+0:07:51.460,0:07:55.030
+Uansett var det siste vi gjorde tidligere
+
+0:07:55.030,0:07:56.179
+Så hvis jeg trykker inn nå
+
+0:07:56.179,0:07:58.270
+det hopper over code
+
+0:07:58.270,0:08:01.419
+gjennom ppi
+
+0:08:01.419,0:08:02.800
+og
+
+0:08:02.800,0:08:06.750
+Jeg tror det er nok for nå
+sannsynligvis vil jeg gi et annet
+
+0:08:06.750,0:08:08.770
+tutorial om det
+
+0:08:08.770,0:08:14.629
+Bare ikke glem å bruke q vil tillate deg
+å avslutte debugger
+
+0:08:14.629,0:08:18.830
+Hvis du er interessert i å lese mer
+om debugger
+
+0:08:18.830,0:08:23.529
+det er en utmerket bok la
+meg vise deg dette
+
+0:08:23.529,0:08:27.889
+Jeg anbefaler å kjøpe denne boken og leste den
+
+0:08:27.889,0:08:30.830
+Jeg skrev ikke det
+
+0:08:30.830,0:08:33.680
+Men du kan lære litt av en
+mye av det
+
+0:08:33.680,0:08:36.090
+Så takk for å se på og
+
+0:08:36.090,0:08:36.790
+vennligst kom tilbake senere på
