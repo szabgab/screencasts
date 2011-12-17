@@ -9,10 +9,10 @@ Quiero saber si 1, 1.0 y 1.00
 son iguales, mayores o menores entre sí.
 
 0:00:16.000,0:00:21.333
-¿Y qué acerca de 1.00 como un string entre comillas?
+¿Y qué acerca de 1.00 como una cadena entre comillas?
 
 0:00:21.333,0:00:27.283
-¿O tal vez los comparar los strings "foo" y "bar"?
+¿O tal vez los comparar las cadenas "foo" y "bar"?
 
 0:00:27.283,0:00:29.283
 Perl tiene-
@@ -21,7 +21,7 @@ Perl tiene-
 Vimos que Perl tiene operadores, como "+" y ".", que convierten
 
 0:00:34.282,0:00:39.282
-strings a números y viceversa dependiendo del contexto.
+cadenas a números y viceversa dependiendo del contexto.
 
 0:00:39.282,0:00:44.282
 Y no les importa el valor que contenga la variable.
@@ -34,20 +34,20 @@ De hecho, Perl tiene dos tipos de operadores de comparación.
 
 0:00:50.258,0:01:00.239
 En este archivo tengo una tabla que muestra los operadores de
-comparaciones numéricas y de strings.
+comparaciones numéricas y de cadenas.
 
 0:01:00.239,0:01:04.076
 Igual igual comprobará que los dos lados sean iguales como números.
 
 0:01:04.076,0:01:07.333
-Y eq comprobará si son iguales como strings.
+Y eq comprobará si son iguales como cadenas.
 
 0:01:07.333,0:01:13.439
 Y esto comprobaría que no sean iguales; esto comprobaría
 que el lado izquierdo es menor como número.
 
 0:01:13.439,0:01:16.936
-Y lt (less than) los compararía como strings.
+Y lt (less than) los compararía como cadenas.
 
 0:01:16.936,0:01:20.498
 Veamos cómo funciona.
@@ -83,20 +83,20 @@ importa mucho porque seguiría siendo verdadero.
 Y si pongo esto entre comillas seguiría siendo verdadero
 
 0:02:09.945,0:02:14.945
-porque Perl compara el string con el número, y obtiene lo mismo.
+porque Perl compara la cadena con el número, y obtiene lo mismo.
 
 0:02:14.945,0:02:19.467
 Ahora, si los comparo usando eq, me dice que es
 
 0:02:19.467,0:02:25.467
-falso, porque ahora Perl convierte el número en un string.
+falso, porque ahora Perl convierte el número en una cadena.
 
 0:02:25.467,0:02:31.892
 Así que tienes 12 del lado izquierdo
 12.00 del lado derecho.
 
 0:02:31.892,0:02:34.926
-Dos strings que no son iguales.
+Dos cadenas que no son iguales.
 
 0:02:34.926,0:02:37.872
 ¿Cómo se comparan los números?
@@ -115,7 +115,7 @@ me dice que es verdadero.
 Dos es menor que tres.
 
 0:02:50.825,0:02:54.217
-Y si los comparo como strings?
+¿Y si los comparo como cadenas?
 
 0:02:54.217,0:02:55.757
 Ocurre lo mismo, es dos.
@@ -134,7 +134,7 @@ Es bastante obvio.
 Es verdadero porque doce es mayor a tres.
 
 0:03:13.333,0:03:17.538
-¿Pero qué sucede si comparo con gt (greater than), como string?
+¿Pero qué sucede si comparo con gt (greater than), como cadena?
 
 0:03:17.538,0:03:20.015
 Al ejecutarlo dice que es falso.
@@ -158,7 +158,7 @@ Y con este caracter sabemos que el lado izquierdo
 se encuentra antes del lado derecho en la tabla ascii.
 
 0:03:44.069,0:03:55.968
-El punto es que decidirá si doce como un string es menor a tres,
+El punto es que decidirá si doce como una cadena es menor a tres,
 regresando falso.
 
 0:03:55.968,0:04:02.139
@@ -184,7 +184,7 @@ Y los convierte a números, y esa es la razón por la que funcionan las alertas.
 Porque el signo "==" espera dos números.
 
 0:04:28.133,0:04:34.267
-Hay dos strings que no tienen números
+Hay dos cadenas que no tienen números
 exactos, por lo que Perl me alerta.
 
 0:04:34.267,0:04:41.133
@@ -199,18 +199,18 @@ Y por lo tanto, 0 es igual a 0 como dos números,
 esta es la razón por la que Perl imprime que es cierto.
 
 0:04:54.933,0:05:04.018
-Obviamente, si sabes que tienes que comparar dos cosas que pueden ser strings,
+Obviamente, si sabes que tienes que comparar dos cosas que pueden ser cadenas,
 entonces tu probablemente usarías eq.
 
 0:05:04.018,0:05:12.016
 De hecho, en la mayoría de los lugares del mundo, probablemente
-usaste "eq" cuando comparaste 2 strings.
+usaste "eq" cuando comparaste 2 cadenas.
 
 0:05:12.016,0:05:17.002
 En este caso, obviamente tenemos falso, como lo esperaba.
 
 0:05:17.002,0:05:23.869
-Algo que pudiese ser más interesante: que si comparas con un string vacío
+Algo que pudiese ser más interesante: que si comparas con una cadena vacía
 tengo el mismo problema.
 
 0:05:23.869,0:05:26.554
@@ -241,35 +241,35 @@ Y ese es un problema bastante común, algunas personas no conocen
 la diferencia entre eq y ==.
 
 0:06:30.762,0:06:36.719
-Si aquí escribo cualquier string, me llegan
+Si aquí escribo cualquier cadena, me llegan
 todas estas advertencias, pero ya da verdadero.
 
 0:06:36.719,0:06:41.635
-Aunque estabas comprobando todo, olvidaste comprobar el string vacío.
+Aunque estabas comprobando todo, olvidaste comprobar la cadena vacía.
 
 0:06:41.635,0:06:48.664
-Y da verdadero porque este string, "ddd", desde el
+Y da verdadero porque esta cadena, "ddd", desde el
 lado izquierdo hay 0.
 
 0:06:48.664,0:06:50.926
-Igual igual vuelve la variable en número.
+Igual igual convierte la variable en número.
 
 0:06:50.926,0:06:53.005
-El lado derecho es igual a number.
+El lado derecho es un número.
 
 0:06:53.005,0:06:57.950
 Los dos lados son iguales.
 
 0:06:57.950,0:07:05.006
-La forma correcta de hacerlo sería comprobar si este string
-con eq es sólo un string vacío.
+La forma correcta de hacerlo sería comprobar si esta cadena
+con eq es sólo una cadena vacía.
 
 0:07:05.006,0:07:09.999
 Entonces puedo ejecutar este código y colocar 'ddd' y eso es falso.
 
 0:07:09.999,0:07:19.850
 Por otra parte, si ejecuto este script y oprimo enter sin escribir
-nada, es verdadero porque ahora el resultado es un string vacío.
+nada, es verdadero porque ahora el resultado es una cadena vacía.
 
 0:07:19.850,0:07:22.000
 Y eso es todo acerca de la comparación de valores.
