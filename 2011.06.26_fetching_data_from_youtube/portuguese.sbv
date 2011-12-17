@@ -1,67 +1,67 @@
 0:00:05.279,0:00:09.499 
-Olá, bem vindo devolta ao canal.
+Olá, bem-vindos de volta ao canal.
 
 0:00:09.499,0:00:10.859
 há um problema aqui
 
 0:00:11.879,0:00:15.879
-Eu já passei de 100 incritos e estou muito feliz!
+Eu já passei de 100 inscritos e estou muito feliz!
 
 0:00:15.879,0:00:19.579
-Mas eu continuo tendo que olhar no site toda hora
+Mas continuo tendo que olhar o site toda hora
 
 0:00:19.579,0:00:23.699
-Eu queria ver como todas as pessoas estão lá
+para ver quantas pessoas estão lá
 
 0:00:23.699,0:00:27.400
-No canal, para ver quantas pessoas se inscreveram
+no canal, para ver quantas se inscreveram
 
 0:00:27.400,0:00:30.279
-Eu gostaria de automatizar isto
+e eu gostaria de automatizar isto
 
 0:00:30.279,0:00:35.750
-Então eu olhei no API que o google forneçe
+Então olhei a API que o Google fornece
 
 0:00:35.750,0:00:39.160
-e eu só quero escrever um pequeno programa/algoritmo em Perl
+e eu só quero escrever um pequeno programa em Perl
 
 0:00:39.160,0:00:43.850
-Para conseguir os dados e fazer alguma coisa com eles
+para pegar os dados e fazer alguma coisa com eles.
 
 0:00:43.850,0:00:47.490
-a primeira coisa que eu faço é baixar o Strawberry Perl
+A primeira coisa que eu faço é baixar o Strawberry Perl
 
 0:00:47.490,0:00:52.540
 Como de costume
 Então eu vou para o site padre.perlide.org
 
 0:00:52.540,0:00:57.190
-uh... clico no link de download e
-lá eu conecto ao padre no strawberry
+clico no link de download e
+lá eu baixo o pacote "padre-on-strawberry"
 
 0:00:57.190,0:00:59.190
-pacote que tem
+que tem
 
 0:00:59.190,0:01:04.820
-ambos o strawberry Perl padre IDE
+o Strawberry Perl, a IDE Padre e outras coisas
 
 0:01:04.820,0:01:06.770
-Uma vez que eu instalei, eu executo
+Depois de instalado, eu executo em
 
 0:01:06.770,0:01:08.590
-Strawberry Perl
+Strawberry Perl, Padre
 
 0:01:08.590,0:01:12.300
-padre e eu vou ter o editor pronto
+e eu vou ter o editor pronto
 
 0:01:12.300,0:01:14.149
-E está tudo uma maravilha! Bem, obiviamente isto não é tudo
+E isso é ótimo. Bem, obviamente não é tudo
 
 0:01:14.149,0:01:17.630
-Eu tenho que começar a escrever o algoritmo
+Eu ainda tenho que começar a escrever o programa
 
 0:01:17.630,0:01:19.380
-Perl script
+então escolho "Perl 5 Script"
 
 0:01:19.380,0:01:21.270
 Porque eu prefiro
@@ -70,64 +70,65 @@ Porque eu prefiro
 escrever um Perl moderno
 
 0:01:23.900, 0:01:27.960
-Mudar para a versão conhecida como
-twenties, é um pouco exagerado mas
+eu mudo a a versão para a
+"vinte", espera, exagerei.
 
 0:01:27.960,0:01:31.630
 Eu vou começar com Perl 5.10
 
 0:01:31.630,0:01:34.620
-E salvar o algoritmo
+E salvar o programa
 
 0:01:34.620,0:01:36.720
 Vamos chamar de youtube.pl
 
 0:01:36.720,0:01:41.090
-Até agora isto não faz nada ainda
+Isto não faz nada ainda,
 
 0:01:41.090,0:01:43.300
-Temos que... nós precisamo algum tipo de
+precisamos de algum tipo de
 
 0:01:43.300,0:01:46.900
 código para chegar lá no canal do youtube
 
 0:01:46.900,0:01:49.360
-E a forma de fazer isto é não
+E a forma de fazer isto não é
 
 0:01:49.360,0:01:51.500
 escrever meu próprio
 
 0:01:51.500,0:01:53.770
-acesso ao API, mas ir até 
+acesso à API, mas ir até 
 
 0:01:53.770,0:01:55.940
-um lugar que me dê link de acesso confiável
+um sistema de busca do CPAN
 
 0:01:55.940,0:01:59.100
 Então, eu vou até metacpan.org
 
 0:01:59.100,0:02:02.180
-que vai me providenciar isto
+que é um novo sistema de busca
 
 0:02:02.180,0:02:04.430
-Veja, aqui diz beta
+Como podemos ver, aqui diz 'beta'
 
 0:02:04.430,0:02:08.319
 Mas eu acho que eles podem livrar-se dessa beta.
-Eles não são do google
+Eles não são o Google
 
 0:02:08.319,0:02:09.709
-Então pode rodar um serviço sem
+então podem rodar um serviço sem
 
 0:02:09.709,0:02:11.639
-ser beta por, por exemplo, 5 anos
+ser beta por 5 anos
 
 0:02:11.639,0:02:15.709
-De qualquer forma, esta é uma ferramenta de busca
+Enfim, esta é uma ferramenta
+de busca para o CPAN
 
 0:02:22.119,0:02:26.199
-E nós estamos tentanto acesso o youtube
-Então eu digito “youtube”
+E nós estamos tentanto acessar o YouTube
+Então eu digito "youtube"
 
 0:02:27.549,0:02:28.879
 e isto vai me dar
@@ -136,49 +137,49 @@ e isto vai me dar
 vários resultados
 
 0:02:30.479,0:02:34.879
-Então Eu não sei o que o texto é.
+Então eu não sei o que é esse "Text::Livedoor".
 Provavelmente é irrelevante pra mim
 
 0:02:34.879,0:02:39.109
-e tem um serviço web youtube 
-que é interessante
+e tem um "WebService::YouTube"
+que parece interessante
 
 0:02:39.109,0:02:44.119
-uh... Então vamos ver o que isto faz
+Então vamos ver o que isto faz
 
 0:02:44.119,0:02:48.849
-Eu cliquei naquele
+Eu cliquei nele
 
 0:02:48.849,0:02:53.099
-aqui diz uh... “Este modulo apenas suporta Legacy API”
+aqui diz "Este módulo suporta apenas a API legado"
 
 0:02:53.099,0:03:00.099
-Isto não é o que queremos então vamos 
-voltar e porcurar mais
+Não é o que queremos então vamos 
+voltar e procurar mais
 
 0:03:00.230,0:03:04.289
-Vamos ver este, é bem antigo
+Vamos ver este, este é bem antigo
 
 0:03:04.289,0:03:06.540
-E vamos ver este, Bem...
+E vamos ver este, bem...
 
 0:03:06.540,0:03:09.959
-Este é bem atual, vamos ver... o que isto faz.
+Este é bem atual, vamos ver... o que isto faz
 
 0:03:09.959,0:03:16.689
-Diz: WebService GData YouTube
+Diz 'WebService::GData::YouTube'
 
 0:03:16.689,0:03:22.709
-Este é a versão API também... Pareçe OK.
+Este usa a API versão 2, parece OK.
 
 0:03:22.709,0:03:26.859
-“Versão do desenvolvedor, API pode mudar” isto pareçe bom
+"Versão do desenvolvedor, API pode mudar" isto parece bom
 
 0:03:26.859,0:03:29.249
 Na verdade eu gosto de códigos que dizem isto
 
 0:03:29.249,0:03:32.120
-Eu posso escreve-lo uh... Use-o e então 
+que eu posso escrever... usá-lo e então 
 ele irá quebrar
 
 0:03:32.120, 0:03:36.879
@@ -186,141 +187,141 @@ Então vamos baixar e instalar
 para que possamos fazê-lo
 
 0:03:36.879,0:03:39.709
-é, pega 
+é, pegar
 
 0:03:39.709,0:03:41.599
 o nome do módulo
 
 0:03:41.599,0:03:44.789
-Então temos que iniciar do menu
+Então vamos ao menu "Iniciar"
 
 0:03:44.789,0:03:47.529
-E Strawberry Perl... ferramentas...
+Strawberry Perl, Ferramentas
 
 0:03:47.529,0:03:50.839
-e então tem o cliente CPan 
+e então tem o "cliente CPAN"
 
 0:03:50.839,0:03:53.449
-Que não está funcionando
+que... não está funcionando
 
 0:03:53.449,0:03:58.059
-Oh, porque eu já tenho um, Então eu
-Já tenho um aberto
+Ah, porque eu já tenho um aqui.
+Então eu já tenho um aberto
 
 0:03:58.059,0:04:02.249
 o que você precisa fazer é instalar
 
 0:04:02.249,0:04:03.319
-instala
+escreva "install"
 
 0:04:03.319,0:04:05.610
-e então copia e cola o nome do 
+e então copie e cole o nome do 
 módulo
 
 0:04:05.610,0:04:12.610
-e uma vez que você executou e pressinou enter
-o download do módulo começará e instalará
+e uma vez que você executou pressinando enter,
+ele vai baixar e instalar o módulo
 
 0:04:13.349,0:04:14.849
 Na verdade, no meu já foi instalado
 
 0:04:14.849,0:04:20.269
 Olhe em cima e você verá que está rodando,
-está executando as tarefas
+está executando os testes
 
 0:04:20.269,0:04:22.479
-E a unidade de teste do módulo
+os testes de unidade do módulo
 
 0:04:22.479,0:04:24.249
-e que eles estão instalados
+e que ele foi instalado
 
 0:04:24.249,0:04:28.889
 Então, uma vez instalado eu saio da aplicação de forma que 
 não vai dar este problema
 
 0:04:28.889,0:04:30.180
-na próxima vez que
+na próxima vez
 
 0:04:30.180,0:04:31.199
-Ele não iniciar
+dele não iniciar
 
 0:04:31.199,0:04:34.629
 e vamos começar a escrever o código
 
 0:04:34.629,0:04:38.449
 o que eu posso ver quando eu vou na 
-synopsis e
+Sinopse
 
 0:04:38.449,0:04:41.080
-Vamos apenas fazer aguns copiar e colar aqui
+Vamos apenas copiar e colar aqui
 
 0:04:41.080,0:04:44.189
 Então eu vou carregar este, desculpe
 
 0:04:44.189,0:04:48.169
-Eu carrego o módulo sozinho para a memória
+Eu carrego o módulo em si para a memória
 
 0:04:49.539,0:04:52.409
 Eu preciso criar um objeto como este
 
 0:04:53.830,0:04:58.540 
-uh... Na verdade este está usando um monte de
+uh... Na verdade este exemplo está usando
 
 0:04:58.540,0:04:59.520
-Um método indereto de chamada
+uma chamada indireta ao método
 
 0:04:59.520,0:05:02.860
-Isto não é recomendável de se usar.
-Ele é então ao invés de colocar o novo
+Isto não é recomendável de usar.
+Então em vez de colocar a palavra
 
 0:05:02.860,0:05:04.220
-senha aqui
+"new" aqui
 
 0:05:04.220,0:05:06.309
-que na verdade não é uma senha, é um 
-método
+que na verdade não é uma palavra
+reservada, é um método
 
 0:05:06.309,0:05:07.800
-Chama, eu coloco ele
+eu coloco o "new"
 
 0:05:07.800,0:05:09.580
 desta forma
 
 0:05:09.580,0:05:12.130
-Eu acho que é melhor
+Acho que é melhor assim.
 
 0:05:12.130,0:05:16.770
 Então eu criei o objeto $yt que é
 
 0:05:16.770,0:05:18.219
-O projeto youtube
+um objeto do YouTube
 
 0:05:18.219,0:05:22.679
-e então os videos mais vistos
+e então... "videos melhor avaliados"
 isto não interessa pra mim
 
 0:05:22.679,0:05:27.969
 O que eu gostaria de saber como conseguir, vamos ver...
 
 0:05:27.969,0:05:34.859
-conseguir usuário
+"get_user"... hm...
 
 0:05:34.859,0:05:39.660
-“pegar perfil do usuário”, aqui, então este é
-o que eu preciso: “pegar perfil do usuário”
+"get_user_profile", aqui, então este é
+o que eu preciso: "pegar perfil do usuário"
 
 0:05:39.660,0:05:42.550
-Então eu ajusto o tipo em
+Então eu escrevo aqui
 
 0:05:42.550,0:05:48.099
-$yt pegar perfil do usuário
+$yt->get_user_profile
 
 0:05:48.099,0:05:50.139
-e então isto diz
+e então a documentação diz
 
 0:05:50.139,0:05:54.370
-uh... Opcionalmente eu posso dar o nome do 
-usuário ou eu posso estar logado
+uh... Opcionalmente eu posso passar o nome do 
+usuário, senão eu preciso estar logado
 
 0:05:54.370,0:05:57.190
 Eu não vou estar logado, então
@@ -335,249 +336,251 @@ e
 Isto vai me retornar o perfil nesta variável
 
 0:06:09.569,0:06:14.360
-E isto vai retornar o perfil deste usuário
-Instantaneamente, então vamos ver o que tem nele
+que é uma instância da classe "UserProfile"
+então vamos ver o que tem nela
 
 0:06:15.639,0:06:21.710
-e isto tem informação sobre 
-mim, por exemplo
+e isto tem informação como
+"sobre mim", por exemplo
 
 0:06:21.710,0:06:26.319
-então vamos dizer
+então escrevemos:
 
 0:06:26.319,0:06:29.249
-sobre
+say $p->about_me;
 
 0:06:29.249,0:06:33.190
-e vamos rodas isto agora, eu pressiono F5 
+e vamos rodar isto agora. Eu pressiono F5 
 para rodar este código
 
 0:06:33.190,0:06:38.259
-e diz: Trainador internacion de Perl e falador
+e diz: "instrutor internacional de Perl e palestrante"
 e sim, isto é bom
 
 0:06:38.259,0:06:39.919
-então isto é meu uh
+esse é meu uh... "about"
 
 0:06:39.919,0:06:41.810
-seja lá como for isto chamado
+seja lá como isto for chamado
 
 0:06:41.810,0:06:43.489
-Em termos neutros
+no linguajar do YouTube
 
 0:06:43.489,0:06:47.499
 e até agora uma maravilha! Está funcionando. Que bom!
 
 0:06:47.499,0:06:48.789
-Mas isso vai mudar, você sabe
+Mas vamos mudar
 
 0:06:48.789,0:06:54.190
 uh... e então uh... vamos ver o que mais
 posso conseguir
 
 0:06:54.190,0:06:57.629
-estatística ou probabilidade, eu precisso de estatísticas
+"statistics", eu provavelmente
+preciso das estatísticas
 
 0:06:57.629,0:07:01.489
-uh... vamos colocar isto aqui
+então vamos colocar isto aqui
 
 0:07:10.250,0:07:13.960
-Então, eu peguei o perfil do qual 
-eu peguei as estatísticas
+Vamos criar um objeto $s que... como é?
+Ah, eu já peguei o perfil
 
 0:07:13.960,0:07:18.769
-Então do perfil, estatísticas
+Então do perfil, pego as estatísticas
 
 0:07:18.769,0:07:21.049
-Certo, assim que é soletrado, yeah
+Certo, "statistics".
+Assim que é soletrado? É.
 
 0:07:21.049,0:07:25.330
-e então eu posso exibir o
+e então daqui posso exibir...
 
 0:07:25.330,0:07:27.740
 das estatísticas eu posso ver
 
 0:07:27.740,0:07:30.159
-lá se eu conto por exemplo
+o número de visualizações ("view count")
+por exemplo
 
 0:07:30.159,0:07:32.849
-Ver contagem
+escrevo: say $s->view_count;
 
 0:07:32.849,0:07:35.439
-E vamos ver, rodar isto novamente
+E vamos rodar isto novamente
 
 0:07:35.439,0:07:36.220
 isto vai para o youtube
 
 0:07:36.220,0:07:41.570
-E checar os dados, e este é a visulização da contagem
+E checa os dados, e esta é a visualização da contagem
 Isto provavelmente está certo
 
 0:07:41.570,0:07:43.809
-uh... e isto é o número total
+uh... é o número total
 
 0:07:43.809,0:07:45.900
 de visualizações do canal
 
 0:07:45.900,0:07:47.700
-no contador de inscritos
+tem também número de inscritos
+("subscriber count")
 
 0:07:47.700,0:07:50.669
-OK, então... embora é melhor copiar e colar
+OK, então... é melhor se eu copiar e colar
 
 0:07:50.669,0:07:52.160
-então, eu não vou fazer muito
+assim eu não vou fazer muitos
 
 0:07:52.160,0:07:55.620
-enganos... então este é o....
+erros de digitação... então este é o...
 
 0:07:55.620,0:08:00.160
-contador de inscritos e então
+"contador de inscritos" e então
 
 0:08:00.160,0:08:03.270
-Visitadas ao video irão contar
+contador de visualizações de videos
+("video watch count")
 
 0:08:03.270,0:08:09.169
-este é, eu não sei porque tem um
-espaço aqui, mas
+não sei porque tem espaços aqui, mas
 
 0:08:09.169,0:08:13.119
-vamos ver... contagem de visualições do vídeo
+vamos ver... contagem de visualizações do vídeo
 
 0:08:13.119,0:08:19.139
 este é provavelmente a contagem total
-qualquer dos meus vídeos foram
+de quantas vezes meus vídeos foram
 
 0:08:19.139,0:08:23.090
-Vistos or assistidos or qualquer um dos dois. Eu pression F5
+vistos ou assistidos ou algo assim. Eu pression F5
 
 0:08:23.090,0:08:23.879
 e uh...
 
 0:08:23.879,0:08:28.229
-Nada que me dê 0... provavelmente certo
+Não, isso me deu 0... não parece estar certo
 
 0:08:28.229,0:08:34.440
-uh... mas uma centena é boa, então, não tem uma centena de inscritos
+mas '100' é bom, então, tenho uma centena de inscritos
 
 0:08:34.440,0:08:37.110
-Oh, então o total de envois de forma que possa ser
-O correto
+total de visualização de uploads,
+esse deve ser o correto
 
 0:08:37.110,0:08:41.490
-exceto que isto tem spaços aqui, eu não
-se não é mostrado incorretamente
+exceto que tem espaços aqui,
+não sei se é um problema de exibição
 
 0:08:41.490,0:08:44.420
-todos os dados do código ou
+aqui, ou na página
 
 0:08:44.420,0:08:46.360
-na verdade tem um pequeno engano lá
+ou se há um erro de digitação
 
 0:08:46.360,0:08:47.880
-Na documentação
+na documentação
 
 0:08:47.880,0:08:51.710
-então uh... eu copio e colo e ele tem pontuação lá
-então...
+então... não eu copio e colo e ele tem o '_' lá
 
 0:08:51.710,0:08:53.430
-ele deve estar lá
+então deve ser na
 
 0:08:53.430,0:08:55.440
-mostrar
+exibição
 
 0:08:55.440,0:08:58.910
-Então, se Eu.. Eu não preciso disto
+Então, se eu.. Eu não preciso desse
 
 0:08:58.910,0:09:02.050
-contador de visualizações de videos, Eu não sei o que é 
+contador de visualizações de videos, não sei o que é 
 isto, era zero pra mim
 
 0:09:02.050,0:09:05.970
-e aqui nós estamos, quase 20
-mil, nós precisamos um bucado mais de pessoas
+e aqui estamos, quase 20 mil,
+faltam só mais algumas pessoas
 
 0:09:05.970,0:09:06.949
-e então
-
-0:09:06.949,0:09:07.950
-Será
+e então será
 
 0:09:07.950,0:09:09.460
-maior do que aquela quantia
+mais que esse número.
 
 0:09:09.460,0:09:14.950
-Então, beleza! Então eu tenho todo estes dados
-E uh, eu eu devo fazer com isto?
+Então, ok! Então agora tenho todos esses dados,
+o que fazer com isto?
 
 0:09:14.950,0:09:19.420
-então vamos dizer que.... Eu envio um e-mail pra mim mesmo
+vamos dizer que.... eu queira enviar
+um e-mail pra mim mesmo
 
 0:09:19.420,0:09:21.220
 Então, vamos enviar um e-mail
 
 0:09:21.220,0:09:25.790
-uh...Como eu faço aquilo, então eu volto para
+uh...Como eu faço isso?
 
 0:09:25.790,0:09:28.900
-Como eu faço isto
+Eu volto para esse lugar
 
 0:09:28.900,0:09:31.470
-então eu não quero enviá-lo pelo gmail
+então eu quero enviá-lo pelo GMail
 
 0:09:31.470,0:09:35.530
-Então eu coloco no Gmail para procurar um módulo
+Então eu coloco no "gmail" para procurar
+um módulo que me ajude
 
 0:09:38.410,0:09:41.120
 IMAPD, isto não é o que eu quero
-Checador, não
+Checker (verificador), não
 
 0:09:41.120,0:09:43.620
-gmail smpt gmail
+SMTP::Gmail
 
 0:09:43.620,0:09:44.560
 parece bom
 
 0:09:44.560,0:09:49.130
-beleza, então vamos copiar e colar este
+ok, vamos copiar e colar este
 
 0:09:50.100,0:09:56.160
-Eu não preciso de instala-lo, porque eu já tenho instalado
-Você tem que instala-lo
+Eu não preciso instalar, porque já tenho
+Mas você tem que instalá-lo
 
 0:09:56.160,0:10:00.360
-De qualquer jeito, eu cliquei no link e
-Então este é o cara que escreveu
+Enfim, eu cliquei no link e
+esse é o cara que escreveu
 
 0:10:00.360,0:10:03.880
-Eu não sei se... yeah, de qualquer formar
+Eu não sei se... enfim
 
 0:10:03.880,0:10:09.630
-Então, aqui está a synopsis, como eu preciso usá-lo
-Então use o módulo
+Aqui está a Sinopse, diz como eu uso o módulo
+Então "use módulo"
 
 0:10:09.630,0:10:13.930
-par air para memória, conecte ao dos servidores
-login e senha
+para carregar na memória, então conecte
+ao servidor com login e senha
 
 0:10:13.930,0:10:14.660
 e então
 
 0:10:14.660,0:10:16.930
-Bem, eu apenas enviei e-mail
+Bem, e apenas envie o e-mail
 
 0:10:16.930,0:10:19.490
-vamos enviar este copier e colar
+vamos copiar e colar isso aqui
 
 0:10:19.490,0:10:20.350
 uh...
 
 0:10:20.350,0:10:22.990
-sim, seus
+aqui
 
 0:10:22.990,0:10:27.660
-e então eu preciso o endereço
+e então eu preciso do endereço
 
 0:10:27.660,0:10:30.270
 é gmail e uh... login
@@ -586,47 +589,48 @@ e então eu preciso o endereço
 Eu vou usar este endereço de login
 
 0:10:34.879,0:10:36.420
-529
+'gabor529'
 
 0:10:36.420,0:10:41.690
 uh... e então a senha... bem esta é
-a senha no goole
+a senha no google
 
 0:10:41.690,0:10:44.030
-google e eu
+'google and me' ("google e eu")
 
 0:10:46.240,0:10:52.920
-uh... e então eu vou enviar ele para 
-mim mesmo, então é gmail
+uh... então vou enviar ele para 
+mim mesmo
 
 0:10:52.920,0:10:54.850
-é
+então é gmail
 
 0:10:54.850,0:10:57.440
-gabor529
+e gabor529
 
 0:10:57.440,0:11:01.870
-e o assunto é youtube
+o assunto é
 
 0:11:01.870,0:11:03.220
-atualização
+atualização do youtube
+('youtube update')
 
 0:11:03.220,0:11:09.260
-Formal, beleza, vamos ser formais de forma que o
-texto possa ser também, vamos colocar
+modo 'verbose' (exibir na tela), ok,
+e o texto do email, vamos colocar
 
 0:11:09.260,0:11:11.630
-uma variável chamada texto aqui
+uma variável chamada texto ($text) aqui
 
 0:11:11.630,0:11:16.690
-E e e uma ligação
-Eu não tenho uma teroria de ligação ainda, então
+E um anexo
+Bom, não temos anexo aqui, então
 
 0:11:16.690,0:11:18.870
 vamos comentar este
 
 0:11:18.870,0:11:22.040
-e isto era um texto
+então e o texto?
 
 0:11:22.040,0:11:22.959
 o texto
@@ -641,48 +645,47 @@ este vai ser o texto do
 meu e-mail
 
 0:11:35.630,0:11:37.370
-bema qui, então eu escrevo
+Aqui, então eu escrevo um here-document
 
 0:11:37.370,0:11:39.920
 Então, vamos ver
 
 0:11:39.920,0:11:42.020
-ver conta
+'ver conta'
 
 0:11:42.020,0:11:43.490
-Na verade, Isto não é bom
+Na verdade, não é bom
 
 0:11:43.490,0:11:45.640
-Se o seu document agora
+usarmos here-document agora
 
 0:11:45.640,0:11:47.280
 vamos colocar assim
 
 0:11:47.280,0:11:49.530
-e então, dizer o texto
+e então, escrever "\texto"
 
 0:11:49.530,0:11:52.570
-está bem, isto não
+desculpe, escrevi errado
 
 0:11:52.570,0:11:55.780
-corrige, texto
+é "$texto"
 
 0:11:58.170,0:11:59.980
-ver conta
+"contagem de visitas"
 
 0:11:59.980,0:12:05.070
-ver comentário e então eu concateno 
-o...
+então eu concateno o...
 
 0:12:05.070,0:12:10.120
-ver conta aqui
+"$s->view_count" aqui
 e então
 
 0:12:10.120,0:12:15.560
-concatenar uma nova linha... certo
+concateno uma nova linha... certo
 
 0:12:15.560,0:12:20.020
-e
+e o mesmo para as outras
 
 0:12:20.020,0:12:27.430
 Então eu coloco... inscritos
@@ -695,35 +698,36 @@ conta do inscrito
 
 0:12:35.040,0:12:39.820
 E o que mais eu preciso adicionar?
-O último então o último
+Vamos botar o último
 
 0:12:43.880,0:12:49.380
-então o ultimo são as visualizações
+O ultimo é... isso precisa estar numa string
 
 0:12:49.380,0:12:50.510
-total
+O último são as visualizações
 
 0:12:50.510,0:12:53.400
-visitas totais
+visualizações totais
+("total views")
 
 0:12:53.400,0:12:54.820
-umm, Eu pego
+e... como se chama?
 
 0:12:54.820,0:12:59.040
-total de visitas de upload
+"total_upload_views"
 
 0:12:59.040,0:13:01.730
 então...sim
 
 0:13:01.730,0:13:06.740
-Espero que este é o texto
-E este não é necessário mais
+Esse é o texto (espero!)
+E sso não é mais necessário
 
 0:13:06.740,0:13:08.309
-então isto irá me enviar
+então isto vai me enviar
 
 0:13:08.309,0:13:10.880
-Um e-mail
+um e-mail
 
 0:13:10.880,0:13:13.410
 Vamos rodar isto... F5
@@ -732,18 +736,18 @@ Vamos rodar isto... F5
 e diz
 
 0:13:18.610,0:13:21.680
-Por algum motive ele diz que as ligações foram
-Verificadas com sucesso mesmo que eu não tenha feito nenhuma
+Por algum motivo ele diz que os anexos foram
+verificados com sucesso mesmo que eu não tenha feito nenhum
 
 0:13:21.680,0:13:24.090
-tendo a lição e o e-mail enviado
+e o email foi enviado.
 
 0:13:24.090,0:13:27.620
-beleza! Então vamos mudar para minha
+Beleza! Vamos mudar para minha
 
 0:13:27.620,0:13:33.980
-caixa de entrada no gmail e aqui nós estamo, eu acabei 
-de receber o e-mail de mim mesmo
+caixa de entrada no GMail e pronto,
+acabei de receber o e-mail de mim mesmo
 
 0:13:33.980,0:13:36.010
 sobre o fato que
@@ -752,35 +756,35 @@ sobre o fato que
 Eu tenho cem inscritos
 
 0:13:38.090,0:13:42.990
-então isto é maravilhoso. Eu acho e eu 
-poderia apenas adicionar o
+então isto é maravilhoso. Acho que
+poderia adicionar o programa
 
 0:13:42.990,0:13:44.590
-lista sobre aqueles
+no Agendador de Tarefas do Windows
 
 0:13:44.590,0:13:46.630
-e então te-lo rodando
+e executá-lo
 
 0:13:46.630,0:13:48.780
-a cada 5 minutos por exemplo
+a cada 5 minutos, por exemplo
 
 0:13:48.780,0:13:49.750
-para ter certeza de que uh...
+para ter certeza de que
 
 0:13:49.750,0:13:51.950
-meus numerous estão crescendo
+meus números estão crescendo
 
 0:13:51.950,0:13:55.840
 Ou uma vez por dia, se eu não for tão maluco
 
 0:13:55.840,0:13:59.350
-De qualquer jeito, eu espero que agora e tenha muitos mais inscritos
+Enfim, espero que agora eu tenha muitos mais inscritos
 
 0:13:59.350,0:14:00.930
 Então, vá em frente e se inscreva no meu canal
 
 0:14:00.930,0:14:03.660
-E faça com que todas as outras pessoas saibam que eles devem se inscrever também
+E avise às outras pessoas para que elas saibam dos screencasts
 
 0:14:06.00,0:14:08.00
-Thau tchau!
+Tchau tchau!
