@@ -33,17 +33,17 @@ Ocurre algo similar con los operadores.
 De hecho, Perl tiene dos tipos de operadores de comparación.
 
 0:00:50.258,0:01:00.239
-En este archivo tengo una tabla que muestra las comparaciones
-numéricas y de strings.
+En este archivo tengo una tabla que muestra los operadores de
+comparaciones numéricas y de strings.
 
 0:01:00.239,0:01:04.076
-Igual igual verificará que los dos lados sean iguales como números.
+Igual igual comprobará que los dos lados sean iguales como números.
 
 0:01:04.076,0:01:07.333
 Y eq comprobará si son iguales como strings.
 
 0:01:07.333,0:01:13.439
-Y esto comprobaría que no sean iguales; esto verificaría
+Y esto comprobaría que no sean iguales; esto comprobaría
 que el lado izquierdo es menor como número.
 
 0:01:13.439,0:01:16.936
@@ -155,7 +155,7 @@ y lo compara con el primer otro caracter, que es 3.
 Y con este caracter sabemos que el lado izquierdo
 
 0:03:40.069,0:03:44.069
-se encuentra del derecho en la tabla ascii.
+se encuentra antes del lado derecho en la tabla ascii.
 
 0:03:44.069,0:03:55.968
 El punto es que decidirá si doce como un string es menor a tres,
@@ -195,8 +195,8 @@ No hay números en ningún lado, por lo que ambos
 valen 0.
 
 0:04:47.013,0:04:54.933
-Y por lo tanto, 0 es igual a 0, y como dos números,
-es cierto.
+Y por lo tanto, 0 es igual a 0 como dos números,
+esta es la razón por la que Perl imprime que es cierto.
 
 0:04:54.933,0:05:04.018
 Obviamente, si sabes que tienes que comparar dos cosas que pueden ser strings,
@@ -234,8 +234,7 @@ Digamos que está tu nombre, y que estás haciendo una
 pregunta, que se debe contestar con la terminal.
 
 0:06:08.806,0:06:23.384
-Después le quito el salto de renglón al final y veo si el nombre principal
-es igual a 0.
+Después le quito el salto de renglón al final y veo si name es igual a 0.
 
 0:06:23.384,0:06:30.762
 Y ese es un problema bastante común, algunas personas no conocen
@@ -246,7 +245,7 @@ Si aquí escribo cualquier string, me llegan
 todas estas advertencias, pero ya da verdadero.
 
 0:06:36.719,0:06:41.635
-Aunque estabas verificando todo, olvidaste verificar el string vacío.
+Aunque estabas comprobando todo, olvidaste comprobar el string vacío.
 
 0:06:41.635,0:06:48.664
 Y da verdadero porque este string, "ddd", desde el
@@ -269,7 +268,7 @@ con eq es sólo un string vacío.
 Entonces puedo ejecutar este código y colocar 'ddd' y eso es falso.
 
 0:07:09.999,0:07:19.850
-Por otra parte, si ejecuto este script y oprimo enter sin tecleaar
+Por otra parte, si ejecuto este script y oprimo enter sin escribir
 nada, es verdadero porque ahora el resultado es un string vacío.
 
 0:07:19.850,0:07:22.000
@@ -277,5 +276,3 @@ Y eso es todo acerca de la comparación de valores.
 
 0:07:22.000,0:07:25.000
 Gracias por ver el video, y nos vemos la próxima.
-Thank you for watching, and see you next time.
-
