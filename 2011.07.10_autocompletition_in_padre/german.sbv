@@ -1,0 +1,233 @@
+0:00:00.800,0:00:06.000
+Hallo! Dieses Mal erkläre ich die Autovervollständigung von Padre, der IDE.
+
+0:00:06.000,0:00:09.500
+Wie Du siehst, benutze ich Version 0.87,
+
+0:00:09.500,0:00:11.000
+welche eine Entwicklungsversion ist,
+
+0:00:11.000,0:00:13.000
+die sich im SVN-Repository befindet.
+
+0:00:13.000,0:00:15.500
+Sie wird als Version 0.88 veröffentlicht werden,
+
+0:00:15.500,0:00:18.250
+wenn Du eine andere Version von Padre benutzt,
+
+0:00:18.250,0:00:21.000
+kann es sein, dass sich diese Funktion etwas anders verhält.
+
+0:00:21.000,0:00:23.500
+Wie Du siehst, ist hier eine Datei geöffnet:
+
+0:00:23.500,0:00:25.250
+diese stammt von Padre selbst.
+
+0:00:25.250,0:00:31.600
+Wenn ich anfange, ein Wort einzugeben, z.B. "RegisterProtocole",
+
+0:00:31.600,0:00:34.500
+welches einfach der Name der Subroutine direkt unter diesem Code ist,
+
+0:00:34.500,0:00:38.750
+kann ich an diesem Punkt das Menü "Bearbeiten" auswählen,
+
+0:00:38.750,0:00:41.000
+wo sich das Untermenü "Autovervollständigung" befindet.
+
+0:00:41.000,0:00:42.800
+Es ist auch über Strg und Leertaste erreichbar.
+
+0:00:42.800,0:00:46.000
+Also könnte ich hier entweder mit der Maus klicken oder...
+
+0:00:46.000,0:00:48.250
+wenn ich einfach zurück zum Editor gehe
+
+0:00:48.250,0:00:52.500
+kann ich Strg und Leertaste drücken und das Wort wird vervollständigt.
+
+0:00:52.500,0:00:55.000
+Natürlich funktioniert das überall in der Datei.
+
+0:00:55.000,0:01:01.000
+Wenn ich z.B. hier Strg und Leertaste drücke
+
+0:01:01.000,0:01:03.250
+und nur 4 Buchstaben eingebe,
+
+0:01:03.250,0:01:07.000
+dann gäbe es einige Wörter die mit "Regi..." anfangen.
+
+0:01:07.000,0:01:13.000
+Es schlägt mir nun mehrere Möglichkeiten vor, ich kann eine auswählen und sie hier einfügen.
+
+0:01:13.000,0:01:17.750
+Analog dazu kann ich auch den Namen einer Variable eingeben, z.B. diesen hier...
+
+0:01:17.750,0:01:24.000
+es schlägt mir alle Namen der Variablen, die mit "$reg" beginnen, vor.
+
+0:01:24.000,0:01:25.000
+
+
+0:01:25.000,0:01:31.000
+Manche würden es vorziehen, wenn das automatisch geschähe,
+
+0:01:31.000,0:01:35.500
+also, dass wenn ich etwas eingebe, sich das Popup automatisch öffnet und mich einen Eintrag wählen lässt.
+
+0:01:35.500,0:01:39.000
+Um das zu aktivieren, musst Du im Menü "Werkzeuge"...
+
+0:01:39.000,0:01:47.000
+in den Einstellungen "Autovervollständigung" wählen und die Checkbox "Autovervollständigung immer wenn ich tippe" aktivieren.
+
+0:01:47.000,0:01:50.000
+Ich wähle das aus und speichere.
+
+0:01:50.000,0:01:56.000
+Und wenn ich jetzt anfange "$re" zu tippen, zeigt es mir schon eine Liste von Wörtern.
+
+0:01:56.000,0:02:02.000
+Wenn ich weiter tippe, wird die Liste weiter auf die Wörter reduziert, die so beginnen.
+
+0:02:02.000,0:02:08.000
+Und dann kann ich entweder auf das Wort klicken oder weiter tippen, was ich bevorzuge.
+
+0:02:08.000,0:02:16.000
+Oder ich kann einfach ESC drücken um weiter zu tippen und das Popup auszublenden.
+
+0:02:16.000,0:02:19.000
+Eine andere Einstellung hier: In den Einstellungen, "Autovervollständigung"
+
+0:02:19.000,0:02:23.000
+gibt es "Vervollständige neue Methoden in Packages".
+
+0:02:23.000,0:02:25.750
+Also wählen wir das aus und speichern.
+
+0:02:25.750,0:02:29.000
+Wenn ich jetzt anfange, den Namen einer Subroutine einzugeben...
+
+0:02:29.000,0:02:34.000
+"Sub" und einen Namen und dann die Leertaste drücke,
+
+0:02:34.000,0:02:44.000
+werden automatisch die Schweifklammern und der Shift der $self Variable erstellt.
+
+0:02:44.000,0:02:46.750
+Das passiert bei Modulen.
+
+0:02:46.750,0:02:53.000
+Wenn ich jetzt zu diesem Skript wechsele, welches das Hauptskript von Padre ist,
+
+0:02:53.000,0:02:55.750
+und hier anfange "sub name..." einzugeben,
+
+0:02:55.750,0:03:03.500
+macht die Leerstelle keinen Unterschied, in Sub-Routinen ist die Autovervollständigung deaktiviert.
+
+0:03:03.500,0:03:11.000
+Dazu gibt es eine weitere Einstellung, die Dritte hier: "Vervollständige neue Funktionen in Skripten"
+
+0:03:11.000,0:03:12.000
+Wenn ich das auswähle,
+
+0:03:12.000,0:03:15.750
+kann ich im Script anfangen zu tippen.
+
+0:03:15.750,0:03:18.900
+Sobald ich die Leertaste hier drücke
+
+0:03:18.900,0:03:28.000
+werden die Schweifklammern erstellt und der Cursor an die richtige Stelle verschoben.
+
+0:03:28.000,0:03:32.500
+"Self" wird allerdings nicht deklariert,
+
+0:03:32.500,0:03:38.000
+weil das eine Sub-Routine ist und diese Variable hier nicht vorhanden sein könnte.
+
+0:03:38.000,0:03:42.900
+Lass uns zu den Optionen zurückkehren und gucken welche Einstellungen es noch gibt.
+
+0:03:42.900,0:03:50.000
+Hier sind die Zahlen, die es ermöglichen festzulegen, wann die Autovervollständigung ausgelöst wird.
+
+0:03:50.000,0:03:57.500
+Du kannst diese verändern. Außerdem lässt sich z.B festlegen wie viele Vorschläge es gibt.
+
+0:03:57.500,0:04:01.100
+Dann gibt es noch zwei weitere interessante Checkboxen.
+
+0:04:01.100,0:04:03.000
+Eine davon ist "Vervollständige Klammern".
+
+0:04:03.000,0:04:06.000
+Wenn ich die auswähle und dann anfange zu tippen,
+
+0:04:06.000,0:04:13.100
+z.B. hier, und ich eine Schweifklammer hinzufüge...
+
+0:04:13.100,0:04:19.000
+(hier leider nicht ersichtlich) aber die zweite Klammer ist automatisch hinzugefügt worden.
+
+0:04:19.000,0:04:21.000
+Das gleiche funktioniert auch bei eckigen Klammern.
+
+0:04:21.000,0:04:26.200
+Du kannst das hier, aufgrund der Farben des Highlighters, nicht richtig sehen.
+
+0:04:26.200,0:04:31.100
+Es geschieht, wenn Du das Ende der Schweifklammern auswählst
+
+0:04:31.100,0:04:37.000
+oder die der eckigen Klammern, sogar bei normalen Klammern geht es.
+
+0:04:37.000,0:04:42.900
+Also, das geschieht. Nun sehen wir mal was passiert, wenn ich das bei einer Sub-Routine mache.
+
+0:04:42.900,0:04:47.500
+Ich habe etwas eingegeben. Und hier haben wir die Schweifklammern wieder.
+
+0:04:47.500,0:04:56.500
+Aber was passiert, wenn man eine schließende Schweifklammer eingibt?
+
+0:04:56.500,0:05:00.000
+Zuvor füge ich eine (öffnende) Schweifklammer ein.
+
+0:05:00.000,0:05:04.750
+Padre fügt nun die schließende Klammer nicht ein, weil es merkt, dass die bereits da ist.
+
+0:05:04.750,0:05:12.000
+Einige Menschen mögen das, andere möchten lieber, dass die Klammer immer eingefügt wird.
+
+0:05:12.000,0:05:14.300
+Für diejenigen gibt es die andere Checkbox.
+
+0:05:14.300,0:05:21.000
+Hier, "Autovervollständigung". Und diese Checkbox: "Füge eine weitere schließende Klammer ein, wenn bereits eine existiert".
+
+0:05:21.000,0:05:23.000
+Wenn ich diese also aktiviere...
+
+0:05:23.000,0:05:30.000
+Ich habe hier eine schließende Klammer und nun füge ich die Öffnende ein.
+
+0:05:30.000,0:05:31.750
+Die schließende wird trotzdem eingefügt.
+
+0:05:31.750,0:05:34.000
+Das ist also bloß eine Sache der eigenen Vorliebe und Einstellungen.
+
+0:05:34.000,0:05:36.600
+Das war also die Autovervollständigung.
+
+0:05:36.600,0:05:41.500
+Ich hoffe Du schaust dir die anderen Videos auch an.
+
+0:05:41.500,0:05:42.000
+Bis später!
