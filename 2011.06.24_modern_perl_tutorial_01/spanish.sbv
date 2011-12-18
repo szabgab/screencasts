@@ -1,5 +1,5 @@
 0:00:04.340,0:00:07.590
-Hola! Bienvenidos de nuevo al canal. Esta vez, 
+¡Hola! Bienvenidos de nuevo al canal. Esta vez, 
 
 0:00:07.590,0:00:10.319
 voy a empezar un tutorial para Perl.
@@ -8,8 +8,7 @@ voy a empezar un tutorial para Perl.
 ... probablemente lo llamaré tutorial para Modern Perl
 
 0:00:13.439,0:00:16.869
-aunque 'Modern' es probablemente una palabra de moda
-o buzzword.
+aunque 'Modern' es probablemente una palabra de moda.
 
 0:00:16.869,0:00:18.249
 Pero,
@@ -47,21 +46,21 @@ mi
 material de entrenamiento que he estado usando,
 
 0:00:49.230,0:00:52.780
-con las mínimas diferencias porque el formato
+con cambios mínimos porque el formato
 es distinto 
 
 0:00:52.780,0:00:54.370
 para el entrenamiento.
 
 0:00:54.370,0:00:57.990
-Pero verdaderamente recomiendo la compra
+Pero verdaderamente recomiendo comprar
 de este libro. O puedes bajarlo
 
 0:00:57.990,0:00:59.280
-sin cargo como PDF.
+gratis como PDF.
 
 0:00:59.280,0:01:02.580
-Si no puedes pagarlo,
+Si no puedes pagar,
 
 0:01:02.580,0:01:06.120
 o no quieres invertir dinero en él, entonces bájalo;
@@ -70,13 +69,13 @@ o no quieres invertir dinero en él, entonces bájalo;
 Mostraré el enlace
 
 0:01:08.170,0:01:11.310
-en algún lugar más adelante
+más adelante
 
 0:01:11.310,0:01:12.409
 Bueno...
 
 0:01:12.409,0:01:15.979
-El libro es muy bueno y recomiendo a todos
+El libro es muy bueno y le recomiendo a todos
 
 0:01:15.979,0:01:16.990
 leerlo.
@@ -110,10 +109,10 @@ usar cualquier versión de
 Perl para esto.
 
 0:01:39.180,0:01:42.060
-Pero esto solo lo hace más fácil.
+Pero esto sólo lo hace más fácil.
 
 0:01:42.060,0:01:45.240
-La primera cosa que hacemos es ir al sitio web de
+La primera cosa que haremos es ir al sitio web de
 
 0:01:45.240,0:01:47.950
 Padre (http://padre.perlide.org/)
@@ -141,12 +140,12 @@ el compilador e intérprete de Perl.
 y
 
 0:02:05.049,0:02:09.069
-el ambiente de edición (el editor básicamente) que se
+el IDE (Entorno de Desarrollo Integrado), que se
 llama Padre,
 
 0:02:09.069,0:02:14.370
 y muchos módulos que vas a necesitar para 
-el desarrollo.
+desarrollar.
 
 0:02:14.370,0:02:16.459
 Entonces, yo recomiendo bajar éste.
@@ -155,7 +154,7 @@ Entonces, yo recomiendo bajar éste.
 Haz doble click en él y sigue las instrucciones.
 
 0:02:20.879,0:02:21.849
-Solo instálalo.
+Sólo instálalo.
 
 0:02:21.849,0:02:23.599
 Una vez instalado, tendrás
@@ -168,16 +167,16 @@ si vas a 'Todos los programas'.
 
 0:02:27.089,0:02:31.309
 'Strawberry Perl' y haces click en la mariposa
-(esta, la azúl)
+(ésta, la azul)
 
 0:02:31.309,0:02:34.969
 se abre el IDE.
 
 0:02:34.969,0:02:37.349
-Una vez abierto el IDE,
+Una vez abierto,
 
 0:02:37.349,0:02:40.799
-aquí tendrás espacio vacío para escribir texto.
+aquí tendrás un espacio vacío para escribir texto.
 
 0:02:40.799,0:02:43.799
 Pero lo que vamos a hacer es,
@@ -190,10 +189,10 @@ ir a la opción de menú 'File' y 'New' (el segundo
 'Perl 5 Script'.
 
 0:02:50.639,0:02:54.789
-Esto generará un script en Perl 5 para ti.
+Esto generará un script en Perl 5 por ti.
 
 0:02:54.789,0:02:58.469
-Explicaré las partes más adelante.
+Explicaré sus partes más adelante.
 
 0:02:58.469,0:03:03.109
 Lo que debes hacer es teclear:
@@ -202,7 +201,7 @@ Lo que debes hacer es teclear:
 print "hello world\n";
 
 0:03:04.629,0:03:06.889
-Esto es lo estándar.
+Esto es estándar.
 
 0:03:06.889,0:03:11.839
 Y después tenemos que guardarlo porque es un  
@@ -228,7 +227,7 @@ Script', o presionando F5.
 Ejecutará una ventana,
 
 0:03:30.709,0:03:32.629
-una ventana de popup,
+un popup,
 
 0:03:32.629,0:03:35.329
 y verás 'hello world' impreso.
@@ -247,7 +246,7 @@ cerraría inmediatamente
 la ventana y no podríamos ver la salida.
 
 0:03:48.039,0:03:50.839
-Asi que solo presiona una tecla y
+Así que sólo presiona una tecla y
 
 0:03:50.839,0:03:53.579
 puedes seguir adelante.
@@ -260,7 +259,7 @@ un simple script en Perl;
 Repasemos estas partes.
 
 0:03:59.380,0:04:03.949
-Entonces, la primer línea se llama en linux Shebang. Es utilizada 
+La primer línea se llama en Linux Shebang. Es utilizada 
 principalmente en sistemas Unix.
 
 0:04:03.949,0:04:08.739
@@ -268,7 +267,7 @@ Pero no importa aunque lo pongas en una máquina
 con Windows.
 
 0:04:08.739,0:04:10.229
-Entonces en realidad no importa .
+Entonces en realidad no importa.
 
 0:04:10.229,0:04:12.110
 'use 5.006;'
@@ -286,7 +285,7 @@ primero checará que tu versión de Perl sea al menos la
 versión 5.006.
 
 0:04:24.830,0:04:29.590
-Porque esta es actualmente una versión muy antigua de
+Porque esta es de hecho una versión muy antigua de
 Perl,
 
 0:04:29.590,0:04:32.209
@@ -296,10 +295,10 @@ la versión 5.006,
 necesitaremos una más nueva.
 
 0:04:36.389,0:04:39.739
-Entonces lo cambiaré a: 'use 5.010;'
+Entonces lo cambiaré a 'use 5.010;'
 
 0:04:39.739,0:04:46.510
-Especialmente, esta también habilitará un par
+Especialmente, esto también habilitará un par
 de características nuevas en el lenguaje que podemos usar.
 
 0:04:46.510,0:04:51.679
@@ -331,7 +330,7 @@ algunas
 
 0:05:05.389,0:05:10.290
 complicaciones. Entonces recomiendo empezar con estos tres 
-siempre y para cualquier script.
+siempre para cualquier script.
 
 0:05:10.290,0:05:11.110
 'entries;'
@@ -340,7 +339,7 @@ siempre y para cualquier script.
 El shebang no es tan importante para nosotros.
 
 0:05:14.050,0:05:16.080
-Una ves que tenemos...
+Una vez que tenemos...
 
 0:05:16.080,0:05:20.440
 Lo que puedes ver aquí es que 'print' es una palabra clave
@@ -365,7 +364,7 @@ cuando se imprime
 se imprimirá
 
 0:05:33.259,0:05:35.449
-con una nueva línea al final.
+con una línea nueva al final.
 
 0:05:35.449,0:05:38.930
 Como puedes ver, el enunciado termina con
@@ -390,13 +389,13 @@ puedo remover el 'print' y en lugar de
 eso, teclear 'say'.
 
 0:05:53.180,0:05:56.069
-Y luego puedo eliminar la nueva línea (\n).
+Y luego puedo eliminar la línea nueva (\n).
 
 0:05:56.069,0:05:58.960
 Si presiono F5 ahora,
 
 0:05:58.960,0:06:02.340
-esto ya guarda el archivo y lo imprime en pantalla.
+se guarda el archivo y lo imprime en pantalla.
 
 0:06:02.340,0:06:04.800
 Entonces verás el resultado de la nueva versión,
@@ -405,7 +404,7 @@ Entonces verás el resultado de la nueva versión,
 y verás que es el mismo.
 
 0:06:06.939,0:06:09.219
-Y todavía funciona.
+Aún funciona.
 
 0:06:09.219,0:06:12.929
 Entonces, no necesitas escribir tanto si usas
@@ -413,7 +412,7 @@ Entonces, no necesitas escribir tanto si usas
 
 0:06:12.929,0:06:15.889
 Puedes usar la palabra clave 'say', no tienes que agregar una
-nueva línea.
+línea nueva.
 
 0:06:15.889,0:06:20.429
 Esto está bien, pero nos gustaría interactuar
@@ -446,7 +445,7 @@ Que se llama '$name'.
 Utilicé la palabra clave 'my' para definirla.
 
 0:06:44.449,0:06:49.389
-Para declarar uan variable, '$' (signo de dollar) es el prefijo
+Para declarar uan variable, '$' (signo de dólar) es el prefijo
 para todas las variables escalares.
 
 0:06:49.389,0:06:50.409
@@ -480,10 +479,10 @@ el usuario
 presione 'Enter'.
 
 0:07:07.849,0:07:11.050
-Entonces, el resultado irá a nuestra $ variable llamada
+Entonces, el resultado irá a nuestra variable llamada
 
 0:07:11.050,0:07:14.029
-'$name' y entonces nos gustaría imprimirlo.
+'$name' y nos gustaría imprimirlo.
 
 0:07:14.029,0:07:15.800
 Entonces decimos 'hello '
@@ -534,13 +533,13 @@ todavía me llamo 'foo'.
 Cuando imprime la pantalla, ves que 
 
 0:08:01.080,0:08:04.120
-después de 'foo', imprime una nueva línea.
+después de 'foo', imprime una línea nueva.
 
 0:08:04.120,0:08:06.629
-y solo después de la ',' (coma).
+y sólo después de la ',' (coma).
 
 0:08:06.629,0:08:09.279
-Por qué será eso?
+¿Por qué será eso?
 
 0:08:09.279,0:08:13.289
 Cuando imprimimos, cuando tecleamos en la respuesta
@@ -578,7 +577,7 @@ la línea.
 Entonces tecleo 'chomp',
 
 0:08:44.120,0:08:47.300
-que es la función para remover la nueva línea
+que es la función para remover la línea nueva
 
 0:08:47.300,0:08:51.050
 del final del String, y proporciono el nombre
@@ -588,7 +587,7 @@ de una variable.
 Esto removerá
 
 0:08:52.500,0:08:55.510
-la nueva línea del String.
+la línea nueva del String.
 
 0:08:55.510,0:08:57.750
 corriendo el script de nuevo,
@@ -597,14 +596,14 @@ corriendo el script de nuevo,
 Todavía me llamo 'foo',
 
 0:09:01.060,0:09:04.760
-pero esta vez, como puedes ver, la nueva línea
+pero esta vez, como puedes ver, la línea nueva
 ya no está,
 
 0:09:04.760,0:09:06.910
 y funciona bien.
 
 0:09:06.910,0:09:09.860
-Creo que eso es suficiente para el primer
+Creo que esto es suficiente para el primer
 
 0:09:09.860,0:09:11.200
 tutorial.
@@ -628,4 +627,3 @@ ejercicios. Puedes,
 0:09:24.680,0:09:26.910
 jugar con ellos y espero verte en el siguiente
 capítulo. Bye bye.
-
