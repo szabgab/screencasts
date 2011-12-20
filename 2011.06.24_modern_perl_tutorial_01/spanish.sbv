@@ -27,10 +27,10 @@ algo que al menos
 lanzada en los últimos dos años,
 
 0:00:29.429,0:00:32.970
-basado en Perl 5.010 probablemente.
+probablemente basado en Perl 5.010.
 
 0:00:32.970,0:00:36.020
-Debería de haber un libro aquí;
+Debería haber un libro aquí;
 
 0:00:36.020,0:00:39.790
 Si, entonces existe este libro;
@@ -54,7 +54,7 @@ para el entrenamiento.
 
 0:00:54.370,0:00:57.990
 Pero verdaderamente recomiendo comprar
-de este libro. O puedes bajarlo
+de este libro. O puedes descargarlo
 
 0:00:57.990,0:00:59.280
 gratis como PDF.
@@ -75,7 +75,7 @@ más adelante
 Bueno...
 
 0:01:12.409,0:01:15.979
-El libro es muy bueno y le recomiendo a todos
+El libro es muy bueno y recomiendo a todos
 
 0:01:15.979,0:01:16.990
 leerlo.
@@ -148,7 +148,7 @@ y muchos módulos que vas a necesitar para
 desarrollar.
 
 0:02:14.370,0:02:16.459
-Entonces, yo recomiendo bajar éste.
+Entonces, yo recomiendo descargar éste.
 
 0:02:16.459,0:02:20.879
 Haz doble click en él y sigue las instrucciones.
@@ -195,7 +195,7 @@ Esto generará un script en Perl 5 por ti.
 Explicaré sus partes más adelante.
 
 0:02:58.469,0:03:03.109
-Lo que debes hacer es teclear:
+Lo que debes hacer es escribir:
 
 0:03:03.109,0:03:04.629
 print "hello world\n";
@@ -227,7 +227,7 @@ Script', o presionando F5.
 Ejecutará una ventana,
 
 0:03:30.709,0:03:32.629
-un popup,
+una ventana emergente,
 
 0:03:32.629,0:03:35.329
 y verás 'hello world' impreso.
@@ -276,7 +276,7 @@ Entonces en realidad no importa.
 Esto significa que
 
 0:04:14.849,0:04:16.799
-cuando corres el programa
+cuando ejecutas el programa
 
 0:04:16.799,0:04:20.169
 primero checará que tu versión de Perl sea al menos la
@@ -329,11 +329,11 @@ para poder evitar
 algunas
 
 0:05:05.389,0:05:10.290
-complicaciones. Entonces recomiendo empezar con estos tres 
-siempre para cualquier script.
+complicaciones. Entonces recomiendo siempre para empezar
+cualquier script estas tres
 
 0:05:10.290,0:05:11.110
-'entries;'
+'líneas;'
 
 0:05:11.110,0:05:14.050
 El shebang no es tan importante para nosotros.
@@ -346,7 +346,7 @@ Lo que puedes ver aquí es que 'print' es una palabra clave
 de Perl, entonces
 
 0:05:20.440,0:05:24.340
-cualquier String estará entre comillas.
+cualquier cadena estará entre comillas.
 
 0:05:24.340,0:05:27.360
 Aquí lo ponemos entre comillas dobles.
@@ -386,7 +386,7 @@ al lenguaje que no existía antes. Entonces,
 puedo remover el 'print' y en lugar de
 
 0:05:51.800,0:05:53.180
-eso, teclear 'say'.
+eso, escribir 'say'.
 
 0:05:53.180,0:05:56.069
 Y luego puedo eliminar la línea nueva (\n).
@@ -435,7 +435,7 @@ Luego necesitamos obtener la información del
 usuario.
 
 0:06:35.979,0:06:40.049
-Entonces, defino una nueva variable (la primer variable que
+Entonces, defino una nueva variable (la primera variable que
 tenemos).
 
 0:06:40.049,0:06:41.629
@@ -492,7 +492,7 @@ y agregamos '$name'.
 
 0:07:19.059,0:07:23.639
 Como puedes ver, puedes concatenar variables a
-Strings y ésto será
+cadenas y ésto será
 
 0:07:23.639,0:07:26.419
 impreso.
@@ -501,7 +501,7 @@ impreso.
 Continuemos este ejemplo.
 
 0:07:29.160,0:07:31.270
-Corramos este ejemplo.
+Ejecutamos este ejemplo.
 
 0:07:31.270,0:07:32.470
 Presiono F5.
@@ -542,7 +542,7 @@ y sólo después de la ',' (coma).
 ¿Por qué será eso?
 
 0:08:09.279,0:08:13.289
-Cuando imprimimos, cuando tecleamos en la respuesta
+Cuando imprimimos, cuando escribimos en la respuesta
 'foo',
 
 0:08:13.289,0:08:15.819
@@ -552,52 +552,52 @@ tuvimos que presionar 'Enter' para
 decir a
 
 0:08:17.059,0:08:20.520
-Windows y Padre Perl que la entrada de datos terminó;
+Windows y a Padre que la entrada de datos terminó;
 
 0:08:20.520,0:08:24.849
 para decirle que el nombre puede ser agregado a la variable '$name'.
 
 0:08:24.849,0:08:28.210
-Y no removimos la nueva línea, entonces
+Y no removimos el caracter de nueva línea, entonces
 
 0:08:28.210,0:08:31.279
-tenemos la nueva línea y se imprime en pantalla
+tenemos el caracter de nueva línea y se imprime en pantalla
 
 0:08:31.279,0:08:35.300
-aunque no la veamos realmente en este código.
+aunque no lo veamos realmente en este código.
 
 0:08:35.300,0:08:37.350
 Debido a que es un caso especial,
 
 0:08:37.350,0:08:42.050
 Perl tiene una función especial para remover
-la línea.
+el caracter de nueva línea.
 
 0:08:42.050,0:08:44.120
-Entonces tecleo 'chomp',
+Entonces escribo 'chomp',
 
 0:08:44.120,0:08:47.300
 que es la función para remover la línea nueva
 
 0:08:47.300,0:08:51.050
-del final del String, y proporciono el nombre
+del final de la cadena, y proporciono el nombre
 de una variable.
 
 0:08:51.050,0:08:52.500
 Esto removerá
 
 0:08:52.500,0:08:55.510
-la línea nueva del String.
+el caracter nueva línea de la cadena.
 
 0:08:55.510,0:08:57.750
-corriendo el script de nuevo,
+ejecutando el script de nuevo,
 
 0:08:57.750,0:09:01.060
 Todavía me llamo 'foo',
 
 0:09:01.060,0:09:04.760
-pero esta vez, como puedes ver, la línea nueva
-ya no está,
+pero esta vez, como puedes ver, el caracter
+de línea nueva ya no está,
 
 0:09:04.760,0:09:06.910
 y funciona bien.
