@@ -102,7 +102,7 @@ un solo valor
 o puedes tener 
 
 0:01:30.049,0:01:31.880
-nombre largo
+nombre largo ($long_name)
 
 0:01:31.880,0:01:35.509
 que tiene letras minúsculas 
@@ -117,7 +117,7 @@ o puedes tener
 Esto Es
 
 0:01:44.020,0:01:46.160
-Un Nombre Largo
+Un Nombre Largo ($ThisisALongName)
 
 0:01:46.160,0:01:47.860
 este estilo, aunque
@@ -301,10 +301,10 @@ luego
 dice que está definido y luego dice que
 
 0:04:19.039,0:04:20.259
-ya está
+ya tiene
 
 0:04:20.259,0:04:21.979
-el valor de "foo" porque el
+el valor "foo" porque
 
 0:04:21.979,0:04:24.610
 la impresión del valor es después
@@ -327,7 +327,7 @@ Más tarde podemos establecer el valor a
 
 0:04:38.990,0:04:43.490
 "undef" de nuevo. Así que más adelante, por
-ejemplo, aqui podemos decir que nombre
+ejemplo, aqui podemos decir que ($name)
 
 0:04:43.490,0:04:44.659
 es igual a 
@@ -340,7 +340,7 @@ Dejame solamente no copiar-pegar
 el mismo código.
 
 0:04:49.210,0:04:54.899
-En este pungo, su valor 
+En este punto, su valor 
 es "undef" otra vez 
 
 0:04:54.899,0:04:56.370
@@ -356,7 +356,7 @@ entonces puedes...
 Vamos a empezar de nuevo
 
 0:05:03.710,0:05:06.159
-Pudes declarar una variable, digamos 
+Puedes declarar una variable, digamos 
 
 0:05:06.159,0:05:09.030
 "$x"
@@ -375,7 +375,7 @@ Y luego puedes asignar a la
 misma variable un número 
 
 0:05:19.210,0:05:21.800
-Y luego puedes imprimi la variable otra vez 
+Y luego puedes imprimir la variable otra vez 
 
 0:05:21.800,0:05:24.769
 Y si ejecutó el codigo, entonces verás que 
@@ -411,7 +411,7 @@ al hecho de que
 diferentes valores, diferentes variables
 
 0:05:50.610,0:05:52.559
-basados en el tipo de las variablas 
+basados en el tipo de las variables 
 
 0:05:52.559,0:05:53.639
 los operadores
@@ -423,10 +423,10 @@ se comportan de manera diferente.
 En Perl
 
 0:05:57.099,0:05:59.620
-la manera... Es una manera al contrario 
+Es al revés
 
 0:05:59.620,0:06:01.960
-No variables ni 
+Ni variables ni 
 
 0:06:01.960,0:06:03.599
 operandos 
@@ -493,7 +493,7 @@ y la tercera diremos
 o um...
 
 0:07:02.209,0:07:05.449
-o variable de repeticiónes
+o variable de repeticiones
 
 0:07:05.449,0:07:08.210
 operador, perdón
@@ -714,7 +714,7 @@ pronunciación
 
 0:09:48.260,0:09:52.160
 De cualquier manera lo que pasa en este caso es que 
-Ahora tienes un you número - 3
+Ahora tienes un número - 3
 
 0:09:52.160,0:09:54.040
 y la cadena de caracteres que 
@@ -736,11 +736,11 @@ Lo primero es 3, el numero 3 que
 fue imprimido. Eso está bien. 
 
 0:10:06.870,0:10:10.670
-Luego agaro "3.14 is pi"
+Luego tomo "3.14 is pi"
 
 0:10:10.670,0:10:14.910
 que solo esta imprimiendo de 
-el contenido de "$y".
+el contenido "$y".
 
 0:10:14.910,0:10:17.750
 Luego tengo esta advertencia
@@ -780,10 +780,10 @@ Así que puedes ver esto aquí.
 Esto es la cadena de caracteres. Esto es lo que
 
 0:10:51.520,0:10:53.820
-se convierto en un número. 
+se convirtió en un número. 
 
 0:10:53.820,0:10:56.990
-Así que agaramos una advertencia. Ahora esta advertencia lo hagaras
+Así que obtenemos una advertencia. Ahora esta advertencia la obtenemos 
 solamente porque  
 
 0:10:56.990,0:10:59.500
@@ -822,14 +822,14 @@ y
 mira
 
 0:11:24.060,0:11:27.829
-lo mira y trate de usarlo como un número.
+lo mira y trata de usarlo como un número.
 
 0:11:27.829,0:11:32.160
 Y hay un punto. Hay un espacio aquí. 
 Pero
 
 0:11:32.160,0:11:35.249
-para de entender. No lo puede
+se detiene. No lo puede 
 convertir a un número 
 
 0:11:35.249,0:11:38.750
@@ -876,7 +876,7 @@ en esta concatenación.
 Que aquí 
 
 0:12:00.110,0:12:03.519
-agaramos en realidad el "3"
+obtenemos en realidad el "3"
 del "$z".
 
 0:12:03.519,0:12:06.530
@@ -899,14 +899,14 @@ Y luego si miras a la tercera
 veras que es "$z"
 
 0:12:18.370,0:12:20.100
-"$y" vezes
+"$y" veces
 
 0:12:20.100,0:12:22.790
 Ahora tu probablemente supones que 
 veras
 
 0:12:22.790,0:12:26.070
-3.14 vezes la letra 3 pero
+3.14 veces la letra 3 pero
 
 0:12:26.070,0:12:31.080
 Perl no lo puede imprimir...
@@ -922,7 +922,7 @@ Así que
 
 0:12:36.200,0:12:39.670
 convertirá el "3.14"
-a "3" y luego usarlo 
+a "3" y luego va usarlo 
 
 0:12:39.670,0:12:41.590
 para la multiplicación
@@ -934,7 +934,7 @@ para la repetición
 Pero no ves la advertencia otra vez
 
 0:12:44.920,0:12:47.360
-como normalmente esperias 
+como normalmente esperarías
 
 0:12:47.360,0:12:49.040
 Entonces qué?
@@ -962,7 +962,7 @@ Y ejecutarlo de nuevo.
 Y ahora podras
 
 0:13:02.870,0:13:05.080
-er que la advertencia está en la
+ver que la advertencia está en la
 
 0:13:05.080,0:13:06.560
 repetición. 
@@ -1059,7 +1059,7 @@ Pero porque tenemos algo
 que no es realmente un número. 
 
 0:14:29.140,0:14:30.670
-Entonces si agarmos una advertencia.
+Entonces si obtenemos una advertencia.
 
 0:14:30.670,0:14:34.070
 Así que hay un par de problemas, que nos gustaría 
@@ -1108,10 +1108,10 @@ Ahora si ejecuto esto
 Y hay que comentar esto, no lo necesitamos.
 
 0:15:07.320,0:15:10.820
-Ahora, si ejecuto este código, agaro 2 avisos.
+Ahora, si ejecuto este código, obtengo 2 avisos.
 
 0:15:10.820,0:15:13.060
-Utilización de no inicializar...
+Using of uninitialized...
 
 0:15:13.060,0:15:16.290
 Diciéndome que estoy tratando de usar 
@@ -1161,7 +1161,7 @@ en un contexto numérico
 se comporta como 0.
 
 0:15:54.270,0:15:57.910
-Y en esta concatenación agaro "3" otra vez
+Y en esta concatenación obtengo "3" otra vez
 
 0:15:57.910,0:16:00.540
 a pesar de que "$y" es "undef".
@@ -1258,13 +1258,13 @@ a esta manera.
 Y si ejecuto el código..
 
 0:17:22.640,0:17:24.429
-Y agaro
+Y obtengo
 
 0:17:24.429,0:17:25.189
 "3"
 
 0:17:25.189,0:17:26.890
-la primera imprimida 
+la primera impresión
 
 0:17:26.890,0:17:28.419
 el primer "say" aqui
@@ -1287,14 +1287,14 @@ Así que eso es la manera correcta si
 quieres ser realmente extremista
 
 0:17:43.930,0:17:46.020
-agarando excepciones en este caso.
+obteniendo excepciones en este caso.
 
 0:17:46.020,0:17:49.059
 Pero qué pasa si quieres evitar 
 todo por completo? Así que si 
 
 0:17:49.059,0:17:51.720
-quieres asegurarte de que el valor que agaraste, 
+quieres asegurarte de que el valor que obtuviste, 
 
 0:17:51.720,0:17:55.410
 probablemente de el usuario o del mundo exterior,
@@ -1346,7 +1346,7 @@ y
 Y sólo entonces haría esta parte. 
 
 0:18:44.770,0:18:49.400
-Así que la suma lo haría solo si
+Así que se haría la suma si 
 los dos son números.
 
 0:18:49.400,0:18:51.390
