@@ -63,7 +63,7 @@ gratis como PDF.
 Si no puedes pagar,
 
 0:01:02.580,0:01:06.120
-o no quieres invertir dinero en él, entonces bájalo;
+o no quieres invertir dinero en él, entonces descárgalo;
 
 0:01:06.120,0:01:08.170
 Mostraré el enlace
@@ -124,8 +124,8 @@ Aquí lo pueden ver.
 Haz click en el enlace de descarga.
 
 0:01:52.890,0:01:56.630
-Muevete hacia abajo. Hay un enlace para 
-descargar la versión más nueva de 
+Si bajas un poco la barra de desplazamiento,
+hay un enlace para descargar la versión más nueva de 
 
 0:01:56.630,0:01:58.890
 Padre en Strawberry.
@@ -279,7 +279,7 @@ Esto significa que
 cuando ejecutas el programa
 
 0:04:16.799,0:04:20.169
-primero checará que tu versión de Perl sea al menos la
+primero comprobará que tu versión de Perl sea al menos la
 
 0:04:20.169,0:04:24.830
 versión 5.006.
@@ -364,7 +364,7 @@ cuando se imprime
 se imprimirá
 
 0:05:33.259,0:05:35.449
-con una línea nueva al final.
+con el caracter nueva línea al final.
 
 0:05:35.449,0:05:38.930
 Como puedes ver, el enunciado termina con
@@ -411,8 +411,8 @@ Entonces, no necesitas escribir tanto si usas
 5.010.
 
 0:06:12.929,0:06:15.889
-Puedes usar la palabra clave 'say', no tienes que agregar una
-línea nueva.
+Puedes usar la palabra clave 'say', y no tienes
+que agregar el caracter nueva línea.
 
 0:06:15.889,0:06:20.429
 Esto está bien, pero nos gustaría interactuar
@@ -555,7 +555,7 @@ decir a
 Windows y a Padre que la entrada de datos terminó;
 
 0:08:20.520,0:08:24.849
-para decirle que el nombre puede ser agregado a la variable '$name'.
+el nombre puede ser agregado a la variable '$name'.
 
 0:08:24.849,0:08:28.210
 Y no removimos el caracter de nueva línea, entonces
