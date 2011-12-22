@@ -1,0 +1,188 @@
+0:00:01.240,0:00:03.720
+Olá, desta vez vou mostrar-lhe os elementos do
+
+0:00:03.720,0:00:06.720
+menu ver. Alguns dos elementos do menu ver do Padre.
+
+0:00:06.960,0:00:13.560
+O que pode observar aqui é a versão 0.84 do Padre, na sua versão pode ser ligeiramente diferente
+
+0:00:14.240,0:00:20.080
+E o que pode ver neste editor é o script principal do Padre
+
+0:00:20.160,0:00:24.120
+Portanto, se for ao menu ver, existem algumas opções que são interessantes.
+
+0:00:24.600,0:00:27.780
+Por exemplo há mostrar números das linhas, essas são coisas básicas.
+
+0:00:28.120,0:00:30.340
+Mostra os números das linhas no lado esquerdo.
+
+0:00:30.600,0:00:34.240
+Ou existe a linha actual
+
+0:00:34.800,0:00:39.120
+que coloca uma linha amarela no editor
+
+0:00:39.120,0:00:42.120
+no início quando comecei a usar isto, não gostei
+
+0:00:42.280,0:00:49.720
+mas agora habituei-me e prefiro assim porque
+porque torna-se mais fácil para mim ver onde se encontra o cursor.
+
+0:00:51.280,0:00:57.520
+Depois há o navegador de projectos, desculpe o navegador de projectos.
+
+0:00:58.320,0:01:00.600
+Que abre a janela do lado esquerdo.
+
+0:01:01.800,0:01:03.520
+Se abrir o ficheiro no Padre, um ficheiro Perl,
+
+0:01:04.040,0:01:12.600
+ele vai automaticamente ver a estrutura do directório e procurar por alguma indicação de um projecto, um projecto Perl
+
+0:01:13.200,0:01:22.240
+Portanto as indicações podem ser tanto um ficheiro Makefile.PL, que pode observar aqui, ou um Build.PL ou um ficheiro ini do distribuidor dist-zilla
+
+0:01:22.640,0:01:25.320
+Ou se não tiver nenhum desses por alguma razão,
+
+0:01:25.480,0:01:31.800
+o que não seria muito bom, mas se não os tiver, pode simplesmente criar um ficheiro Padre.yml vazio
+
+0:01:31.840,0:01:38.480
+e sempre que o Padre o encontrar, ele vai assumir que este é o directório de raiz do projecto
+
+0:01:38.800,0:01:40.080
+e depois vai puder ver o projecto
+
+0:01:40.080,0:01:49.400
+isto é para ambos ... mostrar o directório aqui e para alguns outros itens do Padre
+
+0:01:50.000,0:01:59.440
+Se for ao directório lib depois pode abrir um dos ficheiro em Padre.pm, que é o módulo principal do Padre.
+
+0:02:00.000,0:02:03.640
+Voltando ao menu Ver, posso clicar em Ver Funções,
+
+0:02:03.800,0:02:08.440
+vai abrir uma janela à direita que mostra todas as funções definidas,
+
+0:02:08.800,0:02:13.800
+funções ou métodos, porque podem haver apenas métodos no módulo orientado por objectos
+
+0:02:14.440,0:02:17.240
+Portanto todas as funções definidas no ficheiro actual
+
+0:02:17.400,0:02:22.300
+Pode clicar em qualquer uma delas mas quando faz duplo clique numa dessas
+
+0:02:22.400,0:02:26.600
+Padre vai automaticamente saltar para a definição dessa subrotina.
+
+0:02:27.600,0:02:31.400
+Aqui no topo, existe um filtro por isso posso começar a escrever letras
+
+0:02:31.800,0:02:44.440
+e vai filtrar as funções para mostrar apenas as que têm essas letras no nome.
+
+0:02:45.200,0:02:47.840
+Isto é a função, posso fechar aqui.
+
+0:02:47.840,0:02:53.400
+Outra coisa do lado direito que é interessante é a opção Outline
+
+0:02:53.400,0:03:02.440
+É uma ferramenta mais pesada para fazer algo semelhante por isso vai analisar o ficheiro actual
+
+0:03:02.440,0:03:07.800
+e mostrar os pragmatas que está a utilizar, portanto 'strict' ou  'warnings' e coisas do género
+
+0:03:07.800,0:03:14.760
+que módulos são usados neste código, e que métodos existem, o que vimos anteriormente.
+
+0:03:14.760,0:03:22.800
+Aqui você clica no item e ele irá saltar automaticamente, mostrar essa parte do ficheiro no editor
+
+0:03:23.080,0:03:30.040
+ou pode clicar com o botão direito no rato num deles e depois ir a elemento, isto é o que vimos anteriormente, saltar
+
+0:03:30.280,0:03:35.250
+para o uso actual do pragmata ou do módulo
+
+0:03:35.680,0:03:41.440
+ou pode clicar em abrir documentação e pode ver a documentação desse pragmata específico
+
+0:03:41.800,0:03:44.600
+ou se for a este módulo, digamos, este aqui,
+
+0:03:44.760,0:03:49.800
+e depois abrir a documentação, verá a documentação deste módulo.
+
+0:03:50.080,0:03:54.120
+Portanto, isto é o que se pode fazer na vista Outline.
+
+0:03:55.840,0:04:00.720
+Outra opção, aqui está a janela de output que está na parte de baixo do ecrã
+
+0:04:01.040,0:04:04.320
+isto, o que é interessante, é automaticamente aberto
+
+0:04:04.640,0:04:09.520
+sempre que necessário. Por exemplo, quando você corre um script, o que pode acontecer
+
+0:04:10.480,0:04:14.440
+Depois à a verificação de sintaxe, que é uma ferramenta importante
+
+0:04:15.000,0:04:20.160
+Esta abre e demora algum tempo, porque este realmente verifica se a sintaxe está correcta para o ficheiro.
+
+0:04:20.400,0:04:29.000
+Mas depois se começar a escrever código assim, então ele vai automaticamente verificar a sintaxe do ficheiro.
+
+0:04:29.920,0:04:34.560
+Pode ver que ele lhe mostra a mensagem de erro.
+
+0:04:34.720,0:04:43.400
+Se clicar na opção então ela vai dar-lhe uma descrição do diagnóstico, basicamente.
+
+0:04:43.800,0:04:50.080
+E depois se fizer duplo clique no erro permite-lhe saltar para o código
+
+0:04:50.520,0:04:58.840
+por exemplo, se eu escrever aqui, ele vai dizer-me se é um erro ou está correcto, a sintaxe está correcta.
+
+0:04:59.440,0:05:06.050
+Portanto isto é o verificador de sintaxe e é muito útil as pessoas verem-no sempre.
+
+0:05:07.120,0:05:16.720
+E aqui estão as novas linhas, para poder ver o tipo de novas linhas que tem, que pode ser difícil às vezes
+
+0:05:16.840,0:05:25.240
+Ou pode ver os espaços brancos aqui ou tabs. São essas as coisas que pode ver.
+
+0:05:25.400,0:05:36.880
+Então as Dicas de Chamada. Portanto vamos activar isto mas deixar o resto desactivado porque eu não gosto de espaços brancos e novas linhas.
+
+0:05:37.120,0:05:45.600
+Portanto vamos dizer que eu começo a escrever uma sub-string e depois eu obtenho o nome da subrotina completo
+
+0:05:45.700,0:05:47.760
+e depois vai mostrar-me a dica de chamada aqui.
+
+0:05:49.200,0:05:58.200
+Mostra uma pequena descrição dos parâmetros que essa subrotina pode ter ou uma pequena descrição da subrotina.
+
+0:05:58.400,0:06:00.960
+Portanto, é isto a simples apresentação que eu queria mostrar.
+
+0:06:01.400,0:06:06.060
+Vou ver o que podemos mais observar nas próximas edições destes screencasts.
+
+0:06:06.800,0:06:08.760
+Obrigado por ouvir, e visualizar. Adeus.
+
+
