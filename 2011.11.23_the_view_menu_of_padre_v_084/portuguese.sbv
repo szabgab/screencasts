@@ -62,7 +62,7 @@ E depois vai puder ver o projecto aqui.
 Isto é para ambos... mostrar o directório aqui e para alguns outros itens do Padre.
 
 0:01:50.000,0:01:59.440
-Se for ao directório lib depois pode abrir um dos ficheiro como o Padre.pm, que é o módulo principal do Padre.
+Se for ao directório lib depois pode abrir um dos ficheiros como o Padre.pm, que é o módulo principal do Padre.
 
 0:02:00.000,0:02:03.640
 Voltando ao menu Exibir, posso clicar em Exibir Funções,
@@ -110,10 +110,10 @@ Aqui você clica no item e ele irá saltar automaticamente, mostrar essa parte d
 ou pode clicar com o botão direito do rato num deles e depois ir a elemento, isto é o que vimos anteriormente, saltar
 
 0:03:30.280,0:03:35.250
-para o uso actual do pragmas ou do módulo.
+para o uso actual do pragma ou do módulo.
 
 0:03:35.680,0:03:41.440
-Ou pode clicar em abrir documentação e pode ver a documentação desse pragmas específico
+Ou pode clicar em abrir documentação e pode ver a documentação desse pragma específico
 
 0:03:41.800,0:03:44.600
 ou se for a este módulo, digamos, este aqui,
