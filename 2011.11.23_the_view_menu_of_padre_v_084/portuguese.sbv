@@ -38,7 +38,7 @@ Depois há o navegador de projectos, desculpe o navegador de projectos.
 Que abre a janela do lado esquerdo.
 
 0:01:01.800,0:01:03.520
-Se abrir o ficheiro no Padre, um ficheiro Perl,
+Se abrir um ficheiro no Padre, um ficheiro Perl,
 
 0:01:04.040,0:01:12.600
 ele vai automaticamente ver a estrutura do directório e procurar por alguma indicação de um projecto, um projecto Perl
@@ -56,10 +56,10 @@ o que não seria muito bom, mas se não os tiver, pode simplesmente criar um fic
 e sempre que o Padre o encontrar, ele vai assumir que este é o directório de raiz do projecto
 
 0:01:38.800,0:01:40.080
-e depois vai puder ver o projecto
+e depois vai puder ver o projecto aqui.
 
 0:01:40.080,0:01:49.400
-isto é para ambos ... mostrar o directório aqui e para alguns outros itens do Padre
+Isto é para ambos... mostrar o directório aqui e para alguns outros itens do Padre
 
 0:01:50.000,0:01:59.440
 Se for ao directório lib depois pode abrir um dos ficheiro como o Padre.pm, que é o módulo principal do Padre.
@@ -131,7 +131,7 @@ Outra opção, aqui está a janela de output que está na parte de baixo do ecr�
 isto, o que é interessante, é automaticamente aberto
 
 0:04:04.640,0:04:09.520
-sempre que necessário. Por exemplo, quando você corre um script, o que pode acontecer
+sempre que necessário. Por exemplo, quando você corre um script, pode acontecer.
 
 0:04:10.480,0:04:14.440
 Depois há a verificação de sintaxe, que é uma ferramenta importante
