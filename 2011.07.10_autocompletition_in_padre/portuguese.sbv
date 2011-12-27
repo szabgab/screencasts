@@ -8,7 +8,7 @@ Como vocês podem ver estou usando a versão 0.87
 que é uma versão de teste 
 
 0:00:11.000,0:00:13.000
-da subversão do repositório.
+do repositório subversion (svn)
 
 0:00:13.000,0:00:15.500
 Este será o 0.88
@@ -26,10 +26,10 @@ Você pode ver que tem um arquivo aberto aqui
 este é um dos próprios arquivos do Padre
 
 0:00:25.250,0:00:31.600
-se eu começar a digitar alguma palavra, por exemplo, "RegistrarProtocolo"
+se eu começar a digitar alguma palavra, por exemplo, "RegisterProtocol"
 
 0:00:31.600,0:00:34.500
-que é apenas um nome da subrotina em baixo que
+que é apenas um nome da subrotina abaixo
 
 0:00:34.500,0:00:38.750
 Neste ponto eu posso selecionar o menu editar 
@@ -47,58 +47,55 @@ Então eu podia clicar aqui com o mouse, ou
 Se apenas eu voltar e ir denovo no editor
 
 0:00:48.250,0:00:52.500
-Eu posso apenas pressionar Ctrl+espaço e então irá autocompletar a palavra
+posso pressionar Ctrl+Espaço e então irá autocompletar a palavra
 
 0:00:52.500,0:00:55.000
-obviamente isto não vai fazer nada no arquivo
+obviamente isto pode ser feito em qualquer lugar do arquivo
 
 0:00:55.000,0:01:01.000
 Agora, se eu começar a... Se eu pressionar Ctrl+espaço neste ponto
 
 0:01:01.000,0:01:03.250 
-quando eu digitei apenas  4 letras
+quando eu digitei apenas 4 letras
 
 0:01:03.250,0:01:07.000
-então porque tem um monte de palavras que começam com "Regi"
+então porque tem outras palavras que começam com "Regi"
 
 0:01:07.000,0:01:13.000
 Eu tenho que escolher então uma das palavras que irão aparecer
 
 0:01:13.000,0:01:17.750
-De forma similar eu posso digitar o nome de uma variável, por exemplo, esta
+eu também posso digitar o nome de uma variável, por exemplo, esta
 
 0:01:17.750,0:01:24.000
 me mostrará todas as palavras que começam com "$reg..."
 
-0:01:24.000,0:01:25.000
-
-
 0:01:25.000,0:01:31.000
-Obviamente algumas pessoas preferem que isto aconteça automaticamente
+Algumas pessoas preferem que isto aconteça automaticamente
 
 0:01:31.000,0:01:35.500
 Então, conforme eu digito irá mostrar as palavras para que eu possa escolher uma
 
 0:01:35.500,0:01:39.000
-Para que isto funcione você tem que ir ao menu the ferramentas
+Para que isto funcione você tem que ir ao menu "Ferramentas"
 
 0:01:39.000,0:01:47.000
-E nas preferências selecionar Auto-Completar onde primeiro check box é "Sempre Autocompletar quando estiver digitando"
+E nas preferências selecionar Auto-Completar onde o primeiro check box é "Sempre Autocompletar quando estiver digitando"
 
 0:01:47.000,0:01:50.000
-Então, eu selecione esta opção e salvei
+Então, selecione esta opção e salve
 
 0:01:50.000,0:01:56.000
-e Agora quando eu começo digitando "$reg" já me mostra uma lista de palavras
+e agora quando eu começo digitando "$re" ele já me mostra uma lista de palavras
 
 0:01:56.000,0:02:02.000
-Se eu continuar digitando vai mostrar apenas uma lista reduzida de palavras que poderiam começar com esta meia-palavra que digitei
+Se eu continuar digitando vai mostrar uma lista reduzida de palavras que começam com o que digitei
 
 0:02:02.000,0:02:08.000
-e então eu posso simplesmente selecionar uma das palavras que eu prefiro, ou continuar digitando
+e então eu posso simplesmente selecionar uma das palavras ou continuar digitando
 
 0:02:08.000,0:02:16.000
-Ou eu posso apenas pressionar ESC afim de continuar digitando e não ver este pop-up
+Ou posso apenas pressionar ESC para continuar digitando e não ver este pop-up
 
 0:02:16.000,0:02:19.000
 Outra opção aqui: nas preferências, autocompletar    
@@ -107,7 +104,7 @@ Outra opção aqui: nas preferências, autocompletar
 é "Autocompletar novos métodos em pacotes"
 
 0:02:23.000,0:02:25.750
-Então vamos verificar esta e salva-lá
+Então vamos ativar esta e salva-lá
 
 0:02:25.750,0:02:29.000
 Aqui, se eu começar a digitar um nome de uma subrotina
@@ -116,7 +113,7 @@ Aqui, se eu começar a digitar um nome de uma subrotina
 sub, e então dar um nome a ela, quando eu pressionar espaço
 
 0:02:34.000,0:02:44.000
-então vai automaticamente colocar os colchetes e o primeiro commando para adicionar mudança na variável "$self"
+ele vai colocar automaticamente as chaves e o primeiro comando para adicionar a variável "$self"
 
 0:02:44.000,0:02:46.750
 isto é o que acontece em módulos
@@ -131,7 +128,7 @@ e começa digitando aqui: "sub name"
 o espaço não faz nenhuma diferença, ele não autocompleta nada em subrotinas
 
 0:03:03.500,0:03:11.000
-Para isto existe uma opção separada, a terceira aqui: "Autocompletar com novas funções em script"
+Para isto existe uma opção separada, a terceira aqui: "Autocompletar novas funções em scripts"
 
 0:03:11.000,0:03:12.000
 Se eu selecionar esta
@@ -140,40 +137,40 @@ Se eu selecionar esta
 então no script eu posso começar a digitar
 
 0:03:15.750,0:03:18.900
-e então quando eu digitar, quando eu pressiona o espaço aqui
+e então quando eu digitar, quando eu pressiono o espaço aqui
 
 0:03:18.900,0:03:28.000
-Me mostrará os colchetes aqui, e colocará o cursor no lugar correto
+Ele coloca as chaves aqui, e o cursor no lugar correto
 
 0:03:28.000,0:03:32.500
-mas não coloca a declaração ela mesma
+mas não coloca a declaração de "$self"
 
 0:03:32.500,0:03:38.000
 porque é uma subrotina, então provavelmente não há tal variável
 
 0:03:38.000,0:03:42.900
-Vamos denovo as preferências e ver o que mais tem...
+Vamos voltar para as preferências e ver o que mais tem...
 
 0:03:42.900,0:03:50.000
-Aqui estão os números que me permitem controlar em qual ponto a autocompletação irá  ----
+Aqui estão os números que me permitem controlar em qual ponto o autocompletar será ativado
 
 0:03:50.000,0:03:57.500
-Você pode mudar este numerous por exemplo, quantas sugestões irá aparecer e assim por diante...
+Você pode mudar este números, quantas sugestões irão aparecer e assim por diante...
 
 0:03:57.500,0:04:01.100
-Existem mais dois chek box aqui que são interessantes.
+Existem mais opções interessantes aqui.
 
 0:04:01.100,0:04:03.000
-Um deles é "Autocomplete brackets"
+Um deles é "Autocompletar blocos"
 
 0:04:03.000,0:04:06.000
 Então, se eu selecionar este e começar a digitar aqui
 
 0:04:06.000,0:04:13.100
-Vamos dizer aqui, e eu coloco em colchetes
+Vamos dizer aqui, e eu coloco abre-chaves
 
 0:04:13.100,0:04:19.000
-(Você pode ver que) mas irá automaticamente colocar no fechado
+(Você não pode ver) mas irá automaticamente colocar o fecha-chaves
 
 0:04:19.000,0:04:21.000
 o mesmo aconteçe com colchetes.
@@ -185,49 +182,49 @@ Você não pode ver, por causa das cores do marcador de texto
 É quando você chega em um dos finais dos colchetes
 
 0:04:31.100,0:04:37.000
-colchetes, ou até mesmo com colchetes isto funciona
+colchetes, ou até mesmo com parênteses isto funciona
 
 0:04:37.000,0:04:42.900
-Então, isto é o que aconteçe. Agora, vamos ver o que acontece se eu fizer o mesmo aqui dentro da subrotina
+Então, isto é o que acontece. Agora, vamos ver o que acontece se eu fizer o mesmo aqui dentro da subrotina
 
 0:04:42.900,0:04:47.500
-Eu digitei, e aqui você tem os colchetes novamente.
+Eu digitei, e aqui você tem as chaves novamente.
 
 0:04:47.500,0:04:56.500
-Mas o que acontece se você colocar em um colchete que está fechando?
+Mas o que acontece se você colocar um fecha-chaves
 
 0:04:56.500,0:04:60.000
-E então antes disto você começa digitar um colchete
+E então antes disto você começa digitar um abre-chaves?
 
 0:04:60.000,0:05:04.750
-O Padre não permite este de fechamento, porque ele vê que você já tem uma
+O Padre não adiciona o de fechamento, porque ele vê que você já tem um
 
 0:05:04.750,0:05:12.000
-Para algumas pessoas isto é o que elas querem, outras pessoas preferirão sempre os colhecetes de fechamento.
+Para algumas pessoas isto é o que elas querem, outras preferem sempre os blocos de fechamento.
 
 0:05:12.000,0:05:14.300
-E para eles existem o outro checkbox.
+E para eles existe a outra opção
 
 0:05:14.300,0:05:21.000
-Aqui, autocompletar. E este é o checkbox: "Adicionar outra bracket de fechamento se já existir um"
+Aqui, autocompletar. E este é o checkbox: "Adicionar outro terminador de bloco se já houver um"
 
 0:05:21.000,0:05:23.000
-Então, em caso, se eu selecionar este
+Então, nesse caso, se eu selecionar este
 
 0:05:23.000,0:05:30.000
-Se eu tiver o colchete de fechamento e agora eu começo um de abertura
+Se eu tiver o fecha-chaves e começar um de abertura
 
 0:05:30.000,0:05:31.750
-E ainda adiciona o de fechamento
+Ele adiciona o de fechamento
 
 0:05:31.750,0:05:34.000
 Então, é apenas uma questão de preferência.
 
 0:05:34.000,0:05:36.600
-Então, nós vimos sobre autocompletação
+Então, nós vimos sobre autocompletar
 
 0:05:36.600,0:05:41.500
-Eu espero que vocês veham os próximos vídeos também
+Eu espero vocês nos próximos vídeos
 
 0:05:41.500,0:05:42.000
 Tchau!
