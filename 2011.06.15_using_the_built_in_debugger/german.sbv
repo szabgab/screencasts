@@ -1,0 +1,636 @@
+0:00:03.700,0:00:06.190
+Hallo, und Willkommen zurück im Kanal!
+
+0:00:06.190,0:00:09.070
+Dieses Mal spreche ich über den
+eingebauten Debugger
+
+0:00:09.070,0:00:11.309
+von Perl.
+
+0:00:11.309,0:00:14.089
+Normalerweise, wenn man ein Skript hat,
+
+0:00:14.089,0:00:16.350
+Sagen wir in diesem Fall 'outline.pl'.
+
+0:00:16.350,0:00:21.569
+Kann man es folgendermaßen in der Command-Line ausführen:
+'perl <Name des Skripts>' und '<potentielle Parameter>'.
+
+0:00:21.569,0:00:23.960
+Also sehen wir was passiert wenn ich das Skript ausführe.
+
+0:00:23.960,0:00:25.599
+Wir sehen also, es gibt eine Ausgabe.
+
+0:00:25.599,0:00:29.849
+Um es zu debuggen, müssen wir
+'perl -d' ausführen,
+
+0:00:29.849,0:00:33.120
+dann den Namen des Skripts, dann die Parameter.
+
+0:00:33.120,0:00:33.770
+Wenn
+
+0:00:33.770,0:00:36.240
+ich das ausführe
+
+0:00:36.240,0:00:38.920
+erhalte ich eine spezielle Ausgabe.
+
+0:00:38.920,0:00:43.340
+Es gibt die erste Zeile im Code aus,
+die nächste,
+
+0:00:43.340,0:00:45.010
+die ausgeführt werden würde
+
+0:00:45.010,0:00:47.220
+und dann komme ich zu einem Prompt,
+
+0:00:47.220,0:00:50.290
+in dem ich verschiedene Kommandos
+an den Debugger senden kann.
+
+0:00:50.290,0:00:51.839
+Das erste und wichtigste
+
+0:00:51.839,0:00:52.610
+ist 'q',
+
+0:00:52.610,0:00:54.960
+welches uns ermöglicht den Debugger zu beenden.
+
+0:00:54.960,0:00:58.000
+Wenn wir ihn also schließen möchten,
+
+0:00:58.000,0:00:58.689
+drücken wir
+
+0:00:58.689,0:01:00.950
+'q' 'Enter' und er beendet sich.
+
+0:01:00.950,0:01:02.820
+Nun lasst uns das nochmal ausführen
+
+0:01:02.820,0:01:04.840
+Um das zweitwichtigste zu sehen, nämlich
+
+0:01:04.840,0:01:06.420
+'h'
+
+0:01:06.420,0:01:08.390
+Womit wir Hilfe erhalten.
+
+0:01:08.390,0:01:12.100
+Man erhält eine Liste der verschiedenen Optionen
+-- das ist eigentlich eine verkürzte Liste --
+
+0:01:12.100,0:01:13.840
+des Debuggers.
+
+0:01:13.840,0:01:18.110
+Also lässt sich erahnen, dass es hier
+Tonnen an Potential gibt ...
+
+0:01:18.110,0:01:20.800
+Viele mögliche Wege den Debugger zu verwenden.
+
+0:01:20.800,0:01:24.520
+Um den Code nun wieder zu sehen,
+
+0:01:24.520,0:01:25.530
+drücke ich 'l',
+
+0:01:25.530,0:01:29.120
+womit ich den Code anzeige.
+
+0:01:29.120,0:01:30.400
+Und in diesem 'l',
+
+0:01:30.400,0:01:33.660
+in dieser Auflistung, sieht man
+Zeilnennummern.
+
+0:01:33.660,0:01:35.830
+Dieser Pfeil zeigt auf die Zeile, die
+
+0:01:35.830,0:01:39.260
+als nächstes ausgeführt wird. Also
+
+0:01:39.260,0:01:40.240
+wurde diese Zeile nicht ausgeführt -- bis jetzt.
+
+0:01:40.240,0:01:43.690
+Wenn ich sehen will, was die $file
+Variable enthält,
+
+0:01:43.690,0:01:45.430
+welche
+
+0:01:45.430,0:01:47.100
+derzeit wohl leer ist,
+
+0:01:47.100,0:01:49.750
+kann ich das
+
+0:01:49.750,0:01:52.720
+'p' Kommando, welches für "print" steht verwenden,
+
+0:01:52.720,0:01:54.799
+den Namen der Variable angeben
+
+0:01:54.799,0:01:56.799
+und es wird einfach nichts ausgeben.
+
+0:01:56.799,0:01:59.269
+Eigentlich könnte ich sogar überprüfen
+
+0:01:59.269,0:02:02.720
+ob sie definiert ist oder nicht.
+
+0:02:02.720,0:02:05.750
+Also kann ich 'p defined' schreiben, und die Rückgabe ist
+
+0:02:05.750,0:02:06.869
+false
+
+0:02:06.869,0:02:08.499
+
+0:02:08.499,0:02:10.419
+Es gibt also nichts aus.
+
+0:02:10.419,0:02:14.299
+Wenn ich etwas komplexeres versuchen würde,
+könnte ich
+
+0:02:14.299,0:02:18.680
+'if not defined' probieren und es würde
+einen richtigen ('true') Wert ausgeben.
+
+0:02:18.680,0:02:20.180
+Jedenfalls ...
+
+0:02:20.180,0:02:24.670
+Lasst uns sehen wie ich diese Zeilen ausführen kann.
+
+0:02:24.670,0:02:26.959
+Ich würde gerne zu diesem Punkt zurückkommen
+
+0:02:26.959,0:02:29.219
+und diese Zeile Code ausführen.
+
+0:02:29.219,0:02:33.729
+Um was zu tun, drücke ich 's', was für "step"
+oder "step in" steht
+
+0:02:33.729,0:02:35.669
+und drücke Enter.
+
+0:02:35.669,0:02:39.560
+Das wird die Zeile ausführen und
+mir die nächste,
+
+0:02:39.560,0:02:41.269
+auszuführende Zeile, anzeigen.
+
+0:02:41.269,0:02:46.040
+Wenn ich nun $file ausgebe,
+
+0:02:46.040,0:02:49.140
+sieht man, dass es nun
+den Wert hat, der
+
+0:02:49.140,0:02:51.519
+via Command-Line übergeben wurde.
+
+0:02:51.519,0:02:53.119
+Sobald ich diese Information
+
+0:02:53.119,0:02:54.519
+habe
+
+0:02:54.519,0:02:58.139
+weiß ich, dass ich gerne die
+nächste Zeile ausführen würde.
+
+0:02:58.139,0:03:01.379
+Nun ruft diese Zeile die slurp Funktion auf
+
+0:03:01.379,0:03:04.180
+welche aus einem anderen Modul kommt.
+
+0:03:04.180,0:03:05.949
+Drückt man 's' erneut,
+
+0:03:05.949,0:03:06.939
+führt dies
+
+0:03:06.939,0:03:08.619
+den nächsten
+
+0:03:08.619,0:03:09.499
+Codeabschnitt aus,
+
+0:03:09.499,0:03:11.999
+welcher wiederum die Funktion
+
+0:03:11.999,0:03:13.959
+aufruft.
+
+0:03:13.959,0:03:17.539
+Was man also hier sieht ist, dass dieses Mal
+
+0:03:17.539,0:03:19.200
+die erste Zeile,
+
+0:03:19.200,0:03:19.839
+die in der anderen Datei ausgeführt wird,
+
+0:03:19.839,0:03:22.430
+ausgegeben wird.
+
+0:03:22.430,0:03:23.480
+Man seht also, dass
+
+0:03:23.480,0:03:25.150
+das der Name des
+
+0:03:25.150,0:03:26.619
+Pakets ist,
+
+0:03:26.619,0:03:29.309
+indem der Code liegt.
+
+0:03:29.309,0:03:32.819
+'read_file' ist der Name der
+Funktion die aufgerufen wird,
+was etwas
+
+0:03:32.819,0:03:36.919
+komisch ist, da wir ja die Funktion
+'slurp' aufgerufen haben
+
+0:03:36.919,0:03:38.270
+und anstatt dessen
+
+0:03:38.270,0:03:38.990
+nun 'read_file' ausgeführt wird.
+
+0:03:38.990,0:03:40.950
+Und nun sieht man, was
+
+0:03:40.950,0:03:44.559
+hier vor sich geht: Das ist der Name der Datei.
+
+0:03:44.559,0:03:48.479
+Die Implementation der 'read_file' Funktion.
+
+0:03:48.479,0:03:51.010
+Und wir befinden uns in Zeile 75.
+
+0:03:51.010,0:03:52.749
+Das ist also die nächste Zeile,
+
+0:03:52.749,0:03:55.489
+die ausgeführt werden soll.
+
+0:03:55.489,0:04:00.029
+Sehen wir uns einmal um, drücken also 'l'
+
+0:04:00.029,0:04:02.919
+und den Bereich der Zeilenummern
+
+0:04:02.919,0:04:04.309
+70 bis 80.
+
+0:04:04.309,0:04:06.310
+Und es werrd uns die Zeilen in der
+
+0:04:06.310,0:04:08.119
+Datei
+
+0:04:08.119,0:04:11.419
+"File/Slurp.pm" angezeigt.
+
+0:04:11.419,0:04:15.449
+Inmitten dieser Zeilen... Und hier seht ihr,
+dass wir in der Funktion
+
+0:04:15.449,0:04:17.419
+'read_file'
+
+0:04:17.419,0:04:19.680
+sind, wie gesagt.
+
+0:04:19.680,0:04:20.580
+Darüber allerdings
+
+0:04:20.580,0:04:25.340
+erkennt man, dass die Funktion
+'slurp' ein Alias der Funktion 'read_file' ist.
+
+0:04:25.340,0:04:28.650
+Das erklärt also, warum, wenn wir 'slurp' ausführen,
+
+0:04:28.650,0:04:29.560
+wir tatsächlich in der
+
+0:04:29.560,0:04:32.530
+'read_file' Funktion landen.
+
+0:04:32.530,0:04:34.280
+In der 'read_file' Funktion
+
+0:04:34.280,0:04:35.469
+
+0:04:35.469,0:04:37.850
+ist dies der nächste auszuführende Schritt.
+
+0:04:37.850,0:04:39.750
+Wenn ich ihn also ausführen möchte,
+
+0:04:39.750,0:04:41.470
+kann ich erneut 's' drücken,
+
+0:04:41.470,0:04:44.280
+was allerdings nicht notwendig ist, da
+ich einfach
+
+0:04:44.280,0:04:47.949
+Enter drücken kann
+-- was ihr natürlich nicht seht --
+
+0:04:47.949,0:04:51.690
+und somit das eben besprochene 's' ausführen.
+
+0:04:51.690,0:04:55.389
+So kann ich einfach immer wieder Enter drücken
+und
+
+0:04:55.389,0:04:56.830
+Schritt für Schritt
+
+0:04:56.830,0:04:58.160
+durch
+
+0:04:58.160,0:04:59.659
+alle Werte,
+
+0:04:59.659,0:05:03.110
+alle Schritte im Code, laufen.
+
+0:05:03.110,0:05:07.499
+Nach einiger Zeit könnte man
+vielleicht feststellen, dass dies
+nicht die Funktion ist die man
+
+0:05:07.499,0:05:09.409
+debuggen will.
+
+0:05:09.409,0:05:10.539
+Man wollte die Funktion
+
+0:05:10.539,0:05:12.659
+überspringen.
+
+0:05:12.659,0:05:15.899
+Man ist also in der 'slurp' Funktion gelandet,
+aber sie interessiert einen nicht wirklich,
+
+0:05:15.899,0:05:19.209
+da klar wird dass der gesuchte Fehler
+
+0:05:19.209,0:05:20.069
+nicht in dieser Funktion liegt.
+
+0:05:20.069,0:05:23.019
+Man möchte also die Funktion abbrechen,
+
+0:05:23.019,0:05:24.470
+ohne die Schritte
+
+0:05:24.470,0:05:25.979
+durch alle
+
+0:05:25.979,0:05:31.490
+Zeilen einzeln zu durchlaufen.
+Dafür gibt es das 'r' Kommando.
+
+0:05:31.490,0:05:32.949
+Bevor wir es verwenden,
+
+0:05:32.949,0:05:34.239
+lasst uns noch etwas anderes tun.
+
+0:05:34.239,0:05:37.729
+Sehen wir uns das 't' Kommando an,
+welches einen Stack-Trace ausgibt.
+
+0:05:37.729,0:05:40.199
+Wenn ich also 't' drücke, kann ich sehen
+
+0:05:40.199,0:05:41.789
+wo ich im Code bin
+
+0:05:41.789,0:05:46.019
+und man sieht, dass das der einzige Aufruf ist,
+
+0:05:46.019,0:05:48.280
+der getätigt wurde. Daher erscheint nur eine
+
+0:05:48.280,0:05:50.879
+Funktion in diesem Trace.
+
+0:05:50.879,0:05:52.949
+Drücken von 'r'
+
+0:05:52.949,0:05:55.979
+bringt mich nun aus der aktuellen Funktion
+
+0:05:55.979,0:06:00.890
+und gibt deren Rückgabewert aus.
+Weil der Rückgabewert hier
+
+0:06:00.890,0:06:04.249
+der Inhalt von der Padre.pm Datei ist,
+
+0:06:04.249,0:06:06.540
+wird eben der Inhalt der Datei angezeigt.
+
+0:06:06.540,0:06:10.199
+Hier sieht man nur das Ende der pm-Datei,
+mit der Dokumentation
+
+0:06:10.199,0:06:13.620
+und mit der Liste der Namen aller Personen,
+die
+
+0:06:13.620,0:06:19.729
+etwas zum Padre Projekt beigetragen haben.
+An dieser Stelle, Viele Dank an all jene!
+
+0:06:19.729,0:06:21.320
+Kommen wir zum Code zurück.
+
+0:06:21.320,0:06:24.939
+Hier sieht man nun die nächste Zeile,
+
+0:06:24.939,0:06:26.930
+die ausgeführt werden soll.
+
+0:06:26.930,0:06:28.470
+Welche der Aufruf der 
+
+0:06:28.470,0:06:32.300
+EditorTools Outline, new und define
+
+0:06:32.300,0:06:33.399
+Funktion ist.
+
+0:06:33.399,0:06:35.039
+
+
+0:06:35.039,0:06:40.099
+Wir drücken also 's' erneut
+und bewegen uns in die Funktion.
+
+0:06:40.099,0:06:42.180
+Sehen wir uns um,
+
+0:06:42.180,0:06:46.680
+von 45 bis, sagen wir 60.
+
+0:06:46.680,0:06:49.059
+Man sieht hier,
+
+0:06:49.059,0:06:52.050
+dass diese Zeilen wahrscheinlich
+leer sind und nicht angezeigt werden.
+
+0:06:52.050,0:06:56.879
+Und wir sind in der 'find' Methode,
+genauer gesagt in der ersten Zeile
+des Funktionsrumpfes.
+
+0:06:56.879,0:06:57.709
+Nun machen erneut einen
+
+0:06:57.709,0:07:00.210
+Schritt,
+
+0:07:00.210,0:07:02.010
+diesmal allerdings,
+
+0:07:02.010,0:07:08.089
+entscheiden wir, dass wir uns nicht für
+'process_doc' interessieren, also nicht hineinspringen
+möchten.
+
+0:07:08.089,0:07:09.409
+Vorher
+
+0:07:09.409,0:07:13.589
+sind wir in die 'slurp' Funktion gesprungen
+und haben erst danach herausgefunden, dass
+
+0:07:13.589,0:07:16.990
+wir nicht an der Funktion interessiert sind.
+Erst dann sind wir mit 'r' zurückgesprungen.
+
+0:07:16.990,0:07:20.089
+Dieses Mal, kann ich den Buchstaben 'n'
+verwenden,
+
+0:07:20.089,0:07:21.719
+welcher für "next step" steht.
+
+0:07:21.719,0:07:25.130
+Und wenn ich dies mit 'Enter' bestätige,
+
+0:07:25.130,0:07:27.999
+wird der Code von 'process_doc' zwar ausgeführt,
+
+0:07:27.999,0:07:31.130
+aber der Debugger stoppt
+
+0:07:31.130,0:07:32.120
+an dem Punkt
+
+0:07:32.120,0:07:33.360
+genau nach
+
+0:07:33.360,0:07:34.909
+dem Funktionsaufruf.
+
+0:07:34.909,0:07:38.069
+Die nächste Zeile ist also #53.
+
+0:07:38.069,0:07:40.620
+Hier oben sieht man, dass dies die
+
+0:07:40.620,0:07:42.130
+nächste auszführende Zeile ist.
+
+0:07:42.130,0:07:43.839
+Und hier sind wir nun.
+
+0:07:43.839,0:07:45.750
+Jetzt können wir wieder Enter drücken
+
+0:07:45.750,0:07:47.619
+und Enter wird immer
+
+0:07:47.619,0:07:51.460
+'s' bzw. 'n' auslösen, also entweder
+hinein- oder überspringen,
+
+0:07:51.460,0:07:55.030
+abhängig davon, was wir zuletzt getan haben.
+
+0:07:55.030,0:07:56.179
+Wenn ich also jetzt Enter drücke,
+
+0:07:56.179,0:07:58.270
+überspringen wir den Aufruf
+
+0:07:58.270,0:08:01.419
+der FUnktion ppi.
+
+0:08:01.419,0:08:02.800
+
+0:08:02.800,0:08:06.750
+Ich denke das ist genug für jetzt,
+wahrscheinlich produziere ich ein weiteres
+
+0:08:06.750,0:08:08.770
+Tutorial dazu.
+
+0:08:08.770,0:08:14.629
+Vergesst nur nicht, dass ihr den Debugger
+mit 'q' beendet.
+
+0:08:14.629,0:08:18.830
+Wenn ihr daran interessiert seid, mehr
+über den Debugger zu lesen,
+
+0:08:18.830,0:08:23.529
+gibt es da ein exzellentes Buch, das ich euch zeigen möchte.
+
+0:08:23.529,0:08:27.889
+Ich empfehle euch dieses Buch zu kaufen und zu lesen.
+
+0:08:27.889,0:08:30.830
+Ich habe es nicht geschrieben,
+
+0:08:30.830,0:08:33.680
+aber man kann daraus eine ganze Menge
+lernen.
+
+0:08:33.680,0:08:36.090
+Vielen Dank für's zusehen, und
+
+0:08:36.090,0:08:36.790
+bitte schaut später noch einmal vorbei!
