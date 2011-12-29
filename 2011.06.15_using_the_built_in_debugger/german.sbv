@@ -12,17 +12,17 @@ von Perl.
 Normalerweise, wenn man ein Skript hat,
 
 0:00:14.089,0:00:16.350
-Sagen wir in diesem Fall 'outline.pl'.
+-- sagen wir in diesem Fall 'outline.pl' --
 
 0:00:16.350,0:00:21.569
-Kann man es folgendermaßen in der Command-Line ausführen:
+kann man es folgendermaßen mit der Command-Line ausführen:
 'perl <Name des Skripts>' und '<potentielle Parameter>'.
 
 0:00:21.569,0:00:23.960
-Also sehen wir was passiert wenn ich das Skript ausführe.
+Also sehen wir was passiert wenn ich das Skript ausführe:
 
 0:00:23.960,0:00:25.599
-Wir sehen also, es gibt eine Ausgabe.
+Es gibt eine Art Ausgabe.
 
 0:00:25.599,0:00:29.849
 Um es zu debuggen, müssen wir
@@ -41,7 +41,7 @@ ich das ausführe
 erhalte ich eine spezielle Ausgabe.
 
 0:00:38.920,0:00:43.340
-Es gibt die erste Zeile im Code aus,
+Er gibt die erste Zeile im Code aus,
 die nächste,
 
 0:00:43.340,0:00:45.010
@@ -111,8 +111,8 @@ womit ich den Code anzeige.
 Und in diesem 'l',
 
 0:01:30.400,0:01:33.660
-in dieser Auflistung, sieht man
-Zeilnennummern.
+in dieser Auflistung ("listing"), sieht man
+Zeilennummern.
 
 0:01:33.660,0:01:35.830
 Dieser Pfeil zeigt auf die Zeile, die
@@ -183,7 +183,7 @@ Ich würde gerne zu diesem Punkt zurückkommen
 und diese Zeile Code ausführen.
 
 0:02:29.219,0:02:33.729
-Um was zu tun, drücke ich 's', was für "step"
+Um das zu tun, drücke ich 's', was für "step"
 oder "step in" steht
 
 0:02:33.729,0:02:35.669
@@ -217,7 +217,7 @@ weiß ich, dass ich gerne die
 nächste Zeile ausführen würde.
 
 0:02:58.139,0:03:01.379
-Nun ruft diese Zeile die slurp Funktion auf
+Nun ruft diese Zeile die 'slurp' Funktion auf
 
 0:03:01.379,0:03:04.180
 welche aus einem anderen Modul kommt.
@@ -307,7 +307,7 @@ und den Bereich der Zeilenummern
 70 bis 80.
 
 0:04:04.309,0:04:06.310
-Und es werrd uns die Zeilen in der
+Und es werden uns die Zeilen in der
 
 0:04:06.310,0:04:08.119
 Datei
@@ -333,13 +333,13 @@ erkennt man, dass die Funktion
 'slurp' ein Alias der Funktion 'read_file' ist.
 
 0:04:25.340,0:04:28.650
-Das erklärt also, warum, wenn wir 'slurp' ausführen,
+Das erklärt also, warum man, wenn man 'slurp' ausführt,
 
 0:04:28.650,0:04:29.560
-wir tatsächlich in der
+tatsächlich in der
 
 0:04:29.560,0:04:32.530
-'read_file' Funktion landen.
+'read_file' Funktion landet.
 
 0:04:32.530,0:04:34.280
 In der 'read_file' Funktion
@@ -455,7 +455,7 @@ und gibt deren Rückgabewert aus.
 Weil der Rückgabewert hier
 
 0:06:00.890,0:06:04.249
-der Inhalt von der Padre.pm Datei ist,
+der Inhalt von der 'Padre.pm' Datei ist,
 
 0:06:04.249,0:06:06.540
 wird eben der Inhalt der Datei angezeigt.
@@ -485,7 +485,7 @@ die ausgeführt werden soll.
 Welche der Aufruf der 
 
 0:06:28.470,0:06:32.300
-EditorTools Outline, new und define
+'EditorTools', 'Outline', 'new' und 'define'
 
 0:06:32.300,0:06:33.399
 Funktion ist.
