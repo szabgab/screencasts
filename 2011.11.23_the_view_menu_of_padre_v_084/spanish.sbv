@@ -1,183 +1,188 @@
 0:00:01.240,0:00:03.720
-Hola, esta vez voy a mostrarles los elementos 
+Hola, esta vez voy a mostraros los elementos del
 
 0:00:03.720,0:00:06.720
-del men˙ de vista de Padre.
+men√∫ Ver de Padre.
 
 0:00:06.960,0:00:13.560
-Los que podemos ver aquÌ es la versiÛn 0.84 de Padre, tu versiÛn podrÌa ser diferente.
+Aqu√≠ usamos la versi√≥n 0.84 de Padre, tu versi√≥n podr√≠a ser diferente.
 
 0:00:14.240,0:00:20.080
-Y lo que puedes ver es el script principal de padre en sÌ.
+Y lo que ves en el editor es el script principal de Padre.
 
 0:00:20.160,0:00:24.120
-AsÌ que, si vas al men˙ de vista, hay un par de entradas que son interesantes.
+Si vas al men√∫ Ver, hay un par de entradas que son interesantes.
 
 0:00:24.600,0:00:27.780
-Por ejemplo, hay una vista de n˙meros de lÌnea, estas son cosas b·sicas.
+Por ejemplo, hay un comando para mostrar los n√∫meros de l√≠nea, estas son cosas b√°sicas.
 
 0:00:28.120,0:00:30.340
-Nos muestra los n˙meros de lÌnea en el lado izquierdo.
+Nos muestra los n√∫meros de l√≠nea en el lado izquierdo.
 
 0:00:30.600,0:00:34.240
-O existe la lÌnea actual
+Tambi√©n hay un comando para mostrar la l√≠nea actual
 
 0:00:34.800,0:00:39.120
-que pone de amarillo la lÌnea en el editor.
+que pone de amarillo la l√≠nea en el editor.
 
 0:00:39.120,0:00:42.120
-Al principio, cuando empezÈ a usar esto, no me gustaba,
+Al principio, cuando empec√© a usarlo, no me gustaba,
 
 0:00:42.280,0:00:49.720
-pero ahora he acostumbrado y lo prefiero porque hace
-mas f·cil reconocer donde est· el cursor actualmente.
+pero ahora me he acostumbrado y lo prefiero porque hace
+mas f√°cil detectar la posici√≥n del cursor actualmente.
 
 0:00:51.280,0:00:57.520
-Luego est· el buscador de proyecto,
+Tambi√©n hay un navegador de proyectos,
 
 0:00:58.320,0:01:00.600
 que abre una ventana del lado izquierdo.
 
 0:01:01.800,0:01:03.520
-Si tu abres un archivo en Padre, un archivo "Perl",
+Al abrir un archivo, un archivo Perl,
 
 0:01:04.040,0:01:12.600
-Èl autom·ticamente atraviesa la estructura del directorio y busca un tipo de un proyecto, un proyecto Perl.
+Padre recorre autom√°ticamente la estructura de directorios
+y busca alguna indicaci√≥n de proyecto Perl.
 
 0:01:13.200,0:01:22.240
-AsÌ que las instrucciones pueden ser un makefile.PL, que se ve aquÌ, un Build.PL o el archivo ini del distribuidor dist-zilla. 
+Estas indicaciones pueden ser un archivo Makefile.PL (como el que se ve aqu√≠),
+Build.PL o el archivo .ini de una distribuci√≥n Dist::Zilla. 
 
 0:01:22.640,0:01:25.320
-O si no tienes uno de estos por alguna razÛn, que no serÌa bueno, puedes simplemente crear un archivo Padre.yml vacÌo.
+O si no tienes uno de estos por alguna raz√≥n, lo cual no ser√≠a bueno,
 
 0:01:25.480,0:01:31.800
-que no serÌa bueno pero si no los tienes, entonces puedes simplemente crear un archivo Padre.yml vacÌo.
+pero puede pasar, entonces puedes simplemente crear un archivo Padre.yml vac√≠o.
 
 0:01:31.840,0:01:38.480
-Y donde Perl que lo encuentre, asumir· que ese es el directorio raÌz de tu proyecto 
+Y si Perl lo encuentra, asumir√° su directorio es el directorio ra√≠z del proyecto 
 
 0:01:38.800,0:01:40.080
-y luego podr·s ver todo el proyecto aquÌ.
+y podr√°s ver todo el proyecto aqu√≠.
 
 0:01:40.080,0:01:49.400
-Esto es tanto para enseÒar el directorio aquÌ como para otros elementos en Padre.
+Esto permite ense√±ar este directorio y otros elementos en Padre.
 
 0:01:50.000,0:01:59.440
-Si vas al directorio de la librerÌa (lib directory), puedes abrir uno de estos archivos en el Padre.pm, que es el mÛdulo principal de Padre.
+Si vas al directorio lib, puedes abrir uno de estos archivos, Padre.pm, que es el m√≥dulo principal de Padre.
 
 0:02:03.800,0:02:08.440
-De vuelta al men˙ de vista, puedo hacer click en "mostrar funciones" para abrir una ventana al lado derecho que nos muestra todas las funciones que est·n definidas, 
+De vuelta al men√∫ Ver, puedo hacer clic en el comando "Mostrar funciones" para abrir en el lado derecho
+una ventana que muestra todas las funciones definidas. 
 
 0:02:08.800,0:02:13.800
-o mÈtodos, ya que podrÌan ser sÛlo mÈtodos en el mÛdulo orientado al objeto.
+(Funciones o m√©todos, ya que podr√≠a haber solo m√©todos si se trata de un m√≥dulo orientado a objetos).
 
 0:02:14.440,0:02:17.240
-AsÌ que todas las funciones definidas est·n en el archivo actual.
+Aqu√≠ est√°n todas las funciones definidas est√°n en el archivo actual.
 
 0:02:17.400,0:02:22.300
-Puedes dar click en alguno de estos, pero si das doble click en una de estas entradas, 
+Puedes hacer clic en cualquiera de ellas, pero si hacer doble clic en una de estas entradas, 
 
 0:02:22.400,0:02:26.600
-Padre autom·ticamente saltar· a la definiciÛn de esa subrutina.
+Padre saltar√° autom√°ticamente a la definici√≥n de esa subrutina.
 
 0:02:27.600,0:02:31.400
-AquÌ, en la parte superior, hay un filtro asÌ que puedo escribir letras 
+Aqu√≠, en la parte superior, hay un filtro as√≠ que puedo escribir letras 
 
 0:02:31.800,0:02:44.440
-y se muestran solo las funciones que tienen la letra o las letras "e", "c" en el nombre.
+y se muestran solo las funciones que contengan las letras "e", "c" en el nombre.
 
 0:02:45.200,0:02:47.840
-Esa es la funciÛn, puedo cerrarla aquÌ.
+Este es el panel funciones; puedo cerrarlo aqu√≠.
 
 0:02:47.840,0:02:53.400
-Otra de las otras cosas a la derecha que son interesantes es la entrada fuera de lÌnea (Outline entry).
+Otra de las cosas interesantes que se muestran a la derecha es la entrada Esquema.
 
 0:02:53.400,0:03:02.440
-Es una herramienta importante para hacer cosas similares, de forma que que analiza el archivo actual
+Es una herramienta m√°s compleja para hacer cosas similares, de forma que que analiza el archivo actual
 
 0:03:02.440,0:03:07.800
-y muestra quÈ pragmas est·s usando, usando "strict" o "warnings" y cosas como estas;
+y muestra qu√© pragmas se usan, como  "strict" o "warnings" y cosas como estas;
 
 0:03:07.800,0:03:14.760
-quÈ mÛdulos se est·n usando en este cÛdigo; y que mÈtodos est·n ahÌ que vimos anteriormente.
+qu√© m√≥dulos se est√°n usando en este c√≥digo; y que m√©todos hay (los vimos antes).
 
 0:03:14.760,0:03:22.800
-AquÌ realmente podemos hacer click en un artÌculo y autom·ticamente saltar· enseÒando la parte del editor del archivo
+Aqu√≠ puedes hacer clic en un elemento y el editor saltar√° autom√°ticamente a esa parte del archivo
 
 0:03:23.080,0:03:30.040
-O puedes hacer click derecho en uno de estos y despuÈs ir al elemento, es lo mismo que vimos antes, Saltar al 
+o puedes hacer clic con el bot√≥n derecho en uno de estos e ir al elemento, es lo mismo que vimos antes, Saltar al 
 
 0:03:30.280,0:03:35.250
-uso actual de la pragma o el mÛdulo.
-AQUI
+punto en el que se usa el pragma o el m√≥dulo.
+
 0:03:35.680,0:03:41.440
-O puedes hacer click en abrir documentaciÛn y ver·s la documentaciÛn de una pragma especÌfica.
+O puedes hacer clic en Abrir documentaci√≥n para ver la documentaci√≥n de un pragma espec√≠fico.
 
 0:03:41.800,0:03:44.600
-O si quieres ir a este mÛdulo, digamos, este,
+O si quieres ir a uno m√≥dulo, digamos, este,
 
 0:03:44.760,0:03:49.800
-Y se abrir· la documentaciÛn, y ver·s la documentaciÛn de este mÛdulo.
+y haces clic en Abrir documentaci√≥n, ver√°s la documentaci√≥n de este m√≥dulo.
 
 0:03:50.080,0:03:54.120
-AsÌ que, esto es lo que puedes tener con la vista fuera de lÌnea (outline view).
+As√≠ que, esto es lo que puedes tener con la vista de esquema.
 
 0:03:55.840,0:04:00.720
-Otra entrada, aquÌ est· la ventana de salida que se encuentra en la parte inferior de la pantalla
+Otra entrada, aqu√≠ est√° la ventana de resultados que se encuentra en la parte inferior de la pantalla
 
 0:04:01.040,0:04:04.320
-Que, lo que es interesante es que se abre autom·ticamente 
+que se abre autom√°ticamente 
 
 0:04:04.640,0:04:09.520
-cada vez que algo es necesario. Por ejemplo, cuando ejecutas un script, que podrÌa pasar.
+cada vez que es necesario. Por ejemplo, al ejecutar un script podr√≠a pasar esto.
 
 0:04:10.480,0:04:14.440
-Luego est· el revisador de sintaxis (syntax check), que es una herramienta importante.
+Luego est√° la comprobaci√≥n de sintaxis, que es una herramienta importante.
 
 0:04:15.000,0:04:20.160
-Se abre y toma algo de tiempo, porque revisa si la sintaxis est· correcta en el archivo.
+Se abre y tarda un poco, porque comprueba si la sintaxis del archivo es correcta.
 
 0:04:20.400,0:04:29.000
-Pero despuÈs si empiezas a escribir en un cÛdigo como este, entonces autom·ticamente revisar· la sintaxis del archivo actual.
+Pero despu√©s si empiezas a escribir c√≥digo como este, entonces autom√°ticamente revisar√° la sintaxis del archivo actual.
 
 0:04:29.920,0:04:34.560
-Puedes ver que te da un mensaje de error aquÌ. 
+Puedes ver que te da un mensaje de error aqu√≠. 
 
 0:04:34.720,0:04:43.400
-Si haces click en la entrada, entonces te dar· una descripciÛn mas larga del diagnÛstico b·sicamente.
+Si haces clic en la entrada, te dar√° b√°sicamente una descripci√≥n m√°s larga del diagn√≥stico.
 
 0:04:43.800,0:04:50.080
-Y despuÈs de hacer doble click en el error actual, te permitir· saltar al lugar donde lo tienes.
+Y al hacer doble clic en el mensaje error, saltar√° a la l√≠nea que contiene el error.
 
 0:04:50.520,0:04:58.840
-Por ejemplo, si solo escribo aquÌ, entonces me dir· si es error o si est· correcta la sintaxis.
+Por ejemplo, si solo escribo aqu√≠, entonces me dir√° si es error o si est√° correcta la sintaxis.
 
 0:04:59.440,0:05:06.050
-AsÌ que eso es el revisador de sintaxis y es bastante ˙til para que la gente lo vea todo el tiempo.
+As√≠ que esta es la comprobaci√≥n de sintaxis y creo que es bastante √∫til tenerla siempre activa.
 
 0:05:07.120,0:05:16.720
-Y aquÌ est·n las lÌneas nuevas, para que puedas ver que tipo de lÌneas nuevas tienes, que pueden ser difÌciles algunas veces
+Tambi√©n puedes mostrar los caracteres de nueva l√≠nea, para averiguar qu√© combinaci√≥n de
+caracteres de nueva l√≠nea tienes, lo que no siempre es f√°cil.
 
 0:05:16.840,0:05:25.240
-O puedes ver los espacios en blanco aquÌ o tabulaciones de los espacios actuales aquÌ. Estas cosas que puedes ver.
+O puedes ver espacio en blanco: puedes ver tabulaciones o espacios aqu√≠. Son m√°s cosas que puedes ver.
 
 0:05:25.400,0:05:36.880
-Luego la llamada de consejos (call tips). AsÌ que encendamos esto, pero apaguemos unas cosas porque no me gustan lo espacios en blanco ni las nuevas lÌneas.
+Tambi√©n tenemos informaci√≥n sobre sintaxis. Activamos esto, pero desactivamos otras cosas
+porque no quiero ver los espacios en blanco ni los caracteres de nueva l√≠nea.
 
 0:05:37.120,0:05:45.600
-AsÌ que digamos que empiezo a escribir en la sub-cadena y luego me sale el nombre completo de la subrutina,
+Digamos que empiezo a escribir "substring": me sale el nombre completo de la subrutina,
 
 0:05:45.700,0:05:47.760
-y me mostrar· los mensajes de ayuda aquÌ,
+y aparecer√° aqu√≠ informaci√≥n sobre sintaxis,
 
 0:05:49.200,0:05:58.200
-Mostrando una descripciÛn pequeÒa de que tipo de par·metros que la subrutina puede tener o una pequeÒa descripciÛn de esta subrutina. 
+omo una indicaci√≥n del tipo de par√°metros que la subrutina admite y una breve descripci√≥n de esta subrutina.
 
 0:05:58.400,0:06:00.960
-AsÌ que es b·sicamente una simple presentaciÛn que les he mostrado ahora.
+Esto es es b√°sicamente lo que quer√≠a ense√±aros.
 
 0:06:01.400,0:06:06.060
-VerÈ que otras cosas podemos ver en la siguiente ediciÛn de estos tutoriales.
+Ver√© qu√© otras cosas puedo presentar en la siguiente edici√≥n de estos tutoriales.
 
 0:06:06.800,0:06:08.760
-Gracias por escuchar y observar. AdiÛs, adiÛs.
+Gracias por escucharme y ver la presentaci√≥n. Adi√≥s.
