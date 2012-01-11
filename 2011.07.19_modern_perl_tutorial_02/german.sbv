@@ -52,7 +52,7 @@ Darüber werden wir uns später unterhalten.
 Jeder
 
 0:00:51.810,0:00:54.060
-hat sein eigenes einzigartiges Merkmal,
+hat sein eigenes einzigartiges Zeichen,
 
 0:00:54.060,0:00:55.379
 das wir "sigil" nennen,
@@ -107,19 +107,19 @@ bestehend aus Kleinbuchstaben
 und Unterstrichen zwischen den Worten.
 
 0:01:38.770,0:01:42.040
-Außerdem noch den Stil
+Außerdem noch
 
 0:01:42.040,0:01:44.020
-"This Is
+den Stil
 
 0:01:44.020,0:01:46.160
-A Long Name"
+"ThisIsALongName"
 
 0:01:46.160,0:01:47.860
 obwohl
 
 0:01:47.860,0:01:48.990
-ein Großteil der Community
+ein Großteil der Community bevorzugt
 
 0:01:48.990,0:01:52.800
 die erstere Version, bestehend aus
@@ -172,19 +172,18 @@ neues Fenster geöffnet, wo dann das
 Ergebnis "foo" ausgegeben wird.
 
 0:02:30.309,0:02:34.680
-And that's something that this window
-does for me.
+Und das ist etwas, dass dieses
+Fenste rfür mich erledigt.
 
 0:02:34.680,0:02:38.989
 Auf diese Art und Weise deklariert man also
-eine Variable. Mit "my" und der Zuweisung
+eine Variable mit "my". Und dann
 
 0:02:38.989,0:02:40.260
-eines Wertes
+können wir der Variable
 
 0:02:40.260,0:02:43.379
-für die Variable. Und dann können wir
-sie ausgeben.
+einen Wert zuweisen.
 
 0:02:43.379,0:02:44.460
 Man muss nicht
@@ -363,7 +362,7 @@ Einen String darin speichern.
 Und sie dann Ausgeben.
 
 0:05:15.639,0:05:19.210
-Dann kann man der selben ariable eine
+Dann kann man der selben Variable eine
 Zahl zuweisen.
 
 0:05:19.210,0:05:21.800
@@ -409,7 +408,7 @@ Werte, verschiedene Variablen,
 basierend auf deren Typ,
 
 0:05:53.639,0:05:55.930
-anders Verhalten.
+anders verhalten.
 
 0:05:55.930,0:05:57.099
 Der Weg in Perl ...
@@ -693,7 +692,7 @@ und einen Zeichenketten-Kontext.
 Zahlen-Kontext und Zeichenketten-Kontext.
 
 0:09:41.610,0:09:44.470
-Ich schrebe es hier auf, damit
+Ich schreibe es hier auf, damit
 
 0:09:44.470,0:09:46.250
 man sich nicht um meine Aussprache
@@ -718,7 +717,7 @@ umwandelbar ist.
 Was jetzt passiert, wenn ich den Code ausführe,
 
 0:10:01.390,0:10:03.140
-Lasst uns das überspringen.
+Lasst uns diesen Prozess im Detail betrachten:
 
 0:10:03.140,0:10:06.870
 Das erste ist drei, die nummer drei die Ausgegeben wurde.
@@ -771,7 +770,7 @@ Das ist die Zeichenkette. Das ist das,
 was in eine Zahl konvertiert wurde.
 
 0:10:53.820,0:10:56.990
-Man erhält eine Warnung. Diese Warnung erhält man ur,
+Man erhält eine Warnung. Diese Warnung erhält man nur,
 weil man nach Warnungen
 
 0:10:56.990,0:10:59.500
@@ -935,7 +934,7 @@ Weil die Operation die Warnung nicht generiert?
 Ich klicke hier und
 
 0:12:56.240,0:12:58.100
-kommtiere dann ...
+kommentiere dann ...
 
 0:12:58.100,0:12:59.990
 Kommentiere diesen Code hier aus.
@@ -1012,7 +1011,7 @@ Nun ist bekannt,
 
 0:13:54.840,0:13:58.950
 wie Konversionen von Zahlen in Zeichenketten und
-vice versa funktionieren;
+Zeichenketten in Zahlen funktionieren;
 
 0:13:58.950,0:14:01.790
 relativ einfach. Es ist einfach
@@ -1048,7 +1047,7 @@ erhalten wir die Warnung.
 Ein paar weitere Problem, die ich erwähnen möchte:
 
 0:14:34.070,0:14:36.680
-Eines daovn ist "undef".
+Eines davon ist "undef".
 
 0:14:36.680,0:14:39.560
 Was passiert mit "undef" in diesem Kontext?
@@ -1087,7 +1086,7 @@ kein Wert zugewiesen.
 Wenn ich das nun ausführe.
 
 0:15:05.020,0:15:07.320
-Und das hier auskommentiere, wir bruachen es nicht.
+Und das hier auskommentiere, wir brauchen es nicht.
 
 0:15:07.320,0:15:10.820
 Also, wenn ich das nun ausführe, erhalte ich zwei Warnungen.
@@ -1210,7 +1209,7 @@ und knallharte
 Ausnahmen
 
 0:16:57.660,0:17:01.000
-wenn etwas flasch, oder teilweise flasch abläuft, bevorzugen.
+wenn etwas falsch, oder teilweise falsch abläuft, bevorzugen.
 
 0:17:01.000,0:17:02.459
 Was sie tun können is, dass
@@ -1394,5 +1393,5 @@ Da sist aber ein fortgeschrittenes Thema, welches ich nicht jetzt
 behandeln werde.
 
 0:19:38.080,0:19:41.240
-Und ich glaube das war's, also ...
+Und ich hoffe das war ein gutes Video!
 Wir sehen uns das nächste Mal!
