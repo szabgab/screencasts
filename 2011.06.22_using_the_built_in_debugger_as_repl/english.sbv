@@ -52,7 +52,7 @@ and what we do is you can debug it
 with -d
 
 0:00:47.120,0:00:52.770
-and then lunch the debugger but because there you can
+and then launch the debugger but because there you can
 put together with a flex
 
 0:00:52.770,0:00:57.420
@@ -367,7 +367,7 @@ let's say line 200-220
 and you see
 
 0:05:39.830,0:05:41.590
-a some lines here
+some lines here
 
 0:05:41.590,0:05:43.020
 that are probably
