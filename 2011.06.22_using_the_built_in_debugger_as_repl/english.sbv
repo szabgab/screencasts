@@ -14,7 +14,7 @@ so not really to debug
 a perl script
 
 0:00:15.339,0:00:19.559
-but instead of exploring
+but instead for exploring
 how perl works
 
 0:00:19.559,0:00:22.019
@@ -24,7 +24,7 @@ so we go to the command line
 as you know you can type in
 
 0:00:24.060,0:00:28.079
-perl -e 'print 42'
+"perl -e"
 then some kind a perl code
 
 0:00:28.079,0:00:31.939
@@ -52,7 +52,7 @@ and what we do is you can debug it
 with -d
 
 0:00:47.120,0:00:52.770
-and then lunch the debugger but because there you can
+and then launch the debugger but because there you can
 put together with a flex
 
 0:00:52.770,0:00:57.420
@@ -92,7 +92,7 @@ I can then use
 
 0:01:24.910,0:01:30.660
 the print function again to print
- it out or I can can use the built-in tool
+it out or I can can use the built-in tool
 
 0:01:30.660,0:01:31.830
 of the debugger which is the
@@ -102,7 +102,7 @@ p command to print out the same value
 
 0:01:36.040,0:01:38.950
 the same way as I assigned the value to the
-scaler I can also create
+scalar I can also create
 
 
 0:01:38.950,0:01:42.350
@@ -210,7 +210,7 @@ play with ... find out how
 the push function works
 
 0:03:16.029,0:03:20.669
-say push @names, 'Moose' and then
+say "push @names, 'Moose'" and then
 
 0:03:20.669,0:03:23.479
 you go back
@@ -226,7 +226,7 @@ this array
 got longer an now there is also the 'Moose' value in there.
 
 0:03:34.759,0:03:38.729
-So you can explore perl code within the debugger
+So you can explore Perl code within the debugger
 
 0:03:38.729,0:03:42.869
 and sometimes using the perl commands themselves and
@@ -239,7 +239,7 @@ like print and x
 
 0:03:47.089,0:03:51.399
 You can also use modules from here so
-you can say: 'use Cwd'
+you can say: "use Cwd"
 
 0:03:51.399,0:03:52.319
 for example
@@ -263,14 +263,14 @@ the value
 
 0:04:06.259,0:04:09.549
 so if you want to see the result of this
- than let's say 'p cwd'
+than let's say 'p cwd'
 
 0:04:09.549,0:04:14.909
 print out the result which is just the
 current working directory
 
 0:04:14.909,0:04:16.920
-you could also used another module
+you could also use another module
 
 0:04:16.920,0:04:20.069
 for example use Basename
@@ -316,10 +316,10 @@ a breakpoint
 on that function
 
 0:04:56.330,0:04:59.909
-so you want to put a breakpoint on the file
+so you want to put a breakpoint on the
 
 0:04:59.909,0:05:02.059
-File/Basename
+File::Basename
 
 0:05:02.059,0:05:03.449
 basename
@@ -328,8 +328,8 @@ basename
 function
 
 0:05:04.620,0:05:09.019
-and then if I run again, this is the b
-letter
+and then if I run again, this is
+the b letter
 
 0:05:09.019,0:05:11.050
 than if I run again this code
@@ -347,7 +347,7 @@ the basename function of the file
 Basename class
 
 0:05:20.169,0:05:25.050
-witch is implemented in this file row number
+which is implemented in this file row number
 two hundred fifteen.
 
 0:05:25.050,0:05:26.740
@@ -367,7 +367,7 @@ let's say line 200-220
 and you see
 
 0:05:39.830,0:05:41.590
-a some lines here
+some lines here
 
 0:05:41.590,0:05:43.020
 that are probably
@@ -380,14 +380,14 @@ and then the basename function
 and how it works.
 
 0:05:49.229,0:05:51.849
-So you can use a basically
+So you can use basically
 
 0:05:51.849,0:05:53.899
 any tool you would like
 
 0:05:53.899,0:05:57.569
 within the debugger and you can explore
- Perl this way.
+Perl this way.
 
 0:05:57.569,0:05:59.409
 At the end using 'q'
@@ -399,7 +399,7 @@ will exit the debugger.
 I hope you liked the
 
 0:06:03.059,0:06:04.680
-tutorial please subscribe
+tutorial. Please subscribe
 
 0:06:04.680,0:06:08.460
 to the channel and come back later
