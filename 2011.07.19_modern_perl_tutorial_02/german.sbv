@@ -172,7 +172,7 @@ neues Fenster geöffnet, wo dann das
 Ergebnis "foo" ausgegeben wird.
 
 0:02:30.309,0:02:34.680
-Und das ist etwas, dass Windows für mich erledigt.
+Und das ist etwas, das Windows für mich erledigt.
 
 0:02:34.680,0:02:38.989
 Auf diese Art und Weise deklariert man also
@@ -1006,17 +1006,17 @@ Es gab also auch keinen Grund eine Warnung auszugeben.
 So funktionieren also Umwandlungen.
 
 0:13:52.870,0:13:54.840
-Nun ist bekannt,
+Nun ist bekannt, wie Konversionen von Zahlen in Zeichenketten
 
 0:13:54.840,0:13:58.950
-wie Konversionen von Zahlen in Zeichenketten und
-Zeichenketten in Zahlen funktionieren;
+funktionieren. Von Zahl
+in Zeichenkette ist es also
 
 0:13:58.950,0:14:01.790
-relativ einfach. Es ist einfach
+relativ simpel: Es ist einfach
 
 0:14:01.790,0:14:04.359
-der gleiche Wert. Man hat also eine Zahl wie drei.
+der gleiche Wert. Man hat also eine Zahl wie Drei.
 
 0:14:04.359,0:14:08.060
 Und wenn man sie als Zeichenkette betrachtet,
