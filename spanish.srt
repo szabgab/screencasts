@@ -1,0 +1,801 @@
+1
+0:00:03,700 --> 0:00:06,190
+Hola. Bienvenido de nuevo al canal.
+
+2
+0:00:06,190 --> 0:00:09,070
+Esta vez voy a hablar
+sobre el depurador integrado
+
+3
+0:00:09,070 --> 0:00:11,309
+de Perl.
+
+4
+0:00:11,309 --> 0:00:14,089
+Normalmente, si tienes un script,
+
+5
+0:00:14,089 --> 0:00:16,350
+digamos en este caso 'outline.pl',
+
+6
+0:00:16,350 --> 0:00:21,569
+puedes ejecutarlo de esta forma en la línea de comandos:
+perl + nombre del script + parámetros potenciales
+
+7
+0:00:21,569 --> 0:00:23,960
+Así que veamos, si ejecuto este script
+
+8
+0:00:23,960 --> 0:00:25,599
+podemos ver que nos proporciona alguna salida.
+
+9
+0:00:25,599 --> 0:00:29,849
+El modo para depurarlo es ejecutar perl -d
+
+10
+0:00:29,849 --> 0:00:33,120
+y el nombre del script y luego los parámetros.
+
+11
+0:00:33,120 --> 0:00:33,770
+Una vez que lo ejecuto,
+
+12
+0:00:36,240 --> 0:00:38,920
+devolverá algún tipo de información,
+
+13
+0:00:38,920 --> 0:00:43,340
+aparece la primera de código,
+la próxima línea
+
+14
+0:00:43,340 --> 0:00:45,010
+que se supone que se va a ejecutar
+
+15
+0:00:45,010 --> 0:00:47,220
+y luego da un 'prompt'
+
+16
+0:00:47,220 --> 0:00:50,290
+en el que puedo escribir varios comandos para el depurador
+
+17
+0:00:50,290 --> 0:00:51,839
+Lo primero y más importante
+
+18
+0:00:51,839 --> 0:00:52,610
+es el comando 'q'
+
+19
+0:00:52,610 --> 0:00:54,960
+que nos permitirá abandonar el depurador.
+
+20
+0:00:54,960 --> 0:00:58,000
+Así que cuando queremos deshacernos de él,
+
+21
+0:00:58,000 --> 0:00:58,689
+presionamos
+
+22
+0:00:58,689 --> 0:01:00,950
+q enter y se quita.
+
+23
+0:01:00,950 --> 0:01:02,820
+Ahora, ejecutémoslo de nuevo.
+
+24
+0:01:02,820 --> 0:01:04,840
+El segundo más importante
+
+25
+0:01:04,840 --> 0:01:06,420
+que es 'h',
+
+26
+0:01:06,420 --> 0:01:08,390
+nos proporciona esta ayuda.
+
+27
+0:01:08,390 --> 0:01:12,100
+Así que puedes ver aquí las opciones.
+Esto es realmente la lista corta
+
+28
+0:01:12,100 --> 0:01:13,840
+del depurador.
+
+29
+0:01:13,840 --> 0:01:18,110
+Así puedes saber que hay un montón de
+
+30
+0:01:18,110 --> 0:01:20,800
+posibles formas de usar el depurador.
+
+31
+0:01:20,800 --> 0:01:24,520
+Para ver el código de nuevo,
+
+32
+0:01:24,520 --> 0:01:25,530
+presiono la tecla 'l'
+
+33
+0:01:25,530 --> 0:01:29,120
+que nos proporciona una lista del código.
+
+34
+0:01:29,120 --> 0:01:30,400
+Y en este comando 'l',
+
+35
+0:01:30,400 --> 0:01:33,660
+en este listado, verás los números de línea
+
+36
+0:01:33,660 --> 0:01:35,830
+y una flecha apuntando a la
+
+37
+0:01:35,830 --> 0:01:39,260
+siguiente línea a ser ejecutada,
+así que esta no ha sido ejecutada
+
+38
+0:01:39,260 --> 0:01:40,240
+todavía.
+
+39
+0:01:40,240 --> 0:01:43,690
+Si quiero ver qué hay en la
+variable $file,
+
+40
+0:01:43,690 --> 0:01:45,430
+que
+
+41
+0:01:45,430 --> 0:01:47,100
+se supone vacía,
+
+42
+0:01:47,100 --> 0:01:49,750
+puedo usar el
+
+43
+0:01:49,750 --> 0:01:52,720
+comando 'p', que permanece para imprimir.
+
+44
+0:01:52,720 --> 0:01:54,799
+Proporciona el nombre de la variable
+
+45
+0:01:54,799 --> 0:01:56,799
+y no dirá nada más.
+
+46
+0:01:56,799 --> 0:01:59,269
+Realmente, podría comprobar más tarde
+
+47
+0:01:59,269 --> 0:02:02,720
+si está definida o no.
+
+48
+0:02:02,720 --> 0:02:05,750
+Así que puedo escribir p defined y devolverá
+
+49
+0:02:05,750 --> 0:02:06,869
+false.
+
+50
+0:02:08,499 --> 0:02:10,419
+Y no se imprime nada.
+
+51
+0:02:10,419 --> 0:02:14,299
+Si estuviera intentando hacer algo más
+complejo, podría comprobar
+
+52
+0:02:14,299 --> 0:02:18,680
+si no está definida y devolverá algún
+tipo de valor verdadero.
+
+53
+0:02:18,680 --> 0:02:20,180
+Pero sea como sea,
+
+54
+0:02:20,180 --> 0:02:24,670
+veamos cómo puedo ejecutar estas líneas.
+
+55
+0:02:24,670 --> 0:02:26,959
+Me gustaría volver a este punto
+
+56
+0:02:26,959 --> 0:02:29,219
+y ejecutar esta línea de código.
+
+57
+0:02:29,219 --> 0:02:33,729
+Para hacerlo pulso 's', que significa entrada paso a paso,
+
+58
+0:02:33,729 --> 0:02:35,669
+y pulso enter.
+
+59
+0:02:35,669 --> 0:02:39,560
+Eso ejecutará esa línea de código
+y me mostrará la siguiente
+
+60
+0:02:39,560 --> 0:02:41,269
+línea a ser ejecutada.
+
+61
+0:02:41,269 --> 0:02:46,040
+Si imprimiera el contenido del archivo,
+
+62
+0:02:46,040 --> 0:02:49,140
+verás que ya tiene ese valor que fue
+
+63
+0:02:49,140 --> 0:02:51,519
+proporcionado en la línea de comandos.
+
+64
+0:02:51,519 --> 0:02:53,119
+Una vez que tengo este
+
+65
+0:02:53,119 --> 0:02:54,519
+trozo de información
+
+66
+0:02:54,519 --> 0:02:58,139
+y sé que querría llamar la siguiente línea.
+
+67
+0:02:58,139 --> 0:03:01,379
+Ahora la siguiente línea llama la función 'slurp',
+
+68
+0:03:01,379 --> 0:03:04,180
+que viene de otro módulo.
+
+69
+0:03:04,180 --> 0:03:05,949
+Pulsar 's' de nuevo
+
+70
+0:03:05,949 --> 0:03:06,939
+ejecutará
+
+71
+0:03:06,939 --> 0:03:08,619
+el siguiente
+
+72
+0:03:08,619 --> 0:03:09,499
+trozo de código,
+
+73
+0:03:09,499 --> 0:03:11,999
+que realmente llama esa
+
+74
+0:03:11,999 --> 0:03:13,959
+función.
+
+75
+0:03:13,959 --> 0:03:17,539
+Lo que ves aquí es que esta vez,
+
+76
+0:03:17,539 --> 0:03:19,200
+se escribió
+
+77
+0:03:19,200 --> 0:03:19,839
+la primera línea
+
+78
+0:03:19,839 --> 0:03:22,430
+a ser ejecutada en 
+ese otro archivo.
+
+79
+0:03:22,430 --> 0:03:23,480
+Así que puedes ver que
+
+80
+0:03:23,480 --> 0:03:25,150
+este es el nombre del
+
+81
+0:03:25,150 --> 0:03:26,619
+paquete
+
+82
+0:03:26,619 --> 0:03:29,309
+donde está el código.
+
+83
+0:03:29,309 --> 0:03:32,819
+'read_file' es el nombre de la función
+que está siendo llamada, lo cual es un poco
+
+84
+0:03:32,819 --> 0:03:36,919
+raro, porque llamamos una función llamada 'slurp'
+
+85
+0:03:36,919 --> 0:03:38,270
+y en vez de eso,
+
+86
+0:03:38,270 --> 0:03:38,990
+estamos ejecutando 'read_file'.
+
+87
+0:03:38,990 --> 0:03:40,950
+Y tendrás que ver qué está pasando
+
+88
+0:03:40,950 --> 0:03:44,559
+allí y este es el nombre del archivo que es
+
+89
+0:03:44,559 --> 0:03:48,479
+la implementación actual de la función 'read_file'.
+
+90
+0:03:48,479 --> 0:03:51,010
+Y estamos en la línea 75, así que
+
+91
+0:03:51,010 --> 0:03:52,749
+esta será la siguiente
+
+92
+0:03:52,749 --> 0:03:55,489
+línea a ser ejecutada.
+
+93
+0:03:55,489 --> 0:04:00,029
+Echemos un vistazo, escribamos 'l'
+
+94
+0:04:00,029 --> 0:04:02,919
+y luego un intervalo de números de línea:
+
+95
+0:04:02,919 --> 0:04:04,309
+de la setenta a la ochenta
+
+96
+0:04:04,309 --> 0:04:06,310
+y para mostrarnos las líneas
+
+97
+0:04:08,119 --> 0:04:11,419
+en File/Slurp.pm
+
+98
+0:04:11,419 --> 0:04:15,449
+Y entre esas líneas y aquí puedes
+ver que sí, que estamos en la
+
+99
+0:04:15,449 --> 0:04:17,419
+función read_file
+
+100
+0:04:17,419 --> 0:04:19,680
+como se dijo.
+
+101
+0:04:19,680 --> 0:04:20,580
+Sobre esto,
+
+102
+0:04:20,580 --> 0:04:25,340
+puedes ver que realmente, la función 'slurp'
+es un alias para la función read_file.
+
+103
+0:04:25,340 --> 0:04:28,650
+Esto explica por qué cuando llamamos 'slurp'
+
+104
+0:04:28,650 --> 0:04:29,560
+realmente,
+
+105
+0:04:29,560 --> 0:04:32,530
+nos ejecuta la función read_file.
+
+106
+0:04:32,530 --> 0:04:34,280
+Dentro de la función read_file,
+
+107
+0:04:35,469 --> 0:04:37,850
+este es el nuevo paso a ser ejecutado.
+
+108
+0:04:37,850 --> 0:04:39,750
+Si quiero hacerlo y ejecutarlo,
+
+109
+0:04:39,750 --> 0:04:41,470
+puedo pulsar 's' de nuevo,
+
+110
+0:04:41,470 --> 0:04:44,280
+pero en verdad no es necesario porque
+si solo presiono
+
+111
+0:04:44,280 --> 0:04:47,949
+enter, lo que no ves es que ejecuta
+la misma 's' que
+
+112
+0:04:47,949 --> 0:04:51,690
+se escribió antes.
+
+113
+0:04:51,690 --> 0:04:55,389
+De esta forma puedo solamente pulsar enter
+todo el tiempo y ver como se ejecuta
+
+114
+0:04:55,389 --> 0:04:56,830
+paso a paso
+
+115
+0:04:56,830 --> 0:04:58,160
+y va sobre
+
+116
+0:04:58,160 --> 0:04:59,659
+todos los valores.
+
+117
+0:04:59,659 --> 0:05:03,110
+Todos los pasos que hay en el código.
+
+118
+0:05:03,110 --> 0:05:07,499
+Después de todo, podrías pensar que esta
+no es la función que tú
+
+119
+0:05:07,499 --> 0:05:09,409
+querías depurar.
+
+120
+0:05:09,409 --> 0:05:10,539
+Querrías pasar de
+
+121
+0:05:10,539 --> 0:05:12,659
+esa función.
+
+122
+0:05:12,659 --> 0:05:15,899
+De forma que pasaste a esta función slurp
+pero no te importa realmente
+
+123
+0:05:15,899 --> 0:05:19,209
+porque tú ya sabes que el problema,
+sea cual sea el que que estás buscando,
+
+124
+0:05:19,209 --> 0:05:20,069
+no está ahí.
+
+125
+0:05:20,069 --> 0:05:23,019
+De manera que 
+querrías volver de esa función
+
+126
+0:05:23,019 --> 0:05:24,470
+sin hacerlo paso a paso
+
+127
+0:05:24,470 --> 0:05:25,979
+por todas las
+
+128
+0:05:25,979 --> 0:05:31,490
+líneas una a una. Para eso está el comando 'r'.
+
+129
+0:05:31,490 --> 0:05:32,949
+Antes de hacerlo,
+
+130
+0:05:32,949 --> 0:05:34,239
+hagamos otra cosa.
+
+131
+0:05:34,239 --> 0:05:37,729
+Veamos el comando 't', que nos proporciona
+la 'stack trace'.
+
+132
+0:05:37,729 --> 0:05:40,199
+Así que cuando pulso 't', puedo ver
+
+133
+0:05:40,199 --> 0:05:41,789
+dónde estoy
+
+134
+0:05:41,789 --> 0:05:46,019
+en el código y puedes ver que esta es
+la única llamada
+
+135
+0:05:46,019 --> 0:05:48,280
+que se ha hecho, así que solo hay
+
+136
+0:05:48,280 --> 0:05:50,879
+una función en la pila.
+
+137
+0:05:50,879 --> 0:05:52,949
+Al pulsar 'r',
+
+138
+0:05:52,949 --> 0:05:55,979
+devolverá de la función actual
+
+139
+0:05:55,979 --> 0:06:00,890
+e imprimirá sus valores de retorno
+porque esta vez el valor devuelto
+
+140
+0:06:00,890 --> 0:06:04,249
+es el contenido del archivo 'Padre.pm'.
+
+141
+0:06:04,249 --> 0:06:06,540
+De hecho, ves el contenido del archivo,
+
+142
+0:06:06,540 --> 0:06:10,199
+que es solo el final del archivo pm
+con la documentación
+
+143
+0:06:10,199 --> 0:06:13,620
+y con la lista de los nombres de la gente
+
+144
+0:06:13,620 --> 0:06:19,729
+que contribuyó al proyecto Padre.
+Y por cierto, gracias a todos ellos.
+
+145
+0:06:19,729 --> 0:06:21,320
+Volvamos al código.
+
+146
+0:06:21,320 --> 0:06:24,939
+Aquí podrás ver ahora la siguiente línea de código
+
+147
+0:06:24,939 --> 0:06:26,930
+que debería ser ejecutada,
+
+148
+0:06:26,930 --> 0:06:32,300
+la cual es la llamada al esquema de las nuevas
+herramientas de editor y luego define
+
+149
+0:06:32,300 --> 0:06:33,399
+la función.
+
+150
+0:06:35,039 --> 0:06:40,099
+Así que pulsemos 's' de nuevo
+y pasemos a ese método.
+
+151
+0:06:40,099 --> 0:06:42,180
+Echemos un vistazo
+
+152
+0:06:42,180 --> 0:06:46,680
+de la 45 a la 60.
+
+153
+0:06:46,680 --> 0:06:49,059
+Verás que,
+
+154
+0:06:49,059 --> 0:06:52,050
+probablemente estas son solo lineas vacías
+que no se muestran aquí.
+
+155
+0:06:52,050 --> 0:06:56,879
+Y luego estamos en el nuevo método 'find',
+en su primera línea.
+
+156
+0:06:56,879 --> 0:06:57,709
+Y ahora puedes
+
+157
+0:06:57,709 --> 0:07:00,210
+dar otro paso.
+
+158
+0:07:00,210 --> 0:07:02,010
+En este momento,
+
+159
+0:07:02,010 --> 0:07:08,089
+decidimos que no nos preocupamos de la función
+'process_doc', así que no queremos meternos.
+
+160
+0:07:08,089 --> 0:07:09,409
+Previamente,
+
+161
+0:07:09,409 --> 0:07:13,589
+entramos en la función 'slurp' y
+encontramos que no
+
+162
+0:07:13,589 --> 0:07:16,990
+nos importaba y salimos de ella
+usando la 'r'.
+
+163
+0:07:16,990 --> 0:07:20,089
+Esta vez puedo usar la letra 'n',
+
+164
+0:07:20,089 --> 0:07:21,719
+que significa siguiente paso.
+
+165
+0:07:21,719 --> 0:07:25,130
+Y si pulso enter,
+
+166
+0:07:25,130 --> 0:07:27,999
+el código de 'process_doc' de ejecutará,
+
+167
+0:07:27,999 --> 0:07:31,130
+pero el depurador parará
+
+168
+0:07:31,130 --> 0:07:32,120
+en ese punto
+
+169
+0:07:32,120 --> 0:07:33,360
+justo después de la
+
+170
+0:07:33,360 --> 0:07:34,909
+llamada a la función.
+
+171
+0:07:34,909 --> 0:07:38,069
+Así que la siguiente línea, 53,
+
+172
+0:07:38,069 --> 0:07:40,620
+aquí arriba del todo, puedes ver que esta es la siguiente
+
+173
+0:07:40,620 --> 0:07:42,130
+línea a ser ejecutada.
+
+174
+0:07:42,130 --> 0:07:43,839
+Y aquí es dónde estamos.
+
+175
+0:07:43,839 --> 0:07:45,750
+Ahora podemos pulsar enter otra vez
+
+176
+0:07:45,750 --> 0:07:47,619
+y hará
+
+177
+0:07:47,619 --> 0:07:51,460
+o 's' o 'n', así que o entrará o pasará de ella:
+
+178
+0:07:51,460 --> 0:07:55,030
+cualquiera que fuera la última cosa
+que hicimos anteriormente.
+
+179
+0:07:55,030 --> 0:07:56,179
+Así que si pulso enter ahora,
+
+180
+0:07:56,179 --> 0:07:58,270
+pasará sobre el código,
+
+181
+0:07:58,270 --> 0:08:01,419
+a través del ppi.
+
+
+182
+0:08:02,800 --> 0:08:06,750
+Creo que es suficiente por ahora.
+Probablemente daré otro
+
+183
+0:08:06,750 --> 0:08:08,770
+tutorial sobre esto.
+
+184
+0:08:08,770 --> 0:08:14,629
+Simplemente, no olvides que usar 'q' 
+te permitirá salir del depurador.
+
+185
+0:08:14,629 --> 0:08:18,830
+Si estás interesado en leer más
+sobre el depurador,
+
+186
+0:08:18,830 --> 0:08:23,529
+hay un libro excelente. Permíteme enseñarte este.
+
+187
+0:08:23,529 --> 0:08:27,889
+Recomiendo comprar este libro y leerlo.
+
+188
+0:08:27,889 --> 0:08:30,830
+Yo no lo he escrito,
+
+189
+0:08:30,830 --> 0:08:33,680
+pero puedes aprender bastante de él.
+
+190
+0:08:33,680 --> 0:08:36,090
+Gracias por ver el vídeo y
+
+191
+0:08:36,090 --> 0:08:36,790
+por favor, vuelve más adelante.
+¡Adiós!
