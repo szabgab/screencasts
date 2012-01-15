@@ -1,978 +1,898 @@
 0:00:03.630,0:00:07.430
-Hi and welcome back to the channel. This time i'm 
-going to take fifteen minutes I have 
+Hola! Bienvenido, nuevamente al canal. Esta vez voy a tomar los 50 minutos que tengo
 
 0:00:07.430,0:00:08.280
-and build
+y construir
 
 0:00:08.280,0:00:09.919
-a really small blog engine.
+un pequeño blog motor
 
 0:00:09.919,0:00:10.950
-I'm going to use
+Voy a usar
 
 0:00:10.950,0:00:14.959
-as a framework, the Perl Dancer framework 
-that you can see here:
+como base el motor Pearl Dancer, como pueden ver aquí
 
 0:00:14.959,0:00:16.439
-perldancer.org
+pearldancer.org
 
 0:00:16.439,0:00:21.849
-and i'm going to use obviously Padre
-and the Padre on Strawberry
+obiamente voy a usar ``Padre``, ``Padre on strawberry`` 
 
-0:00:21.849,0:00:22.869
-distribution
+0:00:21.849,0:00:22.869 
+dstirbucion
 
 0:00:22.869,0:00:24.499
-So I am going to use it on Windows.
+asi que lo voy a usar por Windows
 
 0:00:24.499,0:00:29.410
-So what we need is ... Let's start 
-Strawberry Perl ... Padre
+asi que lo que necesitamos es… vamos a comenzar Strawberry Perl ... Padre
 
 0:00:29.410,0:00:34.030
-We need an editor and when we open it 
-we are going to get an empty page.
+necesitamos un editor y cuando lo abrimos vamos a tomar una pagina nueva
 
 0:00:34.030,0:00:40.850
-Dancer comes with a command line application
-that allowes us to build a skeleton of the application.
+Dancer viene con una aplicatión de orden en linea que nos permite construir la esquema de la aplicatión 
 
 0:00:40.850,0:00:43.430
-For this I need to
+por esto necesito
 
 0:00:43.430,0:00:45.690
-run
+correr 
 
 0:00:45.690,0:00:50.130
-cmd and let's say change the directory to
+cmd y vamos a decir cambiar el directorio al
 
 0:00:50.130,0:00:51.110
-the work directory
+directorio de trabajo
 
 0:00:51.110,0:00:56.160
-and here I am going to create the skeleton.
-So I type in "dancer -a" and the
+y aqui voy a crear el esqueleto. Asi que voy a tastar “dancer –a” y
 
 0:00:56.160,0:00:58.480
-name of the application
+el nombre de la aplicatión
 
 0:00:58.480,0:01:00.380
-which I picked Dwimmer
+escoji Dwimmer 
 
 0:01:00.380,0:01:02.330
-as the name
+como nombre
 
 0:01:02.330,0:01:04.560
-as some kind of ... magician or
-whatever
+Es una especie de… brujo o lo que sea
 
 0:01:04.560,0:01:08.040
+asi que voy a llamar la aplicati ón Dwimmer
 so I'm going to call this a application
 Dwimmer
 
 0:01:08.040,0:01:09.050
-is ..
+Es…
 
 0:01:09.050,0:01:12.970
-Running this script will create
-a subdirectory for
+Coriendo este guión se va crear un sub-directorio para 
 
 0:01:12.970,0:01:18.400
-the application and then various files
-that are the skeleton of the application.
+para la applicati ón y una variedad de directorios que son la esquema de la applicati ón
 
 0:01:18.400,0:01:23.680
-If I go into this directory I can type 
-in perl bin
+Si uso este directorio puedo tastar pearl bin
 
 0:01:23.680,0:01:24.640
-and the name
+y el nombre
 
 0:01:24.640,0:01:29.750
-app.pl and run the application. This already
-runs the skeleton
+ app.pl y corer la applicatión. Esto ya corre la esquema 
 
 0:01:29.750,0:01:35.750
-and I can switch to the browser and
-type in localhost:3000
+y puedo cambiar al browser y estilo en localhost:3000  
 
 0:01:35.750,0:01:40.040
-and it will bring up the default page
-that Dancer created for me.
+Y esto me va brindar a la pagina defecto que Dancer ha creado para mi.
 
 0:01:40.040,0:01:41.740
-How does it look like?
+¿Como parece?
 
 0:01:41.740,0:01:47.610
-So I go back to Padre and open the file
+Regreso al Padre y abro la carpeta.
 
 0:01:47.610,0:01:49.400
-If I open the file
+Si abor la carpeta
 
 0:01:49.400,0:01:55.380
-the file is .. if I recall it's in work
+este directorio es…si bien recuerdo esta en trabajo
 
 0:01:55.380,0:01:56.330
 Dwimmer
 
 0:01:56.330,0:01:59.509
-and then there was the bin directory app.pl
+Y despies fue el directorio bin app.pl
 
 0:01:59.509,0:02:02.469
-So you can see that the script itself
-is almost empty
+asi tu puedes ver que el guión si mismo esta casi vacio
 
 0:02:02.469,0:02:04.940
-it only loads the Dwimmer module
+Este solo carga el módulo de Dwimmer.
 
 0:02:04.940,0:02:08.419
-The Dwimmer module is in the lib directory.
-In order to see it better
+El módulo de Dwimmer es en el directorio lib. Para verlo mejor
 
 0:02:08.419,0:02:11.399
-let's open the project browser
+vamos a abrir el browser del proyecto
 
 0:02:11.399,0:02:14.279
-and Padre automatically recognizes the
-project the
+y Padre reconoce el proyecto automaticamente
 
 0:02:14.279,0:02:15.569
-Perl project.
+Proyecto Perl.
 
 0:02:15.569,0:02:19.700
-So it's in the lib directory there is the
-Dwimmer.pm
+Asi que en el directorio lib esta Dwimmer.pm
 
 0:02:19.700,0:02:23.900
-and here is the applications so this
-defines that there is a
+Y aqui estan las aplicatiónes asi que esto define que alla esta 
 
 0:02:23.900,0:02:27.250
-when the user comes in with
-a GET request
+cuando el utilizatorio viene con la GET petición
 
 0:02:27.250,0:02:28.450
-to the main page
+a la pagina principal
 
 0:02:28.450,0:02:30.010
-then this subroutine should be
+
+despues esta subrutina debe ser
 
 0:02:30.010,0:02:30.920
-executed
+ejecutada
 
 0:02:30.920,0:02:34.259
-which just loads the index template.
-The templates are
+Esta solo carga el index template. Los templates son
 
 0:02:34.259,0:02:37.620
-located in the views subdirectory so
-index.tt
+localizados en el subdirectorio  index.tt
 
 0:02:37.620,0:02:39.749
-is that template
+Este template es
 
 0:02:39.749,0:02:41.769
-What we...
+Lo que nosotros…
 
 0:02:41.769,0:02:44.629
-Dancer comes with a really simple
-template system
+Dancer viene con una verdaderamente simple sistema template
 
 0:02:44.629,0:02:46.720
-but I already installed
+pero yo ya he instalado
 
 0:02:46.720,0:02:48.859
-the Template::Toolkit
+el Template::Toolkit
 
 0:02:48.859,0:02:52.939
-that comes with Padre on Strawberry Perl
-so the first thing I
+que viene con Padre on Strawberry Perl asi que lo primero que 
 
 0:02:52.939,0:02:55.829
-would like to do is to change the
-template system.
+Me gustaria hacer es cambiar el sistema template. 
 
 0:02:55.829,0:02:58.430
-That I can do in the config.yml file
+Puedo hacer esto en el directorio config.yml
 
 0:02:58.430,0:03:00.079
-that's in the root directory
+este es en el directorio raiz
 
 0:03:00.079,0:03:01.779
-of the application.
+de la aplicatión
 
 0:03:01.779,0:03:05.869
-Here you'll see that there is the
-template which is the simple template
+Aqui vas a ver que es un template cual es el simple template
 
 0:03:05.869,0:03:09.599
-and ... I would like to use the
-Template::Toolkit
+y…me gustaria utilisar el Template::Toolkit
 
 0:03:09.599,0:03:10.760
-and even there
+e incluso
 
 0:03:10.760,0:03:14.739
-I define that the encoding is utf-8.
+definir que el codigo es utf-8.
 
 0:03:14.739,0:03:19.529
-Now the start tags and the end tags I leave it as
-the default in Dancer
+Ahora las etiquetas del principio y las del final las dejo como defecto en Dancer
 
 0:03:19.529,0:03:20.579
-which is
+que es
 
 0:03:20.579,0:03:22.259
-which looks
+que se escribe 
 
 0:03:22.259,0:03:24.479
-like this <% %>
+asi <% %>
 
 0:03:24.479,0:03:26.989
-so I leave it like that.
+Asi que las dejo de esa forma.
 
 0:03:26.989,0:03:30.489
-Now I configured that, I would like to see
-that still working
+Ahora que lo he configurado,  me gustaria ver si sigue trabajando
 
 0:03:30.489,0:03:31.479
-so I
+Asi que
 
 0:03:31.479,0:03:33.899
-stopped the application, restarted
+Interrupo la alicatión, reanudo
 
 0:03:33.899,0:03:36.139
-and go back to the browser
+y regreso al browser
 
 0:03:36.139,0:03:39.869
-to see these still working. 
-What we saw earlier that there all kind of
+para ver que sigue trabajando. Que hemos visto antes son todo tipo de
 
 0:03:39.869,0:03:40.940
-values here
+valores 
 
 0:03:40.940,0:03:42.369
-that are coming from
+que vienen de
 
 0:03:42.369,0:03:44.099
-from the
+Desde las 
 
 0:03:44.099,0:03:47.160
-template systems. So I reload it and I 
-still get the same thing
+Sistemas template. Asi que vuelvo a cargar y obtengo lo mismo.
 
 0:03:47.160,0:03:49.790
-I still get the same data. Everything is OK.
+Sigo obteniendo los mismos datos. Todo esta en orden.
 
 0:03:49.790,0:03:50.979
-Now
+Ahora
 
 0:03:50.979,0:03:53.599
-I don't need all that stuff that is in the default
+No necesito todo lo que esta en la vista
 
 0:03:53.599,0:03:55.279
-view of Dancer
+defecto de Dancer
 
 0:03:55.279,0:03:58.489
-so I go into the index template
+Asi que voy en el index de template
 
 0:03:58.489,0:04:00.670
-I delete everything and instead of that
+Y borro todo y en vez 
 
 0:04:00.670,0:04:02.029
-I write hello
+escribo hello
 
 0:04:02.029,0:04:03.849
-and
+y
 
 0:04:03.849,0:04:08.569
-I tell the user to go to this page
+Le digo al utilizatorio que pase a la pagina
 
 0:04:08.569,0:04:13.019
-to create a post
+Para crear una entrada 
 
 0:04:13.019,0:04:13.869
-OK
+Bien 
 
 0:04:13.869,0:04:17.029
-So that's .. what I am going to
-do
+Esto es…lo que voy a hacer
 
 0:04:17.029,0:04:18.919
-and ...
+y…
 
 0:04:18.919,0:04:20.630
-if we now reload the page
+Si recargamos la pagina
 
 0:04:20.630,0:04:25.889
-then that's what we have here: hello and
-then a link to create a post.
+Esto es lo que tenemos aqui: hello y el enlace para crear una entrada
 
 0:04:25.889,0:04:29.009
-Which should lead us to the page.
+Lo que deberia conducirnos a la pagina
 
 0:04:29.009,0:04:32.539
-When I click on it I get a 404
-error because no one
+Cuando hago clic tengo el eror 404 por que nadie
 
 0:04:32.539,0:04:34.129
-defined yet
+ha definido
 
 0:04:34.129,0:04:34.949
-what to do
+Que hacer
 
 0:04:34.949,0:04:36.680
-if someone gets to this page.
+Si alguen llega a esta pagina
 
 0:04:36.680,0:04:40.529
-and that's what the next thing we have
-to do. So we go back to the module
+Y esto el lo que tenemos que hacer. Asi que regresamos al modulo
 
 0:04:40.529,0:04:42.009
-and define
+Y definimos
 
 0:04:42.009,0:04:43.600
-when someone get..
+Cuando alguien llega…
 
 0:04:43.600,0:04:45.259
-sends a GET request
+Envia la solicitud GET
 
 0:04:45.259,0:04:47.560
-to this page, then
+a la pagina, despues
 
 0:04:47.560,0:04:49.759
-call the subroutine
+Llama la subrutina
 
 0:04:49.759,0:04:51.710
-which is implementers here
+Que es implementada aqui
 
 0:04:51.710,0:04:54.330
-and
+y
 
 0:04:54.330,0:04:56.880
-load the template which is called
+Carga el template que se llama
 
 0:04:56.880,0:04:58.849
-"page" in our case.
+"page" en nuestro caso.
 
 0:04:58.849,0:05:03.909
-We have to still implement that template
-so we go back to the index.tt
+Todavia tenemos que implementar el template asi que debemos regresar al index.tt
 
 0:05:03.909,0:05:05.610
-and
+y
 
 0:05:05.610,0:05:07.229
-save it now
+Salvarlo ahora
 
 0:05:07.229,0:05:12.620
-as "page.tt" and in there now I would
-like to, instead of this..
+como "page.tt" y alla me gustaria, en vez de esto…
 
 0:05:12.620,0:05:14.720
-and I would like to have a form.
+Me gustaria tenet una forma.
 
 0:05:14.720,0:05:17.020
-The form
+La forma
 
 0:05:17.020,0:05:18.360
-is going to
+va a
 
 0:05:18.360,0:05:22.560
-send in the request with
+Enviar la solicitud con
 
 0:05:22.560,0:05:29.560
-the POST method because we are posting
-something and has an input field
+La methoda POST por que cargamos algo y tiene un campo de entrada
 
 0:05:29.830,0:05:31.200
-which is
+que se
 
 0:05:31.200,0:05:32.590
-called
+llama
 
 0:05:32.590,0:05:34.939
-title. Right.
+titulo. correcto.
 
 0:05:34.939,0:05:38.130
-and then we also have another
+Y despues tambien tenemos otro 
 
 0:05:38.130,0:05:40.169
-input field
+Campo de entrada
 
 0:05:40.169,0:05:43.759
-which is of type
+tipo presentar
 
 0:05:43.759,0:05:45.389
-submit
+presentar
 
 0:05:45.389,0:05:46.760
-and in between
+y en medio
 
 0:05:46.760,0:05:49.659
-there is a text
+ponemos una area de 
 
 0:05:49.659,0:05:52.870
-area
+texto
 
 0:05:52.870,0:05:56.339
-textarea where we are going to type 
-in the text.
+La area donde vamos a poner el texto.
 
 0:05:56.339,0:05:58.339
-So this is the page.
+Esta el la pagina.
 
 0:05:58.339,0:05:59.469
-Now if I go
+Ahora si voy
 
 0:05:59.469,0:06:00.459
-and
+y
 
 0:06:00.459,0:06:02.649
-reload the application
+vuelvo a cargar la aplicación
 
 0:06:02.649,0:06:05.089
-then, well oh, there is an error.
+despues, bueno oh, alli tenemos un error.
 
 0:06:05.089,0:06:09.210
-So semicolon seems to be missing that's
-a standard error I make
+El punto y coma parece faltar esa es una error clasica que hago
 
 0:06:09.210,0:06:11.250
-here in the module, yes, this one.
+Aqui en el módulo,si,aqui. 
 
 0:06:11.250,0:06:15.289
-So at the end we should never forget
-the semicolon here
+Al fin del cuento nunca deberiamos olvidar el punto y coma aqui
 
 0:06:15.289,0:06:17.430
-even though it looks like a subroutine
+Aun que parece una subrutina
 
 0:06:17.430,0:06:21.139
-but it's actually a parameter to 
-the get function.
+pero es una condicion para que functione. 
 
 0:06:21.139,0:06:25.370
-Now I can go and run it again and it
-works better
+Ahora puedo la correr orta vez y trabaja mejor
 
 0:06:25.370,0:06:30.680
-... so I can go back to the page and
-reload this and you get the form.
+…ahora puedo volver a la pagina y volver a cargarla y tu consigues la forma 
 
 0:06:30.680,0:06:32.830
-Which is a bit broken here
+que esta un poco rota aqui
+
 
 0:06:32.830,0:06:36.299
+Asi que vamos a intentar a hacerla un poco mas hermosa
 so let's try to make it a
 bit nicer
 
 0:06:36.299,0:06:39.249
-I go back into the editor,
-into the...
+Vuelvo al editor, al
 
 0:06:39.249,0:06:42.889
-this template and first of all let's
-make it a 
+Template y lo primero vamos  
 
 0:06:42.889,0:06:44.569
-little bit wider
+Un poco más amplio
 
 0:06:44.569,0:06:50.400
-and then put a break at the end and
-make this textarea also
+Y despues vamos a poner una pausa al final y tambien hacer la area de texto  
 
 0:06:50.400,0:06:52.339
-let's say have
+vamos a decir
 
 0:06:52.339,0:06:54.919
-10 rows, and let's have
+10 lineas, y
 
 0:06:54.919,0:06:55.820
-80 columns
+80 columnas
 
 0:06:55.820,0:06:58.539
-so it will be the same size
+asi que sera de las mismas dimensiones
 
 0:06:58.539,0:06:59.869
-and then
+y despues
 
 0:06:59.869,0:07:03.810
-also the submit button, instead
-of "Submit Query"
+vamos a poner la clave presentar en lugar de la clave "Submit Query" 
 
 0:07:03.810,0:07:04.650
-let's say
+vamos a decir
 
 0:07:04.650,0:07:06.219
-put there a
+poner
 
 0:07:06.219,0:07:07.070
-value
+valor
 
 0:07:07.070,0:07:08.969
-which is Post
+que es Post
 
 0:07:08.969,0:07:09.979
-and then
+y despues
 
 0:07:09.979,0:07:13.550
-if I reload now the page.
-Then looks way better even though
+vuelvo a cargar la pagina. Despues se ve mejor que antes a pesar 
 
 0:07:13.550,0:07:18.599
-the 80 here and the 80 here are
-not the same. Strange, 
-I never understood that one.
+que los 80 aqui y los 80 aqui no son las mismas. Extraño, nunca comprendi esto.
 
 0:07:18.599,0:07:21.300
-Probably someone of you would like to explain it
-to me
+Probablemente alguien quisiera explicarmelo
 
 0:07:21.300,0:07:26.229
-and then there's the post button.
-Sort of looks ok as the first version.
+y alli no esta clave para presentar
 
 0:07:26.229,0:07:31.899
-So now if I type in some kind of a title,
-and as some kind of ...
+Ahora si escribo algo como un titulo, y como…
 
 0:07:31.899,0:07:33.289
-my text
+mi texto
 
 0:07:33.289,0:07:40.049
-then, ... well let's say something else 
-let's say hello, hello  HELLO!
+Despues,…bueno vamos a decir algo mas vamos a decir hello,hello HELLO!
 
 0:07:40.049,0:07:42.830
-and I click on Post
+y enpujo Enviar 
 
 0:07:42.830,0:07:47.089
-then I get some strange...
-it's getting not... not
+despues tengo algo extraño…se vuelve no…no
 
 0:07:47.089,0:07:49.210
-it's sending in the title
+Esta enviando el titulo
 
 0:07:49.210,0:07:54.069
-but it does not send in the text..
-let's see what did I do wrong
+Pero no lo esta enviando en el texto…a ver que hice mal
 
 0:07:54.069,0:07:55.149
-so...
+asi…
 
 0:07:55.149,0:08:00.499
-I didn't give a name for it for example
-so I need to give a name to this one.
+No he dado un nombre por el por ejemplo asi que necesito llamarlo.
 
 0:08:00.499,0:08:01.240
-Its called test
+Se llama test
 
 0:08:01.240,0:08:05.789
-and it's meth..do, it's method
-so I have to make ...
+y este método…tengo que
 
 0:08:05.789,0:08:06.770
-fix these issues
+fijar el problema
 
 0:08:06.770,0:08:07.849
-and then
+y despues
 
 0:08:07.849,0:08:10.619
-I can come back, here
+Puedo volver aqui
 
 0:08:10.619,0:08:14.540
-reloade the whole
-page and then let's say hello
-and this would be
+Volver a cargar tota la pagina y despues vamos a decir hello y este sera 
 
 0:08:14.540,0:08:16.270
 world
 
 0:08:16.270,0:08:19.669
-and if I click on post then I get an error.
-That's much better.
+Y si hago clic sobre la entrada obtengo un error. Esto esta mucho mejor.
 
 0:08:19.669,0:08:21.379
-Now why did I get this error?
+¿sabes por que tuve este error?
 
 0:08:21.379,0:08:25.219
-I get this error because this is a POST
-request and not a GET request.
+He tenido el error por que esta es una speticion POST y no GET.
 
 0:08:25.219,0:08:26.830
-which is okay that's what I wanted
+que esta bien por que esto es lo que quise
 
 0:08:26.830,0:08:29.919
-but I didn't write here what to do
-when we
+Pero no escribi aqui que hacer cuando
 
 0:08:29.919,0:08:30.770
-reach a
+alegamos a
 
 0:08:30.770,0:08:31.829
-POST request.
+la peticion POST.
 
 0:08:31.829,0:08:34.150
-So I a want to define it
+quero definirla
 
 0:08:34.150,0:08:35.370
-and I say
+y digo
 
 0:08:35.370,0:08:38.470
-if I get a POST request to this page
+Si tengo la peticion POST en esta pagina 
 
 0:08:38.470,0:08:43.420
-then call this other subroutine
+llamo esto subrutina 
 
 0:08:43.420,0:08:45.440
-which does something different.
+que hace algo diferente.
 
 0:08:45.440,0:08:48.170
-So what does this .. ah .. don't forget
-the semicolon.
+lo que esto hace…ah…no olvides el punto y coma.
 
 0:08:48.170,0:08:49.670
-So what does this do?
+Asi que ¿que es lo que esto hace?
 
 0:08:49.670,0:08:54.400
-This needs to get the params
-method and from there to fetch the
+Esto necesita tomar la metoda params y desde ahi buscar la
 
 0:08:54.400,0:08:55.230
-title value
+valor del titulo
 
 0:08:55.230,0:08:57.760
+y lo primero vamos a decir volver a esto
 and first thing let's say just return this one
 
 0:08:57.760,0:08:58.800
-so I
+asi que
 
 0:08:58.800,0:09:00.450
-stop this
+Terminar esto
 
 0:09:00.450,0:09:01.939
-restart the application
+Cargar otra vez la aplication 
 
 0:09:01.939,0:09:03.079
-and see again
+y verla otra vez.
 
 0:09:03.079,0:09:06.029
-If I reload the page and resend the
-data then
+Si vuelvo a cargar la pagina y enviar los datos otra vez 
 
 0:09:06.029,0:09:10.550
-I get back hello which is what the title
-I wrote
+voy a obtener hello que el el titulo que yo escribi
 
 0:09:10.550,0:09:14.420
-so that's okay that works. We need to save it somewhere.
-I could use some kind of
+esta bien que trabaja. Necesitamos guardarla en algun lugar. Puedo utilizar una clase de
 
 0:09:14.420,0:09:15.470
-a database
+base de datos
 
 0:09:15.470,0:09:20.520
-but I want to make it the more simple
-in this case. I am going to use a
+pero quero hacerlo mas simple ahora. Voy a utilizar
 
 0:09:20.520,0:09:21.180
-JSON file.
+directorio JSON.
 
 0:09:21.180,0:09:22.980
-So where is this JSON file?
+Donde esta el directorio JSON?
 
 0:09:22.980,0:09:25.700
-We have to define it 
-in the configuration file.
+Debemos definirlo y configurarlo
 
 0:09:25.700,0:09:28.540
-In the configuration file I type
-in dwimmer
+En el directorio de configuracion escribo dwimmer
 
 0:09:28.540,0:09:30.300
-which is the name of the application
+Cual es el nomber de la aplication
 
 0:09:30.300,0:09:35.700
-and below this I'll save all the 
-data of the application
+Y despues voy a salvar todo en los datos de la aplication 
 
 0:09:35.700,0:09:37.890
-And then let's say
+Y despues vamos a decir
 
 0:09:37.890,0:09:43.340
-I call the field json and put there
+Voy a llamr la area json y voy a poner alli
 
 0:09:43.340,0:09:45.620
-the name of the file.
+El nombre del directorio.
 
 0:09:45.620,0:09:49.130
-Where I am going to save all the data.
+Donde voy a guardar los datos.
 
 0:09:49.130,0:09:52.540
-So this file is going to be my database.
+Asi que este directorio sera mi base de datos.
 
 0:09:52.540,0:09:55.310
-and how do I get the data
+Como puedo llegar a los datos
 
 0:09:55.310,0:09:57.680
-I type in config
+Escribo la conficuracion
 
 0:09:57.680,0:10:01.490
-this function gets all the configuration data
+Esta function toma todos los datos de configuracion
 
 0:10:01.490,0:10:05.200
-and here I can type in the keys
+Y puedo escribir los claves
 
 0:10:05.200,0:10:10.250
-and it has two keys. This is the name
-of the file where the
+Y tiene dos claves. este es el nombe del directorio donde
 
 0:10:10.250,0:10:11.600
-data is going to be.
+los datos seran.
 
 0:10:11.600,0:10:15.960
-So I put it into a variable just so I have it,
-make it simple
+Asi que pongo todo dentro de una variable solo para simplificar mi trabajo
 
 0:10:15.960,0:10:17.569
-I put in a variable.
+Pongo en la variable.
 
 0:10:17.569,0:10:22.810
-Then I need to read in the data from
-that file. So I read
+Despues necesito leer los datos del directorio. Asi que leo
 
 0:10:22.810,0:10:27.960
-typing read_file and the name of file
-and put this into a variable
+escribiendo read_file y el nombre del directorio
+y lo pongo en una variable
 
 0:10:27.960,0:10:31.700
-but this data is going to be json.
-Right? Because there, what we are saving
+Pero estos datos seran json.
+¿bien? Por que alli, lo que estamos salvando
 
 0:10:31.700,0:10:33.510
-that is json. So I 
+Es  json. Asi que 
 
 0:10:33.510,0:10:35.510
-put into a variable called $json
+pongo todo en una variable llamada $json
 
 0:10:35.510,0:10:38.250
-and then I still have to turn this data into
+Tengo que transformar los datos en
 
 0:10:38.250,0:10:40.480
-a Perl data structure
+Una estructura Perl 
 
 0:10:40.480,0:10:41.640
-so
+Asi que
 
 0:10:41.640,0:10:44.620
-from_json is the function that  
+from_json es la function que  
 
 0:10:44.620,0:10:47.780
-will take the json string
+Hara la cadena json 
 
 0:10:47.780,0:10:52.200
-and return the data we need
+Y nos devolvera los datos que necesitamos
 
 0:10:52.200,0:10:53.790
-so this is a data structure.
+Esta es una estructura de datos.
 
 0:10:53.790,0:10:58.170
-Now obviously the first time we run this we
-won't have a json file there. In that case
+Ahora,obiamente la primera vez que lo corremos no tendremos el 
+json file alli. En este caso
 
 0:10:58.170,0:11:00.779
-we just want to have empty hash
+Debemos limpar e lio
 
 0:11:00.779,0:11:01.990
-to be returned
+Para devolverlo
 
 0:11:01.990,0:11:05.840
-The way we can do this is we can check
-wether there is..
+La manera en la que podemos hacer esto es verificar si alli esta  
 
 0:11:05.840,0:11:07.900
-the file, if it exists
+El directorio, si existe
 
 0:11:07.900,0:11:10.010
-and if it does then we call...
+Y si existe lo llamamos...
 
 0:11:10.010,0:11:12.310
-read in the file. if it doesn't
+Leer en el directorio. Si no existe
 
 0:11:12.310,0:11:13.380
-then we just
+solo
 
 0:11:13.380,0:11:16.559
-return a string with two curly braces
+Devoolvemos la cadena con dos brazor curbados 
 
 0:11:16.559,0:11:20.250
-which is the way json defines
-an empty hash.
+La forma en la que json defiene sus lios
 
 0:11:20.250,0:11:24.210
-So that's how we get an empty json
-there
+Asi obtenemos un json vacio
+alli
 
 0:11:24.210,0:11:29.990
-and then the data  and now we just have to
-add the new piece of ... the new
+Y despues los datos  y ahora solo tenemos que poner piezas nuevas…a la nueva
 
 0:11:29.990,0:11:31.180
-blog entry.
+Entrada al blog.
 
 0:11:31.180,0:11:35.790
-For this first of all we take the timestamp.
-We have have new
+Primero tomamos la fecha y hora.
+Tenemos una nueva variable
 
 0:11:35.790,0:11:36.930
-variable called $now
+llamada $now
 
 0:11:36.930,0:11:39.050
-and I put in a timestamp 
+Y pongo la fecha y hora
 
 0:11:39.050,0:11:40.240
-and then
+Y despues
 
 0:11:40.240,0:11:43.550
-add to this data
+Pongo los datos
 
 0:11:43.550,0:11:46.430
-"now" is going to be the key
+"now" sera la clave
 
 0:11:46.430,0:11:50.279
-so we are saving the pieces of 
-blog entries
+Estamos guardando las entradas del blog
 
 0:11:50.279,0:11:52.320
-according to the timestamp they have
+Conforme con timestamp necesitan
 
 0:11:52.320,0:11:54.129
-and here I can add
+Poner un
 
 0:11:54.129,0:11:55.780
-title
+titulo
 
 0:11:55.780,0:12:01.080
-and I just take it from here
-because I don't need it there anymore
+Y yo solo lo llevo de aqui por que no lo necesito mas
 
 0:12:01.080,0:12:03.930
-and I also have the text
+Y tambien tengo el texto 
 
 0:12:03.930,0:12:05.870
-from the user
+Del utilizatorio
 
 0:12:05.870,0:12:09.420
-and this is form the params text
+Esta es la forma de los params textos
 
 0:12:09.420,0:12:10.820
-and that's it.
+Y esto es.
 
 0:12:10.820,0:12:11.560
-Now
+ahora
 
 0:12:11.560,0:12:12.820
-we have the data,
+Tenemos los datos,
 
 0:12:12.820,0:12:14.779
-the new blog entry in the $data
+Para la nueva entrada $data
 
 0:12:14.779,0:12:16.510
-and we just have to save it
+Y solo los guardamos
 
 0:12:16.510,0:12:19.459
-which is using the write_file
+usando write_file
 
 0:12:19.459,0:12:21.620
-giving the name of the file
+Dandolos el nombre del directorio
 
 0:12:21.620,0:12:22.960
-and the
+Y los
 
 0:12:22.960,0:12:25.890
-data. Now the $data is a
+datos. Ahora el $data esta
 
 0:12:25.890,0:12:27.340
-perl data structure I want to
+estructurado como perl data,asi como lo he querido
 
 0:12:27.340,0:12:32.960
-save it as json so we have to
-convert it to_json.
+Salvalo como json asi tenemos que convertirlo en to_json.
 
 0:12:32.960,0:12:35.729
-That's it. 
-Once it's done
+Esto es. 
+una vez que termine
 
 0:12:35.729,0:12:37.410
-we want to save this thing.
+Hemos querido guardar eso.
 
 0:12:37.410,0:12:38.690
-Sorry, we want to show 
+Perdon, queremos mostrar
 
 0:12:38.690,0:12:42.730
-something to the user, 
-we want to redirect 
+Algo al utilizatorio
+Hemos querido redirectionar
 
 0:12:42.730,0:12:47.330
-redirect the user to the root,
+Redirectionar el utilizatorio a la raiz,
 
 0:12:47.330,0:12:48.450
-to the main page.
+De la pagina principal.
 
 0:12:48.450,0:12:50.009
-On the main page we don't
+En la pagina principan nosotros no hemos
 
 0:12:50.009,0:12:52.679
-yet show the content is
+Publicado el contenido, todavia
 
 0:12:52.679,0:12:55.120
-but let's see what, how does this work?
+Pero vamos a ver como functiona?
 
 0:12:55.120,0:12:59.790
-So for this to work I'll have to stop the
-application again and start it again
+Pero para que esto functione necesito cortar la aplication y volver a cargarla
 
 0:12:59.790,0:13:02.800
-and if I did not make any mistakes then it 
-might even work.
+y si no he cometido errores deberia trabajar.
 
 0:13:02.800,0:13:04.770
-so, this is
+Pero, esta vez
 
 0:13:04.770,0:13:11.560
-the form. I filled it in and then I click post
-and I get a runtime error. So this is the error.
+la forma. He completado y he hecho clic en mostrar
+y tengo error de tiempo de ejecution. Asi que este es el error.
 
 0:13:11.560,0:13:13.699
-Can't locate object method write_file.
+No puedo localizar el metodo write_file.
 
 0:13:13.699,0:13:14.890
-Well, obviously
+Bien, obiamente
 
 0:13:14.890,0:13:16.500
-because
+Por que
 
 0:13:16.500,0:13:17.470
 ...
 
 0:13:17.470,0:13:20.990
-the from_json and the to_json functions
-are part of Dancer
+el from_json y el to_json functions
+forman parte del Dancer
 
 0:13:20.990,0:13:23.460
-but the read_file and the write_file
-are not.
+Pero el read_file y the write_file
+No son.
 
 0:13:23.460,0:13:26.900
-So we have to load a module that will
-provide them.
+Necesitamos cargar un modulo que proporcionarlas.
 
 0:13:26.900,0:13:27.980
-use
+utiliza
 
 0:13:27.980,0:13:29.500
 File
@@ -984,287 +904,261 @@ File
 Slurp
 
 0:13:32.260,0:13:37.210
-is the name of the module and it
-provides a read_file and a
+esto el el nombre del modulo y me da un read_file y 
 
 0:13:37.210,0:13:41.230
 write_file function.
 
 0:13:41.230,0:13:46.260
-So I save them. Now I have to restart the
-application because I changed the code
+Asi que las he salado. Ahora tengo que cargar otra vez la aplication por que he cambiado el codigo
 
 0:13:46.260,0:13:49.490
-and try this again so I go back
+Vuelvo a intrentarlo asi que regreso
 
 0:13:49.490,0:13:50.590
-and
+y
 
 0:13:50.590,0:13:52.130
-post it again
+mostrar otra vez
 
 0:13:52.130,0:13:54.690
-and here we are so
+Y aqui somos
 
 0:13:54.690,0:13:58.860
-it sais its OK. It returned to the .. 
+Dice que esta bien. Ha vuelto a la..
 
 0:13:58.860,0:14:02.020
-the root web page, the main web page
-but I don't see
+Pagina web raiz, la principal, pero no veo 
 
 0:14:02.020,0:14:05.720
-any data yet so let's see first of all that the
-data was saved.
+Los datos asi que vamos a verificar que los datos han sido salvados. 
 
 0:14:05.720,0:14:11.329
-I go back to Padre and I you go
-back to the work directory. We said that
+Vuelvo al Padre y al directorio de trabajo. Hemos dicho que
 
 0:14:11.329,0:14:15.920
-dwimmer.json is going to be there and
-here we are. So there is the timestamp
+dwimmer.json sera alla y aqui estamos. Alla esta una fecha y hora
 
 0:14:15.920,0:14:18.880
-at the text and the title we wanted
-to save.
+Al texto y titulo que nosotros hemos salvado
 
 0:14:18.880,0:14:23.190
+Parece que esta guardando todo en el directorio. Ahora vamos a tratar de mostrarlo
 So it seems that it is saving into the
 file. Now let's try to display it
 
 0:14:23.190,0:14:23.950
-on the
+en la 
 
 0:14:23.950,0:14:25.010
-that page.
+pagina.
 
 0:14:25.010,0:14:26.820
-For this we go
+Para esto vamos
 
 0:14:26.820,0:14:28.660
-to the 
+a
 
 0:14:28.660,0:14:31.630
+la pagina principal y aqui esta lo que necesitamos
 main page and here what we need
 
 0:14:31.630,0:14:33.450
-is to read in the data again.
+para leer los datos otra vez.
 
 0:14:33.450,0:14:37.720
-Just the same way as we did it here. So the
-simple thing is now just to copy-paste
+Solo el la forma simple como nosotros lo hemos hecho aqui. Asi que ahora todo se resume a copiar y pegar
 
 0:14:37.720,0:14:40.590
-this data.
+los datos.
 
 0:14:40.590,0:14:43.700
-and then we have all the data in this
+y despues tenemos todos los datos en
 
 0:14:43.700,0:14:45.830
-variable called $data
+la variable llamada $data
 
 0:14:45.830,0:14:49.720
-and we would like to send it as
-a parameter to the template.
+Nos gustaria enviarlo al template como un parametre.
 
 0:14:49.720,0:14:52.440
-so
+asi
 
 0:14:52.440,0:14:54.030
-we just send in
+acabamos de enviarlo
 
 0:14:54.030,0:14:56.220
-as a parameter to the template.
+como un parametre del template.
 
 0:14:56.220,0:14:57.480
-In the template
+En el template
 
 0:14:57.480,0:15:00.060
-let's see what is in the template.
-So this is the page
+Vamos a ver que esta en el template. Esta es la pagina
 
 0:15:00.060,0:15:01.840
-Here is the index template.
+Aqui esta el index del template.
 
 0:15:01.840,0:15:02.890
-In the template
+En el template
 
 0:15:02.890,0:15:04.549
-we would like to show
+mos gustaria monstar
 
 0:15:04.549,0:15:05.940
-the data
+Los datos
 
 0:15:05.940,0:15:09.670
-which is actually .. now we .. that's a hash
-So how do we fetch a hash
+Cual son realmente..ahora nosotros..este es el lio. Como podemos buscarlo 
 
 0:15:09.670,0:15:11.749
-in the Template::Toolkit
+en el Template::Toolkit
 
 0:15:11.749,0:15:13.530
-and display to the user?
+y monstrarselo al utilizatorio?
 
 0:15:13.530,0:15:18.220
-In Template::Toolkit is a
-generic thing so you have a for loop
+En el Template::Toolkit es un genérico asi que tienes un lazo
 
 0:15:18.220,0:15:22.620
-and then you put in a variable which is
-let's say
+y despues pones en una variable que es, vamos a decir
 
 0:15:22.620,0:15:23.610
-page
+pagina
 
 0:15:23.610,0:15:28.690
-and that does into and we have the data
-rather than it is a cash so we have
+y esta la hace y nosotros tenemos los datos asi que tenemos
 
 0:15:28.690,0:15:30.720
-to fetch the keys of it,
+Que buscar las claves por ellas
 
 0:15:30.720,0:15:35.450
-dictionary it is also called, and we would like
-to make them sorted so 
+en el diccionario y nos gustaria sortarlas asi que
 
 0:15:35.450,0:15:36.950
-we sort them
+las ordenamos
 
 0:15:36.950,0:15:41.200
-That's the way to go over all the elements 
-of this hash
+Ésta es la manera de pasar por alto todos los elementos de este lio 
 
 0:15:41.200,0:15:42.340
-and then
+y despues
 
 0:15:42.340,0:15:44.800
-we END it this way.
+lo terminamos asi.
 
 0:15:44.800,0:15:47.280
-Inside now I can display
+En el interior puedo mostrar 
 
 0:15:47.280,0:15:51.430
-the actual content of this
-variable called "p"
+el contenido real de la variable llamada¨p¨ 
 
 0:15:51.430,0:15:53.580
+que sera la fecha y hora
 which is going to be the timestamp.
 
 0:15:53.580,0:15:55.860
-Now if i go back to the
+Ahora si regreso 
 
 0:15:55.860,0:16:01.110
-I have to restart it because I just changed the
-code as well, so
+debo reanudar por que he cambiado el codigo tambien asi que
 
 0:16:01.110,0:16:06.560
-if I reload this page than we see
-the timestamp of the only post we had.
+si reanudo la pagina vamos a ver la fecha y hora de la sola entrada que tenemos.
 
 0:16:06.560,0:16:08.020
-Now that's nice but
+Ahora esta bonito pero
 
 0:16:08.020,0:16:09.130
-we would like
+nos gustaria 
 
 0:16:09.130,0:16:11.830
-to see the title and a content.
+ver el titulo y el contenido.
 
 0:16:11.830,0:16:17.080
-The way to do this in the Template::Toolkit
-is to say that I would like to print
+La forma de realizar este Template::Toolkit es decir que me gustaria imprimar
 
 0:16:17.080,0:16:18.170
-data
+datos.
 
 0:16:18.170,0:16:22.380
-and then the p is now a variable so 
-I put a $ sign infront of it
+Y despues p es una variable asi que utilizo un $ en frente de esto.
 
 0:16:22.380,0:16:25.550
-and the "title" key of it.
+y el ¨titulo¨ llave de este.
 
 0:16:25.550,0:16:29.800
-And after that we would like to see text. Right?
+Y despues nos gustaria ver el texto. ¿Verdad?
 
 0:16:29.800,0:16:32.730
-So we would like to see all these.
+Asi que nos gustaria ver todo esto.
 
 0:16:32.730,0:16:36.090
-If I go back to the web page and
-reloaded and I don't need to restart the
+Si regreso a la pagina web y la cargo orta vez no necesito restartar la  
 
 0:16:36.090,0:16:39.750
-application because I only changed the
-template
+aplicatión  por que solo cargo el template
 
 0:16:39.750,0:16:44.950
-and I see "hello world" which is the title and
-the text. ..and.. let's meet
+Y veo ¨hello world¨ cual es el titulo y el texto…y…vamos a ver
 
 0:16:44.950,0:16:46.630
-it a bit nicer
+esta más bonito
 
 0:16:46.630,0:16:49.060
-Let's put and H2
+vamos a poner y H2
 
 0:16:49.060,0:16:53.350
-arround the title
+al rededor del titulo
 
 0:16:53.350,0:16:54.409
-and let's put
+y vamos a poner
 
 0:16:54.409,0:16:57.010
-a horizontal row
+una linea horizontal
 
 0:16:57.010,0:17:00.600
-infront of the ...
+En frente de la 
 
 0:17:00.600,0:17:03.199
-blog entry so here we are
+nueva entrada de blog aqui estamos.
 
 0:17:03.199,0:17:07.780
-there is this title part and then hello
-the title of the post. Now let's
+alla esta la parte del titulo y despues hello el titulo de la entrada. Ahora vamos  
 
 0:17:07.780,0:17:09.180
-create another post
+a crear una nueva entrada
 
 0:17:09.180,0:17:14.620
-just to make sure that it's still working
-so ... second post
+solo para asegurarme que sigue trabajando asi que…segunda entrada 
 
 0:17:14.620,0:17:16.170
-more text
+más texto
 
 0:17:16.170,0:17:17.760
-more text
+más texto
 
 0:17:17.760,0:17:19.170
-and I post 
+y lo subo
 
 0:17:19.170,0:17:22.400
-and here we are so we have now a first post
-a second post
+y aqui estamos y tenemos una primera entrada y una segunda
 
 0:17:22.400,0:17:23.700
-and we have a blog engine
+y tenemos el motor
 
 0:17:23.700,0:17:25.909
-thank you for watching ... if you want
-to
+Gracias por prestar atencion…si queres
 
 0:17:25.909,0:17:27.590
-posts on the Dwimmer
+publicar  en Dwimmer
 
 0:17:27.590,0:17:31.970
-there is actually dwimmer.org or so you can
-see it and you can go to perldancer.org and download
+alli esta en realidad dwimmer.org y asi tu lo puedes ver y puedes usar to perldancer.org y descargar
 
 0:17:31.970,0:17:34.350
-its cool, I like it.
+esta bonito, me gusta. 
 
 0:17:34.350,0:17:35.160
-thank you very much for watching
-bye-bye
+muchas graciar por ver y prestar atencion
+hasta pronto
