@@ -1,0 +1,186 @@
+0:00:01.240,0:00:03.720
+Cześć, tym razem pokażę pozycje
+
+0:00:03.720,0:00:06.720
+menu View (Widok), niektóre z pozycji menu Widok.
+
+0:00:06.960,0:00:13.560
+Używam Padre w wersji 0.84, w innych menu może wyglądać nieco inaczej.
+
+0:00:14.240,0:00:20.080
+W edytorze znajduje się główny skrypt samego Padre.
+
+0:00:20.160,0:00:24.120
+W menu View (Widok) znajduje się kilka interesujących pozycji.
+
+0:00:24.600,0:00:27.780
+Na przykład Show line numbers (Pokaż numery linii), podstawowe opcje.
+
+0:00:28.120,0:00:30.340
+To pokaże numery linii po lewej stronie.
+
+0:00:30.600,0:00:34.240
+Albo, Show current line (Pokaż aktualną linię),
+
+0:00:34.800,0:00:39.120
+która oznacza aktualnie edytowaną linię żółtym tłem.
+
+0:00:39.120,0:00:42.120
+Na początku tego nie lubiłem,
+
+0:00:42.280,0:00:49.720
+ale teraz się przyzwyczaiłem i polubiłem tę opcję,
+bo dzięki niej łatwiej mi się zorientować, gdzie jest kursor.
+
+0:00:51.280,0:00:57.520
+A tutaj mamy przeglądarkę projektów (Project browser),
+
+0:00:58.320,0:01:00.600
+która otwiera się w oknie po lewej stronie.
+
+0:01:01.800,0:01:03.520
+Gdy otworzysz plik Perla w Padre,
+
+0:01:04.040,0:01:12.600
+edytor automatycznie przeglądnie foldery w poszukiwaniu jakiejś informacji, że mamy do czynienia z projektem Perla.
+
+0:01:13.200,0:01:22.240
+Na przykład plik Makefile.PL, tak jak tutaj, albo Build.PL, albo plik .ini dist-zilli.
+
+0:01:22.640,0:01:25.320
+Jeśli z jakiegoś powodu nie masz żadnego z nich,
+
+0:01:25.480,0:01:31.800
+(co nie jest zbyt dobrym pomysłem), zawsze możesz utworzyć pusty plik Padre.yml,
+
+0:01:31.840,0:01:38.480
+a Padre, widząc go, potraktuje dany folder jako główny folder twojego projektu.
+
+0:01:38.800,0:01:40.080
+Wtedy widać tutaj cały projekt,
+
+0:01:40.080,0:01:49.400
+to okienko służy do pokazywania struktury katalogów oraz do pewnych innych funkcji Padre.
+
+0:01:50.000,0:01:59.440
+Gdy wejdziesz do folderu lib, możesz otworzyć jakiś plik, na przykład Padre.pm, główny moduł Padre.
+
+0:02:00.000,0:02:03.640
+Wracamy do menu View. Mogę kliknąć na Show functions (Pokaż funkcje),
+
+0:02:03.800,0:02:08.440
+a po prawej stronie otworzy się okienko z listą wszystkich zdefiniowanych funkcji,
+
+0:02:08.800,0:02:13.800
+funkcji i metod, w obiektowym module to mogą być po prostu metody obiektów.
+
+0:02:14.440,0:02:17.240
+Wszystkie funkcje zdefiniowane w aktualnym pliku.
+
+0:02:17.400,0:02:22.300
+Można na nie klikać, a gdy klikniesz w którąś dwa razy,
+
+0:02:22.400,0:02:26.600
+Padre przeskoczy do jej definicji.
+
+0:02:27.600,0:02:31.400
+U góry jest pole wyszukiwania, mogę zacząć w nim pisać,
+
+0:02:31.800,0:02:44.440
+a Padre automatycznie odfiltruje funkcje, które nie pasują do wzorca. Teraz widać tylko funkcje zawierające w nazwie "ec".
+
+0:02:45.200,0:02:47.840
+To okienko można tutaj zamknąć.
+
+0:02:47.840,0:02:53.400
+Inna ciekawa funkcja otwierająca się po prawej stronie to Outline (Schemat).
+
+0:02:53.400,0:03:02.440
+To jest podobne, ale potężniejsze narzędzie, przeanalizuje ono aktualny plik
+
+0:03:02.440,0:03:07.800
+i pokaże używane pragmy, czyli "strict", "warnings", i tak dalej,
+
+0:03:07.800,0:03:14.760
+pokaże wykorzystywane moduły, i metody, to już widzieliśmy wcześniej.
+
+0:03:14.760,0:03:22.800
+Klikając na dowolną pozycję, można przeskoczyć do jej lokalizacji w pliku.
+
+0:03:23.080,0:03:30.040
+Klikając prawym przyciskiem, masz dwie opcje - "Go to Element" to właśnie to, co widzieliśmy,
+
+0:03:30.280,0:03:35.250
+skok do miejsca użycia pragmy czy modułu,
+
+0:03:35.680,0:03:41.440
+a "Open Documentation" pozwala zobaczyć dokumentację pragmy,
+
+0:03:41.800,0:03:44.600
+albo, gdy użyjemy tej opcji na module,
+
+0:03:44.760,0:03:49.800
+dokumentację modułu.
+
+0:03:50.080,0:03:54.120
+To tyle na temat widoku Outline.
+
+0:03:55.840,0:04:00.720
+Kolejna pozycja, Output, to okienko na dole ekranu,
+
+0:04:01.040,0:04:04.320
+które, co ciekawe, jest otwierane automatycznie,
+
+0:04:04.640,0:04:09.520
+kiedy tylko jest potrzebne, na przykład kiedy uruchomisz skrypt.
+
+0:04:10.480,0:04:14.440
+Dalej - Syntax Check (Sprawdź składnię), ważne narzędzie.
+
+0:04:15.000,0:04:20.160
+Chwilę się otwiera, ponieważ ono sprawdza, czy plik ma poprawną składnię.
+
+0:04:20.400,0:04:29.000
+Gdy jest włączone, składnia będzie automatycznie sprawdzana podczas pisania.
+
+0:04:29.920,0:04:34.560
+Tutaj widać, że pojawił się błąd.
+
+0:04:34.720,0:04:43.400
+Gdy klikniesz w tę informację, pojawią się dodatkowe dane diagnostyczne na temat problemu.
+
+0:04:43.800,0:04:50.080
+A klikając dwa razy, możesz przeskoczyć do miejsca wystąpienia błędu.
+
+0:04:50.520,0:04:58.840
+Gdy dopiszę tutaj "my", składnia zostanie ponownie sprawdzona, i teraz już nie ma błędu, wszystko jest poprawnie.
+
+0:04:59.440,0:05:06.050
+Tyle na temat Syntax Check, całkiem przydatna rzecz, warto ją zostawić włączoną na stałe.
+
+0:05:07.120,0:05:16.720
+Tutaj mamy "Show newlines", które włączy wyświetlanie informacji o znakach nowej linii, co może być pomocne.
+
+0:05:16.840,0:05:25.240
+Albo tutaj można włączyć wyświetlanie białych znaków, tabów i spacji. To wszystko można zobaczyć.
+
+0:05:25.400,0:05:36.880
+Teraz Call Tips (Pomoc wywoływania). Włączmy to teraz, i wyłączmy wyświetlanie białych znaków i nowych linii, nie lubię tego.
+
+0:05:37.120,0:05:45.600
+Zaczynam wpisywać, na przykład "substr", i gdy wpiszę całą nazwę procedury,
+
+0:05:45.700,0:05:47.760
+Padre pokaże mi informacje o tym, jak ją wywoływać,
+
+0:05:49.200,0:05:58.200
+krótki opis przyjmowanych parametrów, i krótkie informacje o samej procedurze.
+
+0:05:58.400,0:06:00.960
+Na dziś to wszystko, o tych podstawowych funkcjach,
+
+0:06:01.400,0:06:06.060
+o tym, co jeszcze można zrobić, opowiem w innych screencastach.
+
+0:06:06.800,0:06:08.760
+Dzięki za wysłuchanie i oglądnięcie. Cześć.
