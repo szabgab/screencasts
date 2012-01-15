@@ -1,0 +1,695 @@
+0:00:00.000,0:00:04.533
+Hola, y bienvenidos nuevamente al canal 'Tutorial de Perl'.
+
+0:00:04.533,0:00:06.599
+Esta vez voy a hablar de
+
+0:00:06.599,0:00:08.733
+un número de subrutinas
+
+0:00:08.733,0:00:12.800
+funciones, que manejan cadenas de caracteres en perl. 
+
+0:00:12.800,0:00:14.768
+Hay un par de básicas como...
+
+0:00:14.768,0:00:16.463
+Cambiemos a otra ventana.
+
+0:00:16.463,0:00:20.932
+Asi que, hay algunas funciones básicas, por ejemplo
+
+0:00:20.932,0:00:24.056
+'lc', esto regresará una versión en minúsculas de la cadena de caracteres.
+
+0:00:24.056,0:00:26.423
+'uc', regresará una versión en mayúsculas
+
+0:00:26.423,0:00:30.324
+y 'length' que regresará el número de caracteres en la cadena de caracteres.
+
+0:00:30.324,0:00:34.643
+Entonces escribí algunos archivos de ejemplo.
+
+0:00:34.643,0:00:38.000
+Lo que pueden ver aquí es '$str', que es una cadena de caracteres.
+
+0:00:38.000,0:00:40.936
+'HeLlo' con 'L' mayúscula aquí, y 'l' minúscula.
+
+0:00:40.936,0:00:43.533
+Y si ejecutas el código...
+
+0:00:43.533,0:00:46.000
+Vamos a ejecutarlo, entonces puedes ver, cómo funciona en realidad. 
+
+0:00:46.000,0:00:50.712
+Vean, que la primera función regresa "hello" en minúsculas,
+
+0:00:50.712,0:00:53.267
+la segunda en mayúsculas,
+
+0:00:53.267,0:00:57.213
+y la última solo regresa el número de caracteres.
+
+0:00:57.213,0:01:02.206
+Ninguna de estas cambia la cadena de caracteres. 
+
+0:01:02.206,0:01:05.781
+Si desean cambiar la cadena, entonces teclean:
+
+0:01:05.781,0:01:10.159
+'$str = lc $str;'
+
+0:01:10.174,0:01:14.490
+y luego imprimen '$str' de nuevo.
+
+0:01:14.490,0:01:18.420
+Si ejecuto esto ahora, entonces verán que
+
+0:01:18.420,0:01:22.274
+ahora '$str' está en minúsculas.
+
+0:01:22.274,0:01:25.405
+Estas son en realidad las simples.
+
+0:01:25.405,0:01:27.799
+Hay otra función un poco más compleja.
+
+0:01:27.799,0:01:30.230
+Ésta es llamada index. 
+
+0:01:30.230,0:01:32.856
+Index recibe normalmente dos parámetros.
+
+0:01:32.856,0:01:36.186
+Uno de ellos es una cadena de caracteres como esta.
+
+0:01:36.186,0:01:38.686
+Hagamos más grande la fuente.. 
+
+0:01:38.686,0:01:43.371
+El primer parámetro es una cadena de caracteres, 
+
+0:01:43.371,0:01:45.102
+y eso es lo que pueden ver aquí.
+
+0:01:45.102,0:01:47.773
+Y el segundo también es una cadena de caracteres,
+
+0:01:47.773,0:01:50.017
+usualmente más corta,
+
+0:01:50.017,0:01:55.867
+porque buscas su posición dentro del primer parámetro
+
+0:01:55.867,0:01:59.814
+Entonces, si ejecuto index en esta cadena más larga, colocando "cat"
+
+0:01:59.814,0:02:01.765
+regresará 10.
+
+0:02:01.765,0:02:06.269
+porque "cat" comienza en el décimo caracter.
+
+0:02:06.269,0:02:11.425
+Index cuenta caracteres comenzando en 0,
+
+0:02:11.425,0:02:13.561
+entonces esta 'T' mayúscula es 0.
+
+0:02:13.561,0:02:17.651
+Así llega a 10 en "c".
+
+0:02:17.651,0:02:22.266
+Si ejecutamos la misma función, ahora colocándo "dog"
+
+0:02:22.266,0:02:24.133
+entonces regresará -1
+
+0:02:24.133,0:02:26.667
+porque en esta cadena solo se encuentra "cat"
+
+0:02:26.667,0:02:28.685
+no hay un "dog".
+
+0:02:28.685,0:02:33.605
+La forma en la que regresa un error o falla es regresándonos -1.
+
+0:02:33.605,0:02:37.942
+Si llamas esta función dando una cadena de caracteres
+
+0:02:37.942,0:02:42.667
+que no aparece en la cadena original, recibiremos un -1.
+
+0:02:42.667,0:02:45.419
+Tal vez no es la manera más conveniente, 
+
+0:02:45.419,0:02:48.723
+pero es lo que tenemos que usar.
+
+0:02:48.723,0:02:55.199
+Si ejecuto index en la cadena "The", con 'T' mayúscula
+
+0:02:55.199,0:02:56.932
+regresará 0
+
+0:02:56.932,0:03:01.599
+Esto solo muestra, que el índice está basado en 0.
+
+0:03:01.599,0:03:04.733
+Asi que encontrará este "The" al inicio,
+
+0:03:04.733,0:03:07.709
+y regresará 0, porque así es como empieza.
+
+0:03:07.709,0:03:12.000
+La siguiente llamada, esta, regresa 26
+
+0:03:12.000,0:03:16.733
+porque el índice busca exactamente, la misma cadena de caracteres 
+
+0:03:16.733,0:03:19.266
+y es sensible a mayúsculas y minúsculas también.
+
+0:03:19.266,0:03:23.012
+Primero, "The" no concuerda, porque tiene una 'T' mayúscula.
+
+0:03:23.012,0:03:26.633
+Asi que buscará otro "the" y ahí lo encontrará.
+
+0:03:26.633,0:03:30.953
+Ahora, podrías pensar que index busca la palabra
+
+0:03:30.953,0:03:34.236
+pero ese no es el caso, solo busca
+
+0:03:34.236,0:03:38.943
+una subcadena de caracteres, caracteres seguidos uno después que el otro. 
+
+0:03:38.943,0:03:41.266
+En el siguiente ejemplo verán
+
+0:03:41.266,0:03:44.266
+que buscamos la cadena de caracteres,
+
+0:03:44.266,0:03:47.599
+letra "e" y el espacio que le sigue
+
+0:03:47.599,0:03:49.332
+y nos regresará 2.
+
+0:03:49.332,0:03:52.067
+Porque aquí podemos ver
+
+0:03:52.067,0:03:55.707
+resaltado, el lugar donde aparece.
+
+0:03:55.707,0:04:00.395
+Pero como pueden ver hay una "e " aquí.
+
+0:04:00.395,0:04:05.457
+El método para conseguir esto es que index puede tener un tercer parámetro. 
+
+0:04:05.457,0:04:11.401
+entonces aquí está el número 3, pero puede ser cualquier número,
+
+0:04:11.401,0:04:16.867
+y comenzará a buscar desde la tercer posición.
+
+0:04:16.867,0:04:19.762
+Que es en realidad el cuarto caracter
+
+0:04:19.762,0:04:22.867
+porque se comienza a contar desde el 0.
+
+0:04:22.867,0:04:25.427
+Entonces el tercer lugar, el lugar número 3
+
+0:04:25.427,0:04:29.420
+y por esto encontrará el "the" aquí
+
+0:04:29.420,0:04:36.841
+en este punto, que aparentemente es el lugar 28.
+
+0:04:36.841,0:04:42.067
+De la misma manera, si llamo el index y le doy un caracter "e"
+
+0:04:42.067,0:04:43.307
+solamente para buscar,
+
+0:04:43.307,0:04:46.557
+pero le doy el número 3 para comenzar,
+
+0:04:46.557,0:04:49.800
+entonces encontrará la letra "e"
+
+0:04:49.800,0:04:51.016
+veamos...
+
+0:04:51.016,0:04:53.399
+Entonces esto en la palabra "jumped",
+
+0:04:53.399,0:04:55.333
+hay un caracter "e".
+
+0:04:55.333,0:04:57.702
+Entonces eso es lo que será encontrado.
+
+0:04:57.702,0:05:00.350
+Obviamente este 3, puede ser cualquier número aquí.
+
+0:05:00.350,0:05:01.928
+Así que si puedo empezar del 5
+
+0:05:01.928,0:05:04.466
+y me regresará el mismo valor.
+
+0:05:04.466,0:05:06.666
+Ejecutemos el código.
+
+0:05:06.666,0:05:10.000
+Entonces, pueden ver que los valores son: 
+
+0:05:10.000,0:05:15.838
+10, -1, 0, 26, 2, 28, 18
+
+0:05:15.838,0:05:17.681
+este es el mismo valor.
+
+0:05:17.681,0:05:19.807
+No importa de donde empiezas exactamente
+
+0:05:19.807,0:05:21.415
+siempre y cuando empiezes antes de
+
+0:05:21.415,0:05:24.770
+la aparición de la subcadena. 
+
+0:05:24.770,0:05:27.132
+Y eso es lo que hace index, 
+
+0:05:27.132,0:05:31.132
+pero también hay una función llamada rindex
+
+0:05:31.132,0:05:32.394
+que hace lo mismo, solo buscando
+
+0:05:32.394,0:05:33.973
+desde el lado derecho al lado izquierdo.
+
+0:05:33.973,0:05:35.690
+Es interesante
+
+0:05:35.690,0:05:38.430
+si hay varias apariciones de la misma cadena,
+
+0:05:38.430,0:05:42.676
+encuentrará la que está más a la derecha de todas.
+
+0:05:42.676,0:05:45.187
+Ejecutando 'rindex' en la misma cadena
+
+0:05:45.187,0:05:47.649
+y colocando la subcadena "e"
+
+0:05:47.649,0:05:49.507
+entonces regresará 39
+
+0:05:49.507,0:05:53.071
+porque encontrará esta letra "e".
+
+0:05:53.071,0:05:56.216
+Y rindex también puede tener un tercer parámetro
+
+0:05:56.216,0:05:58.386
+que diga de donde empezar. 
+
+0:05:58.386,0:06:01.902
+La posición para empezar a buscar...
+
+0:06:01.902,0:06:03.666
+Entonces le dí 38.
+
+0:06:03.666,0:06:06.666
+Ahora encontrará esta letraa "e" aquí,
+
+0:06:06.666,0:06:07.951
+regresando 38.
+
+0:06:07.951,0:06:11.009
+Y si comienzan con 37 aquí
+
+0:06:11.009,0:06:15.533
+entonces, probablemente, encuentra este "e" regresando 33
+
+0:06:15.533,0:06:17.346
+Asi que esto es todo sobre index.
+
+0:06:17.346,0:06:20.552
+La última, que es probablemente la más interesante
+
+0:06:20.552,0:06:22.533
+de todas las funciones que estoy mostrando ahora
+
+0:06:22.533,0:06:24.507
+es substr.
+
+0:06:24.507,0:06:27.800
+Substr es en realidad lo contrario de index.
+
+0:06:27.800,0:06:31.882
+En index conoces lo que buscas,
+
+0:06:31.882,0:06:33.182
+Qué cadena de caracteres buscas
+
+0:06:33.182,0:06:34.670
+solo no sabes dónde está.
+
+0:06:34.670,0:06:36.295
+Asi que quieres encontrar una posición.
+
+0:06:36.295,0:06:38.478
+En substr conoces la posición
+
+0:06:38.478,0:06:40.288
+solo no sabes lo que hay ahí,
+
+0:06:40.288,0:06:42.547
+y quieres ver que hay en esa posición.
+
+0:06:42.547,0:06:45.699
+Substr recibirá normalmente una cadena de caracteres,
+
+0:06:45.699,0:06:48.531
+de nuevo esto "The black cat climbed the green tree";
+
+0:06:48.531,0:06:51.713
+un número, que es un desplazamiento, asi que es la posición
+
+0:06:51.713,0:06:54.266
+del inicio de la cadena que buscamos
+
+0:06:54.266,0:06:56.379
+en esta cadena original.
+
+0:06:56.379,0:07:01.348
+De nuevo, se encuentra basado en 0, asi que 0 significaría el primer caracter.
+
+0:07:01.348,0:07:06.156
+y 4 significa esta "b";
+
+0:07:06.156,0:07:09.685
+y el tercer parámetro es la longitud
+
+0:07:09.685,0:07:11.542
+de la subcadena que intentamos conseguir.
+
+0:07:11.542,0:07:13.423
+Entonces porque tiene 5 caracteres
+
+0:07:13.423,0:07:16.557
+regresará la cadena comenzando de esta letra "b".
+
+0:07:16.557,0:07:20.320
+...5 caracteres, asi que es la palabra "black".
+
+0:07:20.320,0:07:22.733
+Substr regresa esos valores
+
+0:07:22.733,0:07:24.768
+y obviamente puedo asignarlo a...
+
+0:07:24.768,0:07:31.233
+lo que actualmente mostré en los ejemplos de lc e index.
+
+0:07:31.233,0:07:34.158
+... se puede asignar el valor a algún tipo de variable.
+
+0:07:34.158,0:07:38.432
+Aquí también, soy flojo así que solo lo imprimiré immediatamente.
+
+0:07:38.432,0:07:43.045
+Esta llamada regresará la palabra "black".
+
+0:07:43.045,0:07:46.067
+Ahora en el siguiente ejemplo verán
+
+0:07:46.067,0:07:49.437
+que la longitud es un número negativo.
+
+0:07:49.437,0:07:51.733
+¿Cómo llegaría un número negativo ahí?
+
+0:07:51.733,0:07:56.449
+En lugar de utilizar eso como una longitud real,
+
+0:07:56.449,0:08:00.583
+lo que hace Perl, es decir que este "4" significa
+
+0:08:00.583,0:08:03.415
+cuantos caracteres de la izquierda dejar fuera,
+
+0:08:03.415,0:08:05.180
+y este número ahora dice
+
+0:08:05.180,0:08:08.333
+cuántos caracteres de la derecha no incluir.
+
+0:08:08.333,0:08:12.067
+Asi que, basicamente, dice cuenta 4 desde la izquierda,
+
+0:08:12.067,0:08:14.446
+cuenta 11 desde la derecha
+
+0:08:14.446,0:08:15.924
+y lo que sea que haya en medio,
+
+0:08:15.924,0:08:17.394
+- eso es lo que quiero recibir.
+
+0:08:17.394,0:08:22.920
+Así es como "black cat climbed the" es regresado.
+
+0:08:22.920,0:08:26.666
+Hasta se puede dejar fuera todo el tercer parámetro.
+
+0:08:26.666,0:08:29.942
+Lo que significaría en este caso, como pueden ver:
+
+0:08:29.942,0:08:34.532
+solo darme la cadena de caracteres desde la posición 14 hasta el final
+
+0:08:34.532,0:08:38.326
+porque no dice cuánta longitud debería tomar.
+
+0:08:38.326,0:08:42.461
+Asi que sólo le das: desde la posición, hasta el final.
+
+0:08:42.461,0:08:44.440
+Y aquí pueden ver,
+
+0:08:44.440,0:08:47.265
+que inclusive el primer parámetro, la posición
+
+0:08:47.265,0:08:49.055
+puede ser negativo,
+
+0:08:49.055,0:08:51.726
+y eso, como probablemente ya adivinaron,
+
+0:08:51.726,0:08:53.353
+es contar desde el final.
+
+0:08:53.353,0:08:57.594
+Entonces en lugar de decir que es la longitud menos 4,
+
+0:08:57.594,0:08:59.793
+solo dices menos 4.
+
+0:08:59.793,0:09:03.994
+Y eso significa: empieza de esta posición.
+
+0:09:03.994,0:09:06.994
+Y porque en este ejemplo aquí,
+
+0:09:06.994,0:09:09.793
+no dí el número de caracteres,
+
+0:09:09.793,0:09:12.553
+entonces me dará toda la cadena hasta el final.
+
+0:09:12.553,0:09:16.373
+Esta contiene solo 4 letras, "tree".
+
+0:09:16.373,0:09:19.076
+Obviamente, como pueden ver en este ejemplo,
+
+0:09:19.076,0:09:21.619
+pueden dar el tercer parámetro también,
+
+0:09:21.619,0:09:23.660
+y esto regresará
+
+0:09:23.660,0:09:27.594
+los dos caracteres de los últimos 4.
+
+0:09:27.594,0:09:29.394
+y eso es "tr".
+
+0:09:29.394,0:09:31.757
+Ejecutémoslo, entonces podemos ver
+
+0:09:31.757,0:09:33.994
+la cadena "tr" aquí, ¿cierto?
+
+0:09:33.994,0:09:36.326
+Y, si lo cambio un poco,
+
+0:09:36.326,0:09:40.040
+por ejemplo pongo "1" aquí,
+
+0:09:40.040,0:09:45.630
+y lo ejecuto, solo puedes obtener la "t".
+
+0:09:45.630,0:09:49.421
+Y, si le diera un "3" y lo ejecutara yo,
+
+0:09:49.421,0:09:54.395
+entonces recibiría "tre", para que puedan entenderlo.
+
+0:09:54.395,0:09:57.247
+El último ejemplo es medio raro.
+
+0:09:57.247,0:10:00.462
+Así que hasta ahora, esta llamada regresa una subcadena de caracteres,
+
+0:10:00.462,0:10:05.719
+pero el '$str' original, la cadena original no cambió.
+
+0:10:05.719,0:10:09.970
+En el último ejemplo, el valor de retorno es el mismo.
+
+0:10:09.970,0:10:13.447
+Es definido por los primeros 3 parámetros
+
+0:10:13.447,0:10:15.616
+pero en el último ejemplo, este ejemplo
+
+0:10:15.616,0:10:17.847
+también tenemos un 4to parámetro,
+
+0:10:17.847,0:10:23.457
+que es, en este caso, una cadena conteniendo "jumped from"
+
+0:10:23.457,0:10:26.309
+Y lo que sucede es que, en este caso,
+
+0:10:26.309,0:10:31.663
+la función de Perl, substr remplazará la cadena 
+
+0:10:31.663,0:10:36.180
+que fue definida por estos 3 parámetros...
+
+0:10:36.180,0:10:39.328
+remplazará la subcadena por una nueva cadena.
+
+0:10:39.328,0:10:49.447
+Entonces, porque 14, 7 aquí define la palabra "climbed" aquí,
+
+0:10:49.447,0:10:55.796
+el valor de retorno, en '$z', será "climbed",
+
+0:10:55.796,0:10:59.796
+pero el '$str' tendrá contenido distinto,
+
+0:10:59.796,0:11:04.734
+y la palabra "climbed" será remplazada por las palabras "jumped from",
+
+0:11:04.734,0:11:07.816
+por las dos palabras, la subcadena en realidad.
+
+0:11:07.816,0:11:10.713
+En este caso '$str' contendrá:
+
+0:11:10.713,0:11:13.380
+"The black cat jumped from the green tree"
+
+0:11:13.380,0:11:15.970
+Y como pueden ver, a Perl no le importa que
+
+0:11:15.970,0:11:20.221
+la nueva cadena de caracteres, nueva subcadena es más larga
+
+0:11:20.221,0:11:22.236
+que la original.
+
+0:11:22.236,0:11:24.955
+Solo hara suficiente espacio en la cadena.
+
+0:11:24.955,0:11:28.159
+O si la dejas fuera, por ejemplo
+
+0:11:28.159,0:11:29.836
+Ejecutémoslo de nuevo.
+
+0:11:29.836,0:11:31.129
+Pueden ver que, 
+
+0:11:31.129,0:11:33.242
+"The black cat jumped from the green tree"
+
+0:11:33.242,0:11:34.513
+Eso funciona.
+
+0:11:34.513,0:11:38.882
+¿Qué sucede, si solo pongo la letra "j"
+
+0:11:38.882,0:11:40.878
+y lo ejecuto? Entonces verán que
+
+0:11:40.878,0:11:43.334
+"The black cat j the green tree"
+
+0:11:43.334,0:11:45.498
+lo que sea que significa.
+
+0:11:45.498,0:11:49.534
+No importa qué las longitudes sean relativas entre cada cadena
+
+0:11:49.534,0:11:51.447
+Puedes introducir una cadena de caracteres vacía,
+
+0:11:51.447,0:11:53.939
+pero tendrán que tenerla aquí.
+
+0:11:53.939,0:11:59.275
+Y entonces, la función substr de Perl cortará esa parte de la cadena.
+
+0:11:59.275,0:12:01.196
+Dejará, en este caso, dos espacios.
+
+0:12:01.196,0:12:03.955
+Porque el espacio antes de la palabra "climbed"
+
+0:12:03.955,0:12:05.713
+y el espacio antes
+
+0:12:05.713,0:12:07.565
+Entonces, eso es todo sobre la función substr.
+
+0:12:07.565,0:12:09.247
+Espero que hayan aprendido algo
+
+0:12:09.247,0:12:11.165
+y regresaremos en la siguiente parte,
+
+0:12:11.165,0:12:12.898
+y si lo estás viendo en Youtube,
+
+0:12:12.898,0:12:15.196
+subscríbete al canal.
+
+0:12:15.196,0:12:17.446
+Gracias, bye bye.
