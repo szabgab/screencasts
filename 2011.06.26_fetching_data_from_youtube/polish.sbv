@@ -1,0 +1,767 @@
+0:00:05.279,0:00:09.499
+Witajcie z powrotem na moim kanale
+
+0:00:09.499,0:00:15.879
+Przekroczyłem granice stu subskrybentów i jestem z tego powodu zadowolony
+
+0:00:15.879,0:00:19.579
+ale wciąż musiałem zaglądać  na stronę za każdym razem 
+
+0:00:19.579,0:00:23.699
+kiedy chciałem zobaczyć ile osób jest na kanale i 
+
+0:00:23.699,0:00:27.400
+ile osób zasubskrybowało.
+
+0:00:27.400,0:00:30.279
+I chciałbym to zautomatyzować
+
+0:00:30.279,0:00:35.750
+przejrzałem więc API które dostarcza google
+
+0:00:35.750,0:00:39.160
+i chce napisać mały skrypt w Perlu 
+
+0:00:39.160,0:00:43.850
+by pobrać informacje i coś potem z nimi zrobić.
+
+0:00:43.850,0:00:47.490
+Pierwszą rzeczą którą robię jest ściągnięcie strawberry Perl
+
+0:00:47.490,0:00:52.540
+jak zwykle.
+Wchodzę wiec na stronę padre.perlide.org
+
+0:00:52.540,0:00:57.190
+uh... klikam na link do pobrania 
+i mam padre on strawberry
+
+0:00:57.190,0:00:59.190
+paczkę która ma 
+
+0:00:59.190,0:01:04.820
+zarówno strawberry Perl, padre IDE
+i kilka innych rzeczy 
+
+0:01:04.820,0:01:06.770
+Po instalacji, uruchamiam
+
+0:01:06.770,0:01:08.590
+Strawberry Perl
+
+0:01:08.590,0:01:12.300
+padre i mam gotowy edytor 
+
+0:01:12.300,0:01:14.149
+To świetnie, ale oczywiście to nie wystarczy
+
+0:01:14.149,0:01:17.630
+muszę zacząć pisanie kodu więc:
+
+0:01:17.630,0:01:19.380
+Perl 5 script
+
+0:01:19.380,0:01:21.270
+jako, że wolę pisać
+
+0:01:21.270,0:01:23.900
+w nowszym perlu 
+
+0:01:23.900,0:01:27.960
+zmienię to do wersji 
+dwudziestej ale to było trochę zbyt wiele
+
+0:01:27.960,0:01:31.630
+zacznę od Perl 5.10
+
+0:01:31.630,0:01:34.620
+Zapisałem skrypt
+
+0:01:34.620,0:01:36.720
+Nazwijmy go youtube.pl
+
+0:01:36.720,0:01:41.090
+Na razie nic nie robi.
+
+0:01:41.090,0:01:43.300
+Musimy.. Potrzebujemy kodu
+
+0:01:43.300,0:01:46.900
+by dostać się tam, do kanału youtube
+
+0:01:46.900,0:01:49.360
+Aby to zrobić nie będę
+
+0:01:49.360,0:01:51.500
+pisał własnego 
+
+0:01:51.500,0:01:53.770
+kodu do dostępu do API
+
+0:01:53.770,0:01:55.940
+a użyję jednego z dostępnych
+
+0:01:55.940,0:01:59.100
+Wchodzę wiec na metacpan.org
+
+0:01:59.100,0:02:02.180
+na którym znajdę takie kody
+
+0:02:02.180,0:02:04.430
+Widzicie - pisze 'beta'
+
+0:02:04.430,0:02:08.319
+Ale sądzę, że mogą się tego pozbyć
+nie są w końcu google
+
+0:02:08.319,0:02:09.709
+mogą udostępniać usługę nie będącą
+
+0:02:09.709,0:02:11.639
+betą przez jakieś pięć lat.
+
+0:02:11.639,0:02:15.709
+W każdym razie to jest wyszukiwarka
+
+0:02:15.709,0:02:27.549
+a my chcemy uzyskać dostęp do youtube
+wpisuję wiec 'youtube'
+
+0:02:27.549,0:02:28.879
+i otrzymam różne 
+
+0:02:28.879,0:02:30.479
+rezultaty wyszukiwania
+
+0:02:30.479,0:02:34.879
+nie wiem co to za tekst, 
+prawdopodobnie jest dla mnie nieznaczący
+
+0:02:34.879,0:02:39.109
+i jest usługa internetowa [webservice] youtube
+to jest interesujące
+
+0:02:39.109,0:02:44.119
+wiec... zobaczmy co ona robi
+
+0:02:44.119,0:02:48.849
+klikam na nią
+
+0:02:48.849,0:02:53.099
+pisze um... "Ten moduł obsługuje jedynie stare API"
+
+0:02:53.099,0:03:00.230
+to nie to czego szukamy wiec patrzmy dalej
+
+0:03:00.230,0:03:04.289
+zobaczmy ten.. nie, jest dość stary
+
+0:03:04.289,0:03:06.540
+Zobaczmy ten
+
+0:03:06.540,0:03:09.959
+jest stosunkowo nowy, zobaczmy co może robić.
+
+0:03:09.959,0:03:16.689
+pisze WebService GData YouTube
+
+0:03:16.689,0:03:22.709
+Ten jest do API wersji drugiej, to brzmi dobrze
+
+0:03:22.709,0:03:26.859
+"Wydanie deweloperski, API może się zmienić" to też brzmi dobrze
+
+0:03:26.859,0:03:29.249
+Nawet to lubię 
+
+0:03:29.249,0:03:32.120
+mogę napisać kod, używać go i
+on nagle przestanie działać
+
+0:03:32.120,0:03:36.879
+Ściągnijmy go i zainstalujmy
+
+0:03:36.879,0:03:39.709
+By to zrobić bierzemy 
+
+0:03:39.709,0:03:41.599
+nazwę modułu
+
+0:03:41.599,0:03:44.789
+wybieramy menu start
+
+0:03:44.789,0:03:47.529
+I strawberry Perl... Narzędzia [tools]...
+
+0:03:47.529,0:03:50.839
+I tam jest klient CPAN
+
+0:03:50.839,0:03:53.449
+który nie działa
+
+0:03:53.449,0:03:58.059
+Ah dlatego, że mam już jeden uruchomiony
+
+0:03:58.059,0:04:02.249
+musisz wpisać install
+
+0:04:02.249,0:04:03.319
+install
+
+0:04:03.319,0:04:05.610
+po czym wkleić nazwę modułu
+
+0:04:05.610,0:04:13.349
+po zrobieniu tego, wciśnij enter,
+klient pobierze i zainstaluje moduł
+
+0:04:13.349,0:04:14.849
+ja miałem już zainstalowany
+
+0:04:14.849,0:04:20.269
+Przewijam do góry i możecie zobaczyć że uruchamiał zadania
+
+0:04:20.269,0:04:22.479
+i różne testy modułu
+
+0:04:22.479,0:04:24.249
+i są one zainstalowane.
+
+0:04:24.249,0:04:28.889
+po instalacji zamykam okno 
+by nie mieć ponownie tego problemu
+
+0:04:28.889,0:04:30.180
+następnym razem
+
+0:04:30.180,0:04:31.199
+że się nie uruchamia
+
+0:04:31.199,0:04:34.629
+zacznijmy pisać więc kod
+
+0:04:34.629,0:04:38.449
+Przewijam do konspektu [synopsis] i
+
+0:04:38.449,0:04:41.080
+po prostu skopiuje to co tu już jest
+
+0:04:41.080,0:04:44.189
+Wczytam więc to
+
+0:04:44.189,0:04:49.539
+Wczytam sam moduł do pamięci
+
+0:04:49.539,0:04:53.830
+muszę stworzyć obiekt o tak
+
+0:04:53.830,0:04:58.540
+właściwie tutaj używamy
+
+0:04:58.540,0:04:59.520
+pośrednie wywołanie metody
+
+0:04:59.520,0:05:02.860
+nie jest to zalecane 
+więc zamiast używać 
+
+0:05:02.860,0:05:04.220
+słowa kluczowego new
+
+0:05:04.220,0:05:06.309
+nie jest to właściwe słowo kluczowe
+jest to wywołanie metody
+
+0:05:06.309,0:05:07.800
+Zrobię to 
+
+0:05:07.800,0:05:09.580
+w ten sposób
+
+0:05:09.580,0:05:12.130
+uważam, że jest to lepsze
+
+0:05:12.130,0:05:16.770
+stworzyłem więc obiekt $yt
+
+0:05:16.770,0:05:18.219
+jest to obiekt youtube
+
+0:05:18.219,0:05:22.679
+i teraz... najwyżej oceniane
+to mnie nie interesuje
+
+0:05:22.679,0:05:27.969
+chciałbym wiedzieć jak dostać, zobaczmy...
+
+0:05:27.969,0:05:34.859
+użytkownika
+
+0:05:34.859,0:05:39.660
+"get user profile" [uzyskaj profil użytkownika] tutaj 
+to jest to czego potrzebuje
+
+0:05:39.660,0:05:42.550
+wpisuje więc po prostu
+
+0:05:42.550,0:05:48.099
+$yt get user profile 
+
+0:05:48.099,0:05:50.139
+i tutaj pisze
+
+0:05:50.139,0:05:54.370
+um... opcjonalnie mogę podać nazwę użytkownika
+inaczej muszę być zalogowany
+
+0:05:54.370,0:05:57.190
+nie będę zalogowany więc
+
+0:05:57.190,0:06:02.059
+wpisuję po prostu moją nazwę użytkownika
+
+0:06:02.059,0:06:02.759
+i
+
+0:06:02.759,0:06:09.569
+miejmy nadzieje że zwróci mi w tej zmiennej mój profil
+
+0:06:09.569,0:06:14.639
+To zwróci tą instancę user profile
+zobaczmy co tam jest
+
+0:06:14.639,0:06:21.710
+posiada ona informacje
+"about me" [o mnie] na przykład
+
+0:06:21.710,0:06:26.319
+więc zobaczmy co tam jest 
+
+0:06:26.319,0:06:29.249
+about me
+
+0:06:29.249,0:06:33.190
+uruchamiam to teraz klikam F5
+by uruchomić kod
+
+0:06:33.190,0:06:38.259
+i pisze "międzynarodowy instruktor Perl i mówca"
+tak to dobrze
+
+0:06:38.259,0:06:39.919
+to jest moje
+
+0:06:39.919,0:06:41.810
+"o mnie" czy jak to się nazywa
+
+0:06:41.810,0:06:43.489
+
+
+0:06:43.489,0:06:47.499
+więc świetnie, to działa to dobrze
+
+0:06:47.499,0:06:48.789
+ale to się zmieni, wiecie
+
+0:06:48.789,0:06:54.190
+um.. a teraz .. zobaczmy co jeszcze 
+mogę tutaj uzyskać
+
+0:06:54.190,0:06:57.629
+statystyki, prawdopodobnie potrzebuje statystyk
+
+0:06:57.629,0:07:05.489
+um... umieszczę to tutaj
+
+0:07:05.489,0:07:10.250
+
+0:07:10.250,0:07:18.769
+więc mam tutaj profil, z profilu otrzymuje statystyki
+
+0:07:18.769,0:07:21.049
+dobrze, tak to się pisze
+
+0:07:21.049,0:07:25.330
+i teraz wypiszmy to
+
+0:07:25.330,0:07:27.740
+w statystykach mogę zobaczyć
+
+0:07:27.740,0:07:30.159
+na przykład licznik odtworzeń
+
+0:07:30.159,0:07:32.849
+[View count]
+
+0:07:32.849,0:07:35.439
+zobaczmy, uruchamiam to ponownie
+
+0:07:35.439,0:07:36.220
+to wchodzi na youtube
+
+0:07:36.220,0:07:41.570
+i sprawdza dane, tutaj jest licznik odtworzeń
+prawdopodobnie dobry
+
+0:07:41.570,0:07:43.809
+um... to jest sumaryczna liczba 
+
+0:07:43.809,0:07:45.900
+odtworzeń mojego kanału
+
+0:07:45.900,0:07:47.700
+Liczba subskrybentów
+
+0:07:47.700,0:07:50.669
+pl, więc... lepiej jest skopiować i wkleić
+
+0:07:50.669,0:07:52.160
+nie będzie wtedy tyle literówek
+
+0:07:52.160,0:07:55.620
+więc to jest 
+
+0:07:55.620,0:08:00.160
+liczba subskrybentów a teraz
+
+0:08:00.160,0:08:03.270
+liczba obejrzanych wideo [video watch count]
+
+0:08:03.270,0:08:09.169
+to jest to, nie wiem czemu jest tu 
+spacja ale...
+
+0:08:09.169,0:08:13.119
+zobaczmy... video watch count
+
+0:08:13.119,0:08:19.139
+to jest prawdopodobnie sumaryczna liczba 
+odtworzeń moich video
+
+0:08:19.139,0:08:23.090
+wciskam F5
+
+0:08:23.090,0:08:23.879
+i um...
+
+0:08:23.879,0:08:28.229
+dostałem 0... prawdopodobnie niedobrze
+
+0:08:28.229,0:08:34.440
+um.. ale sto jest dobrze
+mam stu subskrybentów
+
+0:08:34.440,0:08:37.110
+tak więc "total upload views" [łączne odtworzenia wysłanych]
+jest tym właściwym
+
+0:08:37.110,0:08:41.490
+poza tym, że są tam spacje
+nie wiem czy jest to źle wyświetlone
+
+0:08:41.490,0:08:44.420
+cały kod
+
+0:08:44.420,0:08:46.360
+czy jest tutaj po prostu literówka
+
+0:08:46.360,0:08:47.880
+w dokumentacji
+
+0:08:47.880,0:08:51.710
+wiec... skopiowałem i tutaj ma podkreślenia
+także...
+
+0:08:51.710,0:08:53.430
+musi być coś z 
+
+0:08:53.430,0:08:55.440
+wyświetlaniem
+
+0:08:55.440,0:08:58.910
+tak więc... nie potrzebuje tego 
+
+0:08:58.910,0:09:02.050
+"video watch counter", nie wiem co to 
+u mnie jest zero
+
+0:09:02.050,0:09:05.970
+i oto mamy, niecałe ponad dwa tysiące 
+potrzebuje jeszcze kilka osób
+
+0:09:05.970,0:09:06.949
+i wtedy 
+
+0:09:06.949,0:09:07.950
+będzie
+
+0:09:07.950,0:09:09.460
+ponad to
+
+0:09:09.460,0:09:14.950
+więc ok, mam te wszystkie dane 
+i co powinienem z nimi zrobić
+
+0:09:14.950,0:09:19.420
+powiedzmy... wyśle je sobie mailem
+
+0:09:19.420,0:09:21.220
+więc, wyślijmy mail
+
+0:09:21.220,0:09:25.790
+jak to zrobić... wracam do
+
+0:09:25.790,0:09:28.900
+CPAN
+
+0:09:28.900,0:09:31.470
+chce wysłać to do GMail
+
+0:09:31.470,0:09:38.410
+wpisuje więc GMail 
+
+0:09:38.410,0:09:41.120
+IMAPD, to nie to czego potrzebuje
+Checker [sprawdzacz], nie
+
+0:09:41.120,0:09:43.620
+GMail SMPT GMail
+
+0:09:43.620,0:09:44.560
+to brzmi dobrze
+
+0:09:44.560,0:09:50.100
+więc skopiujmy ten tutaj
+
+0:09:50.100,0:09:56.160
+nie muszę go instalować bo już to zrobiłem
+
+0:09:56.160,0:10:00.360
+W każdym razie kliknąłem na link 
+i to jest gość który to napisał
+
+0:10:00.360,0:10:03.880
+Nie wiem czy... taa nie ważne 
+
+0:10:03.880,0:10:09.630
+Także... tutaj jest konspekt, jak tego używać
+
+0:10:09.630,0:10:13.930
+wczytanie do pamięci, łącznie z serwerem 
+login i hasło
+
+0:10:13.930,0:10:14.660
+i potem... 
+
+0:10:14.660,0:10:16.930
+po prostu wysyłam email więc...
+
+0:10:16.930,0:10:19.490
+skopiujmy to
+
+0:10:19.490,0:10:20.350
+um...
+
+0:10:20.350,0:10:27.660
+teraz potrzebuje adresu
+
+0:10:27.660,0:10:30.270
+i... loginu
+
+0:10:30.270,0:10:34.080
+użyje tego loginu
+
+0:10:34.080,0:10:36.420
+pięć dwa dziewięć
+
+0:10:36.420,0:10:41.690
+um... i teraz hasło... więc to jest 
+hasło google
+
+0:10:41.690,0:10:44.030
+google and me
+
+0:10:44.030,0:10:54.850
+i.. mam zamiar wysłać to do siebie 
+więc jest to GMail
+
+0:10:54.850,0:10:57.440
+gabor529
+
+0:10:57.440,0:11:01.870
+temat to 'youtube
+
+0:11:01.870,0:11:03.220
+update'
+
+0:11:03.220,0:11:09.260
+Verbose [gadatliwy], okej niech będzie gadatliwy
+i tekst, tekst niech będzie
+
+0:11:09.260,0:11:11.630
+zmienną text 
+
+0:11:11.630,0:11:16.690
+i i i załącznik
+nie mam pomysłu na załącznik wiec
+
+0:11:16.690,0:11:18.870
+zakomentuję te linię
+
+0:11:18.870,0:11:22.040
+co to był text
+
+0:11:22.040,0:11:22.959
+text powinien 
+
+0:11:22.959,0:11:25.619
+być zadeklarowany tutaj
+
+0:11:25.619,0:11:28.750
+i to będzie tekst
+
+0:11:28.750,0:11:35.630
+moje maila
+
+0:11:35.630,0:11:37.370
+tutaj, więc piszę
+
+0:11:37.370,0:11:39.920
+um, zobaczmy
+
+0:11:39.920,0:11:42.020
+view count [liczba otworzeń]
+
+0:11:42.020,0:11:43.490
+właściwie to nie jest takie dobre 
+
+0:11:43.490,0:11:45.640
+z tego co widzę
+
+0:11:45.640,0:11:47.280
+zróbmy to tak
+
+0:11:47.280,0:11:49.530
+a teraz powiedzmy text
+
+0:11:49.530,0:11:52.570
+to jest dobrze to nie 
+
+0:11:52.570,0:11:55.780
+dobrze, text
+
+0:11:55.780,0:11:59.980
+view count
+
+0:11:59.980,0:12:05.070
+view count teraz powiąże 
+
+0:12:05.070,0:12:10.120
+view count tutaj 
+i teraz
+
+0:12:10.120,0:12:15.560
+dołączę nową linię
+
+0:12:15.560,0:12:20.020
+i 
+
+0:12:20.020,0:12:27.430
+to umieszczę tutaj, subskrybenci
+
+0:12:27.430,0:12:30.420
+umieszczę tutaj, to jest 
+
+0:12:30.420,0:12:35.040
+liczba subskrybentów
+
+0:12:35.040,0:12:43.880
+co jeszcze muszę dodać 
+ostatnie to było
+
+0:12:43.880,0:12:49.380
+ostatnie czyli odtworzenia
+
+0:12:49.380,0:12:50.510
+wszystkie
+
+0:12:50.510,0:12:53.400
+total views
+
+0:12:53.400,0:12:54.820
+potrzebuję
+
+0:12:54.820,0:12:59.040
+total upload views
+
+0:12:59.040,0:13:06.740
+to jest miejmy nadzieję nasz tekst
+to już nie jest potrzebne
+
+0:13:06.740,0:13:08.309
+to miejmy nadzieję wyśle mi
+
+0:13:08.309,0:13:10.880
+email
+
+0:13:10.880,0:13:13.410
+uruchamiam to... F5
+
+0:13:13.410,0:13:18.610
+i pisze...
+
+0:13:18.610,0:13:21.680
+z jakiegoś powodu pisze, że załączniki
+zostały poprawnie zweryfikowane 
+
+0:13:21.680,0:13:24.090
+a ja nie mam załączników w wysyłanym mailu
+
+0:13:24.090,0:13:27.620
+okej przełączmy na moją 
+
+0:13:27.620,0:13:33.980
+skrzynkę mailową i tutaj właśnie otrzymałem
+email od siebie
+
+0:13:33.980,0:13:36.010
+dotyczący tego, że mam
+
+0:13:36.010,0:13:38.090
+stu subskrybentów
+
+0:13:38.090,0:13:42.990
+to świetnie myślę, że mógłbym 
+po dodać 
+
+0:13:42.990,0:13:44.590
+do tego harmonogram
+
+0:13:44.590,0:13:46.630
+żeby uruchamiało się 
+
+0:13:46.630,0:13:48.780
+powiedzmy co pięć minut
+
+0:13:48.780,0:13:49.750
+by mieć pewność 
+
+0:13:49.750,0:13:51.950
+ze te numery rosną
+
+0:13:51.950,0:13:55.840
+albo raz dziennie, jeśli nie jestem tak szalony
+
+0:13:55.840,0:13:59.350
+w każdym razie, mam nadzieje, że będę 
+miał teraz dużo więcej subskrybentów 
+
+0:13:59.350,0:14:00.930
+więc śmiało, subskrybujcie mój kanał
+
+0:14:00.930,0:14:03.660
+niech wszyscy inni wiedza, że powinni
+
+0:14:03.660,0:14:08.000
+pa pa 
+
