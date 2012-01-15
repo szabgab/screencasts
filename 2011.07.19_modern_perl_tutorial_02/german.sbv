@@ -1,0 +1,1396 @@
+0:00:00.919,0:00:02.660
+Hallo, und Willkommen zurück im Kanal!
+
+0:00:02.660,0:00:05.530
+Dieses Mal spreche ich über
+
+0:00:05.530,0:00:08.060
+Datenstrukturen in Perl.
+
+0:00:08.060,0:00:08.809
+Insbesodere wird
+
+0:00:08.809,0:00:11.989
+es in dieser Präsentation um Skalare gehen.
+
+0:00:11.989,0:00:16.669
+Man sieht hier Padre, das IDE.
+Das ist eine Entwicklungsversion davon.
+
+0:00:16.669,0:00:21.309
+Und unser erster Schritt, wird es sein, ein neues
+
+0:00:21.309,0:00:22.920
+Perl 5 Skript zu erzeugen.
+
+0:00:22.920,0:00:26.239
+Es enthält nur den Shebang ("#!") und
+
+0:00:26.239,0:00:28.949
+"use" Ausdrücke.
+
+0:00:28.949,0:00:32.580
+Perl hat drei Typen von
+
+0:00:32.580,0:00:36.350
+Datenstrukturen: Skalare, Arrays und Hashes.
+
+0:00:36.350,0:00:38.499
+Skalare enthalten entweder
+
+0:00:38.499,0:00:42.869
+eine Zahl oder eine Zeichenfolge, eine Folge von einzelnen Werten,
+oder einen Verweis
+
+0:00:42.869,0:00:44.910
+auf eine komplexere Datenstruktur.
+
+0:00:44.910,0:00:48.410
+Darüber werden wir uns später unterhalten.
+
+0:00:48.410,0:00:51.810
+Jeder
+
+0:00:51.810,0:00:54.060
+hat sein eigenes einzigartiges Zeichen,
+
+0:00:54.060,0:00:55.379
+das wir "sigil" nennen,
+
+0:00:55.379,0:00:58.850
+welches das erste Zeichen des Namens einer Variable ist.
+
+0:00:58.850,0:01:03.550
+Skalare haben das Dollarzeichen ("$"),
+Arrays den Klammeraffen ("@") und
+
+0:01:03.550,0:01:08.260
+Hashes, welche auch Wörterbücher oder Suchtabellen
+genannt werden,
+
+0:01:08.260,0:01:10.960
+das Prozentzeichen ("%").
+
+0:01:10.960,0:01:13.250
+Kommen wir nun zu den skalaren
+
+0:01:13.250,0:01:17.799
+Variablen: Jeder Skalar beginnt immer
+mit dem Dollarzeichen ("$"),
+
+0:01:17.799,0:01:18.670
+gefolgt von
+
+0:01:18.670,0:01:20.620
+Ziffern, Buchstaben
+
+0:01:20.620,0:01:25.010
+und Unterstrichen. Zum Beispiel kann man
+eine solche Variable nützen
+
+0:01:25.010,0:01:26.390
+oder
+
+0:01:26.390,0:01:28.020
+einen einzelnen Wert.
+
+0:01:28.020,0:01:30.049
+Oder auch einen
+
+0:01:30.049,0:01:31.880
+langen Namen,
+
+0:01:31.880,0:01:35.509
+bestehend aus Kleinbuchstaben
+
+0:01:35.509,0:01:38.770
+und Unterstrichen zwischen den Worten.
+
+0:01:38.770,0:01:42.040
+Außerdem noch
+
+0:01:42.040,0:01:44.020
+den Stil
+
+0:01:44.020,0:01:46.160
+"ThisIsALongName"
+
+0:01:46.160,0:01:47.860
+obwohl
+
+0:01:47.860,0:01:48.990
+ein Großteil der Community bevorzugt
+
+0:01:48.990,0:01:52.800
+die erstere Version, bestehend aus
+
+0:01:52.800,0:01:54.229
+Namen in Kleinbuchstaben
+
+0:01:54.229,0:01:57.230
+und Unterstrichen zwischen den Variablen.
+
+0:01:57.230,0:02:00.690
+Weil wir "use strict" verwenden,
+
+0:02:00.690,0:02:05.439
+muss man Variablen immer unter Verwendung
+des Schlüsselworts "my" deklarieren.
+
+0:02:05.439,0:02:07.360
+Also deklariere ich meine Variable
+
+0:02:07.360,0:02:08.719
+"my $name"
+
+0:02:08.719,0:02:11.359
+und fülle sie mit "foo".
+
+0:02:11.359,0:02:14.319
+Und dann kann ich sie ausgeben. Sorry.
+
+0:02:14.319,0:02:17.949
+Ich kann Sie ausgeben.
+
+0:02:17.949,0:02:19.859
+wenn ich nun F5 drücke,
+
+0:02:19.859,0:02:20.969
+dann ...
+
+0:02:20.969,0:02:22.989
+Zu aller erst muss ich das Skript speichern.
+
+0:02:22.989,0:02:25.059
+Ich nenne es einfach "script.pl".
+
+0:02:25.059,0:02:26.500
+Und nun wird ein
+
+0:02:26.500,0:02:30.309
+neues Fenster geöffnet, wo dann das
+Ergebnis "foo" ausgegeben wird.
+
+0:02:30.309,0:02:34.680
+Und das ist etwas, das Windows für mich erledigt.
+
+0:02:34.680,0:02:38.989
+Auf diese Art und Weise deklariert man also
+eine Variable mit "my". Und dann
+
+0:02:38.989,0:02:40.260
+können wir der Variable
+
+0:02:40.260,0:02:43.379
+einen Wert zuweisen.
+
+0:02:43.379,0:02:44.460
+Man muss nicht
+
+0:02:44.460,0:02:46.669
+sofort einen Wert zuweisen. Man könnte
+
+0:02:46.669,0:02:51.739
+die Variable auch deklarieren und
+erst später einen Wert festlegen. Wenn ich das ausführe
+
+0:02:51.739,0:02:55.109
+erhalte ich das gleiche Ergebnis.
+
+0:02:55.109,0:02:59.699
+Normalerweise bevorzugt man die erste Version. Wenn
+es die Logik des Codes also erlaubt,
+
+0:02:59.699,0:03:01.709
+sollte man, sofort zum Zeitpunkt
+
+0:03:01.709,0:03:05.689
+der Deklaration, einen Wert zuweisen.
+
+0:03:05.689,0:03:10.189
+Das ist aber nicht immer möglich.
+Es gibt Fälle, wo man zuerst
+
+0:03:10.189,0:03:14.739
+eine Variable deklarieren und erst verspätet
+einen Wert zuweisen kann.
+
+0:03:14.739,0:03:16.779
+Was passiert nun mit einer Variable ...
+
+0:03:16.779,0:03:20.159
+... wenn sie nicht definiert ist?
+
+0:03:20.159,0:03:23.569
+Sie hat keinen Wert, also deklariere ich
+sie nur.
+
+0:03:23.569,0:03:26.579
+Sie enthält einen Wert namens "undef".
+
+0:03:26.579,0:03:31.649
+Sie ist undefiniert, ähnlich wie "NULL" bei ...
+
+0:03:31.649,0:03:32.649
+
+
+0:03:32.649,0:03:36.509
+Es ähnelt "NULL" in Datenbanken, unterscheidet
+sich allerdings etwas im Verhalten.
+
+0:03:36.509,0:03:39.890
+Zum Beispiel können wir überprüfen,
+ob ein Wert,
+
+0:03:39.890,0:03:41.879
+eine Variable schon einen
+
+0:03:41.879,0:03:46.339
+aderen Wert hat oder noch immer
+"undef" enthält.
+
+0:03:46.339,0:03:52.859
+Man kann das Schlüsselwort "defined" verwenden.
+Also abfragen ob die Variable definiert ist
+und dann eine Meldung ausgeben:
+
+0:03:52.859,0:03:54.719
+"say 'defined'"
+
+0:03:54.719,0:03:57.459
+"else"
+
+0:03:57.459,0:04:00.159
+"say 'no'"
+
+0:04:00.159,0:04:01.920
+Wenn ich diesen Code ausführe,
+
+0:04:01.920,0:04:03.649
+wird "no" angezeigt.
+
+0:04:03.649,0:04:06.369
+und dann "foo".
+
+0:04:06.369,0:04:08.999
+Andererseits kann ich den selben Code nehmen
+
+0:04:08.999,0:04:10.069
+und
+
+0:04:10.069,0:04:13.189
+ihn auch nach der Zuweisung einfügen,
+
+0:04:13.189,0:04:15.709
+so sieht man, dass zuerst "no",
+
+0:04:15.709,0:04:16.639
+dann
+
+0:04:16.639,0:04:19.039
+"defined", und dann
+
+0:04:19.039,0:04:20.259
+schon
+
+0:04:20.259,0:04:21.979
+der Wert "Foo" ausgegeben wird, weil
+
+0:04:21.979,0:04:24.610
+die Ausgabe des Wertes nach der
+
+0:04:24.610,0:04:25.979
+Ausgabe des Ergebnisses
+
+0:04:25.979,0:04:28.250
+von "defined" stattfindet.
+
+0:04:28.250,0:04:32.430
+Man sieht hier also, dass es hier noch nicht
+definiert war, hier ein Wert zugewiesen wird
+
+0:04:32.430,0:04:36.040
+und hier definiert wird.
+
+0:04:36.040,0:04:38.990
+Wir können den Wert nachher wieder auf
+
+0:04:38.990,0:04:43.490
+"undef" setzen. Später also, zum
+Beispiel, führen wir "$name"
+
+0:04:43.490,0:04:44.659
+ist gleich
+
+0:04:44.659,0:04:46.479
+"undef" aus.
+
+0:04:46.479,0:04:49.210
+Lasst mich nur nicht den gleichen Code
+wieder einfügen.
+
+0:04:49.210,0:04:54.899
+An diesem Punkt ist der Wert
+wieder "undef".
+
+0:04:54.899,0:04:56.370
+Die Variablen können
+
+0:04:56.370,0:04:59.319
+entweder Zahlen oder Zeichenketten enthalten.
+
+0:04:59.319,0:05:01.169
+Also kann man ...
+
+0:05:01.169,0:05:03.710
+Lasst es mich noch einmal starten.
+
+0:05:03.710,0:05:06.159
+Man kann eine Variable deklarieren, sagen wir
+
+0:05:06.159,0:05:09.030
+"$x"
+
+0:05:09.030,0:05:11.179
+und sie in einen String einfügen.
+
+0:05:11.179,0:05:12.249
+Einen String darin speichern.
+
+0:05:12.249,0:05:15.639
+Und sie dann Ausgeben.
+
+0:05:15.639,0:05:19.210
+Dann kann man der selben Variable eine
+Zahl zuweisen.
+
+0:05:19.210,0:05:21.800
+Und sie erneut Ausgeben.
+
+0:05:21.800,0:05:24.769
+Wenn ich den Code ausführe, sieht man, dass
+
+0:05:24.769,0:05:27.809
+es zuerst eine Zeichenkette und dann eine Zahl ist.
+
+0:05:27.809,0:05:30.529
+Und Perl kümmert sich nicht darum. Perl hat keine
+
+0:05:30.529,0:05:33.870
+Typen, die mit den Variablen verbunden werden.
+
+0:05:33.870,0:05:36.410
+Es hat nichts desgleichen.
+
+0:05:36.410,0:05:40.699
+All die Operatoren
+
+0:05:40.699,0:05:42.249
+funktionieren also.
+
+0:05:42.249,0:05:43.740
+Von anderen Sprachen ist man
+
+0:05:43.740,0:05:46.060
+vielleicht daran gewöhnt,
+
+0:05:46.060,0:05:47.199
+dass sich Operatoren
+
+0:05:47.199,0:05:50.610
+im Bezug auf verschiedene
+
+0:05:50.610,0:05:52.559
+Werte, verschiedene Variablen,
+
+0:05:52.559,0:05:53.639
+basierend auf deren Typ,
+
+0:05:53.639,0:05:55.930
+anders verhalten.
+
+0:05:55.930,0:05:57.099
+Der Weg in Perl ...
+
+0:05:57.099,0:05:59.620
+Ist genau gegenteilig.
+
+0:05:59.620,0:06:01.960
+Nicht Variablen, nicht
+
+0:06:01.960,0:06:03.599
+Operanden
+
+0:06:03.599,0:06:06.230
+entscheiden, was der Operator macht,
+
+0:06:06.230,0:06:11.460
+sondern der Operator entscheidet
+wie sich die Operanden, die Variablen, verhalten.
+
+0:06:11.460,0:06:17.630
+Sehen wir uns ein anderes Beispiel an
+Sagen wir, man hat "$z"
+
+0:06:17.630,0:06:19.620
+gleich 3.
+
+0:06:19.620,0:06:25.180
+Man kann das einfach ausgeben und dann eine
+zweite Variable,
+
+0:06:25.180,0:06:26.889
+sagen wir "$y"
+
+0:06:26.889,0:06:28.800
+gleich 4, initialisieren
+
+0:06:28.800,0:06:29.869
+und dann
+
+0:06:29.869,0:06:32.749
+dies ebenso ausgeben
+
+0:06:32.749,0:06:37.030
+dann, was soll ich tun? Versuchen wir
+
+0:06:37.030,0:06:40.400
+"$z" zu nehmen und "$y" dazu zu addieren.
+
+0:06:40.400,0:06:42.789
+Und dann lasst mich versuchen
+
+0:06:42.789,0:06:47.330
+"$z" zu nehmen
+
+0:06:47.330,0:06:50.919
+und "$y" anzuhängen, so dass
+
+0:06:50.919,0:06:52.189
+die zwei Werte
+
+0:06:52.189,0:06:54.119
+an einander angehängt werden.
+
+0:06:54.119,0:06:58.609
+Und als drittes, mal sehen,
+
+0:06:58.609,0:07:00.480
+"$z x $y", der Multiplikator,
+
+0:07:00.480,0:07:02.209
+oder ähm ...
+
+0:07:02.209,0:07:05.449
+oder Wiederholungsvariable
+
+0:07:05.449,0:07:08.210
+-operator, Entschuldigung.
+
+0:07:08.210,0:07:11.300
+Wenn ich den Code ausführe, was haben wir hier?
+
+0:07:11.300,0:07:14.550
+Zuerst werden die zwei Werte
+3 und 4 ausgegeben.
+
+0:07:14.550,0:07:15.879
+Dann das Plus,
+
+0:07:15.879,0:07:19.770
+die Addition, numerische Addition.
+Es werden also die zwei Werte,
+
+0:07:19.770,0:07:25.379
+zwei skalare Variablen, deren Werte
+3 und 4 genommen und als Zahlen addiert.
+
+0:07:25.379,0:07:26.389
+Der Punkt,
+
+0:07:26.389,0:07:27.949
+ist der Konkatenierungsoperator.
+
+0:07:27.949,0:07:29.639
+Er nimmt also zwei Zeichenketten
+
+0:07:29.639,0:07:33.249
+und konvertiert die zwei Zahlen
+eigentlich nur in zwei Zeichenketten
+
+0:07:33.249,0:07:34.709
+und gibt sie zusammenhängend aus.
+
+0:07:34.709,0:07:36.920
+Drei, vier.
+
+0:07:36.920,0:07:38.530
+Oder 34 wenn man
+
+0:07:38.530,0:07:39.999
+es als Zahl betrachtet.
+
+0:07:39.999,0:07:43.529
+Und zuletzt der Wiederholungsoperator, er nimmt
+die linke Seite,
+
+0:07:43.529,0:07:45.359
+den Inhalt von "$z"
+
+0:07:45.359,0:07:46.759
+und interpretiert ihn als Zeichenkette.
+
+0:07:46.759,0:07:47.409
+Dann wiederholt
+
+0:07:47.409,0:07:49.340
+er das
+
+0:07:49.340,0:07:50.349
+so oft
+
+0:07:50.349,0:07:53.400
+wie auf der rechten Seite angegeben.
+
+0:07:53.400,0:07:56.189
+Weil also auf der linken seite die
+Zeichenkette "3"
+
+0:07:56.189,0:08:00.349
+und auf der rechten die Ziffer 4 steht
+
+0:08:00.349,0:08:03.210
+ist das Ergebnis vier mal das
+
+0:08:03.210,0:08:05.499
+Zeichen "3".
+
+0:08:05.499,0:08:06.870
+Wie man sieht,
+
+0:08:06.870,0:08:08.159
+ist es der Operator,
+
+0:08:08.159,0:08:09.789
+der bestimmt,
+
+0:08:09.789,0:08:12.800
+ob sich die Operanden wie
+
+0:08:12.800,0:08:15.499
+Zahlen oder Zeichenketten verhalten sollen.
+
+0:08:15.499,0:08:17.069
+Was passiert allerdings
+
+0:08:17.069,0:08:18.189
+wenn einer dieser
+
+0:08:18.189,0:08:19.669
+nicht wirklich eine Zahl ist?
+
+0:08:19.669,0:08:22.460
+Was passiert, wenn
+
+0:08:22.460,0:08:24.649
+beide Zeichenketten sind?
+
+0:08:24.649,0:08:26.509
+Wenn ich den Code jetzt ausführe,
+
+0:08:26.509,0:08:28.729
+sieht man, dass das Ergebnis das selbe ist,
+
+0:08:28.729,0:08:30.740
+weil Perl automatisch
+
+0:08:30.740,0:08:32.590
+Zahlen in Zeichenketten,
+
+0:08:32.590,0:08:35.310
+und Zeichenketten in Zahlen konvertiert,
+
+0:08:35.310,0:08:38.260
+falls der Operator dies voraussetzt.
+
+0:08:38.260,0:08:41.480
+Das ist gut. Und was passiert wenn nur
+
+0:08:41.480,0:08:42.850
+einer eine Zeichenkette
+
+0:08:42.850,0:08:46.860
+und der andere eine Zahl ist?
+Sehen wir uns das hier an. Was passiert in
+
+0:08:46.860,0:08:48.370
+diesem Fall?
+
+0:08:48.370,0:08:50.790
+Ich führe diesen Code aus, und erhalte das gleiche Ergebnis!
+
+0:08:50.790,0:08:52.820
+Perl kümmert sich also nicht darum, man kann ...
+
+0:08:52.820,0:08:54.590
+Es konvertiert automatisch,
+
+0:08:54.590,0:08:56.930
+oder castet, wenn man so will,
+
+0:08:56.930,0:09:01.060
+Zahlen in Zeichenketten und Zeichenketten
+in Zahlen, wann auch immer
+
+0:09:01.060,0:09:03.750
+es nötig ist.
+
+0:09:03.750,0:09:04.789
+Das ist also kein Problem,
+
+0:09:04.789,0:09:06.300
+im Normalfall.
+
+0:09:06.300,0:09:07.660
+Aber es gibt andere Fälle,
+
+0:09:07.660,0:09:09.270
+wo ...
+
+0:09:09.270,0:09:11.220
+Diese Konvertierung vielleicht nicht
+
+0:09:11.220,0:09:13.600
+hundertprozentig ist.
+
+0:09:13.600,0:09:16.960
+Was passiert wenn der Wert hier zum Beispiel,
+
+0:09:16.960,0:09:20.890
+"3.14 is pi" ist.
+
+0:09:20.890,0:09:22.540
+Zu aller erst, nebenbei gesagt nennt
+
+0:09:22.540,0:09:27.090
+sich diese Konversion, die ganze Idee, Kontext.
+
+0:09:27.090,0:09:29.550
+Der Grund warum
+
+0:09:29.550,0:09:31.910
+Perl die Zahlen konvertiert ist, dass
+
+0:09:31.910,0:09:35.140
+Perl Kontexte erkennt. Einen Zahlen-
+
+0:09:35.140,0:09:37.290
+und einen Zeichenketten-Kontext.
+
+0:09:37.290,0:09:41.610
+Zahlen-Kontext und Zeichenketten-Kontext.
+
+0:09:41.610,0:09:44.470
+Ich schreibe es hier auf, damit
+
+0:09:44.470,0:09:46.250
+man sich nicht um meine Aussprache
+
+0:09:46.250,0:09:48.260
+kümmern muss.
+
+0:09:48.260,0:09:52.160
+Wie auch immer, was hier passiert:
+Man hat die Zahl 3,
+
+0:09:52.160,0:09:54.040
+und den String, der direkt
+
+0:09:54.040,0:09:56.209
+nicht wirklich in eine Zahl 
+
+0:09:56.209,0:09:57.100
+umwandelbar ist.
+
+0:09:57.100,0:10:01.390
+Was jetzt passiert, wenn ich den Code ausführe,
+
+0:10:01.390,0:10:03.140
+Lasst uns diesen Prozess im Detail betrachten:
+
+0:10:03.140,0:10:06.870
+Das erste ist drei, die nummer drei die Ausgegeben wurde.
+Das stimmt.
+
+0:10:06.870,0:10:10.670
+Dann bekomme ich "3.14 is pi",
+
+0:10:10.670,0:10:14.910
+was nur die Ausgabe des Inhalts
+von "$y" ist.
+
+0:10:14.910,0:10:17.750
+Dann habe ich dise Warnung
+
+0:10:17.750,0:10:20.370
+und das Ergebnis "6.14".
+
+0:10:20.370,0:10:25.350
+Diese Warnung erscheint, da ich versuche,
+
+0:10:25.350,0:10:26.520
+diese Zeichenkette
+
+0:10:26.520,0:10:28.120
+in einem Zahlen-Kontext
+
+0:10:28.120,0:10:30.780
+in der Addition in Zeile ...
+
+0:10:30.780,0:10:33.250
+Anscheinend 12. Ja, in dieser Zeile.
+
+0:10:33.250,0:10:36.960
+In dieser Zeile könne wir es jetzt also sehen.
+
+0:10:36.960,0:10:42.210
+Entschuldigung.
+
+0:10:42.210,0:10:43.890
+Ja, dieses Fenster also.
+
+0:10:43.890,0:10:49.740
+Man kann es hier sehen.
+
+0:10:49.740,0:10:51.520
+Das ist die Zeichenkette. Das ist das,
+
+0:10:51.520,0:10:53.820
+was in eine Zahl konvertiert wurde.
+
+0:10:53.820,0:10:56.990
+Man erhält eine Warnung. Diese Warnung erhält man nur,
+weil man nach Warnungen
+
+0:10:56.990,0:10:59.500
+gefragt hat.
+
+0:10:59.500,0:11:03.260
+Es ist also wichtig, diese Warnungen zu nutzen.
+Sonst würde womöglich still und heimlich etwas
+
+0:11:03.260,0:11:05.440
+ausgeführt werden, was man nicht möchte.
+
+0:11:05.440,0:11:08.750
+Aber das zeigt vielleicht eine Art von Problem auf.
+
+0:11:08.750,0:11:10.529
+Jetzt ist es
+
+0:11:10.529,0:11:12.860
+"3.14 is pi"
+
+0:11:12.860,0:11:17.030
+in der Addition aber, wurde automatisch nur
+"3.14" berücksichtigt.
+
+0:11:17.030,0:11:19.160
+Was Perl also macht, ist dass es
+
+0:11:19.160,0:11:21.440
+die linke Seite der Zeichenkette nimmt
+
+0:11:21.440,0:11:22.880
+und
+
+0:11:22.880,0:11:24.060
+beäugt.
+
+0:11:24.060,0:11:27.829
+Es sieht sich die Zeichen an und versucht sie als Zahl zu verwenden.
+
+0:11:27.829,0:11:32.160
+Und da ist ein Punkt. Hier ist ein Abstand.
+Aber es
+
+0:11:32.160,0:11:35.249
+hört auf zu verstehen. Es kann
+nichtmehr in eine Nummer wandeln.
+
+0:11:35.249,0:11:38.750
+Von diesem Punkt an, wird der Wert ignoriert.
+
+0:11:38.750,0:11:40.430
+Aus diesem Grund, verwendet
+
+0:11:40.430,0:11:41.940
+Perl
+
+0:11:41.940,0:11:44.809
+"3.14"
+
+0:11:44.809,0:11:46.020
+als Wert
+
+0:11:46.020,0:11:48.550
+von "$y" in dieser Addition.
+
+0:11:48.550,0:11:49.910
+Dann, wenn man
+
+0:11:49.910,0:11:52.620
+sich wundert was mit "$y" passiert ist ...
+
+0:11:52.620,0:11:54.000
+Wurde es konvertiert?
+
+0:11:54.000,0:11:55.579
+Oder nur zum Zwecke
+
+0:11:55.579,0:11:56.930
+dieser Addition?
+
+0:11:56.930,0:11:57.990
+Man sieht also,
+
+0:11:57.990,0:11:59.300
+in dieser Konkatenation,
+
+0:11:59.300,0:12:00.110
+dass man hier
+
+0:12:00.110,0:12:03.519
+eigentlich die 3 aus "$z"
+verwendet.
+
+0:12:03.519,0:12:06.530
+Und das "3.14 is pi"
+
+0:12:06.530,0:12:10.330
+kommt asu "$y". Man sieht also,
+dass "$y" unverändert geblieben ist.
+
+0:12:10.330,0:12:12.070
+"$y" ist
+
+0:12:12.070,0:12:14.010
+noch immer die selbe Zeichenkette.
+
+0:12:14.010,0:12:15.970
+Und wenn man sich das dritte ansieht,
+
+0:12:15.970,0:12:18.370
+sieht man, dass es "$z" ist,
+
+0:12:18.370,0:12:20.100
+nur eben "$y" mal.
+
+0:12:20.100,0:12:22.790
+Nun erwartet man wahrscheinlich, dass man
+
+0:12:22.790,0:12:26.070
+3.14 mal die Ziffer "3" sieht,
+
+0:12:26.070,0:12:31.080
+aber das kann Perl nicht ausgeben ...
+
+0:12:31.080,0:12:32.870
+Es kann nur
+
+0:12:32.870,0:12:34.960
+ganze Zahlen ausgeben, also in diesem Fall ...
+
+0:12:34.960,0:12:36.200
+Würde
+
+0:12:36.200,0:12:39.670
+es "3.12" in "3" wandeln und
+diesen Wert für
+
+0:12:39.670,0:12:41.590
+die Multiplikation verwenden.
+
+0:12:41.590,0:12:42.880
+Für die Wiederholung.
+
+0:12:42.880,0:12:44.920
+Aber man erhält nicht noch eine Warnung,
+
+0:12:44.920,0:12:47.360
+wie man normalerweise erwartet.
+
+0:12:47.360,0:12:49.040
+Warum?
+
+0:12:49.040,0:12:50.190
+Weil ...
+
+0:12:50.190,0:12:53.190
+Weil die Operation die Warnung nicht generiert?
+
+0:12:53.190,0:12:56.240
+Ich klicke hier und
+
+0:12:56.240,0:12:58.100
+kommentiere dann ...
+
+0:12:58.100,0:12:59.990
+Kommentiere diesen Code hier aus.
+
+0:12:59.990,0:13:01.370
+Und führe erneut aus.
+
+0:13:01.370,0:13:02.870
+Und jetzt sieht man, dass
+
+0:13:02.870,0:13:05.080
+die Warnung vom
+
+0:13:05.080,0:13:06.560
+Wiederholungsoperator kommt.
+
+0:13:06.560,0:13:09.010
+Vorhin haben wir diese Warnung
+
+0:13:09.010,0:13:11.220
+nur einfach nicht gesehen.
+
+0:13:11.220,0:13:15.350
+Und warum haben wir sie nicht gesehen? Weil
+es keine gab. Und der Grund ist, dass
+
+0:13:15.350,0:13:17.120
+zu dieser zeit, hier,
+
+0:13:17.120,0:13:19.530
+wenn die Addition
+
+0:13:19.530,0:13:21.940
+Perl veranlasst hat
+
+0:13:21.940,0:13:26.399
+die Zeichenkette in eine Zahl zu konvertieren,
+hat es in Wirklichkeit dise neue Zahl
+
+0:13:26.399,0:13:27.920
+an einem magischen Ort
+
+0:13:27.920,0:13:30.050
+in "$y" abgespeichert.
+
+0:13:30.050,0:13:34.010
+Von diesem Punkt an hatte "$y" eigentlich
+zwei Werte: Die Zeichenkette und
+
+0:13:34.010,0:13:35.310
+den numerischen Wert.
+
+0:13:35.310,0:13:36.930
+Dies geschieht
+
+0:13:36.930,0:13:39.010
+um spätere Konvertierungen zu vermeiden.
+
+0:13:39.010,0:13:44.620
+Wenn man also an diesem Punkt angekommen ist,
+den Wiederholungsoperator zu verwenden, musste
+
+0:13:44.620,0:13:46.209
+Perl nicht erneut konvertieren.
+
+0:13:46.209,0:13:50.140
+Es gab also auch keinen Grund eine Warnung auszugeben.
+
+0:13:50.140,0:13:52.870
+So funktionieren also Umwandlungen.
+
+0:13:52.870,0:13:54.840
+Nun ist bekannt, wie Konversionen von Zahlen in Zeichenketten
+
+0:13:54.840,0:13:58.950
+funktionieren. Von Zahl
+in Zeichenkette ist es also
+
+0:13:58.950,0:14:01.790
+relativ simpel: Es ist einfach
+
+0:14:01.790,0:14:04.359
+der gleiche Wert. Man hat also eine Zahl wie Drei.
+
+0:14:04.359,0:14:08.060
+Und wenn man sie als Zeichenkette betrachtet,
+ist es einfach eine Zeichenkette, die Ziffer 3,
+
+0:14:08.060,0:14:11.329
+das Symbol 3. Und wenn man eine Zahl hat, 
+
+0:14:11.329,0:14:15.369
+eine Zeichenkette, die eine Zahl wie "3.14" darstellt.
+
+0:14:15.369,0:14:19.150
+Wenn man nur diese Kommazahl hat,
+
+0:14:19.150,0:14:24.310
+und dies so ausführt, erhält man keine Warnung, 
+da dies nur eine Zahl ist.
+
+0:14:24.310,0:14:29.140
+Weil wir aber etwas haben, dass
+nicht wirklich eine Zahl ist,
+
+0:14:29.140,0:14:30.670
+erhalten wir die Warnung.
+
+0:14:30.670,0:14:34.070
+Ein paar weitere Problem, die ich erwähnen möchte:
+
+0:14:34.070,0:14:36.680
+Eines davon ist "undef".
+
+0:14:36.680,0:14:39.560
+Was passiert mit "undef" in diesem Kontext?
+
+0:14:39.560,0:14:40.710
+Mal sehen ...
+
+0:14:40.710,0:14:43.730
+Sagen wir in diesme Fall hier
+
+0:14:43.730,0:14:46.830
+ähm ...
+
+0:14:46.830,0:14:48.369
+my $y
+
+0:14:48.369,0:14:51.750
+Und weil bekannt ist, dass es "undef" ist,
+
+0:14:51.750,0:14:53.150
+wird es nicht ausgegeben.
+
+0:14:53.150,0:14:57.020
+Jetzt ist also eine Variable deklariert.
+
+0:14:57.020,0:14:58.210
+Genannt "$z".
+
+0:14:58.210,0:15:01.119
+Und "$y" ist deklariert, aber es wird
+
+0:15:01.119,0:15:02.650
+kein Wert zugewiesen.
+
+0:15:02.650,0:15:05.020
+Wenn ich das nun ausführe.
+
+0:15:05.020,0:15:07.320
+Und das hier auskommentiere, wir brauchen es nicht.
+
+0:15:07.320,0:15:10.820
+Also, wenn ich das nun ausführe, erhalte ich zwei Warnungen.
+
+0:15:10.820,0:15:13.060
+Using of uninitialized ...
+
+0:15:13.060,0:15:16.290
+Sagt mir, dass ich versuche einen
+unintialisierten Wert zu verwenden, das heißt, dass "$y"
+
+0:15:16.290,0:15:21.800
+"undef" ist. In beiden, der Addition
+und der Konkatenation.
+
+0:15:21.800,0:15:26.490
+Man sieht also, dass
+
+0:15:26.490,0:15:29.810
+Perl mich warnt, wenn ich versuche,
+
+0:15:29.810,0:15:32.520
+eine Variable die "undef" ist
+
+0:15:32.520,0:15:34.020
+entweder im Zahlen-Kontext
+
+0:15:34.020,0:15:37.640
+oder im Zeichenketten-Kontext zu verwenden.
+
+0:15:37.640,0:15:39.740
+Wie man aber sieht,
+
+0:15:39.740,0:15:42.470
+obwohl es etwas schwierig zu erkennen ist ...
+
+0:15:42.470,0:15:44.850
+Das erste "say" gibt hier "3" aus.
+
+0:15:44.850,0:15:45.670
+Und dann gibt dieses
+
+0:15:45.670,0:15:47.449
+"say" erneut "3" aus,
+
+0:15:47.449,0:15:50.420
+weil "$y", obwohl es "undef" ist,
+
+0:15:50.420,0:15:52.390
+sich im Zahlen-Kontext wie
+
+0:15:52.390,0:15:54.270
+0 verhält.
+
+0:15:54.270,0:15:57.910
+Un in dieser Konkatenation erhält man wieder "3",
+
+0:15:57.910,0:16:00.540
+weil sich "$y", obwohl es "undef" ist,
+
+0:16:00.540,0:16:05.670
+im Zeichenketten-Kontext wie eine leere
+Zeichenkette verhält.
+
+0:16:05.670,0:16:09.520
+Wenn man sicherstellen will, dass es
+
+0:16:09.520,0:16:15.070
+sicher "undef" ist, dann
+
+0:16:15.070,0:16:17.490
+"print 'defined'"
+
+0:16:17.490,0:16:20.760
+und "else"
+
+0:16:20.760,0:16:22.870
+Entschuldigung das sollte "say" heißen.
+
+0:16:22.870,0:16:25.810
+"not"
+
+0:16:25.810,0:16:28.940
+Ja, das zeigt uns ich bin alter Hase.
+
+0:16:28.940,0:16:31.330
+Also ...
+
+0:16:31.330,0:16:32.579
+Ich führe den Code aus.
+
+0:16:32.579,0:16:36.260
+Man sieht es ergbit "not". Es ist
+nicht definiert. Also obwohl
+
+0:16:36.260,0:16:40.730
+Perl diese Variable in beiden,
+
+0:16:40.730,0:16:42.459
+Zahlen- und Zeichenketten-Kontext verwendet hat,
+
+0:16:42.459,0:16:45.420
+wurde die Variable nicht verändert.
+Sie ist noch immer nicht definiert.
+
+0:16:45.420,0:16:47.749
+Das wollte ich vorzeigen.
+
+0:16:47.749,0:16:49.520
+Die andere Sache
+
+0:16:49.520,0:16:52.180
+ist, dass einige Leute die Idee
+
+0:16:52.180,0:16:56.720
+hinter diesen Warnungen nicht gefällt
+und knallharte
+
+0:16:56.720,0:16:57.660
+Ausnahmen
+
+0:16:57.660,0:17:01.000
+wenn etwas falsch, oder teilweise falsch abläuft, bevorzugen.
+
+0:17:01.000,0:17:02.459
+Was sie tun können is, dass
+
+0:17:02.459,0:17:08.990
+sie diese Warnungen in Ausnahmen umwandeln.
+Man kann hier "FATAL" hinschreiben.
+
+0:17:08.990,0:17:13.189
+Unda dann, sagen wir "=> all".
+Das verwandelt jede Warnung in
+
+0:17:13.189,0:17:15.680
+eine fatale Ausnahme.
+
+0:17:15.680,0:17:17.920
+Wenn ich also hierher gehe
+
+0:17:17.920,0:17:19.790
+und, sagen wir, ich ändere es
+
+0:17:19.790,0:17:20.850
+so.
+
+0:17:20.850,0:17:22.640
+Und den Code ausführe ...
+
+0:17:22.640,0:17:24.429
+Erhalte ich
+
+0:17:24.429,0:17:25.189
+"3"
+
+0:17:25.189,0:17:26.890
+-- die erste Ausgabe,
+
+0:17:26.890,0:17:28.419
+das erste "say" hier.
+
+0:17:28.419,0:17:31.759
+Und wenn man versucht die Werte zu addieren,
+
+0:17:31.759,0:17:35.649
+würde eine Warnung ausgegeben.
+Aber diese ist jetzt eine fatale Ausnahme.
+
+0:17:35.649,0:17:37.840
+Das Skript
+
+0:17:37.840,0:17:40.380
+wird also nicht fortgesetzt.
+
+0:17:40.380,0:17:43.930
+Das ist also das richtige Mittel,
+wenn man wirklich extrem sein will,
+
+0:17:43.930,0:17:46.020
+Ausnahmen erhalten will, in diesem Fall.
+
+0:17:46.020,0:17:49.059
+Was aber wenn man das ganze komplett
+umgehen möchte? Was wenn man
+
+0:17:49.059,0:17:51.720
+sicherstellen will, dass der Wert, den man hat,
+
+0:17:51.720,0:17:55.410
+womöglich vom User aus der Außenwelt,
+
+0:17:55.410,0:17:57.010
+welcher eigentlich wie eine Zahl aussieht,
+
+0:17:57.010,0:17:59.910
+bevor man ihn wirklich
+
+0:17:59.910,0:18:00.950
+konvertieren kann ...
+
+0:18:00.950,0:18:04.610
+DAfür würde man ein Modul verwenden:
+
+0:18:04.610,0:18:07.510
+"use Scalar::Util"
+
+0:18:07.510,0:18:09.230
+Und das Modul
+
+0:18:09.230,0:18:12.669
+bietet eine Funktion namens
+
+0:18:12.669,0:18:15.650
+"looks_like_number".
+
+0:18:15.650,0:18:20.400
+Dann kann man diese Funktion aufrufen, bevor man
+wirklich den Teil ausführt, der
+
+0:18:20.400,0:18:23.419
+eine Zahl verlang.
+
+0:18:23.419,0:18:26.620
+Man würde also schreiben
+
+0:18:26.620,0:18:31.380
+"looks_like_number($z)"
+
+0:18:31.380,0:18:32.340
+und
+
+0:18:32.340,0:18:37.900
+"looks_like_number($y)".
+
+0:18:37.900,0:18:44.770
+Und ausschließlich dann, würde man diesen Teil ausführen.
+
+0:18:44.770,0:18:49.400
+Die Addition würde man also nur ausführen, wenn es
+sich bei beiden um Zahlen handelt.
+
+0:18:49.400,0:18:51.390
+Und dann führe ich diesen Code aus.
+
+0:18:51.390,0:18:53.900
+Und da ist ein Syntaxfehler.
+
+0:18:53.900,0:18:55.050
+Sehen wir wo ...
+
+0:18:55.050,0:18:56.650
+Es ist Zeile 15.
+
+0:18:56.650,0:18:58.930
+Ich werde darauf aufmerksam gemacht, dass
+
+0:18:58.930,0:19:01.120
+ich vergessen habe, die Klammern zu schließen.
+
+0:19:01.120,0:19:02.450
+Ich führe das also nochmals aus.
+
+0:19:02.450,0:19:06.120
+Nun sieht man, dass ich hier die Zahl "3" und
+das Ergebnis der
+
+0:19:06.120,0:19:10.390
+Konkatenation und das "defined" hier habe.
+
+0:19:10.390,0:19:12.420
+Wenn aber keine Exception
+
+0:19:12.420,0:19:14.320
+und ein Wert wie
+
+0:19:14.320,0:19:16.710
+dieser vorliegt,
+
+0:19:16.710,0:19:18.170
+ein Wert, der wirklich wie
+
+0:19:18.170,0:19:20.000
+eine Zahl aussieht.
+Und ich das ausführe ...
+
+0:19:20.000,0:19:27.000
+Dann habe ich, zusätzlich zu der Konkatenation hier,
+die Addition.
+
+0:19:27.200,0:19:28.129
+Das war's also,
+
+0:19:28.129,0:19:31.799
+über Skalare.
+Und falls die Frage auftaucht ob es
+
+0:19:31.799,0:19:34.480
+Überladung von Operatoren in Perl gibt.
+Gibt es!
+
+0:19:34.480,0:19:38.080
+Da sist aber ein fortgeschrittenes Thema, welches ich nicht jetzt
+behandeln werde.
+
+0:19:38.080,0:19:41.240
+Und ich hoffe das war ein gutes Video!
+Wir sehen uns das nächste Mal!
