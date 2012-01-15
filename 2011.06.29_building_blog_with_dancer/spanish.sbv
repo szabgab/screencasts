@@ -1,0 +1,1164 @@
+0:00:03.630,0:00:07.430
+Hola! Bienvenido, nuevamente al canal. Esta vez voy a tomar los 50 minutos que tengo
+
+0:00:07.430,0:00:08.280
+y construir
+
+0:00:08.280,0:00:09.919
+un pequeño blog motor
+
+0:00:09.919,0:00:10.950
+Voy a usar
+
+0:00:10.950,0:00:14.959
+como base el motor Pearl Dancer, como pueden ver aquí
+
+0:00:14.959,0:00:16.439
+pearldancer.org
+
+0:00:16.439,0:00:21.849
+obiamente voy a usar ``Padre``, ``Padre on strawberry`` 
+
+0:00:21.849,0:00:22.869 
+dstirbucion
+
+0:00:22.869,0:00:24.499
+asi que lo voy a usar por Windows
+
+0:00:24.499,0:00:29.410
+asi que lo que necesitamos es… vamos a comenzar Strawberry Perl ... Padre
+
+0:00:29.410,0:00:34.030
+necesitamos un editor y cuando lo abrimos vamos a tomar una pagina nueva
+
+0:00:34.030,0:00:40.850
+Dancer viene con una aplicatión de orden en linea que nos permite construir la esquema de la aplicatión 
+
+0:00:40.850,0:00:43.430
+por esto necesito
+
+0:00:43.430,0:00:45.690
+correr 
+
+0:00:45.690,0:00:50.130
+cmd y vamos a decir cambiar el directorio al
+
+0:00:50.130,0:00:51.110
+directorio de trabajo
+
+0:00:51.110,0:00:56.160
+y aqui voy a crear el esqueleto. Asi que voy a tastar “dancer –a” y
+
+0:00:56.160,0:00:58.480
+el nombre de la aplicatión
+
+0:00:58.480,0:01:00.380
+escoji Dwimmer 
+
+0:01:00.380,0:01:02.330
+como nombre
+
+0:01:02.330,0:01:04.560
+Es una especie de… brujo o lo que sea
+
+0:01:04.560,0:01:08.040
+asi que voy a llamar la aplicati ón Dwimmer
+so I'm going to call this a application
+Dwimmer
+
+0:01:08.040,0:01:09.050
+Es…
+
+0:01:09.050,0:01:12.970
+Coriendo este guión se va crear un sub-directorio para 
+
+0:01:12.970,0:01:18.400
+para la applicati ón y una variedad de directorios que son la esquema de la applicati ón
+
+0:01:18.400,0:01:23.680
+Si uso este directorio puedo tastar pearl bin
+
+0:01:23.680,0:01:24.640
+y el nombre
+
+0:01:24.640,0:01:29.750
+ app.pl y corer la applicatión. Esto ya corre la esquema 
+
+0:01:29.750,0:01:35.750
+y puedo cambiar al browser y estilo en localhost:3000  
+
+0:01:35.750,0:01:40.040
+Y esto me va brindar a la pagina defecto que Dancer ha creado para mi.
+
+0:01:40.040,0:01:41.740
+¿Como parece?
+
+0:01:41.740,0:01:47.610
+Regreso al Padre y abro la carpeta.
+
+0:01:47.610,0:01:49.400
+Si abor la carpeta
+
+0:01:49.400,0:01:55.380
+este directorio es…si bien recuerdo esta en trabajo
+
+0:01:55.380,0:01:56.330
+Dwimmer
+
+0:01:56.330,0:01:59.509
+Y despies fue el directorio bin app.pl
+
+0:01:59.509,0:02:02.469
+asi tu puedes ver que el guión si mismo esta casi vacio
+
+0:02:02.469,0:02:04.940
+Este solo carga el módulo de Dwimmer.
+
+0:02:04.940,0:02:08.419
+El módulo de Dwimmer es en el directorio lib. Para verlo mejor
+
+0:02:08.419,0:02:11.399
+vamos a abrir el browser del proyecto
+
+0:02:11.399,0:02:14.279
+y Padre reconoce el proyecto automaticamente
+
+0:02:14.279,0:02:15.569
+Proyecto Perl.
+
+0:02:15.569,0:02:19.700
+Asi que en el directorio lib esta Dwimmer.pm
+
+0:02:19.700,0:02:23.900
+Y aqui estan las aplicatiónes asi que esto define que alla esta 
+
+0:02:23.900,0:02:27.250
+cuando el utilizatorio viene con la GET petición
+
+0:02:27.250,0:02:28.450
+a la pagina principal
+
+0:02:28.450,0:02:30.010
+
+despues esta subrutina debe ser
+
+0:02:30.010,0:02:30.920
+ejecutada
+
+0:02:30.920,0:02:34.259
+Esta solo carga el index template. Los templates son
+
+0:02:34.259,0:02:37.620
+localizados en el subdirectorio  index.tt
+
+0:02:37.620,0:02:39.749
+Este template es
+
+0:02:39.749,0:02:41.769
+Lo que nosotros…
+
+0:02:41.769,0:02:44.629
+Dancer viene con una verdaderamente simple sistema template
+
+0:02:44.629,0:02:46.720
+pero yo ya he instalado
+
+0:02:46.720,0:02:48.859
+el Template::Toolkit
+
+0:02:48.859,0:02:52.939
+que viene con Padre on Strawberry Perl asi que lo primero que 
+
+0:02:52.939,0:02:55.829
+Me gustaria hacer es cambiar el sistema template. 
+
+0:02:55.829,0:02:58.430
+Puedo hacer esto en el directorio config.yml
+
+0:02:58.430,0:03:00.079
+este es en el directorio raiz
+
+0:03:00.079,0:03:01.779
+de la aplicatión
+
+0:03:01.779,0:03:05.869
+Aqui vas a ver que es un template cual es el simple template
+
+0:03:05.869,0:03:09.599
+y…me gustaria utilisar el Template::Toolkit
+
+0:03:09.599,0:03:10.760
+e incluso
+
+0:03:10.760,0:03:14.739
+definir que el codigo es utf-8.
+
+0:03:14.739,0:03:19.529
+Ahora las etiquetas del principio y las del final las dejo como defecto en Dancer
+
+0:03:19.529,0:03:20.579
+que es
+
+0:03:20.579,0:03:22.259
+que se escribe 
+
+0:03:22.259,0:03:24.479
+asi <% %>
+
+0:03:24.479,0:03:26.989
+Asi que las dejo de esa forma.
+
+0:03:26.989,0:03:30.489
+Ahora que lo he configurado,  me gustaria ver si sigue trabajando
+
+0:03:30.489,0:03:31.479
+Asi que
+
+0:03:31.479,0:03:33.899
+Interrupo la alicatión, reanudo
+
+0:03:33.899,0:03:36.139
+y regreso al browser
+
+0:03:36.139,0:03:39.869
+para ver que sigue trabajando. Que hemos visto antes son todo tipo de
+
+0:03:39.869,0:03:40.940
+valores 
+
+0:03:40.940,0:03:42.369
+que vienen de
+
+0:03:42.369,0:03:44.099
+Desde las 
+
+0:03:44.099,0:03:47.160
+Sistemas template. Asi que vuelvo a cargar y obtengo lo mismo.
+
+0:03:47.160,0:03:49.790
+Sigo obteniendo los mismos datos. Todo esta en orden.
+
+0:03:49.790,0:03:50.979
+Ahora
+
+0:03:50.979,0:03:53.599
+No necesito todo lo que esta en la vista
+
+0:03:53.599,0:03:55.279
+defecto de Dancer
+
+0:03:55.279,0:03:58.489
+Asi que voy en el index de template
+
+0:03:58.489,0:04:00.670
+Y borro todo y en vez 
+
+0:04:00.670,0:04:02.029
+escribo hello
+
+0:04:02.029,0:04:03.849
+y
+
+0:04:03.849,0:04:08.569
+Le digo al utilizatorio que pase a la pagina
+
+0:04:08.569,0:04:13.019
+Para crear una entrada 
+
+0:04:13.019,0:04:13.869
+Bien 
+
+0:04:13.869,0:04:17.029
+Esto es…lo que voy a hacer
+
+0:04:17.029,0:04:18.919
+y…
+
+0:04:18.919,0:04:20.630
+Si recargamos la pagina
+
+0:04:20.630,0:04:25.889
+Esto es lo que tenemos aqui: hello y el enlace para crear una entrada
+
+0:04:25.889,0:04:29.009
+Lo que deberia conducirnos a la pagina
+
+0:04:29.009,0:04:32.539
+Cuando hago clic tengo el eror 404 por que nadie
+
+0:04:32.539,0:04:34.129
+ha definido
+
+0:04:34.129,0:04:34.949
+Que hacer
+
+0:04:34.949,0:04:36.680
+Si alguen llega a esta pagina
+
+0:04:36.680,0:04:40.529
+Y esto el lo que tenemos que hacer. Asi que regresamos al modulo
+
+0:04:40.529,0:04:42.009
+Y definimos
+
+0:04:42.009,0:04:43.600
+Cuando alguien llega…
+
+0:04:43.600,0:04:45.259
+Envia la solicitud GET
+
+0:04:45.259,0:04:47.560
+a la pagina, despues
+
+0:04:47.560,0:04:49.759
+Llama la subrutina
+
+0:04:49.759,0:04:51.710
+Que es implementada aqui
+
+0:04:51.710,0:04:54.330
+y
+
+0:04:54.330,0:04:56.880
+Carga el template que se llama
+
+0:04:56.880,0:04:58.849
+"page" en nuestro caso.
+
+0:04:58.849,0:05:03.909
+Todavia tenemos que implementar el template asi que debemos regresar al index.tt
+
+0:05:03.909,0:05:05.610
+y
+
+0:05:05.610,0:05:07.229
+Salvarlo ahora
+
+0:05:07.229,0:05:12.620
+como "page.tt" y alla me gustaria, en vez de esto…
+
+0:05:12.620,0:05:14.720
+Me gustaria tenet una forma.
+
+0:05:14.720,0:05:17.020
+La forma
+
+0:05:17.020,0:05:18.360
+va a
+
+0:05:18.360,0:05:22.560
+Enviar la solicitud con
+
+0:05:22.560,0:05:29.560
+La methoda POST por que cargamos algo y tiene un campo de entrada
+
+0:05:29.830,0:05:31.200
+que se
+
+0:05:31.200,0:05:32.590
+llama
+
+0:05:32.590,0:05:34.939
+titulo. correcto.
+
+0:05:34.939,0:05:38.130
+Y despues tambien tenemos otro 
+
+0:05:38.130,0:05:40.169
+Campo de entrada
+
+0:05:40.169,0:05:43.759
+tipo presentar
+
+0:05:43.759,0:05:45.389
+presentar
+
+0:05:45.389,0:05:46.760
+y en medio
+
+0:05:46.760,0:05:49.659
+ponemos una area de 
+
+0:05:49.659,0:05:52.870
+texto
+
+0:05:52.870,0:05:56.339
+La area donde vamos a poner el texto.
+
+0:05:56.339,0:05:58.339
+Esta el la pagina.
+
+0:05:58.339,0:05:59.469
+Ahora si voy
+
+0:05:59.469,0:06:00.459
+y
+
+0:06:00.459,0:06:02.649
+vuelvo a cargar la aplicación
+
+0:06:02.649,0:06:05.089
+despues, bueno oh, alli tenemos un error.
+
+0:06:05.089,0:06:09.210
+El punto y coma parece faltar esa es una error clasica que hago
+
+0:06:09.210,0:06:11.250
+Aqui en el módulo,si,aqui. 
+
+0:06:11.250,0:06:15.289
+Al fin del cuento nunca deberiamos olvidar el punto y coma aqui
+
+0:06:15.289,0:06:17.430
+Aun que parece una subrutina
+
+0:06:17.430,0:06:21.139
+pero es una condicion para que functione. 
+
+0:06:21.139,0:06:25.370
+Ahora puedo la correr orta vez y trabaja mejor
+
+0:06:25.370,0:06:30.680
+…ahora puedo volver a la pagina y volver a cargarla y tu consigues la forma 
+
+0:06:30.680,0:06:32.830
+que esta un poco rota aqui
+
+
+0:06:32.830,0:06:36.299
+Asi que vamos a intentar a hacerla un poco mas hermosa
+so let's try to make it a
+bit nicer
+
+0:06:36.299,0:06:39.249
+Vuelvo al editor, al
+
+0:06:39.249,0:06:42.889
+Template y lo primero vamos  
+
+0:06:42.889,0:06:44.569
+Un poco más amplio
+
+0:06:44.569,0:06:50.400
+Y despues vamos a poner una pausa al final y tambien hacer la area de texto  
+
+0:06:50.400,0:06:52.339
+vamos a decir
+
+0:06:52.339,0:06:54.919
+10 lineas, y
+
+0:06:54.919,0:06:55.820
+80 columnas
+
+0:06:55.820,0:06:58.539
+asi que sera de las mismas dimensiones
+
+0:06:58.539,0:06:59.869
+y despues
+
+0:06:59.869,0:07:03.810
+vamos a poner la clave presentar en lugar de la clave "Submit Query" 
+
+0:07:03.810,0:07:04.650
+vamos a decir
+
+0:07:04.650,0:07:06.219
+poner
+
+0:07:06.219,0:07:07.070
+valor
+
+0:07:07.070,0:07:08.969
+que es Post
+
+0:07:08.969,0:07:09.979
+y despues
+
+0:07:09.979,0:07:13.550
+vuelvo a cargar la pagina. Despues se ve mejor que antes a pesar 
+
+0:07:13.550,0:07:18.599
+que los 80 aqui y los 80 aqui no son las mismas. Extraño, nunca comprendi esto.
+
+0:07:18.599,0:07:21.300
+Probablemente alguien quisiera explicarmelo
+
+0:07:21.300,0:07:26.229
+y alli no esta clave para presentar
+
+0:07:26.229,0:07:31.899
+Ahora si escribo algo como un titulo, y como…
+
+0:07:31.899,0:07:33.289
+mi texto
+
+0:07:33.289,0:07:40.049
+Despues,…bueno vamos a decir algo mas vamos a decir hello,hello HELLO!
+
+0:07:40.049,0:07:42.830
+y enpujo Enviar 
+
+0:07:42.830,0:07:47.089
+despues tengo algo extraño…se vuelve no…no
+
+0:07:47.089,0:07:49.210
+Esta enviando el titulo
+
+0:07:49.210,0:07:54.069
+Pero no lo esta enviando en el texto…a ver que hice mal
+
+0:07:54.069,0:07:55.149
+asi…
+
+0:07:55.149,0:08:00.499
+No he dado un nombre por el por ejemplo asi que necesito llamarlo.
+
+0:08:00.499,0:08:01.240
+Se llama test
+
+0:08:01.240,0:08:05.789
+y este método…tengo que
+
+0:08:05.789,0:08:06.770
+fijar el problema
+
+0:08:06.770,0:08:07.849
+y despues
+
+0:08:07.849,0:08:10.619
+Puedo volver aqui
+
+0:08:10.619,0:08:14.540
+Volver a cargar tota la pagina y despues vamos a decir hello y este sera 
+
+0:08:14.540,0:08:16.270
+world
+
+0:08:16.270,0:08:19.669
+Y si hago clic sobre la entrada obtengo un error. Esto esta mucho mejor.
+
+0:08:19.669,0:08:21.379
+¿sabes por que tuve este error?
+
+0:08:21.379,0:08:25.219
+He tenido el error por que esta es una speticion POST y no GET.
+
+0:08:25.219,0:08:26.830
+que esta bien por que esto es lo que quise
+
+0:08:26.830,0:08:29.919
+Pero no escribi aqui que hacer cuando
+
+0:08:29.919,0:08:30.770
+alegamos a
+
+0:08:30.770,0:08:31.829
+la peticion POST.
+
+0:08:31.829,0:08:34.150
+quero definirla
+
+0:08:34.150,0:08:35.370
+y digo
+
+0:08:35.370,0:08:38.470
+Si tengo la peticion POST en esta pagina 
+
+0:08:38.470,0:08:43.420
+llamo esto subrutina 
+
+0:08:43.420,0:08:45.440
+que hace algo diferente.
+
+0:08:45.440,0:08:48.170
+lo que esto hace…ah…no olvides el punto y coma.
+
+0:08:48.170,0:08:49.670
+Asi que ¿que es lo que esto hace?
+
+0:08:49.670,0:08:54.400
+Esto necesita tomar la metoda params y desde ahi buscar la
+
+0:08:54.400,0:08:55.230
+valor del titulo
+
+0:08:55.230,0:08:57.760
+y lo primero vamos a decir volver a esto
+and first thing let's say just return this one
+
+0:08:57.760,0:08:58.800
+asi que
+
+0:08:58.800,0:09:00.450
+Terminar esto
+
+0:09:00.450,0:09:01.939
+Cargar otra vez la aplication 
+
+0:09:01.939,0:09:03.079
+y verla otra vez.
+
+0:09:03.079,0:09:06.029
+Si vuelvo a cargar la pagina y enviar los datos otra vez 
+
+0:09:06.029,0:09:10.550
+voy a obtener hello que el el titulo que yo escribi
+
+0:09:10.550,0:09:14.420
+esta bien que trabaja. Necesitamos guardarla en algun lugar. Puedo utilizar una clase de
+
+0:09:14.420,0:09:15.470
+base de datos
+
+0:09:15.470,0:09:20.520
+pero quero hacerlo mas simple ahora. Voy a utilizar
+
+0:09:20.520,0:09:21.180
+directorio JSON.
+
+0:09:21.180,0:09:22.980
+Donde esta el directorio JSON?
+
+0:09:22.980,0:09:25.700
+Debemos definirlo y configurarlo
+
+0:09:25.700,0:09:28.540
+En el directorio de configuracion escribo dwimmer
+
+0:09:28.540,0:09:30.300
+Cual es el nomber de la aplication
+
+0:09:30.300,0:09:35.700
+Y despues voy a salvar todo en los datos de la aplication 
+
+0:09:35.700,0:09:37.890
+Y despues vamos a decir
+
+0:09:37.890,0:09:43.340
+Voy a llamr la area json y voy a poner alli
+
+0:09:43.340,0:09:45.620
+El nombre del directorio.
+
+0:09:45.620,0:09:49.130
+Donde voy a guardar los datos.
+
+0:09:49.130,0:09:52.540
+Asi que este directorio sera mi base de datos.
+
+0:09:52.540,0:09:55.310
+Como puedo llegar a los datos
+
+0:09:55.310,0:09:57.680
+Escribo la conficuracion
+
+0:09:57.680,0:10:01.490
+Esta function toma todos los datos de configuracion
+
+0:10:01.490,0:10:05.200
+Y puedo escribir los claves
+
+0:10:05.200,0:10:10.250
+Y tiene dos claves. este es el nombe del directorio donde
+
+0:10:10.250,0:10:11.600
+los datos seran.
+
+0:10:11.600,0:10:15.960
+Asi que pongo todo dentro de una variable solo para simplificar mi trabajo
+
+0:10:15.960,0:10:17.569
+Pongo en la variable.
+
+0:10:17.569,0:10:22.810
+Despues necesito leer los datos del directorio. Asi que leo
+
+0:10:22.810,0:10:27.960
+escribiendo read_file y el nombre del directorio
+y lo pongo en una variable
+
+0:10:27.960,0:10:31.700
+Pero estos datos seran json.
+¿bien? Por que alli, lo que estamos salvando
+
+0:10:31.700,0:10:33.510
+Es  json. Asi que 
+
+0:10:33.510,0:10:35.510
+pongo todo en una variable llamada $json
+
+0:10:35.510,0:10:38.250
+Tengo que transformar los datos en
+
+0:10:38.250,0:10:40.480
+Una estructura Perl 
+
+0:10:40.480,0:10:41.640
+Asi que
+
+0:10:41.640,0:10:44.620
+from_json es la function que  
+
+0:10:44.620,0:10:47.780
+Hara la cadena json 
+
+0:10:47.780,0:10:52.200
+Y nos devolvera los datos que necesitamos
+
+0:10:52.200,0:10:53.790
+Esta es una estructura de datos.
+
+0:10:53.790,0:10:58.170
+Ahora,obiamente la primera vez que lo corremos no tendremos el 
+json file alli. En este caso
+
+0:10:58.170,0:11:00.779
+Debemos limpar e lio
+
+0:11:00.779,0:11:01.990
+Para devolverlo
+
+0:11:01.990,0:11:05.840
+La manera en la que podemos hacer esto es verificar si alli esta  
+
+0:11:05.840,0:11:07.900
+El directorio, si existe
+
+0:11:07.900,0:11:10.010
+Y si existe lo llamamos...
+
+0:11:10.010,0:11:12.310
+Leer en el directorio. Si no existe
+
+0:11:12.310,0:11:13.380
+solo
+
+0:11:13.380,0:11:16.559
+Devoolvemos la cadena con dos brazor curbados 
+
+0:11:16.559,0:11:20.250
+La forma en la que json defiene sus lios
+
+0:11:20.250,0:11:24.210
+Asi obtenemos un json vacio
+alli
+
+0:11:24.210,0:11:29.990
+Y despues los datos  y ahora solo tenemos que poner piezas nuevas…a la nueva
+
+0:11:29.990,0:11:31.180
+Entrada al blog.
+
+0:11:31.180,0:11:35.790
+Primero tomamos la fecha y hora.
+Tenemos una nueva variable
+
+0:11:35.790,0:11:36.930
+llamada $now
+
+0:11:36.930,0:11:39.050
+Y pongo la fecha y hora
+
+0:11:39.050,0:11:40.240
+Y despues
+
+0:11:40.240,0:11:43.550
+Pongo los datos
+
+0:11:43.550,0:11:46.430
+"now" sera la clave
+
+0:11:46.430,0:11:50.279
+Estamos guardando las entradas del blog
+
+0:11:50.279,0:11:52.320
+Conforme con timestamp necesitan
+
+0:11:52.320,0:11:54.129
+Poner un
+
+0:11:54.129,0:11:55.780
+titulo
+
+0:11:55.780,0:12:01.080
+Y yo solo lo llevo de aqui por que no lo necesito mas
+
+0:12:01.080,0:12:03.930
+Y tambien tengo el texto 
+
+0:12:03.930,0:12:05.870
+Del utilizatorio
+
+0:12:05.870,0:12:09.420
+Esta es la forma de los params textos
+
+0:12:09.420,0:12:10.820
+Y esto es.
+
+0:12:10.820,0:12:11.560
+ahora
+
+0:12:11.560,0:12:12.820
+Tenemos los datos,
+
+0:12:12.820,0:12:14.779
+Para la nueva entrada $data
+
+0:12:14.779,0:12:16.510
+Y solo los guardamos
+
+0:12:16.510,0:12:19.459
+usando write_file
+
+0:12:19.459,0:12:21.620
+Dandolos el nombre del directorio
+
+0:12:21.620,0:12:22.960
+Y los
+
+0:12:22.960,0:12:25.890
+datos. Ahora el $data esta
+
+0:12:25.890,0:12:27.340
+estructurado como perl data,asi como lo he querido
+
+0:12:27.340,0:12:32.960
+Salvalo como json asi tenemos que convertirlo en to_json.
+
+0:12:32.960,0:12:35.729
+Esto es. 
+una vez que termine
+
+0:12:35.729,0:12:37.410
+Hemos querido guardar eso.
+
+0:12:37.410,0:12:38.690
+Perdon, queremos mostrar
+
+0:12:38.690,0:12:42.730
+Algo al utilizatorio
+Hemos querido redirectionar
+
+0:12:42.730,0:12:47.330
+Redirectionar el utilizatorio a la raiz,
+
+0:12:47.330,0:12:48.450
+De la pagina principal.
+
+0:12:48.450,0:12:50.009
+En la pagina principan nosotros no hemos
+
+0:12:50.009,0:12:52.679
+Publicado el contenido, todavia
+
+0:12:52.679,0:12:55.120
+Pero vamos a ver como functiona?
+
+0:12:55.120,0:12:59.790
+Pero para que esto functione necesito cortar la aplication y volver a cargarla
+
+0:12:59.790,0:13:02.800
+y si no he cometido errores deberia trabajar.
+
+0:13:02.800,0:13:04.770
+Pero, esta vez
+
+0:13:04.770,0:13:11.560
+la forma. He completado y he hecho clic en mostrar
+y tengo error de tiempo de ejecution. Asi que este es el error.
+
+0:13:11.560,0:13:13.699
+No puedo localizar el metodo write_file.
+
+0:13:13.699,0:13:14.890
+Bien, obiamente
+
+0:13:14.890,0:13:16.500
+Por que
+
+0:13:16.500,0:13:17.470
+...
+
+0:13:17.470,0:13:20.990
+el from_json y el to_json functions
+forman parte del Dancer
+
+0:13:20.990,0:13:23.460
+Pero el read_file y the write_file
+No son.
+
+0:13:23.460,0:13:26.900
+Necesitamos cargar un modulo que proporcionarlas.
+
+0:13:26.900,0:13:27.980
+utiliza
+
+0:13:27.980,0:13:29.500
+File
+
+0:13:29.500,0:13:31.420
+::
+
+0:13:31.420,0:13:32.260
+Slurp
+
+0:13:32.260,0:13:37.210
+esto el el nombre del modulo y me da un read_file y 
+
+0:13:37.210,0:13:41.230
+write_file function.
+
+0:13:41.230,0:13:46.260
+Asi que las he salado. Ahora tengo que cargar otra vez la aplication por que he cambiado el codigo
+
+0:13:46.260,0:13:49.490
+Vuelvo a intrentarlo asi que regreso
+
+0:13:49.490,0:13:50.590
+y
+
+0:13:50.590,0:13:52.130
+mostrar otra vez
+
+0:13:52.130,0:13:54.690
+Y aqui somos
+
+0:13:54.690,0:13:58.860
+Dice que esta bien. Ha vuelto a la..
+
+0:13:58.860,0:14:02.020
+Pagina web raiz, la principal, pero no veo 
+
+0:14:02.020,0:14:05.720
+Los datos asi que vamos a verificar que los datos han sido salvados. 
+
+0:14:05.720,0:14:11.329
+Vuelvo al Padre y al directorio de trabajo. Hemos dicho que
+
+0:14:11.329,0:14:15.920
+dwimmer.json sera alla y aqui estamos. Alla esta una fecha y hora
+
+0:14:15.920,0:14:18.880
+Al texto y titulo que nosotros hemos salvado
+
+0:14:18.880,0:14:23.190
+Parece que esta guardando todo en el directorio. Ahora vamos a tratar de mostrarlo
+So it seems that it is saving into the
+file. Now let's try to display it
+
+0:14:23.190,0:14:23.950
+en la 
+
+0:14:23.950,0:14:25.010
+pagina.
+
+0:14:25.010,0:14:26.820
+Para esto vamos
+
+0:14:26.820,0:14:28.660
+a
+
+0:14:28.660,0:14:31.630
+la pagina principal y aqui esta lo que necesitamos
+main page and here what we need
+
+0:14:31.630,0:14:33.450
+para leer los datos otra vez.
+
+0:14:33.450,0:14:37.720
+Solo el la forma simple como nosotros lo hemos hecho aqui. Asi que ahora todo se resume a copiar y pegar
+
+0:14:37.720,0:14:40.590
+los datos.
+
+0:14:40.590,0:14:43.700
+y despues tenemos todos los datos en
+
+0:14:43.700,0:14:45.830
+la variable llamada $data
+
+0:14:45.830,0:14:49.720
+Nos gustaria enviarlo al template como un parametre.
+
+0:14:49.720,0:14:52.440
+asi
+
+0:14:52.440,0:14:54.030
+acabamos de enviarlo
+
+0:14:54.030,0:14:56.220
+como un parametre del template.
+
+0:14:56.220,0:14:57.480
+En el template
+
+0:14:57.480,0:15:00.060
+Vamos a ver que esta en el template. Esta es la pagina
+
+0:15:00.060,0:15:01.840
+Aqui esta el index del template.
+
+0:15:01.840,0:15:02.890
+En el template
+
+0:15:02.890,0:15:04.549
+mos gustaria monstar
+
+0:15:04.549,0:15:05.940
+Los datos
+
+0:15:05.940,0:15:09.670
+Cual son realmente..ahora nosotros..este es el lio. Como podemos buscarlo 
+
+0:15:09.670,0:15:11.749
+en el Template::Toolkit
+
+0:15:11.749,0:15:13.530
+y monstrarselo al utilizatorio?
+
+0:15:13.530,0:15:18.220
+En el Template::Toolkit es un genérico asi que tienes un lazo
+
+0:15:18.220,0:15:22.620
+y despues pones en una variable que es, vamos a decir
+
+0:15:22.620,0:15:23.610
+pagina
+
+0:15:23.610,0:15:28.690
+y esta la hace y nosotros tenemos los datos asi que tenemos
+
+0:15:28.690,0:15:30.720
+Que buscar las claves por ellas
+
+0:15:30.720,0:15:35.450
+en el diccionario y nos gustaria sortarlas asi que
+
+0:15:35.450,0:15:36.950
+las ordenamos
+
+0:15:36.950,0:15:41.200
+Ésta es la manera de pasar por alto todos los elementos de este lio 
+
+0:15:41.200,0:15:42.340
+y despues
+
+0:15:42.340,0:15:44.800
+lo terminamos asi.
+
+0:15:44.800,0:15:47.280
+En el interior puedo mostrar 
+
+0:15:47.280,0:15:51.430
+el contenido real de la variable llamada¨p¨ 
+
+0:15:51.430,0:15:53.580
+que sera la fecha y hora
+which is going to be the timestamp.
+
+0:15:53.580,0:15:55.860
+Ahora si regreso 
+
+0:15:55.860,0:16:01.110
+debo reanudar por que he cambiado el codigo tambien asi que
+
+0:16:01.110,0:16:06.560
+si reanudo la pagina vamos a ver la fecha y hora de la sola entrada que tenemos.
+
+0:16:06.560,0:16:08.020
+Ahora esta bonito pero
+
+0:16:08.020,0:16:09.130
+nos gustaria 
+
+0:16:09.130,0:16:11.830
+ver el titulo y el contenido.
+
+0:16:11.830,0:16:17.080
+La forma de realizar este Template::Toolkit es decir que me gustaria imprimar
+
+0:16:17.080,0:16:18.170
+datos.
+
+0:16:18.170,0:16:22.380
+Y despues p es una variable asi que utilizo un $ en frente de esto.
+
+0:16:22.380,0:16:25.550
+y el ¨titulo¨ llave de este.
+
+0:16:25.550,0:16:29.800
+Y despues nos gustaria ver el texto. ¿Verdad?
+
+0:16:29.800,0:16:32.730
+Asi que nos gustaria ver todo esto.
+
+0:16:32.730,0:16:36.090
+Si regreso a la pagina web y la cargo orta vez no necesito restartar la  
+
+0:16:36.090,0:16:39.750
+aplicatión  por que solo cargo el template
+
+0:16:39.750,0:16:44.950
+Y veo ¨hello world¨ cual es el titulo y el texto…y…vamos a ver
+
+0:16:44.950,0:16:46.630
+esta más bonito
+
+0:16:46.630,0:16:49.060
+vamos a poner y H2
+
+0:16:49.060,0:16:53.350
+al rededor del titulo
+
+0:16:53.350,0:16:54.409
+y vamos a poner
+
+0:16:54.409,0:16:57.010
+una linea horizontal
+
+0:16:57.010,0:17:00.600
+En frente de la 
+
+0:17:00.600,0:17:03.199
+nueva entrada de blog aqui estamos.
+
+0:17:03.199,0:17:07.780
+alla esta la parte del titulo y despues hello el titulo de la entrada. Ahora vamos  
+
+0:17:07.780,0:17:09.180
+a crear una nueva entrada
+
+0:17:09.180,0:17:14.620
+solo para asegurarme que sigue trabajando asi que…segunda entrada 
+
+0:17:14.620,0:17:16.170
+más texto
+
+0:17:16.170,0:17:17.760
+más texto
+
+0:17:17.760,0:17:19.170
+y lo subo
+
+0:17:19.170,0:17:22.400
+y aqui estamos y tenemos una primera entrada y una segunda
+
+0:17:22.400,0:17:23.700
+y tenemos el motor
+
+0:17:23.700,0:17:25.909
+Gracias por prestar atencion…si queres
+
+0:17:25.909,0:17:27.590
+publicar  en Dwimmer
+
+0:17:27.590,0:17:31.970
+alli esta en realidad dwimmer.org y asi tu lo puedes ver y puedes usar to perldancer.org y descargar
+
+0:17:31.970,0:17:34.350
+esta bonito, me gusta. 
+
+0:17:34.350,0:17:35.160
+muchas graciar por ver y prestar atencion
+hasta pronto
