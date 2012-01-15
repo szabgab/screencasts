@@ -1,0 +1,696 @@
+0:00:00.000,0:00:04.533
+Hezký den, vítejte u videotutoriálu k Perlu
+
+0:00:04.533,0:00:06.599
+Tentokrát budu mluvit o
+
+0:00:06.599,0:00:08.733
+několika vestavěných
+
+0:00:08.733,0:00:12.800
+funkcích pro práci s řetězci v perlu
+
+0:00:12.800,0:00:14.768
+Je zde spousta základních, jako třeba...
+
+0:00:14.768,0:00:16.463
+Ještě přepnu na správné okno
+
+0:00:16.463,0:00:20.932
+Takže, v perlu je spousta základních funkcí, například
+
+0:00:20.932,0:00:24.056
+lc, která vrátí řetězec převedený na malá písmena
+
+0:00:24.056,0:00:26.423
+uc, která vrátí řetězec převedený na velká písmena
+
+0:00:26.423,0:00:30.324
+a length, která vrátí počet znaků v řetězci
+
+0:00:30.324,0:00:34.643
+Napsal sem pár ukázkových souborů
+
+0:00:34.643,0:00:38.000
+Zde můžete vidět $str, což je řetězec
+
+0:00:38.000,0:00:40.936
+HeLlo s velkým L tady a s malým l
+
+0:00:40.936,0:00:43.533
+A pokud spustíte tento skript
+
+0:00:43.533,0:00:46.000
+Pojďme jej spustit, ať můžete vidět, co se doopravdy stane
+
+0:00:46.000,0:00:50.712
+Podívejte, první příkaz vypíše "hello", vše malými písmeny
+
+0:00:50.712,0:00:53.267
+Druhý analogicky velkými písmeny
+
+0:00:53.267,0:00:57.213
+a poslední jen vrátí délku řetězce
+
+0:00:57.213,0:01:02.206
+Ani jedna funkce ale nezmění původní řetězec
+
+0:01:02.206,0:01:05.781
+pokud jej chcete změnit, musíte napsat:
+
+0:01:05.781,0:01:10.159
+$str = lc $str;
+
+0:01:10.174,0:01:14.490
+a poté si necháme vypsat $str znovu
+
+0:01:14.490,0:01:18.420
+Pokud jej spustíme znovu, uvidíte, že
+
+0:01:18.420,0:01:22.274
+$str už se skládá jen z malých písmen
+
+0:01:22.274,0:01:25.405
+Tyto funkce patří mezi ty jednodušší
+
+0:01:25.405,0:01:27.799
+Je tu i jedna trochu komplexnější funkce
+
+0:01:27.799,0:01:30.230
+jmenuje se index
+
+0:01:30.230,0:01:32.856
+Index má dva parametry
+
+0:01:32.856,0:01:36.186
+jedním z nich je řetězec jako tento
+
+0:01:36.186,0:01:38.686
+Ještě zvětším písmo
+
+0:01:38.686,0:01:43.371
+prvním parametrem je řetězec
+
+0:01:43.371,0:01:45.102
+to můžete vidět tady
+
+0:01:45.102,0:01:47.773
+a druhým parametrem je také řetězec
+
+0:01:47.773,0:01:50.017
+který je obvykle kratší
+
+0:01:50.017,0:01:55.867
+protože druhý parametr je řetězec, jehož pozici hledáme v prvním parametru
+
+0:01:55.867,0:01:59.814
+takže pokud zavoláme index na tento delší řetězec, s druhým parametrem "cat"
+
+0:01:59.814,0:02:01.765
+vrátí nám 10
+
+0:02:01.765,0:02:06.269
+protože "cat" se nachází na 10. pozici
+
+0:02:06.269,0:02:11.425
+Funkce index počítá čísluje znaky od 0
+
+0:02:11.425,0:02:13.561
+takže toto velké T je na pozici 0
+
+0:02:13.561,0:02:17.651
+proto funkce vrátí 10 - na 10. znaku je "c"
+
+0:02:17.651,0:02:22.266
+Pokud spustím tuto samou funkci, ale druhým parametrem bude "dog"
+
+0:02:22.266,0:02:24.133
+pak vrátí -1
+
+0:02:24.133,0:02:26.667
+protože v tomhle řetězci je jen kočka ("cat")
+
+0:02:26.667,0:02:28.685
+není tu žádný pes ("dog")
+
+0:02:28.685,0:02:33.605
+Tedy v případě chyby či selhání index vrací -1
+
+0:02:33.605,0:02:37.942
+Pokud tedy tuto funkci zavoláte s druhým parametrem,
+
+0:02:37.942,0:02:42.667
+který se v prvním řetězci nevyskytuje, dostanete -1
+
+0:02:42.667,0:02:45.419
+To možná není ta nejpřívětivější varianta,
+
+0:02:45.419,0:02:48.723
+ale musíme s tím počítat.
+
+0:02:48.723,0:02:55.199
+Pokud zavolám index s druhým řetězcem "The", velké T
+
+0:02:55.199,0:02:56.932
+způsobí, že funkce vrátí 0
+
+0:02:56.932,0:03:01.599
+Tady jen ukazuji, že se znaky opravdu číslují od 0
+
+0:03:01.599,0:03:04.733
+Takže index vrátí pozici tohoto "The" ze začátku
+
+0:03:04.733,0:03:07.709
+tedy vrátí 0, protože tím první parametr začíná
+
+0:03:07.709,0:03:12.000
+Další volání, toto, vrátí 26
+
+0:03:12.000,0:03:16.733
+protože index hledá naprosto přesnou shodu,
+
+0:03:16.733,0:03:19.266
+což znamená, že mimo jiné rozlišuje velikost písmen
+
+0:03:19.266,0:03:23.012
+první "The" tedy není vyhovující, díky velkému T,
+
+0:03:23.012,0:03:26.633
+proto bude hledat dál, než narazí na další "the", a tady ho najde
+
+0:03:26.633,0:03:30.953
+Teď si můžete myslet, že index hledá jedno slovo
+
+0:03:30.953,0:03:34.236
+ale to správná představa, správně je, že hledá
+
+0:03:34.236,0:03:38.943
+podřetězec, který se znak po znaku přesně shoduje
+
+0:03:38.943,0:03:41.266
+V dalším příkladu můžete vidět,
+
+0:03:41.266,0:03:44.266
+že hledáme řetězec
+
+0:03:44.266,0:03:47.599
+složený z malého "e" následovaného mezerou
+
+0:03:47.599,0:03:49.332
+a index vrátí 2
+
+0:03:49.332,0:03:52.067
+protože, zde můžete vidět
+
+0:03:52.067,0:03:55.707
+zvýrazněné místo, kde se vyskytuje
+
+0:03:55.707,0:04:00.395
+ale podívejte, tady je také "e "
+
+0:04:00.395,0:04:05.457
+přinutit funkci, aby vrátila pozici druhého "e " můžeme třetím parametrem
+
+0:04:05.457,0:04:11.401
+zde je uvedeno číslo 3, ale může zde být jakékoliv číslo
+
+0:04:11.401,0:04:16.867
+poté funkce index začne hledat na třetí pozici
+
+0:04:16.867,0:04:19.762
+což je tedy ve skutečnosti 4. znak
+
+0:04:19.762,0:04:22.867
+protože se opět počítá od 0
+
+0:04:22.867,0:04:25.427
+třetí pozice, to je až tady
+
+0:04:25.427,0:04:29.420
+proto funkce dojde až k "the" tady,
+
+0:04:29.420,0:04:36.841
+na tomto místě, což je zřejmě 28. pozice
+
+0:04:36.841,0:04:42.067
+Obdobně, zavoláme-li index a dáme jí v 2. parametru znak "e"
+
+0:04:42.067,0:04:43.307
+jen pro ukázku
+
+0:04:43.307,0:04:46.557
+ale ve třetím parametru jí dáme číslo 3
+
+0:04:46.557,0:04:49.800
+poté najde písmeno "e"
+
+0:04:49.800,0:04:51.016
+podívejme...
+
+0:04:51.016,0:04:53.399
+tady, ve slově "jumped"
+
+0:04:53.399,0:04:55.333
+tady je znak "e"
+
+0:04:55.333,0:04:57.702
+to je to, co bude nalezeno
+
+0:04:57.702,0:05:00.350
+Zřejmě místo této 3 zde může být jakékoliv číslo
+
+0:05:00.350,0:05:01.928
+pokud začneme třeba od 5
+
+0:05:01.928,0:05:04.466
+dostaneme stejný výsledek
+
+0:05:04.466,0:05:06.666
+Pojďme to zkusit spustit
+
+0:05:06.666,0:05:10.000
+Takže, jak můžete vidět, hodnoty jsou:
+
+0:05:10.000,0:05:15.838
+10, -1, 0, 26, 2, 28, 18
+
+0:05:15.838,0:05:17.681
+toto je stejná hodnota
+
+0:05:17.681,0:05:19.807
+Nezáleží na tom, kde přesně začnete hledat
+
+0:05:19.807,0:05:21.415
+dokud začnete hledat před
+
+0:05:21.415,0:05:24.770
+výskytem uvažovaného podřetězce
+
+0:05:24.770,0:05:27.132
+Takže, takhle se chová funkce index.
+
+0:05:27.132,0:05:31.132
+ale existuje také funkce pojmenovaná rindex
+
+0:05:31.132,0:05:32.394
+která dělá přesně to samé,
+
+0:05:32.394,0:05:33.973
+jen hledá od konce
+
+0:05:33.973,0:05:35.690
+Je zajímavé,
+
+0:05:35.690,0:05:38.430
+že pokud se hledaný řetězec vyskytuje vícekrát,
+
+0:05:38.430,0:05:42.676
+funkce vrátí ten nejvíce vpravo
+
+0:05:42.676,0:05:45.187
+Zavolání rindex na stejném řetězci
+
+0:05:45.187,0:05:47.649
+s druhým parametrem "e"
+
+0:05:47.649,0:05:49.507
+vrátí 39
+
+0:05:49.507,0:05:53.071
+protože rindex najde toto písmeno "e"
+
+0:05:53.071,0:05:56.216
+rindex může mít také třetí parametr
+
+0:05:56.216,0:05:58.386
+který opět říká, kde začít
+
+0:05:58.386,0:06:01.902
+přesněji pozici začátku, odkud se bude hledat
+
+0:06:01.902,0:06:03.666
+Takže pokud zde dám 38
+
+0:06:03.666,0:06:06.666
+pak najde toto písmeno "e"
+
+0:06:06.666,0:06:07.951
+vrátí tedy 38
+
+0:06:07.951,0:06:11.009
+A pokud začnu tady, od 37
+
+0:06:11.009,0:06:15.533
+pak najde nejspíše toto "e" a vrátí 33
+
+0:06:15.533,0:06:17.346
+To je něco k funkci index
+
+0:06:17.346,0:06:20.552
+A poslední funkce, která je nejspíše tou nejzajímavější
+
+0:06:20.552,0:06:22.533
+z funkcí, které právě ukazuji
+
+0:06:22.533,0:06:24.507
+je substring
+
+0:06:24.507,0:06:27.800
+Substring je vlastně opak funkce index
+
+0:06:27.800,0:06:31.882
+U index víte, co hledáte
+
+0:06:31.882,0:06:33.182
+jaký řetězec hledáte
+
+0:06:33.182,0:06:34.670
+ale nevíte, kde se vyskytuje,
+
+0:06:34.670,0:06:36.295
+hledáte tedy pozici
+
+0:06:36.295,0:06:38.478
+U substring znáte místo,
+
+0:06:38.478,0:06:40.288
+jen nevíte, co na něm je
+
+0:06:40.288,0:06:42.547
+a chcete vědět, co se zde skrývá
+
+0:06:42.547,0:06:45.699
+Substring bere řetězec
+
+0:06:45.699,0:06:48.531
+opět známé "The black cat climbed the green tree";
+
+0:06:48.531,0:06:51.713
+a číslo, které představuje posun, tedy je pozicí
+
+0:06:51.713,0:06:54.266
+začátku podřetězce, který chceme dostat
+
+0:06:54.266,0:06:56.379
+z tohoto původního řetězce.
+
+0:06:56.379,0:07:01.348
+opět, znaky jsou číslovány od 0, takže 0 znamená první znak
+
+0:07:01.348,0:07:06.156
+a 4 značí toto "b";
+
+0:07:06.156,0:07:09.685
+třetí parametrem je délka
+
+0:07:09.685,0:07:11.542
+podřetězce, který se snažíme dostat
+
+0:07:11.542,0:07:13.423
+Protože zde je délka 5 znaků,
+
+0:07:13.423,0:07:16.557
+funkce vrátí řetězec začínající na tohle "b"
+
+0:07:16.557,0:07:20.320
+...5 znaků, dostaneme slovo "black"
+
+0:07:20.320,0:07:22.733
+Substring vrátí tyto hodnoty
+
+0:07:22.733,0:07:24.768
+a zřejmě si je můžu uložit do...
+
+0:07:24.768,0:07:31.233
+což jsem vlastně již ukázal v příkladech s lc a index
+
+0:07:31.233,0:07:34.158
+... můžete si vrácenou hodnotu uložit do nějaké proměnné
+
+0:07:34.158,0:07:38.432
+Tady také, jen jsem líný a proto navrácenou hodnotu ihned vytisknu
+
+0:07:38.432,0:07:43.045
+Toto volání vrátí slovo "black"
+
+0:07:43.045,0:07:46.067
+V dalším příkladu můžete vidět,
+
+0:07:46.067,0:07:49.437
+že délka může být i záporná
+
+0:07:49.437,0:07:51.733
+Co by tu záporné číslo dělalo?
+
+0:07:51.733,0:07:56.449
+Namísto představy, že se jedná o skutečnou délku,
+
+0:07:56.449,0:08:00.583
+Perl dělá to, že tato čtyřka znamená
+
+0:08:00.583,0:08:03.415
+kolik znaků zleva mám vynechat
+
+0:08:03.415,0:08:05.180
+a toto číslo, je-li záporné, říká,
+
+0:08:05.180,0:08:08.333
+kolik znaků zprava mám vynechat
+
+0:08:08.333,0:08:12.067
+Tedy, jednoduše, říká počítej 4 zleva,
+
+0:08:12.067,0:08:14.446
+a 11 zprava
+
+0:08:14.446,0:08:15.924
+a cokoliv co je mezi
+
+0:08:15.924,0:08:17.394
+- to je to, co chci vrátit
+
+0:08:17.394,0:08:22.920
+To je důvod, proč je vráceno "black cat climbed the"
+So that's how the "black cat climbed the" is returned
+
+0:08:22.920,0:08:26.666
+Třetí znak je možné vynechat
+
+0:08:26.666,0:08:29.942
+to je použito v tomto případě, jak můžete vidět:
+
+0:08:29.942,0:08:34.532
+jen to vrátí podřetězec od pozice 14 až do konce
+
+0:08:34.532,0:08:38.326
+protože jsem neřekl, jak dlouhý řetězec má vzít
+
+0:08:38.326,0:08:42.461
+Jen jsme řekli, od tohoto znaku, až po konec
+
+0:08:42.461,0:08:44.440
+A jak zde můžete vidět,
+
+0:08:44.440,0:08:47.265
+i druhý parametr, pozice,
+
+0:08:47.265,0:08:49.055
+může být záporný
+
+0:08:49.055,0:08:51.726
+to bude znamenat, jak už asi tušíte,
+
+0:08:51.726,0:08:53.353
+že se počítá od konce, zprava
+
+0:08:53.353,0:08:57.594
+Tedy místo, abyste funkci dali v parametru length-4
+
+0:08:57.594,0:08:59.793
+stačí, když jí dáte jen -4
+
+0:08:59.793,0:09:03.994
+což bude znamenat: začni z tohoto místa
+
+0:09:03.994,0:09:06.994
+A protože v tomto příkladu
+
+0:09:06.994,0:09:09.793
+neudávám počet znaků
+
+0:09:09.793,0:09:12.553
+funkce mi vrátí všechny znaky až po konec řetězce
+
+0:09:12.553,0:09:16.373
+to jsou jen 4 písmena: "tree"
+
+0:09:16.373,0:09:19.076
+Zřejmě, jak ukazuje tento příklad,
+
+0:09:19.076,0:09:21.619
+můžete jí dát i třetí parametr
+
+0:09:21.619,0:09:23.660
+pak vám vrátí
+
+0:09:23.660,0:09:27.594
+první 2 znaky z posledních čtyř
+
+0:09:27.594,0:09:29.394
+tedy "tr"
+
+0:09:29.394,0:09:31.757
+Pojďme to spustit, ať můžete vidět,
+
+0:09:31.757,0:09:33.994
+že je tu doopravdy "tr", správně
+
+0:09:33.994,0:09:36.326
+A, pokud to trochu pozměním,
+
+0:09:36.326,0:09:40.040
+například sem dám "1",
+
+0:09:40.040,0:09:45.630
+poté to spustím, dostanu jen "t"
+
+0:09:45.630,0:09:49.421
+A pokud bych tam dal "3" a spustil,
+
+0:09:49.421,0:09:54.395
+dostal bych "tre", což by mělo být jasné
+
+0:09:54.395,0:09:57.247
+Poslední příklad je trochu děsivý
+
+0:09:57.247,0:10:00.462
+Takže potud toto volání vracelo podřetězec...
+
+0:10:00.462,0:10:05.719
+ale původní $str zůstalo nezměněné
+
+0:10:05.719,0:10:09.970
+V posledním příkladu, navrácená hodnota je pořád stejná
+
+0:10:09.970,0:10:13.447
+a je určená prvními třemi parametry
+
+0:10:13.447,0:10:15.616
+ale v této poslední ukázce
+
+0:10:15.616,0:10:17.847
+máme také čtvrtý parametr,
+
+0:10:17.847,0:10:23.457
+kterým je, jak je vidět, řetězec "jumped from"
+
+0:10:23.457,0:10:26.309
+A nyní k tomu, co se v tomto příkladu stane:
+
+0:10:26.309,0:10:31.663
+Funkce substring nahradí podřetězec,
+
+0:10:31.663,0:10:36.180
+který byl určený těmito třemi parametry,
+
+0:10:36.180,0:10:39.328
+za řetězec, který je určený ve čtvrtém parametru
+
+0:10:39.328,0:10:49.447
+Tedy, protože 14, 7 určuje podřetězec tvořený slovem "climbed",
+
+0:10:49.447,0:10:55.796
+navrácenou hodnotou, v $z$, bude "climbed",
+
+0:10:55.796,0:10:59.796
+ale navíc se pozmění obsah $str,
+
+0:10:59.796,0:11:04.734
+a slovo "climbed" v něm bude nahrazeno slovem "jumped from",
+
+0:11:04.734,0:11:07.816
+dvěma slovy, vlastně podřetězcem..
+
+0:11:07.816,0:11:10.713
+V tomto případě bude $str obsahovat:
+
+0:11:10.713,0:11:13.380
+"The black cat jumped from the green tree"
+
+0:11:13.380,0:11:15.970
+A jak můžete pozorovat, Perl nezajímá, že
+
+0:11:15.970,0:11:20.221
+nový řetězec, nový podřetězec je delší
+
+0:11:20.221,0:11:22.236
+než původně byl
+
+0:11:22.236,0:11:24.955
+Perl si prostě udělá dostatečné místo v řetězci
+
+0:11:24.955,0:11:28.159
+nebo, pokud pár znaků vynechám, například..
+
+0:11:28.159,0:11:29.836
+Ještě to předtím spustím
+
+0:11:29.836,0:11:31.129
+tady můžete vidět,
+
+0:11:31.129,0:11:33.242
+"The black cat jumped from the green tree"
+
+0:11:33.242,0:11:34.513
+to funguje..
+
+0:11:34.513,0:11:38.882
+Co se stane, pokud sem vložím jen písmeno "j"
+
+0:11:38.882,0:11:40.878
+a spustím to? Uvidíte výsledek
+
+0:11:40.878,0:11:43.334
+"The black cat j the green tree"
+
+0:11:43.334,0:11:45.498
+ačkoliv to nic neznamená..
+
+0:11:45.498,0:11:49.534
+Doopravdy nezáleží na tom, nakolik jsou délky rozdílné
+
+0:11:49.534,0:11:51.447
+Čtvrtým parametrem může být i prázdný řetězec,
+
+0:11:51.447,0:11:53.939
+ale musí být uveden
+
+0:11:53.939,0:11:59.275
+a poté Perl podřetězec prostě vyřízne z původního textu
+
+0:11:59.275,0:12:01.196
+ale ponechá, v tomto případě, 2 mezery,
+
+0:12:01.196,0:12:03.955
+protože mezera je před slovem "climbed"
+
+0:12:03.955,0:12:05.713
+i za ním
+
+0:12:05.713,0:12:07.565
+Takže, to je k funkci substring
+
+0:12:07.565,0:12:09.247
+Doufám, že jste se něco naučili
+
+0:12:09.247,0:12:11.165
+a podíváte se na další část
+
+0:12:11.165,0:12:12.898
+Pokud se díváte na YouTube,
+
+0:12:12.898,0:12:15.196
+budu rád, pokud se přihlásíte k odběru kanálu
+
+0:12:15.196,0:12:17.446
+Díky, mějte se
