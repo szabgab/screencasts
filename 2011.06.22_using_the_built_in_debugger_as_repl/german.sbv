@@ -1,0 +1,394 @@
+0:00:04.029,0:00:08.730
+Hallo und willkommen zurück auf meinem Kanal.
+Dieses mal zeige ich dir,
+wie man den
+
+0:00:08.730,0:00:10.989
+Debugger von Perl
+
+0:00:10.989,0:00:12.389
+als REPL (Read Eval Print Loop) benutzt.
+
+0:00:12.389,0:00:15.339
+Also nicht wirklich wie man
+ein Perl Script debuggt,
+
+0:00:15.339,0:00:19.559
+sondern stattdessen wie
+Perl funktioniert.
+
+0:00:19.559,0:00:22.019
+Also wir öffnen die Eingabeaufforderung
+
+0:00:22.019,0:00:24.060
+und wie du weist kannst du dort eingeben:
+
+0:00:24.060,0:00:28.079
+perl -e
+und dann Perl Code ('print 42').
+
+0:00:28.079,0:00:31.939
+Wenn du es ausführst siehst du, 
+dass hier 42 ausgegeben wurde.
+
+0:00:31.939,0:00:35.380
+Du kannst dort auch einfach 1
+
+0:00:35.380,0:00:37.040
+als Wert übergeben,
+
+0:00:37.040,0:00:40.660
+was einem leeren Script entspricht.
+Du führst es aus,
+
+0:00:40.660,0:00:41.770
+nichts passiert
+
+0:00:41.770,0:00:45.090
+und dann kannst du es debuggen,
+
+0:00:45.090,0:00:47.120
+mit -d.
+
+0:00:47.120,0:00:52.770
+Dann kannst du den Debugger starten.
+Du kannst die Parameter aber auch zusammenfassen,
+
+0:00:52.770,0:00:57.420
+deswegen schreibt man normalerweise einfach
+-de1
+
+
+0:00:57.420,0:00:58.750
+und dann führe ich es aus.
+
+0:00:58.750,0:01:04.360
+Es öffnet sich der Debugger
+und der führt
+
+0:01:04.360,0:01:05.540
+das leere Script aus.
+
+0:01:05.540,0:01:10.080
+Nun können wir hier beliebigen Perlcode ausführen
+oder die Tools des Debuggers benutzen.
+
+0:01:10.080,0:01:12.299
+Ich kann zum Beispiel print 42 eingeben
+
+0:01:12.299,0:01:16.230
+und er gibt 42 aus.
+
+0:01:16.230,0:01:19.920
+Oder ich kann festlegen, dass $x 42 ist.
+
+0:01:19.920,0:01:23.940
+Dann wird der Variable der Wert 42 zugewiesen.
+
+0:01:23.940,0:01:24.910
+Und dann kann ich
+
+0:01:24.910,0:01:30.660
+wieder die print-Funktion benutzen und
+es ausgeben, oder ich benutze das eingebaute Tool
+
+0:01:30.660,0:01:31.830
+des Debuggers, welches das
+
+0:01:31.830,0:01:36.040
+p Kommando ist, um die Variable auszugeben. 
+
+0:01:36.040,0:01:38.950
+Auf dem gleichen Weg wie ich den Wert der
+skalaren Variable zugewiesen habe, kann ich ihn auch
+
+0:01:38.950,0:01:42.350
+beispielsweise einem Array zuweisen.
+
+0:01:42.350,0:01:47.210
+Hier sind die Werte
+
+0:01:47.210,0:01:48.900
+Foo Bar und Baz
+
+0:01:48.900,0:01:52.740
+Und dann kann ich die Werte ausgeben,
+
+0:01:52.740,0:01:54.540
+entweder mit der normalen print-Funktion,
+
+0:01:54.540,0:01:57.550
+aber das sieht nicht besonders schön aus.
+
+0:01:57.550,0:01:58.520
+Oder ich kann
+
+0:01:58.520,0:02:00.659
+Anführungszeichen darum setzen
+
+0:02:00.659,0:02:04.420
+und es sieht etwas besser aus,
+weil da nun Leerzeichen sind.
+
+0:02:04.420,0:02:08.569
+Aber wenn du es auf diesem Weg ausgibst
+kann unklar sein,
+
+0:02:08.569,0:02:14.869
+ob @names drei Werte
+oder nur einen Wert mit Leerzeichen enthält.
+
+0:02:14.869,0:02:18.290
+Ein besserer Weg zu sehen
+was in dem Array ist,
+
+0:02:18.290,0:02:20.489
+ist es das x-Kommando
+
+0:02:20.489,0:02:22.309
+des Debuggers
+
+0:02:22.309,0:02:24.159
+zu nutzen
+
+0:02:24.159,0:02:28.579
+und auf das Array zu referenzieren
+Auf diesem Weg wird es
+
+0:02:28.579,0:02:32.429
+die Referenz sowie die Index-Wert Paare ausgeben.
+
+0:02:32.429,0:02:36.439
+So kannst du auch Hashes erstellen.
+
+0:02:36.439,0:02:44.799
+Wenn du also fname als Foo
+
+0:02:44.799,0:02:45.949
+und lname als Bar hast,
+
+0:02:45.949,0:02:49.089
+einfach der Konsistenz halber,
+
+0:02:49.089,0:02:53.709
+haben wir nun einen Hash und
+
+0:02:53.709,0:02:56.250
+können nun den Inhalt des Hashes ausgeben,
+
+0:02:56.250,0:02:58.319
+mit dem gleichen Werkzeug, dem x-Kommando.
+
+0:02:58.319,0:03:00.059
+Es wird ausgeben, dass es sich um eine Hashreferenz handelt,
+
+0:03:00.059,0:03:04.649
+die Keys und die
+
+0:03:04.649,0:03:05.629
+zugehörigen Werte.
+
+0:03:05.629,0:03:06.859
+
+0:03:06.859,0:03:09.170
+Du kannst auch andere Dinge tun, zum Beispiel
+
+0:03:09.170,0:03:10.419
+kannst du
+
+0:03:10.419,0:03:13.159
+herausfinden wie die
+
+0:03:13.159,0:03:16.029
+Push-Funktion funktioniert.
+
+0:03:16.029,0:03:20.669
+Gib push @names, 'Moose' ein,
+
+0:03:20.669,0:03:23.479
+danach kannst du zurückgehen und
+
+0:03:23.479,0:03:27.659
+es wird der Arrayinhalt ausgegeben
+an dem du sehen kannst, dass
+
+0:03:27.659,0:03:31.079
+dieses Array
+
+0:03:31.079,0:03:34.759
+länger wurde und der 'Moose' Wert hinzugefügt ist.
+
+0:03:34.759,0:03:38.729
+So kannst du Perlcode über den Debugger erforschen,
+
+0:03:38.729,0:03:42.869
+manchmal durch Nutzung der Perlfunktionen
+
+0:03:42.869,0:03:44.270
+und manchmal durch Nutzung der Debuggerkommandos,
+
+0:03:44.270,0:03:47.089
+wie du an print und x gesehen hast.
+
+0:03:47.089,0:03:51.399
+Du kannst hier auch Module nutzen,
+
+0:03:51.399,0:03:52.319
+zum Beispiel: 'use Cwd'
+
+0:03:52.319,0:03:55.040
+und es lädt das Modul
+
+0:03:55.040,0:03:58.969
+mit allen Funktionen und dann kannst du
+die 
+
+0:03:58.969,0:04:00.810
+cwd-Funktion aufrufen.
+
+0:04:00.810,0:04:03.109
+Natürlich erzeugt der Aufruf keine Ausgabe,
+
+0:04:03.109,0:04:06.259
+weil es den Wert ausführt und zurückgibt,
+
+0:04:06.259,0:04:09.549
+wenn du dir die Rückgabe ansehen willst, 
+gib 'p cwd' ein.
+
+0:04:09.549,0:04:14.909
+Die Ausgabe ist das aktuelle Arbeitsverzeichnis.
+
+0:04:14.909,0:04:16.920
+Du könntest auch ein anderes Modul nutzen,
+
+0:04:16.920,0:04:20.069
+zum Beispiel use Basename
+
+0:04:20.069,0:04:24.150
+File::Basename.
+
+0:04:24.150,0:04:29.889
+Es hat eine basename Funktion
+
+0:04:29.889,0:04:33.740
+mit dem Namen basename, lass' uns ihm den 
+Rückgabewert von cwd übergeben.
+
+0:04:33.740,0:04:35.209
+
+
+0:04:35.209,0:04:39.370
+Und das ausgeben lassen.
+
+0:04:39.370,0:04:40.580
+Ich muss es nur richtig
+
+0:04:40.580,0:04:45.530
+schreiben lernen und dann gibt es
+
+0:04:45.530,0:04:47.090
+den basename des
+
+0:04:47.090,0:04:50.299
+letzten Teils des Pfades aus.
+
+0:04:50.299,0:04:54.259
+Aber was ist, wenn du sehen willst, wie das funktioniert?
+Du kannst einfach
+
+0:04:54.259,0:04:55.099
+einen Haltepunkt
+
+0:04:55.099,0:04:56.330
+für diese Funktion einfügen.
+
+0:04:56.330,0:04:59.909
+Du willst also einen Haltepunkt für die ...File
+
+0:04:59.909,0:05:02.059
+... File::Basename ...
+
+0:05:02.059,0:05:03.449
+... ::basename
+
+0:05:03.449,0:05:04.620
+Funktion
+
+0:05:04.620,0:05:09.019
+einfügen und wenn ich das dann ausführe, mit dem Parameter b,
+
+0:05:09.019,0:05:11.050
+und den Code erneut ausführe...
+
+0:05:11.050,0:05:13.169
+dann hält er an dem Punkt,
+
+0:05:13.169,0:05:14.840
+wenn wir beginnen die Funktion auszuführen,
+
+0:05:14.840,0:05:18.919
+hier die basename Funktion der
+
+0:05:18.919,0:05:20.169
+File::Basename Klasse,
+
+0:05:20.169,0:05:25.050
+welche in dieser Datei, Zeile
+215, implementiert wird.
+
+0:05:25.050,0:05:26.740
+Du kannst dir das mit 'l' ansehen,
+
+0:05:26.740,0:05:32.889
+entweder siehst du dir den übrigen Code oder,
+
+0:05:32.889,0:05:35.910
+zum Beispiel die Zeilen 200-220 an.
+
+0:05:35.910,0:05:37.789
+
+
+0:05:37.789,0:05:39.830
+Und du siehst
+
+0:05:39.830,0:05:41.590
+einige Zeilen hier,
+
+0:05:41.590,0:05:43.020
+die vermutlich
+
+0:05:43.020,0:05:47.719
+nicht zum Code gehören, weswegen sie nicht ausgegeben werden
+und dann die basename Funktion,
+
+0:05:47.719,0:05:49.229
+sowie ihre Funktionsweise.
+
+0:05:49.229,0:05:51.849
+Du kannst eigentlich
+
+0:05:51.849,0:05:53.899
+jedes Tool
+
+0:05:53.899,0:05:57.569
+im Debugger nutzen und so Perl erkunden.
+
+0:05:57.569,0:05:59.409
+Zum Schluss schließt 'q'
+
+0:05:59.409,0:06:01.330
+den Debugger.
+
+0:06:01.330,0:06:03.059
+Ich hoffe dir hat das
+
+0:06:03.059,0:06:04.680
+Tutorial gefallen, bitte abonniere den
+
+0:06:04.680,0:06:08.460
+Channel und komm' später nochmal zurück.
+
+0:06:08.460,0:06:09.280
+
+
