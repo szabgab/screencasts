@@ -1,0 +1,188 @@
+0:00:01.240,0:00:03.720
+Hola, esta vez voy a mostraros los elementos del
+
+0:00:03.720,0:00:06.720
+menú Ver de Padre.
+
+0:00:06.960,0:00:13.560
+Aquí usamos la versión 0.84 de Padre, tu versión podría ser diferente.
+
+0:00:14.240,0:00:20.080
+Y lo que ves en el editor es el script principal de Padre.
+
+0:00:20.160,0:00:24.120
+Si vas al menú Ver, hay un par de entradas que son interesantes.
+
+0:00:24.600,0:00:27.780
+Por ejemplo, hay un comando para mostrar los números de línea, estas son cosas básicas.
+
+0:00:28.120,0:00:30.340
+Nos muestra los números de línea en el lado izquierdo.
+
+0:00:30.600,0:00:34.240
+También hay un comando para mostrar la línea actual
+
+0:00:34.800,0:00:39.120
+que pone de amarillo la línea en el editor.
+
+0:00:39.120,0:00:42.120
+Al principio, cuando empecé a usarlo, no me gustaba,
+
+0:00:42.280,0:00:49.720
+pero ahora me he acostumbrado y lo prefiero porque hace
+mas fácil detectar la posición del cursor actualmente.
+
+0:00:51.280,0:00:57.520
+También hay un navegador de proyectos,
+
+0:00:58.320,0:01:00.600
+que abre una ventana del lado izquierdo.
+
+0:01:01.800,0:01:03.520
+Al abrir un archivo, un archivo Perl,
+
+0:01:04.040,0:01:12.600
+Padre recorre automáticamente la estructura de directorios
+y busca alguna indicación de proyecto Perl.
+
+0:01:13.200,0:01:22.240
+Estas indicaciones pueden ser un archivo Makefile.PL (como el que se ve aquí),
+Build.PL o el archivo .ini de una distribución Dist::Zilla. 
+
+0:01:22.640,0:01:25.320
+O si no tienes uno de estos por alguna razón, lo cual no sería bueno,
+
+0:01:25.480,0:01:31.800
+pero puede pasar, entonces puedes simplemente crear un archivo Padre.yml vacío.
+
+0:01:31.840,0:01:38.480
+Y si Perl lo encuentra, asumirá su directorio es el directorio raíz del proyecto 
+
+0:01:38.800,0:01:40.080
+y podrás ver todo el proyecto aquí.
+
+0:01:40.080,0:01:49.400
+Esto permite enseñar este directorio y otros elementos en Padre.
+
+0:01:50.000,0:01:59.440
+Si vas al directorio lib, puedes abrir uno de estos archivos, Padre.pm, que es el módulo principal de Padre.
+
+0:02:03.800,0:02:08.440
+De vuelta al menú Ver, puedo hacer clic en el comando "Mostrar funciones" para abrir en el lado derecho
+una ventana que muestra todas las funciones definidas. 
+
+0:02:08.800,0:02:13.800
+(Funciones o métodos, ya que podría haber solo métodos si se trata de un módulo orientado a objetos).
+
+0:02:14.440,0:02:17.240
+Aquí están todas las funciones definidas están en el archivo actual.
+
+0:02:17.400,0:02:22.300
+Puedes hacer clic en cualquiera de ellas, pero si hacer doble clic en una de estas entradas, 
+
+0:02:22.400,0:02:26.600
+Padre saltará automáticamente a la definición de esa subrutina.
+
+0:02:27.600,0:02:31.400
+Aquí, en la parte superior, hay un filtro así que puedo escribir letras 
+
+0:02:31.800,0:02:44.440
+y se muestran solo las funciones que contengan las letras "e", "c" en el nombre.
+
+0:02:45.200,0:02:47.840
+Este es el panel funciones; puedo cerrarlo aquí.
+
+0:02:47.840,0:02:53.400
+Otra de las cosas interesantes que se muestran a la derecha es la entrada Esquema.
+
+0:02:53.400,0:03:02.440
+Es una herramienta más compleja para hacer cosas similares, de forma que que analiza el archivo actual
+
+0:03:02.440,0:03:07.800
+y muestra qué pragmas se usan, como  "strict" o "warnings" y cosas como estas;
+
+0:03:07.800,0:03:14.760
+qué módulos se están usando en este código; y que métodos hay (los vimos antes).
+
+0:03:14.760,0:03:22.800
+Aquí puedes hacer clic en un elemento y el editor saltará automáticamente a esa parte del archivo
+
+0:03:23.080,0:03:30.040
+o puedes hacer clic con el botón derecho en uno de estos e ir al elemento, es lo mismo que vimos antes, Saltar al 
+
+0:03:30.280,0:03:35.250
+punto en el que se usa el pragma o el módulo.
+
+0:03:35.680,0:03:41.440
+O puedes hacer clic en Abrir documentación para ver la documentación de un pragma específico.
+
+0:03:41.800,0:03:44.600
+O si quieres ir a uno módulo, digamos, este,
+
+0:03:44.760,0:03:49.800
+y haces clic en Abrir documentación, verás la documentación de este módulo.
+
+0:03:50.080,0:03:54.120
+Así que, esto es lo que puedes tener con la vista de esquema.
+
+0:03:55.840,0:04:00.720
+Otra entrada, aquí está la ventana de resultados que se encuentra en la parte inferior de la pantalla
+
+0:04:01.040,0:04:04.320
+que se abre automáticamente 
+
+0:04:04.640,0:04:09.520
+cada vez que es necesario. Por ejemplo, al ejecutar un script podría pasar esto.
+
+0:04:10.480,0:04:14.440
+Luego está la comprobación de sintaxis, que es una herramienta importante.
+
+0:04:15.000,0:04:20.160
+Se abre y tarda un poco, porque comprueba si la sintaxis del archivo es correcta.
+
+0:04:20.400,0:04:29.000
+Pero después si empiezas a escribir código como este, entonces automáticamente revisará la sintaxis del archivo actual.
+
+0:04:29.920,0:04:34.560
+Puedes ver que te da un mensaje de error aquí. 
+
+0:04:34.720,0:04:43.400
+Si haces clic en la entrada, te dará básicamente una descripción más larga del diagnóstico.
+
+0:04:43.800,0:04:50.080
+Y al hacer doble clic en el mensaje error, saltará a la línea que contiene el error.
+
+0:04:50.520,0:04:58.840
+Por ejemplo, si solo escribo aquí, entonces me dirá si es error o si está correcta la sintaxis.
+
+0:04:59.440,0:05:06.050
+Así que esta es la comprobación de sintaxis y creo que es bastante útil tenerla siempre activa.
+
+0:05:07.120,0:05:16.720
+También puedes mostrar los caracteres de nueva línea, para averiguar qué combinación de
+caracteres de nueva línea tienes, lo que no siempre es fácil.
+
+0:05:16.840,0:05:25.240
+O puedes ver espacio en blanco: puedes ver tabulaciones o espacios aquí. Son más cosas que puedes ver.
+
+0:05:25.400,0:05:36.880
+También tenemos información sobre sintaxis. Activamos esto, pero desactivamos otras cosas
+porque no quiero ver los espacios en blanco ni los caracteres de nueva línea.
+
+0:05:37.120,0:05:45.600
+Digamos que empiezo a escribir "substring": me sale el nombre completo de la subrutina,
+
+0:05:45.700,0:05:47.760
+y aparecerá aquí información sobre sintaxis,
+
+0:05:49.200,0:05:58.200
+omo una indicación del tipo de parámetros que la subrutina admite y una breve descripción de esta subrutina.
+
+0:05:58.400,0:06:00.960
+Esto es es básicamente lo que quería enseñaros.
+
+0:06:01.400,0:06:06.060
+Veré qué otras cosas puedo presentar en la siguiente edición de estos tutoriales.
+
+0:06:06.800,0:06:08.760
+Gracias por escucharme y ver la presentación. Adiós.
