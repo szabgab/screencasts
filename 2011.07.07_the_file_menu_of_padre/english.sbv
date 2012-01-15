@@ -1,0 +1,308 @@
+0:00:00.500,0:00:05.390
+Hey. I'm going to show you how the menu items of Padre work one by one.
+
+0:00:05.390,0:00:11.060
+This time I'm showing the file menu, actually, the more important parts of the file menu.
+
+0:00:11.060,0:00:15.880
+So when you open Padre you get this unsaved file here, and you can start typing in.
+
+0:00:15.880,0:00:18.890
+For example I'll just type in 0.84,
+
+0:00:18.890,0:00:25.580
+to remind you that this is now showing Padre version 0.84, running on Windows.
+
+0:00:25.580,0:00:31.390
+The same would happen, the same would work on Linux, it's the same version of Padre,
+
+0:00:31.390,0:00:34.230
+but you might have a different version,
+
+0:00:34.230,0:00:38.860
+so there menu items might be slightly different, or behave slightly different.
+
+0:00:38.860,0:00:43.090
+I will post newer versions of the screencast later on.
+
+0:00:43.090,0:00:51.060
+So if you go to the File menu, the first item is New, which is just the standard New menu item,  
+
+0:00:51.060,0:00:56.910
+it creates you a new empty buffer where you can type in code. 
+
+0:00:56.910,0:01:01.260
+Then there's another menu item called New, with some submenus.
+
+0:01:01.260,0:01:09.640
+If you click on the first one, Perl 5 Script, which creates you a new editor with some skeleton content in it,
+
+0:01:09.640,0:01:16.760
+there are the use statements, the skeleton statements which you probably want to use for your Perl code -
+
+0:01:16.760,0:01:25.460
+except that this line requires Perl 5.6, and you could probably want to have higher version number,
+
+0:01:25.460,0:01:33.340
+so you would probably require 5.10, or even newer version of Perl.
+
+0:01:33.340,0:01:38.100
+New menu items also has the Perl 5 Module, in this case
+
+0:01:38.100,0:01:43.150
+it provides you with a pop-up window, that remembers the last one you typed in.
+
+0:01:43.150,0:01:49.000
+Here you type in the name of the module, for example Module::Name,
+
+0:01:49.000,0:01:57.400
+and clicking OK will create an editor window, with skeleton module in there -
+
+0:01:57.400,0:02:02.720
+package, the module name, then the use statements, some documentation, 
+
+0:02:02.720,0:02:07.430
+and even a constructor and a simple method in it.
+
+0:02:07.430,0:02:15.460
+Now it would be probably nice if these skeleton files could be configured by the user,
+
+0:02:15.460,0:02:19.300
+unfortunately as far as I know currently these are hard-coded in Padre,
+
+0:02:19.300,0:02:25.130
+so unless you actually change the files that are supplied by the installation of Padre...
+
+0:02:25.130,0:02:28.750
+now, currently it's hard-coded.
+
+0:02:28.750,0:02:33.000
+You can also create a test file the same way, and a Perl 6 script,
+
+0:02:33.000,0:02:37.710
+which is, because Padre currently in this version doesn't have Perl 6 support,
+
+0:02:37.710,0:02:41.500
+you don't see syntax highlighting there.
+
+0:02:41.500,0:02:47.470
+The last item I'll skip over right now, because in this version of Padre it doesn't work correctly.
+
+0:02:47.470,0:02:53.070
+Open - will open you a standard file browser, where you can pick one file,
+
+0:02:53.070,0:02:58.720
+then open it and it'll open the file and it lets you edit.
+
+0:02:58.720,0:03:02.130
+The other Open menu has several submenus,
+
+0:03:02.130,0:03:09.060
+so, Open URL would allow you to type in some kind of a URL, let's say what you can see here,
+
+0:03:09.060,0:03:13.190
+it'll fetch the file and open the file in this editor.
+
+0:03:13.190,0:03:18.590
+It'll open it in read-only mode, so if you want to actually save the file,
+
+0:03:18.590,0:03:24.000
+then you will have to do it with Save As.
+
+0:03:24.000,0:03:27.020
+Open Selection - so let's go back here,
+
+0:03:27.020,0:03:32.630
+and for example in this module I have a use statement, or just some kind of a name of a module,
+
+0:03:32.630,0:03:40.170
+I can highlight the name of the module, then go to the Open, Selection - or Ctrl-Shift-O,
+
+0:03:40.170,0:03:45.920
+and it'll look for that module in your file system, within your @INC,
+
+0:03:45.920,0:03:53.460
+and find the file that implements that module, and open it for you for editing.
+
+0:03:53.460,0:04:04.070
+In case you have several copies of this, then you'll get a menu where you can pick which one you would like to open.
+
+0:04:04.070,0:04:10.420
+Open file in browser - will open just a standard file browser of your operating system,
+
+0:04:10.420,0:04:16.320
+so in this case it's Windows, in Linux it's probably Nautilus or some other kind of file browser.
+
+0:04:16.320,0:04:26.900
+It'll open in the directory where the current file is saved.
+
+0:04:26.900,0:04:32.440
+Open with default system editor is currently not working, at least not on my system,
+
+0:04:32.440,0:04:37.440
+Open in command line will open a command window - the cmd window on Windows,
+
+0:04:37.440,0:04:45.940
+in the place where the current file is, so you can type in  "dir" and you can see the files.
+
+0:04:45.940,0:04:51.600
+The same works on Linux, opening a shell terminal window.
+
+0:04:51.600,0:04:58.870
+Open example, here - the last one - is again just a standard file opening dialogue,
+
+0:04:58.870,0:05:03.940
+but in a directory that was supplied by Padre, where you can see a couple of example scripts. 
+
+0:05:03.940,0:05:06.820
+So here are some examples for beginners,
+
+0:05:06.820,0:05:16.180
+and here are a couple of examples that are using wxWidgets to create various windows.
+
+0:05:16.180,0:05:18.970
+Close would just close this file,
+
+0:05:18.970,0:05:24.140
+if the file was changed it'd ask first whether you want to save it.
+
+0:05:24.140,0:05:30.810
+Then there's this other Close menu which has several entries, so you have Close this project, or Close other projects -
+
+0:05:30.810,0:05:34.660
+that's for projects, I won't deal with that now -
+
+0:05:34.660,0:05:38.890
+Close all files, that would close all the files currently open,
+
+0:05:38.890,0:05:46.280
+or Close all other files, that would close all the files except the one that I'm currently editing.
+
+0:05:46.280,0:05:53.880
+And Close files will allow you to pick which ones you would like to close.
+
+0:05:53.880,0:06:00.960
+Now in our case, because that file was already changed, and just telling if you want to save it,
+
+0:06:00.960,0:06:07.740
+no I don't want to save it, so it will close that file now.
+
+0:06:07.740,0:06:09.820
+That's what it does.
+
+0:06:09.820,0:06:16.180
+Reload - when you're editing a file, and then outside of Padre you could, let's say,
+
+0:06:16.180,0:06:22.940
+svn update, or for git you fetch new version of files, so the files get out of sync,
+
+0:06:22.940,0:06:26.270
+there's a newer version of file on the file system.
+
+0:06:26.270,0:06:32.330
+Padre will automatically recognize this, but you might cancel that operation, due to whatever reason,
+
+0:06:32.330,0:06:39.570
+so with this you can tell Padre to reload the file, getting rid of the current version that you have in the editor.
+
+0:06:39.570,0:06:46.370
+You can tell it whether to reload a single file, all of the files or just some of them.
+
+0:06:46.370,0:06:51.030
+Some of them you will pick here, which ones you'd like to reload,
+
+0:06:51.030,0:07:01.050
+now in this case we have three editor windows open that are not related to files yet.
+
+0:07:01.050,0:07:04.020
+Save - that's just normally saving the file,
+
+0:07:04.020,0:07:11.050
+Save As would allow you to pick a different name for the file and save it that way.
+
+0:07:11.050,0:07:17.730
+Save Intuition - that's what I'm going to take a look at later on, when I'm talking about projects.
+
+0:07:17.730,0:07:20.780
+Save all the files.
+
+0:07:20.780,0:07:28.340
+Now sessions - Open Session and Save Session. Basically a session is just a set of files in Padre.
+
+0:07:28.340,0:07:38.070
+So you would edit three of four files for one project probably, then another three of four files for another project - 
+
+0:07:38.070,0:07:45.600
+and we call these sessions, because those files don't necessarily belong to one single project entity,
+
+0:07:45.600,0:07:48.060
+in the sense of a Perl project.
+
+0:07:48.060,0:07:54.970
+So, for example, let's close all these, all the other files, let's say,
+
+0:07:54.970,0:07:59.370
+so if I come here, and I say close all other files,
+
+0:07:59.370,0:08:04.410
+and it will ask me for each one of them whether I want to save it, but I don't want to save them.
+
+0:08:04.410,0:08:12.760
+So here is one file. And I would like to save this session, currently which has only one file in it.
+
+0:08:12.760,0:08:19.350
+So I save the session, like this, I call it "example".
+
+0:08:19.350,0:08:24.000
+I could type in some description here but that's not that important, and I save that session.
+
+0:08:24.000,0:08:31.020
+I close the file and then I go to the File menu and click on Open session.
+
+0:08:31.020,0:08:35.870
+It'll list all of my sessions. So currently I have two sessions in this editor,
+
+0:08:35.870,0:08:40.690
+and I pick the "example" session, and I click on Open.
+
+0:08:40.690,0:08:48.590
+Now, here, there is a checkbox, probably you want to check that checkbox. What is does is,
+
+0:08:48.590,0:08:56.660
+when you are opening more files in you current session, it automatically remembers those files,
+
+0:08:56.660,0:09:01.900
+so next time when you open the session, those files will be opened as well.
+
+0:09:01.900,0:09:11.690
+So I open this "example" session, and I got that specific file. If I open another file, let's say this file,
+
+0:09:11.690,0:09:21.030
+I open, and I close them, I close all the files now, or instead of that I open a session, a different session.
+
+0:09:21.030,0:09:23.820
+Let's say, I open the dwimmer session.
+
+0:09:23.820,0:09:28.220
+Then this will close all the other files - all the files that didn't belong to that session,
+
+0:09:28.220,0:09:32.900
+and open the files that were in the dwimmer session.
+
+0:09:32.900,0:09:42.730
+And I can open a session again, and go to the "example", and it remembers both of the files in that session.
+
+0:09:42.730,0:09:48.950
+Print - I'm not sure if it works or not, but I don't think that's currently that important.
+
+0:09:48.950,0:09:55.030
+Recent files, it just lists you the files that you have opened recently.
+
+0:09:55.030,0:10:02.520
+And this will just remove all the entries from the list, or open all of them.
+
+0:10:02.520,0:10:08.690
+Finally, Document Statistics will provide you with some information about your current document.
+
+0:10:08.690,0:10:15.130
+So that's it about the File menu, and the next time I'll show about the Edit menu. Thank you for listening.

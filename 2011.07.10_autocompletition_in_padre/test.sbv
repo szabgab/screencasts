@@ -1,0 +1,233 @@
+0:00:00.800,0:00:06.000
+Hi! This time I'm going to show the autocomplete feature of Padre, the IDE.
+
+0:00:06.000,0:00:09.500
+As you can see I'm using version 0.87
+
+0:00:09.500,0:00:11.000
+which is a development version
+
+0:00:11.000,0:00:13.000
+from the subversion of repository.
+
+0:00:13.000,0:00:15.500
+This is going to be 0.88,
+
+0:00:15.500,0:00:18.250
+but if you are using a different version of Padre
+
+0:00:18.250,0:00:21.000
+then the feature might work slightly differently.
+
+0:00:21.000,0:00:23.500
+You can see that there is a file open here
+
+0:00:23.500,0:00:25.250
+this is one of the files of padre itself
+
+0:00:25.250,0:00:31.600
+if I start typing in some word, for example "RegisterProtocole",
+
+0:00:31.600,0:00:34.500
+which is just a name of the sub routine below that
+
+0:00:34.500,0:00:38.750
+At this point I can select the edit menu
+
+0:00:38.750,0:00:41.000
+Where we can see the autocomplete submenu
+
+0:00:41.000,0:00:42.800
+It is a ctrl+space actually
+
+0:00:42.800,0:00:46.000
+So I could click here with the mouse, or
+
+0:00:46.000,0:00:48.250
+If I just escape and go back to the editor
+
+0:00:48.250,0:00:52.500
+I can just press ctrl and space and it will auto complete the word
+
+0:00:52.500,0:00:55.000
+obviously it will do anywhere in the file
+
+0:00:55.000,0:01:01.000
+Now, if I started to(..) If I press the ctrl+space at this point
+
+0:01:01.000,0:01:03.250
+when I typed only 4 letters,
+
+0:01:03.250,0:01:07.000
+then because there are couple of words that starts with "Regi..."
+
+0:01:07.000,0:01:13.000
+It will offer me to choice and then I can pick one of the words and insert it there.
+
+0:01:13.000,0:01:17.750
+Similarly I can start typing a name of a variable, for example this one
+
+0:01:17.750,0:01:24.000
+it will offer me the names of all the variables that start with "$reg..."
+
+0:01:24.000,0:01:25.000
+
+
+0:01:25.000,0:01:31.000
+Obviously some people would actually prefer if it happened automatically
+
+0:01:31.000,0:01:35.500
+So, as I type it will just give me the pop-up and let me pick one of the words.
+
+0:01:35.500,0:01:39.000
+In order for that to work you have to go to the tools menu
+
+0:01:39.000,0:01:47.000
+and in the preferences select the Auto-Complete entry where the first check box is "Autocomplete always while typing".
+
+0:01:47.000,0:01:50.000
+So I check that one, save it
+
+0:01:50.000,0:01:56.000
+And now when I start typing "$re..." it already shows me a list of words
+
+0:01:56.000,0:02:02.000
+If I keep typing it will just reduce the list of words that might match this beginning
+
+0:02:02.000,0:02:08.000
+and then I can simply pick one of the words, or just keep typing, which I prefer
+
+0:02:08.000,0:02:16.000
+Or I just can press ESC in order to keep typing and not to see that pop-up.
+
+0:02:16.000,0:02:19.000
+Another option here: in the preferences, autocomplete
+
+0:02:19.000,0:02:23.000
+is "Autocomplete new methods in packages"
+
+0:02:23.000,0:02:25.750
+So let's check that one and save it.
+
+0:02:25.750,0:02:29.000
+Here if I start typing a name of a sub routine
+
+0:02:29.000,0:02:34.000
+sub and then give a name to it and when I press space here
+
+0:02:34.000,0:02:44.000
+then it automatically will put the curly braces and the first command to ad shift to the "$self" variable
+
+0:02:44.000,0:02:46.750
+that's what happens in modules
+
+0:02:46.750,0:02:53.000
+If I switch over here which is a script, basically it is the main script of padre
+
+0:02:53.000,0:02:55.750
+and start typing here : "sub name ..."
+
+0:02:55.750,0:03:03.500
+the space doesn't make any difference, it doesn't do any autocompletion in sub routines .
+
+0:03:03.500,0:03:11.000
+For that there is a separate option, the third one here: "Autocomplete new functions in scripts"
+
+0:03:11.000,0:03:12.000
+If I check that one
+
+0:03:12.000,0:03:15.750
+then in the script I can start typing
+
+0:03:15.750,0:03:18.900
+and then when I type, when I press the space here
+
+0:03:18.900,0:03:28.000
+It will put the curly braces here and it will put the cursor in the right place
+
+0:03:28.000,0:03:32.500
+but it doesn't put the declaration of self
+
+0:03:32.500,0:03:38.000
+because it's a sub routine, so probably there is no such variable
+
+0:03:38.000,0:03:42.900
+Let's go back to the preferences and see what else is there
+
+0:03:42.900,0:03:50.000
+Here are the numbers that allow me to control at what point auto completion will get triggered
+
+0:03:50.000,0:03:57.500
+You can change these numbers e.g. how many suggestions will there be and so on
+
+0:03:57.500,0:04:01.100
+There are two more check boxes here that are interesting.
+
+0:04:01.100,0:04:03.000
+One of them is "Autocomplete brackets".
+
+0:04:03.000,0:04:06.000
+So if I check that one and I start typing here
+
+0:04:06.000,0:04:13.100
+Let's say here. And I put in curly braces
+
+0:04:13.100,0:04:19.000
+(you can't really see that) but it automatically puts in the closing one
+
+0:04:19.000,0:04:21.000
+the same happens with square brackets.
+
+0:04:21.000,0:04:26.200
+You can't really see it, because of the colors of the highlighter
+
+0:04:26.200,0:04:31.100
+It's when you touch one of the endings of curly braces
+
+0:04:31.100,0:04:37.000
+2 square brackets, or even with parenthesis this works
+
+0:04:37.000,0:04:42.900
+So, this is what happens. Now let's see what happens if I do the same here within the sub routine
+
+0:04:42.900,0:04:47.500
+I typed in. And there you have the curly braces again.
+
+0:04:47.500,0:04:56.500
+But what happens if you put in a closing curly braces
+
+0:04:56.500,0:04:60.000
+And then before that you start typing a curly brace
+
+0:04:60.000,0:05:04.750
+Padre doesn't add you this closing one, because it sees that you already have one
+
+0:05:04.750,0:05:12.000
+For some people that's what they want, other people will prefer always to get the closing curly brace.
+
+0:05:12.000,0:05:14.300
+And for them there is the other checkbox.
+
+0:05:14.300,0:05:21.000
+Here, autocomplete. And this the checkbox: "Add another closing bracket if there already is one"
+
+0:05:21.000,0:05:23.000
+So in this case, if I check this one
+
+0:05:23.000,0:05:30.000
+If I have the closing curly and now I start an opening one
+
+0:05:30.000,0:05:31.750
+It still ads the closing one.
+
+0:05:31.750,0:05:34.000
+So it's just a matter of preference.
+
+0:05:34.000,0:05:36.600
+So that's about autocompletion
+
+0:05:36.600,0:05:41.500
+I hope you'll see the next videos as well
+
+0:05:41.500,0:05:42.000
+See you later!

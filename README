@@ -1,0 +1,126 @@
+These are the caption files in English and in various other languages
+for some of the screencasts in my YouTube channel.
+
+http://www.youtube.com/gabor529
+
+Each screencast has its own subdirectory.
+In each subdirectory you will find a file called english.sbv
+which is the English caption file. It is based on the automatic
+transcription that YouTube generates and then it is improved. Hopefully.
+
+Before attempting the translation of any of the screencasts we first
+have to make sure the English transcriptions are good.
+
+Some were already manually fixed (that's indicated next to each entry),
+those can already be translated.
+
+Most of them are still the original automatic transcription.
+Those need a lot of improvement before they can be used as caption.
+
+Each translation should have its own .sbv file with the name of the
+language being the filename.
+
+The name of the translators should be added to this readme file.
+
+If you are interested in translating any of these screencasts,
+please get in contact with me so I can list you in this file.
+
+Look at the status of each video. There are two that
+already have real English subtitles and one has Russian.
+All the rest need English subtitles first and once that's
+done, they need the translations.
+
+
+There is a script called check_timestamp.pl in the repository
+that will check if all the timestamps are correctly formatted.
+
+Run:
+
+perl check_timestamp.pl
+
+
+GCI participants:
+Please fork this repository, push your updates and send pull requests.
+This will make it easier to review your work.
+Please also click on the 'Review needed' button on Melange so they will
+have the proper accounting trail. (No need to upload the file there
+too)
+
+
+What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
+English: done                   (szabgab - Gabor Szabo)
+Russian: done                   (ash     - Andrew Shitov http://andy.sh/    )
+Korean:  done                   (keedi   - Keedi Kim     http://keedi.pe.kr )
+Hebrew:  done                   (Yuval Yogev)
+
+Modern Perl Tutorial part 04      http://www.youtube.com/watch?v=U2B5ZD59L7g   2011.07.20_modern_perl_tutorial_04/
+English: done                     (hator - Jan Michalski)
+Polish: done                      (schmiela - Stanisław Chmiela)
+
+
+Modern Perl Tutorial part 03      http://www.youtube.com/watch?v=KXFn0rnBPrc   2011.07.19_modern_perl_tutorial_03/
+English: in progress             (wetpat )
+
+
+Modern Perl Tutorial part 02      http://www.youtube.com/watch?v=4jyGQPGXOK0   2011.07.19_modern_perl_tutorial_02/
+English: done                    (Piotr Wasko piiteer )
+
+
+Contributing to a CPAN module     http://www.youtube.com/watch?v=aB90XVLWyYk   2011.07.13_contributing_to_cpan/
+English: done                     (betoesquivel -  José Alberto Esquivel)
+Spanish: done		              (betoesquivel -  José Alberto Esquivel)
+Due to techincal issues at YouTube with this video, the subtitles cannot be uploaded.
+So for now we won't need any more translations.
+
+
+The View menu of Padre v0.84      http://www.youtube.com/watch?v=zreiHLeKf6o   2011.11.23_the_view_menu_of_padre_v_084
+English: almost done              (Pawel Zych pzych)
+Hebrew: in progress               (Dvir Oren)
+
+
+Autocompletition in Padre, v0.87  http://www.youtube.com/watch?v=ptN63wSVK9w   2011.07.10_autocompletition_in_padre/
+English: done                     (Rafał Stefański - ravst)
+Russian: done                     (Alex Subach)
+
+The File menu of Padre v0.84      http://www.youtube.com/watch?v=eCpxUA1vIuM   2011.07.07_the_file_menu_of_padre/
+English: done                     (MatmaRex - Bartosz Dz )
+Russian: done                     (Alex Subach)
+
+Building a blog engine using Perl Dancer   http://www.youtube.com/watch?v=NGX5pgKWVoc 2011.06.29_building_blog_with_dancer/
+English: done                     (szabgab - Gabor Szabo)
+German:  done                     (mrbauff - Felix Kastner)
+
+Fetching data from YouTube using Perl   http://www.youtube.com/watch?v=a03jf68iz-M   2011.06.26_fetching_data_from_youtube/
+English: done?                    (KenuR at GCI)
+
+Modern Perl Tutorial - part 01    http://www.youtube.com/watch?v=c3qzmJsR2H0      2011.06.24_modern_perl_tutorial_01/
+English: done                     (wesjdj   - Wes Johnson)
+Hebrew: done                      (yogiyogi - Yuval Yogev)
+Spanish: done 			  (betoesquivel - José Alberto Esquivel)
+Russian: done                     (Alex Subach)
+
+Using the built-in debugger of Perl as REPL   http://www.youtube.com/watch?v=pL_nDlXNqLY   2011.06.22_using_the_built_in_debugger_as_repl/
+English: done                     (mishin, Nikolay Mishin http://nmishin.livejournal.com/ )
+Russian: done                     (mishin, Nikolay Mishin http://nmishin.livejournal.com/ )
+Hebrew:  done                     (Yuval Yogev)
+Polish: done                      (Marcin Kostrzewa  - kustosz)
+
+
+Padre on Strawberry Perl v5       http://www.youtube.com/watch?v=MKXtGgWi7qs       2011.06.20_padre_on_strawberry_perl/
+English: done                     (Karolynn  - Lovelace - Karolina Kowal)
+
+Using the built-in debugger of Perl  http://www.youtube.com/watch?v=jiYZcV3khdY    2011.06.15_using_the_built_in_debugger/
+English: done                      (Yuval Yogev )
+Hebrew: done                       (Yuval Yogev )
+
+-----------------
+
+older screencasts will be listed later.
+
+
+Copyright:
+The original is (C) Copyright Gabor Szabo,
+The transcriptions, translations (C) Copyright the respective authors.
+
+All the material is licensed Creative Common CC-BY
+

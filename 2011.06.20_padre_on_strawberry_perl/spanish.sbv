@@ -1,0 +1,533 @@
+0:00:05.360,0:00:08.910
+Hola y bienvenidos de nuevo al canal.
+
+0:00:08.910,0:00:11.330
+Éste es un vídeo tutorial especial porque éste es el anuncio
+
+0:00:11.330,0:00:16.370
+del lanzamiento de la nueva versión de Padre del instalador Strawberry para Windows
+
+0:00:16.370,0:00:20.400
+Originalmente, cuando empecé esto, no sabía qué iba a pasar
+
+0:00:20.400,0:00:25.970
+pero el mes pasado decidí que iba a lanzar este paquete una vez al mes
+
+0:00:25.970,0:00:29.120
+pero debido a las nuevas y emocionantes características que surgieron
+
+0:00:29.120,0:00:32.100
+decidí que no podía esperar más
+
+0:00:32.100,0:00:37.450
+así que quería lanzarlo, y aquí está disponible; ya puedes empezar a descargarlo y usarlo. 
+
+0:00:37.450,0:00:42.660
+Me gustaría enseñarte ahora unas cuantas cosas que son nuevas en esta distribución
+
+0:00:42.660,0:00:47.560
+Así puedes ver si es interesante como para probarlo.
+
+0:00:47.560,0:00:50.070
+Primero, cómo conseguir la distribución.
+
+0:00:50.070,0:00:54.500
+Puedes ir al sitio web de Padre, padre.perlide.org
+
+0:00:54.500,0:00:58.400
+y en la página principal tienes toda esta información promocional
+
+0:00:58.400,0:01:02.380
+pero probablemente no estés interesado en ella, porque ya estás convencido de que lo quieres
+
+0:01:02.380,0:01:07.320
+así que haces click en el enlace de descarga y encuentras más texto
+
+0:01:07.320,0:01:11.790
+acerca de qué tipos de paquetes y módulos están ya incluidos.
+
+0:01:11.790,0:01:15.660
+Ahí están las notas de versión, bueno, no te fijes en eso.
+
+0:01:15.660,0:01:20.070
+Lo importante para ti es el enlace donde puedes hacer clik
+
+0:01:20.070,0:01:25.180
+y así descargarte la actual distribución, el instalador.
+
+0:01:25.180,0:01:30.770
+Es bastante pesado, son 75 megabytes, pero contiene bastantes cosas.
+
+0:01:30.770,0:01:34.780
+Así que cuando lo descargues y hagas click en la instalación
+
+0:01:34.780,0:01:37.700
+y hagas todo lo que haces habitualmente en Windows
+
+0:01:37.700,0:01:43.750
+entonces puedes ir al menú Inicio, Todos los Programas, y ahí, en el menú, estará Strawberry Perl 
+
+0:01:43.750,0:01:46.280
+probablemente, dependiendo de lo que hayas elegido
+
+0:01:46.280,0:01:49.600
+y dentro verás muchos iconos nuevos.
+
+0:01:49.600,0:01:53.280
+Pero esto no es nuevo para los que estén usando el Strawberry Perl estándar
+
+0:01:53.280,0:01:55.870
+pero en las versiones anteriores de Padre Strawberry
+
+0:01:55.870,0:01:58.280
+no teníamos todos estos iconos, así que son nuevos.
+
+0:01:58.280,0:02:02.450
+Y hay algunos iconos que son bastante nuevos para todos
+
+0:02:02.450,0:02:07.230
+especialmente en el subdirectorio de juegos. Ahí tendrás tres nuevos iconos.
+
+0:02:07.230,0:02:13.310
+El del medio es el enlace al sitio web del SDL Perl.
+
+0:02:13.310,0:02:16.620
+Esa es la tecnología en la que están escritos los juegos.
+
+0:02:16.620,0:02:22.510
+Y aquí está 'Frozen Bubble'. 'Frozen Bubble' es el conocido juego que fue originalmente escrito en Perl
+
+0:02:22.510,0:02:26.680
+Y éste es el código original, una nueva versión de él.
+
+0:02:26.680,0:02:29.160
+y, oh sí, empieza el juego.
+
+0:02:29.160,0:02:34.260
+Como puedes ver y escuchar, puedes apretar 'Enter' aquí, y otro 'Enter'
+
+0:02:34.260,0:02:38.910
+y probablemente todo tipo de cosas que cambiar aparecerán
+
+0:02:38.910,0:02:47.010
+y aquí te mueves con las flechas y golpeas las bolas que caen, es un juego genial.
+
+0:02:47.010,0:02:55.020
+Soy muy buen jugador, casi. Sí, soy bastante bueno, ¿lo ves? Sí. Hmm, siguiente nivel.
+
+0:02:55.020,0:02:59.110
+Podría estar jugando mucho tiempo y probablemente te gustaría mucho
+
+0:02:59.110,0:03:05.770
+pero creo que me gustaría mostrar otra cosa, así que quito el juego. Está bien, adiós.
+
+0:03:05.770,0:03:10.030
+Sí. Cierro este juego y me gustaría mostraros otro más, otro juego.
+
+0:03:10.030,0:03:16.690
+El otro juego está aquí también. Se llama Zumbis, es un juego.
+
+0:03:16.690,0:03:20.850
+Eres esta chica pelirroja y hay zombies corriendo que van a por ti.
+
+0:03:20.850,0:03:24.500
+y tienes que dispararles o te comerán.
+
+0:03:24.500,0:03:28.000
+La parte divertida es, oh, bueno, me han comido.
+
+0:03:28.000,0:03:32.200
+Aparte del hecho de que eres una chica pelirroja y los zombies van a por ti.
+
+0:03:32.200,0:03:34.300
+está escrito en Portugués.
+
+0:03:34.300,0:03:36.500
+Así que tendrás que lidiar con eso.
+
+0:03:36.500,0:03:39.500
+Pero pienso que después de los zombies estará bien.
+
+0:03:39.500,0:03:42.700
+Ahora, quitar el juego es otra aventura
+
+0:03:42.700,0:03:45.400
+porque no puedes pulsar 'Escape', no funciona así
+
+0:03:45.400,0:03:47.500
+tienes que pulsar 'Enter' para reiniciar el juego
+
+0:03:47.500,0:03:51.400
+y entonces puedes pulsar 'Escape' y salir.
+
+0:03:51.400,0:03:53.400
+Eso tiene que ser divertido para todos.
+
+0:03:53.400,0:03:57.200
+Y si realmente quieres hacer cambios, es de código abierto
+
+0:03:57.200,0:04:02.900
+así que puedes ir al repositorio de Github y comenzar a arreglarlo, y bueno, ¿quién sabe?
+
+0:04:02.900,0:04:03.800
+¿Quién sabe?
+
+0:04:03.800,0:04:08.800
+A lo mejor puedes hacer un juego realmente genial en algún momento. A lo mejor ella podría hablar en inglés.
+
+0:04:08.800,0:04:12.300
+o húngaro, o lo que sea.
+
+0:04:12.300,0:04:14.000
+Entonces, ¿qué más hay?
+
+0:04:14.000,0:04:17.800
+Como he mencionado, hay una interesante característica de Padre.
+
+0:04:17.800,0:04:22.400
+Va a ser lanzada una nueva versión de Padre
+
+0:04:22.400,0:04:25.100
+La 0.86 va a ser lanzada muy pronto, en unos cuantos días.
+
+0:04:25.100,0:04:29.300
+y tendrá una nueva característica que es extremadamente sorprendente para cualquiera
+
+0:04:29.300,0:04:31.100
+que haya estado usando Perl en los últimos cuatro años
+
+0:04:31.100,0:04:34.500
+porque de lejos era el problema más importante de Padre
+
+0:04:34.500,0:04:41.100
+que no hubiera un resaltado de sintaxis correcto para el 'defined-or' que salió en la 5.10.
+
+0:04:41.100,0:04:49.000
+Y, la razón era que estábamos usando el editor de 'widgets Scintilla', y su resaltado propio
+
+0:04:49.000,0:04:51.200
+y porque estábamos usando una versión muy vieja
+
+0:04:51.200,0:04:58.500
+una larga historia, a través de 'bindings WX', así que, debido a eso
+
+0:04:58.500,0:05:01.300
+no teníamos un resaltado de sintaxis correcto.
+
+0:05:01.300,0:05:07.400
+Últimamente Ahmad Zawawi ha hecho un trabajo heróico portando
+
+0:05:07.400,0:05:09.700
+creando un 'binding' directo para Scintilla
+
+0:05:09.700,0:05:15.200
+Se llama 'wxScintilla' en Perl, e hizo algunos cambios a Perl
+
+0:05:15.200,0:05:21.400
+a Padre, que saldrán en la 0.86 y que permitirán su uso.
+
+0:05:21.400,0:05:25.700
+Ahora, debido a que no ha sido lanzado todavía, he decidido, porque es una característica importante
+
+0:05:25.700,0:05:31.800
+he decidido hacer un 'backport', e incluirlo en la 0.86, la versión 0.84 de Padre
+
+0:05:31.800,0:05:38.400
+nunca ha sido lanzada públicamente, solo en el repositorio
+
+0:05:38.400,0:05:41.400
+pero de hecho está incluido en ésta distribución.
+
+0:05:41.400,0:05:44.400
+Así que, si en los próximos días, quieres probarlo 
+
+0:05:44.400,0:05:45.300
+ésta es la única manera de hacerlo.
+
+0:05:45.300,0:05:48.800
+Así que, adelante, descárgalo. Ahora, ¿cómo funciona?
+
+0:05:48.800,0:05:54.400
+Lanzas Padre, y una vez hayas abierto el editor
+
+0:05:54.400,0:06:00.400
+abres algunos scripts Perl. Por ejemplo, en el directorio de ejemplos
+
+0:06:00.400,0:06:02.300
+abrimos este script.
+
+0:06:02.300,0:06:05.800
+No estoy realmente interesado en el actual, lo que está ahí
+
+0:06:05.800,0:06:10.100
+lo que quiero escribir es este 'defined-or'.
+
+0:06:10.100,0:06:12.500
+El cual, como puedes ver, el resaltado de sintaxis
+
+0:06:12.500,0:06:15.000
+espero que lo veas, el resaltado está realmente roto.
+
+0:06:15.000,0:06:17.200
+Entonces, ésto es negro, y luego es rojo
+
+0:06:17.200,0:06:20.600
+no reconoce que estamos hablando acerca de un 'defined-or' variable.
+
+0:06:20.600,0:06:24.900
+Así, tenemos que activar Scintilla, el nuevo resaltado de Scintilla.
+
+0:06:24.900,0:06:27.400
+La forma de hacerlo es ir al menú de herramientas.
+
+0:06:27.400,0:06:28.300
+preferencias
+
+0:06:28.300,0:06:32.200
+no tenemos un 'checkbox' para eso aquí, por lo que sé
+
+0:06:32.200,0:06:33.900
+así que vamos a las opciones avanzadas
+
+0:06:33.900,0:06:38.400
+ahí, escribimos "Scintilla"
+
+0:06:38.400,0:06:39.200
+comenzamos a escribir
+
+0:06:39.200,0:06:41.800
+y luego seleccionamos, aquí está el menú de opciones.
+
+0:06:41.800,0:06:46.400
+Como puedes ver está en "False", así que por defecto no es usado.
+
+0:06:46.400,0:06:51.400
+Lo activo, marcando "True", guardo, y ahora todavía no funciona
+
+0:06:51.400,0:06:57.500
+porque necesitas reiniciar Padre para que esta característica tenga efecto.
+
+0:06:57.500,0:07:06.400
+Así que cierro Padre, y lo inicio otra vez de la misma manera, y cuando se abre
+
+0:07:06.400,0:07:09.400
+odio esta característica, que no recuerda el correcto
+
+0:07:09.400,0:07:11.500
+el mismo archivo que estaba abierto antes
+
+0:07:11.500,0:07:15.400
+así que voy a archivos recientes, y abro éste archivo
+
+0:07:15.400,0:07:21.600
+como puedes ver, ahora está haciendo correctamente el resaltado de sintaxis.
+
+0:07:21.600,0:07:28.100
+A propósito, si también odias esto, que Padre no reconozca el último archivo que estaba abierto antes de que lo cerraras
+
+0:07:28.100,0:07:30.600
+puedes ir a herramientas
+
+0:07:30.600,0:07:31.900
+preferencias, otra vez
+
+0:07:31.900,0:07:33.500
+y aquí está la opción de archivos guardados
+
+0:07:33.500,0:07:35.700
+y aquí estamos, ésto es lo que dice.
+
+0:07:35.700,0:07:40.100
+Así que cada vez que Padre se abre, se abre un archivo nuevo, pero puedes
+
+0:07:40.100,0:07:44.900
+ponerlo al último, y abrirá los últimos archivos que hayan sido abiertos
+
+0:07:44.900,0:07:48.100
+o también hay un gestor de sesiones del que no quiero hablar
+
+0:07:48.100,0:07:52.000
+porque no es de eso de lo que estamos hablando
+
+0:07:52.000,0:07:56.500
+De todas formas, es una característica realmente genial de Padre
+
+0:07:56.500,0:07:59.200
+que de hecho puede hacer un correcto resaltado de sintaxis.
+
+0:07:59.200,0:08:01.200
+Así que ¡bienvenido a Perl 5.10!
+
+0:08:01.200,0:08:04.300
+Genial.
+
+0:08:04.300,0:08:05.700
+¿Y qué más?
+
+0:08:05.700,0:08:08.200
+Hay un par de otras características - volvamos a este sitio web
+
+0:08:08.200,0:08:12.500
+porque tiene explicaciones de qué tipo de cosas son nuevas
+
+0:08:12.500,0:08:17.000
+volvamos a las notas de versión así puedo recordar, oh sí, así que
+
+0:08:17.000,0:08:19.200
+CPAN::Reporter. CPAN::Reporter 
+
+0:08:19.200,0:08:23.900
+Y este módulo que no llego a leer son herramientas
+
+0:08:23.900,0:08:27.500
+un conjunto de herramientas que te permiten reportar
+
+0:08:27.500,0:08:31.200
+mandar reportes de prueba a los 'testers' de CPAN.
+
+0:08:31.200,0:08:36.000
+Este sitio web, que probablemente conozcas, es la página web de CPAN Testers Reports
+
+0:08:36.000,0:08:41.000
+Hay gente que instala módulos CPAN y decide mandar informes
+
+0:08:41.000,0:08:46.600
+Los informes se recogen en este lugar, y entonces puedes verlos, es estupendo.
+
+0:08:46.600,0:08:52.700
+Así que, para iniciar esto, tienes que instalar varios módulos.
+
+0:08:52.700,0:08:54.600
+Estos vienen ya en la distribución.
+
+0:08:54.600,0:09:01.300
+Y tienes que configurarlos para que se envíen
+
+0:09:01.300,0:09:03.600
+y serán enviados en tu nombre.
+
+0:09:03.600,0:09:06.500
+Entonces, si vas al sitio cpantesters.org
+
+0:09:06.500,0:09:08.500
+y te desplazas hacia abajo
+
+0:09:08.500,0:09:13.500
+hay una parte llamada "Become a tester", que enlaza a la wiki
+
+0:09:13.500,0:09:18.500
+y ellos... No voy a entrar en detalles ahora, probablemente será otro vídeo tutorial
+
+0:09:18.500,0:09:24.900
+pero puedes ir ahí y leer como configurarlo, y así empezar a mandar informes de prueba
+
+0:09:24.900,0:09:27.300
+lo que es genial, gracias.
+
+0:09:27.300,0:09:28.400
+¿Qué más?
+
+0:09:28.400,0:09:29.100
+Oh sí
+
+0:09:29.100,0:09:33.300
+Text::CSV_XS sólo lee, lee o escribe en archivos CSV
+
+0:09:33.300,0:09:37.500
+y Net::Telnet, sólo en el caso de que quieras conectarte a una máquina Unix de forma no segura.
+
+0:09:37.500,0:09:42.400
+O, hay todos estos 'routers', 'bridges' y otras cosas
+
+0:09:42.400,0:09:45.600
+que puedes configurar por una interfaz 'telnet'.
+
+0:09:45.600,0:09:51.200
+Y, que, en muchos casos necesitarás usar para probar o configurar estos dispositivos
+
+0:09:51.200,0:09:54.100
+así que Net::Telnet es un magnífico módulo para ello.
+
+0:09:54.100,0:09:58.400
+App::cpanoutdated me permite, revisar
+
+0:09:58.400,0:10:03.500
+qué módulos necesitan ser actualizados para la nueva versión de este paquete,
+
+0:10:03.500,0:10:06.600
+pero puede ser usado por cualquiera, es una herramienta de terminal
+
+0:10:06.600,0:10:10.700
+que te mostrará qué módulos están desactualizados en tu instalación.
+
+0:10:10.700,0:10:18.500
+Template::Toolkit, Template::Toolkit, me ayudará a escribir, o a cualquiera,
+
+0:10:18.500,0:10:23.800
+ayudará a escribir aplicaciones más complejas, aplicaciones web
+
+0:10:23.800,0:10:28.100
+Dancer, que fue incluido en la versión anterior.
+
+0:10:28.100,0:10:31.000
+Fue mejorado en ésta.
+
+0:10:31.000,0:10:34.700
+Pero Dancer viene con una herramienta de plantillas realmente simple
+
+0:10:34.700,0:10:38.400
+un sistema de plantillas que no tiene bucles ni cosas como esas.
+
+0:10:38.400,0:10:40.700
+Y ahora que tienes Template::Toolkit instalado
+
+0:10:40.700,0:10:45.000
+es realmente fácil empezar a construir aplicaciones web complejas en esta distribución.
+
+0:10:45.000,0:10:47.100
+Win32::GuiTest:
+
+0:10:47.100,0:10:54.300
+Éste es un buen módulo que te permite escribir todo tipo de automatización, para aplicaciones de escritorio
+
+0:10:54.300,0:10:59.100
+y te permite hacer click o usar el ratón, o arrastrarlo
+
+0:10:59.100,0:11:02.100
+y, obviamente, de forma automática, sin tocar el ratón
+
+0:11:02.100,0:11:03.800
+o teclear
+
+0:11:03.800,0:11:08.900
+puedes automatizar tareas, puede ser usado para hacer pruebas
+
+0:11:08.900,0:11:11.900
+o para instalaciones automáticas, o cosas por el estilo.
+
+0:11:11.900,0:11:14.100
+Y, como he mencionado, está el SDL, estos son los juegos
+
+0:11:14.100,0:11:17.300
+y hay unos cuantos que están instalados.
+
+0:11:17.300,0:11:22.500
+Unos cuantos módulos han sido mejorados, y básicamente eso es todo.
+
+0:11:22.500,0:11:26.500
+Espero que alguien de ustedes lo pruebe
+
+0:11:26.500,0:11:30.300
+lo descargue, pruebe y nos de sus comentarios.
+
+0:11:30.300,0:11:31.500
+¿Cómo es la nueva distribución?
+
+0:11:31.500,0:11:36.400
+Francamente espero que no haya muchos errores.
+
+0:11:36.400,0:11:38.500
+Y espero que hayas disfrutado este vídeo
+
+0:11:38.500,0:11:40.000
+y, ¡hasta la próxima!

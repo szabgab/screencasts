@@ -1,0 +1,236 @@
+0:00:00.800,0:00:06.000
+czeœæ! tym razem zamierzam pokazaæ wam funkcje auto-uzupe³niania w Padre IDE
+
+0:00:06.000,0:00:09.500
+Jak widzicie u¿ywam wersji 0.87
+
+0:00:09.500,0:00:11.000
+która jest wersj¹ robocz¹
+
+0:00:11.000,0:00:13.000
+z repozytorium SVN
+
+0:00:13.000,0:00:15.500
+trwaj¹ prace nad nastêpc¹ tej wersji oznaczon¹ numerem 0.88,
+
+0:00:15.500,0:00:18.250
+ale jeœli u¿ywasz innej wersji Padre
+
+0:00:18.250,0:00:21.000
+wtedy ta funkcja mo¿e zadzia³aæ nieco inaczej
+
+0:00:21.000,0:00:23.500
+jak widaæ, otworzy³em plik Ÿród³owy 
+
+0:00:23.500,0:00:25.250
+jest to jeden z plików Ÿród³owych Padre
+
+0:00:25.250,0:00:31.600
+jeœli zacznê sobie pisaæ tutaj jakieœ wyra¿enia, na przyk³ad „RegisterProtocole”
+
+0:00:31.600,0:00:34.500
+który jest po prostu nazw¹ metody poni¿ej
+
+0:00:34.500,0:00:38.750
+teraz mo¿emy zaznaczyæ w menu edycji
+
+0:00:38.750,0:00:41.000
+pozycje o nazwie auto-uzupe³nianie (autocomplete)
+
+0:00:41.000,0:00:42.800
+która jest dostêpna równie¿ pod skrótem klawiszowym ctrl+space
+
+0:00:42.800,0:00:46.000
+wiêc mogê wybraæ tê opcjê za pomoc¹ myszy, albo
+
+0:00:46.000,0:00:48.250
+jeœli wolê i wrócê z powrotem do edytora
+
+0:00:48.250,0:00:52.500
+mogê po prostu wcisn¹æ ctrl+spacja i edytor dokona  za mnie auto-uzupe³nienia s³owa
+
+0:00:52.500,0:00:55.000
+co ciekawe mo¿na to zrobiæ w ka¿dym miejscu w pliku
+
+0:00:55.000,0:01:01.000
+teraz, kiedy zacz¹³em ... jeœli nacisnê ctrl+spacje w tym miejscu
+
+0:01:01.000,0:01:03.250
+z tego powodu, ¿e napisa³em jedynie 4 litery, na ekranie pojawi³o siê okienko ze wszystkimi wyra¿eniami...
+
+0:01:03.250,0:01:07.000
+zaczynaj¹cymi siê od „Regi...”
+
+0:01:07.000,0:01:13.000
+teraz mogê wybraæ jedno ze s³ów i zostanie ono wstawione w odpowiednie miejsce.
+
+0:01:13.000,0:01:17.750
+tak samo jest w przypadku nazw zmiennych, na przyk³ad tej
+
+0:01:17.750,0:01:24.000
+auto-uzupe³nianie podpowie mi nazwy wszystkich zmiennych zaczynaj¹cych siê od „$reg...”
+
+0:01:25.000,0:01:31.000
+oczywiœcie niektórzy ludzie preferuj¹ aby podpowiedzi w³¹cza³y siê automatycznie
+
+0:01:31.000,0:01:35.500
+wiêc gdy piszê, pojawi siê okienko typu pop-up które pozwoli mi wybraæ jedno z pasuj¹cych wyra¿eñ
+
+0:01:35.500,0:01:39.000
+aby w³¹czyæ t¹ opcje, musisz udaæ siê do menu „narzêdzia” (tools menu)
+
+0:01:39.000,0:01:45.000
+i w menu w zak³adce „preferencje” (preferences) nale¿y wybraæ „auto-uzupe³nianie” (Auto-Complete)
+
+0:01:45.000,0:01:47.000
+gdzie pierwsze pole tego menu nazywa siê „uzupe³niaj zawsze podczas pisania” (Autocomplete always while typing).
+
+0:01:47.000,0:01:50.000
+a wiêc zaznaczy³em tê opcje... zapisujemy...
+
+0:01:50.000,0:01:56.000
+i teraz kiedy zaczynam pisaæ „$re...” to auto-uzupe³nianie wyœwietla listê wyra¿eñ
+
+0:01:56.000,0:02:02.000
+jeœli bêdê pisa³ dalej to auto-uzupe³nianie zredukuje listê pasuj¹cych wyra¿eñ
+
+0:02:02.000,0:02:08.000
+wtedy mogê po prostu wybraæ jedno ze s³ów, albo pisaæ dalej, zale¿y od mojej woli
+
+0:02:08.000,0:02:16.000
+albo mogê wcisn¹æ klawisz ESC aby wy³¹czyæ okienko z podpowiedziami
+
+0:02:16.000,0:02:19.000
+inna opcja: w preferencjach, auto-uzupe³nianie
+
+0:02:19.000,0:02:23.000
+jest to „Auto-uzupe³nianie nowych metod w pakietach” (Autocomplete new methods in packages)
+
+0:02:23.000,0:02:25.750
+wybierzmy wiêc j¹ i zastosujmy zmiany
+
+0:02:25.750,0:02:29.000
+jeœli zacznê pisaæ w tym miejscu  nazwê jakiejœ procedury
+
+0:02:29.000,0:02:34.000
+i kiedy po podaniu nazwy wcisnê spacjê w tym miejscu
+
+0:02:34.000,0:02:44.000
+wtedy auto-uzupe³nianie doda automatycznie nawiasy klamrowe oraz wciêcie do pierwszej komendy.
+
+0:02:44.000,0:02:46.750
+to jest w³aœnie to co dzieje siê w modu³ach
+
+0:02:46.750,0:02:53.000
+jeœli przeniosê kursor  w miejsce które nie nale¿y do g³ównego skryptu Padre
+
+0:02:53.000,0:02:55.750
+i zacznê pisaæ „sub name ...”
+
+0:02:55.750,0:03:03.500
+wtedy spacja nie zadzia³a, nie zostanie tutaj dokonane ¿adne auto-uzupe³nienie 
+
+0:03:03.500,0:03:07.900
+spowodowane jest to tym, ¿e dla tego przypadku istnieje inna opcja, 
+
+0:03:08.000,0:03:11.000
+trzecia ju¿ z kolei „Uzupe³niaj nowe funkcje w kodzie” (Autocomplete new functions in scripts)
+
+0:03:11.000,0:03:12.000
+sprawdŸmy j¹ wiêc
+
+0:03:12.000,0:03:15.750
+teraz mogê zacz¹æ pisaæ w pliku tym miejscu
+
+0:03:15.750,0:03:18.900
+i kiedy napisze i wcisnê spacje
+
+0:03:18.900,0:03:28.000
+auto-uzupe³nianie wstawi automatycznie nawiasy klamrowe i ustawi kursor w odpowiednim miejscu
+
+0:03:28.000,0:03:32.500
+nie ustawi jednak deklaracji „self”
+
+0:03:32.500,0:03:38.000
+poniewa¿ jest to procedura, wiêc prawdopodobnie nie ma takiej zmiennej
+
+0:03:38.000,0:03:42.900
+wróæmy do preferencji i zobaczmy co tam jeszcze mamy
+
+0:03:42.900,0:03:50.000
+w tym miejscu s¹ liczby które pozwalaj¹ mi okreœliæ postaæ podpowiedzi
+
+0:03:50.000,0:03:57.500
+oczywiœcie mo¿na je edytowaæ, np. ile sugestii bêdzie wyœwietlanych itp.
+
+0:03:57.500,0:04:01.100
+mamy te¿ 2 checkboxy które s¹ dosyæ interesuj¹ce
+
+0:04:01.100,0:04:03.000
+Jeden z nich nazywa siê „Autouzupe³niaj¹ce nawiasy”
+
+0:04:03.000,0:04:06.000
+wiêc jeœli zaznaczê tê opcjê i zacznê sobie pisaæ
+
+0:04:06.000,0:04:13.100
+np. w tym miejscu i wstawiê nawiasy klamrowe
+
+0:04:13.100,0:04:19.000
+(ciê¿ko jest to zaobserwowaæ), ale program automatycznie wstawia nawias domykaj¹cy
+
+0:04:19.000,0:04:21.000
+to samo dzieje siê z nawiasami kwadratowymi
+
+0:04:21.000,0:04:26.200
+nie mo¿esz tego zaobserwowaæ przez ustawienia kolorów podœwietlania,
+
+0:04:26.200,0:04:31.100
+zachodzi to kiedy kiedy zbli¿asz kursor do domkniêcia nawiasu klamrowego
+
+0:04:31.100,0:04:37.000
+kwadratowego albo nawet zwyk³ego
+
+0:04:37.000,0:04:42.900
+tak to w³aœnie dzia³a. Teraz zobaczmy co siê stanie gdy zrobimy to samo w œrodku procedury
+
+0:04:42.900,0:04:47.500
+napisa³em i znów mam klamrowe nawiasy
+
+0:04:47.500,0:04:56.500
+co siê jednak stanie jeœli wstawiê tam domykaj¹cy nawias klamrowy
+
+0:04:56.500,0:05:00.000
+i po tym zanim napiszesz nawiasy klamrowe?
+
+0:05:00.000,0:05:04.750
+Padre nie doda nastêpnego nawiasu domykaj¹cego, poniewa¿ wygl¹da na to ¿e masz ju¿ jeden
+
+0:05:04.750,0:05:12.000
+dla niektórych to bêdzie to czego chc¹, a inni bêd¹ woleli zawsze mieæ domkniêty nawias klamrowy
+
+0:05:12.000,0:05:14.300
+wiêc dla nich jest inna opcja
+
+0:05:14.300,0:05:21.000
+tutaj... auto-uzupe³nianie. Zaznacz to: „Dodaj domykaj¹cy nawias jeœli istnieje ju¿ jeden” (Add another closing bracket if there already is one)
+
+0:05:21.000,0:05:23.000
+w tym przypadku wiêc, jeœli zaznaczê tê opcje
+
+0:05:23.000,0:05:30.000
+jeœli mam domkniêty nawias klamrowy i otworzê sobie nowy
+
+0:05:30.000,0:05:31.750
+program wci¹¿ dodaje nawias domykaj¹cy
+
+0:05:31.750,0:05:34.000
+wiêc jest to tylko kwestia indywidualnych preferencji
+
+0:05:34.000,0:05:36.600
+to by by³o na tyle o auto-uzupe³nieniu
+
+0:05:36.600,0:05:41.500
+mam nadziejê, ¿e obejrzysz nastêpny nasz film
+
+0:05:41.500,0:05:42.000
+do zobaczenia!

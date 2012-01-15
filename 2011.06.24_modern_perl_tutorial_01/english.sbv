@@ -1,0 +1,635 @@
+0:00:04.340,0:00:07.590
+Hi! Welcome again to the channel and this time
+
+0:00:07.590,0:00:10.319
+I am going to start a tutorial for Perl
+
+0:00:10.319,0:00:13.439
+... or probably call it a tutorial for Modern Perl
+
+0:00:13.439,0:00:16.869
+even though 'Modern' is a buzzword
+
+0:00:16.869,0:00:18.249
+but
+
+0:00:18.249,0:00:20.510
+it also has a meaning here.
+
+0:00:20.510,0:00:22.199
+Well, trying to show
+
+0:00:22.199,0:00:25.039
+stuff that at least
+
+0:00:25.039,0:00:29.429
+... that needs modern version of Perl that was
+released in the last couple of years
+
+0:00:29.429,0:00:32.970
+based on perl 5.010 probably.
+
+0:00:32.970,0:00:36.020
+There should be this book here;
+
+0:00:36.020,0:00:39.790
+so there it is; this book
+
+0:00:39.790,0:00:41.370
+'Modern Perl', it is called
+
+0:00:41.370,0:00:47.200
+and I would not follow this book, obviously I
+will follow my 
+
+0:00:47.200,0:00:49.230
+training material that I have been using
+
+0:00:49.230,0:00:52.780
+with the slight differences because the format is
+different
+
+0:00:52.780,0:00:54.370
+for the training
+
+0:00:54.370,0:00:57.990
+but I really recommend to two buy this book or you
+can actually download it
+
+0:00:57.990,0:00:59.280
+free of charge as PDF.
+
+0:00:59.280,0:01:02.580
+If you cannot afford it
+
+0:01:02.580,0:01:06.120
+you do not want to invest money in it, go ahead and
+download it;
+
+0:01:06.120,0:01:08.170
+will show the link
+
+0:01:08.170,0:01:11.310
+somewhere later on
+
+0:01:11.310,0:01:12.409
+anyway ...
+
+0:01:12.409,0:01:15.979
+the book is really good and I recommend you
+
+0:01:15.979,0:01:16.990
+read it
+
+0:01:16.990,0:01:21.690
+even though it is not really a tutorial or not
+really a basic learning book.
+
+0:01:21.690,0:01:25.830
+So let us see what we are going to use. We are
+going to use
+
+0:01:25.830,0:01:28.850
+the Strawberry Perl distribution.
+
+0:01:28.850,0:01:30.859
+Actually a derivative of the Strawberry Perl
+distribution
+
+0:01:30.859,0:01:32.360
+Padre
+
+0:01:32.360,0:01:34.520
+on Strawberry package.
+
+0:01:34.520,0:01:38.080
+We are going to use that though we could actually
+use any version of
+
+0:01:38.080,0:01:39.180
+perl for this
+
+0:01:39.180,0:01:42.060
+but this just makes it easier
+
+0:01:42.060,0:01:45.240
+The first thing we do is go to the website of
+
+0:01:45.240,0:01:47.950
+Padre (http://padre.perlide.org/)
+
+0:01:47.950,0:01:49.220
+here you can see it
+
+0:01:49.220,0:01:52.890
+click on the download link
+
+0:01:52.890,0:01:56.630
+scroll down a little bit. There is a link to
+download the latest version of
+
+0:01:56.630,0:01:58.890
+Padre on Strawberry.
+
+0:01:58.890,0:02:00.050
+This includes
+
+0:02:00.050,0:02:03.350
+both the perl compiler/interpreter
+
+0:02:03.350,0:02:05.049
+and
+
+0:02:05.049,0:02:09.069
+an open environment (an editor basically) which is
+called Padre
+
+0:02:09.069,0:02:14.370
+and lots of modules that you are going to need for
+the development.
+
+0:02:14.370,0:02:16.459
+So, I recommend to download this one
+
+0:02:16.459,0:02:20.879
+Double click on it and follow the instructions
+
+0:02:20.879,0:02:21.849
+install it.
+
+0:02:21.849,0:02:23.599
+Once you install it, you will have,
+
+0:02:23.599,0:02:25.160
+in the start menu
+
+0:02:25.160,0:02:27.089
+if you go to 'All Programs'
+
+0:02:27.089,0:02:31.309
+'Strawberry Perl' and click on the butterfly
+(here the blue one)
+
+0:02:31.309,0:02:34.969
+which is opening the IDE.
+
+0:02:34.969,0:02:37.349
+Once you have opened the IDE,
+
+0:02:37.349,0:02:40.799
+here you have the empty space to type text.
+
+0:02:40.799,0:02:43.799
+What we are going to do is
+
+0:02:43.799,0:02:49.019
+go to the 'File' menu option and 'New' (the second
+'New' here) and click on
+
+0:02:49.019,0:02:50.639
+'Perl 5 Script'.
+
+0:02:50.639,0:02:54.789
+This will generate a Perl 5 script for you.
+
+0:02:54.789,0:02:58.469
+I will explain the parts later.
+
+0:02:58.469,0:03:03.109
+What you need to do is type in:
+
+0:03:03.109,0:03:04.629
+print "hello world\n";
+
+0:03:04.629,0:03:06.889
+This is the standard thing
+
+0:03:06.889,0:03:11.839
+and then we have to save it because it is an
+unsaved file. Without saving the
+
+0:03:11.839,0:03:13.299
+editor cannot run it.
+
+0:03:13.299,0:03:18.879
+So we save it
+
+0:03:18.879,0:03:21.849
+(let us say we call it, hello world, 'hw.pl').
+
+0:03:21.849,0:03:25.309
+Let us save it.
+
+0:03:25.309,0:03:29.569
+Once I save it, I can run it via 'Run' -> 'Run
+Script' or pressing F5.
+
+0:03:29.569,0:03:30.709
+It will bring a window,
+
+0:03:30.709,0:03:32.629
+a popup window,
+
+0:03:32.629,0:03:35.329
+and you will see 'hello world' printed.
+
+0:03:35.329,0:03:39.129
+'Press any key continue . . .': This is something
+that Windows adds
+
+0:03:39.129,0:03:43.409
+in order to let us see the actual output otherwise
+it would
+
+0:03:43.409,0:03:44.640
+close immediately
+
+0:03:44.640,0:03:48.039
+this window and we would not see the output.
+
+0:03:48.039,0:03:50.839
+So, just press some key and you are good;
+
+0:03:50.839,0:03:53.579
+you can go on.
+
+0:03:53.579,0:03:57.659
+So, that is a basic example to write a really
+simple Perl script;
+
+0:03:57.659,0:03:59.380
+let us go over these parts.
+
+0:03:59.380,0:04:03.949
+So the first line is called a ‘shebang’. It is
+mostly used for Unix systems
+
+0:04:03.949,0:04:08.739
+but it does not matter even if you put it on a
+Windows machine.
+
+0:04:08.739,0:04:10.229
+So it does not really matter.
+
+0:04:10.229,0:04:12.110
+use 5.6;
+
+0:04:12.110,0:04:14.849
+This means that
+
+0:04:14.849,0:04:16.799
+when you run the script
+
+0:04:16.799,0:04:20.169
+it will check first if your perl is at least
+
+0:04:20.169,0:04:24.830
+5.6 version.
+
+0:04:24.830,0:04:29.590
+This is actually a very ancient version of
+perl,
+
+0:04:29.590,0:04:32.209
+the 5.6 version,
+
+0:04:32.209,0:04:36.389
+so, we are going to use a newer one and we are
+going to require a newer one.
+
+0:04:36.389,0:04:39.739
+So I change this to: use 5.010;
+
+0:04:39.739,0:04:46.510
+Specifically, this one will also enable a couple
+of new features in the language.
+
+0:04:46.510,0:04:51.679
+use strict; and use warnings; are two additional,
+
+0:04:51.679,0:04:53.470
+basically compiler flags,
+
+0:04:53.470,0:04:56.639
+that make the perl
+
+0:04:56.639,0:04:57.949
+interpreter work
+
+0:04:57.949,0:04:59.169
+slightly differently,
+
+0:04:59.169,0:05:00.699
+in a more strict way, and
+
+0:05:00.699,0:05:02.919
+to provide you warnings
+
+0:05:02.919,0:05:04.729
+in order to avoid
+
+0:05:04.729,0:05:05.389
+certain
+
+0:05:05.389,0:05:10.290
+issues. So I would recommend everytime for every
+script to start with these three
+
+0:05:10.290,0:05:11.110
+entries;
+
+0:05:11.110,0:05:14.050
+the shebang is not that important for us.
+
+0:05:14.050,0:05:16.080
+Then once we have the;
+
+0:05:16.080,0:05:20.440
+what you can see here is that 'print' the keyword
+of Perl,
+
+0:05:20.440,0:05:24.340
+any string is going to be between quotes;
+
+0:05:24.340,0:05:27.360
+here we put them in between double quotes
+
+0:05:27.360,0:05:29.580
+and backslash 'n' (\n) here
+
+0:05:29.580,0:05:30.360
+means that
+
+0:05:30.360,0:05:31.750
+when it is printed out
+
+0:05:31.750,0:05:33.259
+it will be
+
+0:05:33.259,0:05:35.449
+printing a newline at the end.
+
+0:05:35.449,0:05:38.930
+As you can see, the statement ends with a
+
+0:05:38.930,0:05:40.469
+semicolon here.
+
+0:05:40.469,0:05:43.430
+Because I used ...
+
+0:05:43.430,0:05:45.169
+I require already 5.010,
+
+0:05:45.169,0:05:46.940
+it already adds a new future
+
+0:05:46.940,0:05:51.800
+to the language that did not exist earlier. So, I
+can remove the 'print' and instead of
+
+0:05:51.800,0:05:53.180
+that, write 'say'
+
+0:05:53.180,0:05:56.069
+and then I can eliminate also the newline;
+
+0:05:56.069,0:05:58.960
+and if I press F5 now,
+
+0:05:58.960,0:06:02.340
+it already saves the file and prints it out,
+
+0:06:02.340,0:06:04.800
+so you will see the result of the new version,
+
+0:06:04.800,0:06:06.939
+and see it is the same.
+
+0:06:06.939,0:06:09.219
+It still works.
+
+0:06:09.219,0:06:12.929
+So, you do not have to type so much if you use
+5.010
+
+0:06:12.929,0:06:15.889
+and you can use the 'say' keyword, you do not have
+to add the newline.
+
+0:06:15.889,0:06:20.429
+That is fine but we would like to have some
+interaction with the outside world.
+
+0:06:20.429,0:06:24.460
+So, let us say, let us ask the user 'what
+
+0:06:24.460,0:06:26.340
+is his name'.
+
+0:06:26.340,0:06:29.789
+'What is your name?'.
+
+0:06:29.789,0:06:31.969
+So, we are going to ask the person.
+
+0:06:31.969,0:06:35.979
+Then we will need to get the information from the
+user.
+
+0:06:35.979,0:06:40.049
+So, I define a new variable (the first variable we
+have)
+
+0:06:40.049,0:06:41.629
+which is called '$name'.
+
+0:06:41.629,0:06:44.449
+I used  the 'my' keyword to define it.
+
+0:06:44.449,0:06:49.389
+To declare a variable, '$' (dollar) is always the
+prefix of every scalar variable.
+
+0:06:49.389,0:06:50.409
+Well
+
+0:06:50.409,0:06:52.050
+in this case,
+
+0:06:52.050,0:06:54.270
+the name of the variable is '$name',
+
+0:06:54.270,0:06:55.030
+and then
+
+0:06:55.030,0:06:58.579
+we use
+
+0:06:58.579,0:07:00.020
+this operator,
+
+0:07:00.020,0:07:04.169
+which is reading from the standard input (from the
+keyboard)
+
+0:07:04.169,0:07:05.819
+one line until
+
+0:07:05.819,0:07:06.680
+the user
+
+0:07:06.680,0:07:07.849
+presses 'Enter'.
+
+0:07:07.849,0:07:11.050
+So, the result will go into this $ variable called
+
+0:07:11.050,0:07:14.029
+'$name' and then we would like to print it out
+
+0:07:14.029,0:07:15.800
+so we say 'hello'
+
+0:07:15.800,0:07:19.059
+and we add '$name'.
+
+0:07:19.059,0:07:23.639
+As you can see you can embed variables into
+strings and it will be
+
+0:07:23.639,0:07:26.419
+printed out.
+
+0:07:26.419,0:07:29.160
+Let us continue this example.
+
+0:07:29.160,0:07:31.270
+Let us run this example now.
+
+0:07:31.270,0:07:32.470
+So I press F5.
+
+0:07:32.470,0:07:37.599
+It asks me what my name is,
+
+0:07:37.599,0:07:40.610
+so I type in say ... 'foo', press 'Enter' and it
+will tell me 'hello foo'.
+
+0:07:40.610,0:07:42.549
+That is great so far.
+
+0:07:42.549,0:07:48.509
+Now let us be a bit more polite and let us ask
+'How
+
+0:07:48.509,0:07:51.020
+are you?'.
+
+0:07:51.020,0:07:56.739
+Let us go on with this. I press F5, it asks my
+name,
+
+0:07:56.739,0:07:58.459
+still called 'foo';
+
+0:07:58.459,0:08:01.080
+and when it prints out, you see that
+
+0:08:01.080,0:08:04.120
+after 'foo', it prints out a newline
+
+0:08:04.120,0:08:06.629
+and only then the ',' (comma).
+
+0:08:06.629,0:08:09.279
+Why is that?
+
+0:08:09.279,0:08:13.289
+So, when we printed, when we typed in the response
+'foo'
+
+0:08:13.289,0:08:15.819
+we had to press 'Enter' in order to
+
+0:08:15.819,0:08:17.059
+tell the
+
+0:08:17.059,0:08:20.520
+Windows and Padre Perl that the input ended;
+
+0:08:20.520,0:08:24.849
+that the name can be added to the '$name' variable.
+
+0:08:24.849,0:08:28.210
+And, we did not remove that newline, so here
+
+0:08:28.210,0:08:31.279
+we have the new line and it is printed out
+
+0:08:31.279,0:08:35.300
+even though we do not really see in it in this
+code,
+
+0:08:35.300,0:08:37.350
+and because it is such a special case,
+
+0:08:37.350,0:08:42.050
+Perl has a special function for it to remove that
+thing.
+
+0:08:42.050,0:08:44.120
+So, I type in 'chomp',
+
+0:08:44.120,0:08:47.300
+which is the function to remove a newline
+
+0:08:47.300,0:08:51.050
+from the end of a string. I provide the name of a
+variable.
+
+0:08:51.050,0:08:52.500
+This will remove 
+
+0:08:52.500,0:08:55.510
+the trailing newline from this string
+
+0:08:55.510,0:08:57.750
+running the script again,
+
+0:08:57.750,0:09:01.060
+am still called 'foo',
+
+0:09:01.060,0:09:04.760
+but this time as you can see the newline is gone
+from there
+
+0:09:04.760,0:09:06.910
+and it is working fine.
+
+0:09:06.910,0:09:09.860
+I think that is enough for the first
+
+0:09:09.860,0:09:11.200
+tutorial.
+
+0:09:11.200,0:09:14.150
+There are some exercises going to be
+
+0:09:14.150,0:09:15.170
+in the
+
+0:09:15.170,0:09:19.270
+blog that is associated with this
+
+0:09:19.270,0:09:20.450
+screencast.
+
+0:09:20.450,0:09:24.680
+Please follow the link below and you will find
+exercises, you can
+
+0:09:24.680,0:09:26.910
+play with them and I hope to see in the next
+chapter. Bye bye.
