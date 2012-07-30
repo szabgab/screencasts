@@ -115,25 +115,33 @@ Portuguese: done                  (Janeth Vargas - vargasja)
 Russian:    done                  (Сергей Романов - sergeyromanov)
 
 
-Modern Perl Tutorial - part 01    http://www.youtube.com/watch?v=c3qzmJsR2H0      2011.06.24_modern_perl_tutorial_01/
-English: done                     (wesjdj   - Wes Johnson)
-Hebrew: done                      (yogiyogi - Yuval Yogev)
-Spanish: done 			  (betoesquivel - José Alberto Esquivel)
-Russian: done                     (Alex Subach)
++ Modern Perl Tutorial - part 01    http://www.youtube.com/watch?v=c3qzmJsR2H0      2011.06.24_modern_perl_tutorial_01/
+English: done                     (Wes Johnson - wesjdj)
+Hebrew:  done                     (Yuval Yogev - yogiyogi)
+Spanish: done 			          (José Alberto Esquivel - betoesquivel)
+Russian: done                     (Alex Subach - Snipx)
+German:  done                     (Florian Greinus - fgreinus and Sebastian Woetzel - wose)
 
-Using the built-in debugger of Perl as REPL   http://www.youtube.com/watch?v=pL_nDlXNqLY   2011.06.22_using_the_built_in_debugger_as_repl/
-English: done                     (mishin, Nikolay Mishin http://nmishin.livejournal.com/ )
-Russian: done                     (mishin, Nikolay Mishin http://nmishin.livejournal.com/ )
-Hebrew:  done                     (Yuval Yogev)
-Polish: done                      (Marcin Kostrzewa  - kustosz)
+- Using the built-in debugger of Perl as REPL   http://www.youtube.com/watch?v=pL_nDlXNqLY   2011.06.22_using_the_built_in_debugger_as_repl/
+English: done                     (Nikolay Mishin - mishin - http://nmishin.livejournal.com/ and Sébastien Aperghis-Tramoni - maddingue)
+German:  done                     (Daniel Klischies - Nostraa)
+Hebrew:  done                     (Yuval Yogev - yogiyogi)
+Polish:  done                     (Marcin Kostrzewa  - kustosz)
+Russian: done                     (Nikolay Mishin - mishin - http://nmishin.livejournal.com/ )
+Spanish: done                     (Freddy Roman)
 
+- Padre on Strawberry Perl v5       http://www.youtube.com/watch?v=MKXtGgWi7qs       2011.06.20_padre_on_strawberry_perl/
+English: done                     (Karolina Kowal - Karolynn aka Lovelace)
+Russian: done                     (Pavel - fxzuz)
+Spanish: done                     (mgnz)
 
-Padre on Strawberry Perl v5       http://www.youtube.com/watch?v=MKXtGgWi7qs       2011.06.20_padre_on_strawberry_perl/
-English: done                     (Karolynn  - Lovelace - Karolina Kowal)
-
-Using the built-in debugger of Perl  http://www.youtube.com/watch?v=jiYZcV3khdY    2011.06.15_using_the_built_in_debugger/
-English: done                      (Yuval Yogev )
-Hebrew: done                       (Yuval Yogev )
+- Using the built-in debugger of Perl  http://www.youtube.com/watch?v=jiYZcV3khdY    2011.06.15_using_the_built_in_debugger/
+English:   done                   (Yuval Yogev - yogiyogi)
+German:    done                   (Lorenz Leutgeb - flowlo)
+Hebrew:    done                   (Yuval Yogev - yogiyogi)
+Norwegian: done                   (Arne Tobias Malkenes Ødegaard - arnet95)
+Russian:   done                   (skinder)
+Spanish:   done                   (Boca13)
 
 -----------------
 
