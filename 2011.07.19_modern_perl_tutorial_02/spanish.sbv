@@ -1,4 +1,4 @@
-.0:00:00.919,0:00:02.660
+0:00:00.919,0:00:02.660
 Hola! Bienvenidos de nuevo al canal!
 
 0:00:02.660,0:00:05.530
@@ -11,11 +11,11 @@ estructuras de datos en Perl.
 Especialmente, esta 
 
 0:00:08.809,0:00:11.989
-presentación será sobre escalares.
+presentaciÃ³n serÃ¡ sobre escalares.
 
 0:00:11.989,0:00:16.669
-Entonces puedes ver aquí el IDE Padre.
-Esta es una versión de desarrollo. 
+Entonces puedes ver aquÃ­ el IDE Padre.
+Esta es una versiÃ³n de desarrollo. 
 
 0:00:16.669,0:00:21.309
 Y la primera cosa que debes hacer 
@@ -25,13 +25,13 @@ es crear un nuevo
 script de Perl 5. 
 
 0:00:22.920,0:00:26.239
-Sólo tiene el shebang, luego
+SÃ³lo tiene el shebang, luego
 
 0:00:26.239,0:00:28.949
-la instrucción "use". 
+la instrucciÃ³n "use". 
 
 0:00:28.949,0:00:32.580
-Así que, Perl tiene tres tipos de  
+AsÃ­ que, Perl tiene tres tipos de  
 
 0:00:32.580,0:00:36.350
 estructuras de datos: escalares, arrays
@@ -41,35 +41,35 @@ y hashes.
 Escalares pueden contener 
 
 0:00:38.499,0:00:42.869
-un número o una cadena de caractereres 
+un nÃºmero o una cadena de caractereres 
 o referencias a una de las estructuras 
 
 0:00:42.869,0:00:44.910
 de datos complejas. 
 
 0:00:44.910,0:00:48.410
-Pero vamos a hablar de eso más adelante.
+Pero vamos a hablar de eso mÃ¡s adelante.
 
 0:00:48.410,0:00:51.810
 Cada una de estas
 
 0:00:51.810,0:00:54.060
-tiene su propio signo específico,
+tiene su propio signo especÃ­fico,
 
 0:00:54.060,0:00:55.379
 lo que llamamos sigil
 
 0:00:55.379,0:00:58.850
-que es el primer carácter del nombre 
+que es el primer carÃ¡cter del nombre 
 de la variable.
 
 0:00:58.850,0:01:03.550
-Entonces los escalares tienes el signo del dólar($),
+Entonces los escalares tienes el signo del dÃ³lar($),
 los arrays tienes el signo de arroba(@), y en los
 
 0:01:03.550,0:01:08.260
-hashes que también se llaman diccionarios
-o tablas de búsqueda
+hashes que tambiÃ©n se llaman diccionarios
+o tablas de bÃºsqueda
 
 0:01:08.260,0:01:10.960
 son los signos de porcentaje(%).
@@ -80,16 +80,16 @@ variables
 
 0:01:13.250,0:01:17.799
 escalares, cada variable escalar
-siempre comienza con un signo del dólar($)
+siempre comienza con un signo del dÃ³lar($)
 
 0:01:17.799,0:01:18.670
 y luego
 
 0:01:18.670,0:01:20.620
-letras y números
+letras y nÃºmeros
 
 0:01:20.620,0:01:25.010
-y caracteres de subrayado. Así, por ejemplo, puedes 
+y caracteres de subrayado. AsÃ­, por ejemplo, puedes 
 tener una variable como esta
 
 0:01:25.010,0:01:26.390
@@ -105,7 +105,7 @@ o puedes tener
 nombre largo ($long_name)
 
 0:01:31.880,0:01:35.509
-que tiene letras minúsculas 
+que tiene letras minÃºsculas 
 
 0:01:35.509,0:01:38.770
 y caracteres de subrayado entre las palabras
@@ -126,8 +126,8 @@ este estilo, aunque
 toda la comunidad
 
 0:01:48.990,0:01:52.800
-prefiere la versión anterior
-donde tienes todas en minúsculas
+prefiere la versiÃ³n anterior
+donde tienes todas en minÃºsculas
 
 0:01:52.800,0:01:54.229
 todos los nombres
@@ -137,10 +137,10 @@ y caracteres de subrayado entre las
 variables
 
 0:01:57.230,0:02:00.690
-Ahora, debido a que está utilizando la instrucción "use strict"
+Ahora, debido a que estÃ¡ utilizando la instrucciÃ³n "use strict"
 
 0:02:00.690,0:02:05.439
-siempre tendrás que declarar todas las variables
+siempre tendrÃ¡s que declarar todas las variables
 usando la palabra clave "my" 
 
 0:02:05.439,0:02:07.360
@@ -153,13 +153,13 @@ Entonces, declaro mi variable
 y coloco "foo"
 
 0:02:11.359,0:02:14.319
-Y luego podre imprimir, perdón,
+Y luego podre imprimir, perdÃ³n,
 
 0:02:14.319,0:02:17.949
 Yo puedo imprimir esa variable
 
 0:02:17.949,0:02:19.859
-Así que si presionó F5 ahora
+AsÃ­ que si presionÃ³ F5 ahora
 
 0:02:19.859,0:02:20.969
 entonces va a ...
@@ -168,21 +168,21 @@ entonces va a ...
 Necesito en primer lugar, guardar el script
 
 0:02:22.989,0:02:25.059
-así que lo voy a llamar script.pl
+asÃ­ que lo voy a llamar script.pl
 
 0:02:25.059,0:02:26.500
 Y 
 
 0:02:26.500,0:02:30.309
-abrirá una ventana independiente donde se va a 
+abrirÃ¡ una ventana independiente donde se va a 
 imprimir el resultado de "foo"
 
 0:02:30.309,0:02:34.680
 Y eso es algo que esta ventana
-hace por mí.
+hace por mÃ­.
 
 0:02:34.680,0:02:38.989
-Así que este es el camino. Primero declaramos
+AsÃ­ que este es el camino. Primero declaramos
 una variable. Es "my" y luego
 
 0:02:38.989,0:02:40.260
@@ -196,7 +196,7 @@ imprimirlo
 No tenemos que
 
 0:02:44.460,0:02:46.669
-asignar inmediatamente. Así que podriamos 
+asignar inmediatamente. AsÃ­ que podriamos 
 
 0:02:46.669,0:02:51.739
 declarar la variable y luego
@@ -206,32 +206,32 @@ asignar un valor. Si lo ejecuto
 Obtengo el mismo resultado.
 
 0:02:55.109,0:02:59.699
-Normalmente preferimos la primera versión. Así que si
-la lógica del código lo permite
+Normalmente preferimos la primera versiÃ³n. AsÃ­ que si
+la lÃ³gica del cÃ³digo lo permite
 
 0:02:59.699,0:03:01.709
 entonces usted debe
 
 0:03:01.709,0:03:05.689
-inmediatamente, en el momento de la declaración,
+inmediatamente, en el momento de la declaraciÃ³n,
 asignar un valor
 
 0:03:05.689,0:03:10.189
 Pero eso no siempre es posible.
-Así que hay casos en los que hay que
+AsÃ­ que hay casos en los que hay que
 
 0:03:10.189,0:03:14.739
-primero declarar una variable y sólo más tarde
+primero declarar una variable y sÃ³lo mÃ¡s tarde
 podras asignar un valor.
 
 0:03:14.739,0:03:16.779
 Ahora lo que ocurre con un valor si ...
 
 0:03:16.779,0:03:20.159
-... Cuando no está definido,
+... Cuando no estÃ¡ definido,
 
 0:03:20.159,0:03:23.569
-no tiene un valor, así que
+no tiene un valor, asÃ­ que
 Yo solamente lo declaro.
 
 0:03:23.569,0:03:26.579
@@ -274,7 +274,7 @@ y luego imprimir
 entonces nosotros colocamos "say 'no'"
 
 0:04:00.159,0:04:01.920
-Y luego si yo ejecutó este código
+Y luego si yo ejecutÃ³ este cÃ³digo
 
 0:04:01.920,0:04:03.649
 tu veras "no".
@@ -283,22 +283,22 @@ tu veras "no".
 Y luego "foo".
 
 0:04:06.369,0:04:08.999
-Por contrario si tomo el mismo código
+Por contrario si tomo el mismo cÃ³digo
 
 0:04:08.999,0:04:10.069
 y
 
 0:04:10.069,0:04:13.189
-lo coloco después de la asignación 
+lo coloco despuÃ©s de la asignaciÃ³n 
 
 0:04:13.189,0:04:15.709
-entonces verás que en un principio dice "no"
+entonces verÃ¡s que en un principio dice "no"
 
 0:04:15.709,0:04:16.639
 luego
 
 0:04:16.639,0:04:19.039
-dice que está definido y luego dice que
+dice que estÃ¡ definido y luego dice que
 
 0:04:19.039,0:04:20.259
 ya tiene
@@ -307,7 +307,7 @@ ya tiene
 el valor "foo" porque
 
 0:04:21.979,0:04:24.610
-la impresión del valor es después
+la impresiÃ³n del valor es despuÃ©s
 
 0:04:24.610,0:04:25.979
 de actualmente 
@@ -316,17 +316,17 @@ de actualmente
 imprimir el "defined". 
 
 0:04:28.250,0:04:32.430
-Así puedes ver que el aquí todavía no estaba 
-definido, aquí le asignamos un valor y
+AsÃ­ puedes ver que el aquÃ­ todavÃ­a no estaba 
+definido, aquÃ­ le asignamos un valor y
 
 0:04:32.430,0:04:36.040
-aquí se convirtió definido. 
+aquÃ­ se convirtiÃ³ definido. 
 
 0:04:36.040,0:04:38.990
-Más tarde podemos establecer el valor a 
+MÃ¡s tarde podemos establecer el valor a 
 
 0:04:38.990,0:04:43.490
-"undef" de nuevo. Así que más adelante, por
+"undef" de nuevo. AsÃ­ que mÃ¡s adelante, por
 ejemplo, aqui podemos decir que ($name)
 
 0:04:43.490,0:04:44.659
@@ -337,7 +337,7 @@ es igual a
 
 0:04:46.479,0:04:49.210
 Dejame solamente no copiar-pegar
-el mismo código.
+el mismo cÃ³digo.
 
 0:04:49.210,0:04:54.899
 En este punto, su valor 
@@ -347,7 +347,7 @@ es "undef" otra vez
 Ahora, las variables
 
 0:04:56.370,0:04:59.319
-pueden contener números o cadena de caracteres.
+pueden contener nÃºmeros o cadena de caracteres.
 
 0:04:59.319,0:05:01.169
 entonces puedes...
@@ -372,16 +372,16 @@ Y luego puedes imprimir la variable
 
 0:05:15.639,0:05:19.210
 Y luego puedes asignar a la 
-misma variable un número 
+misma variable un nÃºmero 
 
 0:05:19.210,0:05:21.800
 Y luego puedes imprimir la variable otra vez 
 
 0:05:21.800,0:05:24.769
-Y si ejecutó el codigo, entonces verás que 
+Y si ejecutÃ³ el codigo, entonces verÃ¡s que 
 
 0:05:24.769,0:05:27.809
-primero era una cadena de caracteres y luego era un número
+primero era una cadena de caracteres y luego era un nÃºmero
 
 0:05:27.809,0:05:30.529
 Y a Perl no le importa. Perl no tiene  
@@ -393,7 +393,7 @@ tipos conectados a estas variables
 no tiene nada de eso
 
 0:05:36.410,0:05:40.699
-Así que todo eso
+AsÃ­ que todo eso
 
 0:05:40.699,0:05:42.249
 lo trabaja operadores. 
@@ -423,7 +423,7 @@ se comportan de manera diferente.
 En Perl
 
 0:05:57.099,0:05:59.620
-Es al revés
+Es al revÃ©s
 
 0:05:59.620,0:06:01.960
 Ni variables ni 
@@ -435,11 +435,11 @@ operandos
 deciden lo que el operador va a hacer. 
 
 0:06:06.230,0:06:11.460
-Pero el operador decidirá como  
+Pero el operador decidirÃ¡ como  
 los operandos, las variables se comportan.
 
 0:06:11.460,0:06:17.630
-Así que vamos a empezar a usar otro ejemplo
+AsÃ­ que vamos a empezar a usar otro ejemplo
 Digamos que yo tengo "$z"
 
 0:06:17.630,0:06:19.620
@@ -462,14 +462,14 @@ y luego
 lo imprimo tambien 
 
 0:06:32.749,0:06:37.030
-Y entonces, ¿qué haremos? Así que vamos a
+Y entonces, Â¿quÃ© haremos? AsÃ­ que vamos a
 tratar de
 
 0:06:37.030,0:06:40.400
 tomar "$z" y agregar "$y" a el 
 
 0:06:40.400,0:06:42.789
-Y entonces también vamos a tratar de
+Y entonces tambiÃ©n vamos a tratar de
 
 0:06:42.789,0:06:47.330
 tomar "$z"
@@ -496,38 +496,38 @@ o um...
 o variable de repeticiones
 
 0:07:05.449,0:07:08.210
-operador, perdón
+operador, perdÃ³n
 
 0:07:08.210,0:07:11.300
-Así que si yo ejecuto el código, qué tenemos aquí
+AsÃ­ que si yo ejecuto el cÃ³digo, quÃ© tenemos aquÃ­
 
 0:07:11.300,0:07:14.550
 En primer lugar, imprime los dos valores
 3 y 4
 
 0:07:14.550,0:07:15.879
-Luego el más
+Luego el mÃ¡s
 
 0:07:15.879,0:07:19.770
-es adición, una adición numérica así que
-se llevará los dos valores 
+es adiciÃ³n, una adiciÃ³n numÃ©rica asÃ­ que
+se llevarÃ¡ los dos valores 
 
 0:07:19.770,0:07:25.379
 dos variables escalares de los valores 
-3 y 4 y sumarlos como números 
+3 y 4 y sumarlos como nÃºmeros 
 
 0:07:25.379,0:07:26.389
 Luego el punto
 
 0:07:26.389,0:07:27.949
-es una concatenación
+es una concatenaciÃ³n
 
 0:07:27.949,0:07:29.639
-Así que tomara dos cadenas de caracteres
+AsÃ­ que tomara dos cadenas de caracteres
 
 0:07:29.639,0:07:33.249
-y básicamente convierte los dos 
-números en dos cadenas de caracteres
+y bÃ¡sicamente convierte los dos 
+nÃºmeros en dos cadenas de caracteres
 
 0:07:33.249,0:07:34.709
 y los imprime 
@@ -539,10 +539,10 @@ concatenados 3 y 4
 o 34 si quieres 
 
 0:07:38.530,0:07:39.999
-ver esto como un número. 
+ver esto como un nÃºmero. 
 
 0:07:39.999,0:07:43.529
-Y la última es la repetición así que toma 
+Y la Ãºltima es la repeticiÃ³n asÃ­ que toma 
 el lado izquierdo 
 
 0:07:43.529,0:07:45.359
@@ -565,20 +565,20 @@ veces que tengas en el
 lado derecho. 
 
 0:07:53.400,0:07:56.189
-Así que porque en el lado izquierdo 
+AsÃ­ que porque en el lado izquierdo 
 tienes la cadena de caracteres "3"
 
 0:07:56.189,0:08:00.349
-y en el lado derecho tienes el número 4
+y en el lado derecho tienes el nÃºmero 4
 
 0:08:00.349,0:08:03.210
-tendrá 4 veces el 
+tendrÃ¡ 4 veces el 
 
 0:08:03.210,0:08:05.499
-carácter "3"
+carÃ¡cter "3"
 
 0:08:05.499,0:08:06.870
-Así como puedes ver
+AsÃ­ como puedes ver
 
 0:08:06.870,0:08:08.159
 el operador
@@ -587,78 +587,78 @@ el operador
 es el que le dice 
 
 0:08:09.789,0:08:12.800
-a los operandos cómo comportarse ya sea como números
+a los operandos cÃ³mo comportarse ya sea como nÃºmeros
 
 0:08:12.800,0:08:15.499
 o como cadenas de caracteres
 
 0:08:15.499,0:08:17.069
-Pero qué sucede si
+Pero quÃ© sucede si
 
 0:08:17.069,0:08:18.189
 uno de estos 
 
 0:08:18.189,0:08:19.669
-en realidad no son números 
+en realidad no son nÃºmeros 
 
 0:08:19.669,0:08:22.460
-Qué sucederá si estos son 
+QuÃ© sucederÃ¡ si estos son 
 
 0:08:22.460,0:08:24.649
 dos cadenas de caracteres
 
 0:08:24.649,0:08:26.509
-Si ejecuto el código ahora 
+Si ejecuto el cÃ³digo ahora 
 
 0:08:26.509,0:08:28.729
 veremos que el resultado es el mismo
 
 0:08:28.729,0:08:30.740
-porque Perl automáticamente convierte
+porque Perl automÃ¡ticamente convierte
 
 0:08:30.740,0:08:32.590
-números a cadenas de caracteres
+nÃºmeros a cadenas de caracteres
 
 0:08:32.590,0:08:35.310
-y cadenas de caracteres a números cuando sea necesario
+y cadenas de caracteres a nÃºmeros cuando sea necesario
 
 0:08:35.310,0:08:38.260
 cuando el operador lo requiere. 
 
 0:08:38.260,0:08:41.480
-Eso está bien. Y qué pasa si sólo uno  
+Eso estÃ¡ bien. Y quÃ© pasa si sÃ³lo uno  
 
 0:08:41.480,0:08:42.850
 de ellos es una cadena de caracteres
 
 0:08:42.850,0:08:46.860
-y el otro es un número? 
+y el otro es un nÃºmero? 
 Hay que ver esto. Que pasa en
 
 0:08:46.860,0:08:48.370
 este caso?
 
 0:08:48.370,0:08:50.790
-Si ejecuto el código, y lo mismo!
+Si ejecuto el cÃ³digo, y lo mismo!
 
 0:08:50.790,0:08:52.820
-Así que a Perl no le importa, si puedes...
+AsÃ­ que a Perl no le importa, si puedes...
 
 0:08:52.820,0:08:54.590
-Lo convierte automáticamente 
+Lo convierte automÃ¡ticamente 
 
 0:08:54.590,0:08:56.930
 o no, si tu prefieres 
 
 0:08:56.930,0:09:01.060
-números a cadenas de caracteres y las cadenas de caracteres
-a números cada vez que 
+nÃºmeros a cadenas de caracteres y las cadenas de caracteres
+a nÃºmeros cada vez que 
 
 0:09:01.060,0:09:03.750
 es necesario 
 
 0:09:03.750,0:09:04.789
-Eso está bien 
+Eso estÃ¡ bien 
 
 0:09:04.789,0:09:06.300
 en el caso general.
@@ -670,13 +670,13 @@ Pero hay otros casos
 cuando...
 
 0:09:09.270,0:09:11.220
-Esta conversión no puede ser 
+Esta conversiÃ³n no puede ser 
 
 0:09:11.220,0:09:13.600
 cien por ciento 
 
 0:09:13.600,0:09:16.960
-Qué sucede si el valor es por ejemplo
+QuÃ© sucede si el valor es por ejemplo
 
 0:09:16.960,0:09:20.890
 "3.14 is pi"
@@ -685,55 +685,55 @@ Qué sucede si el valor es por ejemplo
 En primer lugar, por cierto
 
 0:09:22.540,0:09:27.090
-en esta conversión, la idea se llama
+en esta conversiÃ³n, la idea se llama
 contexto
 
 0:09:27.090,0:09:29.550
-La razón que 
+La razÃ³n que 
 
 0:09:29.550,0:09:31.910
 Perl esta convertiendo los numeros es porque 
 
 0:09:31.910,0:09:35.140
-Perl tiene contexto así que tenemos contexto numérico 
+Perl tiene contexto asÃ­ que tenemos contexto numÃ©rico 
 
 0:09:35.140,0:09:37.290
 y contexto de cadena de caracteres.
 
 0:09:37.290,0:09:41.610
-Contexto numérico y contexto de cadena de caracteres.
+Contexto numÃ©rico y contexto de cadena de caracteres.
 
 0:09:41.610,0:09:44.470
-Lo escribiré aqui
+Lo escribirÃ© aqui
 
 0:09:44.470,0:09:46.250
 Para que no te tengas que preocupar de mi 
 
 0:09:46.250,0:09:48.260
-pronunciación 
+pronunciaciÃ³n 
 
 0:09:48.260,0:09:52.160
 De cualquier manera lo que pasa en este caso es que 
-Ahora tienes un número - 3
+Ahora tienes un nÃºmero - 3
 
 0:09:52.160,0:09:54.040
 y la cadena de caracteres que 
 
 0:09:54.040,0:09:56.209
-en realidad no es convertible a un número 
+en realidad no es convertible a un nÃºmero 
 
 0:09:56.209,0:09:57.100
 directamente.
 
 0:09:57.100,0:10:01.390
-Que pasa ahora, si ejecuto este código 
+Que pasa ahora, si ejecuto este cÃ³digo 
 
 0:10:01.390,0:10:03.140
 Vamos a ver.
 
 0:10:03.140,0:10:06.870
 Lo primero es 3, el numero 3 que 
-fue imprimido. Eso está bien. 
+fue imprimido. Eso estÃ¡ bien. 
 
 0:10:06.870,0:10:10.670
 Luego tomo "3.14 is pi"
@@ -756,57 +756,57 @@ tratando de usar
 esta cadena de caracteres
 
 0:10:26.520,0:10:28.120
-en un contexto numérico 
+en un contexto numÃ©rico 
 
 0:10:28.120,0:10:30.780
-en adición en la linea...
+en adiciÃ³n en la linea...
 
 0:10:30.780,0:10:33.250
-Pues dice doce. Sí, en esta línea 
+Pues dice doce. SÃ­, en esta lÃ­nea 
 
 0:10:33.250,0:10:36.960
-Así que esta es la línea. Ahora lo podemos ver. 
+AsÃ­ que esta es la lÃ­nea. Ahora lo podemos ver. 
 
 0:10:36.960,0:10:42.210
-Perdón.
+PerdÃ³n.
 
 0:10:42.210,0:10:43.890
-Sí! En esta ventana.
+SÃ­! En esta ventana.
 
 0:10:43.890,0:10:49.740
-Así que puedes ver esto aquí.
+AsÃ­ que puedes ver esto aquÃ­.
 
 0:10:49.740,0:10:51.520
 Esto es la cadena de caracteres. Esto es lo que
 
 0:10:51.520,0:10:53.820
-se convirtió en un número. 
+se convirtiÃ³ en un nÃºmero. 
 
 0:10:53.820,0:10:56.990
-Así que obtenemos una advertencia. Ahora esta advertencia la obtenemos 
+AsÃ­ que obtenemos una advertencia. Ahora esta advertencia la obtenemos 
 solamente porque  
 
 0:10:56.990,0:10:59.500
-tú pediste por una advertencia.
+tÃº pediste por una advertencia.
 
 0:10:59.500,0:11:03.260
-Así que es importante usar estas advertencias.
-De lo contrario haría algo  
+AsÃ­ que es importante usar estas advertencias.
+De lo contrario harÃ­a algo  
 
 0:11:03.260,0:11:05.440
-en silencio, en lo cual podría ser lo que quieres 
+en silencio, en lo cual podrÃ­a ser lo que quieres 
 
 0:11:05.440,0:11:08.750
-pero eso podría indicar algún tipo de problema. 
+pero eso podrÃ­a indicar algÃºn tipo de problema. 
 
 0:11:08.750,0:11:10.529
-Así que ahora es
+AsÃ­ que ahora es
 
 0:11:10.529,0:11:12.860
 "3.14 is pi"
 
 0:11:12.860,0:11:17.030
-Pero en la adición se utiliza realmente 
+Pero en la adiciÃ³n se utiliza realmente 
 solamente "3.14"
 
 0:11:17.030,0:11:19.160
@@ -822,22 +822,22 @@ y
 mira
 
 0:11:24.060,0:11:27.829
-lo mira y trata de usarlo como un número.
+lo mira y trata de usarlo como un nÃºmero.
 
 0:11:27.829,0:11:32.160
-Y hay un punto. Hay un espacio aquí. 
+Y hay un punto. Hay un espacio aquÃ­. 
 Pero
 
 0:11:32.160,0:11:35.249
 se detiene. No lo puede 
-convertir a un número 
+convertir a un nÃºmero 
 
 0:11:35.249,0:11:38.750
-Entonces desde ese momento se ignorará el 
+Entonces desde ese momento se ignorarÃ¡ el 
 valor.
 
 0:11:38.750,0:11:40.430
-Así que por esa razón
+AsÃ­ que por esa razÃ³n
 
 0:11:40.430,0:11:41.940
 Perl
@@ -861,19 +861,19 @@ tal vez piensas es que le paso a "$y".
 Fue convertido? 
 
 0:11:54.000,0:11:55.579
-O sólo para el uso 
+O sÃ³lo para el uso 
 
 0:11:55.579,0:11:56.930
 de esta suma?
 
 0:11:56.930,0:11:57.990
-Así que puedes ver 
+AsÃ­ que puedes ver 
 
 0:11:57.990,0:11:59.300
-en esta concatenación.
+en esta concatenaciÃ³n.
 
 0:11:59.300,0:12:00.110
-Que aquí 
+Que aquÃ­ 
 
 0:12:00.110,0:12:03.519
 obtenemos en realidad el "3"
@@ -883,7 +883,7 @@ del "$z".
 Y el "3.14 is pi"
 
 0:12:06.530,0:12:10.330
-viniendo de "$y". Así que puedes ver
+viniendo de "$y". AsÃ­ que puedes ver
 que "$y" no cambio.
 
 0:12:10.330,0:12:12.070
@@ -912,48 +912,48 @@ veras
 Perl no lo puede imprimir...
 
 0:12:31.080,0:12:32.870
-Sólo puede imprimir 
+SÃ³lo puede imprimir 
 
 0:12:32.870,0:12:34.960
-los números completos así que en este caso...
+los nÃºmeros completos asÃ­ que en este caso...
 
 0:12:34.960,0:12:36.200
-Así que
+AsÃ­ que
 
 0:12:36.200,0:12:39.670
-convertirá el "3.14"
+convertirÃ¡ el "3.14"
 a "3" y luego va usarlo 
 
 0:12:39.670,0:12:41.590
-para la multiplicación
+para la multiplicaciÃ³n
 
 0:12:41.590,0:12:42.880
-para la repetición 
+para la repeticiÃ³n 
 
 0:12:42.880,0:12:44.920
 Pero no ves la advertencia otra vez
 
 0:12:44.920,0:12:47.360
-como normalmente esperarías
+como normalmente esperarÃ­as
 
 0:12:47.360,0:12:49.040
-Entonces qué?
+Entonces quÃ©?
 
 0:12:49.040,0:12:50.190
-Será porque... 
+SerÃ¡ porque... 
 
 0:12:50.190,0:12:53.190
-debido a que esta operación no 
+debido a que esta operaciÃ³n no 
 genera la advertencia? 
 
 0:12:53.190,0:12:56.240
-Así que haremos clic aquí y luego
+AsÃ­ que haremos clic aquÃ­ y luego
 
 0:12:56.240,0:12:58.100
 comentar...
 
 0:12:58.100,0:12:59.990
-comentar el código aquí. 
+comentar el cÃ³digo aquÃ­. 
 
 0:12:59.990,0:13:01.370
 Y ejecutarlo de nuevo. 
@@ -962,23 +962,23 @@ Y ejecutarlo de nuevo.
 Y ahora podras
 
 0:13:02.870,0:13:05.080
-ver que la advertencia está en la
+ver que la advertencia estÃ¡ en la
 
 0:13:05.080,0:13:06.560
-repetición. 
+repeticiÃ³n. 
 
 0:13:06.560,0:13:09.010
-Así que antes no miramos
+AsÃ­ que antes no miramos
 
 0:13:09.010,0:13:11.220
 esa advertencia. 
 
 0:13:11.220,0:13:15.350
-Y por qué no la miramos? Porque no había 
-advertencia. Y la razón es que 
+Y por quÃ© no la miramos? Porque no habÃ­a 
+advertencia. Y la razÃ³n es que 
 
 0:13:15.350,0:13:17.120
-en el momento, aquí
+en el momento, aquÃ­
 
 0:13:17.120,0:13:19.530
 Cuando la suma
@@ -987,82 +987,82 @@ Cuando la suma
 causo que Perl convertiera
 
 0:13:21.940,0:13:26.399
-la cadena de caracteres a el número luego
-realmente reservo ese número nuevo  
+la cadena de caracteres a el nÃºmero luego
+realmente reservo ese nÃºmero nuevo  
 
 0:13:26.399,0:13:27.920
-en un lugar mágico 
+en un lugar mÃ¡gico 
 
 0:13:27.920,0:13:30.050
 en "$y"
 
 0:13:30.050,0:13:34.010
-Así que desde ese momento "$y" en realidad
+AsÃ­ que desde ese momento "$y" en realidad
 tenia dos valores: el valor de la cadena de caracteres y
 
 0:13:34.010,0:13:35.310
-el valor del número 
+el valor del nÃºmero 
 
 0:13:35.310,0:13:36.930
 Y eso es para 
 
 0:13:36.930,0:13:39.010
-evitar la conversión más adelante
+evitar la conversiÃ³n mÃ¡s adelante
 
 0:13:39.010,0:13:44.620
-Así que cuando llegó a este punto, para
-usar el operador de repetición, Perl no
+AsÃ­ que cuando llegÃ³ a este punto, para
+usar el operador de repeticiÃ³n, Perl no
 
 0:13:44.620,0:13:46.209
 tenia que convertir mas. 
 
 0:13:46.209,0:13:50.140
-Así que no había ninguna razón para dar la advertencia
+AsÃ­ que no habÃ­a ninguna razÃ³n para dar la advertencia
 tampoco.
 
 0:13:50.140,0:13:52.870
-Así es como funciona conversiones. 
+AsÃ­ es como funciona conversiones. 
 
 0:13:52.870,0:13:54.840
 Ahora ya sabes 
 
 0:13:54.840,0:13:58.950
-como la conversión trabaja de números a cadenas de caracteres
-Así que de número a una cadena de caracteres
+como la conversiÃ³n trabaja de nÃºmeros a cadenas de caracteres
+AsÃ­ que de nÃºmero a una cadena de caracteres
 
 0:13:58.950,0:14:01.790
-es bastante fácil. Es el mismo
+es bastante fÃ¡cil. Es el mismo
 
 0:14:01.790,0:14:04.359
-valor. Entonces si tienes un número como tres.
+valor. Entonces si tienes un nÃºmero como tres.
 
 0:14:04.359,0:14:08.060
 Y si lo miras como una cadena de caracteres
 solo es una cadena de caracteres, la letra 3,
 
 0:14:08.060,0:14:11.329
-el dígito 3. Y si tienes un
-número 
+el dÃ­gito 3. Y si tienes un
+nÃºmero 
 
 0:14:11.329,0:14:15.369
-Una cadena de caracteres que es un número como "3.14".
+Una cadena de caracteres que es un nÃºmero como "3.14".
 
 0:14:15.369,0:14:19.150
-Si sólo tienes esta 
+Si sÃ³lo tienes esta 
 
 0:14:19.150,0:14:24.310
 Y si ejecutas esto, entonces no tendrias una
-advertencia, porque eso es sólo un número. 
+advertencia, porque eso es sÃ³lo un nÃºmero. 
 
 0:14:24.310,0:14:29.140
 Pero porque tenemos algo 
-que no es realmente un número. 
+que no es realmente un nÃºmero. 
 
 0:14:29.140,0:14:30.670
 Entonces si obtenemos una advertencia.
 
 0:14:30.670,0:14:34.070
-Así que hay un par de problemas, que nos gustaría 
+AsÃ­ que hay un par de problemas, que nos gustarÃ­a 
 hablar mas.
 
 0:14:34.070,0:14:36.680
@@ -1075,7 +1075,7 @@ Entonces que pasa con "undef" en el mismo contexto
 Vamos a ver...
 
 0:14:40.710,0:14:43.730
-Digamos que en este caso aquí 
+Digamos que en este caso aquÃ­ 
 
 0:14:43.730,0:14:46.830
 uh...
@@ -1090,7 +1090,7 @@ Y porque sabes que es "undef"
 No lo voy a imprimir.
 
 0:14:53.150,0:14:57.020
-Así que ahora tenemos una variable declarada. 
+AsÃ­ que ahora tenemos una variable declarada. 
 
 0:14:57.020,0:14:58.210
 Llamada "$z".
@@ -1108,21 +1108,21 @@ Ahora si ejecuto esto
 Y hay que comentar esto, no lo necesitamos.
 
 0:15:07.320,0:15:10.820
-Ahora, si ejecuto este código, obtengo 2 avisos.
+Ahora, si ejecuto este cÃ³digo, obtengo 2 avisos.
 
 0:15:10.820,0:15:13.060
 Using of uninitialized...
 
 0:15:13.060,0:15:16.290
-Diciéndome que estoy tratando de usar 
+DiciÃ©ndome que estoy tratando de usar 
 los valores sin inicializar. Esto significa, que "$y"
 
 0:15:16.290,0:15:21.800
-fue "undef". Tanto en la adición 
-y la concatenación. 
+fue "undef". Tanto en la adiciÃ³n 
+y la concatenaciÃ³n. 
 
 0:15:21.800,0:15:26.490
-Así que puedes ver que 
+AsÃ­ que puedes ver que 
 
 0:15:26.490,0:15:29.810
 Perl me da avisos, cuando estoy tratando de usar
@@ -1134,13 +1134,13 @@ una variable que es "undef".
 En un contexto 
 
 0:15:34.020,0:15:37.640
-numérico o en contexto de cadena de caracteres. 
+numÃ©rico o en contexto de cadena de caracteres. 
 
 0:15:37.640,0:15:39.740
 Pero como puedes ver,
 
 0:15:39.740,0:15:42.470
-aunque es un poco difícil de ver, 
+aunque es un poco difÃ­cil de ver, 
 
 0:15:42.470,0:15:44.850
 El primer "say" esta imprimiendo "3" aqui.
@@ -1155,20 +1155,20 @@ Y entonces este
 porque "$y", aunque es "undef",
 
 0:15:50.420,0:15:52.390
-en un contexto numérico
+en un contexto numÃ©rico
 
 0:15:52.390,0:15:54.270
 se comporta como 0.
 
 0:15:54.270,0:15:57.910
-Y en esta concatenación obtengo "3" otra vez
+Y en esta concatenaciÃ³n obtengo "3" otra vez
 
 0:15:57.910,0:16:00.540
 a pesar de que "$y" es "undef".
 
 0:16:00.540,0:16:05.670
 pero en contexto de cadena de caracteres se comporta como 
-una cadena de caracteres vacía
+una cadena de caracteres vacÃ­a
 
 0:16:05.670,0:16:09.520
 Si te quieres asegurar, que todavia 
@@ -1183,37 +1183,37 @@ esta "undef". Entonces
 y "else"
 
 0:16:20.760,0:16:22.870
-Perdón deberia ser "say"
+PerdÃ³n deberia ser "say"
 
 0:16:22.870,0:16:25.810
 'no'
 
 0:16:25.810,0:16:28.940
-Sí, eso muestra que soy un viejo aqui.  
+SÃ­, eso muestra que soy un viejo aqui.  
 
 0:16:28.940,0:16:31.330
-Así que
+AsÃ­ que
 
 0:16:31.330,0:16:32.579
-Estoy ejecutando este código. 
+Estoy ejecutando este cÃ³digo. 
 
 0:16:32.579,0:16:36.260
 Luego ves que es 'no'. No esta
-definido. Así que, aunque 
+definido. AsÃ­ que, aunque 
 
 0:16:36.260,0:16:40.730
 Perl estaba usando esta 
 en ambos
 
 0:16:40.730,0:16:42.459
-contexto numérico y contexto de cadena de caracteres
+contexto numÃ©rico y contexto de cadena de caracteres
 
 0:16:42.459,0:16:45.420
 no cambio la variable.
 Sigue siendo indefinida.
 
 0:16:45.420,0:16:47.749
-Así que eso es lo que quería mostrar. 
+AsÃ­ que eso es lo que querÃ­a mostrar. 
 
 0:16:47.749,0:16:49.520
 La otra cosa
@@ -1236,7 +1236,7 @@ Entonces lo que pueden hacer ellos
 
 0:17:02.459,0:17:08.990
 es cambiar las advertencias a excepciones.
-Pueden escribir aquí "FATAL".
+Pueden escribir aquÃ­ "FATAL".
 
 0:17:08.990,0:17:13.189
 Y luego, digamos, "=> all".
@@ -1246,7 +1246,7 @@ Esto cambiara todas las advertencias
 a excepciones fatales.
 
 0:17:15.680,0:17:17.920
-Así que si voy aquí y 
+AsÃ­ que si voy aquÃ­ y 
 
 0:17:17.920,0:17:19.790
 digamos, vamos a ponerlo de regreso
@@ -1255,7 +1255,7 @@ digamos, vamos a ponerlo de regreso
 a esta manera. 
 
 0:17:20.850,0:17:22.640
-Y si ejecuto el código..
+Y si ejecuto el cÃ³digo..
 
 0:17:22.640,0:17:24.429
 Y obtengo
@@ -1264,7 +1264,7 @@ Y obtengo
 "3"
 
 0:17:25.189,0:17:26.890
-la primera impresión
+la primera impresiÃ³n
 
 0:17:26.890,0:17:28.419
 el primer "say" aqui
@@ -1273,25 +1273,25 @@ el primer "say" aqui
 Y luego cuando estoy tratando de sumar los valores.  
 
 0:17:31.759,0:17:35.649
-Sería una advertencia de imprimir.
-Pero esa advertencia es ahora una excepción fatal
+SerÃ­a una advertencia de imprimir.
+Pero esa advertencia es ahora una excepciÃ³n fatal
 
 0:17:35.649,0:17:37.840
 Para que el script no 
 
 0:17:37.840,0:17:40.380
-vaya por más tiempo. 
+vaya por mÃ¡s tiempo. 
 
 0:17:40.380,0:17:43.930
-Así que eso es la manera correcta si 
+AsÃ­ que eso es la manera correcta si 
 quieres ser realmente extremista
 
 0:17:43.930,0:17:46.020
 obteniendo excepciones en este caso.
 
 0:17:46.020,0:17:49.059
-Pero qué pasa si quieres evitar 
-todo por completo? Así que si 
+Pero quÃ© pasa si quieres evitar 
+todo por completo? AsÃ­ que si 
 
 0:17:49.059,0:17:51.720
 quieres asegurarte de que el valor que obtuviste, 
@@ -1303,35 +1303,35 @@ probablemente de el usuario o del mundo exterior,
 que es, en realidad, que
 
 0:17:57.010,0:17:59.910
-se parece a un número, antes de que puedas
+se parece a un nÃºmero, antes de que puedas
 
 0:17:59.910,0:18:00.950
 convertirlo
 
 0:18:00.950,0:18:04.610
-Así que, para eso necesitas usar un módulo:
+AsÃ­ que, para eso necesitas usar un mÃ³dulo:
 
 0:18:04.610,0:18:07.510
 "use Scalar::Util"
 
 0:18:07.510,0:18:09.230
-Y ese módulo
+Y ese mÃ³dulo
 
 0:18:09.230,0:18:12.669
-tiene una función llamada 
+tiene una funciÃ³n llamada 
 
 0:18:12.669,0:18:15.650
 "looks_like_number"
 
 0:18:15.650,0:18:20.400
-Y entonces puedes usar esa función.
+Y entonces puedes usar esa funciÃ³n.
 Antes de que llames esta 
 
 0:18:20.400,0:18:23.419
-parte, que necesita un número 
+parte, que necesita un nÃºmero 
 
 0:18:23.419,0:18:26.620
-Así que dirías 
+AsÃ­ que dirÃ­as 
 
 0:18:26.620,0:18:31.380
 "looks_like_number($z)"
@@ -1343,76 +1343,76 @@ y
 "looks_like_number($y)"
 
 0:18:37.900,0:18:44.770
-Y sólo entonces haría esta parte. 
+Y sÃ³lo entonces harÃ­a esta parte. 
 
 0:18:44.770,0:18:49.400
-Así que se haría la suma si 
-los dos son números.
+AsÃ­ que se harÃ­a la suma si 
+los dos son nÃºmeros.
 
 0:18:49.400,0:18:51.390
-Y luego puedo ejecutar este código. 
+Y luego puedo ejecutar este cÃ³digo. 
 
 0:18:51.390,0:18:53.900
 Y siempre hay un error de sintaxis aqui. 
 
 0:18:53.900,0:18:55.050
-Así que vamos a ver dónde.
+AsÃ­ que vamos a ver dÃ³nde.
 
 0:18:55.050,0:18:56.650
-Es la línea 15. 
+Es la lÃ­nea 15. 
 
 0:18:56.650,0:18:58.930
-Me dice que olvidé 
+Me dice que olvidÃ© 
 
 0:18:58.930,0:19:01.120
-cerrar el paréntesis. 
+cerrar el parÃ©ntesis. 
 
 0:19:01.120,0:19:02.450
-Así que vamos a ejecutar de nuevo 
+AsÃ­ que vamos a ejecutar de nuevo 
 
 0:19:02.450,0:19:06.120
-Así que ahora puedes ver que tengo el  
-número "3" y que tengo el resultado
+AsÃ­ que ahora puedes ver que tengo el  
+nÃºmero "3" y que tengo el resultado
 
 0:19:06.120,0:19:10.390
-de la concatenación, y el "defined"
+de la concatenaciÃ³n, y el "defined"
 aqui.
 
 0:19:10.390,0:19:12.420
-Pero no tengo una excepción. 
+Pero no tengo una excepciÃ³n. 
 
 0:19:12.420,0:19:14.320
 Y si tengo 
 
 0:19:14.320,0:19:16.710
-un valor como esto aquí. 
+un valor como esto aquÃ­. 
 
 0:19:16.710,0:19:18.170
 Un valor que realmente 
 
 0:19:18.170,0:19:20.000
-se parece a un número 
+se parece a un nÃºmero 
 Y lo ejecuto. 
 
 0:19:20.000,0:19:27.000
-Entonces, en adición a la concatenación
-También tengo la suma. 
+Entonces, en adiciÃ³n a la concatenaciÃ³n
+TambiÃ©n tengo la suma. 
 
-0:19:27.200,0:19:28.129
-Así que eso es todo. 
+0:19:27.000,0:19:28.129
+AsÃ­ que eso es todo. 
 
 0:19:28.129,0:19:31.799
 sobre escalares.
-Y si en realidad te estás preguntando si hay 
+Y si en realidad te estÃ¡s preguntando si hay 
 
 0:19:31.799,0:19:34.480
 sobrecarga de operadores en Perl. 
-Sí hay. 
+SÃ­ hay. 
 
 0:19:34.480,0:19:38.080
-Pero es un tema avanzado, así que
+Pero es un tema avanzado, asÃ­ que
 no lo voy a discutir ahora.
 
 0:19:38.080,0:19:41.240
-Y creo que eso es todo, así que
-Hasta la próxima! 
+Y creo que eso es todo, asÃ­ que
+Hasta la prÃ³xima! 
