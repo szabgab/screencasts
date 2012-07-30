@@ -1,0 +1,288 @@
+0:00:01.709,0:00:06.160
+Hei, dette er Gabor Szabo igjen. Jeg håper at
+dette blir en kort video
+
+0:00:06.160,0:00:07.100
+jeg planla det.
+
+0:00:07.100,0:00:11.369
+Dette er bare for å vise hvordan MetaCPAN
+fungere. For i dag.
+
+0:00:11.369,0:00:13.359
+Som ble
+
+0:00:13.359,0:00:16.720
+ganske fantastisk. Dette er URL-en
+hvor du kan besøke den
+
+0:00:16.720,0:00:19.169
+eller jeg går til den fanen
+og du kan se at
+
+0:00:19.169,0:00:22.470
+med en gang jeg besøkte den hoppet
+den automatisk til HTTPS.
+
+0:00:22.470,0:00:25.819
+Dette er bare en søkemotor for
+den fantastiske CPAN
+
+0:00:25.819,0:00:26.529
+hvor alle Perl-sakene
+
+0:00:26.529,0:00:28.730
+kan bli funnet som er interessante.
+
+0:00:28.730,0:00:32.330
+Så for eksempel hvis jeg vil søke
+etter noe.
+
+0:00:32.330,0:00:34.610
+For eksempel etter maler
+
+0:00:34.610,0:00:35.949
+den allerede gir meg
+
+0:00:35.949,0:00:39.380
+noen forslag her og jeg kan
+velge en av dem
+
+0:00:39.380,0:00:43.149
+og den hopper med en gang til en
+av løsningene
+
+0:00:43.149,0:00:44.440
+en av de anbefalte
+
+0:00:44.440,0:00:47.940
+modulene og hva du kan se her er
+dokumentasjon til modulen men
+
+0:00:47.940,0:00:51.080
+det som er mer interessant er dette ikonet.
+
+0:00:51.080,0:00:55.720
+Dette ikonet sier at du faktisk
+kan +1 hver modul for seg
+
+0:00:55.720,0:01:01.570
+og dette spesifikke ikonet sier
+at to personer har allerede plusset det
+
+0:01:01.570,0:01:02.860
+så
+
+0:01:02.860,0:01:05.059
+godkjent det eller hva nå det betyr.
+
+0:01:05.059,0:01:09.200
+og det er bra fordi den bare startet
+for noen dager siden og
+
+0:01:09.200,0:01:10.070
+allerede to personer her.
+
+0:01:10.070,0:01:14.670
+Så hvordan kan jeg klikke på denne?
+Hvis jeg klikke på den, sier den at jeg
+
+0:01:14.670,0:01:17.080
+må registrere meg. Så hvordan gjør jeg det?
+
+0:01:17.080,0:01:18.490
+Her kan jeg se
+
+0:01:18.490,0:01:23.230
+at jeg kan registrere meg med en av disse kontoene.
+Så personer som
+
+0:01:23.230,0:01:24.790
+ikke har en PAUSE-konto
+
+0:01:24.790,0:01:25.719
+kan registrere seg med
+
+0:01:25.719,0:01:30.109
+Facebook eller github eller Twitter og når
+du ser denne videoen
+
+0:01:30.109,0:01:35.929
+vil du sannsynligvis se andre nettverk der.
+Så la oss prøve med PAUSE
+
+0:01:35.929,0:01:37.650
+fordi jeg er en forfatter der
+
+0:01:37.650,0:01:40.660
+og jeg skriver her
+
+0:01:40.660,0:01:43.409
+mitt brukernavn hos PAUSE
+
+0:01:43.409,0:01:48.060
+og når jeg gjorde dette, forteller den meg at
+den sendte meg en e-post til min PAUSE-konto
+
+0:01:48.060,0:01:50.940
+for å bekrefte at det faktisk er meg.
+
+0:01:50.940,0:01:55.219
+Så jeg går til denne kontoen og
+
+0:01:55.219,0:01:59.950
+her er min e-postkonto og her
+ser jeg at det er en link inni
+
+0:01:59.950,0:02:06.570
+så jeg klipper og limer denne
+bare for å være innenfor
+
+0:02:06.570,0:02:07.850
+fanene
+
+0:02:07.850,0:02:09.679
+og når jeg gjorde dette
+
+0:02:09.679,0:02:11.669
+har den allerede hentet
+
+0:02:11.669,0:02:13.749
+all dataen fra
+
+0:02:13.749,0:02:17.849
+min author.json fil.
+Hvis du ikke har en author.json fil vil
+
+0:02:17.849,0:02:22.069
+alle disse feltene være tomme og så
+kan du fylle ut alle detaljene som
+
+0:02:22.069,0:02:27.829
+ditt navn og ASCII-navnet og hva
+du vil vise fram og så din e-post og
+
+0:02:27.829,0:02:28.679
+alle disse detaljene
+
+0:02:28.679,0:02:33.889
+den hentet allerede mitt
+bilde, min avatar
+
+0:02:33.889,0:02:34.479
+uh...
+
+0:02:34.479,0:02:36.789
+fra gravatar-nettsiden
+
+0:02:36.789,0:02:40.579
+og ... så kan du legge til ulike
+kontoer her
+
+0:02:40.579,0:02:43.340
+så du kan koble den til dine kontoer
+
+0:02:43.340,0:02:48.520
+du kan faktisk sjekke om det du
+skrev inn ... faktisk går til
+
+0:02:48.520,0:02:50.909
+den riktige plassen så
+
+0:02:50.909,0:02:52.900
+når jeg konfigurerte dette
+
+0:02:52.900,0:02:57.449
+kan jeg komme her og også koble til
+ulike
+
+0:02:57.449,0:03:00.509
+identiteter. Jeg har allerede
+
+0:03:00.509,0:03:05.189
+logget inn og er allerede koblet til hver
+av disse kontoene. Selvsagt PAUSE
+
+0:03:05.189,0:03:07.330
+ble koblet til under registreringen
+
+0:03:07.330,0:03:09.149
+men jeg gikk der
+
+0:03:09.149,0:03:11.049
+og la til disse kontoene.
+
+0:03:11.049,0:03:13.100
+Så nå hvis jeg kommer tilbake her
+
+0:03:13.100,0:03:17.079
+til malen og laster inn denne siden på nytt
+
+0:03:17.079,0:03:19.199
+forteller den meg at jeg
+
+0:03:19.199,0:03:21.650
+faktisk kunne pluss 1 denne nå.
+
+0:03:21.650,0:03:25.420
+Jeg kan ikke noe mer fordi jeg allerede har gjor det
+tidligere så hvis jeg klikker her
+
+0:03:25.420,0:03:29.039
+vil den fjerne den pluss 1 men jeg liker
+Template:Toolkit
+
+0:03:29.039,0:03:32.849
+så jeg legger til den. Og da
+kan jeg søke etter noe annet
+
+0:03:32.849,0:03:35.229
+og
+
+0:03:35.229,0:03:37.089
+la oss si
+
+0:03:37.089,0:03:38.379
+Mechanize
+
+0:03:38.379,0:03:42.759
+og så kan jeg finne her alle disse modulene og for eksempel er det
+
+0:03:42.759,0:03:47.439
+WWW::Mechanize som jeg liker og bruker
+ganske mye. Så jeg vil legge til pluss en der
+
+0:03:47.439,0:03:48.449
+også.
+
+0:03:48.449,0:03:50.239
+og så tidligere
+
+0:03:50.239,0:03:52.979
+hadde den ikke et pluss og nå har den
+en!
+
+0:03:52.979,0:03:55.779
+Så jeg håper at du kan komme innom og
+
+0:03:55.779,0:03:59.149
+bli med oss på å fortelle hvilken modul som er bedre
+
+0:03:59.149,0:04:02.479
+hvilken modul som bør brukes og
+
+0:04:02.479,0:04:04.449
+hvilken som bør bli forsømt.
+
+0:04:04.449,0:04:08.139
+Takk for at du så på og
+sannsynligvis er dette fanen hvor du kan se
+
+0:04:08.139,0:04:11.269
+igjen mitt vertsnavn
+
+0:04:11.269,0:04:12.320
+MetaCPAN.org
+
+0:04:12.320,0:04:12.709
+Tusen takk. Ha det bra.
