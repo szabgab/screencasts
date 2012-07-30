@@ -38,49 +38,61 @@ Run:
 
 perl check_timestamp.pl
 
+- = uploaded
++ = shared
 
-GCI participants:
-Please fork this repository, push your updates and send pull requests.
-This will make it easier to review your work.
-Please also click on the 'Review needed' button on Melange so they will
-have the proper accounting trail. (No need to upload the file there
-too)
-
-
-What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
-English: done                   (szabgab - Gabor Szabo)
-Russian: done                   (ash     - Andrew Shitov http://andy.sh/    )
-Korean:  done                   (keedi   - Keedi Kim     http://keedi.pe.kr )
-Hebrew:  done                   (Yuval Yogev)
-
-Modern Perl Tutorial part 04      http://www.youtube.com/watch?v=U2B5ZD59L7g   2011.07.20_modern_perl_tutorial_04/
-English: done                     (hator - Jan Michalski)
-Polish: done                      (schmiela - Stanisław Chmiela)
-Spanish: done			  (betoesquivel - José Alberto Esquivel)
-
-Modern Perl Tutorial part 03      http://www.youtube.com/watch?v=KXFn0rnBPrc   2011.07.19_modern_perl_tutorial_03/
-English: in progress             (wetpat )
++ What is MetaCPAN?               http://www.youtube.com/watch?v=7N1lZY5E5gg   2011.07.25_what_is_metacpan/
+English:   done                 (Gabor Szabo - szabgab)
+German:    done                 (Daniel Klischies - Nostraa)
+Hebrew:    done                 (Yuval Yogev      - yogiyogi)
+Korean:    done                 (Keedi Kim        - keedi - http://keedi.pe.kr/ )
+Norwegian: done                 (Arne Tobias Malkenes Ødegaard - arnet95 )
+Russian:   done                 (Andrew Shitov    - ash   - http://andy.sh/ )
+Spanish:   done                 (Freddy Roman )
 
 
-Modern Perl Tutorial part 02      http://www.youtube.com/watch?v=4jyGQPGXOK0   2011.07.19_modern_perl_tutorial_02/
-English: done                    (Piotr Wasko piiteer )
+- Modern Perl Tutorial part 04    http://www.youtube.com/watch?v=U2B5ZD59L7g   2011.07.20_modern_perl_tutorial_04/
+English: done                   (Jan Michalski - hator)
+Polish:  done                   (Stanisław Chmiela - schmiela)
+Spanish: done			        (José Alberto Esquivel - betoesquivel)
+Russian: done                   (Pavel - fxzuz)
+Czech:   done                   (ondrejhubsch)
+
+- Modern Perl Tutorial part 03      http://www.youtube.com/watch?v=KXFn0rnBPrc   2011.07.19_modern_perl_tutorial_03/
+English: done                   (Jennifer Maldonado - j3nnn1 and JohnnyS96)
+German:  done                   (Collin - toemastah)
+Russian: done                   (Bogdanov Konstantin - thevar1able)
+Spanish: done                   (Freddy Roman)
 
 
-Contributing to a CPAN module     http://www.youtube.com/watch?v=aB90XVLWyYk   2011.07.13_contributing_to_cpan/
-English: done                     (betoesquivel -  José Alberto Esquivel)
-Spanish: done		              (betoesquivel -  José Alberto Esquivel)
-Due to techincal issues at YouTube with this video, the subtitles cannot be uploaded.
-So for now we won't need any more translations.
+- Modern Perl Tutorial part 02      http://www.youtube.com/watch?v=4jyGQPGXOK0   2011.07.19_modern_perl_tutorial_02/
+English: done                    (Piotr Wasko - piiteer)
+German:  done                    (Lorenz Leutgeb - flowlo)
+Polish:  done                    (Piotr Wasko - piiteer)
+Russian: done                    (Pavel - fxzuz)
+Spanish: done                    (Janeth Vargas - vargasja)
+
+- Contributing to a CPAN module     http://www.youtube.com/watch?v=aB90XVLWyYk   2011.07.13_contributing_to_cpan/
+English: done                     (José Alberto Esquivel - betoesquivel)
+Spanish: done		              (José Alberto Esquivel - betoesquivel)
 
 
-The View menu of Padre v0.84      http://www.youtube.com/watch?v=zreiHLeKf6o   2011.11.23_the_view_menu_of_padre_v_084
-English: almost done              (Pawel Zych pzych)
-Hebrew: in progress               (Dvir Oren)
+- The View menu of Padre v0.84      http://www.youtube.com/watch?v=zreiHLeKf6o   2011.11.23_the_view_menu_of_padre_v_084
+English:    done                  (Paweł Zych - pzych)
+Hebrew:     done                  (Dvir Oren - dvir0776 and Yuval Yogev - yogiyogi)
+Polish:     done                  (Bartosz Dz - MatmaRex)
+Portuguese: done                  (Netherblood)
+Spanish:    done                  (Boca13)
 
 
-Autocompletition in Padre, v0.87  http://www.youtube.com/watch?v=ptN63wSVK9w   2011.07.10_autocompletition_in_padre/
-English: done                     (Rafał Stefański - ravst)
-Russian: done                     (Alex Subach)
+- Autocompletition in Padre, v0.87  http://www.youtube.com/watch?v=ptN63wSVK9w   2011.07.10_autocompletition_in_padre/
+English:     done                 (Rafał Stefański - ravst)
+German:      done                 (Daniel Klischies - Nostraa)
+Polish:      done                 (Paweł Zych - pzych)
+Portuguese:  done                 (Janeth Vargas - vargasja)
+Russian:     done                 (Alex Subach - Snipx)
+Spanish:     done                 (Freddy Roman)
+
 
 The File menu of Padre v0.84      http://www.youtube.com/watch?v=eCpxUA1vIuM   2011.07.07_the_file_menu_of_padre/
 English: done                     (MatmaRex - Bartosz Dz )
